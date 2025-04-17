@@ -6773,10 +6773,23 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/getting-started.md",
+      "source_relative_path": "docs/installation-and-setup/setup-an-ide-for-reqnroll.md",
       "output": {
         ".html": {
-          "relative_path": "docs/getting-started.html"
+          "relative_path": "docs/installation-and-setup/setup-an-ide-for-reqnroll.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/installation-and-setup/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/installation-and-setup/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/installation-and-setup/toc.json"
         }
       },
       "version": ""
