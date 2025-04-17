@@ -3,3 +3,5 @@
 items:
   - name: Setup an IDE for Reqnroll
     href: setup-an-ide-for-reqnroll.md
+  - name: Setup Reqnroll Project
+    href: setup-reqnroll-project.md

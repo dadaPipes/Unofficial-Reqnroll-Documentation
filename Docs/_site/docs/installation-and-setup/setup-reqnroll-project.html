@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Setup Reqnroll Project | Unofficial Reqnroll Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Setup Reqnroll Project | Unofficial Reqnroll Documentation ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/dadaPipes/Unofficial-Reqnroll-Documentation/blob/main/Docs/docs/installation-and-setup/setup-reqnroll-project.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/reqnroll-icon.png" alt="Unofficial Reqnroll Documentation">
+            Unofficial Reqnroll Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="setup-reqnroll-project">Setup Reqnroll Project</h1>
+
+<p>We strongly recommend to configure your Integrated Development Environment (IDE) to work conveniently with Reqnroll.</p>
+<h2 id="choose-test-execution-framework">Choose test execution framework</h2>
+<p>Reqnroll relies on a test execution framework to run tests.<br>
+Choose one that aligns with your experience and requirements for the project.</p>
+<ul>
+<li><p><a href="https://nunit.org/">NUnit</a> <strong>Nuget</strong>: <a href="https://www.nuget.org/packages/Reqnroll.NUnit">Reqnroll.NUnit</a></p>
+</li>
+<li><p><a href="https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-csharp-with-mstest">MsTest</a> <strong>Nuget</strong>: <a href="https://www.nuget.org/packages/Reqnroll.MsTest">Reqnroll.MsTest</a></p>
+</li>
+<li><p><a href="https://xunit.net/">xUnit</a> <strong>Nuget</strong>: <a href="https://www.nuget.org/packages/Reqnroll.xUnit">Reqnroll.xUnit</a></p>
+</li>
+</ul>
+<h2 id="setting-up-a-reqnroll-project">Setting up a Reqnroll project</h2>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_vs-2022" role="tab" aria-controls="tabpanel_1_vs-2022" data-tab="vs-2022" tabindex="0" aria-selected="true">Visual Studio 2022</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_vs-code" role="tab" aria-controls="tabpanel_1_vs-code" data-tab="vs-code" tabindex="-1">VS Code 🛠️</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_rider" role="tab" aria-controls="tabpanel_1_rider" data-tab="rider" tabindex="-1">Rider 🛠️</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_dotnet-cli" role="tab" aria-controls="tabpanel_1_dotnet-cli" data-tab="dotnet-cli" tabindex="-1">Dotnet CLI</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_existing-test-project" role="tab" aria-controls="tabpanel_1_existing-test-project" data-tab="existing-test-project" tabindex="-1">Existing test project</a>
+</li>
+</ul>
+<section id="tabpanel_1_vs-2022" role="tabpanel" data-tab="vs-2022">
+
+<p><strong>Prerequisites</strong> Before creating a new Reqnroll project, ensure the following:</p>
+<ul>
+<li><p>Reqnroll Visual Studio integration is installed.</p>
+</li>
+<li><p>Your IDE is configured to support Reqnroll features.</p>
+</li>
+</ul>
+<ol>
+<li><p>From the context menu of your solution in the Solution Explorer window, select <strong>Add / New Project…</strong></p>
+</li>
+<li><p>In the Add a new project dialog, enter <code>Reqnroll</code> into the <strong>Search for templates</strong> text box.</p>
+</li>
+<li><p>Choose <strong>Reqnroll Project</strong> from the list and click <strong>Next</strong>.</p>
+</li>
+<li><p>Follow the wizard to specify the project name, target framework, and test framework.</p>
+</li>
+</ol>
+<p>As a result, a new Reqnroll project will be created with a sample feature file and step definition class.<br>
+Build your project and execute the sample scenarios.
+<strong>TODO</strong>: Show an image or use a codeblock with a filetree. Do not link to <strong>sample feature file and step definition class</strong>
+<strong>WHY</strong>: We don't want to be thrown around in the documentation.</p>
+<p><strong>Optional</strong>: Build your project and execute the sample scenarios.
+<strong>TODO</strong>: show how.</p>
+</section>
+<section id="tabpanel_1_vs-code" role="tabpanel" data-tab="vs-code" aria-hidden="true" hidden="hidden">
+
+<p>Want to contribute ? Click on the <strong>Edit this page</strong> in the bottom of this site</p>
+</section>
+<section id="tabpanel_1_rider" role="tabpanel" data-tab="rider" aria-hidden="true" hidden="hidden">
+
+<p>Want to contribute ? Click on the <strong>Edit this page</strong> in the bottom of this site</p>
+</section>
+<section id="tabpanel_1_dotnet-cli" role="tabpanel" data-tab="dotnet-cli" aria-hidden="true" hidden="hidden">
+
+<ol>
+<li>Install the Reqnroll templates by running:</li>
+</ol>
+<pre><code class="lang-shell">dotnet new install Reqnroll.Templates.DotNet
+</code></pre>
+<ol start="2">
+<li>Once installed, create a project in a new directory:</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>By default, the dotnet new reqnroll-project command creates a Reqnroll project configured with NUnit for the latest .NET framework.<br>
+To customize the test framework or target .NET version, use the -t (test framework) and -f (framework version) options.<br>
+For details about available options, run:<br>
+<code>dotnet new reqnroll-project --help</code></p>
+</div>
+<pre><code class="lang-shell">mkdir MyReqnrollProject  
+cd MyReqnrollProject  
+dotnet new reqnroll-project
+</code></pre>
+<p><strong>Example</strong>:</p>
+<p>The following command creates a Reqnroll project with MsTest using .NET 6.0:</p>
+<pre><code class="lang-shell">dotnet new reqnroll-project -t mstest -f net6.0
+</code></pre>
+<p>As a result, a new Reqnroll project will be created with a sample feature file and step definition class.<br>
+Build your project and execute the sample scenarios.
+<strong>TODO</strong>: Show an image or use a codeblock with a filetree. Do not link to <strong>sample feature file and step definition class</strong>
+<strong>WHY</strong>: We don't want to be thrown around in the documentation.</p>
+<p><strong>Optional</strong>: Build your project and execute the sample scenarios.
+<strong>TODO</strong>: show how.</p>
+<p><strong>Adding a Feature File</strong><br>
+Use the reqnroll-feature template to add a new feature file to your project.<br>
+For example:</p>
+<pre><code class="lang-shell">dotnet new reqnroll-feature -n MyFeature
+</code></pre>
+<p><strong>Adding a Configuration File</strong><br>
+Use the reqnroll-config template to add a new configuration file to your project.<br>
+For example:</p>
+<pre><code class="lang-shell">dotnet new reqnroll-config -n MyConfig
+</code></pre>
+</section>
+<section id="tabpanel_1_existing-test-project" role="tabpanel" data-tab="existing-test-project" aria-hidden="true" hidden="hidden">
+
+<ol>
+<li>Add the NuGet package of your chosen test execution framework to your project.</li>
+</ol>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>The chosen test execution framework has to match the framework used in your existing test project.</p>
+</div>
+<p>The following example adds the Reqnroll NuGet package for an MsTest project:</p>
+<pre><code class="lang-shell">dotnet add package Reqnroll.MsTest
+</code></pre>
+<p>Although the Reqnroll tests can be mixed with normal unit tests in the same .NET project,<br>
+for the sake of clarity it is recommended to create a separate project for your Reqnroll BDD scenarios.</p>
+</section>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/dadaPipes/Unofficial-Reqnroll-Documentation/blob/main/Docs/docs/installation-and-setup/setup-reqnroll-project.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
