@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BoDi.IContainedInstance
+  commentId: T:Reqnroll.BoDi.IContainedInstance
+  id: IContainedInstance
+  parent: Reqnroll.BoDi
+  children:
+  - Reqnroll.BoDi.IContainedInstance.Container
+  langs:
+  - csharp
+  - vb
+  name: IContainedInstance
+  nameWithType: IContainedInstance
+  fullName: Reqnroll.BoDi.IContainedInstance
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/BoDi/IContainedInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IContainedInstance
+    path: ../Reqnroll/Reqnroll/BoDi/IContainedInstance.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  syntax:
+    content: public interface IContainedInstance
+    content.vb: Public Interface IContainedInstance
+- uid: Reqnroll.BoDi.IContainedInstance.Container
+  commentId: P:Reqnroll.BoDi.IContainedInstance.Container
+  id: Container
+  parent: Reqnroll.BoDi.IContainedInstance
+  langs:
+  - csharp
+  - vb
+  name: Container
+  nameWithType: IContainedInstance.Container
+  fullName: Reqnroll.BoDi.IContainedInstance.Container
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/BoDi/IContainedInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Container
+    path: ../Reqnroll/Reqnroll/BoDi/IContainedInstance.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  syntax:
+    content: IObjectContainer Container { get; }
+    parameters: []
+    return:
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: ReadOnly Property Container As IObjectContainer
+  overload: Reqnroll.BoDi.IContainedInstance.Container*
+references:
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.BoDi.IContainedInstance.Container*
+  commentId: Overload:Reqnroll.BoDi.IContainedInstance.Container
+  href: Reqnroll.BoDi.IContainedInstance.html#Reqnroll_BoDi_IContainedInstance_Container
+  name: Container
+  nameWithType: IContainedInstance.Container
+  fullName: Reqnroll.BoDi.IContainedInstance.Container
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer

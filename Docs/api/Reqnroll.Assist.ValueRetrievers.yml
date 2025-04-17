@@ -1,0 +1,268 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist.ValueRetrievers
+  commentId: N:Reqnroll.Assist.ValueRetrievers
+  id: Reqnroll.Assist.ValueRetrievers
+  children:
+  - Reqnroll.Assist.ValueRetrievers.ArrayValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.BoolValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.ByteValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.CharValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.ClassRetriever`1
+  - Reqnroll.Assist.ValueRetrievers.DateTimeOffsetValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.DateTimeValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.DecimalValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.DoubleValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.EnumValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.EnumerableValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.FloatValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.GuidValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.IntValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.ListValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.LongValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.NullValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.SByteValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.ShortValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.StringValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+  - Reqnroll.Assist.ValueRetrievers.TimeSpanValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.UIntValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.ULongValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.UShortValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.UriValueRetriever
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Assist.ValueRetrievers
+  nameWithType: Reqnroll.Assist.ValueRetrievers
+  fullName: Reqnroll.Assist.ValueRetrievers
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Assist.ValueRetrievers.ArrayValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.ArrayValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.ArrayValueRetriever.html
+  name: ArrayValueRetriever
+  nameWithType: ArrayValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.ArrayValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.BoolValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.BoolValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.BoolValueRetriever.html
+  name: BoolValueRetriever
+  nameWithType: BoolValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.BoolValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.ByteValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.ByteValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.ByteValueRetriever.html
+  name: ByteValueRetriever
+  nameWithType: ByteValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.ByteValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.CharValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.CharValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.CharValueRetriever.html
+  name: CharValueRetriever
+  nameWithType: CharValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.CharValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.ClassRetriever`1
+  commentId: T:Reqnroll.Assist.ValueRetrievers.ClassRetriever`1
+  href: Reqnroll.Assist.ValueRetrievers.ClassRetriever-1.html
+  name: ClassRetriever<T>
+  nameWithType: ClassRetriever<T>
+  fullName: Reqnroll.Assist.ValueRetrievers.ClassRetriever<T>
+  nameWithType.vb: ClassRetriever(Of T)
+  fullName.vb: Reqnroll.Assist.ValueRetrievers.ClassRetriever(Of T)
+  name.vb: ClassRetriever(Of T)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ValueRetrievers.ClassRetriever`1
+    name: ClassRetriever
+    href: Reqnroll.Assist.ValueRetrievers.ClassRetriever-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.ValueRetrievers.ClassRetriever`1
+    name: ClassRetriever
+    href: Reqnroll.Assist.ValueRetrievers.ClassRetriever-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Assist.ValueRetrievers.DateTimeOffsetValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.DateTimeOffsetValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.DateTimeOffsetValueRetriever.html
+  name: DateTimeOffsetValueRetriever
+  nameWithType: DateTimeOffsetValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.DateTimeOffsetValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.DateTimeValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.DateTimeValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.DateTimeValueRetriever.html
+  name: DateTimeValueRetriever
+  nameWithType: DateTimeValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.DateTimeValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.DecimalValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.DecimalValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.DecimalValueRetriever.html
+  name: DecimalValueRetriever
+  nameWithType: DecimalValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.DecimalValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.DoubleValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.DoubleValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.DoubleValueRetriever.html
+  name: DoubleValueRetriever
+  nameWithType: DoubleValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.DoubleValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.EnumerableValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.EnumerableValueRetriever
+  parent: Reqnroll.Assist.ValueRetrievers
+  href: Reqnroll.Assist.ValueRetrievers.EnumerableValueRetriever.html
+  name: EnumerableValueRetriever
+  nameWithType: EnumerableValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.EnumerableValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.EnumValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.EnumValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.EnumValueRetriever.html
+  name: EnumValueRetriever
+  nameWithType: EnumValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.EnumValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.FloatValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.FloatValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.FloatValueRetriever.html
+  name: FloatValueRetriever
+  nameWithType: FloatValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.FloatValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.GuidValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.GuidValueRetriever
+  parent: Reqnroll.Assist.ValueRetrievers
+  href: Reqnroll.Assist.ValueRetrievers.GuidValueRetriever.html
+  name: GuidValueRetriever
+  nameWithType: GuidValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.GuidValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.IntValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.IntValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.IntValueRetriever.html
+  name: IntValueRetriever
+  nameWithType: IntValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.IntValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.ListValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.ListValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.ListValueRetriever.html
+  name: ListValueRetriever
+  nameWithType: ListValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.ListValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.LongValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.LongValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.LongValueRetriever.html
+  name: LongValueRetriever
+  nameWithType: LongValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.LongValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.NullValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.NullValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.NullValueRetriever.html
+  name: NullValueRetriever
+  nameWithType: NullValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.NullValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.SByteValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.SByteValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.SByteValueRetriever.html
+  name: SByteValueRetriever
+  nameWithType: SByteValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.SByteValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.ShortValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.ShortValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.ShortValueRetriever.html
+  name: ShortValueRetriever
+  nameWithType: ShortValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.ShortValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.StringValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.StringValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.StringValueRetriever.html
+  name: StringValueRetriever
+  nameWithType: StringValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.StringValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+  commentId: T:Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+  href: Reqnroll.Assist.ValueRetrievers.StructRetriever-1.html
+  name: StructRetriever<T>
+  nameWithType: StructRetriever<T>
+  fullName: Reqnroll.Assist.ValueRetrievers.StructRetriever<T>
+  nameWithType.vb: StructRetriever(Of T)
+  fullName.vb: Reqnroll.Assist.ValueRetrievers.StructRetriever(Of T)
+  name.vb: StructRetriever(Of T)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+    name: StructRetriever
+    href: Reqnroll.Assist.ValueRetrievers.StructRetriever-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+    name: StructRetriever
+    href: Reqnroll.Assist.ValueRetrievers.StructRetriever-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Assist.ValueRetrievers.TimeSpanValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.TimeSpanValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.TimeSpanValueRetriever.html
+  name: TimeSpanValueRetriever
+  nameWithType: TimeSpanValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.TimeSpanValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.UIntValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.UIntValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.UIntValueRetriever.html
+  name: UIntValueRetriever
+  nameWithType: UIntValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.UIntValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.ULongValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.ULongValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.ULongValueRetriever.html
+  name: ULongValueRetriever
+  nameWithType: ULongValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.ULongValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.UriValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.UriValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.UriValueRetriever.html
+  name: UriValueRetriever
+  nameWithType: UriValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.UriValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers.UShortValueRetriever
+  commentId: T:Reqnroll.Assist.ValueRetrievers.UShortValueRetriever
+  href: Reqnroll.Assist.ValueRetrievers.UShortValueRetriever.html
+  name: UShortValueRetriever
+  nameWithType: UShortValueRetriever
+  fullName: Reqnroll.Assist.ValueRetrievers.UShortValueRetriever
+- uid: Reqnroll.Assist.ValueRetrievers
+  commentId: N:Reqnroll.Assist.ValueRetrievers
+  href: Reqnroll.html
+  name: Reqnroll.Assist.ValueRetrievers
+  nameWithType: Reqnroll.Assist.ValueRetrievers
+  fullName: Reqnroll.Assist.ValueRetrievers
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  - name: .
+  - uid: Reqnroll.Assist.ValueRetrievers
+    name: ValueRetrievers
+    href: Reqnroll.Assist.ValueRetrievers.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  - name: .
+  - uid: Reqnroll.Assist.ValueRetrievers
+    name: ValueRetrievers
+    href: Reqnroll.Assist.ValueRetrievers.html

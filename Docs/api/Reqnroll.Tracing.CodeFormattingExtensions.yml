@@ -1,0 +1,616 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.CodeFormattingExtensions
+  commentId: T:Reqnroll.Tracing.CodeFormattingExtensions
+  id: CodeFormattingExtensions
+  parent: Reqnroll.Tracing
+  children:
+  - Reqnroll.Tracing.CodeFormattingExtensions.Indent(System.String,System.String)
+  - Reqnroll.Tracing.CodeFormattingExtensions.RemoveAccentAndPunctuationChars(System.String)
+  - Reqnroll.Tracing.CodeFormattingExtensions.RemoveQuotationCharacters(System.String)
+  - Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifier(System.String)
+  - Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierCamelCase(System.String)
+  - Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierPart(System.String)
+  - Reqnroll.Tracing.CodeFormattingExtensions.TrimEllipse(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: CodeFormattingExtensions
+  nameWithType: CodeFormattingExtensions
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Tracing/CodeFormattingExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CodeFormattingExtensions
+    path: ../Reqnroll/Reqnroll/Tracing/CodeFormattingExtensions.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public static class CodeFormattingExtensions
+    content.vb: Public Module CodeFormattingExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.Indent(System.String,System.String)
+  commentId: M:Reqnroll.Tracing.CodeFormattingExtensions.Indent(System.String,System.String)
+  id: Indent(System.String,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Tracing.CodeFormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: Indent(string, string)
+  nameWithType: CodeFormattingExtensions.Indent(string, string)
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.Indent(string, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/CodeFormattingExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Indent
+    path: ../Reqnroll/Reqnroll/Tracing/CodeFormattingExtensions.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public static string Indent(this string text, string indent)
+    parameters:
+    - id: text
+      type: System.String
+    - id: indent
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function Indent(text As String, indent As String) As String
+  overload: Reqnroll.Tracing.CodeFormattingExtensions.Indent*
+  nameWithType.vb: CodeFormattingExtensions.Indent(String, String)
+  fullName.vb: Reqnroll.Tracing.CodeFormattingExtensions.Indent(String, String)
+  name.vb: Indent(String, String)
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifier(System.String)
+  commentId: M:Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifier(System.String)
+  id: ToIdentifier(System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Tracing.CodeFormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToIdentifier(string)
+  nameWithType: CodeFormattingExtensions.ToIdentifier(string)
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifier(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/CodeFormattingExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ToIdentifier
+    path: ../Reqnroll/Reqnroll/Tracing/CodeFormattingExtensions.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public static string ToIdentifier(this string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToIdentifier(text As String) As String
+  overload: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifier*
+  nameWithType.vb: CodeFormattingExtensions.ToIdentifier(String)
+  fullName.vb: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifier(String)
+  name.vb: ToIdentifier(String)
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierCamelCase(System.String)
+  commentId: M:Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierCamelCase(System.String)
+  id: ToIdentifierCamelCase(System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Tracing.CodeFormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToIdentifierCamelCase(string)
+  nameWithType: CodeFormattingExtensions.ToIdentifierCamelCase(string)
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierCamelCase(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/CodeFormattingExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ToIdentifierCamelCase
+    path: ../Reqnroll/Reqnroll/Tracing/CodeFormattingExtensions.cs
+    startLine: 27
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public static string ToIdentifierCamelCase(this string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToIdentifierCamelCase(text As String) As String
+  overload: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierCamelCase*
+  nameWithType.vb: CodeFormattingExtensions.ToIdentifierCamelCase(String)
+  fullName.vb: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierCamelCase(String)
+  name.vb: ToIdentifierCamelCase(String)
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierPart(System.String)
+  commentId: M:Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierPart(System.String)
+  id: ToIdentifierPart(System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Tracing.CodeFormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToIdentifierPart(string)
+  nameWithType: CodeFormattingExtensions.ToIdentifierPart(string)
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierPart(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/CodeFormattingExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ToIdentifierPart
+    path: ../Reqnroll/Reqnroll/Tracing/CodeFormattingExtensions.cs
+    startLine: 39
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public static string ToIdentifierPart(this string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToIdentifierPart(text As String) As String
+  overload: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierPart*
+  nameWithType.vb: CodeFormattingExtensions.ToIdentifierPart(String)
+  fullName.vb: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierPart(String)
+  name.vb: ToIdentifierPart(String)
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.TrimEllipse(System.String,System.Int32)
+  commentId: M:Reqnroll.Tracing.CodeFormattingExtensions.TrimEllipse(System.String,System.Int32)
+  id: TrimEllipse(System.String,System.Int32)
+  isExtensionMethod: true
+  parent: Reqnroll.Tracing.CodeFormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: TrimEllipse(string, int)
+  nameWithType: CodeFormattingExtensions.TrimEllipse(string, int)
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.TrimEllipse(string, int)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/CodeFormattingExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TrimEllipse
+    path: ../Reqnroll/Reqnroll/Tracing/CodeFormattingExtensions.cs
+    startLine: 55
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public static string TrimEllipse(this string text, int maxLength)
+    parameters:
+    - id: text
+      type: System.String
+    - id: maxLength
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function TrimEllipse(text As String, maxLength As Integer) As String
+  overload: Reqnroll.Tracing.CodeFormattingExtensions.TrimEllipse*
+  nameWithType.vb: CodeFormattingExtensions.TrimEllipse(String, Integer)
+  fullName.vb: Reqnroll.Tracing.CodeFormattingExtensions.TrimEllipse(String, Integer)
+  name.vb: TrimEllipse(String, Integer)
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.RemoveAccentAndPunctuationChars(System.String)
+  commentId: M:Reqnroll.Tracing.CodeFormattingExtensions.RemoveAccentAndPunctuationChars(System.String)
+  id: RemoveAccentAndPunctuationChars(System.String)
+  parent: Reqnroll.Tracing.CodeFormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveAccentAndPunctuationChars(string)
+  nameWithType: CodeFormattingExtensions.RemoveAccentAndPunctuationChars(string)
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.RemoveAccentAndPunctuationChars(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/CodeFormattingExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RemoveAccentAndPunctuationChars
+    path: ../Reqnroll/Reqnroll/Tracing/CodeFormattingExtensions.cs
+    startLine: 187
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public static string RemoveAccentAndPunctuationChars(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function RemoveAccentAndPunctuationChars(text As String) As String
+  overload: Reqnroll.Tracing.CodeFormattingExtensions.RemoveAccentAndPunctuationChars*
+  nameWithType.vb: CodeFormattingExtensions.RemoveAccentAndPunctuationChars(String)
+  fullName.vb: Reqnroll.Tracing.CodeFormattingExtensions.RemoveAccentAndPunctuationChars(String)
+  name.vb: RemoveAccentAndPunctuationChars(String)
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.RemoveQuotationCharacters(System.String)
+  commentId: M:Reqnroll.Tracing.CodeFormattingExtensions.RemoveQuotationCharacters(System.String)
+  id: RemoveQuotationCharacters(System.String)
+  parent: Reqnroll.Tracing.CodeFormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveQuotationCharacters(string)
+  nameWithType: CodeFormattingExtensions.RemoveQuotationCharacters(string)
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.RemoveQuotationCharacters(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/CodeFormattingExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RemoveQuotationCharacters
+    path: ../Reqnroll/Reqnroll/Tracing/CodeFormattingExtensions.cs
+    startLine: 202
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public static string RemoveQuotationCharacters(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function RemoveQuotationCharacters(text As String) As String
+  overload: Reqnroll.Tracing.CodeFormattingExtensions.RemoveQuotationCharacters*
+  nameWithType.vb: CodeFormattingExtensions.RemoveQuotationCharacters(String)
+  fullName.vb: Reqnroll.Tracing.CodeFormattingExtensions.RemoveQuotationCharacters(String)
+  name.vb: RemoveQuotationCharacters(String)
+references:
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.Indent*
+  commentId: Overload:Reqnroll.Tracing.CodeFormattingExtensions.Indent
+  href: Reqnroll.Tracing.CodeFormattingExtensions.html#Reqnroll_Tracing_CodeFormattingExtensions_Indent_System_String_System_String_
+  name: Indent
+  nameWithType: CodeFormattingExtensions.Indent
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.Indent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifier*
+  commentId: Overload:Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifier
+  href: Reqnroll.Tracing.CodeFormattingExtensions.html#Reqnroll_Tracing_CodeFormattingExtensions_ToIdentifier_System_String_
+  name: ToIdentifier
+  nameWithType: CodeFormattingExtensions.ToIdentifier
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifier
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierCamelCase*
+  commentId: Overload:Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierCamelCase
+  href: Reqnroll.Tracing.CodeFormattingExtensions.html#Reqnroll_Tracing_CodeFormattingExtensions_ToIdentifierCamelCase_System_String_
+  name: ToIdentifierCamelCase
+  nameWithType: CodeFormattingExtensions.ToIdentifierCamelCase
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierCamelCase
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierPart*
+  commentId: Overload:Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierPart
+  href: Reqnroll.Tracing.CodeFormattingExtensions.html#Reqnroll_Tracing_CodeFormattingExtensions_ToIdentifierPart_System_String_
+  name: ToIdentifierPart
+  nameWithType: CodeFormattingExtensions.ToIdentifierPart
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.ToIdentifierPart
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.TrimEllipse*
+  commentId: Overload:Reqnroll.Tracing.CodeFormattingExtensions.TrimEllipse
+  href: Reqnroll.Tracing.CodeFormattingExtensions.html#Reqnroll_Tracing_CodeFormattingExtensions_TrimEllipse_System_String_System_Int32_
+  name: TrimEllipse
+  nameWithType: CodeFormattingExtensions.TrimEllipse
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.TrimEllipse
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.RemoveAccentAndPunctuationChars*
+  commentId: Overload:Reqnroll.Tracing.CodeFormattingExtensions.RemoveAccentAndPunctuationChars
+  href: Reqnroll.Tracing.CodeFormattingExtensions.html#Reqnroll_Tracing_CodeFormattingExtensions_RemoveAccentAndPunctuationChars_System_String_
+  name: RemoveAccentAndPunctuationChars
+  nameWithType: CodeFormattingExtensions.RemoveAccentAndPunctuationChars
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.RemoveAccentAndPunctuationChars
+- uid: Reqnroll.Tracing.CodeFormattingExtensions.RemoveQuotationCharacters*
+  commentId: Overload:Reqnroll.Tracing.CodeFormattingExtensions.RemoveQuotationCharacters
+  href: Reqnroll.Tracing.CodeFormattingExtensions.html#Reqnroll_Tracing_CodeFormattingExtensions_RemoveQuotationCharacters_System_String_
+  name: RemoveQuotationCharacters
+  nameWithType: CodeFormattingExtensions.RemoveQuotationCharacters
+  fullName: Reqnroll.Tracing.CodeFormattingExtensions.RemoveQuotationCharacters

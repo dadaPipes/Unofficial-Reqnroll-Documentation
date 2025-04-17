@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TestRunnerManager | Unofficial Reqnroll Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TestRunnerManager | Unofficial Reqnroll Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/reqnroll/Reqnroll/new/main/apiSpec/new?filename=Reqnroll_TestRunnerManager.md&amp;value=---%0Auid%3A%20Reqnroll.TestRunnerManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/reqnroll-icon.png" alt="Unofficial Reqnroll Documentation">
+            Unofficial Reqnroll Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Reqnroll.TestRunnerManager">
+
+
+
+  <h1 id="Reqnroll_TestRunnerManager" data-uid="Reqnroll.TestRunnerManager" class="text-break">
+Class TestRunnerManager  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Reqnroll.html">Reqnroll</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Reqnroll.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TestRunnerManager : ITestRunnerManager</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TestRunnerManager</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Reqnroll.ITestRunnerManager.html">ITestRunnerManager</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Reqnroll_TestRunnerManager__ctor_" data-uid="Reqnroll.TestRunnerManager.#ctor*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager__ctor_Reqnroll_BoDi_IObjectContainer_Reqnroll_Infrastructure_IContainerBuilder_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_Bindings_Discovery_IRuntimeBindingRegistryBuilder_Reqnroll_Tracing_ITestTracer_" data-uid="Reqnroll.TestRunnerManager.#ctor(Reqnroll.BoDi.IObjectContainer,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder,Reqnroll.Tracing.ITestTracer)">
+  TestRunnerManager(IObjectContainer, IContainerBuilder, ReqnrollConfiguration, IRuntimeBindingRegistryBuilder, ITestTracer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TestRunnerManager(IObjectContainer globalContainer, IContainerBuilder containerBuilder, ReqnrollConfiguration reqnrollConfiguration, IRuntimeBindingRegistryBuilder bindingRegistryBuilder, ITestTracer testTracer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>globalContainer</code> <a class="xref" href="Reqnroll.BoDi.IObjectContainer.html">IObjectContainer</a></dt>
+    <dd></dd>
+    <dt><code>containerBuilder</code> <a class="xref" href="Reqnroll.Infrastructure.IContainerBuilder.html">IContainerBuilder</a></dt>
+    <dd></dd>
+    <dt><code>reqnrollConfiguration</code> <a class="xref" href="Reqnroll.Configuration.ReqnrollConfiguration.html">ReqnrollConfiguration</a></dt>
+    <dd></dd>
+    <dt><code>bindingRegistryBuilder</code> <a class="xref" href="Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.html">IRuntimeBindingRegistryBuilder</a></dt>
+    <dd></dd>
+    <dt><code>testTracer</code> <a class="xref" href="Reqnroll.Tracing.ITestTracer.html">ITestTracer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Reqnroll_TestRunnerManager__bindingRegistryBuilder" data-uid="Reqnroll.TestRunnerManager._bindingRegistryBuilder">
+  _bindingRegistryBuilder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IRuntimeBindingRegistryBuilder _bindingRegistryBuilder</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.html">IRuntimeBindingRegistryBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Reqnroll_TestRunnerManager__containerBuilder" data-uid="Reqnroll.TestRunnerManager._containerBuilder">
+  _containerBuilder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IContainerBuilder _containerBuilder</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.Infrastructure.IContainerBuilder.html">IContainerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Reqnroll_TestRunnerManager__globalContainer" data-uid="Reqnroll.TestRunnerManager._globalContainer">
+  _globalContainer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IObjectContainer _globalContainer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.BoDi.IObjectContainer.html">IObjectContainer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Reqnroll_TestRunnerManager__reqnrollConfiguration" data-uid="Reqnroll.TestRunnerManager._reqnrollConfiguration">
+  _reqnrollConfiguration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly ReqnrollConfiguration _reqnrollConfiguration</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.Configuration.ReqnrollConfiguration.html">ReqnrollConfiguration</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Reqnroll_TestRunnerManager__testTracer" data-uid="Reqnroll.TestRunnerManager._testTracer">
+  _testTracer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly ITestTracer _testTracer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.Tracing.ITestTracer.html">ITestTracer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Reqnroll_TestRunnerManager_BindingAssemblies_" data-uid="Reqnroll.TestRunnerManager.BindingAssemblies*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_BindingAssemblies" data-uid="Reqnroll.TestRunnerManager.BindingAssemblies">
+  BindingAssemblies
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Assembly[] BindingAssemblies { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_IsMultiThreaded_" data-uid="Reqnroll.TestRunnerManager.IsMultiThreaded*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_IsMultiThreaded" data-uid="Reqnroll.TestRunnerManager.IsMultiThreaded">
+  IsMultiThreaded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMultiThreaded { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_IsTestRunInitialized_" data-uid="Reqnroll.TestRunnerManager.IsTestRunInitialized*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_IsTestRunInitialized" data-uid="Reqnroll.TestRunnerManager.IsTestRunInitialized">
+  IsTestRunInitialized
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTestRunInitialized { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_TestAssembly_" data-uid="Reqnroll.TestRunnerManager.TestAssembly*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_TestAssembly" data-uid="Reqnroll.TestRunnerManager.TestAssembly">
+  TestAssembly
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Assembly TestAssembly { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Reqnroll_TestRunnerManager_BuildBindingRegistry_" data-uid="Reqnroll.TestRunnerManager.BuildBindingRegistry*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_BuildBindingRegistry_System_Collections_Generic_IEnumerable_System_Reflection_Assembly__" data-uid="Reqnroll.TestRunnerManager.BuildBindingRegistry(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})">
+  BuildBindingRegistry(IEnumerable&lt;Assembly&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void BuildBindingRegistry(IEnumerable&lt;Assembly&gt; bindingAssemblies)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingAssemblies</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_DisposeAsync_" data-uid="Reqnroll.TestRunnerManager.DisposeAsync*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_DisposeAsync" data-uid="Reqnroll.TestRunnerManager.DisposeAsync">
+  DisposeAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task DisposeAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_FireTestRunEndAsync_" data-uid="Reqnroll.TestRunnerManager.FireTestRunEndAsync*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_FireTestRunEndAsync" data-uid="Reqnroll.TestRunnerManager.FireTestRunEndAsync">
+  FireTestRunEndAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task FireTestRunEndAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_FireTestRunStartAsync_" data-uid="Reqnroll.TestRunnerManager.FireTestRunStartAsync*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_FireTestRunStartAsync" data-uid="Reqnroll.TestRunnerManager.FireTestRunStartAsync">
+  FireTestRunStartAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task FireTestRunStartAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_GetOrCreateTestRunner_" data-uid="Reqnroll.TestRunnerManager.GetOrCreateTestRunner*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_GetOrCreateTestRunner_Reqnroll_FeatureInfo_" data-uid="Reqnroll.TestRunnerManager.GetOrCreateTestRunner(Reqnroll.FeatureInfo)">
+  GetOrCreateTestRunner(FeatureInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ITestRunner GetOrCreateTestRunner(FeatureInfo featureHint = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>featureHint</code> <a class="xref" href="Reqnroll.FeatureInfo.html">FeatureInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.ITestRunner.html">ITestRunner</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_GetOrCreateTestRunnerInstance_" data-uid="Reqnroll.TestRunnerManager.GetOrCreateTestRunnerInstance*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_GetOrCreateTestRunnerInstance_Reqnroll_FeatureInfo_" data-uid="Reqnroll.TestRunnerManager.GetOrCreateTestRunnerInstance(Reqnroll.FeatureInfo)">
+  GetOrCreateTestRunnerInstance(FeatureInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual ITestRunner GetOrCreateTestRunnerInstance(FeatureInfo featureHint = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>featureHint</code> <a class="xref" href="Reqnroll.FeatureInfo.html">FeatureInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.ITestRunner.html">ITestRunner</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_GetTestRunner_" data-uid="Reqnroll.TestRunnerManager.GetTestRunner*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_GetTestRunner_Reqnroll_FeatureInfo_" data-uid="Reqnroll.TestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)">
+  GetTestRunner(FeatureInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ITestRunner GetTestRunner(FeatureInfo featureHint = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>featureHint</code> <a class="xref" href="Reqnroll.FeatureInfo.html">FeatureInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.ITestRunner.html">ITestRunner</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_GetTestRunnerForAssembly_" data-uid="Reqnroll.TestRunnerManager.GetTestRunnerForAssembly*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_GetTestRunnerForAssembly_System_Reflection_Assembly_Reqnroll_Infrastructure_IContainerBuilder_Reqnroll_FeatureInfo_" data-uid="Reqnroll.TestRunnerManager.GetTestRunnerForAssembly(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.FeatureInfo)">
+  GetTestRunnerForAssembly(Assembly, IContainerBuilder, FeatureInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L377"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Provides a test runner for the specified or current assembly with optionally a custom container builder and a feature hint.
+When a feature hint is provided the test runner manager will attempt to return the same test runner that was used for that
+feature before.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ITestRunner GetTestRunnerForAssembly(Assembly testAssembly = null, IContainerBuilder containerBuilder = null, FeatureInfo featureHint = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testAssembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd><p>The test assembly. If omitted or invoked with <code>null</code>, the calling assembly is used.</p>
+</dd>
+    <dt><code>containerBuilder</code> <a class="xref" href="Reqnroll.Infrastructure.IContainerBuilder.html">IContainerBuilder</a></dt>
+    <dd><p>The container builder to be used to set up Reqnroll dependencies. If omitted or invoked with <code>null</code>, the default container builder is used.</p>
+</dd>
+    <dt><code>featureHint</code> <a class="xref" href="Reqnroll.FeatureInfo.html">FeatureInfo</a></dt>
+    <dd><p>If specified, it is used as a hint for the test runner manager to choose the test runner that has been used for the feature before, if possible.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.ITestRunner.html">ITestRunner</a></dt>
+    <dd><p>A test runner that can be used to interact with Reqnroll.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_GetTestRunnerManager_" data-uid="Reqnroll.TestRunnerManager.GetTestRunnerManager*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_GetTestRunnerManager_System_Reflection_Assembly_Reqnroll_Infrastructure_IContainerBuilder_System_Boolean_" data-uid="Reqnroll.TestRunnerManager.GetTestRunnerManager(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,System.Boolean)">
+  GetTestRunnerManager(Assembly, IContainerBuilder, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ITestRunnerManager GetTestRunnerManager(Assembly testAssembly = null, IContainerBuilder containerBuilder = null, bool createIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testAssembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+    <dt><code>containerBuilder</code> <a class="xref" href="Reqnroll.Infrastructure.IContainerBuilder.html">IContainerBuilder</a></dt>
+    <dd></dd>
+    <dt><code>createIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.ITestRunnerManager.html">ITestRunnerManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_Initialize_" data-uid="Reqnroll.TestRunnerManager.Initialize*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_Initialize_System_Reflection_Assembly_" data-uid="Reqnroll.TestRunnerManager.Initialize(System.Reflection.Assembly)">
+  Initialize(Assembly)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(Assembly assignedTestAssembly)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assignedTestAssembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_InitializeBindingRegistry_" data-uid="Reqnroll.TestRunnerManager.InitializeBindingRegistry*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_InitializeBindingRegistry_Reqnroll_ITestRunner_" data-uid="Reqnroll.TestRunnerManager.InitializeBindingRegistry(Reqnroll.ITestRunner)">
+  InitializeBindingRegistry(ITestRunner)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void InitializeBindingRegistry(ITestRunner testRunner)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testRunner</code> <a class="xref" href="Reqnroll.ITestRunner.html">ITestRunner</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_OnDomainUnloadAsync_" data-uid="Reqnroll.TestRunnerManager.OnDomainUnloadAsync*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_OnDomainUnloadAsync" data-uid="Reqnroll.TestRunnerManager.OnDomainUnloadAsync">
+  OnDomainUnloadAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task OnDomainUnloadAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_OnTestRunEndAsync_" data-uid="Reqnroll.TestRunnerManager.OnTestRunEndAsync*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_OnTestRunEndAsync_System_Reflection_Assembly_Reqnroll_Infrastructure_IContainerBuilder_" data-uid="Reqnroll.TestRunnerManager.OnTestRunEndAsync(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder)">
+  OnTestRunEndAsync(Assembly, IContainerBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L349"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task OnTestRunEndAsync(Assembly testAssembly = null, IContainerBuilder containerBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testAssembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+    <dt><code>containerBuilder</code> <a class="xref" href="Reqnroll.Infrastructure.IContainerBuilder.html">IContainerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_OnTestRunStartAsync_" data-uid="Reqnroll.TestRunnerManager.OnTestRunStartAsync*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_OnTestRunStartAsync_System_Reflection_Assembly_Reqnroll_Infrastructure_IContainerBuilder_" data-uid="Reqnroll.TestRunnerManager.OnTestRunStartAsync(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder)">
+  OnTestRunStartAsync(Assembly, IContainerBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task OnTestRunStartAsync(Assembly testAssembly = null, IContainerBuilder containerBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testAssembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+    <dt><code>containerBuilder</code> <a class="xref" href="Reqnroll.Infrastructure.IContainerBuilder.html">IContainerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_ReleaseTestRunner_" data-uid="Reqnroll.TestRunnerManager.ReleaseTestRunner*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_ReleaseTestRunner_Reqnroll_ITestRunner_" data-uid="Reqnroll.TestRunnerManager.ReleaseTestRunner(Reqnroll.ITestRunner)">
+  ReleaseTestRunner(ITestRunner)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ReleaseTestRunner(ITestRunner testRunner)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testRunner</code> <a class="xref" href="Reqnroll.ITestRunner.html">ITestRunner</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_TestRunnerManager_ReleaseTestThreadContext_" data-uid="Reqnroll.TestRunnerManager.ReleaseTestThreadContext*"></a>
+
+  <h3 id="Reqnroll_TestRunnerManager_ReleaseTestThreadContext_Reqnroll_ITestThreadContext_" data-uid="Reqnroll.TestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)">
+  ReleaseTestThreadContext(ITestThreadContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ReleaseTestThreadContext(ITestThreadContext testThreadContext)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testThreadContext</code> <a class="xref" href="Reqnroll.ITestThreadContext.html">ITestThreadContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/TestRunnerManager.cs/#L19" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

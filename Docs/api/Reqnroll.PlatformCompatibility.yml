@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.PlatformCompatibility
+  commentId: N:Reqnroll.PlatformCompatibility
+  id: Reqnroll.PlatformCompatibility
+  children:
+  - Reqnroll.PlatformCompatibility.PlatformHelper
+  - Reqnroll.PlatformCompatibility.PlatformInformation
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.PlatformCompatibility
+  nameWithType: Reqnroll.PlatformCompatibility
+  fullName: Reqnroll.PlatformCompatibility
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.PlatformCompatibility.PlatformHelper
+  commentId: T:Reqnroll.PlatformCompatibility.PlatformHelper
+  href: Reqnroll.PlatformCompatibility.PlatformHelper.html
+  name: PlatformHelper
+  nameWithType: PlatformHelper
+  fullName: Reqnroll.PlatformCompatibility.PlatformHelper
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation
+  commentId: T:Reqnroll.PlatformCompatibility.PlatformInformation
+  href: Reqnroll.PlatformCompatibility.PlatformInformation.html
+  name: PlatformInformation
+  nameWithType: PlatformInformation
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation

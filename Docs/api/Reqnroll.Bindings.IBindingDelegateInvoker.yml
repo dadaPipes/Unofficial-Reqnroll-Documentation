@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IBindingDelegateInvoker
+  commentId: T:Reqnroll.Bindings.IBindingDelegateInvoker
+  id: IBindingDelegateInvoker
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IBindingDelegateInvoker.InvokeDelegateAsync(System.Delegate,System.Object[],Reqnroll.Bindings.ExecutionContextHolder)
+  langs:
+  - csharp
+  - vb
+  name: IBindingDelegateInvoker
+  nameWithType: IBindingDelegateInvoker
+  fullName: Reqnroll.Bindings.IBindingDelegateInvoker
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingDelegateInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IBindingDelegateInvoker
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingDelegateInvoker.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public interface IBindingDelegateInvoker
+    content.vb: Public Interface IBindingDelegateInvoker
+- uid: Reqnroll.Bindings.IBindingDelegateInvoker.InvokeDelegateAsync(System.Delegate,System.Object[],Reqnroll.Bindings.ExecutionContextHolder)
+  commentId: M:Reqnroll.Bindings.IBindingDelegateInvoker.InvokeDelegateAsync(System.Delegate,System.Object[],Reqnroll.Bindings.ExecutionContextHolder)
+  id: InvokeDelegateAsync(System.Delegate,System.Object[],Reqnroll.Bindings.ExecutionContextHolder)
+  parent: Reqnroll.Bindings.IBindingDelegateInvoker
+  langs:
+  - csharp
+  - vb
+  name: InvokeDelegateAsync(Delegate, object[], ExecutionContextHolder)
+  nameWithType: IBindingDelegateInvoker.InvokeDelegateAsync(Delegate, object[], ExecutionContextHolder)
+  fullName: Reqnroll.Bindings.IBindingDelegateInvoker.InvokeDelegateAsync(System.Delegate, object[], Reqnroll.Bindings.ExecutionContextHolder)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingDelegateInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InvokeDelegateAsync
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingDelegateInvoker.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: Task<object> InvokeDelegateAsync(Delegate bindingDelegate, object[] invokeArgs, ExecutionContextHolder executionContext)
+    parameters:
+    - id: bindingDelegate
+      type: System.Delegate
+    - id: invokeArgs
+      type: System.Object[]
+    - id: executionContext
+      type: Reqnroll.Bindings.ExecutionContextHolder
+    return:
+      type: System.Threading.Tasks.Task{System.Object}
+    content.vb: Function InvokeDelegateAsync(bindingDelegate As [Delegate], invokeArgs As Object(), executionContext As ExecutionContextHolder) As Task(Of Object)
+  overload: Reqnroll.Bindings.IBindingDelegateInvoker.InvokeDelegateAsync*
+  nameWithType.vb: IBindingDelegateInvoker.InvokeDelegateAsync(Delegate, Object(), ExecutionContextHolder)
+  fullName.vb: Reqnroll.Bindings.IBindingDelegateInvoker.InvokeDelegateAsync(System.Delegate, Object(), Reqnroll.Bindings.ExecutionContextHolder)
+  name.vb: InvokeDelegateAsync(Delegate, Object(), ExecutionContextHolder)
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IBindingDelegateInvoker.InvokeDelegateAsync*
+  commentId: Overload:Reqnroll.Bindings.IBindingDelegateInvoker.InvokeDelegateAsync
+  href: Reqnroll.Bindings.IBindingDelegateInvoker.html#Reqnroll_Bindings_IBindingDelegateInvoker_InvokeDelegateAsync_System_Delegate_System_Object___Reqnroll_Bindings_ExecutionContextHolder_
+  name: InvokeDelegateAsync
+  nameWithType: IBindingDelegateInvoker.InvokeDelegateAsync
+  fullName: Reqnroll.Bindings.IBindingDelegateInvoker.InvokeDelegateAsync
+- uid: System.Delegate
+  commentId: T:System.Delegate
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.delegate
+  name: Delegate
+  nameWithType: Delegate
+  fullName: System.Delegate
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: Reqnroll.Bindings.ExecutionContextHolder
+  commentId: T:Reqnroll.Bindings.ExecutionContextHolder
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.ExecutionContextHolder.html
+  name: ExecutionContextHolder
+  nameWithType: ExecutionContextHolder
+  fullName: Reqnroll.Bindings.ExecutionContextHolder
+- uid: System.Threading.Tasks.Task{System.Object}
+  commentId: T:System.Threading.Tasks.Task{System.Object}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<object>
+  nameWithType: Task<object>
+  fullName: System.Threading.Tasks.Task<object>
+  nameWithType.vb: Task(Of Object)
+  fullName.vb: System.Threading.Tasks.Task(Of Object)
+  name.vb: Task(Of Object)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

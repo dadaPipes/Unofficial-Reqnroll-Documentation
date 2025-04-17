@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.IAnalyticsTransmitter
+  commentId: T:Reqnroll.Analytics.IAnalyticsTransmitter
+  id: IAnalyticsTransmitter
+  parent: Reqnroll.Analytics
+  children:
+  - Reqnroll.Analytics.IAnalyticsTransmitter.IsEnabled
+  - Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectCompilingEventAsync(Reqnroll.Analytics.ReqnrollProjectCompilingEvent)
+  - Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectRunningEventAsync(Reqnroll.Analytics.ReqnrollProjectRunningEvent)
+  langs:
+  - csharp
+  - vb
+  name: IAnalyticsTransmitter
+  nameWithType: IAnalyticsTransmitter
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitter
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsTransmitter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IAnalyticsTransmitter
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsTransmitter.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: public interface IAnalyticsTransmitter
+    content.vb: Public Interface IAnalyticsTransmitter
+- uid: Reqnroll.Analytics.IAnalyticsTransmitter.IsEnabled
+  commentId: P:Reqnroll.Analytics.IAnalyticsTransmitter.IsEnabled
+  id: IsEnabled
+  parent: Reqnroll.Analytics.IAnalyticsTransmitter
+  langs:
+  - csharp
+  - vb
+  name: IsEnabled
+  nameWithType: IAnalyticsTransmitter.IsEnabled
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitter.IsEnabled
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsTransmitter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsEnabled
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsTransmitter.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: bool IsEnabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsEnabled As Boolean
+  overload: Reqnroll.Analytics.IAnalyticsTransmitter.IsEnabled*
+- uid: Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectCompilingEventAsync(Reqnroll.Analytics.ReqnrollProjectCompilingEvent)
+  commentId: M:Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectCompilingEventAsync(Reqnroll.Analytics.ReqnrollProjectCompilingEvent)
+  id: TransmitReqnrollProjectCompilingEventAsync(Reqnroll.Analytics.ReqnrollProjectCompilingEvent)
+  parent: Reqnroll.Analytics.IAnalyticsTransmitter
+  langs:
+  - csharp
+  - vb
+  name: TransmitReqnrollProjectCompilingEventAsync(ReqnrollProjectCompilingEvent)
+  nameWithType: IAnalyticsTransmitter.TransmitReqnrollProjectCompilingEventAsync(ReqnrollProjectCompilingEvent)
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectCompilingEventAsync(Reqnroll.Analytics.ReqnrollProjectCompilingEvent)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsTransmitter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TransmitReqnrollProjectCompilingEventAsync
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsTransmitter.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: Task<IResult> TransmitReqnrollProjectCompilingEventAsync(ReqnrollProjectCompilingEvent projectCompilingEvent)
+    parameters:
+    - id: projectCompilingEvent
+      type: Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+    return:
+      type: System.Threading.Tasks.Task{Reqnroll.CommonModels.IResult}
+    content.vb: Function TransmitReqnrollProjectCompilingEventAsync(projectCompilingEvent As ReqnrollProjectCompilingEvent) As Task(Of IResult)
+  overload: Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectCompilingEventAsync*
+- uid: Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectRunningEventAsync(Reqnroll.Analytics.ReqnrollProjectRunningEvent)
+  commentId: M:Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectRunningEventAsync(Reqnroll.Analytics.ReqnrollProjectRunningEvent)
+  id: TransmitReqnrollProjectRunningEventAsync(Reqnroll.Analytics.ReqnrollProjectRunningEvent)
+  parent: Reqnroll.Analytics.IAnalyticsTransmitter
+  langs:
+  - csharp
+  - vb
+  name: TransmitReqnrollProjectRunningEventAsync(ReqnrollProjectRunningEvent)
+  nameWithType: IAnalyticsTransmitter.TransmitReqnrollProjectRunningEventAsync(ReqnrollProjectRunningEvent)
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectRunningEventAsync(Reqnroll.Analytics.ReqnrollProjectRunningEvent)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsTransmitter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TransmitReqnrollProjectRunningEventAsync
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsTransmitter.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: Task<IResult> TransmitReqnrollProjectRunningEventAsync(ReqnrollProjectRunningEvent projectRunningEvent)
+    parameters:
+    - id: projectRunningEvent
+      type: Reqnroll.Analytics.ReqnrollProjectRunningEvent
+    return:
+      type: System.Threading.Tasks.Task{Reqnroll.CommonModels.IResult}
+    content.vb: Function TransmitReqnrollProjectRunningEventAsync(projectRunningEvent As ReqnrollProjectRunningEvent) As Task(Of IResult)
+  overload: Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectRunningEventAsync*
+references:
+- uid: Reqnroll.Analytics
+  commentId: N:Reqnroll.Analytics
+  href: Reqnroll.html
+  name: Reqnroll.Analytics
+  nameWithType: Reqnroll.Analytics
+  fullName: Reqnroll.Analytics
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+- uid: Reqnroll.Analytics.IAnalyticsTransmitter.IsEnabled*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsTransmitter.IsEnabled
+  href: Reqnroll.Analytics.IAnalyticsTransmitter.html#Reqnroll_Analytics_IAnalyticsTransmitter_IsEnabled
+  name: IsEnabled
+  nameWithType: IAnalyticsTransmitter.IsEnabled
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitter.IsEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectCompilingEventAsync*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectCompilingEventAsync
+  href: Reqnroll.Analytics.IAnalyticsTransmitter.html#Reqnroll_Analytics_IAnalyticsTransmitter_TransmitReqnrollProjectCompilingEventAsync_Reqnroll_Analytics_ReqnrollProjectCompilingEvent_
+  name: TransmitReqnrollProjectCompilingEventAsync
+  nameWithType: IAnalyticsTransmitter.TransmitReqnrollProjectCompilingEventAsync
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectCompilingEventAsync
+- uid: Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+  commentId: T:Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.ReqnrollProjectCompilingEvent.html
+  name: ReqnrollProjectCompilingEvent
+  nameWithType: ReqnrollProjectCompilingEvent
+  fullName: Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+- uid: System.Threading.Tasks.Task{Reqnroll.CommonModels.IResult}
+  commentId: T:System.Threading.Tasks.Task{Reqnroll.CommonModels.IResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IResult>
+  nameWithType: Task<IResult>
+  fullName: System.Threading.Tasks.Task<Reqnroll.CommonModels.IResult>
+  nameWithType.vb: Task(Of IResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Reqnroll.CommonModels.IResult)
+  name.vb: Task(Of IResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Reqnroll.CommonModels.IResult
+    name: IResult
+    href: Reqnroll.CommonModels.IResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.CommonModels.IResult
+    name: IResult
+    href: Reqnroll.CommonModels.IResult.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectRunningEventAsync*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectRunningEventAsync
+  href: Reqnroll.Analytics.IAnalyticsTransmitter.html#Reqnroll_Analytics_IAnalyticsTransmitter_TransmitReqnrollProjectRunningEventAsync_Reqnroll_Analytics_ReqnrollProjectRunningEvent_
+  name: TransmitReqnrollProjectRunningEventAsync
+  nameWithType: IAnalyticsTransmitter.TransmitReqnrollProjectRunningEventAsync
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitter.TransmitReqnrollProjectRunningEventAsync
+- uid: Reqnroll.Analytics.ReqnrollProjectRunningEvent
+  commentId: T:Reqnroll.Analytics.ReqnrollProjectRunningEvent
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.ReqnrollProjectRunningEvent.html
+  name: ReqnrollProjectRunningEvent
+  nameWithType: ReqnrollProjectRunningEvent
+  fullName: Reqnroll.Analytics.ReqnrollProjectRunningEvent

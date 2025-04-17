@@ -1,0 +1,1481 @@
+### YamlMime:TableOfContent
+items:
+- uid: Reqnroll
+  name: Reqnroll
+  type: Namespace
+  items:
+  - uid: Reqnroll.AfterAttribute
+    name: AfterAttribute
+    type: Class
+  - uid: Reqnroll.AfterFeatureAttribute
+    name: AfterFeatureAttribute
+    type: Class
+  - uid: Reqnroll.AfterScenarioAttribute
+    name: AfterScenarioAttribute
+    type: Class
+  - uid: Reqnroll.AfterScenarioBlockAttribute
+    name: AfterScenarioBlockAttribute
+    type: Class
+  - uid: Reqnroll.AfterStepAttribute
+    name: AfterStepAttribute
+    type: Class
+  - uid: Reqnroll.AfterTestRunAttribute
+    name: AfterTestRunAttribute
+    type: Class
+  - uid: Reqnroll.BeforeAttribute
+    name: BeforeAttribute
+    type: Class
+  - uid: Reqnroll.BeforeFeatureAttribute
+    name: BeforeFeatureAttribute
+    type: Class
+  - uid: Reqnroll.BeforeScenarioAttribute
+    name: BeforeScenarioAttribute
+    type: Class
+  - uid: Reqnroll.BeforeScenarioBlockAttribute
+    name: BeforeScenarioBlockAttribute
+    type: Class
+  - uid: Reqnroll.BeforeStepAttribute
+    name: BeforeStepAttribute
+    type: Class
+  - uid: Reqnroll.BeforeTestRunAttribute
+    name: BeforeTestRunAttribute
+    type: Class
+  - uid: Reqnroll.BindingAttribute
+    name: BindingAttribute
+    type: Class
+  - uid: Reqnroll.BindingException
+    name: BindingException
+    type: Class
+  - uid: Reqnroll.ColumnCouldNotBeBoundException
+    name: ColumnCouldNotBeBoundException
+    type: Class
+  - uid: Reqnroll.ComparisonException
+    name: ComparisonException
+    type: Class
+  - uid: Reqnroll.CultureInfoScope
+    name: CultureInfoScope
+    type: Struct
+  - uid: Reqnroll.DataTable
+    name: DataTable
+    type: Class
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    type: Class
+  - uid: Reqnroll.DataTableRows
+    name: DataTableRows
+    type: Class
+  - uid: Reqnroll.DefaultTestRunContext
+    name: DefaultTestRunContext
+    type: Class
+  - uid: Reqnroll.EnvironmentVariableNames
+    name: EnvironmentVariableNames
+    type: Class
+  - uid: Reqnroll.FeatureContext
+    name: FeatureContext
+    type: Class
+  - uid: Reqnroll.FeatureInfo
+    name: FeatureInfo
+    type: Class
+  - uid: Reqnroll.GivenAttribute
+    name: GivenAttribute
+    type: Class
+  - uid: Reqnroll.HookAttribute
+    name: HookAttribute
+    type: Class
+  - uid: Reqnroll.IFeatureContext
+    name: IFeatureContext
+    type: Interface
+  - uid: Reqnroll.IReqnrollContext
+    name: IReqnrollContext
+    type: Interface
+  - uid: Reqnroll.IReqnrollOutputHelper
+    name: IReqnrollOutputHelper
+    type: Interface
+  - uid: Reqnroll.IScenarioContext
+    name: IScenarioContext
+    type: Interface
+  - uid: Reqnroll.IScenarioStepContext
+    name: IScenarioStepContext
+    type: Interface
+  - uid: Reqnroll.ISyncTestRunner
+    name: ISyncTestRunner
+    type: Interface
+  - uid: Reqnroll.ITestRunContext
+    name: ITestRunContext
+    type: Interface
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    type: Interface
+  - uid: Reqnroll.ITestRunnerManager
+    name: ITestRunnerManager
+    type: Interface
+  - uid: Reqnroll.ITestThreadContext
+    name: ITestThreadContext
+    type: Interface
+  - uid: Reqnroll.InstanceComparisonExtensionMethods
+    name: InstanceComparisonExtensionMethods
+    type: Class
+  - uid: Reqnroll.MissingStepDefinitionException
+    name: MissingStepDefinitionException
+    type: Class
+  - uid: Reqnroll.PendingStepException
+    name: PendingStepException
+    type: Class
+  - uid: Reqnroll.ProgrammingLanguage
+    name: ProgrammingLanguage
+    type: Enum
+  - uid: Reqnroll.ReqnrollContext
+    name: ReqnrollContext
+    type: Class
+  - uid: Reqnroll.ReqnrollException
+    name: ReqnrollException
+    type: Class
+  - uid: Reqnroll.ScenarioBlock
+    name: ScenarioBlock
+    type: Enum
+  - uid: Reqnroll.ScenarioContext
+    name: ScenarioContext
+    type: Class
+  - uid: Reqnroll.ScenarioExecutionStatus
+    name: ScenarioExecutionStatus
+    type: Enum
+  - uid: Reqnroll.ScenarioInfo
+    name: ScenarioInfo
+    type: Class
+  - uid: Reqnroll.ScenarioStepContext
+    name: ScenarioStepContext
+    type: Class
+  - uid: Reqnroll.ScopeAttribute
+    name: ScopeAttribute
+    type: Class
+  - uid: Reqnroll.SetComparisonExtensionMethods
+    name: SetComparisonExtensionMethods
+    type: Class
+  - uid: Reqnroll.StepArgumentTransformationAttribute
+    name: StepArgumentTransformationAttribute
+    type: Class
+  - uid: Reqnroll.StepDefinitionAttribute
+    name: StepDefinitionAttribute
+    type: Class
+  - uid: Reqnroll.StepDefinitionBaseAttribute
+    name: StepDefinitionBaseAttribute
+    type: Class
+  - uid: Reqnroll.StepInfo
+    name: StepInfo
+    type: Class
+  - uid: Reqnroll.Steps
+    name: Steps
+    type: Class
+  - uid: Reqnroll.Table
+    name: Table
+    type: Class
+  - uid: Reqnroll.TableHelperExtensionMethods
+    name: TableHelperExtensionMethods
+    type: Class
+  - uid: Reqnroll.TableHelpers
+    name: TableHelpers
+    type: Class
+  - uid: Reqnroll.TagHelper
+    name: TagHelper
+    type: Class
+  - uid: Reqnroll.TestRunner
+    name: TestRunner
+    type: Class
+  - uid: Reqnroll.TestRunnerDefaultArguments
+    name: TestRunnerDefaultArguments
+    type: Class
+  - uid: Reqnroll.TestRunnerManager
+    name: TestRunnerManager
+    type: Class
+  - uid: Reqnroll.TestThreadContext
+    name: TestThreadContext
+    type: Class
+  - uid: Reqnroll.ThenAttribute
+    name: ThenAttribute
+    type: Class
+  - uid: Reqnroll.WhenAttribute
+    name: WhenAttribute
+    type: Class
+- uid: Reqnroll.Analytics
+  name: Reqnroll.Analytics
+  type: Namespace
+  items:
+  - uid: Reqnroll.Analytics.AnalyticsEventProvider
+    name: AnalyticsEventProvider
+    type: Class
+  - uid: Reqnroll.Analytics.AnalyticsTransmitter
+    name: AnalyticsTransmitter
+    type: Class
+  - uid: Reqnroll.Analytics.EnvironmentReqnrollTelemetryChecker
+    name: EnvironmentReqnrollTelemetryChecker
+    type: Class
+  - uid: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink
+    name: HttpClientAnalyticsTransmitterSink
+    type: Class
+  - uid: Reqnroll.Analytics.HttpClientWrapper
+    name: HttpClientWrapper
+    type: Class
+  - uid: Reqnroll.Analytics.IAnalyticsEvent
+    name: IAnalyticsEvent
+    type: Interface
+  - uid: Reqnroll.Analytics.IAnalyticsEventProvider
+    name: IAnalyticsEventProvider
+    type: Interface
+  - uid: Reqnroll.Analytics.IAnalyticsTransmitter
+    name: IAnalyticsTransmitter
+    type: Interface
+  - uid: Reqnroll.Analytics.IAnalyticsTransmitterSink
+    name: IAnalyticsTransmitterSink
+    type: Interface
+  - uid: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker
+    name: IEnvironmentReqnrollTelemetryChecker
+    type: Interface
+  - uid: Reqnroll.Analytics.ReqnrollAnalyticsEventBase
+    name: ReqnrollAnalyticsEventBase
+    type: Class
+  - uid: Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+    name: ReqnrollProjectCompilingEvent
+    type: Class
+  - uid: Reqnroll.Analytics.ReqnrollProjectRunningEvent
+    name: ReqnrollProjectRunningEvent
+    type: Class
+- uid: Reqnroll.Analytics.AppInsights
+  name: Reqnroll.Analytics.AppInsights
+  type: Namespace
+  items:
+  - uid: Reqnroll.Analytics.AppInsights.AppInsightsEventSerializer
+    name: AppInsightsEventSerializer
+    type: Class
+  - uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+    name: AppInsightsEventTelemetry
+    type: Class
+  - uid: Reqnroll.Analytics.AppInsights.AppInsightsInstrumentationKey
+    name: AppInsightsInstrumentationKey
+    type: Class
+  - uid: Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer
+    name: IAppInsightsEventSerializer
+    type: Interface
+  - uid: Reqnroll.Analytics.AppInsights.TelemetryData
+    name: TelemetryData
+    type: Class
+  - uid: Reqnroll.Analytics.AppInsights.TelemetryDataItem
+    name: TelemetryDataItem
+    type: Class
+- uid: Reqnroll.Analytics.UserId
+  name: Reqnroll.Analytics.UserId
+  type: Namespace
+  items:
+  - uid: Reqnroll.Analytics.UserId.DirectoryService
+    name: DirectoryService
+    type: Class
+  - uid: Reqnroll.Analytics.UserId.FileService
+    name: FileService
+    type: Class
+  - uid: Reqnroll.Analytics.UserId.FileUserIdStore
+    name: FileUserIdStore
+    type: Class
+  - uid: Reqnroll.Analytics.UserId.IDirectoryService
+    name: IDirectoryService
+    type: Interface
+  - uid: Reqnroll.Analytics.UserId.IFileService
+    name: IFileService
+    type: Interface
+  - uid: Reqnroll.Analytics.UserId.IUserUniqueIdStore
+    name: IUserUniqueIdStore
+    type: Interface
+- uid: Reqnroll.Assist
+  name: Reqnroll.Assist
+  type: Namespace
+  items:
+  - uid: Reqnroll.Assist.EnumerableProjection`1
+    name: EnumerableProjection<T>
+    type: Class
+  - uid: Reqnroll.Assist.FindInSetExtensionMethods
+    name: FindInSetExtensionMethods
+    type: Class
+  - uid: Reqnroll.Assist.ITableDiffExceptionBuilder`1
+    name: ITableDiffExceptionBuilder<T>
+    type: Interface
+  - uid: Reqnroll.Assist.IValueComparer
+    name: IValueComparer
+    type: Interface
+  - uid: Reqnroll.Assist.IValueRetriever
+    name: IValueRetriever
+    type: Interface
+  - uid: Reqnroll.Assist.InstanceCreationOptions
+    name: InstanceCreationOptions
+    type: Class
+  - uid: Reqnroll.Assist.ProjectionEnumerator`1
+    name: ProjectionEnumerator<T>
+    type: Class
+  - uid: Reqnroll.Assist.ProjectionExtensionMethods
+    name: ProjectionExtensionMethods
+    type: Class
+  - uid: Reqnroll.Assist.Projection`1
+    name: Projection<T>
+    type: Class
+  - uid: Reqnroll.Assist.RowExtensionMethods
+    name: RowExtensionMethods
+    type: Class
+  - uid: Reqnroll.Assist.Service
+    name: Service
+    type: Class
+  - uid: Reqnroll.Assist.ServiceComponentList`1
+    name: ServiceComponentList<T>
+    type: Class
+  - uid: Reqnroll.Assist.SetComparer`1
+    name: SetComparer<T>
+    type: Class
+  - uid: Reqnroll.Assist.TableDifferenceItem`1
+    name: TableDifferenceItem<TT>
+    type: Class
+  - uid: Reqnroll.Assist.TableDifferenceResults`1
+    name: TableDifferenceResults<TT>
+    type: Class
+- uid: Reqnroll.Assist.Attributes
+  name: Reqnroll.Assist.Attributes
+  type: Namespace
+  items:
+  - uid: Reqnroll.Assist.Attributes.TableAliasesAttribute
+    name: TableAliasesAttribute
+    type: Class
+- uid: Reqnroll.Assist.ValueComparers
+  name: Reqnroll.Assist.ValueComparers
+  type: Namespace
+  items:
+  - uid: Reqnroll.Assist.ValueComparers.BoolValueComparer
+    name: BoolValueComparer
+    type: Class
+  - uid: Reqnroll.Assist.ValueComparers.DateTimeOffsetValueComparer
+    name: DateTimeOffsetValueComparer
+    type: Class
+  - uid: Reqnroll.Assist.ValueComparers.DateTimeValueComparer
+    name: DateTimeValueComparer
+    type: Class
+  - uid: Reqnroll.Assist.ValueComparers.DecimalValueComparer
+    name: DecimalValueComparer
+    type: Class
+  - uid: Reqnroll.Assist.ValueComparers.DefaultValueComparer
+    name: DefaultValueComparer
+    type: Class
+  - uid: Reqnroll.Assist.ValueComparers.DoubleValueComparer
+    name: DoubleValueComparer
+    type: Class
+  - uid: Reqnroll.Assist.ValueComparers.FloatValueComparer
+    name: FloatValueComparer
+    type: Class
+  - uid: Reqnroll.Assist.ValueComparers.GuidValueComparer
+    name: GuidValueComparer
+    type: Class
+- uid: Reqnroll.Assist.ValueRetrievers
+  name: Reqnroll.Assist.ValueRetrievers
+  type: Namespace
+  items:
+  - uid: Reqnroll.Assist.ValueRetrievers.ArrayValueRetriever
+    name: ArrayValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.BoolValueRetriever
+    name: BoolValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.ByteValueRetriever
+    name: ByteValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.CharValueRetriever
+    name: CharValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.ClassRetriever`1
+    name: ClassRetriever<T>
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.DateTimeOffsetValueRetriever
+    name: DateTimeOffsetValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.DateTimeValueRetriever
+    name: DateTimeValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.DecimalValueRetriever
+    name: DecimalValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.DoubleValueRetriever
+    name: DoubleValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.EnumValueRetriever
+    name: EnumValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.EnumerableValueRetriever
+    name: EnumerableValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.FloatValueRetriever
+    name: FloatValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.GuidValueRetriever
+    name: GuidValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.IntValueRetriever
+    name: IntValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.ListValueRetriever
+    name: ListValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.LongValueRetriever
+    name: LongValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.NullValueRetriever
+    name: NullValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.SByteValueRetriever
+    name: SByteValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.ShortValueRetriever
+    name: ShortValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.StringValueRetriever
+    name: StringValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+    name: StructRetriever<T>
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.TimeSpanValueRetriever
+    name: TimeSpanValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.UIntValueRetriever
+    name: UIntValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.ULongValueRetriever
+    name: ULongValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.UShortValueRetriever
+    name: UShortValueRetriever
+    type: Class
+  - uid: Reqnroll.Assist.ValueRetrievers.UriValueRetriever
+    name: UriValueRetriever
+    type: Class
+- uid: Reqnroll.BindingSkeletons
+  name: Reqnroll.BindingSkeletons
+  type: Namespace
+  items:
+  - uid: Reqnroll.BindingSkeletons.AnalyzedStepParameter
+    name: AnalyzedStepParameter
+    type: Class
+  - uid: Reqnroll.BindingSkeletons.AnalyzedStepText
+    name: AnalyzedStepText
+    type: Class
+  - uid: Reqnroll.BindingSkeletons.DefaultSkeletonTemplateProvider
+    name: DefaultSkeletonTemplateProvider
+    type: Class
+  - uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+    name: FileBasedSkeletonTemplateProvider
+    type: Class
+  - uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+    name: ISkeletonTemplateProvider
+    type: Interface
+  - uid: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+    name: IStepDefinitionSkeletonProvider
+    type: Interface
+  - uid: Reqnroll.BindingSkeletons.IStepTextAnalyzer
+    name: IStepTextAnalyzer
+    type: Interface
+  - uid: Reqnroll.BindingSkeletons.Keywords
+    name: Keywords
+    type: Class
+  - uid: Reqnroll.BindingSkeletons.ParameterNameExtensions
+    name: ParameterNameExtensions
+    type: Class
+  - uid: Reqnroll.BindingSkeletons.ResourceSkeletonTemplateProvider
+    name: ResourceSkeletonTemplateProvider
+    type: Class
+  - uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonProvider
+    name: StepDefinitionSkeletonProvider
+    type: Class
+  - uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+    name: StepDefinitionSkeletonStyle
+    type: Enum
+  - uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+    name: StepParameterNameGenerator
+    type: Class
+  - uid: Reqnroll.BindingSkeletons.StepTextAnalyzer
+    name: StepTextAnalyzer
+    type: Class
+- uid: Reqnroll.Bindings
+  name: Reqnroll.Bindings
+  type: Namespace
+  items:
+  - uid: Reqnroll.Bindings.BindingDelegateInvoker
+    name: BindingDelegateInvoker
+    type: Class
+  - uid: Reqnroll.Bindings.BindingError
+    name: BindingError
+    type: Class
+  - uid: Reqnroll.Bindings.BindingErrorType
+    name: BindingErrorType
+    type: Enum
+  - uid: Reqnroll.Bindings.BindingFactory
+    name: BindingFactory
+    type: Class
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    type: Class
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`10
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`11
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`12
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`13
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`14
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`15
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`16
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`17
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`18
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`19
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`20
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`5
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`6
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`7
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`8
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`9
+    name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`10
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`11
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`12
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`13
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`14
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`15
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`16
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`17
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`18
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`19
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`20
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`21
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`6
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`7
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`8
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`9
+    name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, TResult>
+    type: Delegate
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    type: Class
+  - uid: Reqnroll.Bindings.BindingObsoletion
+    name: BindingObsoletion
+    type: Class
+  - uid: Reqnroll.Bindings.BindingRegistry
+    name: BindingRegistry
+    type: Class
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    type: Class
+  - uid: Reqnroll.Bindings.DryRunBindingInvoker
+    name: DryRunBindingInvoker
+    type: Class
+  - uid: Reqnroll.Bindings.DurationHolder
+    name: DurationHolder
+    type: Class
+  - uid: Reqnroll.Bindings.ExecutionContextHolder
+    name: ExecutionContextHolder
+    type: Class
+  - uid: Reqnroll.Bindings.HookBinding
+    name: HookBinding
+    type: Class
+  - uid: Reqnroll.Bindings.HookType
+    name: HookType
+    type: Enum
+  - uid: Reqnroll.Bindings.IAsyncBindingInvoker
+    name: IAsyncBindingInvoker
+    type: Interface
+  - uid: Reqnroll.Bindings.IBinding
+    name: IBinding
+    type: Interface
+  - uid: Reqnroll.Bindings.IBindingDelegateInvoker
+    name: IBindingDelegateInvoker
+    type: Interface
+  - uid: Reqnroll.Bindings.IBindingFactory
+    name: IBindingFactory
+    type: Interface
+  - uid: Reqnroll.Bindings.IBindingInvoker
+    name: IBindingInvoker
+    type: Interface
+  - uid: Reqnroll.Bindings.IBindingRegistry
+    name: IBindingRegistry
+    type: Interface
+  - uid: Reqnroll.Bindings.IHookBinding
+    name: IHookBinding
+    type: Interface
+  - uid: Reqnroll.Bindings.IScopedBinding
+    name: IScopedBinding
+    type: Interface
+  - uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+    name: IStepArgumentTransformationBinding
+    type: Interface
+  - uid: Reqnroll.Bindings.IStepArgumentTypeConverter
+    name: IStepArgumentTypeConverter
+    type: Interface
+  - uid: Reqnroll.Bindings.IStepDefinitionBinding
+    name: IStepDefinitionBinding
+    type: Interface
+  - uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+    name: IStepDefinitionBindingBuilder
+    type: Interface
+  - uid: Reqnroll.Bindings.IStepDefinitionRegexCalculator
+    name: IStepDefinitionRegexCalculator
+    type: Interface
+  - uid: Reqnroll.Bindings.InvalidStepDefinitionBindingBuilder
+    name: InvalidStepDefinitionBindingBuilder
+    type: Class
+  - uid: Reqnroll.Bindings.MethodBinding
+    name: MethodBinding
+    type: Class
+  - uid: Reqnroll.Bindings.MethodNameStepDefinitionBindingBuilder
+    name: MethodNameStepDefinitionBindingBuilder
+    type: Class
+  - uid: Reqnroll.Bindings.RegexStepDefinitionBindingBuilder
+    name: RegexStepDefinitionBindingBuilder
+    type: Class
+  - uid: Reqnroll.Bindings.StepArgumentTransformationBinding
+    name: StepArgumentTransformationBinding
+    type: Class
+  - uid: Reqnroll.Bindings.StepArgumentTypeConverter
+    name: StepArgumentTypeConverter
+    type: Class
+  - uid: Reqnroll.Bindings.StepContext
+    name: StepContext
+    type: Class
+  - uid: Reqnroll.Bindings.StepDefinitionBinding
+    name: StepDefinitionBinding
+    type: Class
+  - uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+    name: StepDefinitionBindingBuilderBase
+    type: Class
+  - uid: Reqnroll.Bindings.StepDefinitionExpressionTypes
+    name: StepDefinitionExpressionTypes
+    type: Class
+  - uid: Reqnroll.Bindings.StepDefinitionKeyword
+    name: StepDefinitionKeyword
+    type: Enum
+  - uid: Reqnroll.Bindings.StepDefinitionRegexCalculator
+    name: StepDefinitionRegexCalculator
+    type: Class
+  - uid: Reqnroll.Bindings.StepDefinitionType
+    name: StepDefinitionType
+    type: Enum
+  - uid: Reqnroll.Bindings.StepInstance
+    name: StepInstance
+    type: Class
+- uid: Reqnroll.Bindings.CucumberExpressions
+  name: Reqnroll.Bindings.CucumberExpressions
+  type: Namespace
+  items:
+  - uid: Reqnroll.Bindings.CucumberExpressions.BuiltInCucumberExpressionParameterTypeTransformation
+    name: BuiltInCucumberExpressionParameterTypeTransformation
+    type: Class
+  - uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionDetector
+    name: CucumberExpressionDetector
+    type: Class
+  - uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+    name: CucumberExpressionParameterType
+    type: Class
+  - uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterTypeRegistry
+    name: CucumberExpressionParameterTypeRegistry
+    type: Class
+  - uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder
+    name: CucumberExpressionStepDefinitionBindingBuilder
+    type: Class
+  - uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilderFactory
+    name: CucumberExpressionStepDefinitionBindingBuilderFactory
+    type: Class
+  - uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+    name: ICucumberExpressionDetector
+    type: Interface
+  - uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+    name: ICucumberExpressionParameterTypeTransformation
+    type: Interface
+  - uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+    name: ICucumberExpressionStepDefinitionBindingBuilderFactory
+    type: Interface
+  - uid: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+    name: IReqnrollCucumberExpressionParameterType
+    type: Interface
+  - uid: Reqnroll.Bindings.CucumberExpressions.ReqnrollCucumberExpression
+    name: ReqnrollCucumberExpression
+    type: Class
+  - uid: Reqnroll.Bindings.CucumberExpressions.UserDefinedCucumberExpressionParameterTypeTransformation
+    name: UserDefinedCucumberExpressionParameterTypeTransformation
+    type: Class
+- uid: Reqnroll.Bindings.Discovery
+  name: Reqnroll.Bindings.Discovery
+  type: Namespace
+  items:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceAttribute
+    name: BindingSourceAttribute
+    type: Class
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider
+    name: BindingSourceAttributeValueProvider
+    type: Class
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    type: Class
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+    name: BindingSourceProcessor
+    type: Class
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+    name: BindingSourceProcessor.BindingValidationResult
+    type: Struct
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceType
+    name: BindingSourceType
+    type: Class
+  - uid: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+    name: IBindingSourceAttributeValueProvider
+    type: Interface
+  - uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+    name: IBindingSourceProcessor
+    type: Interface
+  - uid: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+    name: IReqnrollAttributesFilter
+    type: Interface
+  - uid: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+    name: IRuntimeBindingRegistryBuilder
+    type: Interface
+  - uid: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor
+    name: IRuntimeBindingSourceProcessor
+    type: Interface
+  - uid: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter
+    name: ReqnrollAttributesFilter
+    type: Class
+  - uid: Reqnroll.Bindings.Discovery.RuntimeBindingRegistryBuilder
+    name: RuntimeBindingRegistryBuilder
+    type: Class
+  - uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+    name: RuntimeBindingSourceProcessor
+    type: Class
+- uid: Reqnroll.Bindings.Provider
+  name: Reqnroll.Bindings.Provider
+  type: Namespace
+  items:
+  - uid: Reqnroll.Bindings.Provider.BindingProviderService
+    name: BindingProviderService
+    type: Class
+- uid: Reqnroll.Bindings.Provider.Data
+  name: Reqnroll.Bindings.Provider.Data
+  type: Namespace
+  items:
+  - uid: Reqnroll.Bindings.Provider.Data.BindingData
+    name: BindingData
+    type: Class
+  - uid: Reqnroll.Bindings.Provider.Data.BindingScopeData
+    name: BindingScopeData
+    type: Class
+  - uid: Reqnroll.Bindings.Provider.Data.BindingSourceData
+    name: BindingSourceData
+    type: Class
+  - uid: Reqnroll.Bindings.Provider.Data.BindingSourceMethodData
+    name: BindingSourceMethodData
+    type: Class
+  - uid: Reqnroll.Bindings.Provider.Data.HookData
+    name: HookData
+    type: Class
+  - uid: Reqnroll.Bindings.Provider.Data.StepArgumentTransformationData
+    name: StepArgumentTransformationData
+    type: Class
+  - uid: Reqnroll.Bindings.Provider.Data.StepDefinitionData
+    name: StepDefinitionData
+    type: Class
+- uid: Reqnroll.Bindings.Reflection
+  name: Reqnroll.Bindings.Reflection
+  type: Namespace
+  items:
+  - uid: Reqnroll.Bindings.Reflection.BindingMethod
+    name: BindingMethod
+    type: Class
+  - uid: Reqnroll.Bindings.Reflection.BindingMethodComparer
+    name: BindingMethodComparer
+    type: Class
+  - uid: Reqnroll.Bindings.Reflection.BindingParameter
+    name: BindingParameter
+    type: Class
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+    name: BindingReflectionExtensions
+    type: Class
+  - uid: Reqnroll.Bindings.Reflection.BindingType
+    name: BindingType
+    type: Class
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    type: Interface
+  - uid: Reqnroll.Bindings.Reflection.IBindingParameter
+    name: IBindingParameter
+    type: Interface
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    type: Interface
+  - uid: Reqnroll.Bindings.Reflection.IPolymorphicBindingType
+    name: IPolymorphicBindingType
+    type: Interface
+  - uid: Reqnroll.Bindings.Reflection.RuntimeBindingMethod
+    name: RuntimeBindingMethod
+    type: Class
+  - uid: Reqnroll.Bindings.Reflection.RuntimeBindingParameter
+    name: RuntimeBindingParameter
+    type: Class
+  - uid: Reqnroll.Bindings.Reflection.RuntimeBindingType
+    name: RuntimeBindingType
+    type: Class
+- uid: Reqnroll.BoDi
+  name: Reqnroll.BoDi
+  type: Namespace
+  items:
+  - uid: Reqnroll.BoDi.IContainedInstance
+    name: IContainedInstance
+    type: Interface
+  - uid: Reqnroll.BoDi.IObjectContainer
+    name: IObjectContainer
+    type: Interface
+  - uid: Reqnroll.BoDi.IStrategyRegistration
+    name: IStrategyRegistration
+    type: Interface
+  - uid: Reqnroll.BoDi.ObjectContainer
+    name: ObjectContainer
+    type: Class
+  - uid: Reqnroll.BoDi.ObjectContainerException
+    name: ObjectContainerException
+    type: Class
+- uid: Reqnroll.CommonModels
+  name: Reqnroll.CommonModels
+  type: Namespace
+  items:
+  - uid: Reqnroll.CommonModels.ExceptionFailure
+    name: ExceptionFailure
+    type: Class
+  - uid: Reqnroll.CommonModels.ExceptionFailure`1
+    name: ExceptionFailure<T>
+    type: Class
+  - uid: Reqnroll.CommonModels.Failure
+    name: Failure
+    type: Class
+  - uid: Reqnroll.CommonModels.Failure`1
+    name: Failure<T>
+    type: Class
+  - uid: Reqnroll.CommonModels.IFailure
+    name: IFailure
+    type: Interface
+  - uid: Reqnroll.CommonModels.IFailure`1
+    name: IFailure<T>
+    type: Interface
+  - uid: Reqnroll.CommonModels.IResult
+    name: IResult
+    type: Interface
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult<T>
+    type: Interface
+  - uid: Reqnroll.CommonModels.ISuccess
+    name: ISuccess
+    type: Interface
+  - uid: Reqnroll.CommonModels.ISuccess`1
+    name: ISuccess<T>
+    type: Interface
+  - uid: Reqnroll.CommonModels.Result
+    name: Result
+    type: Class
+  - uid: Reqnroll.CommonModels.Result`1
+    name: Result<T>
+    type: Class
+  - uid: Reqnroll.CommonModels.Success
+    name: Success
+    type: Class
+  - uid: Reqnroll.CommonModels.Success`1
+    name: Success<T>
+    type: Class
+  - uid: Reqnroll.CommonModels.WrappedFailure
+    name: WrappedFailure
+    type: Class
+  - uid: Reqnroll.CommonModels.WrappedFailure`1
+    name: WrappedFailure<T>
+    type: Class
+- uid: Reqnroll.Configuration
+  name: Reqnroll.Configuration
+  type: Namespace
+  items:
+  - uid: Reqnroll.Configuration.ConfigDefaults
+    name: ConfigDefaults
+    type: Class
+  - uid: Reqnroll.Configuration.ConfigSource
+    name: ConfigSource
+    type: Enum
+  - uid: Reqnroll.Configuration.ConfigurationLoader
+    name: ConfigurationLoader
+    type: Class
+  - uid: Reqnroll.Configuration.DefaultRuntimeConfigurationProvider
+    name: DefaultRuntimeConfigurationProvider
+    type: Class
+  - uid: Reqnroll.Configuration.DependencyConfiguration
+    name: DependencyConfiguration
+    type: Class
+  - uid: Reqnroll.Configuration.DependencyConfigurationCollection
+    name: DependencyConfigurationCollection
+    type: Class
+  - uid: Reqnroll.Configuration.IConfigurationLoader
+    name: IConfigurationLoader
+    type: Interface
+  - uid: Reqnroll.Configuration.IReqnrollConfigurationHolder
+    name: IReqnrollConfigurationHolder
+    type: Interface
+  - uid: Reqnroll.Configuration.IReqnrollJsonLocator
+    name: IReqnrollJsonLocator
+    type: Interface
+  - uid: Reqnroll.Configuration.IRuntimeConfigurationProvider
+    name: IRuntimeConfigurationProvider
+    type: Interface
+  - uid: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider
+    name: JsonStringRuntimeConfigurationProvider
+    type: Class
+  - uid: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+    name: MissingOrPendingStepsOutcome
+    type: Enum
+  - uid: Reqnroll.Configuration.ObsoleteBehavior
+    name: ObsoleteBehavior
+    type: Enum
+  - uid: Reqnroll.Configuration.ReqnrollConfiguration
+    name: ReqnrollConfiguration
+    type: Class
+  - uid: Reqnroll.Configuration.ReqnrollJsonLocator
+    name: ReqnrollJsonLocator
+    type: Class
+- uid: Reqnroll.Configuration.JsonConfig
+  name: Reqnroll.Configuration.JsonConfig
+  type: Namespace
+  items:
+  - uid: Reqnroll.Configuration.JsonConfig.BindingCultureElement
+    name: BindingCultureElement
+    type: Class
+  - uid: Reqnroll.Configuration.JsonConfig.Dependency
+    name: Dependency
+    type: Class
+  - uid: Reqnroll.Configuration.JsonConfig.GeneratorElement
+    name: GeneratorElement
+    type: Class
+  - uid: Reqnroll.Configuration.JsonConfig.JsonConfig
+    name: JsonConfig
+    type: Class
+  - uid: Reqnroll.Configuration.JsonConfig.JsonConfigurationLoader
+    name: JsonConfigurationLoader
+    type: Class
+  - uid: Reqnroll.Configuration.JsonConfig.LanguageElement
+    name: LanguageElement
+    type: Class
+  - uid: Reqnroll.Configuration.JsonConfig.PluginElement
+    name: PluginElement
+    type: Class
+  - uid: Reqnroll.Configuration.JsonConfig.RuntimeElement
+    name: RuntimeElement
+    type: Class
+  - uid: Reqnroll.Configuration.JsonConfig.StepAssemblyElement
+    name: StepAssemblyElement
+    type: Class
+  - uid: Reqnroll.Configuration.JsonConfig.TraceElement
+    name: TraceElement
+    type: Class
+  - uid: Reqnroll.Configuration.JsonConfig.UnitTestProviderElement
+    name: UnitTestProviderElement
+    type: Class
+- uid: Reqnroll.EnvironmentAccess
+  name: Reqnroll.EnvironmentAccess
+  type: Namespace
+  items:
+  - uid: Reqnroll.EnvironmentAccess.EnvironmentWrapper
+    name: EnvironmentWrapper
+    type: Class
+  - uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+    name: IEnvironmentWrapper
+    type: Interface
+- uid: Reqnroll.ErrorHandling
+  name: Reqnroll.ErrorHandling
+  type: Namespace
+  items:
+  - uid: Reqnroll.ErrorHandling.IErrorProvider
+    name: IErrorProvider
+    type: Interface
+- uid: Reqnroll.Events
+  name: Reqnroll.Events
+  type: Namespace
+  items:
+  - uid: Reqnroll.Events.AttachmentAddedEvent
+    name: AttachmentAddedEvent
+    type: Class
+  - uid: Reqnroll.Events.ExecutionEvent
+    name: ExecutionEvent
+    type: Class
+  - uid: Reqnroll.Events.FeatureFinishedEvent
+    name: FeatureFinishedEvent
+    type: Class
+  - uid: Reqnroll.Events.FeatureStartedEvent
+    name: FeatureStartedEvent
+    type: Class
+  - uid: Reqnroll.Events.HookBindingFinishedEvent
+    name: HookBindingFinishedEvent
+    type: Class
+  - uid: Reqnroll.Events.HookBindingStartedEvent
+    name: HookBindingStartedEvent
+    type: Class
+  - uid: Reqnroll.Events.HookFinishedEvent
+    name: HookFinishedEvent
+    type: Class
+  - uid: Reqnroll.Events.HookStartedEvent
+    name: HookStartedEvent
+    type: Class
+  - uid: Reqnroll.Events.IExecutionEvent
+    name: IExecutionEvent
+    type: Interface
+  - uid: Reqnroll.Events.IExecutionEventListener
+    name: IExecutionEventListener
+    type: Interface
+  - uid: Reqnroll.Events.IExecutionOutputEvent
+    name: IExecutionOutputEvent
+    type: Interface
+  - uid: Reqnroll.Events.ITestThreadExecutionEventPublisher
+    name: ITestThreadExecutionEventPublisher
+    type: Interface
+  - uid: Reqnroll.Events.OutputAddedEvent
+    name: OutputAddedEvent
+    type: Class
+  - uid: Reqnroll.Events.ScenarioFinishedEvent
+    name: ScenarioFinishedEvent
+    type: Class
+  - uid: Reqnroll.Events.ScenarioSkippedEvent
+    name: ScenarioSkippedEvent
+    type: Class
+  - uid: Reqnroll.Events.ScenarioStartedEvent
+    name: ScenarioStartedEvent
+    type: Class
+  - uid: Reqnroll.Events.StepBindingFinishedEvent
+    name: StepBindingFinishedEvent
+    type: Class
+  - uid: Reqnroll.Events.StepBindingStartedEvent
+    name: StepBindingStartedEvent
+    type: Class
+  - uid: Reqnroll.Events.StepFinishedEvent
+    name: StepFinishedEvent
+    type: Class
+  - uid: Reqnroll.Events.StepSkippedEvent
+    name: StepSkippedEvent
+    type: Class
+  - uid: Reqnroll.Events.StepStartedEvent
+    name: StepStartedEvent
+    type: Class
+  - uid: Reqnroll.Events.TestRunFinishedEvent
+    name: TestRunFinishedEvent
+    type: Class
+  - uid: Reqnroll.Events.TestRunStartedEvent
+    name: TestRunStartedEvent
+    type: Class
+  - uid: Reqnroll.Events.TestThreadExecutionEventPublisher
+    name: TestThreadExecutionEventPublisher
+    type: Class
+- uid: Reqnroll.FileAccess
+  name: Reqnroll.FileAccess
+  type: Namespace
+  items:
+  - uid: Reqnroll.FileAccess.BinaryFileAccessor
+    name: BinaryFileAccessor
+    type: Class
+  - uid: Reqnroll.FileAccess.IBinaryFileAccessor
+    name: IBinaryFileAccessor
+    type: Interface
+- uid: Reqnroll.Infrastructure
+  name: Reqnroll.Infrastructure
+  type: Namespace
+  items:
+  - uid: Reqnroll.Infrastructure.BindingAssemblyLoader
+    name: BindingAssemblyLoader
+    type: Class
+  - uid: Reqnroll.Infrastructure.BlockingSyncTestRunner
+    name: BlockingSyncTestRunner
+    type: Class
+  - uid: Reqnroll.Infrastructure.ContainerBuilder
+    name: ContainerBuilder
+    type: Class
+  - uid: Reqnroll.Infrastructure.ContextManager
+    name: ContextManager
+    type: Class
+  - uid: Reqnroll.Infrastructure.DefaultDependencyProvider
+    name: DefaultDependencyProvider
+    type: Class
+  - uid: Reqnroll.Infrastructure.GeneratorPluginAttribute
+    name: GeneratorPluginAttribute
+    type: Class
+  - uid: Reqnroll.Infrastructure.IBindingAssemblyLoader
+    name: IBindingAssemblyLoader
+    type: Interface
+  - uid: Reqnroll.Infrastructure.IContainerBuilder
+    name: IContainerBuilder
+    type: Interface
+  - uid: Reqnroll.Infrastructure.IContainerDependentObject
+    name: IContainerDependentObject
+    type: Interface
+  - uid: Reqnroll.Infrastructure.IContextManager
+    name: IContextManager
+    type: Interface
+  - uid: Reqnroll.Infrastructure.IDefaultDependencyProvider
+    name: IDefaultDependencyProvider
+    type: Interface
+  - uid: Reqnroll.Infrastructure.IMatchArgumentCalculator
+    name: IMatchArgumentCalculator
+    type: Interface
+  - uid: Reqnroll.Infrastructure.IObsoleteStepHandler
+    name: IObsoleteStepHandler
+    type: Interface
+  - uid: Reqnroll.Infrastructure.IReqnrollAttachmentHandler
+    name: IReqnrollAttachmentHandler
+    type: Interface
+  - uid: Reqnroll.Infrastructure.ISkippedStepHandler
+    name: ISkippedStepHandler
+    type: Interface
+  - uid: Reqnroll.Infrastructure.IStepDefinitionMatchService
+    name: IStepDefinitionMatchService
+    type: Interface
+  - uid: Reqnroll.Infrastructure.ITestAssemblyProvider
+    name: ITestAssemblyProvider
+    type: Interface
+  - uid: Reqnroll.Infrastructure.ITestExecutionEngine
+    name: ITestExecutionEngine
+    type: Interface
+  - uid: Reqnroll.Infrastructure.ITestObjectResolver
+    name: ITestObjectResolver
+    type: Interface
+  - uid: Reqnroll.Infrastructure.ITestPendingMessageFactory
+    name: ITestPendingMessageFactory
+    type: Interface
+  - uid: Reqnroll.Infrastructure.ITestRunnerFactory
+    name: ITestRunnerFactory
+    type: Interface
+  - uid: Reqnroll.Infrastructure.ITestUndefinedMessageFactory
+    name: ITestUndefinedMessageFactory
+    type: Interface
+  - uid: Reqnroll.Infrastructure.MatchArgumentCalculator
+    name: MatchArgumentCalculator
+    type: Class
+  - uid: Reqnroll.Infrastructure.ObsoleteStepHandler
+    name: ObsoleteStepHandler
+    type: Class
+  - uid: Reqnroll.Infrastructure.ReqnrollAttachmentHandler
+    name: ReqnrollAttachmentHandler
+    type: Class
+  - uid: Reqnroll.Infrastructure.ReqnrollOutputHelper
+    name: ReqnrollOutputHelper
+    type: Class
+  - uid: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+    name: StepDefinitionAmbiguityReason
+    type: Enum
+  - uid: Reqnroll.Infrastructure.StepDefinitionMatchService
+    name: StepDefinitionMatchService
+    type: Class
+  - uid: Reqnroll.Infrastructure.TestAssemblyProvider
+    name: TestAssemblyProvider
+    type: Class
+  - uid: Reqnroll.Infrastructure.TestExecutionEngine
+    name: TestExecutionEngine
+    type: Class
+  - uid: Reqnroll.Infrastructure.TestObjectResolver
+    name: TestObjectResolver
+    type: Class
+  - uid: Reqnroll.Infrastructure.TestPendingMessageFactory
+    name: TestPendingMessageFactory
+    type: Class
+  - uid: Reqnroll.Infrastructure.TestUndefinedMessageFactory
+    name: TestUndefinedMessageFactory
+    type: Class
+- uid: Reqnroll.Parser
+  name: Reqnroll.Parser
+  type: Namespace
+  items:
+  - uid: Reqnroll.Parser.ReqnrollGherkinDialectProvider
+    name: ReqnrollGherkinDialectProvider
+    type: Class
+- uid: Reqnroll.PlatformCompatibility
+  name: Reqnroll.PlatformCompatibility
+  type: Namespace
+  items:
+  - uid: Reqnroll.PlatformCompatibility.PlatformHelper
+    name: PlatformHelper
+    type: Class
+  - uid: Reqnroll.PlatformCompatibility.PlatformInformation
+    name: PlatformInformation
+    type: Class
+- uid: Reqnroll.Plugins
+  name: Reqnroll.Plugins
+  type: Namespace
+  items:
+  - uid: Reqnroll.Plugins.AssemblyResolverBase
+    name: AssemblyResolverBase
+    type: Class
+  - uid: Reqnroll.Plugins.ConfigurationDefaultsEventArgs
+    name: ConfigurationDefaultsEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.CustomizeFeatureDependenciesEventArgs
+    name: CustomizeFeatureDependenciesEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs
+    name: CustomizeGlobalDependenciesEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.CustomizeScenarioDependenciesEventArgs
+    name: CustomizeScenarioDependenciesEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.CustomizeTestThreadDependenciesEventArgs
+    name: CustomizeTestThreadDependenciesEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.DotNetCorePluginAssemblyLoader
+    name: DotNetCorePluginAssemblyLoader
+    type: Class
+  - uid: Reqnroll.Plugins.DotNetCorePluginAssemblyResolver
+    name: DotNetCorePluginAssemblyResolver
+    type: Class
+  - uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyLoader
+    name: DotNetFrameworkPluginAssemblyLoader
+    type: Class
+  - uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver
+    name: DotNetFrameworkPluginAssemblyResolver
+    type: Class
+  - uid: Reqnroll.Plugins.IPluginAssemblyLoader
+    name: IPluginAssemblyLoader
+    type: Interface
+  - uid: Reqnroll.Plugins.IReqnrollPath
+    name: IReqnrollPath
+    type: Interface
+  - uid: Reqnroll.Plugins.IRuntimePlugin
+    name: IRuntimePlugin
+    type: Interface
+  - uid: Reqnroll.Plugins.IRuntimePluginLoader
+    name: IRuntimePluginLoader
+    type: Interface
+  - uid: Reqnroll.Plugins.IRuntimePluginLocationMerger
+    name: IRuntimePluginLocationMerger
+    type: Interface
+  - uid: Reqnroll.Plugins.IRuntimePluginLocator
+    name: IRuntimePluginLocator
+    type: Interface
+  - uid: Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter
+    name: IRuntimePluginTestExecutionLifecycleEventEmitter
+    type: Interface
+  - uid: Reqnroll.Plugins.ObjectContainerEventArgs
+    name: ObjectContainerEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.PluginDescriptor
+    name: PluginDescriptor
+    type: Class
+  - uid: Reqnroll.Plugins.PluginType
+    name: PluginType
+    type: Enum
+  - uid: Reqnroll.Plugins.RegisterGlobalDependenciesEventArgs
+    name: RegisterGlobalDependenciesEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.ReqnrollPath
+    name: ReqnrollPath
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginAfterFeatureEventArgs
+    name: RuntimePluginAfterFeatureEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginAfterScenarioEventArgs
+    name: RuntimePluginAfterScenarioEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginAfterStepEventArgs
+    name: RuntimePluginAfterStepEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginAfterTestRunEventArgs
+    name: RuntimePluginAfterTestRunEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginAttribute
+    name: RuntimePluginAttribute
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginBeforeFeatureEventArgs
+    name: RuntimePluginBeforeFeatureEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginBeforeScenarioEventArgs
+    name: RuntimePluginBeforeScenarioEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginBeforeStepEventArgs
+    name: RuntimePluginBeforeStepEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginBeforeTestRunEventArgs
+    name: RuntimePluginBeforeTestRunEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginEvents
+    name: RuntimePluginEvents
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginLoader
+    name: RuntimePluginLoader
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginLocationMerger
+    name: RuntimePluginLocationMerger
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginParameters
+    name: RuntimePluginParameters
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginTestExecutionLifecycleEventArgs
+    name: RuntimePluginTestExecutionLifecycleEventArgs
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginTestExecutionLifecycleEventEmitter
+    name: RuntimePluginTestExecutionLifecycleEventEmitter
+    type: Class
+  - uid: Reqnroll.Plugins.RuntimePluginTestExecutionLifecycleEvents
+    name: RuntimePluginTestExecutionLifecycleEvents
+    type: Class
+- uid: Reqnroll.TestFramework
+  name: Reqnroll.TestFramework
+  type: Namespace
+  items:
+  - uid: Reqnroll.TestFramework.DefaultTestRunSettingsProvider
+    name: DefaultTestRunSettingsProvider
+    type: Class
+  - uid: Reqnroll.TestFramework.ITestRunSettingsProvider
+    name: ITestRunSettingsProvider
+    type: Interface
+- uid: Reqnroll.Time
+  name: Reqnroll.Time
+  type: Namespace
+  items:
+  - uid: Reqnroll.Time.IClock
+    name: IClock
+    type: Interface
+  - uid: Reqnroll.Time.UtcDateTimeClock
+    name: UtcDateTimeClock
+    type: Class
+- uid: Reqnroll.Tracing
+  name: Reqnroll.Tracing
+  type: Namespace
+  items:
+  - uid: Reqnroll.Tracing.AsyncTraceListener
+    name: AsyncTraceListener
+    type: Class
+  - uid: Reqnroll.Tracing.CodeFormattingExtensions
+    name: CodeFormattingExtensions
+    type: Class
+  - uid: Reqnroll.Tracing.ColorOutputHelper
+    name: ColorOutputHelper
+    type: Class
+  - uid: Reqnroll.Tracing.ColorOutputTheme
+    name: ColorOutputTheme
+    type: Class
+  - uid: Reqnroll.Tracing.DefaultListener
+    name: DefaultListener
+    type: Class
+  - uid: Reqnroll.Tracing.IColorOutputHelper
+    name: IColorOutputHelper
+    type: Interface
+  - uid: Reqnroll.Tracing.IColorOutputTheme
+    name: IColorOutputTheme
+    type: Interface
+  - uid: Reqnroll.Tracing.IStepFormatter
+    name: IStepFormatter
+    type: Interface
+  - uid: Reqnroll.Tracing.ITestTracer
+    name: ITestTracer
+    type: Interface
+  - uid: Reqnroll.Tracing.IThreadSafeTraceListener
+    name: IThreadSafeTraceListener
+    type: Interface
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    type: Interface
+  - uid: Reqnroll.Tracing.ITraceListenerQueue
+    name: ITraceListenerQueue
+    type: Interface
+  - uid: Reqnroll.Tracing.NullListener
+    name: NullListener
+    type: Class
+  - uid: Reqnroll.Tracing.TestTracer
+    name: TestTracer
+    type: Class
+  - uid: Reqnroll.Tracing.TraceListenerHelper
+    name: TraceListenerHelper
+    type: Class
+  - uid: Reqnroll.Tracing.TraceListenerQueue
+    name: TraceListenerQueue
+    type: Class
+- uid: Reqnroll.Tracing.AnsiColor
+  name: Reqnroll.Tracing.AnsiColor
+  type: Namespace
+  items:
+  - uid: Reqnroll.Tracing.AnsiColor.AnsiColor
+    name: AnsiColor
+    type: Struct
+  - uid: Reqnroll.Tracing.AnsiColor.InvalidColorException
+    name: InvalidColorException
+    type: Class
+  - uid: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes
+    name: Terminal256ColorCodes
+    type: Enum
+  - uid: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions
+    name: Terminal256ColorCodesExtensions
+    type: Class
+  - uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+    name: TerminalControlSequences
+    type: Enum
+  - uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+    name: TerminalRgbColor
+    type: Struct
+- uid: Reqnroll.UnitTestProvider
+  name: Reqnroll.UnitTestProvider
+  type: Namespace
+  items:
+  - uid: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+    name: IUnitTestRuntimeProvider
+    type: Interface
+  - uid: Reqnroll.UnitTestProvider.UnitTestProviderConfiguration
+    name: UnitTestProviderConfiguration
+    type: Class
+memberLayout: SamePage

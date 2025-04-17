@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Events.ITestThreadExecutionEventPublisher
+  commentId: T:Reqnroll.Events.ITestThreadExecutionEventPublisher
+  id: ITestThreadExecutionEventPublisher
+  parent: Reqnroll.Events
+  children:
+  - Reqnroll.Events.ITestThreadExecutionEventPublisher.AddHandler``1(System.Action{``0})
+  - Reqnroll.Events.ITestThreadExecutionEventPublisher.AddListener(Reqnroll.Events.IExecutionEventListener)
+  - Reqnroll.Events.ITestThreadExecutionEventPublisher.PublishEvent(Reqnroll.Events.IExecutionEvent)
+  langs:
+  - csharp
+  - vb
+  name: ITestThreadExecutionEventPublisher
+  nameWithType: ITestThreadExecutionEventPublisher
+  fullName: Reqnroll.Events.ITestThreadExecutionEventPublisher
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Events/ITestThreadExecutionEventPublisher.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ITestThreadExecutionEventPublisher
+    path: ../Reqnroll/Reqnroll/Events/ITestThreadExecutionEventPublisher.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: public interface ITestThreadExecutionEventPublisher
+    content.vb: Public Interface ITestThreadExecutionEventPublisher
+- uid: Reqnroll.Events.ITestThreadExecutionEventPublisher.PublishEvent(Reqnroll.Events.IExecutionEvent)
+  commentId: M:Reqnroll.Events.ITestThreadExecutionEventPublisher.PublishEvent(Reqnroll.Events.IExecutionEvent)
+  id: PublishEvent(Reqnroll.Events.IExecutionEvent)
+  parent: Reqnroll.Events.ITestThreadExecutionEventPublisher
+  langs:
+  - csharp
+  - vb
+  name: PublishEvent(IExecutionEvent)
+  nameWithType: ITestThreadExecutionEventPublisher.PublishEvent(IExecutionEvent)
+  fullName: Reqnroll.Events.ITestThreadExecutionEventPublisher.PublishEvent(Reqnroll.Events.IExecutionEvent)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Events/ITestThreadExecutionEventPublisher.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: PublishEvent
+    path: ../Reqnroll/Reqnroll/Events/ITestThreadExecutionEventPublisher.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: void PublishEvent(IExecutionEvent executionEvent)
+    parameters:
+    - id: executionEvent
+      type: Reqnroll.Events.IExecutionEvent
+    content.vb: Sub PublishEvent(executionEvent As IExecutionEvent)
+  overload: Reqnroll.Events.ITestThreadExecutionEventPublisher.PublishEvent*
+- uid: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddListener(Reqnroll.Events.IExecutionEventListener)
+  commentId: M:Reqnroll.Events.ITestThreadExecutionEventPublisher.AddListener(Reqnroll.Events.IExecutionEventListener)
+  id: AddListener(Reqnroll.Events.IExecutionEventListener)
+  parent: Reqnroll.Events.ITestThreadExecutionEventPublisher
+  langs:
+  - csharp
+  - vb
+  name: AddListener(IExecutionEventListener)
+  nameWithType: ITestThreadExecutionEventPublisher.AddListener(IExecutionEventListener)
+  fullName: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddListener(Reqnroll.Events.IExecutionEventListener)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Events/ITestThreadExecutionEventPublisher.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AddListener
+    path: ../Reqnroll/Reqnroll/Events/ITestThreadExecutionEventPublisher.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: void AddListener(IExecutionEventListener listener)
+    parameters:
+    - id: listener
+      type: Reqnroll.Events.IExecutionEventListener
+    content.vb: Sub AddListener(listener As IExecutionEventListener)
+  overload: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddListener*
+- uid: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddHandler``1(System.Action{``0})
+  commentId: M:Reqnroll.Events.ITestThreadExecutionEventPublisher.AddHandler``1(System.Action{``0})
+  id: AddHandler``1(System.Action{``0})
+  parent: Reqnroll.Events.ITestThreadExecutionEventPublisher
+  langs:
+  - csharp
+  - vb
+  name: AddHandler<TEvent>(Action<TEvent>)
+  nameWithType: ITestThreadExecutionEventPublisher.AddHandler<TEvent>(Action<TEvent>)
+  fullName: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddHandler<TEvent>(System.Action<TEvent>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Events/ITestThreadExecutionEventPublisher.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AddHandler
+    path: ../Reqnroll/Reqnroll/Events/ITestThreadExecutionEventPublisher.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: 'void AddHandler<TEvent>(Action<TEvent> handler) where TEvent : IExecutionEvent'
+    parameters:
+    - id: handler
+      type: System.Action{{TEvent}}
+    typeParameters:
+    - id: TEvent
+    content.vb: Sub [AddHandler](Of TEvent As IExecutionEvent)(handler As Action(Of TEvent))
+  overload: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddHandler*
+  nameWithType.vb: ITestThreadExecutionEventPublisher.AddHandler(Of TEvent)(Action(Of TEvent))
+  fullName.vb: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddHandler(Of TEvent)(System.Action(Of TEvent))
+  name.vb: AddHandler(Of TEvent)(Action(Of TEvent))
+references:
+- uid: Reqnroll.Events
+  commentId: N:Reqnroll.Events
+  href: Reqnroll.html
+  name: Reqnroll.Events
+  nameWithType: Reqnroll.Events
+  fullName: Reqnroll.Events
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Events
+    name: Events
+    href: Reqnroll.Events.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Events
+    name: Events
+    href: Reqnroll.Events.html
+- uid: Reqnroll.Events.ITestThreadExecutionEventPublisher.PublishEvent*
+  commentId: Overload:Reqnroll.Events.ITestThreadExecutionEventPublisher.PublishEvent
+  href: Reqnroll.Events.ITestThreadExecutionEventPublisher.html#Reqnroll_Events_ITestThreadExecutionEventPublisher_PublishEvent_Reqnroll_Events_IExecutionEvent_
+  name: PublishEvent
+  nameWithType: ITestThreadExecutionEventPublisher.PublishEvent
+  fullName: Reqnroll.Events.ITestThreadExecutionEventPublisher.PublishEvent
+- uid: Reqnroll.Events.IExecutionEvent
+  commentId: T:Reqnroll.Events.IExecutionEvent
+  parent: Reqnroll.Events
+  href: Reqnroll.Events.IExecutionEvent.html
+  name: IExecutionEvent
+  nameWithType: IExecutionEvent
+  fullName: Reqnroll.Events.IExecutionEvent
+- uid: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddListener*
+  commentId: Overload:Reqnroll.Events.ITestThreadExecutionEventPublisher.AddListener
+  href: Reqnroll.Events.ITestThreadExecutionEventPublisher.html#Reqnroll_Events_ITestThreadExecutionEventPublisher_AddListener_Reqnroll_Events_IExecutionEventListener_
+  name: AddListener
+  nameWithType: ITestThreadExecutionEventPublisher.AddListener
+  fullName: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddListener
+- uid: Reqnroll.Events.IExecutionEventListener
+  commentId: T:Reqnroll.Events.IExecutionEventListener
+  parent: Reqnroll.Events
+  href: Reqnroll.Events.IExecutionEventListener.html
+  name: IExecutionEventListener
+  nameWithType: IExecutionEventListener
+  fullName: Reqnroll.Events.IExecutionEventListener
+- uid: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddHandler*
+  commentId: Overload:Reqnroll.Events.ITestThreadExecutionEventPublisher.AddHandler
+  href: Reqnroll.Events.ITestThreadExecutionEventPublisher.html#Reqnroll_Events_ITestThreadExecutionEventPublisher_AddHandler__1_System_Action___0__
+  name: AddHandler
+  nameWithType: ITestThreadExecutionEventPublisher.AddHandler
+  fullName: Reqnroll.Events.ITestThreadExecutionEventPublisher.AddHandler
+- uid: System.Action{{TEvent}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<TEvent>
+  nameWithType: Action<TEvent>
+  fullName: System.Action<TEvent>
+  nameWithType.vb: Action(Of TEvent)
+  fullName.vb: System.Action(Of TEvent)
+  name.vb: Action(Of TEvent)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,968 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Plugins.RuntimePluginEvents
+  commentId: T:Reqnroll.Plugins.RuntimePluginEvents
+  id: RuntimePluginEvents
+  parent: Reqnroll.Plugins
+  children:
+  - Reqnroll.Plugins.RuntimePluginEvents.ConfigurationDefaults
+  - Reqnroll.Plugins.RuntimePluginEvents.CustomizeFeatureDependencies
+  - Reqnroll.Plugins.RuntimePluginEvents.CustomizeGlobalDependencies
+  - Reqnroll.Plugins.RuntimePluginEvents.CustomizeScenarioDependencies
+  - Reqnroll.Plugins.RuntimePluginEvents.CustomizeTestThreadDependencies
+  - Reqnroll.Plugins.RuntimePluginEvents.RaiseConfigurationDefaults(Reqnroll.Configuration.ReqnrollConfiguration)
+  - Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeFeatureDependencies(Reqnroll.BoDi.ObjectContainer)
+  - Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeGlobalDependencies(Reqnroll.BoDi.ObjectContainer,Reqnroll.Configuration.ReqnrollConfiguration)
+  - Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeScenarioDependencies(Reqnroll.BoDi.ObjectContainer)
+  - Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeTestThreadDependencies(Reqnroll.BoDi.ObjectContainer)
+  - Reqnroll.Plugins.RuntimePluginEvents.RaiseRegisterGlobalDependencies(Reqnroll.BoDi.ObjectContainer)
+  - Reqnroll.Plugins.RuntimePluginEvents.RegisterGlobalDependencies
+  langs:
+  - csharp
+  - vb
+  name: RuntimePluginEvents
+  nameWithType: RuntimePluginEvents
+  fullName: Reqnroll.Plugins.RuntimePluginEvents
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RuntimePluginEvents
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public class RuntimePluginEvents
+    content.vb: Public Class RuntimePluginEvents
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RegisterGlobalDependencies
+  commentId: E:Reqnroll.Plugins.RuntimePluginEvents.RegisterGlobalDependencies
+  id: RegisterGlobalDependencies
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: RegisterGlobalDependencies
+  nameWithType: RuntimePluginEvents.RegisterGlobalDependencies
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RegisterGlobalDependencies
+  type: Event
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterGlobalDependencies
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public event EventHandler<RegisterGlobalDependenciesEventArgs> RegisterGlobalDependencies
+    return:
+      type: System.EventHandler{Reqnroll.Plugins.RegisterGlobalDependenciesEventArgs}
+    content.vb: Public Event RegisterGlobalDependencies As EventHandler(Of RegisterGlobalDependenciesEventArgs)
+- uid: Reqnroll.Plugins.RuntimePluginEvents.CustomizeGlobalDependencies
+  commentId: E:Reqnroll.Plugins.RuntimePluginEvents.CustomizeGlobalDependencies
+  id: CustomizeGlobalDependencies
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: CustomizeGlobalDependencies
+  nameWithType: RuntimePluginEvents.CustomizeGlobalDependencies
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.CustomizeGlobalDependencies
+  type: Event
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CustomizeGlobalDependencies
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public event EventHandler<CustomizeGlobalDependenciesEventArgs> CustomizeGlobalDependencies
+    return:
+      type: System.EventHandler{Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs}
+    content.vb: Public Event CustomizeGlobalDependencies As EventHandler(Of CustomizeGlobalDependenciesEventArgs)
+- uid: Reqnroll.Plugins.RuntimePluginEvents.ConfigurationDefaults
+  commentId: E:Reqnroll.Plugins.RuntimePluginEvents.ConfigurationDefaults
+  id: ConfigurationDefaults
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationDefaults
+  nameWithType: RuntimePluginEvents.ConfigurationDefaults
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.ConfigurationDefaults
+  type: Event
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ConfigurationDefaults
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public event EventHandler<ConfigurationDefaultsEventArgs> ConfigurationDefaults
+    return:
+      type: System.EventHandler{Reqnroll.Plugins.ConfigurationDefaultsEventArgs}
+    content.vb: Public Event ConfigurationDefaults As EventHandler(Of ConfigurationDefaultsEventArgs)
+- uid: Reqnroll.Plugins.RuntimePluginEvents.CustomizeTestThreadDependencies
+  commentId: E:Reqnroll.Plugins.RuntimePluginEvents.CustomizeTestThreadDependencies
+  id: CustomizeTestThreadDependencies
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: CustomizeTestThreadDependencies
+  nameWithType: RuntimePluginEvents.CustomizeTestThreadDependencies
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.CustomizeTestThreadDependencies
+  type: Event
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CustomizeTestThreadDependencies
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public event EventHandler<CustomizeTestThreadDependenciesEventArgs> CustomizeTestThreadDependencies
+    return:
+      type: System.EventHandler{Reqnroll.Plugins.CustomizeTestThreadDependenciesEventArgs}
+    content.vb: Public Event CustomizeTestThreadDependencies As EventHandler(Of CustomizeTestThreadDependenciesEventArgs)
+- uid: Reqnroll.Plugins.RuntimePluginEvents.CustomizeFeatureDependencies
+  commentId: E:Reqnroll.Plugins.RuntimePluginEvents.CustomizeFeatureDependencies
+  id: CustomizeFeatureDependencies
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: CustomizeFeatureDependencies
+  nameWithType: RuntimePluginEvents.CustomizeFeatureDependencies
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.CustomizeFeatureDependencies
+  type: Event
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CustomizeFeatureDependencies
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public event EventHandler<CustomizeFeatureDependenciesEventArgs> CustomizeFeatureDependencies
+    return:
+      type: System.EventHandler{Reqnroll.Plugins.CustomizeFeatureDependenciesEventArgs}
+    content.vb: Public Event CustomizeFeatureDependencies As EventHandler(Of CustomizeFeatureDependenciesEventArgs)
+- uid: Reqnroll.Plugins.RuntimePluginEvents.CustomizeScenarioDependencies
+  commentId: E:Reqnroll.Plugins.RuntimePluginEvents.CustomizeScenarioDependencies
+  id: CustomizeScenarioDependencies
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: CustomizeScenarioDependencies
+  nameWithType: RuntimePluginEvents.CustomizeScenarioDependencies
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.CustomizeScenarioDependencies
+  type: Event
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CustomizeScenarioDependencies
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public event EventHandler<CustomizeScenarioDependenciesEventArgs> CustomizeScenarioDependencies
+    return:
+      type: System.EventHandler{Reqnroll.Plugins.CustomizeScenarioDependenciesEventArgs}
+    content.vb: Public Event CustomizeScenarioDependencies As EventHandler(Of CustomizeScenarioDependenciesEventArgs)
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseRegisterGlobalDependencies(Reqnroll.BoDi.ObjectContainer)
+  commentId: M:Reqnroll.Plugins.RuntimePluginEvents.RaiseRegisterGlobalDependencies(Reqnroll.BoDi.ObjectContainer)
+  id: RaiseRegisterGlobalDependencies(Reqnroll.BoDi.ObjectContainer)
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: RaiseRegisterGlobalDependencies(ObjectContainer)
+  nameWithType: RuntimePluginEvents.RaiseRegisterGlobalDependencies(ObjectContainer)
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseRegisterGlobalDependencies(Reqnroll.BoDi.ObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RaiseRegisterGlobalDependencies
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public void RaiseRegisterGlobalDependencies(ObjectContainer objectContainer)
+    parameters:
+    - id: objectContainer
+      type: Reqnroll.BoDi.ObjectContainer
+    content.vb: Public Sub RaiseRegisterGlobalDependencies(objectContainer As ObjectContainer)
+  overload: Reqnroll.Plugins.RuntimePluginEvents.RaiseRegisterGlobalDependencies*
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseConfigurationDefaults(Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Plugins.RuntimePluginEvents.RaiseConfigurationDefaults(Reqnroll.Configuration.ReqnrollConfiguration)
+  id: RaiseConfigurationDefaults(Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: RaiseConfigurationDefaults(ReqnrollConfiguration)
+  nameWithType: RuntimePluginEvents.RaiseConfigurationDefaults(ReqnrollConfiguration)
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseConfigurationDefaults(Reqnroll.Configuration.ReqnrollConfiguration)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RaiseConfigurationDefaults
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public void RaiseConfigurationDefaults(ReqnrollConfiguration reqnrollConfiguration)
+    parameters:
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Public Sub RaiseConfigurationDefaults(reqnrollConfiguration As ReqnrollConfiguration)
+  overload: Reqnroll.Plugins.RuntimePluginEvents.RaiseConfigurationDefaults*
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeGlobalDependencies(Reqnroll.BoDi.ObjectContainer,Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeGlobalDependencies(Reqnroll.BoDi.ObjectContainer,Reqnroll.Configuration.ReqnrollConfiguration)
+  id: RaiseCustomizeGlobalDependencies(Reqnroll.BoDi.ObjectContainer,Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: RaiseCustomizeGlobalDependencies(ObjectContainer, ReqnrollConfiguration)
+  nameWithType: RuntimePluginEvents.RaiseCustomizeGlobalDependencies(ObjectContainer, ReqnrollConfiguration)
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeGlobalDependencies(Reqnroll.BoDi.ObjectContainer, Reqnroll.Configuration.ReqnrollConfiguration)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RaiseCustomizeGlobalDependencies
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 25
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public void RaiseCustomizeGlobalDependencies(ObjectContainer container, ReqnrollConfiguration reqnrollConfiguration)
+    parameters:
+    - id: container
+      type: Reqnroll.BoDi.ObjectContainer
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Public Sub RaiseCustomizeGlobalDependencies(container As ObjectContainer, reqnrollConfiguration As ReqnrollConfiguration)
+  overload: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeGlobalDependencies*
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeTestThreadDependencies(Reqnroll.BoDi.ObjectContainer)
+  commentId: M:Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeTestThreadDependencies(Reqnroll.BoDi.ObjectContainer)
+  id: RaiseCustomizeTestThreadDependencies(Reqnroll.BoDi.ObjectContainer)
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: RaiseCustomizeTestThreadDependencies(ObjectContainer)
+  nameWithType: RuntimePluginEvents.RaiseCustomizeTestThreadDependencies(ObjectContainer)
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeTestThreadDependencies(Reqnroll.BoDi.ObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RaiseCustomizeTestThreadDependencies
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 30
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public void RaiseCustomizeTestThreadDependencies(ObjectContainer testThreadContainer)
+    parameters:
+    - id: testThreadContainer
+      type: Reqnroll.BoDi.ObjectContainer
+    content.vb: Public Sub RaiseCustomizeTestThreadDependencies(testThreadContainer As ObjectContainer)
+  overload: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeTestThreadDependencies*
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeFeatureDependencies(Reqnroll.BoDi.ObjectContainer)
+  commentId: M:Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeFeatureDependencies(Reqnroll.BoDi.ObjectContainer)
+  id: RaiseCustomizeFeatureDependencies(Reqnroll.BoDi.ObjectContainer)
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: RaiseCustomizeFeatureDependencies(ObjectContainer)
+  nameWithType: RuntimePluginEvents.RaiseCustomizeFeatureDependencies(ObjectContainer)
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeFeatureDependencies(Reqnroll.BoDi.ObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RaiseCustomizeFeatureDependencies
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 35
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public void RaiseCustomizeFeatureDependencies(ObjectContainer featureContainer)
+    parameters:
+    - id: featureContainer
+      type: Reqnroll.BoDi.ObjectContainer
+    content.vb: Public Sub RaiseCustomizeFeatureDependencies(featureContainer As ObjectContainer)
+  overload: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeFeatureDependencies*
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeScenarioDependencies(Reqnroll.BoDi.ObjectContainer)
+  commentId: M:Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeScenarioDependencies(Reqnroll.BoDi.ObjectContainer)
+  id: RaiseCustomizeScenarioDependencies(Reqnroll.BoDi.ObjectContainer)
+  parent: Reqnroll.Plugins.RuntimePluginEvents
+  langs:
+  - csharp
+  - vb
+  name: RaiseCustomizeScenarioDependencies(ObjectContainer)
+  nameWithType: RuntimePluginEvents.RaiseCustomizeScenarioDependencies(ObjectContainer)
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeScenarioDependencies(Reqnroll.BoDi.ObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEvents.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RaiseCustomizeScenarioDependencies
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEvents.cs
+    startLine: 40
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public void RaiseCustomizeScenarioDependencies(ObjectContainer scenarioContainer)
+    parameters:
+    - id: scenarioContainer
+      type: Reqnroll.BoDi.ObjectContainer
+    content.vb: Public Sub RaiseCustomizeScenarioDependencies(scenarioContainer As ObjectContainer)
+  overload: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeScenarioDependencies*
+references:
+- uid: Reqnroll.Plugins
+  commentId: N:Reqnroll.Plugins
+  href: Reqnroll.html
+  name: Reqnroll.Plugins
+  nameWithType: Reqnroll.Plugins
+  fullName: Reqnroll.Plugins
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.EventHandler{Reqnroll.Plugins.RegisterGlobalDependenciesEventArgs}
+  commentId: T:System.EventHandler{Reqnroll.Plugins.RegisterGlobalDependenciesEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<RegisterGlobalDependenciesEventArgs>
+  nameWithType: EventHandler<RegisterGlobalDependenciesEventArgs>
+  fullName: System.EventHandler<Reqnroll.Plugins.RegisterGlobalDependenciesEventArgs>
+  nameWithType.vb: EventHandler(Of RegisterGlobalDependenciesEventArgs)
+  fullName.vb: System.EventHandler(Of Reqnroll.Plugins.RegisterGlobalDependenciesEventArgs)
+  name.vb: EventHandler(Of RegisterGlobalDependenciesEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Reqnroll.Plugins.RegisterGlobalDependenciesEventArgs
+    name: RegisterGlobalDependenciesEventArgs
+    href: Reqnroll.Plugins.RegisterGlobalDependenciesEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Plugins.RegisterGlobalDependenciesEventArgs
+    name: RegisterGlobalDependenciesEventArgs
+    href: Reqnroll.Plugins.RegisterGlobalDependenciesEventArgs.html
+  - name: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: System.EventHandler{Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs}
+  commentId: T:System.EventHandler{Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<CustomizeGlobalDependenciesEventArgs>
+  nameWithType: EventHandler<CustomizeGlobalDependenciesEventArgs>
+  fullName: System.EventHandler<Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs>
+  nameWithType.vb: EventHandler(Of CustomizeGlobalDependenciesEventArgs)
+  fullName.vb: System.EventHandler(Of Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs)
+  name.vb: EventHandler(Of CustomizeGlobalDependenciesEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs
+    name: CustomizeGlobalDependenciesEventArgs
+    href: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs
+    name: CustomizeGlobalDependenciesEventArgs
+    href: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.html
+  - name: )
+- uid: System.EventHandler{Reqnroll.Plugins.ConfigurationDefaultsEventArgs}
+  commentId: T:System.EventHandler{Reqnroll.Plugins.ConfigurationDefaultsEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<ConfigurationDefaultsEventArgs>
+  nameWithType: EventHandler<ConfigurationDefaultsEventArgs>
+  fullName: System.EventHandler<Reqnroll.Plugins.ConfigurationDefaultsEventArgs>
+  nameWithType.vb: EventHandler(Of ConfigurationDefaultsEventArgs)
+  fullName.vb: System.EventHandler(Of Reqnroll.Plugins.ConfigurationDefaultsEventArgs)
+  name.vb: EventHandler(Of ConfigurationDefaultsEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Reqnroll.Plugins.ConfigurationDefaultsEventArgs
+    name: ConfigurationDefaultsEventArgs
+    href: Reqnroll.Plugins.ConfigurationDefaultsEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Plugins.ConfigurationDefaultsEventArgs
+    name: ConfigurationDefaultsEventArgs
+    href: Reqnroll.Plugins.ConfigurationDefaultsEventArgs.html
+  - name: )
+- uid: System.EventHandler{Reqnroll.Plugins.CustomizeTestThreadDependenciesEventArgs}
+  commentId: T:System.EventHandler{Reqnroll.Plugins.CustomizeTestThreadDependenciesEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<CustomizeTestThreadDependenciesEventArgs>
+  nameWithType: EventHandler<CustomizeTestThreadDependenciesEventArgs>
+  fullName: System.EventHandler<Reqnroll.Plugins.CustomizeTestThreadDependenciesEventArgs>
+  nameWithType.vb: EventHandler(Of CustomizeTestThreadDependenciesEventArgs)
+  fullName.vb: System.EventHandler(Of Reqnroll.Plugins.CustomizeTestThreadDependenciesEventArgs)
+  name.vb: EventHandler(Of CustomizeTestThreadDependenciesEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Reqnroll.Plugins.CustomizeTestThreadDependenciesEventArgs
+    name: CustomizeTestThreadDependenciesEventArgs
+    href: Reqnroll.Plugins.CustomizeTestThreadDependenciesEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Plugins.CustomizeTestThreadDependenciesEventArgs
+    name: CustomizeTestThreadDependenciesEventArgs
+    href: Reqnroll.Plugins.CustomizeTestThreadDependenciesEventArgs.html
+  - name: )
+- uid: System.EventHandler{Reqnroll.Plugins.CustomizeFeatureDependenciesEventArgs}
+  commentId: T:System.EventHandler{Reqnroll.Plugins.CustomizeFeatureDependenciesEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<CustomizeFeatureDependenciesEventArgs>
+  nameWithType: EventHandler<CustomizeFeatureDependenciesEventArgs>
+  fullName: System.EventHandler<Reqnroll.Plugins.CustomizeFeatureDependenciesEventArgs>
+  nameWithType.vb: EventHandler(Of CustomizeFeatureDependenciesEventArgs)
+  fullName.vb: System.EventHandler(Of Reqnroll.Plugins.CustomizeFeatureDependenciesEventArgs)
+  name.vb: EventHandler(Of CustomizeFeatureDependenciesEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Reqnroll.Plugins.CustomizeFeatureDependenciesEventArgs
+    name: CustomizeFeatureDependenciesEventArgs
+    href: Reqnroll.Plugins.CustomizeFeatureDependenciesEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Plugins.CustomizeFeatureDependenciesEventArgs
+    name: CustomizeFeatureDependenciesEventArgs
+    href: Reqnroll.Plugins.CustomizeFeatureDependenciesEventArgs.html
+  - name: )
+- uid: System.EventHandler{Reqnroll.Plugins.CustomizeScenarioDependenciesEventArgs}
+  commentId: T:System.EventHandler{Reqnroll.Plugins.CustomizeScenarioDependenciesEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<CustomizeScenarioDependenciesEventArgs>
+  nameWithType: EventHandler<CustomizeScenarioDependenciesEventArgs>
+  fullName: System.EventHandler<Reqnroll.Plugins.CustomizeScenarioDependenciesEventArgs>
+  nameWithType.vb: EventHandler(Of CustomizeScenarioDependenciesEventArgs)
+  fullName.vb: System.EventHandler(Of Reqnroll.Plugins.CustomizeScenarioDependenciesEventArgs)
+  name.vb: EventHandler(Of CustomizeScenarioDependenciesEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Reqnroll.Plugins.CustomizeScenarioDependenciesEventArgs
+    name: CustomizeScenarioDependenciesEventArgs
+    href: Reqnroll.Plugins.CustomizeScenarioDependenciesEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Plugins.CustomizeScenarioDependenciesEventArgs
+    name: CustomizeScenarioDependenciesEventArgs
+    href: Reqnroll.Plugins.CustomizeScenarioDependenciesEventArgs.html
+  - name: )
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseRegisterGlobalDependencies*
+  commentId: Overload:Reqnroll.Plugins.RuntimePluginEvents.RaiseRegisterGlobalDependencies
+  href: Reqnroll.Plugins.RuntimePluginEvents.html#Reqnroll_Plugins_RuntimePluginEvents_RaiseRegisterGlobalDependencies_Reqnroll_BoDi_ObjectContainer_
+  name: RaiseRegisterGlobalDependencies
+  nameWithType: RuntimePluginEvents.RaiseRegisterGlobalDependencies
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseRegisterGlobalDependencies
+- uid: Reqnroll.BoDi.ObjectContainer
+  commentId: T:Reqnroll.BoDi.ObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.ObjectContainer.html
+  name: ObjectContainer
+  nameWithType: ObjectContainer
+  fullName: Reqnroll.BoDi.ObjectContainer
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseConfigurationDefaults*
+  commentId: Overload:Reqnroll.Plugins.RuntimePluginEvents.RaiseConfigurationDefaults
+  href: Reqnroll.Plugins.RuntimePluginEvents.html#Reqnroll_Plugins_RuntimePluginEvents_RaiseConfigurationDefaults_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: RaiseConfigurationDefaults
+  nameWithType: RuntimePluginEvents.RaiseConfigurationDefaults
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseConfigurationDefaults
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeGlobalDependencies*
+  commentId: Overload:Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeGlobalDependencies
+  href: Reqnroll.Plugins.RuntimePluginEvents.html#Reqnroll_Plugins_RuntimePluginEvents_RaiseCustomizeGlobalDependencies_Reqnroll_BoDi_ObjectContainer_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: RaiseCustomizeGlobalDependencies
+  nameWithType: RuntimePluginEvents.RaiseCustomizeGlobalDependencies
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeGlobalDependencies
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeTestThreadDependencies*
+  commentId: Overload:Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeTestThreadDependencies
+  href: Reqnroll.Plugins.RuntimePluginEvents.html#Reqnroll_Plugins_RuntimePluginEvents_RaiseCustomizeTestThreadDependencies_Reqnroll_BoDi_ObjectContainer_
+  name: RaiseCustomizeTestThreadDependencies
+  nameWithType: RuntimePluginEvents.RaiseCustomizeTestThreadDependencies
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeTestThreadDependencies
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeFeatureDependencies*
+  commentId: Overload:Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeFeatureDependencies
+  href: Reqnroll.Plugins.RuntimePluginEvents.html#Reqnroll_Plugins_RuntimePluginEvents_RaiseCustomizeFeatureDependencies_Reqnroll_BoDi_ObjectContainer_
+  name: RaiseCustomizeFeatureDependencies
+  nameWithType: RuntimePluginEvents.RaiseCustomizeFeatureDependencies
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeFeatureDependencies
+- uid: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeScenarioDependencies*
+  commentId: Overload:Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeScenarioDependencies
+  href: Reqnroll.Plugins.RuntimePluginEvents.html#Reqnroll_Plugins_RuntimePluginEvents_RaiseCustomizeScenarioDependencies_Reqnroll_BoDi_ObjectContainer_
+  name: RaiseCustomizeScenarioDependencies
+  nameWithType: RuntimePluginEvents.RaiseCustomizeScenarioDependencies
+  fullName: Reqnroll.Plugins.RuntimePluginEvents.RaiseCustomizeScenarioDependencies

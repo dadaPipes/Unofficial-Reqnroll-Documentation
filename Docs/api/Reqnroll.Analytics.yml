@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics
+  commentId: N:Reqnroll.Analytics
+  id: Reqnroll.Analytics
+  children:
+  - Reqnroll.Analytics.AnalyticsEventProvider
+  - Reqnroll.Analytics.AnalyticsTransmitter
+  - Reqnroll.Analytics.EnvironmentReqnrollTelemetryChecker
+  - Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink
+  - Reqnroll.Analytics.HttpClientWrapper
+  - Reqnroll.Analytics.IAnalyticsEvent
+  - Reqnroll.Analytics.IAnalyticsEventProvider
+  - Reqnroll.Analytics.IAnalyticsTransmitter
+  - Reqnroll.Analytics.IAnalyticsTransmitterSink
+  - Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker
+  - Reqnroll.Analytics.ReqnrollAnalyticsEventBase
+  - Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+  - Reqnroll.Analytics.ReqnrollProjectRunningEvent
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Analytics
+  nameWithType: Reqnroll.Analytics
+  fullName: Reqnroll.Analytics
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Analytics.AnalyticsEventProvider
+  commentId: T:Reqnroll.Analytics.AnalyticsEventProvider
+  href: Reqnroll.Analytics.AnalyticsEventProvider.html
+  name: AnalyticsEventProvider
+  nameWithType: AnalyticsEventProvider
+  fullName: Reqnroll.Analytics.AnalyticsEventProvider
+- uid: Reqnroll.Analytics.AnalyticsTransmitter
+  commentId: T:Reqnroll.Analytics.AnalyticsTransmitter
+  href: Reqnroll.Analytics.AnalyticsTransmitter.html
+  name: AnalyticsTransmitter
+  nameWithType: AnalyticsTransmitter
+  fullName: Reqnroll.Analytics.AnalyticsTransmitter
+- uid: Reqnroll.Analytics.EnvironmentReqnrollTelemetryChecker
+  commentId: T:Reqnroll.Analytics.EnvironmentReqnrollTelemetryChecker
+  href: Reqnroll.Analytics.EnvironmentReqnrollTelemetryChecker.html
+  name: EnvironmentReqnrollTelemetryChecker
+  nameWithType: EnvironmentReqnrollTelemetryChecker
+  fullName: Reqnroll.Analytics.EnvironmentReqnrollTelemetryChecker
+- uid: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink
+  commentId: T:Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink
+  href: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.html
+  name: HttpClientAnalyticsTransmitterSink
+  nameWithType: HttpClientAnalyticsTransmitterSink
+  fullName: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink
+- uid: Reqnroll.Analytics.HttpClientWrapper
+  commentId: T:Reqnroll.Analytics.HttpClientWrapper
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.HttpClientWrapper.html
+  name: HttpClientWrapper
+  nameWithType: HttpClientWrapper
+  fullName: Reqnroll.Analytics.HttpClientWrapper
+- uid: Reqnroll.Analytics.IAnalyticsEvent
+  commentId: T:Reqnroll.Analytics.IAnalyticsEvent
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.IAnalyticsEvent.html
+  name: IAnalyticsEvent
+  nameWithType: IAnalyticsEvent
+  fullName: Reqnroll.Analytics.IAnalyticsEvent
+- uid: Reqnroll.Analytics.IAnalyticsEventProvider
+  commentId: T:Reqnroll.Analytics.IAnalyticsEventProvider
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.IAnalyticsEventProvider.html
+  name: IAnalyticsEventProvider
+  nameWithType: IAnalyticsEventProvider
+  fullName: Reqnroll.Analytics.IAnalyticsEventProvider
+- uid: Reqnroll.Analytics.IAnalyticsTransmitter
+  commentId: T:Reqnroll.Analytics.IAnalyticsTransmitter
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.IAnalyticsTransmitter.html
+  name: IAnalyticsTransmitter
+  nameWithType: IAnalyticsTransmitter
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitter
+- uid: Reqnroll.Analytics.IAnalyticsTransmitterSink
+  commentId: T:Reqnroll.Analytics.IAnalyticsTransmitterSink
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.IAnalyticsTransmitterSink.html
+  name: IAnalyticsTransmitterSink
+  nameWithType: IAnalyticsTransmitterSink
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitterSink
+- uid: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker
+  commentId: T:Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker.html
+  name: IEnvironmentReqnrollTelemetryChecker
+  nameWithType: IEnvironmentReqnrollTelemetryChecker
+  fullName: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker
+- uid: Reqnroll.Analytics.ReqnrollAnalyticsEventBase
+  commentId: T:Reqnroll.Analytics.ReqnrollAnalyticsEventBase
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.ReqnrollAnalyticsEventBase.html
+  name: ReqnrollAnalyticsEventBase
+  nameWithType: ReqnrollAnalyticsEventBase
+  fullName: Reqnroll.Analytics.ReqnrollAnalyticsEventBase
+- uid: Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+  commentId: T:Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.ReqnrollProjectCompilingEvent.html
+  name: ReqnrollProjectCompilingEvent
+  nameWithType: ReqnrollProjectCompilingEvent
+  fullName: Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+- uid: Reqnroll.Analytics.ReqnrollProjectRunningEvent
+  commentId: T:Reqnroll.Analytics.ReqnrollProjectRunningEvent
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.ReqnrollProjectRunningEvent.html
+  name: ReqnrollProjectRunningEvent
+  nameWithType: ReqnrollProjectRunningEvent
+  fullName: Reqnroll.Analytics.ReqnrollProjectRunningEvent
+- uid: Reqnroll.Analytics
+  commentId: N:Reqnroll.Analytics
+  href: Reqnroll.html
+  name: Reqnroll.Analytics
+  nameWithType: Reqnroll.Analytics
+  fullName: Reqnroll.Analytics
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html

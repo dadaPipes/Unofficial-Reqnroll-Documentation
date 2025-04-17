@@ -1,0 +1,559 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.IAnalyticsEvent
+  commentId: T:Reqnroll.Analytics.IAnalyticsEvent
+  id: IAnalyticsEvent
+  parent: Reqnroll.Analytics
+  children:
+  - Reqnroll.Analytics.IAnalyticsEvent.BuildServerName
+  - Reqnroll.Analytics.IAnalyticsEvent.EventName
+  - Reqnroll.Analytics.IAnalyticsEvent.HashedAssemblyName
+  - Reqnroll.Analytics.IAnalyticsEvent.IsBuildServer
+  - Reqnroll.Analytics.IAnalyticsEvent.IsDockerContainer
+  - Reqnroll.Analytics.IAnalyticsEvent.Platform
+  - Reqnroll.Analytics.IAnalyticsEvent.PlatformDescription
+  - Reqnroll.Analytics.IAnalyticsEvent.ReqnrollVersion
+  - Reqnroll.Analytics.IAnalyticsEvent.TargetFramework
+  - Reqnroll.Analytics.IAnalyticsEvent.TargetFrameworks
+  - Reqnroll.Analytics.IAnalyticsEvent.UnitTestProvider
+  - Reqnroll.Analytics.IAnalyticsEvent.UserId
+  - Reqnroll.Analytics.IAnalyticsEvent.UtcDate
+  langs:
+  - csharp
+  - vb
+  name: IAnalyticsEvent
+  nameWithType: IAnalyticsEvent
+  fullName: Reqnroll.Analytics.IAnalyticsEvent
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IAnalyticsEvent
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: public interface IAnalyticsEvent
+    content.vb: Public Interface IAnalyticsEvent
+- uid: Reqnroll.Analytics.IAnalyticsEvent.EventName
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.EventName
+  id: EventName
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: EventName
+  nameWithType: IAnalyticsEvent.EventName
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.EventName
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: EventName
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: string EventName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property EventName As String
+  overload: Reqnroll.Analytics.IAnalyticsEvent.EventName*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.UtcDate
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.UtcDate
+  id: UtcDate
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: UtcDate
+  nameWithType: IAnalyticsEvent.UtcDate
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.UtcDate
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: UtcDate
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: DateTime UtcDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: ReadOnly Property UtcDate As Date
+  overload: Reqnroll.Analytics.IAnalyticsEvent.UtcDate*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.UserId
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.UserId
+  id: UserId
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: IAnalyticsEvent.UserId
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.UserId
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: UserId
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: string UserId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property UserId As String
+  overload: Reqnroll.Analytics.IAnalyticsEvent.UserId*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.Platform
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.Platform
+  id: Platform
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: Platform
+  nameWithType: IAnalyticsEvent.Platform
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.Platform
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Platform
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: string Platform { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Platform As String
+  overload: Reqnroll.Analytics.IAnalyticsEvent.Platform*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.PlatformDescription
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.PlatformDescription
+  id: PlatformDescription
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: PlatformDescription
+  nameWithType: IAnalyticsEvent.PlatformDescription
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.PlatformDescription
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: PlatformDescription
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: string PlatformDescription { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property PlatformDescription As String
+  overload: Reqnroll.Analytics.IAnalyticsEvent.PlatformDescription*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.ReqnrollVersion
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.ReqnrollVersion
+  id: ReqnrollVersion
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: ReqnrollVersion
+  nameWithType: IAnalyticsEvent.ReqnrollVersion
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.ReqnrollVersion
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ReqnrollVersion
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: string ReqnrollVersion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ReqnrollVersion As String
+  overload: Reqnroll.Analytics.IAnalyticsEvent.ReqnrollVersion*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.UnitTestProvider
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.UnitTestProvider
+  id: UnitTestProvider
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: UnitTestProvider
+  nameWithType: IAnalyticsEvent.UnitTestProvider
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.UnitTestProvider
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: UnitTestProvider
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: string UnitTestProvider { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property UnitTestProvider As String
+  overload: Reqnroll.Analytics.IAnalyticsEvent.UnitTestProvider*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.IsBuildServer
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.IsBuildServer
+  id: IsBuildServer
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: IsBuildServer
+  nameWithType: IAnalyticsEvent.IsBuildServer
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.IsBuildServer
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsBuildServer
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: bool IsBuildServer { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsBuildServer As Boolean
+  overload: Reqnroll.Analytics.IAnalyticsEvent.IsBuildServer*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.BuildServerName
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.BuildServerName
+  id: BuildServerName
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: BuildServerName
+  nameWithType: IAnalyticsEvent.BuildServerName
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.BuildServerName
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BuildServerName
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: string BuildServerName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property BuildServerName As String
+  overload: Reqnroll.Analytics.IAnalyticsEvent.BuildServerName*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.IsDockerContainer
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.IsDockerContainer
+  id: IsDockerContainer
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: IsDockerContainer
+  nameWithType: IAnalyticsEvent.IsDockerContainer
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.IsDockerContainer
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsDockerContainer
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: bool IsDockerContainer { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsDockerContainer As Boolean
+  overload: Reqnroll.Analytics.IAnalyticsEvent.IsDockerContainer*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.HashedAssemblyName
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.HashedAssemblyName
+  id: HashedAssemblyName
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: HashedAssemblyName
+  nameWithType: IAnalyticsEvent.HashedAssemblyName
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.HashedAssemblyName
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HashedAssemblyName
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: string HashedAssemblyName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property HashedAssemblyName As String
+  overload: Reqnroll.Analytics.IAnalyticsEvent.HashedAssemblyName*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.TargetFrameworks
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.TargetFrameworks
+  id: TargetFrameworks
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: TargetFrameworks
+  nameWithType: IAnalyticsEvent.TargetFrameworks
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.TargetFrameworks
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TargetFrameworks
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: string TargetFrameworks { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property TargetFrameworks As String
+  overload: Reqnroll.Analytics.IAnalyticsEvent.TargetFrameworks*
+- uid: Reqnroll.Analytics.IAnalyticsEvent.TargetFramework
+  commentId: P:Reqnroll.Analytics.IAnalyticsEvent.TargetFramework
+  id: TargetFramework
+  parent: Reqnroll.Analytics.IAnalyticsEvent
+  langs:
+  - csharp
+  - vb
+  name: TargetFramework
+  nameWithType: IAnalyticsEvent.TargetFramework
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.TargetFramework
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TargetFramework
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEvent.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: string TargetFramework { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property TargetFramework As String
+  overload: Reqnroll.Analytics.IAnalyticsEvent.TargetFramework*
+references:
+- uid: Reqnroll.Analytics
+  commentId: N:Reqnroll.Analytics
+  href: Reqnroll.html
+  name: Reqnroll.Analytics
+  nameWithType: Reqnroll.Analytics
+  fullName: Reqnroll.Analytics
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+- uid: Reqnroll.Analytics.IAnalyticsEvent.EventName*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.EventName
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_EventName
+  name: EventName
+  nameWithType: IAnalyticsEvent.EventName
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.EventName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Analytics.IAnalyticsEvent.UtcDate*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.UtcDate
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_UtcDate
+  name: UtcDate
+  nameWithType: IAnalyticsEvent.UtcDate
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.UtcDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Reqnroll.Analytics.IAnalyticsEvent.UserId*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.UserId
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_UserId
+  name: UserId
+  nameWithType: IAnalyticsEvent.UserId
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.UserId
+- uid: Reqnroll.Analytics.IAnalyticsEvent.Platform*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.Platform
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_Platform
+  name: Platform
+  nameWithType: IAnalyticsEvent.Platform
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.Platform
+- uid: Reqnroll.Analytics.IAnalyticsEvent.PlatformDescription*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.PlatformDescription
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_PlatformDescription
+  name: PlatformDescription
+  nameWithType: IAnalyticsEvent.PlatformDescription
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.PlatformDescription
+- uid: Reqnroll.Analytics.IAnalyticsEvent.ReqnrollVersion*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.ReqnrollVersion
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_ReqnrollVersion
+  name: ReqnrollVersion
+  nameWithType: IAnalyticsEvent.ReqnrollVersion
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.ReqnrollVersion
+- uid: Reqnroll.Analytics.IAnalyticsEvent.UnitTestProvider*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.UnitTestProvider
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_UnitTestProvider
+  name: UnitTestProvider
+  nameWithType: IAnalyticsEvent.UnitTestProvider
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.UnitTestProvider
+- uid: Reqnroll.Analytics.IAnalyticsEvent.IsBuildServer*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.IsBuildServer
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_IsBuildServer
+  name: IsBuildServer
+  nameWithType: IAnalyticsEvent.IsBuildServer
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.IsBuildServer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Analytics.IAnalyticsEvent.BuildServerName*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.BuildServerName
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_BuildServerName
+  name: BuildServerName
+  nameWithType: IAnalyticsEvent.BuildServerName
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.BuildServerName
+- uid: Reqnroll.Analytics.IAnalyticsEvent.IsDockerContainer*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.IsDockerContainer
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_IsDockerContainer
+  name: IsDockerContainer
+  nameWithType: IAnalyticsEvent.IsDockerContainer
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.IsDockerContainer
+- uid: Reqnroll.Analytics.IAnalyticsEvent.HashedAssemblyName*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.HashedAssemblyName
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_HashedAssemblyName
+  name: HashedAssemblyName
+  nameWithType: IAnalyticsEvent.HashedAssemblyName
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.HashedAssemblyName
+- uid: Reqnroll.Analytics.IAnalyticsEvent.TargetFrameworks*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.TargetFrameworks
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_TargetFrameworks
+  name: TargetFrameworks
+  nameWithType: IAnalyticsEvent.TargetFrameworks
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.TargetFrameworks
+- uid: Reqnroll.Analytics.IAnalyticsEvent.TargetFramework*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEvent.TargetFramework
+  href: Reqnroll.Analytics.IAnalyticsEvent.html#Reqnroll_Analytics_IAnalyticsEvent_TargetFramework
+  name: TargetFramework
+  nameWithType: IAnalyticsEvent.TargetFramework
+  fullName: Reqnroll.Analytics.IAnalyticsEvent.TargetFramework

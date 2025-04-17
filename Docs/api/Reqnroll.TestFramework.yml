@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.TestFramework
+  commentId: N:Reqnroll.TestFramework
+  id: Reqnroll.TestFramework
+  children:
+  - Reqnroll.TestFramework.DefaultTestRunSettingsProvider
+  - Reqnroll.TestFramework.ITestRunSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.TestFramework
+  nameWithType: Reqnroll.TestFramework
+  fullName: Reqnroll.TestFramework
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.TestFramework.DefaultTestRunSettingsProvider
+  commentId: T:Reqnroll.TestFramework.DefaultTestRunSettingsProvider
+  href: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.html
+  name: DefaultTestRunSettingsProvider
+  nameWithType: DefaultTestRunSettingsProvider
+  fullName: Reqnroll.TestFramework.DefaultTestRunSettingsProvider
+- uid: Reqnroll.TestFramework.ITestRunSettingsProvider
+  commentId: T:Reqnroll.TestFramework.ITestRunSettingsProvider
+  parent: Reqnroll.TestFramework
+  href: Reqnroll.TestFramework.ITestRunSettingsProvider.html
+  name: ITestRunSettingsProvider
+  nameWithType: ITestRunSettingsProvider
+  fullName: Reqnroll.TestFramework.ITestRunSettingsProvider
+- uid: Reqnroll.TestFramework
+  commentId: N:Reqnroll.TestFramework
+  href: Reqnroll.html
+  name: Reqnroll.TestFramework
+  nameWithType: Reqnroll.TestFramework
+  fullName: Reqnroll.TestFramework
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.TestFramework
+    name: TestFramework
+    href: Reqnroll.TestFramework.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.TestFramework
+    name: TestFramework
+    href: Reqnroll.TestFramework.html

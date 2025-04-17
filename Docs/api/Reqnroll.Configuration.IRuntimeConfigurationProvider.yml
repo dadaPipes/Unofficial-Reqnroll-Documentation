@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.IRuntimeConfigurationProvider
+  commentId: T:Reqnroll.Configuration.IRuntimeConfigurationProvider
+  id: IRuntimeConfigurationProvider
+  parent: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  langs:
+  - csharp
+  - vb
+  name: IRuntimeConfigurationProvider
+  nameWithType: IRuntimeConfigurationProvider
+  fullName: Reqnroll.Configuration.IRuntimeConfigurationProvider
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Configuration/IRuntimeConfigurationProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IRuntimeConfigurationProvider
+    path: ../Reqnroll/Reqnroll/Configuration/IRuntimeConfigurationProvider.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public interface IRuntimeConfigurationProvider
+    content.vb: Public Interface IRuntimeConfigurationProvider
+- uid: Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  id: LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Configuration.IRuntimeConfigurationProvider
+  langs:
+  - csharp
+  - vb
+  name: LoadConfiguration(ReqnrollConfiguration)
+  nameWithType: IRuntimeConfigurationProvider.LoadConfiguration(ReqnrollConfiguration)
+  fullName: Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/IRuntimeConfigurationProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: LoadConfiguration
+    path: ../Reqnroll/Reqnroll/Configuration/IRuntimeConfigurationProvider.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: ReqnrollConfiguration LoadConfiguration(ReqnrollConfiguration reqnrollConfiguration)
+    parameters:
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Function LoadConfiguration(reqnrollConfiguration As ReqnrollConfiguration) As ReqnrollConfiguration
+  overload: Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration*
+references:
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration*
+  commentId: Overload:Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration
+  href: Reqnroll.Configuration.IRuntimeConfigurationProvider.html#Reqnroll_Configuration_IRuntimeConfigurationProvider_LoadConfiguration_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: LoadConfiguration
+  nameWithType: IRuntimeConfigurationProvider.LoadConfiguration
+  fullName: Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration

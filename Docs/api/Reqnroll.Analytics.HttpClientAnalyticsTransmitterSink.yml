@@ -1,0 +1,598 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink
+  commentId: T:Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink
+  id: HttpClientAnalyticsTransmitterSink
+  parent: Reqnroll.Analytics
+  children:
+  - Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.#ctor(Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer,Reqnroll.Analytics.HttpClientWrapper)
+  - Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+  langs:
+  - csharp
+  - vb
+  name: HttpClientAnalyticsTransmitterSink
+  nameWithType: HttpClientAnalyticsTransmitterSink
+  fullName: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Analytics/HttpClientAnalyticsTransmitterSink.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HttpClientAnalyticsTransmitterSink
+    path: ../Reqnroll/Reqnroll/Analytics/HttpClientAnalyticsTransmitterSink.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: 'public class HttpClientAnalyticsTransmitterSink : IAnalyticsTransmitterSink'
+    content.vb: Public Class HttpClientAnalyticsTransmitterSink Implements IAnalyticsTransmitterSink
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Analytics.IAnalyticsTransmitterSink
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.#ctor(Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer,Reqnroll.Analytics.HttpClientWrapper)
+  commentId: M:Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.#ctor(Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer,Reqnroll.Analytics.HttpClientWrapper)
+  id: '#ctor(Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer,Reqnroll.Analytics.HttpClientWrapper)'
+  parent: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink
+  langs:
+  - csharp
+  - vb
+  name: HttpClientAnalyticsTransmitterSink(IAppInsightsEventSerializer, HttpClientWrapper)
+  nameWithType: HttpClientAnalyticsTransmitterSink.HttpClientAnalyticsTransmitterSink(IAppInsightsEventSerializer, HttpClientWrapper)
+  fullName: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.HttpClientAnalyticsTransmitterSink(Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer, Reqnroll.Analytics.HttpClientWrapper)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Analytics/HttpClientAnalyticsTransmitterSink.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Analytics/HttpClientAnalyticsTransmitterSink.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: public HttpClientAnalyticsTransmitterSink(IAppInsightsEventSerializer appInsightsEventSerializer, HttpClientWrapper httpClientWrapper)
+    parameters:
+    - id: appInsightsEventSerializer
+      type: Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer
+    - id: httpClientWrapper
+      type: Reqnroll.Analytics.HttpClientWrapper
+    content.vb: Public Sub New(appInsightsEventSerializer As IAppInsightsEventSerializer, httpClientWrapper As HttpClientWrapper)
+  overload: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.#ctor*
+  nameWithType.vb: HttpClientAnalyticsTransmitterSink.New(IAppInsightsEventSerializer, HttpClientWrapper)
+  fullName.vb: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.New(Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer, Reqnroll.Analytics.HttpClientWrapper)
+  name.vb: New(IAppInsightsEventSerializer, HttpClientWrapper)
+- uid: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+  commentId: M:Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+  id: TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+  parent: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink
+  langs:
+  - csharp
+  - vb
+  name: TransmitEventAsync(IAnalyticsEvent, string)
+  nameWithType: HttpClientAnalyticsTransmitterSink.TransmitEventAsync(IAnalyticsEvent, string)
+  fullName: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/HttpClientAnalyticsTransmitterSink.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TransmitEventAsync
+    path: ../Reqnroll/Reqnroll/Analytics/HttpClientAnalyticsTransmitterSink.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  example: []
+  syntax:
+    content: public Task<IResult> TransmitEventAsync(IAnalyticsEvent analyticsEvent, string instrumentationKey)
+    parameters:
+    - id: analyticsEvent
+      type: Reqnroll.Analytics.IAnalyticsEvent
+    - id: instrumentationKey
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Reqnroll.CommonModels.IResult}
+    content.vb: Public Function TransmitEventAsync(analyticsEvent As IAnalyticsEvent, instrumentationKey As String) As Task(Of IResult)
+  overload: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.TransmitEventAsync*
+  implements:
+  - Reqnroll.Analytics.IAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+  nameWithType.vb: HttpClientAnalyticsTransmitterSink.TransmitEventAsync(IAnalyticsEvent, String)
+  fullName.vb: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent, String)
+  name.vb: TransmitEventAsync(IAnalyticsEvent, String)
+references:
+- uid: Reqnroll.Analytics
+  commentId: N:Reqnroll.Analytics
+  href: Reqnroll.html
+  name: Reqnroll.Analytics
+  nameWithType: Reqnroll.Analytics
+  fullName: Reqnroll.Analytics
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Analytics.IAnalyticsTransmitterSink
+  commentId: T:Reqnroll.Analytics.IAnalyticsTransmitterSink
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.IAnalyticsTransmitterSink.html
+  name: IAnalyticsTransmitterSink
+  nameWithType: IAnalyticsTransmitterSink
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitterSink
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.#ctor*
+  commentId: Overload:Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.#ctor
+  href: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.html#Reqnroll_Analytics_HttpClientAnalyticsTransmitterSink__ctor_Reqnroll_Analytics_AppInsights_IAppInsightsEventSerializer_Reqnroll_Analytics_HttpClientWrapper_
+  name: HttpClientAnalyticsTransmitterSink
+  nameWithType: HttpClientAnalyticsTransmitterSink.HttpClientAnalyticsTransmitterSink
+  fullName: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.HttpClientAnalyticsTransmitterSink
+  nameWithType.vb: HttpClientAnalyticsTransmitterSink.New
+  fullName.vb: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.New
+  name.vb: New
+- uid: Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer
+  commentId: T:Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer
+  parent: Reqnroll.Analytics.AppInsights
+  href: Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer.html
+  name: IAppInsightsEventSerializer
+  nameWithType: IAppInsightsEventSerializer
+  fullName: Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer
+- uid: Reqnroll.Analytics.HttpClientWrapper
+  commentId: T:Reqnroll.Analytics.HttpClientWrapper
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.HttpClientWrapper.html
+  name: HttpClientWrapper
+  nameWithType: HttpClientWrapper
+  fullName: Reqnroll.Analytics.HttpClientWrapper
+- uid: Reqnroll.Analytics.AppInsights
+  commentId: N:Reqnroll.Analytics.AppInsights
+  href: Reqnroll.html
+  name: Reqnroll.Analytics.AppInsights
+  nameWithType: Reqnroll.Analytics.AppInsights
+  fullName: Reqnroll.Analytics.AppInsights
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.AppInsights
+    name: AppInsights
+    href: Reqnroll.Analytics.AppInsights.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.AppInsights
+    name: AppInsights
+    href: Reqnroll.Analytics.AppInsights.html
+- uid: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.TransmitEventAsync*
+  commentId: Overload:Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.TransmitEventAsync
+  href: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.html#Reqnroll_Analytics_HttpClientAnalyticsTransmitterSink_TransmitEventAsync_Reqnroll_Analytics_IAnalyticsEvent_System_String_
+  name: TransmitEventAsync
+  nameWithType: HttpClientAnalyticsTransmitterSink.TransmitEventAsync
+  fullName: Reqnroll.Analytics.HttpClientAnalyticsTransmitterSink.TransmitEventAsync
+- uid: Reqnroll.Analytics.IAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+  commentId: M:Reqnroll.Analytics.IAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+  parent: Reqnroll.Analytics.IAnalyticsTransmitterSink
+  isExternal: true
+  href: Reqnroll.Analytics.IAnalyticsTransmitterSink.html#Reqnroll_Analytics_IAnalyticsTransmitterSink_TransmitEventAsync_Reqnroll_Analytics_IAnalyticsEvent_System_String_
+  name: TransmitEventAsync(IAnalyticsEvent, string)
+  nameWithType: IAnalyticsTransmitterSink.TransmitEventAsync(IAnalyticsEvent, string)
+  fullName: Reqnroll.Analytics.IAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent, string)
+  nameWithType.vb: IAnalyticsTransmitterSink.TransmitEventAsync(IAnalyticsEvent, String)
+  fullName.vb: Reqnroll.Analytics.IAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent, String)
+  name.vb: TransmitEventAsync(IAnalyticsEvent, String)
+  spec.csharp:
+  - uid: Reqnroll.Analytics.IAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+    name: TransmitEventAsync
+    href: Reqnroll.Analytics.IAnalyticsTransmitterSink.html#Reqnroll_Analytics_IAnalyticsTransmitterSink_TransmitEventAsync_Reqnroll_Analytics_IAnalyticsEvent_System_String_
+  - name: (
+  - uid: Reqnroll.Analytics.IAnalyticsEvent
+    name: IAnalyticsEvent
+    href: Reqnroll.Analytics.IAnalyticsEvent.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Analytics.IAnalyticsTransmitterSink.TransmitEventAsync(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+    name: TransmitEventAsync
+    href: Reqnroll.Analytics.IAnalyticsTransmitterSink.html#Reqnroll_Analytics_IAnalyticsTransmitterSink_TransmitEventAsync_Reqnroll_Analytics_IAnalyticsEvent_System_String_
+  - name: (
+  - uid: Reqnroll.Analytics.IAnalyticsEvent
+    name: IAnalyticsEvent
+    href: Reqnroll.Analytics.IAnalyticsEvent.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Analytics.IAnalyticsEvent
+  commentId: T:Reqnroll.Analytics.IAnalyticsEvent
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.IAnalyticsEvent.html
+  name: IAnalyticsEvent
+  nameWithType: IAnalyticsEvent
+  fullName: Reqnroll.Analytics.IAnalyticsEvent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{Reqnroll.CommonModels.IResult}
+  commentId: T:System.Threading.Tasks.Task{Reqnroll.CommonModels.IResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IResult>
+  nameWithType: Task<IResult>
+  fullName: System.Threading.Tasks.Task<Reqnroll.CommonModels.IResult>
+  nameWithType.vb: Task(Of IResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Reqnroll.CommonModels.IResult)
+  name.vb: Task(Of IResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Reqnroll.CommonModels.IResult
+    name: IResult
+    href: Reqnroll.CommonModels.IResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.CommonModels.IResult
+    name: IResult
+    href: Reqnroll.CommonModels.IResult.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

@@ -1,0 +1,1219 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist.RowExtensionMethods
+  commentId: T:Reqnroll.Assist.RowExtensionMethods
+  id: RowExtensionMethods
+  parent: Reqnroll.Assist
+  children:
+  - Reqnroll.Assist.RowExtensionMethods.CreateInstance``1(Reqnroll.DataTableRow)
+  - Reqnroll.Assist.RowExtensionMethods.CreateInstance``1(Reqnroll.DataTableRow,System.Func{``0})
+  - Reqnroll.Assist.RowExtensionMethods.GetBoolean(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetChar(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetDateTime(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetDecimal(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum``1(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum``1(Reqnroll.DataTableRow,System.String,``0)
+  - Reqnroll.Assist.RowExtensionMethods.GetDouble(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetEnumValue``1(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetEnum``1(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetGuid(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetInt32(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetInt64(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetSingle(Reqnroll.DataTableRow,System.String)
+  - Reqnroll.Assist.RowExtensionMethods.GetString(Reqnroll.DataTableRow,System.String)
+  langs:
+  - csharp
+  - vb
+  name: RowExtensionMethods
+  nameWithType: RowExtensionMethods
+  fullName: Reqnroll.Assist.RowExtensionMethods
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RowExtensionMethods
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static class RowExtensionMethods
+    content.vb: Public Module RowExtensionMethods
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Assist.RowExtensionMethods.GetString(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetString(Reqnroll.DataTableRow,System.String)
+  id: GetString(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetString(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetString(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetString(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetString
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static string GetString(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetString(row As DataTableRow, id As String) As String
+  overload: Reqnroll.Assist.RowExtensionMethods.GetString*
+  nameWithType.vb: RowExtensionMethods.GetString(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetString(Reqnroll.DataTableRow, String)
+  name.vb: GetString(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetInt32(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetInt32(Reqnroll.DataTableRow,System.String)
+  id: GetInt32(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetInt32(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetInt32(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetInt32(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetInt32
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static int GetInt32(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetInt32(row As DataTableRow, id As String) As Integer
+  overload: Reqnroll.Assist.RowExtensionMethods.GetInt32*
+  nameWithType.vb: RowExtensionMethods.GetInt32(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetInt32(Reqnroll.DataTableRow, String)
+  name.vb: GetInt32(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetInt64(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetInt64(Reqnroll.DataTableRow,System.String)
+  id: GetInt64(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetInt64(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetInt64(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetInt64(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetInt64
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static long GetInt64(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    return:
+      type: System.Int64
+    content.vb: Public Shared Function GetInt64(row As DataTableRow, id As String) As Long
+  overload: Reqnroll.Assist.RowExtensionMethods.GetInt64*
+  nameWithType.vb: RowExtensionMethods.GetInt64(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetInt64(Reqnroll.DataTableRow, String)
+  name.vb: GetInt64(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetDecimal(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetDecimal(Reqnroll.DataTableRow,System.String)
+  id: GetDecimal(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetDecimal(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetDecimal(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetDecimal(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetDecimal
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 29
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static decimal GetDecimal(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    return:
+      type: System.Decimal
+    content.vb: Public Shared Function GetDecimal(row As DataTableRow, id As String) As Decimal
+  overload: Reqnroll.Assist.RowExtensionMethods.GetDecimal*
+  nameWithType.vb: RowExtensionMethods.GetDecimal(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetDecimal(Reqnroll.DataTableRow, String)
+  name.vb: GetDecimal(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetDateTime(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetDateTime(Reqnroll.DataTableRow,System.String)
+  id: GetDateTime(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetDateTime(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetDateTime(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetDateTime(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetDateTime
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 36
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static DateTime GetDateTime(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function GetDateTime(row As DataTableRow, id As String) As Date
+  overload: Reqnroll.Assist.RowExtensionMethods.GetDateTime*
+  nameWithType.vb: RowExtensionMethods.GetDateTime(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetDateTime(Reqnroll.DataTableRow, String)
+  name.vb: GetDateTime(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetBoolean(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetBoolean(Reqnroll.DataTableRow,System.String)
+  id: GetBoolean(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetBoolean(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetBoolean(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetBoolean(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetBoolean
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 43
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static bool GetBoolean(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetBoolean(row As DataTableRow, id As String) As Boolean
+  overload: Reqnroll.Assist.RowExtensionMethods.GetBoolean*
+  nameWithType.vb: RowExtensionMethods.GetBoolean(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetBoolean(Reqnroll.DataTableRow, String)
+  name.vb: GetBoolean(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetDouble(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetDouble(Reqnroll.DataTableRow,System.String)
+  id: GetDouble(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetDouble(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetDouble(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetDouble(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetDouble
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 53
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static double GetDouble(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    return:
+      type: System.Double
+    content.vb: Public Shared Function GetDouble(row As DataTableRow, id As String) As Double
+  overload: Reqnroll.Assist.RowExtensionMethods.GetDouble*
+  nameWithType.vb: RowExtensionMethods.GetDouble(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetDouble(Reqnroll.DataTableRow, String)
+  name.vb: GetDouble(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetSingle(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetSingle(Reqnroll.DataTableRow,System.String)
+  id: GetSingle(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetSingle(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetSingle(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetSingle(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetSingle
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 60
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static float GetSingle(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetSingle(row As DataTableRow, id As String) As Single
+  overload: Reqnroll.Assist.RowExtensionMethods.GetSingle*
+  nameWithType.vb: RowExtensionMethods.GetSingle(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetSingle(Reqnroll.DataTableRow, String)
+  name.vb: GetSingle(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetChar(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetChar(Reqnroll.DataTableRow,System.String)
+  id: GetChar(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetChar(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetChar(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetChar(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetChar
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 67
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static char GetChar(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    return:
+      type: System.Char
+    content.vb: Public Shared Function GetChar(row As DataTableRow, id As String) As Char
+  overload: Reqnroll.Assist.RowExtensionMethods.GetChar*
+  nameWithType.vb: RowExtensionMethods.GetChar(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetChar(Reqnroll.DataTableRow, String)
+  name.vb: GetChar(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum``1(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum``1(Reqnroll.DataTableRow,System.String)
+  id: GetDiscreteEnum``1(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetDiscreteEnum<T>(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetDiscreteEnum<T>(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum<T>(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetDiscreteEnum
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 72
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: 'public static T GetDiscreteEnum<T>(this DataTableRow row, string id) where T : struct, IConvertible'
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetDiscreteEnum(Of T As {Structure, IConvertible})(row As DataTableRow, id As String) As T
+  overload: Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum*
+  nameWithType.vb: RowExtensionMethods.GetDiscreteEnum(Of T)(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum(Of T)(Reqnroll.DataTableRow, String)
+  name.vb: GetDiscreteEnum(Of T)(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum``1(Reqnroll.DataTableRow,System.String,``0)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum``1(Reqnroll.DataTableRow,System.String,``0)
+  id: GetDiscreteEnum``1(Reqnroll.DataTableRow,System.String,``0)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetDiscreteEnum<T>(DataTableRow, string, T)
+  nameWithType: RowExtensionMethods.GetDiscreteEnum<T>(DataTableRow, string, T)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum<T>(Reqnroll.DataTableRow, string, T)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetDiscreteEnum
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 81
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: 'public static T GetDiscreteEnum<T>(this DataTableRow row, string id, T defaultValue) where T : struct, IConvertible'
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    - id: defaultValue
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetDiscreteEnum(Of T As {Structure, IConvertible})(row As DataTableRow, id As String, defaultValue As T) As T
+  overload: Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum*
+  nameWithType.vb: RowExtensionMethods.GetDiscreteEnum(Of T)(DataTableRow, String, T)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum(Of T)(Reqnroll.DataTableRow, String, T)
+  name.vb: GetDiscreteEnum(Of T)(DataTableRow, String, T)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetEnumValue``1(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetEnumValue``1(Reqnroll.DataTableRow,System.String)
+  id: GetEnumValue``1(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetEnumValue<TEnum>(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetEnumValue<TEnum>(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetEnumValue<TEnum>(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetEnumValue
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 87
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static TEnum GetEnumValue<TEnum>(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    typeParameters:
+    - id: TEnum
+    return:
+      type: '{TEnum}'
+    content.vb: Public Shared Function GetEnumValue(Of TEnum)(row As DataTableRow, id As String) As TEnum
+  overload: Reqnroll.Assist.RowExtensionMethods.GetEnumValue*
+  nameWithType.vb: RowExtensionMethods.GetEnumValue(Of TEnum)(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetEnumValue(Of TEnum)(Reqnroll.DataTableRow, String)
+  name.vb: GetEnumValue(Of TEnum)(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetEnum``1(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetEnum``1(Reqnroll.DataTableRow,System.String)
+  id: GetEnum``1(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetEnum<T>(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetEnum<T>(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetEnum<T>(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetEnum
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 92
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: 'public static Enum GetEnum<T>(this DataTableRow row, string id) where T : class'
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: System.Enum
+    content.vb: Public Shared Function GetEnum(Of T As Class)(row As DataTableRow, id As String) As [Enum]
+  overload: Reqnroll.Assist.RowExtensionMethods.GetEnum*
+  nameWithType.vb: RowExtensionMethods.GetEnum(Of T)(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetEnum(Of T)(Reqnroll.DataTableRow, String)
+  name.vb: GetEnum(Of T)(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.GetGuid(Reqnroll.DataTableRow,System.String)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.GetGuid(Reqnroll.DataTableRow,System.String)
+  id: GetGuid(Reqnroll.DataTableRow,System.String)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetGuid(DataTableRow, string)
+  nameWithType: RowExtensionMethods.GetGuid(DataTableRow, string)
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetGuid(Reqnroll.DataTableRow, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetGuid
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 136
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static Guid GetGuid(this DataTableRow row, string id)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: id
+      type: System.String
+    return:
+      type: System.Guid
+    content.vb: Public Shared Function GetGuid(row As DataTableRow, id As String) As Guid
+  overload: Reqnroll.Assist.RowExtensionMethods.GetGuid*
+  nameWithType.vb: RowExtensionMethods.GetGuid(DataTableRow, String)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.GetGuid(Reqnroll.DataTableRow, String)
+  name.vb: GetGuid(DataTableRow, String)
+- uid: Reqnroll.Assist.RowExtensionMethods.CreateInstance``1(Reqnroll.DataTableRow)
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.CreateInstance``1(Reqnroll.DataTableRow)
+  id: CreateInstance``1(Reqnroll.DataTableRow)
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance<T>(DataTableRow)
+  nameWithType: RowExtensionMethods.CreateInstance<T>(DataTableRow)
+  fullName: Reqnroll.Assist.RowExtensionMethods.CreateInstance<T>(Reqnroll.DataTableRow)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateInstance
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 183
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  summary: Creates a new instance of <code class="typeparamref">T</code> from the <xref href="Reqnroll.DataTableRow" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static T CreateInstance<T>(this DataTableRow row)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+      description: The table row.
+    typeParameters:
+    - id: T
+      description: The type of the instance to be created.
+    return:
+      type: '{T}'
+      description: A new instance of <code class="typeparamref">T</code> filled with the data from the <xref href="Reqnroll.DataTableRow" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function CreateInstance(Of T)(row As DataTableRow) As T
+  overload: Reqnroll.Assist.RowExtensionMethods.CreateInstance*
+  nameWithType.vb: RowExtensionMethods.CreateInstance(Of T)(DataTableRow)
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.CreateInstance(Of T)(Reqnroll.DataTableRow)
+  name.vb: CreateInstance(Of T)(DataTableRow)
+- uid: Reqnroll.Assist.RowExtensionMethods.CreateInstance``1(Reqnroll.DataTableRow,System.Func{``0})
+  commentId: M:Reqnroll.Assist.RowExtensionMethods.CreateInstance``1(Reqnroll.DataTableRow,System.Func{``0})
+  id: CreateInstance``1(Reqnroll.DataTableRow,System.Func{``0})
+  isExtensionMethod: true
+  parent: Reqnroll.Assist.RowExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance<T>(DataTableRow, Func<T>)
+  nameWithType: RowExtensionMethods.CreateInstance<T>(DataTableRow, Func<T>)
+  fullName: Reqnroll.Assist.RowExtensionMethods.CreateInstance<T>(Reqnroll.DataTableRow, System.Func<T>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/RowExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateInstance
+    path: ../Reqnroll/Reqnroll/Assist/RowExtensionMethods.cs
+    startLine: 196
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  summary: Creates a new instance of <code class="typeparamref">T</code> from the <xref href="Reqnroll.DataTableRow" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static T CreateInstance<T>(this DataTableRow row, Func<T> methodToCreateTheInstance)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+      description: The table row.
+    - id: methodToCreateTheInstance
+      type: System.Func{{T}}
+      description: The method to create a new instance.
+    typeParameters:
+    - id: T
+      description: The type of the instance to be created.
+    return:
+      type: '{T}'
+      description: A new instance of <code class="typeparamref">T</code> filled with the data from the <xref href="Reqnroll.DataTableRow" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function CreateInstance(Of T)(row As DataTableRow, methodToCreateTheInstance As Func(Of T)) As T
+  overload: Reqnroll.Assist.RowExtensionMethods.CreateInstance*
+  nameWithType.vb: RowExtensionMethods.CreateInstance(Of T)(DataTableRow, Func(Of T))
+  fullName.vb: Reqnroll.Assist.RowExtensionMethods.CreateInstance(Of T)(Reqnroll.DataTableRow, System.Func(Of T))
+  name.vb: CreateInstance(Of T)(DataTableRow, Func(Of T))
+references:
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  href: Reqnroll.html
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Assist.RowExtensionMethods.GetString*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetString
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetString_Reqnroll_DataTableRow_System_String_
+  name: GetString
+  nameWithType: RowExtensionMethods.GetString
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetString
+- uid: Reqnroll.DataTableRow
+  commentId: T:Reqnroll.DataTableRow
+  parent: Reqnroll
+  href: Reqnroll.DataTableRow.html
+  name: DataTableRow
+  nameWithType: DataTableRow
+  fullName: Reqnroll.DataTableRow
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.Assist.RowExtensionMethods.GetInt32*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetInt32
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetInt32_Reqnroll_DataTableRow_System_String_
+  name: GetInt32
+  nameWithType: RowExtensionMethods.GetInt32
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetInt32
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Reqnroll.Assist.RowExtensionMethods.GetInt64*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetInt64
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetInt64_Reqnroll_DataTableRow_System_String_
+  name: GetInt64
+  nameWithType: RowExtensionMethods.GetInt64
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetInt64
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Reqnroll.Assist.RowExtensionMethods.GetDecimal*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetDecimal
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetDecimal_Reqnroll_DataTableRow_System_String_
+  name: GetDecimal
+  nameWithType: RowExtensionMethods.GetDecimal
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetDecimal
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: Reqnroll.Assist.RowExtensionMethods.GetDateTime*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetDateTime
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetDateTime_Reqnroll_DataTableRow_System_String_
+  name: GetDateTime
+  nameWithType: RowExtensionMethods.GetDateTime
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetDateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Reqnroll.Assist.RowExtensionMethods.GetBoolean*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetBoolean
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetBoolean_Reqnroll_DataTableRow_System_String_
+  name: GetBoolean
+  nameWithType: RowExtensionMethods.GetBoolean
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetBoolean
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Assist.RowExtensionMethods.GetDouble*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetDouble
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetDouble_Reqnroll_DataTableRow_System_String_
+  name: GetDouble
+  nameWithType: RowExtensionMethods.GetDouble
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetDouble
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Reqnroll.Assist.RowExtensionMethods.GetSingle*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetSingle
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetSingle_Reqnroll_DataTableRow_System_String_
+  name: GetSingle
+  nameWithType: RowExtensionMethods.GetSingle
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetSingle
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Reqnroll.Assist.RowExtensionMethods.GetChar*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetChar
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetChar_Reqnroll_DataTableRow_System_String_
+  name: GetChar
+  nameWithType: RowExtensionMethods.GetChar
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetChar
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetDiscreteEnum__1_Reqnroll_DataTableRow_System_String_
+  name: GetDiscreteEnum
+  nameWithType: RowExtensionMethods.GetDiscreteEnum
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetDiscreteEnum
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Reqnroll.Assist.RowExtensionMethods.GetEnumValue*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetEnumValue
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetEnumValue__1_Reqnroll_DataTableRow_System_String_
+  name: GetEnumValue
+  nameWithType: RowExtensionMethods.GetEnumValue
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetEnumValue
+- uid: '{TEnum}'
+  commentId: '!:TEnum'
+  definition: TEnum
+  name: TEnum
+  nameWithType: TEnum
+  fullName: TEnum
+- uid: TEnum
+  commentId: '!:TEnum'
+  name: TEnum
+  nameWithType: TEnum
+  fullName: TEnum
+- uid: Reqnroll.Assist.RowExtensionMethods.GetEnum*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetEnum
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetEnum__1_Reqnroll_DataTableRow_System_String_
+  name: GetEnum
+  nameWithType: RowExtensionMethods.GetEnum
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetEnum
+- uid: System.Enum
+  commentId: T:System.Enum
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.enum
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: Reqnroll.Assist.RowExtensionMethods.GetGuid*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.GetGuid
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_GetGuid_Reqnroll_DataTableRow_System_String_
+  name: GetGuid
+  nameWithType: RowExtensionMethods.GetGuid
+  fullName: Reqnroll.Assist.RowExtensionMethods.GetGuid
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Reqnroll.Assist.RowExtensionMethods.CreateInstance*
+  commentId: Overload:Reqnroll.Assist.RowExtensionMethods.CreateInstance
+  href: Reqnroll.Assist.RowExtensionMethods.html#Reqnroll_Assist_RowExtensionMethods_CreateInstance__1_Reqnroll_DataTableRow_
+  name: CreateInstance
+  nameWithType: RowExtensionMethods.CreateInstance
+  fullName: Reqnroll.Assist.RowExtensionMethods.CreateInstance
+- uid: System.Func{{T}}
+  commentId: T:System.Func{``0}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )

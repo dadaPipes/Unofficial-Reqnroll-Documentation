@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IBindingFactory
+  commentId: T:Reqnroll.Bindings.IBindingFactory
+  id: IBindingFactory
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  - Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  - Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IBindingFactory
+  nameWithType: IBindingFactory
+  fullName: Reqnroll.Bindings.IBindingFactory
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IBindingFactory
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingFactory.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public interface IBindingFactory
+    content.vb: Public Interface IBindingFactory
+- uid: Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  commentId: M:Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  id: CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  parent: Reqnroll.Bindings.IBindingFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateHookBinding(IBindingMethod, HookType, BindingScope, int)
+  nameWithType: IBindingFactory.CreateHookBinding(IBindingMethod, HookType, BindingScope, int)
+  fullName: Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.HookType, Reqnroll.Bindings.BindingScope, int)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateHookBinding
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingFactory.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IHookBinding CreateHookBinding(IBindingMethod bindingMethod, HookType hookType, BindingScope bindingScope, int hookOrder)
+    parameters:
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: hookType
+      type: Reqnroll.Bindings.HookType
+    - id: bindingScope
+      type: Reqnroll.Bindings.BindingScope
+    - id: hookOrder
+      type: System.Int32
+    return:
+      type: Reqnroll.Bindings.IHookBinding
+    content.vb: Function CreateHookBinding(bindingMethod As IBindingMethod, hookType As HookType, bindingScope As BindingScope, hookOrder As Integer) As IHookBinding
+  overload: Reqnroll.Bindings.IBindingFactory.CreateHookBinding*
+  nameWithType.vb: IBindingFactory.CreateHookBinding(IBindingMethod, HookType, BindingScope, Integer)
+  fullName.vb: Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.HookType, Reqnroll.Bindings.BindingScope, Integer)
+  name.vb: CreateHookBinding(IBindingMethod, HookType, BindingScope, Integer)
+- uid: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  commentId: M:Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  id: CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  parent: Reqnroll.Bindings.IBindingFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, string)
+  nameWithType: IBindingFactory.CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, string)
+  fullName: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.BindingScope, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateStepDefinitionBindingBuilder
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingFactory.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IStepDefinitionBindingBuilder CreateStepDefinitionBindingBuilder(StepDefinitionType stepDefinitionType, IBindingMethod bindingMethod, BindingScope bindingScope, string expressionString)
+    parameters:
+    - id: stepDefinitionType
+      type: Reqnroll.Bindings.StepDefinitionType
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: bindingScope
+      type: Reqnroll.Bindings.BindingScope
+    - id: expressionString
+      type: System.String
+    return:
+      type: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+    content.vb: Function CreateStepDefinitionBindingBuilder(stepDefinitionType As StepDefinitionType, bindingMethod As IBindingMethod, bindingScope As BindingScope, expressionString As String) As IStepDefinitionBindingBuilder
+  overload: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder*
+  nameWithType.vb: IBindingFactory.CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, String)
+  fullName.vb: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.BindingScope, String)
+  name.vb: CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, String)
+- uid: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  commentId: M:Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  id: CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  parent: Reqnroll.Bindings.IBindingFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateStepArgumentTransformation(string, IBindingMethod, string, int)
+  nameWithType: IBindingFactory.CreateStepArgumentTransformation(string, IBindingMethod, string, int)
+  fullName: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(string, Reqnroll.Bindings.Reflection.IBindingMethod, string, int)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateStepArgumentTransformation
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingFactory.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IStepArgumentTransformationBinding CreateStepArgumentTransformation(string regexString, IBindingMethod bindingMethod, string parameterTypeName = null, int order = 10000)
+    parameters:
+    - id: regexString
+      type: System.String
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: parameterTypeName
+      type: System.String
+    - id: order
+      type: System.Int32
+    return:
+      type: Reqnroll.Bindings.IStepArgumentTransformationBinding
+    content.vb: Function CreateStepArgumentTransformation(regexString As String, bindingMethod As IBindingMethod, parameterTypeName As String = Nothing, order As Integer = 10000) As IStepArgumentTransformationBinding
+  overload: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation*
+  nameWithType.vb: IBindingFactory.CreateStepArgumentTransformation(String, IBindingMethod, String, Integer)
+  fullName.vb: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(String, Reqnroll.Bindings.Reflection.IBindingMethod, String, Integer)
+  name.vb: CreateStepArgumentTransformation(String, IBindingMethod, String, Integer)
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IBindingFactory.CreateHookBinding*
+  commentId: Overload:Reqnroll.Bindings.IBindingFactory.CreateHookBinding
+  href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateHookBinding_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_HookType_Reqnroll_Bindings_BindingScope_System_Int32_
+  name: CreateHookBinding
+  nameWithType: IBindingFactory.CreateHookBinding
+  fullName: Reqnroll.Bindings.IBindingFactory.CreateHookBinding
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: Reqnroll.Bindings.HookType
+  commentId: T:Reqnroll.Bindings.HookType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.HookType.html
+  name: HookType
+  nameWithType: HookType
+  fullName: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.BindingScope
+  commentId: T:Reqnroll.Bindings.BindingScope
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingScope.html
+  name: BindingScope
+  nameWithType: BindingScope
+  fullName: Reqnroll.Bindings.BindingScope
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Reqnroll.Bindings.IHookBinding
+  commentId: T:Reqnroll.Bindings.IHookBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IHookBinding.html
+  name: IHookBinding
+  nameWithType: IHookBinding
+  fullName: Reqnroll.Bindings.IHookBinding
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder*
+  commentId: Overload:Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder
+  href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateStepDefinitionBindingBuilder_Reqnroll_Bindings_StepDefinitionType_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_BindingScope_System_String_
+  name: CreateStepDefinitionBindingBuilder
+  nameWithType: IBindingFactory.CreateStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings.StepDefinitionType
+  commentId: T:Reqnroll.Bindings.StepDefinitionType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionType.html
+  name: StepDefinitionType
+  nameWithType: StepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionBindingBuilder.html
+  name: IStepDefinitionBindingBuilder
+  nameWithType: IStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation*
+  commentId: Overload:Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation
+  href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateStepArgumentTransformation_System_String_Reqnroll_Bindings_Reflection_IBindingMethod_System_String_System_Int32_
+  name: CreateStepArgumentTransformation
+  nameWithType: IBindingFactory.CreateStepArgumentTransformation
+  fullName: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  commentId: T:Reqnroll.Bindings.IStepArgumentTransformationBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html
+  name: IStepArgumentTransformationBinding
+  nameWithType: IStepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding

@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  id: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.ConfigDefaults
+  - Reqnroll.Configuration.ConfigSource
+  - Reqnroll.Configuration.ConfigurationLoader
+  - Reqnroll.Configuration.DefaultRuntimeConfigurationProvider
+  - Reqnroll.Configuration.DependencyConfiguration
+  - Reqnroll.Configuration.DependencyConfigurationCollection
+  - Reqnroll.Configuration.IConfigurationLoader
+  - Reqnroll.Configuration.IReqnrollConfigurationHolder
+  - Reqnroll.Configuration.IReqnrollJsonLocator
+  - Reqnroll.Configuration.IRuntimeConfigurationProvider
+  - Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider
+  - Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  - Reqnroll.Configuration.ObsoleteBehavior
+  - Reqnroll.Configuration.ReqnrollConfiguration
+  - Reqnroll.Configuration.ReqnrollJsonLocator
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Configuration.ConfigDefaults
+  commentId: T:Reqnroll.Configuration.ConfigDefaults
+  href: Reqnroll.Configuration.ConfigDefaults.html
+  name: ConfigDefaults
+  nameWithType: ConfigDefaults
+  fullName: Reqnroll.Configuration.ConfigDefaults
+- uid: Reqnroll.Configuration.ConfigurationLoader
+  commentId: T:Reqnroll.Configuration.ConfigurationLoader
+  href: Reqnroll.Configuration.ConfigurationLoader.html
+  name: ConfigurationLoader
+  nameWithType: ConfigurationLoader
+  fullName: Reqnroll.Configuration.ConfigurationLoader
+- uid: Reqnroll.Configuration.DefaultRuntimeConfigurationProvider
+  commentId: T:Reqnroll.Configuration.DefaultRuntimeConfigurationProvider
+  href: Reqnroll.Configuration.DefaultRuntimeConfigurationProvider.html
+  name: DefaultRuntimeConfigurationProvider
+  nameWithType: DefaultRuntimeConfigurationProvider
+  fullName: Reqnroll.Configuration.DefaultRuntimeConfigurationProvider
+- uid: Reqnroll.Configuration.DependencyConfigurationCollection
+  commentId: T:Reqnroll.Configuration.DependencyConfigurationCollection
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.DependencyConfigurationCollection.html
+  name: DependencyConfigurationCollection
+  nameWithType: DependencyConfigurationCollection
+  fullName: Reqnroll.Configuration.DependencyConfigurationCollection
+- uid: Reqnroll.Configuration.DependencyConfiguration
+  commentId: T:Reqnroll.Configuration.DependencyConfiguration
+  href: Reqnroll.Configuration.DependencyConfiguration.html
+  name: DependencyConfiguration
+  nameWithType: DependencyConfiguration
+  fullName: Reqnroll.Configuration.DependencyConfiguration
+- uid: Reqnroll.Configuration.IConfigurationLoader
+  commentId: T:Reqnroll.Configuration.IConfigurationLoader
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.IConfigurationLoader.html
+  name: IConfigurationLoader
+  nameWithType: IConfigurationLoader
+  fullName: Reqnroll.Configuration.IConfigurationLoader
+- uid: Reqnroll.Configuration.IReqnrollConfigurationHolder
+  commentId: T:Reqnroll.Configuration.IReqnrollConfigurationHolder
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.IReqnrollConfigurationHolder.html
+  name: IReqnrollConfigurationHolder
+  nameWithType: IReqnrollConfigurationHolder
+  fullName: Reqnroll.Configuration.IReqnrollConfigurationHolder
+- uid: Reqnroll.Configuration.IReqnrollJsonLocator
+  commentId: T:Reqnroll.Configuration.IReqnrollJsonLocator
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.IReqnrollJsonLocator.html
+  name: IReqnrollJsonLocator
+  nameWithType: IReqnrollJsonLocator
+  fullName: Reqnroll.Configuration.IReqnrollJsonLocator
+- uid: Reqnroll.Configuration.IRuntimeConfigurationProvider
+  commentId: T:Reqnroll.Configuration.IRuntimeConfigurationProvider
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.IRuntimeConfigurationProvider.html
+  name: IRuntimeConfigurationProvider
+  nameWithType: IRuntimeConfigurationProvider
+  fullName: Reqnroll.Configuration.IRuntimeConfigurationProvider
+- uid: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider
+  commentId: T:Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider
+  href: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.html
+  name: JsonStringRuntimeConfigurationProvider
+  nameWithType: JsonStringRuntimeConfigurationProvider
+  fullName: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider
+- uid: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  commentId: T:Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.MissingOrPendingStepsOutcome.html
+  name: MissingOrPendingStepsOutcome
+  nameWithType: MissingOrPendingStepsOutcome
+  fullName: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+- uid: Reqnroll.Configuration.ObsoleteBehavior
+  commentId: T:Reqnroll.Configuration.ObsoleteBehavior
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ObsoleteBehavior.html
+  name: ObsoleteBehavior
+  nameWithType: ObsoleteBehavior
+  fullName: Reqnroll.Configuration.ObsoleteBehavior
+- uid: Reqnroll.Configuration.ConfigSource
+  commentId: T:Reqnroll.Configuration.ConfigSource
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ConfigSource.html
+  name: ConfigSource
+  nameWithType: ConfigSource
+  fullName: Reqnroll.Configuration.ConfigSource
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration
+- uid: Reqnroll.Configuration.ReqnrollJsonLocator
+  commentId: T:Reqnroll.Configuration.ReqnrollJsonLocator
+  href: Reqnroll.Configuration.ReqnrollJsonLocator.html
+  name: ReqnrollJsonLocator
+  nameWithType: ReqnrollJsonLocator
+  fullName: Reqnroll.Configuration.ReqnrollJsonLocator
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html

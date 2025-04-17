@@ -1,0 +1,783 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  commentId: T:Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  id: StepDefinitionBindingBuilderBase
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.StepDefinitionBindingBuilderBase.#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  - Reqnroll.Bindings.StepDefinitionBindingBuilderBase.Build
+  - Reqnroll.Bindings.StepDefinitionBindingBuilderBase.BuildSingle
+  - Reqnroll.Bindings.StepDefinitionBindingBuilderBase.CreateExpression(System.String@)
+  - Reqnroll.Bindings.StepDefinitionBindingBuilderBase._bindingMethod
+  - Reqnroll.Bindings.StepDefinitionBindingBuilderBase._bindingScope
+  - Reqnroll.Bindings.StepDefinitionBindingBuilderBase._sourceExpression
+  - Reqnroll.Bindings.StepDefinitionBindingBuilderBase._stepDefinitionType
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionBindingBuilderBase
+  nameWithType: StepDefinitionBindingBuilderBase
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepDefinitionBindingBuilderBase
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: 'public abstract class StepDefinitionBindingBuilderBase : IStepDefinitionBindingBuilder'
+    content.vb: Public MustInherit Class StepDefinitionBindingBuilderBase Implements IStepDefinitionBindingBuilder
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder
+  - Reqnroll.Bindings.RegexStepDefinitionBindingBuilder
+  implements:
+  - Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase._stepDefinitionType
+  commentId: F:Reqnroll.Bindings.StepDefinitionBindingBuilderBase._stepDefinitionType
+  id: _stepDefinitionType
+  parent: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  langs:
+  - csharp
+  - vb
+  name: _stepDefinitionType
+  nameWithType: StepDefinitionBindingBuilderBase._stepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase._stepDefinitionType
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: _stepDefinitionType
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected StepDefinitionType _stepDefinitionType
+    return:
+      type: Reqnroll.Bindings.StepDefinitionType
+    content.vb: Protected _stepDefinitionType As StepDefinitionType
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase._bindingMethod
+  commentId: F:Reqnroll.Bindings.StepDefinitionBindingBuilderBase._bindingMethod
+  id: _bindingMethod
+  parent: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  langs:
+  - csharp
+  - vb
+  name: _bindingMethod
+  nameWithType: StepDefinitionBindingBuilderBase._bindingMethod
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase._bindingMethod
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: _bindingMethod
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected IBindingMethod _bindingMethod
+    return:
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    content.vb: Protected _bindingMethod As IBindingMethod
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase._bindingScope
+  commentId: F:Reqnroll.Bindings.StepDefinitionBindingBuilderBase._bindingScope
+  id: _bindingScope
+  parent: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  langs:
+  - csharp
+  - vb
+  name: _bindingScope
+  nameWithType: StepDefinitionBindingBuilderBase._bindingScope
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase._bindingScope
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: _bindingScope
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected BindingScope _bindingScope
+    return:
+      type: Reqnroll.Bindings.BindingScope
+    content.vb: Protected _bindingScope As BindingScope
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase._sourceExpression
+  commentId: F:Reqnroll.Bindings.StepDefinitionBindingBuilderBase._sourceExpression
+  id: _sourceExpression
+  parent: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  langs:
+  - csharp
+  - vb
+  name: _sourceExpression
+  nameWithType: StepDefinitionBindingBuilderBase._sourceExpression
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase._sourceExpression
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: _sourceExpression
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected string _sourceExpression
+    return:
+      type: System.String
+    content.vb: Protected _sourceExpression As String
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  commentId: M:Reqnroll.Bindings.StepDefinitionBindingBuilderBase.#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  id: '#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)'
+  parent: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionBindingBuilderBase(StepDefinitionType, IBindingMethod, BindingScope, string)
+  nameWithType: StepDefinitionBindingBuilderBase.StepDefinitionBindingBuilderBase(StepDefinitionType, IBindingMethod, BindingScope, string)
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.StepDefinitionBindingBuilderBase(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.BindingScope, string)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected StepDefinitionBindingBuilderBase(StepDefinitionType stepDefinitionType, IBindingMethod bindingMethod, BindingScope bindingScope, string sourceExpression)
+    parameters:
+    - id: stepDefinitionType
+      type: Reqnroll.Bindings.StepDefinitionType
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: bindingScope
+      type: Reqnroll.Bindings.BindingScope
+    - id: sourceExpression
+      type: System.String
+    content.vb: Protected Sub New(stepDefinitionType As StepDefinitionType, bindingMethod As IBindingMethod, bindingScope As BindingScope, sourceExpression As String)
+  overload: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.#ctor*
+  nameWithType.vb: StepDefinitionBindingBuilderBase.New(StepDefinitionType, IBindingMethod, BindingScope, String)
+  fullName.vb: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.New(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.BindingScope, String)
+  name.vb: New(StepDefinitionType, IBindingMethod, BindingScope, String)
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.Build
+  commentId: M:Reqnroll.Bindings.StepDefinitionBindingBuilderBase.Build
+  id: Build
+  parent: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: StepDefinitionBindingBuilderBase.Build()
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.Build()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Build
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public virtual IEnumerable<IStepDefinitionBinding> Build()
+    return:
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepDefinitionBinding}
+    content.vb: Public Overridable Function Build() As IEnumerable(Of IStepDefinitionBinding)
+  overload: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.Build*
+  implements:
+  - Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.CreateExpression(System.String@)
+  commentId: M:Reqnroll.Bindings.StepDefinitionBindingBuilderBase.CreateExpression(System.String@)
+  id: CreateExpression(System.String@)
+  parent: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  langs:
+  - csharp
+  - vb
+  name: CreateExpression(out string)
+  nameWithType: StepDefinitionBindingBuilderBase.CreateExpression(out string)
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.CreateExpression(out string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateExpression
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+    startLine: 27
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected abstract IExpression CreateExpression(out string expressionType)
+    parameters:
+    - id: expressionType
+      type: System.String
+    return:
+      type: CucumberExpressions.IExpression
+    content.vb: Protected MustOverride Function CreateExpression(expressionType As String) As IExpression
+  overload: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.CreateExpression*
+  nameWithType.vb: StepDefinitionBindingBuilderBase.CreateExpression(String)
+  fullName.vb: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.CreateExpression(String)
+  name.vb: CreateExpression(String)
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.BuildSingle
+  commentId: M:Reqnroll.Bindings.StepDefinitionBindingBuilderBase.BuildSingle
+  id: BuildSingle
+  parent: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  langs:
+  - csharp
+  - vb
+  name: BuildSingle()
+  nameWithType: StepDefinitionBindingBuilderBase.BuildSingle()
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.BuildSingle()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BuildSingle
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionBindingBuilderBase.cs
+    startLine: 29
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public virtual IStepDefinitionBinding BuildSingle()
+    return:
+      type: Reqnroll.Bindings.IStepDefinitionBinding
+    content.vb: Public Overridable Function BuildSingle() As IStepDefinitionBinding
+  overload: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.BuildSingle*
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionBindingBuilder.html
+  name: IStepDefinitionBindingBuilder
+  nameWithType: IStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.StepDefinitionType
+  commentId: T:Reqnroll.Bindings.StepDefinitionType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionType.html
+  name: StepDefinitionType
+  nameWithType: StepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionType
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: Reqnroll.Bindings.BindingScope
+  commentId: T:Reqnroll.Bindings.BindingScope
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingScope.html
+  name: BindingScope
+  nameWithType: BindingScope
+  fullName: Reqnroll.Bindings.BindingScope
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.#ctor*
+  commentId: Overload:Reqnroll.Bindings.StepDefinitionBindingBuilderBase.#ctor
+  href: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.html#Reqnroll_Bindings_StepDefinitionBindingBuilderBase__ctor_Reqnroll_Bindings_StepDefinitionType_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_BindingScope_System_String_
+  name: StepDefinitionBindingBuilderBase
+  nameWithType: StepDefinitionBindingBuilderBase.StepDefinitionBindingBuilderBase
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.StepDefinitionBindingBuilderBase
+  nameWithType.vb: StepDefinitionBindingBuilderBase.New
+  fullName.vb: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.New
+  name.vb: New
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.Build*
+  commentId: Overload:Reqnroll.Bindings.StepDefinitionBindingBuilderBase.Build
+  href: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.html#Reqnroll_Bindings_StepDefinitionBindingBuilderBase_Build
+  name: Build
+  nameWithType: StepDefinitionBindingBuilderBase.Build
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.Build
+- uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build
+  commentId: M:Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build
+  parent: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  href: Reqnroll.Bindings.IStepDefinitionBindingBuilder.html#Reqnroll_Bindings_IStepDefinitionBindingBuilder_Build
+  name: Build()
+  nameWithType: IStepDefinitionBindingBuilder.Build()
+  fullName: Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build()
+  spec.csharp:
+  - uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build
+    name: Build
+    href: Reqnroll.Bindings.IStepDefinitionBindingBuilder.html#Reqnroll_Bindings_IStepDefinitionBindingBuilder_Build
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build
+    name: Build
+    href: Reqnroll.Bindings.IStepDefinitionBindingBuilder.html#Reqnroll_Bindings_IStepDefinitionBindingBuilder_Build
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepDefinitionBinding}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepDefinitionBinding}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IStepDefinitionBinding>
+  nameWithType: IEnumerable<IStepDefinitionBinding>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.Bindings.IStepDefinitionBinding>
+  nameWithType.vb: IEnumerable(Of IStepDefinitionBinding)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.IStepDefinitionBinding)
+  name.vb: IEnumerable(Of IStepDefinitionBinding)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.Bindings.IStepDefinitionBinding
+    name: IStepDefinitionBinding
+    href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.IStepDefinitionBinding
+    name: IStepDefinitionBinding
+    href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.CreateExpression*
+  commentId: Overload:Reqnroll.Bindings.StepDefinitionBindingBuilderBase.CreateExpression
+  href: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.html#Reqnroll_Bindings_StepDefinitionBindingBuilderBase_CreateExpression_System_String__
+  name: CreateExpression
+  nameWithType: StepDefinitionBindingBuilderBase.CreateExpression
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.CreateExpression
+- uid: CucumberExpressions.IExpression
+  commentId: T:CucumberExpressions.IExpression
+  parent: CucumberExpressions
+  isExternal: true
+  name: IExpression
+  nameWithType: IExpression
+  fullName: CucumberExpressions.IExpression
+- uid: CucumberExpressions
+  commentId: N:CucumberExpressions
+  isExternal: true
+  name: CucumberExpressions
+  nameWithType: CucumberExpressions
+  fullName: CucumberExpressions
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.BuildSingle*
+  commentId: Overload:Reqnroll.Bindings.StepDefinitionBindingBuilderBase.BuildSingle
+  href: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.html#Reqnroll_Bindings_StepDefinitionBindingBuilderBase_BuildSingle
+  name: BuildSingle
+  nameWithType: StepDefinitionBindingBuilderBase.BuildSingle
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.BuildSingle
+- uid: Reqnroll.Bindings.IStepDefinitionBinding
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  name: IStepDefinitionBinding
+  nameWithType: IStepDefinitionBinding
+  fullName: Reqnroll.Bindings.IStepDefinitionBinding

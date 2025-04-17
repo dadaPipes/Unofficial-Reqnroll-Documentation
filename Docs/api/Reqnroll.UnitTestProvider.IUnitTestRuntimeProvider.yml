@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+  commentId: T:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+  id: IUnitTestRuntimeProvider
+  parent: Reqnroll.UnitTestProvider
+  children:
+  - Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore(System.String)
+  - Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive(System.String)
+  - Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestPending(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IUnitTestRuntimeProvider
+  nameWithType: IUnitTestRuntimeProvider
+  fullName: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/UnitTestProvider/IUnitTestRuntimeProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IUnitTestRuntimeProvider
+    path: ../Reqnroll/Reqnroll/UnitTestProvider/IUnitTestRuntimeProvider.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.UnitTestProvider
+  syntax:
+    content: public interface IUnitTestRuntimeProvider
+    content.vb: Public Interface IUnitTestRuntimeProvider
+- uid: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestPending(System.String)
+  commentId: M:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestPending(System.String)
+  id: TestPending(System.String)
+  parent: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+  langs:
+  - csharp
+  - vb
+  name: TestPending(string)
+  nameWithType: IUnitTestRuntimeProvider.TestPending(string)
+  fullName: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestPending(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/UnitTestProvider/IUnitTestRuntimeProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestPending
+    path: ../Reqnroll/Reqnroll/UnitTestProvider/IUnitTestRuntimeProvider.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.UnitTestProvider
+  syntax:
+    content: void TestPending(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Sub TestPending(message As String)
+  overload: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestPending*
+  nameWithType.vb: IUnitTestRuntimeProvider.TestPending(String)
+  fullName.vb: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestPending(String)
+  name.vb: TestPending(String)
+- uid: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive(System.String)
+  commentId: M:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive(System.String)
+  id: TestInconclusive(System.String)
+  parent: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+  langs:
+  - csharp
+  - vb
+  name: TestInconclusive(string)
+  nameWithType: IUnitTestRuntimeProvider.TestInconclusive(string)
+  fullName: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/UnitTestProvider/IUnitTestRuntimeProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestInconclusive
+    path: ../Reqnroll/Reqnroll/UnitTestProvider/IUnitTestRuntimeProvider.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.UnitTestProvider
+  syntax:
+    content: void TestInconclusive(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Sub TestInconclusive(message As String)
+  overload: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive*
+  nameWithType.vb: IUnitTestRuntimeProvider.TestInconclusive(String)
+  fullName.vb: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive(String)
+  name.vb: TestInconclusive(String)
+- uid: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore(System.String)
+  commentId: M:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore(System.String)
+  id: TestIgnore(System.String)
+  parent: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+  langs:
+  - csharp
+  - vb
+  name: TestIgnore(string)
+  nameWithType: IUnitTestRuntimeProvider.TestIgnore(string)
+  fullName: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/UnitTestProvider/IUnitTestRuntimeProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestIgnore
+    path: ../Reqnroll/Reqnroll/UnitTestProvider/IUnitTestRuntimeProvider.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.UnitTestProvider
+  syntax:
+    content: void TestIgnore(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Sub TestIgnore(message As String)
+  overload: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore*
+  nameWithType.vb: IUnitTestRuntimeProvider.TestIgnore(String)
+  fullName.vb: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore(String)
+  name.vb: TestIgnore(String)
+references:
+- uid: Reqnroll.UnitTestProvider
+  commentId: N:Reqnroll.UnitTestProvider
+  href: Reqnroll.html
+  name: Reqnroll.UnitTestProvider
+  nameWithType: Reqnroll.UnitTestProvider
+  fullName: Reqnroll.UnitTestProvider
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.UnitTestProvider
+    name: UnitTestProvider
+    href: Reqnroll.UnitTestProvider.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.UnitTestProvider
+    name: UnitTestProvider
+    href: Reqnroll.UnitTestProvider.html
+- uid: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestPending*
+  commentId: Overload:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestPending
+  href: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.html#Reqnroll_UnitTestProvider_IUnitTestRuntimeProvider_TestPending_System_String_
+  name: TestPending
+  nameWithType: IUnitTestRuntimeProvider.TestPending
+  fullName: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestPending
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive*
+  commentId: Overload:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive
+  href: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.html#Reqnroll_UnitTestProvider_IUnitTestRuntimeProvider_TestInconclusive_System_String_
+  name: TestInconclusive
+  nameWithType: IUnitTestRuntimeProvider.TestInconclusive
+  fullName: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive
+- uid: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore*
+  commentId: Overload:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore
+  href: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.html#Reqnroll_UnitTestProvider_IUnitTestRuntimeProvider_TestIgnore_System_String_
+  name: TestIgnore
+  nameWithType: IUnitTestRuntimeProvider.TestIgnore
+  fullName: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore

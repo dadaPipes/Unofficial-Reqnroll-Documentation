@@ -1,0 +1,604 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Steps
+  commentId: T:Reqnroll.Steps
+  id: Steps
+  parent: Reqnroll
+  children:
+  - Reqnroll.Steps.AssertInitialized
+  - Reqnroll.Steps.FeatureContext
+  - Reqnroll.Steps.ScenarioContext
+  - Reqnroll.Steps.StepContext
+  - Reqnroll.Steps.SyncTestRunner
+  - Reqnroll.Steps.TestRunner
+  - Reqnroll.Steps.TestThreadContext
+  langs:
+  - csharp
+  - vb
+  name: Steps
+  nameWithType: Steps
+  fullName: Reqnroll.Steps
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Steps.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Steps
+    path: ../Reqnroll/Reqnroll/Steps.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: 'public abstract class Steps : IContainerDependentObject'
+    content.vb: Public MustInherit Class Steps Implements IContainerDependentObject
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Infrastructure.IContainerDependentObject
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Steps.TestRunner
+  commentId: P:Reqnroll.Steps.TestRunner
+  id: TestRunner
+  parent: Reqnroll.Steps
+  langs:
+  - csharp
+  - vb
+  name: TestRunner
+  nameWithType: Steps.TestRunner
+  fullName: Reqnroll.Steps.TestRunner
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Steps.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestRunner
+    path: ../Reqnroll/Reqnroll/Steps.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected ITestRunner TestRunner { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ITestRunner
+    content.vb: Protected ReadOnly Property TestRunner As ITestRunner
+  overload: Reqnroll.Steps.TestRunner*
+- uid: Reqnroll.Steps.SyncTestRunner
+  commentId: P:Reqnroll.Steps.SyncTestRunner
+  id: SyncTestRunner
+  parent: Reqnroll.Steps
+  langs:
+  - csharp
+  - vb
+  name: SyncTestRunner
+  nameWithType: Steps.SyncTestRunner
+  fullName: Reqnroll.Steps.SyncTestRunner
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Steps.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SyncTestRunner
+    path: ../Reqnroll/Reqnroll/Steps.cs
+    startLine: 26
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected ISyncTestRunner SyncTestRunner { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ISyncTestRunner
+    content.vb: Protected ReadOnly Property SyncTestRunner As ISyncTestRunner
+  overload: Reqnroll.Steps.SyncTestRunner*
+- uid: Reqnroll.Steps.ScenarioContext
+  commentId: P:Reqnroll.Steps.ScenarioContext
+  id: ScenarioContext
+  parent: Reqnroll.Steps
+  langs:
+  - csharp
+  - vb
+  name: ScenarioContext
+  nameWithType: Steps.ScenarioContext
+  fullName: Reqnroll.Steps.ScenarioContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Steps.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioContext
+    path: ../Reqnroll/Reqnroll/Steps.cs
+    startLine: 35
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public ScenarioContext ScenarioContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioContext
+    content.vb: Public ReadOnly Property ScenarioContext As ScenarioContext
+  overload: Reqnroll.Steps.ScenarioContext*
+- uid: Reqnroll.Steps.FeatureContext
+  commentId: P:Reqnroll.Steps.FeatureContext
+  id: FeatureContext
+  parent: Reqnroll.Steps
+  langs:
+  - csharp
+  - vb
+  name: FeatureContext
+  nameWithType: Steps.FeatureContext
+  fullName: Reqnroll.Steps.FeatureContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Steps.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FeatureContext
+    path: ../Reqnroll/Reqnroll/Steps.cs
+    startLine: 44
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public FeatureContext FeatureContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.FeatureContext
+    content.vb: Public ReadOnly Property FeatureContext As FeatureContext
+  overload: Reqnroll.Steps.FeatureContext*
+- uid: Reqnroll.Steps.TestThreadContext
+  commentId: P:Reqnroll.Steps.TestThreadContext
+  id: TestThreadContext
+  parent: Reqnroll.Steps
+  langs:
+  - csharp
+  - vb
+  name: TestThreadContext
+  nameWithType: Steps.TestThreadContext
+  fullName: Reqnroll.Steps.TestThreadContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Steps.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestThreadContext
+    path: ../Reqnroll/Reqnroll/Steps.cs
+    startLine: 53
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public TestThreadContext TestThreadContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.TestThreadContext
+    content.vb: Public ReadOnly Property TestThreadContext As TestThreadContext
+  overload: Reqnroll.Steps.TestThreadContext*
+- uid: Reqnroll.Steps.StepContext
+  commentId: P:Reqnroll.Steps.StepContext
+  id: StepContext
+  parent: Reqnroll.Steps
+  langs:
+  - csharp
+  - vb
+  name: StepContext
+  nameWithType: Steps.StepContext
+  fullName: Reqnroll.Steps.StepContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Steps.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepContext
+    path: ../Reqnroll/Reqnroll/Steps.cs
+    startLine: 62
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public ScenarioStepContext StepContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioStepContext
+    content.vb: Public ReadOnly Property StepContext As ScenarioStepContext
+  overload: Reqnroll.Steps.StepContext*
+- uid: Reqnroll.Steps.AssertInitialized
+  commentId: M:Reqnroll.Steps.AssertInitialized
+  id: AssertInitialized
+  parent: Reqnroll.Steps
+  langs:
+  - csharp
+  - vb
+  name: AssertInitialized()
+  nameWithType: Steps.AssertInitialized()
+  fullName: Reqnroll.Steps.AssertInitialized()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Steps.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AssertInitialized
+    path: ../Reqnroll/Reqnroll/Steps.cs
+    startLine: 72
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected void AssertInitialized()
+    content.vb: Protected Sub AssertInitialized()
+  overload: Reqnroll.Steps.AssertInitialized*
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Infrastructure.IContainerDependentObject
+  commentId: T:Reqnroll.Infrastructure.IContainerDependentObject
+  parent: Reqnroll.Infrastructure
+  href: Reqnroll.Infrastructure.IContainerDependentObject.html
+  name: IContainerDependentObject
+  nameWithType: IContainerDependentObject
+  fullName: Reqnroll.Infrastructure.IContainerDependentObject
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Steps.TestRunner*
+  commentId: Overload:Reqnroll.Steps.TestRunner
+  href: Reqnroll.Steps.html#Reqnroll_Steps_TestRunner
+  name: TestRunner
+  nameWithType: Steps.TestRunner
+  fullName: Reqnroll.Steps.TestRunner
+- uid: Reqnroll.ITestRunner
+  commentId: T:Reqnroll.ITestRunner
+  parent: Reqnroll
+  href: Reqnroll.ITestRunner.html
+  name: ITestRunner
+  nameWithType: ITestRunner
+  fullName: Reqnroll.ITestRunner
+- uid: Reqnroll.Steps.SyncTestRunner*
+  commentId: Overload:Reqnroll.Steps.SyncTestRunner
+  href: Reqnroll.Steps.html#Reqnroll_Steps_SyncTestRunner
+  name: SyncTestRunner
+  nameWithType: Steps.SyncTestRunner
+  fullName: Reqnroll.Steps.SyncTestRunner
+- uid: Reqnroll.ISyncTestRunner
+  commentId: T:Reqnroll.ISyncTestRunner
+  parent: Reqnroll
+  href: Reqnroll.ISyncTestRunner.html
+  name: ISyncTestRunner
+  nameWithType: ISyncTestRunner
+  fullName: Reqnroll.ISyncTestRunner
+- uid: Reqnroll.Steps.ScenarioContext*
+  commentId: Overload:Reqnroll.Steps.ScenarioContext
+  href: Reqnroll.Steps.html#Reqnroll_Steps_ScenarioContext
+  name: ScenarioContext
+  nameWithType: Steps.ScenarioContext
+  fullName: Reqnroll.Steps.ScenarioContext
+- uid: Reqnroll.ScenarioContext
+  commentId: T:Reqnroll.ScenarioContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioContext.html
+  name: ScenarioContext
+  nameWithType: ScenarioContext
+  fullName: Reqnroll.ScenarioContext
+- uid: Reqnroll.Steps.FeatureContext*
+  commentId: Overload:Reqnroll.Steps.FeatureContext
+  href: Reqnroll.Steps.html#Reqnroll_Steps_FeatureContext
+  name: FeatureContext
+  nameWithType: Steps.FeatureContext
+  fullName: Reqnroll.Steps.FeatureContext
+- uid: Reqnroll.FeatureContext
+  commentId: T:Reqnroll.FeatureContext
+  parent: Reqnroll
+  href: Reqnroll.FeatureContext.html
+  name: FeatureContext
+  nameWithType: FeatureContext
+  fullName: Reqnroll.FeatureContext
+- uid: Reqnroll.Steps.TestThreadContext*
+  commentId: Overload:Reqnroll.Steps.TestThreadContext
+  href: Reqnroll.Steps.html#Reqnroll_Steps_TestThreadContext
+  name: TestThreadContext
+  nameWithType: Steps.TestThreadContext
+  fullName: Reqnroll.Steps.TestThreadContext
+- uid: Reqnroll.TestThreadContext
+  commentId: T:Reqnroll.TestThreadContext
+  parent: Reqnroll
+  href: Reqnroll.TestThreadContext.html
+  name: TestThreadContext
+  nameWithType: TestThreadContext
+  fullName: Reqnroll.TestThreadContext
+- uid: Reqnroll.Steps.StepContext*
+  commentId: Overload:Reqnroll.Steps.StepContext
+  href: Reqnroll.Steps.html#Reqnroll_Steps_StepContext
+  name: StepContext
+  nameWithType: Steps.StepContext
+  fullName: Reqnroll.Steps.StepContext
+- uid: Reqnroll.ScenarioStepContext
+  commentId: T:Reqnroll.ScenarioStepContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioStepContext.html
+  name: ScenarioStepContext
+  nameWithType: ScenarioStepContext
+  fullName: Reqnroll.ScenarioStepContext
+- uid: Reqnroll.Steps.AssertInitialized*
+  commentId: Overload:Reqnroll.Steps.AssertInitialized
+  href: Reqnroll.Steps.html#Reqnroll_Steps_AssertInitialized
+  name: AssertInitialized
+  nameWithType: Steps.AssertInitialized
+  fullName: Reqnroll.Steps.AssertInitialized

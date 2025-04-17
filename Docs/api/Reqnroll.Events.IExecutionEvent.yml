@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Events.IExecutionEvent
+  commentId: T:Reqnroll.Events.IExecutionEvent
+  id: IExecutionEvent
+  parent: Reqnroll.Events
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IExecutionEvent
+  nameWithType: IExecutionEvent
+  fullName: Reqnroll.Events.IExecutionEvent
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Events/IExecutionEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IExecutionEvent
+    path: ../Reqnroll/Reqnroll/Events/IExecutionEvent.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: public interface IExecutionEvent
+    content.vb: Public Interface IExecutionEvent
+references:
+- uid: Reqnroll.Events
+  commentId: N:Reqnroll.Events
+  href: Reqnroll.html
+  name: Reqnroll.Events
+  nameWithType: Reqnroll.Events
+  fullName: Reqnroll.Events
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Events
+    name: Events
+    href: Reqnroll.Events.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Events
+    name: Events
+    href: Reqnroll.Events.html

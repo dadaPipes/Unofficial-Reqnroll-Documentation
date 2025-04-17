@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Plugins.IPluginAssemblyLoader
+  commentId: T:Reqnroll.Plugins.IPluginAssemblyLoader
+  id: IPluginAssemblyLoader
+  parent: Reqnroll.Plugins
+  children:
+  - Reqnroll.Plugins.IPluginAssemblyLoader.LoadAssembly(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IPluginAssemblyLoader
+  nameWithType: IPluginAssemblyLoader
+  fullName: Reqnroll.Plugins.IPluginAssemblyLoader
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Plugins/IPluginAssemblyLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IPluginAssemblyLoader
+    path: ../Reqnroll/Reqnroll/Plugins/IPluginAssemblyLoader.cs
+    startLine: 3
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public interface IPluginAssemblyLoader
+    content.vb: Public Interface IPluginAssemblyLoader
+- uid: Reqnroll.Plugins.IPluginAssemblyLoader.LoadAssembly(System.String)
+  commentId: M:Reqnroll.Plugins.IPluginAssemblyLoader.LoadAssembly(System.String)
+  id: LoadAssembly(System.String)
+  parent: Reqnroll.Plugins.IPluginAssemblyLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadAssembly(string)
+  nameWithType: IPluginAssemblyLoader.LoadAssembly(string)
+  fullName: Reqnroll.Plugins.IPluginAssemblyLoader.LoadAssembly(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/IPluginAssemblyLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: LoadAssembly
+    path: ../Reqnroll/Reqnroll/Plugins/IPluginAssemblyLoader.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: Assembly LoadAssembly(string assemblyPath)
+    parameters:
+    - id: assemblyPath
+      type: System.String
+    return:
+      type: System.Reflection.Assembly
+    content.vb: Function LoadAssembly(assemblyPath As String) As Assembly
+  overload: Reqnroll.Plugins.IPluginAssemblyLoader.LoadAssembly*
+  nameWithType.vb: IPluginAssemblyLoader.LoadAssembly(String)
+  fullName.vb: Reqnroll.Plugins.IPluginAssemblyLoader.LoadAssembly(String)
+  name.vb: LoadAssembly(String)
+references:
+- uid: Reqnroll.Plugins
+  commentId: N:Reqnroll.Plugins
+  href: Reqnroll.html
+  name: Reqnroll.Plugins
+  nameWithType: Reqnroll.Plugins
+  fullName: Reqnroll.Plugins
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+- uid: Reqnroll.Plugins.IPluginAssemblyLoader.LoadAssembly*
+  commentId: Overload:Reqnroll.Plugins.IPluginAssemblyLoader.LoadAssembly
+  href: Reqnroll.Plugins.IPluginAssemblyLoader.html#Reqnroll_Plugins_IPluginAssemblyLoader_LoadAssembly_System_String_
+  name: LoadAssembly
+  nameWithType: IPluginAssemblyLoader.LoadAssembly
+  fullName: Reqnroll.Plugins.IPluginAssemblyLoader.LoadAssembly
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection

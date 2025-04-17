@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.IReqnrollContext
+  commentId: T:Reqnroll.IReqnrollContext
+  id: IReqnrollContext
+  parent: Reqnroll
+  children:
+  - Reqnroll.IReqnrollContext.TestError
+  langs:
+  - csharp
+  - vb
+  name: IReqnrollContext
+  nameWithType: IReqnrollContext
+  fullName: Reqnroll.IReqnrollContext
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/ReqnrollContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IReqnrollContext
+    path: ../Reqnroll/Reqnroll/ReqnrollContext.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public interface IReqnrollContext
+    content.vb: Public Interface IReqnrollContext
+- uid: Reqnroll.IReqnrollContext.TestError
+  commentId: P:Reqnroll.IReqnrollContext.TestError
+  id: TestError
+  parent: Reqnroll.IReqnrollContext
+  langs:
+  - csharp
+  - vb
+  name: TestError
+  nameWithType: IReqnrollContext.TestError
+  fullName: Reqnroll.IReqnrollContext.TestError
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ReqnrollContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestError
+    path: ../Reqnroll/Reqnroll/ReqnrollContext.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Exception TestError { get; }
+    parameters: []
+    return:
+      type: System.Exception
+    content.vb: ReadOnly Property TestError As Exception
+  overload: Reqnroll.IReqnrollContext.TestError*
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.IReqnrollContext.TestError*
+  commentId: Overload:Reqnroll.IReqnrollContext.TestError
+  href: Reqnroll.IReqnrollContext.html#Reqnroll_IReqnrollContext_TestError
+  name: TestError
+  nameWithType: IReqnrollContext.TestError
+  fullName: Reqnroll.IReqnrollContext.TestError
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

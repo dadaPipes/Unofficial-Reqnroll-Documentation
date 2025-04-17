@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.IFeatureContext
+  commentId: T:Reqnroll.IFeatureContext
+  id: IFeatureContext
+  parent: Reqnroll
+  children:
+  - Reqnroll.IFeatureContext.BindingCulture
+  - Reqnroll.IFeatureContext.FeatureContainer
+  - Reqnroll.IFeatureContext.FeatureInfo
+  langs:
+  - csharp
+  - vb
+  name: IFeatureContext
+  nameWithType: IFeatureContext
+  fullName: Reqnroll.IFeatureContext
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/FeatureContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IFeatureContext
+    path: ../Reqnroll/Reqnroll/FeatureContext.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: 'public interface IFeatureContext : IReqnrollContext'
+    content.vb: Public Interface IFeatureContext Inherits IReqnrollContext
+  inheritedMembers:
+  - Reqnroll.IReqnrollContext.TestError
+- uid: Reqnroll.IFeatureContext.FeatureInfo
+  commentId: P:Reqnroll.IFeatureContext.FeatureInfo
+  id: FeatureInfo
+  parent: Reqnroll.IFeatureContext
+  langs:
+  - csharp
+  - vb
+  name: FeatureInfo
+  nameWithType: IFeatureContext.FeatureInfo
+  fullName: Reqnroll.IFeatureContext.FeatureInfo
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/FeatureContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FeatureInfo
+    path: ../Reqnroll/Reqnroll/FeatureContext.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: FeatureInfo FeatureInfo { get; }
+    parameters: []
+    return:
+      type: Reqnroll.FeatureInfo
+    content.vb: ReadOnly Property FeatureInfo As FeatureInfo
+  overload: Reqnroll.IFeatureContext.FeatureInfo*
+- uid: Reqnroll.IFeatureContext.BindingCulture
+  commentId: P:Reqnroll.IFeatureContext.BindingCulture
+  id: BindingCulture
+  parent: Reqnroll.IFeatureContext
+  langs:
+  - csharp
+  - vb
+  name: BindingCulture
+  nameWithType: IFeatureContext.BindingCulture
+  fullName: Reqnroll.IFeatureContext.BindingCulture
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/FeatureContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingCulture
+    path: ../Reqnroll/Reqnroll/FeatureContext.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: CultureInfo BindingCulture { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: ReadOnly Property BindingCulture As CultureInfo
+  overload: Reqnroll.IFeatureContext.BindingCulture*
+- uid: Reqnroll.IFeatureContext.FeatureContainer
+  commentId: P:Reqnroll.IFeatureContext.FeatureContainer
+  id: FeatureContainer
+  parent: Reqnroll.IFeatureContext
+  langs:
+  - csharp
+  - vb
+  name: FeatureContainer
+  nameWithType: IFeatureContext.FeatureContainer
+  fullName: Reqnroll.IFeatureContext.FeatureContainer
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/FeatureContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FeatureContainer
+    path: ../Reqnroll/Reqnroll/FeatureContext.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: IObjectContainer FeatureContainer { get; }
+    parameters: []
+    return:
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: ReadOnly Property FeatureContainer As IObjectContainer
+  overload: Reqnroll.IFeatureContext.FeatureContainer*
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.IReqnrollContext.TestError
+  commentId: P:Reqnroll.IReqnrollContext.TestError
+  parent: Reqnroll.IReqnrollContext
+  href: Reqnroll.IReqnrollContext.html#Reqnroll_IReqnrollContext_TestError
+  name: TestError
+  nameWithType: IReqnrollContext.TestError
+  fullName: Reqnroll.IReqnrollContext.TestError
+- uid: Reqnroll.IReqnrollContext
+  commentId: T:Reqnroll.IReqnrollContext
+  parent: Reqnroll
+  href: Reqnroll.IReqnrollContext.html
+  name: IReqnrollContext
+  nameWithType: IReqnrollContext
+  fullName: Reqnroll.IReqnrollContext
+- uid: Reqnroll.IFeatureContext.FeatureInfo*
+  commentId: Overload:Reqnroll.IFeatureContext.FeatureInfo
+  href: Reqnroll.IFeatureContext.html#Reqnroll_IFeatureContext_FeatureInfo
+  name: FeatureInfo
+  nameWithType: IFeatureContext.FeatureInfo
+  fullName: Reqnroll.IFeatureContext.FeatureInfo
+- uid: Reqnroll.FeatureInfo
+  commentId: T:Reqnroll.FeatureInfo
+  parent: Reqnroll
+  href: Reqnroll.FeatureInfo.html
+  name: FeatureInfo
+  nameWithType: FeatureInfo
+  fullName: Reqnroll.FeatureInfo
+- uid: Reqnroll.IFeatureContext.BindingCulture*
+  commentId: Overload:Reqnroll.IFeatureContext.BindingCulture
+  href: Reqnroll.IFeatureContext.html#Reqnroll_IFeatureContext_BindingCulture
+  name: BindingCulture
+  nameWithType: IFeatureContext.BindingCulture
+  fullName: Reqnroll.IFeatureContext.BindingCulture
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: Reqnroll.IFeatureContext.FeatureContainer*
+  commentId: Overload:Reqnroll.IFeatureContext.FeatureContainer
+  href: Reqnroll.IFeatureContext.html#Reqnroll_IFeatureContext_FeatureContainer
+  name: FeatureContainer
+  nameWithType: IFeatureContext.FeatureContainer
+  fullName: Reqnroll.IFeatureContext.FeatureContainer
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html

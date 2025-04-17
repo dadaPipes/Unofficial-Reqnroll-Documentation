@@ -1,0 +1,841 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist.Service
+  commentId: T:Reqnroll.Assist.Service
+  id: Service
+  parent: Reqnroll.Assist
+  children:
+  - Reqnroll.Assist.Service.#ctor
+  - Reqnroll.Assist.Service.GetValueRetrieverFor(Reqnroll.DataTableRow,System.Type,System.Type)
+  - Reqnroll.Assist.Service.Instance
+  - Reqnroll.Assist.Service.RegisterValueComparer(Reqnroll.Assist.IValueComparer)
+  - Reqnroll.Assist.Service.RegisterValueRetriever(Reqnroll.Assist.IValueRetriever)
+  - Reqnroll.Assist.Service.RestoreDefaults
+  - Reqnroll.Assist.Service.UnregisterValueComparer(Reqnroll.Assist.IValueComparer)
+  - Reqnroll.Assist.Service.UnregisterValueRetriever(Reqnroll.Assist.IValueRetriever)
+  - Reqnroll.Assist.Service.ValueComparers
+  - Reqnroll.Assist.Service.ValueRetrievers
+  langs:
+  - csharp
+  - vb
+  name: Service
+  nameWithType: Service
+  fullName: Reqnroll.Assist.Service
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Service
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public class Service
+    content.vb: Public Class Service
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Assist.Service.ValueComparers
+  commentId: P:Reqnroll.Assist.Service.ValueComparers
+  id: ValueComparers
+  parent: Reqnroll.Assist.Service
+  langs:
+  - csharp
+  - vb
+  name: ValueComparers
+  nameWithType: Service.ValueComparers
+  fullName: Reqnroll.Assist.Service.ValueComparers
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ValueComparers
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public ServiceComponentList<IValueComparer> ValueComparers { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Assist.ServiceComponentList{Reqnroll.Assist.IValueComparer}
+    content.vb: Public Property ValueComparers As ServiceComponentList(Of IValueComparer)
+  overload: Reqnroll.Assist.Service.ValueComparers*
+- uid: Reqnroll.Assist.Service.ValueRetrievers
+  commentId: P:Reqnroll.Assist.Service.ValueRetrievers
+  id: ValueRetrievers
+  parent: Reqnroll.Assist.Service
+  langs:
+  - csharp
+  - vb
+  name: ValueRetrievers
+  nameWithType: Service.ValueRetrievers
+  fullName: Reqnroll.Assist.Service.ValueRetrievers
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ValueRetrievers
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public ServiceComponentList<IValueRetriever> ValueRetrievers { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Assist.ServiceComponentList{Reqnroll.Assist.IValueRetriever}
+    content.vb: Public Property ValueRetrievers As ServiceComponentList(Of IValueRetriever)
+  overload: Reqnroll.Assist.Service.ValueRetrievers*
+- uid: Reqnroll.Assist.Service.Instance
+  commentId: P:Reqnroll.Assist.Service.Instance
+  id: Instance
+  parent: Reqnroll.Assist.Service
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Service.Instance
+  fullName: Reqnroll.Assist.Service.Instance
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Instance
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public static Service Instance { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Assist.Service
+    content.vb: Public Shared ReadOnly Property Instance As Service
+  overload: Reqnroll.Assist.Service.Instance*
+- uid: Reqnroll.Assist.Service.#ctor
+  commentId: M:Reqnroll.Assist.Service.#ctor
+  id: '#ctor'
+  parent: Reqnroll.Assist.Service
+  langs:
+  - csharp
+  - vb
+  name: Service()
+  nameWithType: Service.Service()
+  fullName: Reqnroll.Assist.Service.Service()
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public Service()
+    content.vb: Public Sub New()
+  overload: Reqnroll.Assist.Service.#ctor*
+  nameWithType.vb: Service.New()
+  fullName.vb: Reqnroll.Assist.Service.New()
+  name.vb: New()
+- uid: Reqnroll.Assist.Service.RestoreDefaults
+  commentId: M:Reqnroll.Assist.Service.RestoreDefaults
+  id: RestoreDefaults
+  parent: Reqnroll.Assist.Service
+  langs:
+  - csharp
+  - vb
+  name: RestoreDefaults()
+  nameWithType: Service.RestoreDefaults()
+  fullName: Reqnroll.Assist.Service.RestoreDefaults()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RestoreDefaults
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 19
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public void RestoreDefaults()
+    content.vb: Public Sub RestoreDefaults()
+  overload: Reqnroll.Assist.Service.RestoreDefaults*
+- uid: Reqnroll.Assist.Service.RegisterValueComparer(Reqnroll.Assist.IValueComparer)
+  commentId: M:Reqnroll.Assist.Service.RegisterValueComparer(Reqnroll.Assist.IValueComparer)
+  id: RegisterValueComparer(Reqnroll.Assist.IValueComparer)
+  parent: Reqnroll.Assist.Service
+  langs:
+  - csharp
+  - vb
+  name: RegisterValueComparer(IValueComparer)
+  nameWithType: Service.RegisterValueComparer(IValueComparer)
+  fullName: Reqnroll.Assist.Service.RegisterValueComparer(Reqnroll.Assist.IValueComparer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterValueComparer
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 25
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: >-
+      [Obsolete("Use ValueComparers.Register")]
+
+      public void RegisterValueComparer(IValueComparer valueComparer)
+    parameters:
+    - id: valueComparer
+      type: Reqnroll.Assist.IValueComparer
+    content.vb: >-
+      <Obsolete("Use ValueComparers.Register")>
+
+      Public Sub RegisterValueComparer(valueComparer As IValueComparer)
+  overload: Reqnroll.Assist.Service.RegisterValueComparer*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use ValueComparers.Register
+- uid: Reqnroll.Assist.Service.UnregisterValueComparer(Reqnroll.Assist.IValueComparer)
+  commentId: M:Reqnroll.Assist.Service.UnregisterValueComparer(Reqnroll.Assist.IValueComparer)
+  id: UnregisterValueComparer(Reqnroll.Assist.IValueComparer)
+  parent: Reqnroll.Assist.Service
+  langs:
+  - csharp
+  - vb
+  name: UnregisterValueComparer(IValueComparer)
+  nameWithType: Service.UnregisterValueComparer(IValueComparer)
+  fullName: Reqnroll.Assist.Service.UnregisterValueComparer(Reqnroll.Assist.IValueComparer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: UnregisterValueComparer
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 31
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: >-
+      [Obsolete("Use ValueComparers.Unregister")]
+
+      public void UnregisterValueComparer(IValueComparer valueComparer)
+    parameters:
+    - id: valueComparer
+      type: Reqnroll.Assist.IValueComparer
+    content.vb: >-
+      <Obsolete("Use ValueComparers.Unregister")>
+
+      Public Sub UnregisterValueComparer(valueComparer As IValueComparer)
+  overload: Reqnroll.Assist.Service.UnregisterValueComparer*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use ValueComparers.Unregister
+- uid: Reqnroll.Assist.Service.RegisterValueRetriever(Reqnroll.Assist.IValueRetriever)
+  commentId: M:Reqnroll.Assist.Service.RegisterValueRetriever(Reqnroll.Assist.IValueRetriever)
+  id: RegisterValueRetriever(Reqnroll.Assist.IValueRetriever)
+  parent: Reqnroll.Assist.Service
+  langs:
+  - csharp
+  - vb
+  name: RegisterValueRetriever(IValueRetriever)
+  nameWithType: Service.RegisterValueRetriever(IValueRetriever)
+  fullName: Reqnroll.Assist.Service.RegisterValueRetriever(Reqnroll.Assist.IValueRetriever)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterValueRetriever
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 37
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: >-
+      [Obsolete("Use ValueRetrievers.Register")]
+
+      public void RegisterValueRetriever(IValueRetriever valueRetriever)
+    parameters:
+    - id: valueRetriever
+      type: Reqnroll.Assist.IValueRetriever
+    content.vb: >-
+      <Obsolete("Use ValueRetrievers.Register")>
+
+      Public Sub RegisterValueRetriever(valueRetriever As IValueRetriever)
+  overload: Reqnroll.Assist.Service.RegisterValueRetriever*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use ValueRetrievers.Register
+- uid: Reqnroll.Assist.Service.UnregisterValueRetriever(Reqnroll.Assist.IValueRetriever)
+  commentId: M:Reqnroll.Assist.Service.UnregisterValueRetriever(Reqnroll.Assist.IValueRetriever)
+  id: UnregisterValueRetriever(Reqnroll.Assist.IValueRetriever)
+  parent: Reqnroll.Assist.Service
+  langs:
+  - csharp
+  - vb
+  name: UnregisterValueRetriever(IValueRetriever)
+  nameWithType: Service.UnregisterValueRetriever(IValueRetriever)
+  fullName: Reqnroll.Assist.Service.UnregisterValueRetriever(Reqnroll.Assist.IValueRetriever)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: UnregisterValueRetriever
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 43
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: >-
+      [Obsolete("Use ValueRetrievers.Unregister")]
+
+      public void UnregisterValueRetriever(IValueRetriever valueRetriever)
+    parameters:
+    - id: valueRetriever
+      type: Reqnroll.Assist.IValueRetriever
+    content.vb: >-
+      <Obsolete("Use ValueRetrievers.Unregister")>
+
+      Public Sub UnregisterValueRetriever(valueRetriever As IValueRetriever)
+  overload: Reqnroll.Assist.Service.UnregisterValueRetriever*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use ValueRetrievers.Unregister
+- uid: Reqnroll.Assist.Service.GetValueRetrieverFor(Reqnroll.DataTableRow,System.Type,System.Type)
+  commentId: M:Reqnroll.Assist.Service.GetValueRetrieverFor(Reqnroll.DataTableRow,System.Type,System.Type)
+  id: GetValueRetrieverFor(Reqnroll.DataTableRow,System.Type,System.Type)
+  parent: Reqnroll.Assist.Service
+  langs:
+  - csharp
+  - vb
+  name: GetValueRetrieverFor(DataTableRow, Type, Type)
+  nameWithType: Service.GetValueRetrieverFor(DataTableRow, Type, Type)
+  fullName: Reqnroll.Assist.Service.GetValueRetrieverFor(Reqnroll.DataTableRow, System.Type, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/Service.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetValueRetrieverFor
+    path: ../Reqnroll/Reqnroll/Assist/Service.cs
+    startLine: 49
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public IValueRetriever? GetValueRetrieverFor(DataTableRow row, Type targetType, Type propertyType)
+    parameters:
+    - id: row
+      type: Reqnroll.DataTableRow
+    - id: targetType
+      type: System.Type
+    - id: propertyType
+      type: System.Type
+    return:
+      type: Reqnroll.Assist.IValueRetriever
+    content.vb: Public Function GetValueRetrieverFor(row As DataTableRow, targetType As Type, propertyType As Type) As IValueRetriever
+  overload: Reqnroll.Assist.Service.GetValueRetrieverFor*
+references:
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  href: Reqnroll.html
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Assist.Service.ValueComparers*
+  commentId: Overload:Reqnroll.Assist.Service.ValueComparers
+  href: Reqnroll.Assist.Service.html#Reqnroll_Assist_Service_ValueComparers
+  name: ValueComparers
+  nameWithType: Service.ValueComparers
+  fullName: Reqnroll.Assist.Service.ValueComparers
+- uid: Reqnroll.Assist.ServiceComponentList{Reqnroll.Assist.IValueComparer}
+  commentId: T:Reqnroll.Assist.ServiceComponentList{Reqnroll.Assist.IValueComparer}
+  parent: Reqnroll.Assist
+  definition: Reqnroll.Assist.ServiceComponentList`1
+  href: Reqnroll.Assist.ServiceComponentList-1.html
+  name: ServiceComponentList<IValueComparer>
+  nameWithType: ServiceComponentList<IValueComparer>
+  fullName: Reqnroll.Assist.ServiceComponentList<Reqnroll.Assist.IValueComparer>
+  nameWithType.vb: ServiceComponentList(Of IValueComparer)
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of Reqnroll.Assist.IValueComparer)
+  name.vb: ServiceComponentList(Of IValueComparer)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ServiceComponentList`1
+    name: ServiceComponentList
+    href: Reqnroll.Assist.ServiceComponentList-1.html
+  - name: <
+  - uid: Reqnroll.Assist.IValueComparer
+    name: IValueComparer
+    href: Reqnroll.Assist.IValueComparer.html
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.ServiceComponentList`1
+    name: ServiceComponentList
+    href: Reqnroll.Assist.ServiceComponentList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Assist.IValueComparer
+    name: IValueComparer
+    href: Reqnroll.Assist.IValueComparer.html
+  - name: )
+- uid: Reqnroll.Assist.ServiceComponentList`1
+  commentId: T:Reqnroll.Assist.ServiceComponentList`1
+  href: Reqnroll.Assist.ServiceComponentList-1.html
+  name: ServiceComponentList<T>
+  nameWithType: ServiceComponentList<T>
+  fullName: Reqnroll.Assist.ServiceComponentList<T>
+  nameWithType.vb: ServiceComponentList(Of T)
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T)
+  name.vb: ServiceComponentList(Of T)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ServiceComponentList`1
+    name: ServiceComponentList
+    href: Reqnroll.Assist.ServiceComponentList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.ServiceComponentList`1
+    name: ServiceComponentList
+    href: Reqnroll.Assist.ServiceComponentList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Assist.Service.ValueRetrievers*
+  commentId: Overload:Reqnroll.Assist.Service.ValueRetrievers
+  href: Reqnroll.Assist.Service.html#Reqnroll_Assist_Service_ValueRetrievers
+  name: ValueRetrievers
+  nameWithType: Service.ValueRetrievers
+  fullName: Reqnroll.Assist.Service.ValueRetrievers
+- uid: Reqnroll.Assist.ServiceComponentList{Reqnroll.Assist.IValueRetriever}
+  commentId: T:Reqnroll.Assist.ServiceComponentList{Reqnroll.Assist.IValueRetriever}
+  parent: Reqnroll.Assist
+  definition: Reqnroll.Assist.ServiceComponentList`1
+  href: Reqnroll.Assist.ServiceComponentList-1.html
+  name: ServiceComponentList<IValueRetriever>
+  nameWithType: ServiceComponentList<IValueRetriever>
+  fullName: Reqnroll.Assist.ServiceComponentList<Reqnroll.Assist.IValueRetriever>
+  nameWithType.vb: ServiceComponentList(Of IValueRetriever)
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of Reqnroll.Assist.IValueRetriever)
+  name.vb: ServiceComponentList(Of IValueRetriever)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ServiceComponentList`1
+    name: ServiceComponentList
+    href: Reqnroll.Assist.ServiceComponentList-1.html
+  - name: <
+  - uid: Reqnroll.Assist.IValueRetriever
+    name: IValueRetriever
+    href: Reqnroll.Assist.IValueRetriever.html
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.ServiceComponentList`1
+    name: ServiceComponentList
+    href: Reqnroll.Assist.ServiceComponentList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Assist.IValueRetriever
+    name: IValueRetriever
+    href: Reqnroll.Assist.IValueRetriever.html
+  - name: )
+- uid: Reqnroll.Assist.Service.Instance*
+  commentId: Overload:Reqnroll.Assist.Service.Instance
+  href: Reqnroll.Assist.Service.html#Reqnroll_Assist_Service_Instance
+  name: Instance
+  nameWithType: Service.Instance
+  fullName: Reqnroll.Assist.Service.Instance
+- uid: Reqnroll.Assist.Service
+  commentId: T:Reqnroll.Assist.Service
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.Service.html
+  name: Service
+  nameWithType: Service
+  fullName: Reqnroll.Assist.Service
+- uid: Reqnroll.Assist.Service.#ctor*
+  commentId: Overload:Reqnroll.Assist.Service.#ctor
+  href: Reqnroll.Assist.Service.html#Reqnroll_Assist_Service__ctor
+  name: Service
+  nameWithType: Service.Service
+  fullName: Reqnroll.Assist.Service.Service
+  nameWithType.vb: Service.New
+  fullName.vb: Reqnroll.Assist.Service.New
+  name.vb: New
+- uid: Reqnroll.Assist.Service.RestoreDefaults*
+  commentId: Overload:Reqnroll.Assist.Service.RestoreDefaults
+  href: Reqnroll.Assist.Service.html#Reqnroll_Assist_Service_RestoreDefaults
+  name: RestoreDefaults
+  nameWithType: Service.RestoreDefaults
+  fullName: Reqnroll.Assist.Service.RestoreDefaults
+- uid: Reqnroll.Assist.Service.RegisterValueComparer*
+  commentId: Overload:Reqnroll.Assist.Service.RegisterValueComparer
+  href: Reqnroll.Assist.Service.html#Reqnroll_Assist_Service_RegisterValueComparer_Reqnroll_Assist_IValueComparer_
+  name: RegisterValueComparer
+  nameWithType: Service.RegisterValueComparer
+  fullName: Reqnroll.Assist.Service.RegisterValueComparer
+- uid: Reqnroll.Assist.IValueComparer
+  commentId: T:Reqnroll.Assist.IValueComparer
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.IValueComparer.html
+  name: IValueComparer
+  nameWithType: IValueComparer
+  fullName: Reqnroll.Assist.IValueComparer
+- uid: Reqnroll.Assist.Service.UnregisterValueComparer*
+  commentId: Overload:Reqnroll.Assist.Service.UnregisterValueComparer
+  href: Reqnroll.Assist.Service.html#Reqnroll_Assist_Service_UnregisterValueComparer_Reqnroll_Assist_IValueComparer_
+  name: UnregisterValueComparer
+  nameWithType: Service.UnregisterValueComparer
+  fullName: Reqnroll.Assist.Service.UnregisterValueComparer
+- uid: Reqnroll.Assist.Service.RegisterValueRetriever*
+  commentId: Overload:Reqnroll.Assist.Service.RegisterValueRetriever
+  href: Reqnroll.Assist.Service.html#Reqnroll_Assist_Service_RegisterValueRetriever_Reqnroll_Assist_IValueRetriever_
+  name: RegisterValueRetriever
+  nameWithType: Service.RegisterValueRetriever
+  fullName: Reqnroll.Assist.Service.RegisterValueRetriever
+- uid: Reqnroll.Assist.IValueRetriever
+  commentId: T:Reqnroll.Assist.IValueRetriever
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.IValueRetriever.html
+  name: IValueRetriever
+  nameWithType: IValueRetriever
+  fullName: Reqnroll.Assist.IValueRetriever
+- uid: Reqnroll.Assist.Service.UnregisterValueRetriever*
+  commentId: Overload:Reqnroll.Assist.Service.UnregisterValueRetriever
+  href: Reqnroll.Assist.Service.html#Reqnroll_Assist_Service_UnregisterValueRetriever_Reqnroll_Assist_IValueRetriever_
+  name: UnregisterValueRetriever
+  nameWithType: Service.UnregisterValueRetriever
+  fullName: Reqnroll.Assist.Service.UnregisterValueRetriever
+- uid: Reqnroll.Assist.Service.GetValueRetrieverFor*
+  commentId: Overload:Reqnroll.Assist.Service.GetValueRetrieverFor
+  href: Reqnroll.Assist.Service.html#Reqnroll_Assist_Service_GetValueRetrieverFor_Reqnroll_DataTableRow_System_Type_System_Type_
+  name: GetValueRetrieverFor
+  nameWithType: Service.GetValueRetrieverFor
+  fullName: Reqnroll.Assist.Service.GetValueRetrieverFor
+- uid: Reqnroll.DataTableRow
+  commentId: T:Reqnroll.DataTableRow
+  parent: Reqnroll
+  href: Reqnroll.DataTableRow.html
+  name: DataTableRow
+  nameWithType: DataTableRow
+  fullName: Reqnroll.DataTableRow
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll

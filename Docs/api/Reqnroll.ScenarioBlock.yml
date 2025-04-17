@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.ScenarioBlock
+  commentId: T:Reqnroll.ScenarioBlock
+  id: ScenarioBlock
+  parent: Reqnroll
+  children:
+  - Reqnroll.ScenarioBlock.Given
+  - Reqnroll.ScenarioBlock.None
+  - Reqnroll.ScenarioBlock.Then
+  - Reqnroll.ScenarioBlock.When
+  langs:
+  - csharp
+  - vb
+  name: ScenarioBlock
+  nameWithType: ScenarioBlock
+  fullName: Reqnroll.ScenarioBlock
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/ScenarioBlock.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioBlock
+    path: ../Reqnroll/Reqnroll/ScenarioBlock.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public enum ScenarioBlock
+    content.vb: Public Enum ScenarioBlock
+- uid: Reqnroll.ScenarioBlock.None
+  commentId: F:Reqnroll.ScenarioBlock.None
+  id: None
+  parent: Reqnroll.ScenarioBlock
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ScenarioBlock.None
+  fullName: Reqnroll.ScenarioBlock.None
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ScenarioBlock.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: None
+    path: ../Reqnroll/Reqnroll/ScenarioBlock.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: None = 0
+    return:
+      type: Reqnroll.ScenarioBlock
+- uid: Reqnroll.ScenarioBlock.Given
+  commentId: F:Reqnroll.ScenarioBlock.Given
+  id: Given
+  parent: Reqnroll.ScenarioBlock
+  langs:
+  - csharp
+  - vb
+  name: Given
+  nameWithType: ScenarioBlock.Given
+  fullName: Reqnroll.ScenarioBlock.Given
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ScenarioBlock.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Given
+    path: ../Reqnroll/Reqnroll/ScenarioBlock.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Given = 1
+    return:
+      type: Reqnroll.ScenarioBlock
+- uid: Reqnroll.ScenarioBlock.When
+  commentId: F:Reqnroll.ScenarioBlock.When
+  id: When
+  parent: Reqnroll.ScenarioBlock
+  langs:
+  - csharp
+  - vb
+  name: When
+  nameWithType: ScenarioBlock.When
+  fullName: Reqnroll.ScenarioBlock.When
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ScenarioBlock.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: When
+    path: ../Reqnroll/Reqnroll/ScenarioBlock.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: When = 2
+    return:
+      type: Reqnroll.ScenarioBlock
+- uid: Reqnroll.ScenarioBlock.Then
+  commentId: F:Reqnroll.ScenarioBlock.Then
+  id: Then
+  parent: Reqnroll.ScenarioBlock
+  langs:
+  - csharp
+  - vb
+  name: Then
+  nameWithType: ScenarioBlock.Then
+  fullName: Reqnroll.ScenarioBlock.Then
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ScenarioBlock.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Then
+    path: ../Reqnroll/Reqnroll/ScenarioBlock.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Then = 3
+    return:
+      type: Reqnroll.ScenarioBlock
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.ScenarioBlock
+  commentId: T:Reqnroll.ScenarioBlock
+  parent: Reqnroll
+  href: Reqnroll.ScenarioBlock.html
+  name: ScenarioBlock
+  nameWithType: ScenarioBlock
+  fullName: Reqnroll.ScenarioBlock

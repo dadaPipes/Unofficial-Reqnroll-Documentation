@@ -1,0 +1,1436 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  commentId: T:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  id: RuntimeBindingSourceProcessor
+  parent: Reqnroll.Bindings.Discovery
+  children:
+  - Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.#ctor(Reqnroll.Bindings.IBindingFactory,Reqnroll.Bindings.IBindingRegistry,Reqnroll.Tracing.ITestTracer)
+  - Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.BuildingCompleted
+  - Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult,System.Boolean)
+  - Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+  - Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  - Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  - Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RegisterTypeLoadError(System.String)
+  langs:
+  - csharp
+  - vb
+  name: RuntimeBindingSourceProcessor
+  nameWithType: RuntimeBindingSourceProcessor
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RuntimeBindingSourceProcessor
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: 'public class RuntimeBindingSourceProcessor : BindingSourceProcessor, IRuntimeBindingSourceProcessor, IBindingSourceProcessor'
+    content.vb: Public Class RuntimeBindingSourceProcessor Inherits BindingSourceProcessor Implements IRuntimeBindingSourceProcessor, IBindingSourceProcessor
+  inheritance:
+  - System.Object
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  implements:
+  - Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor
+  - Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  inheritedMembers:
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessTypeAttribute(System.String)
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessMethodAttribute(System.String)
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable{System.String})
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessTypeDone
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitions(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHooks(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformations(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepDefinition(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateHook(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute,Reqnroll.Bindings.HookType)
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.IsScenarioSpecificHook(Reqnroll.Bindings.HookType)
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepArgumentTransformation(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.#ctor(Reqnroll.Bindings.IBindingFactory,Reqnroll.Bindings.IBindingRegistry,Reqnroll.Tracing.ITestTracer)
+  commentId: M:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.#ctor(Reqnroll.Bindings.IBindingFactory,Reqnroll.Bindings.IBindingRegistry,Reqnroll.Tracing.ITestTracer)
+  id: '#ctor(Reqnroll.Bindings.IBindingFactory,Reqnroll.Bindings.IBindingRegistry,Reqnroll.Tracing.ITestTracer)'
+  parent: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: RuntimeBindingSourceProcessor(IBindingFactory, IBindingRegistry, ITestTracer)
+  nameWithType: RuntimeBindingSourceProcessor.RuntimeBindingSourceProcessor(IBindingFactory, IBindingRegistry, ITestTracer)
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RuntimeBindingSourceProcessor(Reqnroll.Bindings.IBindingFactory, Reqnroll.Bindings.IBindingRegistry, Reqnroll.Tracing.ITestTracer)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: public RuntimeBindingSourceProcessor(IBindingFactory bindingFactory, IBindingRegistry bindingRegistry, ITestTracer testTracer)
+    parameters:
+    - id: bindingFactory
+      type: Reqnroll.Bindings.IBindingFactory
+    - id: bindingRegistry
+      type: Reqnroll.Bindings.IBindingRegistry
+    - id: testTracer
+      type: Reqnroll.Tracing.ITestTracer
+    content.vb: Public Sub New(bindingFactory As IBindingFactory, bindingRegistry As IBindingRegistry, testTracer As ITestTracer)
+  overload: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.#ctor*
+  nameWithType.vb: RuntimeBindingSourceProcessor.New(IBindingFactory, IBindingRegistry, ITestTracer)
+  fullName.vb: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.New(Reqnroll.Bindings.IBindingFactory, Reqnroll.Bindings.IBindingRegistry, Reqnroll.Tracing.ITestTracer)
+  name.vb: New(IBindingFactory, IBindingRegistry, ITestTracer)
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  commentId: M:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  id: ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  parent: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: ProcessStepDefinitionBinding(IStepDefinitionBinding)
+  nameWithType: RuntimeBindingSourceProcessor.ProcessStepDefinitionBinding(IStepDefinitionBinding)
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ProcessStepDefinitionBinding
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  example: []
+  syntax:
+    content: protected override void ProcessStepDefinitionBinding(IStepDefinitionBinding stepDefinitionBinding)
+    parameters:
+    - id: stepDefinitionBinding
+      type: Reqnroll.Bindings.IStepDefinitionBinding
+    content.vb: Protected Overrides Sub ProcessStepDefinitionBinding(stepDefinitionBinding As IStepDefinitionBinding)
+  overridden: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  overload: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepDefinitionBinding*
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+  commentId: M:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+  id: ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+  parent: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: ProcessHookBinding(IHookBinding)
+  nameWithType: RuntimeBindingSourceProcessor.ProcessHookBinding(IHookBinding)
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ProcessHookBinding
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+    startLine: 25
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  example: []
+  syntax:
+    content: protected override void ProcessHookBinding(IHookBinding hookBinding)
+    parameters:
+    - id: hookBinding
+      type: Reqnroll.Bindings.IHookBinding
+    content.vb: Protected Overrides Sub ProcessHookBinding(hookBinding As IHookBinding)
+  overridden: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+  overload: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessHookBinding*
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  commentId: M:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  id: ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  parent: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: ProcessStepArgumentTransformationBinding(IStepArgumentTransformationBinding)
+  nameWithType: RuntimeBindingSourceProcessor.ProcessStepArgumentTransformationBinding(IStepArgumentTransformationBinding)
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ProcessStepArgumentTransformationBinding
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+    startLine: 30
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  example: []
+  syntax:
+    content: protected override void ProcessStepArgumentTransformationBinding(IStepArgumentTransformationBinding stepArgumentTransformationBinding)
+    parameters:
+    - id: stepArgumentTransformationBinding
+      type: Reqnroll.Bindings.IStepArgumentTransformationBinding
+    content.vb: Protected Overrides Sub ProcessStepArgumentTransformationBinding(stepArgumentTransformationBinding As IStepArgumentTransformationBinding)
+  overridden: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  overload: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepArgumentTransformationBinding*
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult,System.Boolean)
+  commentId: M:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult,System.Boolean)
+  id: OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult,System.Boolean)
+  parent: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: OnValidationError(BindingValidationResult, bool)
+  nameWithType: RuntimeBindingSourceProcessor.OnValidationError(BindingSourceProcessor.BindingValidationResult, bool)
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult, bool)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnValidationError
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+    startLine: 35
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  example: []
+  syntax:
+    content: protected override void OnValidationError(BindingSourceProcessor.BindingValidationResult validationResult, bool genericBindingError)
+    parameters:
+    - id: validationResult
+      type: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+    - id: genericBindingError
+      type: System.Boolean
+    content.vb: Protected Overrides Sub OnValidationError(validationResult As BindingSourceProcessor.BindingValidationResult, genericBindingError As Boolean)
+  overridden: Reqnroll.Bindings.Discovery.BindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult,System.Boolean)
+  overload: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.OnValidationError*
+  nameWithType.vb: RuntimeBindingSourceProcessor.OnValidationError(BindingSourceProcessor.BindingValidationResult, Boolean)
+  fullName.vb: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult, Boolean)
+  name.vb: OnValidationError(BindingValidationResult, Boolean)
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.BuildingCompleted
+  commentId: M:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.BuildingCompleted
+  id: BuildingCompleted
+  parent: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: BuildingCompleted()
+  nameWithType: RuntimeBindingSourceProcessor.BuildingCompleted()
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.BuildingCompleted()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BuildingCompleted
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+    startLine: 50
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  example: []
+  syntax:
+    content: public override void BuildingCompleted()
+    content.vb: Public Overrides Sub BuildingCompleted()
+  overridden: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BuildingCompleted
+  overload: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.BuildingCompleted*
+  implements:
+  - Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RegisterTypeLoadError(System.String)
+  commentId: M:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RegisterTypeLoadError(System.String)
+  id: RegisterTypeLoadError(System.String)
+  parent: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: RegisterTypeLoadError(string)
+  nameWithType: RuntimeBindingSourceProcessor.RegisterTypeLoadError(string)
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RegisterTypeLoadError(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterTypeLoadError
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/RuntimeBindingSourceProcessor.cs
+    startLine: 56
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  example: []
+  syntax:
+    content: public void RegisterTypeLoadError(string errorMessage)
+    parameters:
+    - id: errorMessage
+      type: System.String
+    content.vb: Public Sub RegisterTypeLoadError(errorMessage As String)
+  overload: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RegisterTypeLoadError*
+  implements:
+  - Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.RegisterTypeLoadError(System.String)
+  nameWithType.vb: RuntimeBindingSourceProcessor.RegisterTypeLoadError(String)
+  fullName.vb: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RegisterTypeLoadError(String)
+  name.vb: RegisterTypeLoadError(String)
+references:
+- uid: Reqnroll.Bindings.Discovery
+  commentId: N:Reqnroll.Bindings.Discovery
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Discovery
+  nameWithType: Reqnroll.Bindings.Discovery
+  fullName: Reqnroll.Bindings.Discovery
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html
+  name: BindingSourceProcessor
+  nameWithType: BindingSourceProcessor
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor
+  commentId: T:Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.html
+  name: IRuntimeBindingSourceProcessor
+  nameWithType: IRuntimeBindingSourceProcessor
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  commentId: T:Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html
+  name: IBindingSourceProcessor
+  nameWithType: IBindingSourceProcessor
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessTypeAttribute(System.String)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessTypeAttribute(System.String)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  isExternal: true
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_CanProcessTypeAttribute_System_String_
+  name: CanProcessTypeAttribute(string)
+  nameWithType: BindingSourceProcessor.CanProcessTypeAttribute(string)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessTypeAttribute(string)
+  nameWithType.vb: BindingSourceProcessor.CanProcessTypeAttribute(String)
+  fullName.vb: Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessTypeAttribute(String)
+  name.vb: CanProcessTypeAttribute(String)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessTypeAttribute(System.String)
+    name: CanProcessTypeAttribute
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_CanProcessTypeAttribute_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessTypeAttribute(System.String)
+    name: CanProcessTypeAttribute
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_CanProcessTypeAttribute_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessMethodAttribute(System.String)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessMethodAttribute(System.String)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  isExternal: true
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_CanProcessMethodAttribute_System_String_
+  name: CanProcessMethodAttribute(string)
+  nameWithType: BindingSourceProcessor.CanProcessMethodAttribute(string)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessMethodAttribute(string)
+  nameWithType.vb: BindingSourceProcessor.CanProcessMethodAttribute(String)
+  fullName.vb: Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessMethodAttribute(String)
+  name.vb: CanProcessMethodAttribute(String)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessMethodAttribute(System.String)
+    name: CanProcessMethodAttribute
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_CanProcessMethodAttribute_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessMethodAttribute(System.String)
+    name: CanProcessMethodAttribute
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_CanProcessMethodAttribute_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable{System.String})
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  isExternal: true
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_PreFilterType_System_Collections_Generic_IEnumerable_System_String__
+  name: PreFilterType(IEnumerable<string>)
+  nameWithType: BindingSourceProcessor.PreFilterType(IEnumerable<string>)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable<string>)
+  nameWithType.vb: BindingSourceProcessor.PreFilterType(IEnumerable(Of String))
+  fullName.vb: Reqnroll.Bindings.Discovery.BindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable(Of String))
+  name.vb: PreFilterType(IEnumerable(Of String))
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable{System.String})
+    name: PreFilterType
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_PreFilterType_System_Collections_Generic_IEnumerable_System_String__
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable{System.String})
+    name: PreFilterType
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_PreFilterType_System_Collections_Generic_IEnumerable_System_String__
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessType_Reqnroll_Bindings_Discovery_BindingSourceType_
+  name: ProcessType(BindingSourceType)
+  nameWithType: BindingSourceProcessor.ProcessType(BindingSourceType)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+    name: ProcessType
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessType_Reqnroll_Bindings_Discovery_BindingSourceType_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceType
+    name: BindingSourceType
+    href: Reqnroll.Bindings.Discovery.BindingSourceType.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+    name: ProcessType
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessType_Reqnroll_Bindings_Discovery_BindingSourceType_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceType
+    name: BindingSourceType
+    href: Reqnroll.Bindings.Discovery.BindingSourceType.html
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessTypeDone
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessTypeDone
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessTypeDone
+  name: ProcessTypeDone()
+  nameWithType: BindingSourceProcessor.ProcessTypeDone()
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessTypeDone()
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessTypeDone
+    name: ProcessTypeDone
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessTypeDone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessTypeDone
+    name: ProcessTypeDone
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessTypeDone
+  - name: (
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessMethod_Reqnroll_Bindings_Discovery_BindingSourceMethod_
+  name: ProcessMethod(BindingSourceMethod)
+  nameWithType: BindingSourceProcessor.ProcessMethod(BindingSourceMethod)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+    name: ProcessMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessMethod_Reqnroll_Bindings_Discovery_BindingSourceMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+    name: ProcessMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessMethod_Reqnroll_Bindings_Discovery_BindingSourceMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitions(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitions(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepDefinitions_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___
+  name: ProcessStepDefinitions(BindingSourceMethod, BindingScope[])
+  nameWithType: BindingSourceProcessor.ProcessStepDefinitions(BindingSourceMethod, BindingScope[])
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitions(Reqnroll.Bindings.Discovery.BindingSourceMethod, Reqnroll.Bindings.BindingScope[])
+  nameWithType.vb: BindingSourceProcessor.ProcessStepDefinitions(BindingSourceMethod, BindingScope())
+  fullName.vb: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitions(Reqnroll.Bindings.Discovery.BindingSourceMethod, Reqnroll.Bindings.BindingScope())
+  name.vb: ProcessStepDefinitions(BindingSourceMethod, BindingScope())
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitions(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+    name: ProcessStepDefinitions
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepDefinitions_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    href: Reqnroll.Bindings.BindingScope.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitions(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+    name: ProcessStepDefinitions
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepDefinitions_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    href: Reqnroll.Bindings.BindingScope.html
+  - name: (
+  - name: )
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHooks(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHooks(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessHooks_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___
+  name: ProcessHooks(BindingSourceMethod, BindingScope[])
+  nameWithType: BindingSourceProcessor.ProcessHooks(BindingSourceMethod, BindingScope[])
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHooks(Reqnroll.Bindings.Discovery.BindingSourceMethod, Reqnroll.Bindings.BindingScope[])
+  nameWithType.vb: BindingSourceProcessor.ProcessHooks(BindingSourceMethod, BindingScope())
+  fullName.vb: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHooks(Reqnroll.Bindings.Discovery.BindingSourceMethod, Reqnroll.Bindings.BindingScope())
+  name.vb: ProcessHooks(BindingSourceMethod, BindingScope())
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHooks(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+    name: ProcessHooks
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessHooks_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    href: Reqnroll.Bindings.BindingScope.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHooks(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+    name: ProcessHooks
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessHooks_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    href: Reqnroll.Bindings.BindingScope.html
+  - name: (
+  - name: )
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformations(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformations(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepArgumentTransformations_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___
+  name: ProcessStepArgumentTransformations(BindingSourceMethod, BindingScope[])
+  nameWithType: BindingSourceProcessor.ProcessStepArgumentTransformations(BindingSourceMethod, BindingScope[])
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformations(Reqnroll.Bindings.Discovery.BindingSourceMethod, Reqnroll.Bindings.BindingScope[])
+  nameWithType.vb: BindingSourceProcessor.ProcessStepArgumentTransformations(BindingSourceMethod, BindingScope())
+  fullName.vb: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformations(Reqnroll.Bindings.Discovery.BindingSourceMethod, Reqnroll.Bindings.BindingScope())
+  name.vb: ProcessStepArgumentTransformations(BindingSourceMethod, BindingScope())
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformations(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+    name: ProcessStepArgumentTransformations
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepArgumentTransformations_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    href: Reqnroll.Bindings.BindingScope.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformations(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])
+    name: ProcessStepArgumentTransformations
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepArgumentTransformations_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    href: Reqnroll.Bindings.BindingScope.html
+  - name: (
+  - name: )
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateType_Reqnroll_Bindings_Discovery_BindingSourceType_
+  name: ValidateType(BindingSourceType)
+  nameWithType: BindingSourceProcessor.ValidateType(BindingSourceType)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateType(Reqnroll.Bindings.Discovery.BindingSourceType)
+    name: ValidateType
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateType_Reqnroll_Bindings_Discovery_BindingSourceType_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceType
+    name: BindingSourceType
+    href: Reqnroll.Bindings.Discovery.BindingSourceType.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateType(Reqnroll.Bindings.Discovery.BindingSourceType)
+    name: ValidateType
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateType_Reqnroll_Bindings_Discovery_BindingSourceType_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceType
+    name: BindingSourceType
+    href: Reqnroll.Bindings.Discovery.BindingSourceType.html
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateMethod_Reqnroll_Bindings_Discovery_BindingSourceMethod_
+  name: ValidateMethod(BindingSourceMethod)
+  nameWithType: BindingSourceProcessor.ValidateMethod(BindingSourceMethod)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+    name: ValidateMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateMethod_Reqnroll_Bindings_Discovery_BindingSourceMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+    name: ValidateMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateMethod_Reqnroll_Bindings_Discovery_BindingSourceMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepDefinition(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepDefinition(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateStepDefinition_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_
+  name: ValidateStepDefinition(BindingSourceMethod, BindingSourceAttribute)
+  nameWithType: BindingSourceProcessor.ValidateStepDefinition(BindingSourceMethod, BindingSourceAttribute)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepDefinition(Reqnroll.Bindings.Discovery.BindingSourceMethod, Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepDefinition(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+    name: ValidateStepDefinition
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateStepDefinition_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceAttribute
+    name: BindingSourceAttribute
+    href: Reqnroll.Bindings.Discovery.BindingSourceAttribute.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepDefinition(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+    name: ValidateStepDefinition
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateStepDefinition_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceAttribute
+    name: BindingSourceAttribute
+    href: Reqnroll.Bindings.Discovery.BindingSourceAttribute.html
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateHook(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute,Reqnroll.Bindings.HookType)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateHook(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute,Reqnroll.Bindings.HookType)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateHook_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_Reqnroll_Bindings_HookType_
+  name: ValidateHook(BindingSourceMethod, BindingSourceAttribute, HookType)
+  nameWithType: BindingSourceProcessor.ValidateHook(BindingSourceMethod, BindingSourceAttribute, HookType)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateHook(Reqnroll.Bindings.Discovery.BindingSourceMethod, Reqnroll.Bindings.Discovery.BindingSourceAttribute, Reqnroll.Bindings.HookType)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateHook(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute,Reqnroll.Bindings.HookType)
+    name: ValidateHook
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateHook_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_Reqnroll_Bindings_HookType_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceAttribute
+    name: BindingSourceAttribute
+    href: Reqnroll.Bindings.Discovery.BindingSourceAttribute.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.HookType
+    name: HookType
+    href: Reqnroll.Bindings.HookType.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateHook(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute,Reqnroll.Bindings.HookType)
+    name: ValidateHook
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateHook_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_Reqnroll_Bindings_HookType_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceAttribute
+    name: BindingSourceAttribute
+    href: Reqnroll.Bindings.Discovery.BindingSourceAttribute.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.HookType
+    name: HookType
+    href: Reqnroll.Bindings.HookType.html
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.IsScenarioSpecificHook(Reqnroll.Bindings.HookType)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.IsScenarioSpecificHook(Reqnroll.Bindings.HookType)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_IsScenarioSpecificHook_Reqnroll_Bindings_HookType_
+  name: IsScenarioSpecificHook(HookType)
+  nameWithType: BindingSourceProcessor.IsScenarioSpecificHook(HookType)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.IsScenarioSpecificHook(Reqnroll.Bindings.HookType)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.IsScenarioSpecificHook(Reqnroll.Bindings.HookType)
+    name: IsScenarioSpecificHook
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_IsScenarioSpecificHook_Reqnroll_Bindings_HookType_
+  - name: (
+  - uid: Reqnroll.Bindings.HookType
+    name: HookType
+    href: Reqnroll.Bindings.HookType.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.IsScenarioSpecificHook(Reqnroll.Bindings.HookType)
+    name: IsScenarioSpecificHook
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_IsScenarioSpecificHook_Reqnroll_Bindings_HookType_
+  - name: (
+  - uid: Reqnroll.Bindings.HookType
+    name: HookType
+    href: Reqnroll.Bindings.HookType.html
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepArgumentTransformation(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepArgumentTransformation(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateStepArgumentTransformation_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_
+  name: ValidateStepArgumentTransformation(BindingSourceMethod, BindingSourceAttribute)
+  nameWithType: BindingSourceProcessor.ValidateStepArgumentTransformation(BindingSourceMethod, BindingSourceAttribute)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepArgumentTransformation(Reqnroll.Bindings.Discovery.BindingSourceMethod, Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepArgumentTransformation(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+    name: ValidateStepArgumentTransformation
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateStepArgumentTransformation_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceAttribute
+    name: BindingSourceAttribute
+    href: Reqnroll.Bindings.Discovery.BindingSourceAttribute.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepArgumentTransformation(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)
+    name: ValidateStepArgumentTransformation
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateStepArgumentTransformation_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    name: BindingSourceMethod
+    href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceAttribute
+    name: BindingSourceAttribute
+    href: Reqnroll.Bindings.Discovery.BindingSourceAttribute.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.#ctor*
+  commentId: Overload:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.#ctor
+  href: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_RuntimeBindingSourceProcessor__ctor_Reqnroll_Bindings_IBindingFactory_Reqnroll_Bindings_IBindingRegistry_Reqnroll_Tracing_ITestTracer_
+  name: RuntimeBindingSourceProcessor
+  nameWithType: RuntimeBindingSourceProcessor.RuntimeBindingSourceProcessor
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RuntimeBindingSourceProcessor
+  nameWithType.vb: RuntimeBindingSourceProcessor.New
+  fullName.vb: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.New
+  name.vb: New
+- uid: Reqnroll.Bindings.IBindingFactory
+  commentId: T:Reqnroll.Bindings.IBindingFactory
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBindingFactory.html
+  name: IBindingFactory
+  nameWithType: IBindingFactory
+  fullName: Reqnroll.Bindings.IBindingFactory
+- uid: Reqnroll.Bindings.IBindingRegistry
+  commentId: T:Reqnroll.Bindings.IBindingRegistry
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBindingRegistry.html
+  name: IBindingRegistry
+  nameWithType: IBindingRegistry
+  fullName: Reqnroll.Bindings.IBindingRegistry
+- uid: Reqnroll.Tracing.ITestTracer
+  commentId: T:Reqnroll.Tracing.ITestTracer
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITestTracer.html
+  name: ITestTracer
+  nameWithType: ITestTracer
+  fullName: Reqnroll.Tracing.ITestTracer
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepDefinitionBinding_Reqnroll_Bindings_IStepDefinitionBinding_
+  name: ProcessStepDefinitionBinding(IStepDefinitionBinding)
+  nameWithType: BindingSourceProcessor.ProcessStepDefinitionBinding(IStepDefinitionBinding)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+    name: ProcessStepDefinitionBinding
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepDefinitionBinding_Reqnroll_Bindings_IStepDefinitionBinding_
+  - name: (
+  - uid: Reqnroll.Bindings.IStepDefinitionBinding
+    name: IStepDefinitionBinding
+    href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+    name: ProcessStepDefinitionBinding
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepDefinitionBinding_Reqnroll_Bindings_IStepDefinitionBinding_
+  - name: (
+  - uid: Reqnroll.Bindings.IStepDefinitionBinding
+    name: IStepDefinitionBinding
+    href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepDefinitionBinding*
+  commentId: Overload:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepDefinitionBinding
+  href: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_RuntimeBindingSourceProcessor_ProcessStepDefinitionBinding_Reqnroll_Bindings_IStepDefinitionBinding_
+  name: ProcessStepDefinitionBinding
+  nameWithType: RuntimeBindingSourceProcessor.ProcessStepDefinitionBinding
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepDefinitionBinding
+- uid: Reqnroll.Bindings.IStepDefinitionBinding
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  name: IStepDefinitionBinding
+  nameWithType: IStepDefinitionBinding
+  fullName: Reqnroll.Bindings.IStepDefinitionBinding
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessHookBinding_Reqnroll_Bindings_IHookBinding_
+  name: ProcessHookBinding(IHookBinding)
+  nameWithType: BindingSourceProcessor.ProcessHookBinding(IHookBinding)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+    name: ProcessHookBinding
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessHookBinding_Reqnroll_Bindings_IHookBinding_
+  - name: (
+  - uid: Reqnroll.Bindings.IHookBinding
+    name: IHookBinding
+    href: Reqnroll.Bindings.IHookBinding.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)
+    name: ProcessHookBinding
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessHookBinding_Reqnroll_Bindings_IHookBinding_
+  - name: (
+  - uid: Reqnroll.Bindings.IHookBinding
+    name: IHookBinding
+    href: Reqnroll.Bindings.IHookBinding.html
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessHookBinding*
+  commentId: Overload:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessHookBinding
+  href: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_RuntimeBindingSourceProcessor_ProcessHookBinding_Reqnroll_Bindings_IHookBinding_
+  name: ProcessHookBinding
+  nameWithType: RuntimeBindingSourceProcessor.ProcessHookBinding
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessHookBinding
+- uid: Reqnroll.Bindings.IHookBinding
+  commentId: T:Reqnroll.Bindings.IHookBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IHookBinding.html
+  name: IHookBinding
+  nameWithType: IHookBinding
+  fullName: Reqnroll.Bindings.IHookBinding
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepArgumentTransformationBinding_Reqnroll_Bindings_IStepArgumentTransformationBinding_
+  name: ProcessStepArgumentTransformationBinding(IStepArgumentTransformationBinding)
+  nameWithType: BindingSourceProcessor.ProcessStepArgumentTransformationBinding(IStepArgumentTransformationBinding)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+    name: ProcessStepArgumentTransformationBinding
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepArgumentTransformationBinding_Reqnroll_Bindings_IStepArgumentTransformationBinding_
+  - name: (
+  - uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+    name: IStepArgumentTransformationBinding
+    href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+    name: ProcessStepArgumentTransformationBinding
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepArgumentTransformationBinding_Reqnroll_Bindings_IStepArgumentTransformationBinding_
+  - name: (
+  - uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+    name: IStepArgumentTransformationBinding
+    href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepArgumentTransformationBinding*
+  commentId: Overload:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepArgumentTransformationBinding
+  href: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_RuntimeBindingSourceProcessor_ProcessStepArgumentTransformationBinding_Reqnroll_Bindings_IStepArgumentTransformationBinding_
+  name: ProcessStepArgumentTransformationBinding
+  nameWithType: RuntimeBindingSourceProcessor.ProcessStepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.ProcessStepArgumentTransformationBinding
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  commentId: T:Reqnroll.Bindings.IStepArgumentTransformationBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html
+  name: IStepArgumentTransformationBinding
+  nameWithType: IStepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult,System.Boolean)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult,System.Boolean)
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  isExternal: true
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_OnValidationError_Reqnroll_Bindings_Discovery_BindingSourceProcessor_BindingValidationResult_System_Boolean_
+  name: OnValidationError(BindingValidationResult, bool)
+  nameWithType: BindingSourceProcessor.OnValidationError(BindingSourceProcessor.BindingValidationResult, bool)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult, bool)
+  nameWithType.vb: BindingSourceProcessor.OnValidationError(BindingSourceProcessor.BindingValidationResult, Boolean)
+  fullName.vb: Reqnroll.Bindings.Discovery.BindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult, Boolean)
+  name.vb: OnValidationError(BindingValidationResult, Boolean)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult,System.Boolean)
+    name: OnValidationError
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_OnValidationError_Reqnroll_Bindings_Discovery_BindingSourceProcessor_BindingValidationResult_System_Boolean_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+    name: BindingValidationResult
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult,System.Boolean)
+    name: OnValidationError
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_OnValidationError_Reqnroll_Bindings_Discovery_BindingSourceProcessor_BindingValidationResult_System_Boolean_
+  - name: (
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+    name: BindingValidationResult
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.OnValidationError*
+  commentId: Overload:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.OnValidationError
+  href: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_RuntimeBindingSourceProcessor_OnValidationError_Reqnroll_Bindings_Discovery_BindingSourceProcessor_BindingValidationResult_System_Boolean_
+  name: OnValidationError
+  nameWithType: RuntimeBindingSourceProcessor.OnValidationError
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.OnValidationError
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html
+  name: BindingSourceProcessor.BindingValidationResult
+  nameWithType: BindingSourceProcessor.BindingValidationResult
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+    name: BindingSourceProcessor
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+    name: BindingValidationResult
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+    name: BindingSourceProcessor
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+    name: BindingValidationResult
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BuildingCompleted
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.BuildingCompleted
+  parent: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_BuildingCompleted
+  name: BuildingCompleted()
+  nameWithType: BindingSourceProcessor.BuildingCompleted()
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BuildingCompleted()
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BuildingCompleted
+    name: BuildingCompleted
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_BuildingCompleted
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BuildingCompleted
+    name: BuildingCompleted
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html#Reqnroll_Bindings_Discovery_BindingSourceProcessor_BuildingCompleted
+  - name: (
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.BuildingCompleted*
+  commentId: Overload:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.BuildingCompleted
+  href: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_RuntimeBindingSourceProcessor_BuildingCompleted
+  name: BuildingCompleted
+  nameWithType: RuntimeBindingSourceProcessor.BuildingCompleted
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.BuildingCompleted
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted
+  commentId: M:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted
+  parent: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IBindingSourceProcessor_BuildingCompleted
+  name: BuildingCompleted()
+  nameWithType: IBindingSourceProcessor.BuildingCompleted()
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted()
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted
+    name: BuildingCompleted
+    href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IBindingSourceProcessor_BuildingCompleted
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted
+    name: BuildingCompleted
+    href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IBindingSourceProcessor_BuildingCompleted
+  - name: (
+  - name: )
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RegisterTypeLoadError*
+  commentId: Overload:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RegisterTypeLoadError
+  href: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_RuntimeBindingSourceProcessor_RegisterTypeLoadError_System_String_
+  name: RegisterTypeLoadError
+  nameWithType: RuntimeBindingSourceProcessor.RegisterTypeLoadError
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.RegisterTypeLoadError
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.RegisterTypeLoadError(System.String)
+  commentId: M:Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.RegisterTypeLoadError(System.String)
+  parent: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor
+  isExternal: true
+  href: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IRuntimeBindingSourceProcessor_RegisterTypeLoadError_System_String_
+  name: RegisterTypeLoadError(string)
+  nameWithType: IRuntimeBindingSourceProcessor.RegisterTypeLoadError(string)
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.RegisterTypeLoadError(string)
+  nameWithType.vb: IRuntimeBindingSourceProcessor.RegisterTypeLoadError(String)
+  fullName.vb: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.RegisterTypeLoadError(String)
+  name.vb: RegisterTypeLoadError(String)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.RegisterTypeLoadError(System.String)
+    name: RegisterTypeLoadError
+    href: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IRuntimeBindingSourceProcessor_RegisterTypeLoadError_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.RegisterTypeLoadError(System.String)
+    name: RegisterTypeLoadError
+    href: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IRuntimeBindingSourceProcessor_RegisterTypeLoadError_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

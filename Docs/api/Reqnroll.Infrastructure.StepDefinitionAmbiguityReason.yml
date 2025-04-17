@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  commentId: T:Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  id: StepDefinitionAmbiguityReason
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.AmbiguousScopes
+  - Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.AmbiguousSteps
+  - Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.None
+  - Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.ParameterErrors
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionAmbiguityReason
+  nameWithType: StepDefinitionAmbiguityReason
+  fullName: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepDefinitionAmbiguityReason
+    path: ../Reqnroll/Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public enum StepDefinitionAmbiguityReason
+    content.vb: Public Enum StepDefinitionAmbiguityReason
+- uid: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.None
+  commentId: F:Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.None
+  id: None
+  parent: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: StepDefinitionAmbiguityReason.None
+  fullName: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.None
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: None
+    path: ../Reqnroll/Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: None = 0
+    return:
+      type: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+- uid: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.AmbiguousSteps
+  commentId: F:Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.AmbiguousSteps
+  id: AmbiguousSteps
+  parent: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  langs:
+  - csharp
+  - vb
+  name: AmbiguousSteps
+  nameWithType: StepDefinitionAmbiguityReason.AmbiguousSteps
+  fullName: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.AmbiguousSteps
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AmbiguousSteps
+    path: ../Reqnroll/Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: AmbiguousSteps = 1
+    return:
+      type: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+- uid: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.AmbiguousScopes
+  commentId: F:Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.AmbiguousScopes
+  id: AmbiguousScopes
+  parent: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  langs:
+  - csharp
+  - vb
+  name: AmbiguousScopes
+  nameWithType: StepDefinitionAmbiguityReason.AmbiguousScopes
+  fullName: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.AmbiguousScopes
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AmbiguousScopes
+    path: ../Reqnroll/Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: AmbiguousScopes = 2
+    return:
+      type: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+- uid: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.ParameterErrors
+  commentId: F:Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.ParameterErrors
+  id: ParameterErrors
+  parent: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  langs:
+  - csharp
+  - vb
+  name: ParameterErrors
+  nameWithType: StepDefinitionAmbiguityReason.ParameterErrors
+  fullName: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.ParameterErrors
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ParameterErrors
+    path: ../Reqnroll/Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: ParameterErrors = 3
+    return:
+      type: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  commentId: T:Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  parent: Reqnroll.Infrastructure
+  href: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.html
+  name: StepDefinitionAmbiguityReason
+  nameWithType: StepDefinitionAmbiguityReason
+  fullName: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason

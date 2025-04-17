@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Time
+  commentId: N:Reqnroll.Time
+  id: Reqnroll.Time
+  children:
+  - Reqnroll.Time.IClock
+  - Reqnroll.Time.UtcDateTimeClock
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Time
+  nameWithType: Reqnroll.Time
+  fullName: Reqnroll.Time
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Time.IClock
+  commentId: T:Reqnroll.Time.IClock
+  parent: Reqnroll.Time
+  href: Reqnroll.Time.IClock.html
+  name: IClock
+  nameWithType: IClock
+  fullName: Reqnroll.Time.IClock
+- uid: Reqnroll.Time.UtcDateTimeClock
+  commentId: T:Reqnroll.Time.UtcDateTimeClock
+  href: Reqnroll.Time.UtcDateTimeClock.html
+  name: UtcDateTimeClock
+  nameWithType: UtcDateTimeClock
+  fullName: Reqnroll.Time.UtcDateTimeClock
+- uid: Reqnroll.Time
+  commentId: N:Reqnroll.Time
+  href: Reqnroll.html
+  name: Reqnroll.Time
+  nameWithType: Reqnroll.Time
+  fullName: Reqnroll.Time
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Time
+    name: Time
+    href: Reqnroll.Time.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Time
+    name: Time
+    href: Reqnroll.Time.html

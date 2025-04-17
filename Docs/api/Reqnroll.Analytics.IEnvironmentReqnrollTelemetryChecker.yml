@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker
+  commentId: T:Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker
+  id: IEnvironmentReqnrollTelemetryChecker
+  parent: Reqnroll.Analytics
+  children:
+  - Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker.IsReqnrollTelemetryEnabled
+  langs:
+  - csharp
+  - vb
+  name: IEnvironmentReqnrollTelemetryChecker
+  nameWithType: IEnvironmentReqnrollTelemetryChecker
+  fullName: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Analytics/IEnvironmentReqnrollTelemetryChecker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IEnvironmentReqnrollTelemetryChecker
+    path: ../Reqnroll/Reqnroll/Analytics/IEnvironmentReqnrollTelemetryChecker.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: public interface IEnvironmentReqnrollTelemetryChecker
+    content.vb: Public Interface IEnvironmentReqnrollTelemetryChecker
+- uid: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker.IsReqnrollTelemetryEnabled
+  commentId: M:Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker.IsReqnrollTelemetryEnabled
+  id: IsReqnrollTelemetryEnabled
+  parent: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker
+  langs:
+  - csharp
+  - vb
+  name: IsReqnrollTelemetryEnabled()
+  nameWithType: IEnvironmentReqnrollTelemetryChecker.IsReqnrollTelemetryEnabled()
+  fullName: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker.IsReqnrollTelemetryEnabled()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/IEnvironmentReqnrollTelemetryChecker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsReqnrollTelemetryEnabled
+    path: ../Reqnroll/Reqnroll/Analytics/IEnvironmentReqnrollTelemetryChecker.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: bool IsReqnrollTelemetryEnabled()
+    return:
+      type: System.Boolean
+    content.vb: Function IsReqnrollTelemetryEnabled() As Boolean
+  overload: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker.IsReqnrollTelemetryEnabled*
+references:
+- uid: Reqnroll.Analytics
+  commentId: N:Reqnroll.Analytics
+  href: Reqnroll.html
+  name: Reqnroll.Analytics
+  nameWithType: Reqnroll.Analytics
+  fullName: Reqnroll.Analytics
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+- uid: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker.IsReqnrollTelemetryEnabled*
+  commentId: Overload:Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker.IsReqnrollTelemetryEnabled
+  href: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker.html#Reqnroll_Analytics_IEnvironmentReqnrollTelemetryChecker_IsReqnrollTelemetryEnabled
+  name: IsReqnrollTelemetryEnabled
+  nameWithType: IEnvironmentReqnrollTelemetryChecker.IsReqnrollTelemetryEnabled
+  fullName: Reqnroll.Analytics.IEnvironmentReqnrollTelemetryChecker.IsReqnrollTelemetryEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

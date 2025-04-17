@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.IObsoleteStepHandler
+  commentId: T:Reqnroll.Infrastructure.IObsoleteStepHandler
+  id: IObsoleteStepHandler
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.IObsoleteStepHandler.Handle(Reqnroll.Bindings.BindingMatch)
+  langs:
+  - csharp
+  - vb
+  name: IObsoleteStepHandler
+  nameWithType: IObsoleteStepHandler
+  fullName: Reqnroll.Infrastructure.IObsoleteStepHandler
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/IObsoleteStepHandler.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IObsoleteStepHandler
+    path: ../Reqnroll/Reqnroll/Infrastructure/IObsoleteStepHandler.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface IObsoleteStepHandler
+    content.vb: Public Interface IObsoleteStepHandler
+- uid: Reqnroll.Infrastructure.IObsoleteStepHandler.Handle(Reqnroll.Bindings.BindingMatch)
+  commentId: M:Reqnroll.Infrastructure.IObsoleteStepHandler.Handle(Reqnroll.Bindings.BindingMatch)
+  id: Handle(Reqnroll.Bindings.BindingMatch)
+  parent: Reqnroll.Infrastructure.IObsoleteStepHandler
+  langs:
+  - csharp
+  - vb
+  name: Handle(BindingMatch)
+  nameWithType: IObsoleteStepHandler.Handle(BindingMatch)
+  fullName: Reqnroll.Infrastructure.IObsoleteStepHandler.Handle(Reqnroll.Bindings.BindingMatch)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/IObsoleteStepHandler.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Handle
+    path: ../Reqnroll/Reqnroll/Infrastructure/IObsoleteStepHandler.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void Handle(BindingMatch bindingMatch)
+    parameters:
+    - id: bindingMatch
+      type: Reqnroll.Bindings.BindingMatch
+    content.vb: Sub Handle(bindingMatch As BindingMatch)
+  overload: Reqnroll.Infrastructure.IObsoleteStepHandler.Handle*
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.IObsoleteStepHandler.Handle*
+  commentId: Overload:Reqnroll.Infrastructure.IObsoleteStepHandler.Handle
+  href: Reqnroll.Infrastructure.IObsoleteStepHandler.html#Reqnroll_Infrastructure_IObsoleteStepHandler_Handle_Reqnroll_Bindings_BindingMatch_
+  name: Handle
+  nameWithType: IObsoleteStepHandler.Handle
+  fullName: Reqnroll.Infrastructure.IObsoleteStepHandler.Handle
+- uid: Reqnroll.Bindings.BindingMatch
+  commentId: T:Reqnroll.Bindings.BindingMatch
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingMatch.html
+  name: BindingMatch
+  nameWithType: BindingMatch
+  fullName: Reqnroll.Bindings.BindingMatch
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html

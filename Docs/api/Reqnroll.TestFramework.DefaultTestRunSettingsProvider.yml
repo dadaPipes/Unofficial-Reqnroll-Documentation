@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.TestFramework.DefaultTestRunSettingsProvider
+  commentId: T:Reqnroll.TestFramework.DefaultTestRunSettingsProvider
+  id: DefaultTestRunSettingsProvider
+  parent: Reqnroll.TestFramework
+  children:
+  - Reqnroll.TestFramework.DefaultTestRunSettingsProvider.#ctor(Reqnroll.EnvironmentAccess.IEnvironmentWrapper)
+  - Reqnroll.TestFramework.DefaultTestRunSettingsProvider.GetTestDirectory
+  langs:
+  - csharp
+  - vb
+  name: DefaultTestRunSettingsProvider
+  nameWithType: DefaultTestRunSettingsProvider
+  fullName: Reqnroll.TestFramework.DefaultTestRunSettingsProvider
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/TestFramework/DefaultTestRunSettingsProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DefaultTestRunSettingsProvider
+    path: ../Reqnroll/Reqnroll/TestFramework/DefaultTestRunSettingsProvider.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.TestFramework
+  syntax:
+    content: 'public class DefaultTestRunSettingsProvider : ITestRunSettingsProvider'
+    content.vb: Public Class DefaultTestRunSettingsProvider Implements ITestRunSettingsProvider
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.TestFramework.ITestRunSettingsProvider
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.#ctor(Reqnroll.EnvironmentAccess.IEnvironmentWrapper)
+  commentId: M:Reqnroll.TestFramework.DefaultTestRunSettingsProvider.#ctor(Reqnroll.EnvironmentAccess.IEnvironmentWrapper)
+  id: '#ctor(Reqnroll.EnvironmentAccess.IEnvironmentWrapper)'
+  parent: Reqnroll.TestFramework.DefaultTestRunSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: DefaultTestRunSettingsProvider(IEnvironmentWrapper)
+  nameWithType: DefaultTestRunSettingsProvider.DefaultTestRunSettingsProvider(IEnvironmentWrapper)
+  fullName: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.DefaultTestRunSettingsProvider(Reqnroll.EnvironmentAccess.IEnvironmentWrapper)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/TestFramework/DefaultTestRunSettingsProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/TestFramework/DefaultTestRunSettingsProvider.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.TestFramework
+  syntax:
+    content: public DefaultTestRunSettingsProvider(IEnvironmentWrapper environmentWrapper)
+    parameters:
+    - id: environmentWrapper
+      type: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+    content.vb: Public Sub New(environmentWrapper As IEnvironmentWrapper)
+  overload: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.#ctor*
+  nameWithType.vb: DefaultTestRunSettingsProvider.New(IEnvironmentWrapper)
+  fullName.vb: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.New(Reqnroll.EnvironmentAccess.IEnvironmentWrapper)
+  name.vb: New(IEnvironmentWrapper)
+- uid: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.GetTestDirectory
+  commentId: M:Reqnroll.TestFramework.DefaultTestRunSettingsProvider.GetTestDirectory
+  id: GetTestDirectory
+  parent: Reqnroll.TestFramework.DefaultTestRunSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetTestDirectory()
+  nameWithType: DefaultTestRunSettingsProvider.GetTestDirectory()
+  fullName: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.GetTestDirectory()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestFramework/DefaultTestRunSettingsProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetTestDirectory
+    path: ../Reqnroll/Reqnroll/TestFramework/DefaultTestRunSettingsProvider.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.TestFramework
+  example: []
+  syntax:
+    content: public string GetTestDirectory()
+    return:
+      type: System.String
+    content.vb: Public Function GetTestDirectory() As String
+  overload: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.GetTestDirectory*
+  implements:
+  - Reqnroll.TestFramework.ITestRunSettingsProvider.GetTestDirectory
+references:
+- uid: Reqnroll.TestFramework
+  commentId: N:Reqnroll.TestFramework
+  href: Reqnroll.html
+  name: Reqnroll.TestFramework
+  nameWithType: Reqnroll.TestFramework
+  fullName: Reqnroll.TestFramework
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.TestFramework
+    name: TestFramework
+    href: Reqnroll.TestFramework.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.TestFramework
+    name: TestFramework
+    href: Reqnroll.TestFramework.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.TestFramework.ITestRunSettingsProvider
+  commentId: T:Reqnroll.TestFramework.ITestRunSettingsProvider
+  parent: Reqnroll.TestFramework
+  href: Reqnroll.TestFramework.ITestRunSettingsProvider.html
+  name: ITestRunSettingsProvider
+  nameWithType: ITestRunSettingsProvider
+  fullName: Reqnroll.TestFramework.ITestRunSettingsProvider
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.#ctor*
+  commentId: Overload:Reqnroll.TestFramework.DefaultTestRunSettingsProvider.#ctor
+  href: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.html#Reqnroll_TestFramework_DefaultTestRunSettingsProvider__ctor_Reqnroll_EnvironmentAccess_IEnvironmentWrapper_
+  name: DefaultTestRunSettingsProvider
+  nameWithType: DefaultTestRunSettingsProvider.DefaultTestRunSettingsProvider
+  fullName: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.DefaultTestRunSettingsProvider
+  nameWithType.vb: DefaultTestRunSettingsProvider.New
+  fullName.vb: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.New
+  name.vb: New
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  commentId: T:Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  parent: Reqnroll.EnvironmentAccess
+  href: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.html
+  name: IEnvironmentWrapper
+  nameWithType: IEnvironmentWrapper
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+- uid: Reqnroll.EnvironmentAccess
+  commentId: N:Reqnroll.EnvironmentAccess
+  href: Reqnroll.html
+  name: Reqnroll.EnvironmentAccess
+  nameWithType: Reqnroll.EnvironmentAccess
+  fullName: Reqnroll.EnvironmentAccess
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.EnvironmentAccess
+    name: EnvironmentAccess
+    href: Reqnroll.EnvironmentAccess.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.EnvironmentAccess
+    name: EnvironmentAccess
+    href: Reqnroll.EnvironmentAccess.html
+- uid: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.GetTestDirectory*
+  commentId: Overload:Reqnroll.TestFramework.DefaultTestRunSettingsProvider.GetTestDirectory
+  href: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.html#Reqnroll_TestFramework_DefaultTestRunSettingsProvider_GetTestDirectory
+  name: GetTestDirectory
+  nameWithType: DefaultTestRunSettingsProvider.GetTestDirectory
+  fullName: Reqnroll.TestFramework.DefaultTestRunSettingsProvider.GetTestDirectory
+- uid: Reqnroll.TestFramework.ITestRunSettingsProvider.GetTestDirectory
+  commentId: M:Reqnroll.TestFramework.ITestRunSettingsProvider.GetTestDirectory
+  parent: Reqnroll.TestFramework.ITestRunSettingsProvider
+  href: Reqnroll.TestFramework.ITestRunSettingsProvider.html#Reqnroll_TestFramework_ITestRunSettingsProvider_GetTestDirectory
+  name: GetTestDirectory()
+  nameWithType: ITestRunSettingsProvider.GetTestDirectory()
+  fullName: Reqnroll.TestFramework.ITestRunSettingsProvider.GetTestDirectory()
+  spec.csharp:
+  - uid: Reqnroll.TestFramework.ITestRunSettingsProvider.GetTestDirectory
+    name: GetTestDirectory
+    href: Reqnroll.TestFramework.ITestRunSettingsProvider.html#Reqnroll_TestFramework_ITestRunSettingsProvider_GetTestDirectory
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestFramework.ITestRunSettingsProvider.GetTestDirectory
+    name: GetTestDirectory
+    href: Reqnroll.TestFramework.ITestRunSettingsProvider.html#Reqnroll_TestFramework_ITestRunSettingsProvider_GetTestDirectory
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

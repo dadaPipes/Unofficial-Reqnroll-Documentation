@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IScopedBinding
+  commentId: T:Reqnroll.Bindings.IScopedBinding
+  id: IScopedBinding
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IScopedBinding.BindingScope
+  - Reqnroll.Bindings.IScopedBinding.IsScoped
+  langs:
+  - csharp
+  - vb
+  name: IScopedBinding
+  nameWithType: IScopedBinding
+  fullName: Reqnroll.Bindings.IScopedBinding
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/IScopedBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IScopedBinding
+    path: ../Reqnroll/Reqnroll/Bindings/IScopedBinding.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public interface IScopedBinding
+    content.vb: Public Interface IScopedBinding
+- uid: Reqnroll.Bindings.IScopedBinding.IsScoped
+  commentId: P:Reqnroll.Bindings.IScopedBinding.IsScoped
+  id: IsScoped
+  parent: Reqnroll.Bindings.IScopedBinding
+  langs:
+  - csharp
+  - vb
+  name: IsScoped
+  nameWithType: IScopedBinding.IsScoped
+  fullName: Reqnroll.Bindings.IScopedBinding.IsScoped
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/IScopedBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsScoped
+    path: ../Reqnroll/Reqnroll/Bindings/IScopedBinding.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: bool IsScoped { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsScoped As Boolean
+  overload: Reqnroll.Bindings.IScopedBinding.IsScoped*
+- uid: Reqnroll.Bindings.IScopedBinding.BindingScope
+  commentId: P:Reqnroll.Bindings.IScopedBinding.BindingScope
+  id: BindingScope
+  parent: Reqnroll.Bindings.IScopedBinding
+  langs:
+  - csharp
+  - vb
+  name: BindingScope
+  nameWithType: IScopedBinding.BindingScope
+  fullName: Reqnroll.Bindings.IScopedBinding.BindingScope
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/IScopedBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingScope
+    path: ../Reqnroll/Reqnroll/Bindings/IScopedBinding.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: BindingScope BindingScope { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.BindingScope
+    content.vb: ReadOnly Property BindingScope As BindingScope
+  overload: Reqnroll.Bindings.IScopedBinding.BindingScope*
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IScopedBinding.IsScoped*
+  commentId: Overload:Reqnroll.Bindings.IScopedBinding.IsScoped
+  href: Reqnroll.Bindings.IScopedBinding.html#Reqnroll_Bindings_IScopedBinding_IsScoped
+  name: IsScoped
+  nameWithType: IScopedBinding.IsScoped
+  fullName: Reqnroll.Bindings.IScopedBinding.IsScoped
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.IScopedBinding.BindingScope*
+  commentId: Overload:Reqnroll.Bindings.IScopedBinding.BindingScope
+  href: Reqnroll.Bindings.IScopedBinding.html#Reqnroll_Bindings_IScopedBinding_BindingScope
+  name: BindingScope
+  nameWithType: IScopedBinding.BindingScope
+  fullName: Reqnroll.Bindings.IScopedBinding.BindingScope
+- uid: Reqnroll.Bindings.BindingScope
+  commentId: T:Reqnroll.Bindings.BindingScope
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingScope.html
+  name: BindingScope
+  nameWithType: BindingScope
+  fullName: Reqnroll.Bindings.BindingScope

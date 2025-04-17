@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist.ValueComparers
+  commentId: N:Reqnroll.Assist.ValueComparers
+  id: Reqnroll.Assist.ValueComparers
+  children:
+  - Reqnroll.Assist.ValueComparers.BoolValueComparer
+  - Reqnroll.Assist.ValueComparers.DateTimeOffsetValueComparer
+  - Reqnroll.Assist.ValueComparers.DateTimeValueComparer
+  - Reqnroll.Assist.ValueComparers.DecimalValueComparer
+  - Reqnroll.Assist.ValueComparers.DefaultValueComparer
+  - Reqnroll.Assist.ValueComparers.DoubleValueComparer
+  - Reqnroll.Assist.ValueComparers.FloatValueComparer
+  - Reqnroll.Assist.ValueComparers.GuidValueComparer
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Assist.ValueComparers
+  nameWithType: Reqnroll.Assist.ValueComparers
+  fullName: Reqnroll.Assist.ValueComparers
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Assist.ValueComparers.BoolValueComparer
+  commentId: T:Reqnroll.Assist.ValueComparers.BoolValueComparer
+  href: Reqnroll.Assist.ValueComparers.BoolValueComparer.html
+  name: BoolValueComparer
+  nameWithType: BoolValueComparer
+  fullName: Reqnroll.Assist.ValueComparers.BoolValueComparer
+- uid: Reqnroll.Assist.ValueComparers.DateTimeOffsetValueComparer
+  commentId: T:Reqnroll.Assist.ValueComparers.DateTimeOffsetValueComparer
+  href: Reqnroll.Assist.ValueComparers.DateTimeOffsetValueComparer.html
+  name: DateTimeOffsetValueComparer
+  nameWithType: DateTimeOffsetValueComparer
+  fullName: Reqnroll.Assist.ValueComparers.DateTimeOffsetValueComparer
+- uid: Reqnroll.Assist.ValueComparers.DateTimeValueComparer
+  commentId: T:Reqnroll.Assist.ValueComparers.DateTimeValueComparer
+  href: Reqnroll.Assist.ValueComparers.DateTimeValueComparer.html
+  name: DateTimeValueComparer
+  nameWithType: DateTimeValueComparer
+  fullName: Reqnroll.Assist.ValueComparers.DateTimeValueComparer
+- uid: Reqnroll.Assist.ValueComparers.DecimalValueComparer
+  commentId: T:Reqnroll.Assist.ValueComparers.DecimalValueComparer
+  href: Reqnroll.Assist.ValueComparers.DecimalValueComparer.html
+  name: DecimalValueComparer
+  nameWithType: DecimalValueComparer
+  fullName: Reqnroll.Assist.ValueComparers.DecimalValueComparer
+- uid: Reqnroll.Assist.ValueComparers.DefaultValueComparer
+  commentId: T:Reqnroll.Assist.ValueComparers.DefaultValueComparer
+  href: Reqnroll.Assist.ValueComparers.DefaultValueComparer.html
+  name: DefaultValueComparer
+  nameWithType: DefaultValueComparer
+  fullName: Reqnroll.Assist.ValueComparers.DefaultValueComparer
+- uid: Reqnroll.Assist.ValueComparers.DoubleValueComparer
+  commentId: T:Reqnroll.Assist.ValueComparers.DoubleValueComparer
+  href: Reqnroll.Assist.ValueComparers.DoubleValueComparer.html
+  name: DoubleValueComparer
+  nameWithType: DoubleValueComparer
+  fullName: Reqnroll.Assist.ValueComparers.DoubleValueComparer
+- uid: Reqnroll.Assist.ValueComparers.FloatValueComparer
+  commentId: T:Reqnroll.Assist.ValueComparers.FloatValueComparer
+  href: Reqnroll.Assist.ValueComparers.FloatValueComparer.html
+  name: FloatValueComparer
+  nameWithType: FloatValueComparer
+  fullName: Reqnroll.Assist.ValueComparers.FloatValueComparer
+- uid: Reqnroll.Assist.ValueComparers.GuidValueComparer
+  commentId: T:Reqnroll.Assist.ValueComparers.GuidValueComparer
+  href: Reqnroll.Assist.ValueComparers.GuidValueComparer.html
+  name: GuidValueComparer
+  nameWithType: GuidValueComparer
+  fullName: Reqnroll.Assist.ValueComparers.GuidValueComparer

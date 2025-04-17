@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.FileAccess.IBinaryFileAccessor
+  commentId: T:Reqnroll.FileAccess.IBinaryFileAccessor
+  id: IBinaryFileAccessor
+  parent: Reqnroll.FileAccess
+  children:
+  - Reqnroll.FileAccess.IBinaryFileAccessor.OpenAppendOrCreateFile(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IBinaryFileAccessor
+  nameWithType: IBinaryFileAccessor
+  fullName: Reqnroll.FileAccess.IBinaryFileAccessor
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/FileAccess/IBinaryFileAccessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IBinaryFileAccessor
+    path: ../Reqnroll/Reqnroll/FileAccess/IBinaryFileAccessor.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.FileAccess
+  syntax:
+    content: public interface IBinaryFileAccessor
+    content.vb: Public Interface IBinaryFileAccessor
+- uid: Reqnroll.FileAccess.IBinaryFileAccessor.OpenAppendOrCreateFile(System.String)
+  commentId: M:Reqnroll.FileAccess.IBinaryFileAccessor.OpenAppendOrCreateFile(System.String)
+  id: OpenAppendOrCreateFile(System.String)
+  parent: Reqnroll.FileAccess.IBinaryFileAccessor
+  langs:
+  - csharp
+  - vb
+  name: OpenAppendOrCreateFile(string)
+  nameWithType: IBinaryFileAccessor.OpenAppendOrCreateFile(string)
+  fullName: Reqnroll.FileAccess.IBinaryFileAccessor.OpenAppendOrCreateFile(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/FileAccess/IBinaryFileAccessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OpenAppendOrCreateFile
+    path: ../Reqnroll/Reqnroll/FileAccess/IBinaryFileAccessor.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.FileAccess
+  syntax:
+    content: IResult<Stream> OpenAppendOrCreateFile(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+    return:
+      type: Reqnroll.CommonModels.IResult{System.IO.Stream}
+    content.vb: Function OpenAppendOrCreateFile(filePath As String) As IResult(Of Stream)
+  overload: Reqnroll.FileAccess.IBinaryFileAccessor.OpenAppendOrCreateFile*
+  nameWithType.vb: IBinaryFileAccessor.OpenAppendOrCreateFile(String)
+  fullName.vb: Reqnroll.FileAccess.IBinaryFileAccessor.OpenAppendOrCreateFile(String)
+  name.vb: OpenAppendOrCreateFile(String)
+references:
+- uid: Reqnroll.FileAccess
+  commentId: N:Reqnroll.FileAccess
+  href: Reqnroll.html
+  name: Reqnroll.FileAccess
+  nameWithType: Reqnroll.FileAccess
+  fullName: Reqnroll.FileAccess
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.FileAccess
+    name: FileAccess
+    href: Reqnroll.FileAccess.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.FileAccess
+    name: FileAccess
+    href: Reqnroll.FileAccess.html
+- uid: Reqnroll.FileAccess.IBinaryFileAccessor.OpenAppendOrCreateFile*
+  commentId: Overload:Reqnroll.FileAccess.IBinaryFileAccessor.OpenAppendOrCreateFile
+  href: Reqnroll.FileAccess.IBinaryFileAccessor.html#Reqnroll_FileAccess_IBinaryFileAccessor_OpenAppendOrCreateFile_System_String_
+  name: OpenAppendOrCreateFile
+  nameWithType: IBinaryFileAccessor.OpenAppendOrCreateFile
+  fullName: Reqnroll.FileAccess.IBinaryFileAccessor.OpenAppendOrCreateFile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.CommonModels.IResult{System.IO.Stream}
+  commentId: T:Reqnroll.CommonModels.IResult{System.IO.Stream}
+  parent: Reqnroll.CommonModels
+  definition: Reqnroll.CommonModels.IResult`1
+  href: Reqnroll.CommonModels.IResult-1.html
+  name: IResult<Stream>
+  nameWithType: IResult<Stream>
+  fullName: Reqnroll.CommonModels.IResult<System.IO.Stream>
+  nameWithType.vb: IResult(Of Stream)
+  fullName.vb: Reqnroll.CommonModels.IResult(Of System.IO.Stream)
+  name.vb: IResult(Of Stream)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: <
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.CommonModels.IResult`1
+  commentId: T:Reqnroll.CommonModels.IResult`1
+  href: Reqnroll.CommonModels.IResult-1.html
+  name: IResult<T>
+  nameWithType: IResult<T>
+  fullName: Reqnroll.CommonModels.IResult<T>
+  nameWithType.vb: IResult(Of T)
+  fullName.vb: Reqnroll.CommonModels.IResult(Of T)
+  name.vb: IResult(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels
+  commentId: N:Reqnroll.CommonModels
+  href: Reqnroll.html
+  name: Reqnroll.CommonModels
+  nameWithType: Reqnroll.CommonModels
+  fullName: Reqnroll.CommonModels
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html

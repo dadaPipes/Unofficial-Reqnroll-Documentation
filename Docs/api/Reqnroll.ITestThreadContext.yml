@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.ITestThreadContext
+  commentId: T:Reqnroll.ITestThreadContext
+  id: ITestThreadContext
+  parent: Reqnroll
+  children:
+  - Reqnroll.ITestThreadContext.TestThreadContainer
+  langs:
+  - csharp
+  - vb
+  name: ITestThreadContext
+  nameWithType: ITestThreadContext
+  fullName: Reqnroll.ITestThreadContext
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/TestThreadContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ITestThreadContext
+    path: ../Reqnroll/Reqnroll/TestThreadContext.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: 'public interface ITestThreadContext : IReqnrollContext'
+    content.vb: Public Interface ITestThreadContext Inherits IReqnrollContext
+  inheritedMembers:
+  - Reqnroll.IReqnrollContext.TestError
+- uid: Reqnroll.ITestThreadContext.TestThreadContainer
+  commentId: P:Reqnroll.ITestThreadContext.TestThreadContainer
+  id: TestThreadContainer
+  parent: Reqnroll.ITestThreadContext
+  langs:
+  - csharp
+  - vb
+  name: TestThreadContainer
+  nameWithType: ITestThreadContext.TestThreadContainer
+  fullName: Reqnroll.ITestThreadContext.TestThreadContainer
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/TestThreadContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestThreadContainer
+    path: ../Reqnroll/Reqnroll/TestThreadContext.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: IObjectContainer TestThreadContainer { get; }
+    parameters: []
+    return:
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: ReadOnly Property TestThreadContainer As IObjectContainer
+  overload: Reqnroll.ITestThreadContext.TestThreadContainer*
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.IReqnrollContext.TestError
+  commentId: P:Reqnroll.IReqnrollContext.TestError
+  parent: Reqnroll.IReqnrollContext
+  href: Reqnroll.IReqnrollContext.html#Reqnroll_IReqnrollContext_TestError
+  name: TestError
+  nameWithType: IReqnrollContext.TestError
+  fullName: Reqnroll.IReqnrollContext.TestError
+- uid: Reqnroll.IReqnrollContext
+  commentId: T:Reqnroll.IReqnrollContext
+  parent: Reqnroll
+  href: Reqnroll.IReqnrollContext.html
+  name: IReqnrollContext
+  nameWithType: IReqnrollContext
+  fullName: Reqnroll.IReqnrollContext
+- uid: Reqnroll.ITestThreadContext.TestThreadContainer*
+  commentId: Overload:Reqnroll.ITestThreadContext.TestThreadContainer
+  href: Reqnroll.ITestThreadContext.html#Reqnroll_ITestThreadContext_TestThreadContainer
+  name: TestThreadContainer
+  nameWithType: ITestThreadContext.TestThreadContainer
+  fullName: Reqnroll.ITestThreadContext.TestThreadContainer
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html

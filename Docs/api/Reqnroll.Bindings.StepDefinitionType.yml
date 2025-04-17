@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.StepDefinitionType
+  commentId: T:Reqnroll.Bindings.StepDefinitionType
+  id: StepDefinitionType
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.StepDefinitionType.Given
+  - Reqnroll.Bindings.StepDefinitionType.Then
+  - Reqnroll.Bindings.StepDefinitionType.When
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionType
+  nameWithType: StepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionType
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepDefinitionType
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionType.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public enum StepDefinitionType
+    content.vb: Public Enum StepDefinitionType
+- uid: Reqnroll.Bindings.StepDefinitionType.Given
+  commentId: F:Reqnroll.Bindings.StepDefinitionType.Given
+  id: Given
+  parent: Reqnroll.Bindings.StepDefinitionType
+  langs:
+  - csharp
+  - vb
+  name: Given
+  nameWithType: StepDefinitionType.Given
+  fullName: Reqnroll.Bindings.StepDefinitionType.Given
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Given
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionType.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: Given = 1
+    return:
+      type: Reqnroll.Bindings.StepDefinitionType
+- uid: Reqnroll.Bindings.StepDefinitionType.When
+  commentId: F:Reqnroll.Bindings.StepDefinitionType.When
+  id: When
+  parent: Reqnroll.Bindings.StepDefinitionType
+  langs:
+  - csharp
+  - vb
+  name: When
+  nameWithType: StepDefinitionType.When
+  fullName: Reqnroll.Bindings.StepDefinitionType.When
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: When
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionType.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: When = 2
+    return:
+      type: Reqnroll.Bindings.StepDefinitionType
+- uid: Reqnroll.Bindings.StepDefinitionType.Then
+  commentId: F:Reqnroll.Bindings.StepDefinitionType.Then
+  id: Then
+  parent: Reqnroll.Bindings.StepDefinitionType
+  langs:
+  - csharp
+  - vb
+  name: Then
+  nameWithType: StepDefinitionType.Then
+  fullName: Reqnroll.Bindings.StepDefinitionType.Then
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Then
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionType.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: Then = 3
+    return:
+      type: Reqnroll.Bindings.StepDefinitionType
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.StepDefinitionType
+  commentId: T:Reqnroll.Bindings.StepDefinitionType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionType.html
+  name: StepDefinitionType
+  nameWithType: StepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionType

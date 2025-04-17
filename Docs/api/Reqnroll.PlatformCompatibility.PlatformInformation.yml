@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation
+  commentId: T:Reqnroll.PlatformCompatibility.PlatformInformation
+  id: PlatformInformation
+  parent: Reqnroll.PlatformCompatibility
+  children:
+  - Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkDescription
+  - Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkMainDescription
+  - Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFullVersion
+  - Reqnroll.PlatformCompatibility.PlatformInformation.IsDotNetFramework
+  - Reqnroll.PlatformCompatibility.PlatformInformation.ProcessArchitecture
+  langs:
+  - csharp
+  - vb
+  name: PlatformInformation
+  nameWithType: PlatformInformation
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/PlatformCompatibility/PlatformInformation.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: PlatformInformation
+    path: ../Reqnroll/Reqnroll/PlatformCompatibility/PlatformInformation.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.PlatformCompatibility
+  syntax:
+    content: public class PlatformInformation
+    content.vb: Public Class PlatformInformation
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation.ProcessArchitecture
+  commentId: P:Reqnroll.PlatformCompatibility.PlatformInformation.ProcessArchitecture
+  id: ProcessArchitecture
+  parent: Reqnroll.PlatformCompatibility.PlatformInformation
+  langs:
+  - csharp
+  - vb
+  name: ProcessArchitecture
+  nameWithType: PlatformInformation.ProcessArchitecture
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation.ProcessArchitecture
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/PlatformCompatibility/PlatformInformation.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ProcessArchitecture
+    path: ../Reqnroll/Reqnroll/PlatformCompatibility/PlatformInformation.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.PlatformCompatibility
+  syntax:
+    content: public static Architecture ProcessArchitecture { get; }
+    parameters: []
+    return:
+      type: System.Runtime.InteropServices.Architecture
+    content.vb: Public Shared ReadOnly Property ProcessArchitecture As Architecture
+  overload: Reqnroll.PlatformCompatibility.PlatformInformation.ProcessArchitecture*
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFullVersion
+  commentId: P:Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFullVersion
+  id: DotNetFullVersion
+  parent: Reqnroll.PlatformCompatibility.PlatformInformation
+  langs:
+  - csharp
+  - vb
+  name: DotNetFullVersion
+  nameWithType: PlatformInformation.DotNetFullVersion
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFullVersion
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/PlatformCompatibility/PlatformInformation.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DotNetFullVersion
+    path: ../Reqnroll/Reqnroll/PlatformCompatibility/PlatformInformation.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.PlatformCompatibility
+  syntax:
+    content: public static string DotNetFullVersion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DotNetFullVersion As String
+  overload: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFullVersion*
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkDescription
+  commentId: P:Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkDescription
+  id: DotNetFrameworkDescription
+  parent: Reqnroll.PlatformCompatibility.PlatformInformation
+  langs:
+  - csharp
+  - vb
+  name: DotNetFrameworkDescription
+  nameWithType: PlatformInformation.DotNetFrameworkDescription
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkDescription
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/PlatformCompatibility/PlatformInformation.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DotNetFrameworkDescription
+    path: ../Reqnroll/Reqnroll/PlatformCompatibility/PlatformInformation.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.PlatformCompatibility
+  syntax:
+    content: public static string DotNetFrameworkDescription { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DotNetFrameworkDescription As String
+  overload: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkDescription*
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkMainDescription
+  commentId: P:Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkMainDescription
+  id: DotNetFrameworkMainDescription
+  parent: Reqnroll.PlatformCompatibility.PlatformInformation
+  langs:
+  - csharp
+  - vb
+  name: DotNetFrameworkMainDescription
+  nameWithType: PlatformInformation.DotNetFrameworkMainDescription
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkMainDescription
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/PlatformCompatibility/PlatformInformation.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DotNetFrameworkMainDescription
+    path: ../Reqnroll/Reqnroll/PlatformCompatibility/PlatformInformation.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.PlatformCompatibility
+  syntax:
+    content: public static string DotNetFrameworkMainDescription { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DotNetFrameworkMainDescription As String
+  overload: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkMainDescription*
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation.IsDotNetFramework
+  commentId: P:Reqnroll.PlatformCompatibility.PlatformInformation.IsDotNetFramework
+  id: IsDotNetFramework
+  parent: Reqnroll.PlatformCompatibility.PlatformInformation
+  langs:
+  - csharp
+  - vb
+  name: IsDotNetFramework
+  nameWithType: PlatformInformation.IsDotNetFramework
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation.IsDotNetFramework
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/PlatformCompatibility/PlatformInformation.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsDotNetFramework
+    path: ../Reqnroll/Reqnroll/PlatformCompatibility/PlatformInformation.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.PlatformCompatibility
+  syntax:
+    content: public static bool IsDotNetFramework { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsDotNetFramework As Boolean
+  overload: Reqnroll.PlatformCompatibility.PlatformInformation.IsDotNetFramework*
+references:
+- uid: Reqnroll.PlatformCompatibility
+  commentId: N:Reqnroll.PlatformCompatibility
+  href: Reqnroll.html
+  name: Reqnroll.PlatformCompatibility
+  nameWithType: Reqnroll.PlatformCompatibility
+  fullName: Reqnroll.PlatformCompatibility
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.PlatformCompatibility
+    name: PlatformCompatibility
+    href: Reqnroll.PlatformCompatibility.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.PlatformCompatibility
+    name: PlatformCompatibility
+    href: Reqnroll.PlatformCompatibility.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation.ProcessArchitecture*
+  commentId: Overload:Reqnroll.PlatformCompatibility.PlatformInformation.ProcessArchitecture
+  href: Reqnroll.PlatformCompatibility.PlatformInformation.html#Reqnroll_PlatformCompatibility_PlatformInformation_ProcessArchitecture
+  name: ProcessArchitecture
+  nameWithType: PlatformInformation.ProcessArchitecture
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation.ProcessArchitecture
+- uid: System.Runtime.InteropServices.Architecture
+  commentId: T:System.Runtime.InteropServices.Architecture
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.architecture
+  name: Architecture
+  nameWithType: Architecture
+  fullName: System.Runtime.InteropServices.Architecture
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFullVersion*
+  commentId: Overload:Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFullVersion
+  href: Reqnroll.PlatformCompatibility.PlatformInformation.html#Reqnroll_PlatformCompatibility_PlatformInformation_DotNetFullVersion
+  name: DotNetFullVersion
+  nameWithType: PlatformInformation.DotNetFullVersion
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFullVersion
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkDescription*
+  commentId: Overload:Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkDescription
+  href: Reqnroll.PlatformCompatibility.PlatformInformation.html#Reqnroll_PlatformCompatibility_PlatformInformation_DotNetFrameworkDescription
+  name: DotNetFrameworkDescription
+  nameWithType: PlatformInformation.DotNetFrameworkDescription
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkDescription
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkMainDescription*
+  commentId: Overload:Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkMainDescription
+  href: Reqnroll.PlatformCompatibility.PlatformInformation.html#Reqnroll_PlatformCompatibility_PlatformInformation_DotNetFrameworkMainDescription
+  name: DotNetFrameworkMainDescription
+  nameWithType: PlatformInformation.DotNetFrameworkMainDescription
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation.DotNetFrameworkMainDescription
+- uid: Reqnroll.PlatformCompatibility.PlatformInformation.IsDotNetFramework*
+  commentId: Overload:Reqnroll.PlatformCompatibility.PlatformInformation.IsDotNetFramework
+  href: Reqnroll.PlatformCompatibility.PlatformInformation.html#Reqnroll_PlatformCompatibility_PlatformInformation_IsDotNetFramework
+  name: IsDotNetFramework
+  nameWithType: PlatformInformation.IsDotNetFramework
+  fullName: Reqnroll.PlatformCompatibility.PlatformInformation.IsDotNetFramework
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

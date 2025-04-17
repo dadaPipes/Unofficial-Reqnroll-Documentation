@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.StepDefinitionKeyword
+  commentId: T:Reqnroll.Bindings.StepDefinitionKeyword
+  id: StepDefinitionKeyword
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.StepDefinitionKeyword.And
+  - Reqnroll.Bindings.StepDefinitionKeyword.But
+  - Reqnroll.Bindings.StepDefinitionKeyword.Given
+  - Reqnroll.Bindings.StepDefinitionKeyword.Then
+  - Reqnroll.Bindings.StepDefinitionKeyword.When
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionKeyword
+  nameWithType: StepDefinitionKeyword
+  fullName: Reqnroll.Bindings.StepDefinitionKeyword
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionKeyword.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepDefinitionKeyword
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionKeyword.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public enum StepDefinitionKeyword
+    content.vb: Public Enum StepDefinitionKeyword
+- uid: Reqnroll.Bindings.StepDefinitionKeyword.Given
+  commentId: F:Reqnroll.Bindings.StepDefinitionKeyword.Given
+  id: Given
+  parent: Reqnroll.Bindings.StepDefinitionKeyword
+  langs:
+  - csharp
+  - vb
+  name: Given
+  nameWithType: StepDefinitionKeyword.Given
+  fullName: Reqnroll.Bindings.StepDefinitionKeyword.Given
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionKeyword.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Given
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionKeyword.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: Given = 1
+    return:
+      type: Reqnroll.Bindings.StepDefinitionKeyword
+- uid: Reqnroll.Bindings.StepDefinitionKeyword.When
+  commentId: F:Reqnroll.Bindings.StepDefinitionKeyword.When
+  id: When
+  parent: Reqnroll.Bindings.StepDefinitionKeyword
+  langs:
+  - csharp
+  - vb
+  name: When
+  nameWithType: StepDefinitionKeyword.When
+  fullName: Reqnroll.Bindings.StepDefinitionKeyword.When
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionKeyword.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: When
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionKeyword.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: When = 2
+    return:
+      type: Reqnroll.Bindings.StepDefinitionKeyword
+- uid: Reqnroll.Bindings.StepDefinitionKeyword.Then
+  commentId: F:Reqnroll.Bindings.StepDefinitionKeyword.Then
+  id: Then
+  parent: Reqnroll.Bindings.StepDefinitionKeyword
+  langs:
+  - csharp
+  - vb
+  name: Then
+  nameWithType: StepDefinitionKeyword.Then
+  fullName: Reqnroll.Bindings.StepDefinitionKeyword.Then
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionKeyword.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Then
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionKeyword.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: Then = 3
+    return:
+      type: Reqnroll.Bindings.StepDefinitionKeyword
+- uid: Reqnroll.Bindings.StepDefinitionKeyword.And
+  commentId: F:Reqnroll.Bindings.StepDefinitionKeyword.And
+  id: And
+  parent: Reqnroll.Bindings.StepDefinitionKeyword
+  langs:
+  - csharp
+  - vb
+  name: And
+  nameWithType: StepDefinitionKeyword.And
+  fullName: Reqnroll.Bindings.StepDefinitionKeyword.And
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionKeyword.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: And
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionKeyword.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: And = 4
+    return:
+      type: Reqnroll.Bindings.StepDefinitionKeyword
+- uid: Reqnroll.Bindings.StepDefinitionKeyword.But
+  commentId: F:Reqnroll.Bindings.StepDefinitionKeyword.But
+  id: But
+  parent: Reqnroll.Bindings.StepDefinitionKeyword
+  langs:
+  - csharp
+  - vb
+  name: But
+  nameWithType: StepDefinitionKeyword.But
+  fullName: Reqnroll.Bindings.StepDefinitionKeyword.But
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionKeyword.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: But
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionKeyword.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: But = 5
+    return:
+      type: Reqnroll.Bindings.StepDefinitionKeyword
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.StepDefinitionKeyword
+  commentId: T:Reqnroll.Bindings.StepDefinitionKeyword
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionKeyword.html
+  name: StepDefinitionKeyword
+  nameWithType: StepDefinitionKeyword
+  fullName: Reqnroll.Bindings.StepDefinitionKeyword

@@ -1,0 +1,528 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.ColorOutputTheme
+  commentId: T:Reqnroll.Tracing.ColorOutputTheme
+  id: ColorOutputTheme
+  parent: Reqnroll.Tracing
+  children:
+  - Reqnroll.Tracing.ColorOutputTheme.Done
+  - Reqnroll.Tracing.ColorOutputTheme.Error
+  - Reqnroll.Tracing.ColorOutputTheme.Keyword
+  - Reqnroll.Tracing.ColorOutputTheme.Warning
+  langs:
+  - csharp
+  - vb
+  name: ColorOutputTheme
+  nameWithType: ColorOutputTheme
+  fullName: Reqnroll.Tracing.ColorOutputTheme
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputTheme.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ColorOutputTheme
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputTheme.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: 'public class ColorOutputTheme : IColorOutputTheme'
+    content.vb: Public Class ColorOutputTheme Implements IColorOutputTheme
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Tracing.IColorOutputTheme
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Tracing.ColorOutputTheme.Warning
+  commentId: P:Reqnroll.Tracing.ColorOutputTheme.Warning
+  id: Warning
+  parent: Reqnroll.Tracing.ColorOutputTheme
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: ColorOutputTheme.Warning
+  fullName: Reqnroll.Tracing.ColorOutputTheme.Warning
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputTheme.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Warning
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputTheme.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public AnsiColor Warning { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Tracing.AnsiColor.AnsiColor
+    content.vb: Public Property Warning As AnsiColor
+  overload: Reqnroll.Tracing.ColorOutputTheme.Warning*
+  implements:
+  - Reqnroll.Tracing.IColorOutputTheme.Warning
+- uid: Reqnroll.Tracing.ColorOutputTheme.Error
+  commentId: P:Reqnroll.Tracing.ColorOutputTheme.Error
+  id: Error
+  parent: Reqnroll.Tracing.ColorOutputTheme
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: ColorOutputTheme.Error
+  fullName: Reqnroll.Tracing.ColorOutputTheme.Error
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputTheme.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Error
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputTheme.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public AnsiColor Error { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Tracing.AnsiColor.AnsiColor
+    content.vb: Public Property [Error] As AnsiColor
+  overload: Reqnroll.Tracing.ColorOutputTheme.Error*
+  implements:
+  - Reqnroll.Tracing.IColorOutputTheme.Error
+- uid: Reqnroll.Tracing.ColorOutputTheme.Done
+  commentId: P:Reqnroll.Tracing.ColorOutputTheme.Done
+  id: Done
+  parent: Reqnroll.Tracing.ColorOutputTheme
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: ColorOutputTheme.Done
+  fullName: Reqnroll.Tracing.ColorOutputTheme.Done
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputTheme.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Done
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputTheme.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public AnsiColor Done { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Tracing.AnsiColor.AnsiColor
+    content.vb: Public Property Done As AnsiColor
+  overload: Reqnroll.Tracing.ColorOutputTheme.Done*
+  implements:
+  - Reqnroll.Tracing.IColorOutputTheme.Done
+- uid: Reqnroll.Tracing.ColorOutputTheme.Keyword
+  commentId: P:Reqnroll.Tracing.ColorOutputTheme.Keyword
+  id: Keyword
+  parent: Reqnroll.Tracing.ColorOutputTheme
+  langs:
+  - csharp
+  - vb
+  name: Keyword
+  nameWithType: ColorOutputTheme.Keyword
+  fullName: Reqnroll.Tracing.ColorOutputTheme.Keyword
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputTheme.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Keyword
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputTheme.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public AnsiColor Keyword { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Tracing.AnsiColor.AnsiColor
+    content.vb: Public Property Keyword As AnsiColor
+  overload: Reqnroll.Tracing.ColorOutputTheme.Keyword*
+  implements:
+  - Reqnroll.Tracing.IColorOutputTheme.Keyword
+references:
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Tracing.IColorOutputTheme
+  commentId: T:Reqnroll.Tracing.IColorOutputTheme
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.IColorOutputTheme.html
+  name: IColorOutputTheme
+  nameWithType: IColorOutputTheme
+  fullName: Reqnroll.Tracing.IColorOutputTheme
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Tracing.ColorOutputTheme.Warning*
+  commentId: Overload:Reqnroll.Tracing.ColorOutputTheme.Warning
+  href: Reqnroll.Tracing.ColorOutputTheme.html#Reqnroll_Tracing_ColorOutputTheme_Warning
+  name: Warning
+  nameWithType: ColorOutputTheme.Warning
+  fullName: Reqnroll.Tracing.ColorOutputTheme.Warning
+- uid: Reqnroll.Tracing.IColorOutputTheme.Warning
+  commentId: P:Reqnroll.Tracing.IColorOutputTheme.Warning
+  parent: Reqnroll.Tracing.IColorOutputTheme
+  href: Reqnroll.Tracing.IColorOutputTheme.html#Reqnroll_Tracing_IColorOutputTheme_Warning
+  name: Warning
+  nameWithType: IColorOutputTheme.Warning
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Warning
+- uid: Reqnroll.Tracing.AnsiColor.AnsiColor
+  commentId: T:Reqnroll.Tracing.AnsiColor.AnsiColor
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.AnsiColor.html
+  name: AnsiColor
+  nameWithType: AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor.AnsiColor
+- uid: Reqnroll.Tracing.AnsiColor
+  commentId: N:Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.html
+  name: Reqnroll.Tracing.AnsiColor
+  nameWithType: Reqnroll.Tracing.AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+- uid: Reqnroll.Tracing.ColorOutputTheme.Error*
+  commentId: Overload:Reqnroll.Tracing.ColorOutputTheme.Error
+  href: Reqnroll.Tracing.ColorOutputTheme.html#Reqnroll_Tracing_ColorOutputTheme_Error
+  name: Error
+  nameWithType: ColorOutputTheme.Error
+  fullName: Reqnroll.Tracing.ColorOutputTheme.Error
+- uid: Reqnroll.Tracing.IColorOutputTheme.Error
+  commentId: P:Reqnroll.Tracing.IColorOutputTheme.Error
+  parent: Reqnroll.Tracing.IColorOutputTheme
+  href: Reqnroll.Tracing.IColorOutputTheme.html#Reqnroll_Tracing_IColorOutputTheme_Error
+  name: Error
+  nameWithType: IColorOutputTheme.Error
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Error
+- uid: Reqnroll.Tracing.ColorOutputTheme.Done*
+  commentId: Overload:Reqnroll.Tracing.ColorOutputTheme.Done
+  href: Reqnroll.Tracing.ColorOutputTheme.html#Reqnroll_Tracing_ColorOutputTheme_Done
+  name: Done
+  nameWithType: ColorOutputTheme.Done
+  fullName: Reqnroll.Tracing.ColorOutputTheme.Done
+- uid: Reqnroll.Tracing.IColorOutputTheme.Done
+  commentId: P:Reqnroll.Tracing.IColorOutputTheme.Done
+  parent: Reqnroll.Tracing.IColorOutputTheme
+  href: Reqnroll.Tracing.IColorOutputTheme.html#Reqnroll_Tracing_IColorOutputTheme_Done
+  name: Done
+  nameWithType: IColorOutputTheme.Done
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Done
+- uid: Reqnroll.Tracing.ColorOutputTheme.Keyword*
+  commentId: Overload:Reqnroll.Tracing.ColorOutputTheme.Keyword
+  href: Reqnroll.Tracing.ColorOutputTheme.html#Reqnroll_Tracing_ColorOutputTheme_Keyword
+  name: Keyword
+  nameWithType: ColorOutputTheme.Keyword
+  fullName: Reqnroll.Tracing.ColorOutputTheme.Keyword
+- uid: Reqnroll.Tracing.IColorOutputTheme.Keyword
+  commentId: P:Reqnroll.Tracing.IColorOutputTheme.Keyword
+  parent: Reqnroll.Tracing.IColorOutputTheme
+  href: Reqnroll.Tracing.IColorOutputTheme.html#Reqnroll_Tracing_IColorOutputTheme_Keyword
+  name: Keyword
+  nameWithType: IColorOutputTheme.Keyword
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Keyword

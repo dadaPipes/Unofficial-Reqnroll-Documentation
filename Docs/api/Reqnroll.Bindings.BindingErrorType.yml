@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.BindingErrorType
+  commentId: T:Reqnroll.Bindings.BindingErrorType
+  id: BindingErrorType
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.BindingErrorType.BindingError
+  - Reqnroll.Bindings.BindingErrorType.StepDefinitionError
+  - Reqnroll.Bindings.BindingErrorType.TypeLoadError
+  langs:
+  - csharp
+  - vb
+  name: BindingErrorType
+  nameWithType: BindingErrorType
+  fullName: Reqnroll.Bindings.BindingErrorType
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingError.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingErrorType
+    path: ../Reqnroll/Reqnroll/Bindings/BindingError.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public enum BindingErrorType
+    content.vb: Public Enum BindingErrorType
+- uid: Reqnroll.Bindings.BindingErrorType.TypeLoadError
+  commentId: F:Reqnroll.Bindings.BindingErrorType.TypeLoadError
+  id: TypeLoadError
+  parent: Reqnroll.Bindings.BindingErrorType
+  langs:
+  - csharp
+  - vb
+  name: TypeLoadError
+  nameWithType: BindingErrorType.TypeLoadError
+  fullName: Reqnroll.Bindings.BindingErrorType.TypeLoadError
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingError.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TypeLoadError
+    path: ../Reqnroll/Reqnroll/Bindings/BindingError.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: TypeLoadError = 0
+    return:
+      type: Reqnroll.Bindings.BindingErrorType
+- uid: Reqnroll.Bindings.BindingErrorType.BindingError
+  commentId: F:Reqnroll.Bindings.BindingErrorType.BindingError
+  id: BindingError
+  parent: Reqnroll.Bindings.BindingErrorType
+  langs:
+  - csharp
+  - vb
+  name: BindingError
+  nameWithType: BindingErrorType.BindingError
+  fullName: Reqnroll.Bindings.BindingErrorType.BindingError
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingError.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingError
+    path: ../Reqnroll/Reqnroll/Bindings/BindingError.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: BindingError = 1
+    return:
+      type: Reqnroll.Bindings.BindingErrorType
+- uid: Reqnroll.Bindings.BindingErrorType.StepDefinitionError
+  commentId: F:Reqnroll.Bindings.BindingErrorType.StepDefinitionError
+  id: StepDefinitionError
+  parent: Reqnroll.Bindings.BindingErrorType
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionError
+  nameWithType: BindingErrorType.StepDefinitionError
+  fullName: Reqnroll.Bindings.BindingErrorType.StepDefinitionError
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingError.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepDefinitionError
+    path: ../Reqnroll/Reqnroll/Bindings/BindingError.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: StepDefinitionError = 2
+    return:
+      type: Reqnroll.Bindings.BindingErrorType
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.BindingErrorType
+  commentId: T:Reqnroll.Bindings.BindingErrorType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingErrorType.html
+  name: BindingErrorType
+  nameWithType: BindingErrorType
+  fullName: Reqnroll.Bindings.BindingErrorType

@@ -1,0 +1,470 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs
+  commentId: T:Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs
+  id: CustomizeGlobalDependenciesEventArgs
+  parent: Reqnroll.Plugins
+  children:
+  - Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.#ctor(Reqnroll.BoDi.ObjectContainer,Reqnroll.Configuration.ReqnrollConfiguration)
+  - Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CustomizeGlobalDependenciesEventArgs
+  nameWithType: CustomizeGlobalDependenciesEventArgs
+  fullName: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEventArgs.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CustomizeGlobalDependenciesEventArgs
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEventArgs.cs
+    startLine: 23
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: 'public class CustomizeGlobalDependenciesEventArgs : ObjectContainerEventArgs'
+    content.vb: Public Class CustomizeGlobalDependenciesEventArgs Inherits ObjectContainerEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - Reqnroll.Plugins.ObjectContainerEventArgs
+  inheritedMembers:
+  - Reqnroll.Plugins.ObjectContainerEventArgs.ObjectContainer
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.#ctor(Reqnroll.BoDi.ObjectContainer,Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.#ctor(Reqnroll.BoDi.ObjectContainer,Reqnroll.Configuration.ReqnrollConfiguration)
+  id: '#ctor(Reqnroll.BoDi.ObjectContainer,Reqnroll.Configuration.ReqnrollConfiguration)'
+  parent: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs
+  langs:
+  - csharp
+  - vb
+  name: CustomizeGlobalDependenciesEventArgs(ObjectContainer, ReqnrollConfiguration)
+  nameWithType: CustomizeGlobalDependenciesEventArgs.CustomizeGlobalDependenciesEventArgs(ObjectContainer, ReqnrollConfiguration)
+  fullName: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.CustomizeGlobalDependenciesEventArgs(Reqnroll.BoDi.ObjectContainer, Reqnroll.Configuration.ReqnrollConfiguration)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEventArgs.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEventArgs.cs
+    startLine: 25
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public CustomizeGlobalDependenciesEventArgs(ObjectContainer objectContainer, ReqnrollConfiguration reqnrollConfiguration)
+    parameters:
+    - id: objectContainer
+      type: Reqnroll.BoDi.ObjectContainer
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Public Sub New(objectContainer As ObjectContainer, reqnrollConfiguration As ReqnrollConfiguration)
+  overload: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.#ctor*
+  nameWithType.vb: CustomizeGlobalDependenciesEventArgs.New(ObjectContainer, ReqnrollConfiguration)
+  fullName.vb: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.New(Reqnroll.BoDi.ObjectContainer, Reqnroll.Configuration.ReqnrollConfiguration)
+  name.vb: New(ObjectContainer, ReqnrollConfiguration)
+- uid: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.ReqnrollConfiguration
+  commentId: P:Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.ReqnrollConfiguration
+  id: ReqnrollConfiguration
+  parent: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ReqnrollConfiguration
+  nameWithType: CustomizeGlobalDependenciesEventArgs.ReqnrollConfiguration
+  fullName: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.ReqnrollConfiguration
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Plugins/RuntimePluginEventArgs.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ReqnrollConfiguration
+    path: ../Reqnroll/Reqnroll/Plugins/RuntimePluginEventArgs.cs
+    startLine: 31
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public ReqnrollConfiguration ReqnrollConfiguration { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Public Property ReqnrollConfiguration As ReqnrollConfiguration
+  overload: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.ReqnrollConfiguration*
+references:
+- uid: Reqnroll.Plugins
+  commentId: N:Reqnroll.Plugins
+  href: Reqnroll.html
+  name: Reqnroll.Plugins
+  nameWithType: Reqnroll.Plugins
+  fullName: Reqnroll.Plugins
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Reqnroll.Plugins.ObjectContainerEventArgs
+  commentId: T:Reqnroll.Plugins.ObjectContainerEventArgs
+  parent: Reqnroll.Plugins
+  href: Reqnroll.Plugins.ObjectContainerEventArgs.html
+  name: ObjectContainerEventArgs
+  nameWithType: ObjectContainerEventArgs
+  fullName: Reqnroll.Plugins.ObjectContainerEventArgs
+- uid: Reqnroll.Plugins.ObjectContainerEventArgs.ObjectContainer
+  commentId: P:Reqnroll.Plugins.ObjectContainerEventArgs.ObjectContainer
+  parent: Reqnroll.Plugins.ObjectContainerEventArgs
+  href: Reqnroll.Plugins.ObjectContainerEventArgs.html#Reqnroll_Plugins_ObjectContainerEventArgs_ObjectContainer
+  name: ObjectContainer
+  nameWithType: ObjectContainerEventArgs.ObjectContainer
+  fullName: Reqnroll.Plugins.ObjectContainerEventArgs.ObjectContainer
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs.empty
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.#ctor*
+  commentId: Overload:Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.#ctor
+  href: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.html#Reqnroll_Plugins_CustomizeGlobalDependenciesEventArgs__ctor_Reqnroll_BoDi_ObjectContainer_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: CustomizeGlobalDependenciesEventArgs
+  nameWithType: CustomizeGlobalDependenciesEventArgs.CustomizeGlobalDependenciesEventArgs
+  fullName: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.CustomizeGlobalDependenciesEventArgs
+  nameWithType.vb: CustomizeGlobalDependenciesEventArgs.New
+  fullName.vb: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.New
+  name.vb: New
+- uid: Reqnroll.BoDi.ObjectContainer
+  commentId: T:Reqnroll.BoDi.ObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.ObjectContainer.html
+  name: ObjectContainer
+  nameWithType: ObjectContainer
+  fullName: Reqnroll.BoDi.ObjectContainer
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.ReqnrollConfiguration*
+  commentId: Overload:Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.ReqnrollConfiguration
+  href: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.html#Reqnroll_Plugins_CustomizeGlobalDependenciesEventArgs_ReqnrollConfiguration
+  name: ReqnrollConfiguration
+  nameWithType: CustomizeGlobalDependenciesEventArgs.ReqnrollConfiguration
+  fullName: Reqnroll.Plugins.CustomizeGlobalDependenciesEventArgs.ReqnrollConfiguration

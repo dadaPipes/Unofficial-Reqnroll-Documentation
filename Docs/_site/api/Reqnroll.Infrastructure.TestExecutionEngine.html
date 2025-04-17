@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TestExecutionEngine | Unofficial Reqnroll Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TestExecutionEngine | Unofficial Reqnroll Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/reqnroll/Reqnroll/new/main/apiSpec/new?filename=Reqnroll_Infrastructure_TestExecutionEngine.md&amp;value=---%0Auid%3A%20Reqnroll.Infrastructure.TestExecutionEngine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/reqnroll-icon.png" alt="Unofficial Reqnroll Documentation">
+            Unofficial Reqnroll Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Reqnroll.Infrastructure.TestExecutionEngine">
+
+
+
+  <h1 id="Reqnroll_Infrastructure_TestExecutionEngine" data-uid="Reqnroll.Infrastructure.TestExecutionEngine" class="text-break">
+Class TestExecutionEngine  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Reqnroll.html">Reqnroll</a>.<a class="xref" href="Reqnroll.Infrastructure.html">Infrastructure</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Reqnroll.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TestExecutionEngine : ITestExecutionEngine</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TestExecutionEngine</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Reqnroll.Infrastructure.ITestExecutionEngine.html">ITestExecutionEngine</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine__ctor_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.#ctor*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine__ctor_Reqnroll_Tracing_IStepFormatter_Reqnroll_Tracing_ITestTracer_Reqnroll_ErrorHandling_IErrorProvider_Reqnroll_Bindings_IStepArgumentTypeConverter_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_Bindings_IBindingRegistry_Reqnroll_UnitTestProvider_IUnitTestRuntimeProvider_Reqnroll_Infrastructure_IContextManager_Reqnroll_Infrastructure_IStepDefinitionMatchService_Reqnroll_Bindings_IAsyncBindingInvoker_Reqnroll_Infrastructure_IObsoleteStepHandler_Reqnroll_Analytics_IAnalyticsEventProvider_Reqnroll_Analytics_IAnalyticsTransmitter_Reqnroll_ITestRunnerManager_Reqnroll_Plugins_IRuntimePluginTestExecutionLifecycleEventEmitter_Reqnroll_Events_ITestThreadExecutionEventPublisher_Reqnroll_Infrastructure_ITestPendingMessageFactory_Reqnroll_Infrastructure_ITestUndefinedMessageFactory_Reqnroll_Infrastructure_ITestObjectResolver_Reqnroll_ITestRunContext_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.#ctor(Reqnroll.Tracing.IStepFormatter,Reqnroll.Tracing.ITestTracer,Reqnroll.ErrorHandling.IErrorProvider,Reqnroll.Bindings.IStepArgumentTypeConverter,Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Bindings.IBindingRegistry,Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider,Reqnroll.Infrastructure.IContextManager,Reqnroll.Infrastructure.IStepDefinitionMatchService,Reqnroll.Bindings.IAsyncBindingInvoker,Reqnroll.Infrastructure.IObsoleteStepHandler,Reqnroll.Analytics.IAnalyticsEventProvider,Reqnroll.Analytics.IAnalyticsTransmitter,Reqnroll.ITestRunnerManager,Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter,Reqnroll.Events.ITestThreadExecutionEventPublisher,Reqnroll.Infrastructure.ITestPendingMessageFactory,Reqnroll.Infrastructure.ITestUndefinedMessageFactory,Reqnroll.Infrastructure.ITestObjectResolver,Reqnroll.ITestRunContext)">
+  TestExecutionEngine(IStepFormatter, ITestTracer, IErrorProvider, IStepArgumentTypeConverter, ReqnrollConfiguration, IBindingRegistry, IUnitTestRuntimeProvider, IContextManager, IStepDefinitionMatchService, IAsyncBindingInvoker, IObsoleteStepHandler, IAnalyticsEventProvider, IAnalyticsTransmitter, ITestRunnerManager, IRuntimePluginTestExecutionLifecycleEventEmitter, ITestThreadExecutionEventPublisher, ITestPendingMessageFactory, ITestUndefinedMessageFactory, ITestObjectResolver, ITestRunContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TestExecutionEngine(IStepFormatter stepFormatter, ITestTracer testTracer, IErrorProvider errorProvider, IStepArgumentTypeConverter stepArgumentTypeConverter, ReqnrollConfiguration reqnrollConfiguration, IBindingRegistry bindingRegistry, IUnitTestRuntimeProvider unitTestRuntimeProvider, IContextManager contextManager, IStepDefinitionMatchService stepDefinitionMatchService, IAsyncBindingInvoker bindingInvoker, IObsoleteStepHandler obsoleteStepHandler, IAnalyticsEventProvider analyticsEventProvider, IAnalyticsTransmitter analyticsTransmitter, ITestRunnerManager testRunnerManager, IRuntimePluginTestExecutionLifecycleEventEmitter runtimePluginTestExecutionLifecycleEventEmitter, ITestThreadExecutionEventPublisher testThreadExecutionEventPublisher, ITestPendingMessageFactory testPendingMessageFactory, ITestUndefinedMessageFactory testUndefinedMessageFactory, ITestObjectResolver testObjectResolver, ITestRunContext testRunContext)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stepFormatter</code> <a class="xref" href="Reqnroll.Tracing.IStepFormatter.html">IStepFormatter</a></dt>
+    <dd></dd>
+    <dt><code>testTracer</code> <a class="xref" href="Reqnroll.Tracing.ITestTracer.html">ITestTracer</a></dt>
+    <dd></dd>
+    <dt><code>errorProvider</code> <a class="xref" href="Reqnroll.ErrorHandling.IErrorProvider.html">IErrorProvider</a></dt>
+    <dd></dd>
+    <dt><code>stepArgumentTypeConverter</code> <a class="xref" href="Reqnroll.Bindings.IStepArgumentTypeConverter.html">IStepArgumentTypeConverter</a></dt>
+    <dd></dd>
+    <dt><code>reqnrollConfiguration</code> <a class="xref" href="Reqnroll.Configuration.ReqnrollConfiguration.html">ReqnrollConfiguration</a></dt>
+    <dd></dd>
+    <dt><code>bindingRegistry</code> <a class="xref" href="Reqnroll.Bindings.IBindingRegistry.html">IBindingRegistry</a></dt>
+    <dd></dd>
+    <dt><code>unitTestRuntimeProvider</code> <a class="xref" href="Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.html">IUnitTestRuntimeProvider</a></dt>
+    <dd></dd>
+    <dt><code>contextManager</code> <a class="xref" href="Reqnroll.Infrastructure.IContextManager.html">IContextManager</a></dt>
+    <dd></dd>
+    <dt><code>stepDefinitionMatchService</code> <a class="xref" href="Reqnroll.Infrastructure.IStepDefinitionMatchService.html">IStepDefinitionMatchService</a></dt>
+    <dd></dd>
+    <dt><code>bindingInvoker</code> <a class="xref" href="Reqnroll.Bindings.IAsyncBindingInvoker.html">IAsyncBindingInvoker</a></dt>
+    <dd></dd>
+    <dt><code>obsoleteStepHandler</code> <a class="xref" href="Reqnroll.Infrastructure.IObsoleteStepHandler.html">IObsoleteStepHandler</a></dt>
+    <dd></dd>
+    <dt><code>analyticsEventProvider</code> <a class="xref" href="Reqnroll.Analytics.IAnalyticsEventProvider.html">IAnalyticsEventProvider</a></dt>
+    <dd></dd>
+    <dt><code>analyticsTransmitter</code> <a class="xref" href="Reqnroll.Analytics.IAnalyticsTransmitter.html">IAnalyticsTransmitter</a></dt>
+    <dd></dd>
+    <dt><code>testRunnerManager</code> <a class="xref" href="Reqnroll.ITestRunnerManager.html">ITestRunnerManager</a></dt>
+    <dd></dd>
+    <dt><code>runtimePluginTestExecutionLifecycleEventEmitter</code> <a class="xref" href="Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter.html">IRuntimePluginTestExecutionLifecycleEventEmitter</a></dt>
+    <dd></dd>
+    <dt><code>testThreadExecutionEventPublisher</code> <a class="xref" href="Reqnroll.Events.ITestThreadExecutionEventPublisher.html">ITestThreadExecutionEventPublisher</a></dt>
+    <dd></dd>
+    <dt><code>testPendingMessageFactory</code> <a class="xref" href="Reqnroll.Infrastructure.ITestPendingMessageFactory.html">ITestPendingMessageFactory</a></dt>
+    <dd></dd>
+    <dt><code>testUndefinedMessageFactory</code> <a class="xref" href="Reqnroll.Infrastructure.ITestUndefinedMessageFactory.html">ITestUndefinedMessageFactory</a></dt>
+    <dd></dd>
+    <dt><code>testObjectResolver</code> <a class="xref" href="Reqnroll.Infrastructure.ITestObjectResolver.html">ITestObjectResolver</a></dt>
+    <dd></dd>
+    <dt><code>testRunContext</code> <a class="xref" href="Reqnroll.ITestRunContext.html">ITestRunContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_FeatureContext_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.FeatureContext*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_FeatureContext" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.FeatureContext">
+  FeatureContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FeatureContext FeatureContext { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.FeatureContext.html">FeatureContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_ScenarioContext_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.ScenarioContext*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_ScenarioContext" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.ScenarioContext">
+  ScenarioContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScenarioContext ScenarioContext { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.ScenarioContext.html">ScenarioContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_TestRunContext_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.TestRunContext*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_TestRunContext" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.TestRunContext">
+  TestRunContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITestRunContext TestRunContext { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.ITestRunContext.html">ITestRunContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_TestThreadContext_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.TestThreadContext*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_TestThreadContext" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.TestThreadContext">
+  TestThreadContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITestThreadContext TestThreadContext { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.ITestThreadContext.html">ITestThreadContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_ExecuteStepMatchAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_ExecuteStepMatchAsync_Reqnroll_Bindings_BindingMatch_System_Object___Reqnroll_Bindings_DurationHolder_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(Reqnroll.Bindings.BindingMatch,System.Object[],Reqnroll.Bindings.DurationHolder)">
+  ExecuteStepMatchAsync(BindingMatch, object[], DurationHolder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L550"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task ExecuteStepMatchAsync(BindingMatch match, object[] arguments, DurationHolder durationHolder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>match</code> <a class="xref" href="Reqnroll.Bindings.BindingMatch.html">BindingMatch</a></dt>
+    <dd></dd>
+    <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+    <dt><code>durationHolder</code> <a class="xref" href="Reqnroll.Bindings.DurationHolder.html">DurationHolder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_FireScenarioEventsAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.FireScenarioEventsAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_FireScenarioEventsAsync_Reqnroll_Bindings_HookType_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.FireScenarioEventsAsync(Reqnroll.Bindings.HookType)">
+  FireScenarioEventsAsync(HookType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task FireScenarioEventsAsync(HookType bindingEvent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingEvent</code> <a class="xref" href="Reqnroll.Bindings.HookType.html">HookType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_GetStepMatch_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.GetStepMatch*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_GetStepMatch_Reqnroll_Bindings_StepInstance_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.GetStepMatch(Reqnroll.Bindings.StepInstance)">
+  GetStepMatch(StepInstance)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L526"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual BindingMatch GetStepMatch(StepInstance stepInstance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stepInstance</code> <a class="xref" href="Reqnroll.Bindings.StepInstance.html">StepInstance</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.Bindings.BindingMatch.html">BindingMatch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_InvokeHookAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.InvokeHookAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_InvokeHookAsync_Reqnroll_Bindings_IAsyncBindingInvoker_Reqnroll_Bindings_IHookBinding_Reqnroll_Bindings_HookType_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.InvokeHookAsync(Reqnroll.Bindings.IAsyncBindingInvoker,Reqnroll.Bindings.IHookBinding,Reqnroll.Bindings.HookType)">
+  InvokeHookAsync(IAsyncBindingInvoker, IHookBinding, HookType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task InvokeHookAsync(IAsyncBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>invoker</code> <a class="xref" href="Reqnroll.Bindings.IAsyncBindingInvoker.html">IAsyncBindingInvoker</a></dt>
+    <dd></dd>
+    <dt><code>hookBinding</code> <a class="xref" href="Reqnroll.Bindings.IHookBinding.html">IHookBinding</a></dt>
+    <dd></dd>
+    <dt><code>hookType</code> <a class="xref" href="Reqnroll.Bindings.HookType.html">HookType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnAfterLastStepAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnAfterLastStepAsync" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync">
+  OnAfterLastStepAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task OnAfterLastStepAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnBlockEndAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnBlockEndAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnBlockEndAsync_Reqnroll_ScenarioBlock_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnBlockEndAsync(Reqnroll.ScenarioBlock)">
+  OnBlockEndAsync(ScenarioBlock)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task OnBlockEndAsync(ScenarioBlock block)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>block</code> <a class="xref" href="Reqnroll.ScenarioBlock.html">ScenarioBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnBlockStartAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnBlockStartAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnBlockStartAsync_Reqnroll_ScenarioBlock_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnBlockStartAsync(Reqnroll.ScenarioBlock)">
+  OnBlockStartAsync(ScenarioBlock)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task OnBlockStartAsync(ScenarioBlock block)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>block</code> <a class="xref" href="Reqnroll.ScenarioBlock.html">ScenarioBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnFeatureEndAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnFeatureEndAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnFeatureEndAsync" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnFeatureEndAsync">
+  OnFeatureEndAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task OnFeatureEndAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnFeatureStartAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnFeatureStartAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnFeatureStartAsync_Reqnroll_FeatureInfo_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnFeatureStartAsync(Reqnroll.FeatureInfo)">
+  OnFeatureStartAsync(FeatureInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task OnFeatureStartAsync(FeatureInfo featureInfo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>featureInfo</code> <a class="xref" href="Reqnroll.FeatureInfo.html">FeatureInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnScenarioEndAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnScenarioEndAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnScenarioEndAsync" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnScenarioEndAsync">
+  OnScenarioEndAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task OnScenarioEndAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnScenarioInitialize_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnScenarioInitialize*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnScenarioInitialize_Reqnroll_ScenarioInfo_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnScenarioInitialize(Reqnroll.ScenarioInfo)">
+  OnScenarioInitialize(ScenarioInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnScenarioInitialize(ScenarioInfo scenarioInfo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scenarioInfo</code> <a class="xref" href="Reqnroll.ScenarioInfo.html">ScenarioInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnScenarioSkipped_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnScenarioSkipped*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnScenarioSkipped" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnScenarioSkipped">
+  OnScenarioSkipped()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnScenarioSkipped()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnScenarioStartAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnScenarioStartAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnScenarioStartAsync" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnScenarioStartAsync">
+  OnScenarioStartAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task OnScenarioStartAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnSkipStep_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnSkipStep*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnSkipStep" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnSkipStep">
+  OnSkipStep()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnSkipStep()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnStepEndAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnStepEndAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnStepEndAsync" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnStepEndAsync">
+  OnStepEndAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task OnStepEndAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnStepStartAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnStepStartAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnStepStartAsync" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnStepStartAsync">
+  OnStepStartAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task OnStepStartAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnTestRunEndAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnTestRunEndAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnTestRunEndAsync" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnTestRunEndAsync">
+  OnTestRunEndAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task OnTestRunEndAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_OnTestRunStartAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnTestRunStartAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_OnTestRunStartAsync" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.OnTestRunStartAsync">
+  OnTestRunStartAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task OnTestRunStartAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_Pending_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.Pending*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_Pending" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.Pending">
+  Pending()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Pending()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Infrastructure_TestExecutionEngine_StepAsync_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.StepAsync*"></a>
+
+  <h3 id="Reqnroll_Infrastructure_TestExecutionEngine_StepAsync_Reqnroll_Bindings_StepDefinitionKeyword_System_String_System_String_System_String_Reqnroll_Table_" data-uid="Reqnroll.Infrastructure.TestExecutionEngine.StepAsync(Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,System.String,Reqnroll.Table)">
+  StepAsync(StepDefinitionKeyword, string, string, string, Table)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L616"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task StepAsync(StepDefinitionKeyword stepDefinitionKeyword, string keyword, string text, string multilineTextArg, Table tableArg)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stepDefinitionKeyword</code> <a class="xref" href="Reqnroll.Bindings.StepDefinitionKeyword.html">StepDefinitionKeyword</a></dt>
+    <dd></dd>
+    <dt><code>keyword</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>multilineTextArg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>tableArg</code> <a class="xref" href="Reqnroll.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Infrastructure/TestExecutionEngine.cs/#L20" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

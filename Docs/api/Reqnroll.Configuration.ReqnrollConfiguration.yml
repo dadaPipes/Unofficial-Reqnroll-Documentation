@@ -1,0 +1,1393 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  id: ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.ReqnrollConfiguration.#ctor(Reqnroll.Configuration.ConfigSource,Reqnroll.Configuration.DependencyConfigurationCollection,Reqnroll.Configuration.DependencyConfigurationCollection,System.Globalization.CultureInfo,System.Globalization.CultureInfo,System.Boolean,Reqnroll.Configuration.MissingOrPendingStepsOutcome,System.Boolean,System.Boolean,System.TimeSpan,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean,System.String[],Reqnroll.Configuration.ObsoleteBehavior,System.Boolean)
+  - Reqnroll.Configuration.ReqnrollConfiguration.AddNonParallelizableMarkerForTags
+  - Reqnroll.Configuration.ReqnrollConfiguration.AdditionalStepAssemblies
+  - Reqnroll.Configuration.ReqnrollConfiguration.AllowDebugGeneratedFiles
+  - Reqnroll.Configuration.ReqnrollConfiguration.AllowRowTests
+  - Reqnroll.Configuration.ReqnrollConfiguration.BindingCulture
+  - Reqnroll.Configuration.ReqnrollConfiguration.ColoredOutput
+  - Reqnroll.Configuration.ReqnrollConfiguration.ConfigSource
+  - Reqnroll.Configuration.ReqnrollConfiguration.ConfigSourceText
+  - Reqnroll.Configuration.ReqnrollConfiguration.CustomDependencies
+  - Reqnroll.Configuration.ReqnrollConfiguration.Equals(Reqnroll.Configuration.ReqnrollConfiguration)
+  - Reqnroll.Configuration.ReqnrollConfiguration.Equals(System.Object)
+  - Reqnroll.Configuration.ReqnrollConfiguration.FeatureLanguage
+  - Reqnroll.Configuration.ReqnrollConfiguration.GeneratorCustomDependencies
+  - Reqnroll.Configuration.ReqnrollConfiguration.GetHashCode
+  - Reqnroll.Configuration.ReqnrollConfiguration.MinTracedDuration
+  - Reqnroll.Configuration.ReqnrollConfiguration.MissingOrPendingStepsOutcome
+  - Reqnroll.Configuration.ReqnrollConfiguration.ObsoleteBehavior
+  - Reqnroll.Configuration.ReqnrollConfiguration.StepDefinitionSkeletonStyle
+  - Reqnroll.Configuration.ReqnrollConfiguration.StopAtFirstError
+  - Reqnroll.Configuration.ReqnrollConfiguration.TraceSuccessfulSteps
+  - Reqnroll.Configuration.ReqnrollConfiguration.TraceTimings
+  langs:
+  - csharp
+  - vb
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ReqnrollConfiguration
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public class ReqnrollConfiguration
+    content.vb: Public Class ReqnrollConfiguration
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.#ctor(Reqnroll.Configuration.ConfigSource,Reqnroll.Configuration.DependencyConfigurationCollection,Reqnroll.Configuration.DependencyConfigurationCollection,System.Globalization.CultureInfo,System.Globalization.CultureInfo,System.Boolean,Reqnroll.Configuration.MissingOrPendingStepsOutcome,System.Boolean,System.Boolean,System.TimeSpan,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean,System.String[],Reqnroll.Configuration.ObsoleteBehavior,System.Boolean)
+  commentId: M:Reqnroll.Configuration.ReqnrollConfiguration.#ctor(Reqnroll.Configuration.ConfigSource,Reqnroll.Configuration.DependencyConfigurationCollection,Reqnroll.Configuration.DependencyConfigurationCollection,System.Globalization.CultureInfo,System.Globalization.CultureInfo,System.Boolean,Reqnroll.Configuration.MissingOrPendingStepsOutcome,System.Boolean,System.Boolean,System.TimeSpan,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean,System.String[],Reqnroll.Configuration.ObsoleteBehavior,System.Boolean)
+  id: '#ctor(Reqnroll.Configuration.ConfigSource,Reqnroll.Configuration.DependencyConfigurationCollection,Reqnroll.Configuration.DependencyConfigurationCollection,System.Globalization.CultureInfo,System.Globalization.CultureInfo,System.Boolean,Reqnroll.Configuration.MissingOrPendingStepsOutcome,System.Boolean,System.Boolean,System.TimeSpan,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean,System.String[],Reqnroll.Configuration.ObsoleteBehavior,System.Boolean)'
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ReqnrollConfiguration(ConfigSource, DependencyConfigurationCollection, DependencyConfigurationCollection, CultureInfo, CultureInfo, bool, MissingOrPendingStepsOutcome, bool, bool, TimeSpan, StepDefinitionSkeletonStyle, List<string>, bool, bool, string[], ObsoleteBehavior, bool)
+  nameWithType: ReqnrollConfiguration.ReqnrollConfiguration(ConfigSource, DependencyConfigurationCollection, DependencyConfigurationCollection, CultureInfo, CultureInfo, bool, MissingOrPendingStepsOutcome, bool, bool, TimeSpan, StepDefinitionSkeletonStyle, List<string>, bool, bool, string[], ObsoleteBehavior, bool)
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.ReqnrollConfiguration(Reqnroll.Configuration.ConfigSource, Reqnroll.Configuration.DependencyConfigurationCollection, Reqnroll.Configuration.DependencyConfigurationCollection, System.Globalization.CultureInfo, System.Globalization.CultureInfo, bool, Reqnroll.Configuration.MissingOrPendingStepsOutcome, bool, bool, System.TimeSpan, Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle, System.Collections.Generic.List<string>, bool, bool, string[], Reqnroll.Configuration.ObsoleteBehavior, bool)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public ReqnrollConfiguration(ConfigSource configSource, DependencyConfigurationCollection customDependencies, DependencyConfigurationCollection generatorCustomDependencies, CultureInfo featureLanguage, CultureInfo bindingCulture, bool stopAtFirstError, MissingOrPendingStepsOutcome missingOrPendingStepsOutcome, bool traceSuccessfulSteps, bool traceTimings, TimeSpan minTracedDuration, StepDefinitionSkeletonStyle stepDefinitionSkeletonStyle, List<string> additionalStepAssemblies, bool allowDebugGeneratedFiles, bool allowRowTests, string[] addNonParallelizableMarkerForTags, ObsoleteBehavior obsoleteBehavior, bool coloredOutput)
+    parameters:
+    - id: configSource
+      type: Reqnroll.Configuration.ConfigSource
+    - id: customDependencies
+      type: Reqnroll.Configuration.DependencyConfigurationCollection
+    - id: generatorCustomDependencies
+      type: Reqnroll.Configuration.DependencyConfigurationCollection
+    - id: featureLanguage
+      type: System.Globalization.CultureInfo
+    - id: bindingCulture
+      type: System.Globalization.CultureInfo
+    - id: stopAtFirstError
+      type: System.Boolean
+    - id: missingOrPendingStepsOutcome
+      type: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+    - id: traceSuccessfulSteps
+      type: System.Boolean
+    - id: traceTimings
+      type: System.Boolean
+    - id: minTracedDuration
+      type: System.TimeSpan
+    - id: stepDefinitionSkeletonStyle
+      type: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+    - id: additionalStepAssemblies
+      type: System.Collections.Generic.List{System.String}
+    - id: allowDebugGeneratedFiles
+      type: System.Boolean
+    - id: allowRowTests
+      type: System.Boolean
+    - id: addNonParallelizableMarkerForTags
+      type: System.String[]
+    - id: obsoleteBehavior
+      type: Reqnroll.Configuration.ObsoleteBehavior
+    - id: coloredOutput
+      type: System.Boolean
+    content.vb: Public Sub New(configSource As ConfigSource, customDependencies As DependencyConfigurationCollection, generatorCustomDependencies As DependencyConfigurationCollection, featureLanguage As CultureInfo, bindingCulture As CultureInfo, stopAtFirstError As Boolean, missingOrPendingStepsOutcome As MissingOrPendingStepsOutcome, traceSuccessfulSteps As Boolean, traceTimings As Boolean, minTracedDuration As TimeSpan, stepDefinitionSkeletonStyle As StepDefinitionSkeletonStyle, additionalStepAssemblies As List(Of String), allowDebugGeneratedFiles As Boolean, allowRowTests As Boolean, addNonParallelizableMarkerForTags As String(), obsoleteBehavior As ObsoleteBehavior, coloredOutput As Boolean)
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.#ctor*
+  nameWithType.vb: ReqnrollConfiguration.New(ConfigSource, DependencyConfigurationCollection, DependencyConfigurationCollection, CultureInfo, CultureInfo, Boolean, MissingOrPendingStepsOutcome, Boolean, Boolean, TimeSpan, StepDefinitionSkeletonStyle, List(Of String), Boolean, Boolean, String(), ObsoleteBehavior, Boolean)
+  fullName.vb: Reqnroll.Configuration.ReqnrollConfiguration.New(Reqnroll.Configuration.ConfigSource, Reqnroll.Configuration.DependencyConfigurationCollection, Reqnroll.Configuration.DependencyConfigurationCollection, System.Globalization.CultureInfo, System.Globalization.CultureInfo, Boolean, Reqnroll.Configuration.MissingOrPendingStepsOutcome, Boolean, Boolean, System.TimeSpan, Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle, System.Collections.Generic.List(Of String), Boolean, Boolean, String(), Reqnroll.Configuration.ObsoleteBehavior, Boolean)
+  name.vb: New(ConfigSource, DependencyConfigurationCollection, DependencyConfigurationCollection, CultureInfo, CultureInfo, Boolean, MissingOrPendingStepsOutcome, Boolean, Boolean, TimeSpan, StepDefinitionSkeletonStyle, List(Of String), Boolean, Boolean, String(), ObsoleteBehavior, Boolean)
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.ConfigSource
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.ConfigSource
+  id: ConfigSource
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ConfigSource
+  nameWithType: ReqnrollConfiguration.ConfigSource
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.ConfigSource
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ConfigSource
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 55
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public ConfigSource ConfigSource { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Configuration.ConfigSource
+    content.vb: Public Property ConfigSource As ConfigSource
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.ConfigSource*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.ConfigSourceText
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.ConfigSourceText
+  id: ConfigSourceText
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ConfigSourceText
+  nameWithType: ReqnrollConfiguration.ConfigSourceText
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.ConfigSourceText
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ConfigSourceText
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 56
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public string ConfigSourceText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConfigSourceText As String
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.ConfigSourceText*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.CustomDependencies
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.CustomDependencies
+  id: CustomDependencies
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CustomDependencies
+  nameWithType: ReqnrollConfiguration.CustomDependencies
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.CustomDependencies
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CustomDependencies
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 58
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public DependencyConfigurationCollection CustomDependencies { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Configuration.DependencyConfigurationCollection
+    content.vb: Public Property CustomDependencies As DependencyConfigurationCollection
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.CustomDependencies*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.GeneratorCustomDependencies
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.GeneratorCustomDependencies
+  id: GeneratorCustomDependencies
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GeneratorCustomDependencies
+  nameWithType: ReqnrollConfiguration.GeneratorCustomDependencies
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.GeneratorCustomDependencies
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GeneratorCustomDependencies
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 59
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public DependencyConfigurationCollection GeneratorCustomDependencies { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Configuration.DependencyConfigurationCollection
+    content.vb: Public Property GeneratorCustomDependencies As DependencyConfigurationCollection
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.GeneratorCustomDependencies*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.FeatureLanguage
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.FeatureLanguage
+  id: FeatureLanguage
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: FeatureLanguage
+  nameWithType: ReqnrollConfiguration.FeatureLanguage
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.FeatureLanguage
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FeatureLanguage
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 62
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public CultureInfo FeatureLanguage { get; set; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Property FeatureLanguage As CultureInfo
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.FeatureLanguage*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.BindingCulture
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.BindingCulture
+  id: BindingCulture
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BindingCulture
+  nameWithType: ReqnrollConfiguration.BindingCulture
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.BindingCulture
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingCulture
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 63
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public CultureInfo BindingCulture { get; set; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Property BindingCulture As CultureInfo
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.BindingCulture*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.StopAtFirstError
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.StopAtFirstError
+  id: StopAtFirstError
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: StopAtFirstError
+  nameWithType: ReqnrollConfiguration.StopAtFirstError
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.StopAtFirstError
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StopAtFirstError
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 66
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public bool StopAtFirstError { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property StopAtFirstError As Boolean
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.StopAtFirstError*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.MissingOrPendingStepsOutcome
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.MissingOrPendingStepsOutcome
+  id: MissingOrPendingStepsOutcome
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MissingOrPendingStepsOutcome
+  nameWithType: ReqnrollConfiguration.MissingOrPendingStepsOutcome
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.MissingOrPendingStepsOutcome
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: MissingOrPendingStepsOutcome
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 67
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public MissingOrPendingStepsOutcome MissingOrPendingStepsOutcome { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+    content.vb: Public Property MissingOrPendingStepsOutcome As MissingOrPendingStepsOutcome
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.MissingOrPendingStepsOutcome*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.ObsoleteBehavior
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.ObsoleteBehavior
+  id: ObsoleteBehavior
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ObsoleteBehavior
+  nameWithType: ReqnrollConfiguration.ObsoleteBehavior
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.ObsoleteBehavior
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ObsoleteBehavior
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 68
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public ObsoleteBehavior ObsoleteBehavior { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Configuration.ObsoleteBehavior
+    content.vb: Public Property ObsoleteBehavior As ObsoleteBehavior
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.ObsoleteBehavior*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.AllowDebugGeneratedFiles
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.AllowDebugGeneratedFiles
+  id: AllowDebugGeneratedFiles
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AllowDebugGeneratedFiles
+  nameWithType: ReqnrollConfiguration.AllowDebugGeneratedFiles
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.AllowDebugGeneratedFiles
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AllowDebugGeneratedFiles
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 71
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public bool AllowDebugGeneratedFiles { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowDebugGeneratedFiles As Boolean
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.AllowDebugGeneratedFiles*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.AllowRowTests
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.AllowRowTests
+  id: AllowRowTests
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AllowRowTests
+  nameWithType: ReqnrollConfiguration.AllowRowTests
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.AllowRowTests
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AllowRowTests
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 72
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public bool AllowRowTests { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowRowTests As Boolean
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.AllowRowTests*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.AddNonParallelizableMarkerForTags
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.AddNonParallelizableMarkerForTags
+  id: AddNonParallelizableMarkerForTags
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AddNonParallelizableMarkerForTags
+  nameWithType: ReqnrollConfiguration.AddNonParallelizableMarkerForTags
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.AddNonParallelizableMarkerForTags
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AddNonParallelizableMarkerForTags
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 73
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public string[] AddNonParallelizableMarkerForTags { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property AddNonParallelizableMarkerForTags As String()
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.AddNonParallelizableMarkerForTags*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.ColoredOutput
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.ColoredOutput
+  id: ColoredOutput
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ColoredOutput
+  nameWithType: ReqnrollConfiguration.ColoredOutput
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.ColoredOutput
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ColoredOutput
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 76
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public bool ColoredOutput { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ColoredOutput As Boolean
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.ColoredOutput*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.TraceSuccessfulSteps
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.TraceSuccessfulSteps
+  id: TraceSuccessfulSteps
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TraceSuccessfulSteps
+  nameWithType: ReqnrollConfiguration.TraceSuccessfulSteps
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.TraceSuccessfulSteps
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceSuccessfulSteps
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 77
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public bool TraceSuccessfulSteps { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TraceSuccessfulSteps As Boolean
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.TraceSuccessfulSteps*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.TraceTimings
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.TraceTimings
+  id: TraceTimings
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TraceTimings
+  nameWithType: ReqnrollConfiguration.TraceTimings
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.TraceTimings
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceTimings
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 78
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public bool TraceTimings { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TraceTimings As Boolean
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.TraceTimings*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.MinTracedDuration
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.MinTracedDuration
+  id: MinTracedDuration
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MinTracedDuration
+  nameWithType: ReqnrollConfiguration.MinTracedDuration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.MinTracedDuration
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: MinTracedDuration
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 79
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public TimeSpan MinTracedDuration { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Property MinTracedDuration As TimeSpan
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.MinTracedDuration*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.StepDefinitionSkeletonStyle
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.StepDefinitionSkeletonStyle
+  id: StepDefinitionSkeletonStyle
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionSkeletonStyle
+  nameWithType: ReqnrollConfiguration.StepDefinitionSkeletonStyle
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.StepDefinitionSkeletonStyle
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepDefinitionSkeletonStyle
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 80
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public StepDefinitionSkeletonStyle StepDefinitionSkeletonStyle { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+    content.vb: Public Property StepDefinitionSkeletonStyle As StepDefinitionSkeletonStyle
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.StepDefinitionSkeletonStyle*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.AdditionalStepAssemblies
+  commentId: P:Reqnroll.Configuration.ReqnrollConfiguration.AdditionalStepAssemblies
+  id: AdditionalStepAssemblies
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AdditionalStepAssemblies
+  nameWithType: ReqnrollConfiguration.AdditionalStepAssemblies
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.AdditionalStepAssemblies
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AdditionalStepAssemblies
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 82
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public List<string> AdditionalStepAssemblies { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property AdditionalStepAssemblies As List(Of String)
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.AdditionalStepAssemblies*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.Equals(Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Configuration.ReqnrollConfiguration.Equals(Reqnroll.Configuration.ReqnrollConfiguration)
+  id: Equals(Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Equals(ReqnrollConfiguration)
+  nameWithType: ReqnrollConfiguration.Equals(ReqnrollConfiguration)
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.Equals(Reqnroll.Configuration.ReqnrollConfiguration)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Equals
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 84
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: protected bool Equals(ReqnrollConfiguration other)
+    parameters:
+    - id: other
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    return:
+      type: System.Boolean
+    content.vb: Protected Function Equals(other As ReqnrollConfiguration) As Boolean
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.Equals*
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.Equals(System.Object)
+  commentId: M:Reqnroll.Configuration.ReqnrollConfiguration.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: ReqnrollConfiguration.Equals(object)
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Equals
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 101
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.Equals*
+  nameWithType.vb: ReqnrollConfiguration.Equals(Object)
+  fullName.vb: Reqnroll.Configuration.ReqnrollConfiguration.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.GetHashCode
+  commentId: M:Reqnroll.Configuration.ReqnrollConfiguration.GetHashCode
+  id: GetHashCode
+  parent: Reqnroll.Configuration.ReqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ReqnrollConfiguration.GetHashCode()
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetHashCode
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 121
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: Reqnroll.Configuration.ReqnrollConfiguration.GetHashCode*
+references:
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.#ctor*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.#ctor
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration__ctor_Reqnroll_Configuration_ConfigSource_Reqnroll_Configuration_DependencyConfigurationCollection_Reqnroll_Configuration_DependencyConfigurationCollection_System_Globalization_CultureInfo_System_Globalization_CultureInfo_System_Boolean_Reqnroll_Configuration_MissingOrPendingStepsOutcome_System_Boolean_System_Boolean_System_TimeSpan_Reqnroll_BindingSkeletons_StepDefinitionSkeletonStyle_System_Collections_Generic_List_System_String__System_Boolean_System_Boolean_System_String___Reqnroll_Configuration_ObsoleteBehavior_System_Boolean_
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration.ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.ReqnrollConfiguration
+  nameWithType.vb: ReqnrollConfiguration.New
+  fullName.vb: Reqnroll.Configuration.ReqnrollConfiguration.New
+  name.vb: New
+- uid: Reqnroll.Configuration.ConfigSource
+  commentId: T:Reqnroll.Configuration.ConfigSource
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ConfigSource.html
+  name: ConfigSource
+  nameWithType: ConfigSource
+  fullName: Reqnroll.Configuration.ConfigSource
+- uid: Reqnroll.Configuration.DependencyConfigurationCollection
+  commentId: T:Reqnroll.Configuration.DependencyConfigurationCollection
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.DependencyConfigurationCollection.html
+  name: DependencyConfigurationCollection
+  nameWithType: DependencyConfigurationCollection
+  fullName: Reqnroll.Configuration.DependencyConfigurationCollection
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  commentId: T:Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.MissingOrPendingStepsOutcome.html
+  name: MissingOrPendingStepsOutcome
+  nameWithType: MissingOrPendingStepsOutcome
+  fullName: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  commentId: T:Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.html
+  name: StepDefinitionSkeletonStyle
+  nameWithType: StepDefinitionSkeletonStyle
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Reqnroll.Configuration.ObsoleteBehavior
+  commentId: T:Reqnroll.Configuration.ObsoleteBehavior
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ObsoleteBehavior.html
+  name: ObsoleteBehavior
+  nameWithType: ObsoleteBehavior
+  fullName: Reqnroll.Configuration.ObsoleteBehavior
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: Reqnroll.BindingSkeletons
+  commentId: N:Reqnroll.BindingSkeletons
+  href: Reqnroll.html
+  name: Reqnroll.BindingSkeletons
+  nameWithType: Reqnroll.BindingSkeletons
+  fullName: Reqnroll.BindingSkeletons
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.ConfigSource*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.ConfigSource
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_ConfigSource
+  name: ConfigSource
+  nameWithType: ReqnrollConfiguration.ConfigSource
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.ConfigSource
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.ConfigSourceText*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.ConfigSourceText
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_ConfigSourceText
+  name: ConfigSourceText
+  nameWithType: ReqnrollConfiguration.ConfigSourceText
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.ConfigSourceText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.CustomDependencies*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.CustomDependencies
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_CustomDependencies
+  name: CustomDependencies
+  nameWithType: ReqnrollConfiguration.CustomDependencies
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.CustomDependencies
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.GeneratorCustomDependencies*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.GeneratorCustomDependencies
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_GeneratorCustomDependencies
+  name: GeneratorCustomDependencies
+  nameWithType: ReqnrollConfiguration.GeneratorCustomDependencies
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.GeneratorCustomDependencies
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.FeatureLanguage*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.FeatureLanguage
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_FeatureLanguage
+  name: FeatureLanguage
+  nameWithType: ReqnrollConfiguration.FeatureLanguage
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.FeatureLanguage
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.BindingCulture*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.BindingCulture
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_BindingCulture
+  name: BindingCulture
+  nameWithType: ReqnrollConfiguration.BindingCulture
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.BindingCulture
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.StopAtFirstError*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.StopAtFirstError
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_StopAtFirstError
+  name: StopAtFirstError
+  nameWithType: ReqnrollConfiguration.StopAtFirstError
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.StopAtFirstError
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.MissingOrPendingStepsOutcome*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.MissingOrPendingStepsOutcome
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_MissingOrPendingStepsOutcome
+  name: MissingOrPendingStepsOutcome
+  nameWithType: ReqnrollConfiguration.MissingOrPendingStepsOutcome
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.MissingOrPendingStepsOutcome
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.ObsoleteBehavior*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.ObsoleteBehavior
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_ObsoleteBehavior
+  name: ObsoleteBehavior
+  nameWithType: ReqnrollConfiguration.ObsoleteBehavior
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.ObsoleteBehavior
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.AllowDebugGeneratedFiles*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.AllowDebugGeneratedFiles
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_AllowDebugGeneratedFiles
+  name: AllowDebugGeneratedFiles
+  nameWithType: ReqnrollConfiguration.AllowDebugGeneratedFiles
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.AllowDebugGeneratedFiles
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.AllowRowTests*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.AllowRowTests
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_AllowRowTests
+  name: AllowRowTests
+  nameWithType: ReqnrollConfiguration.AllowRowTests
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.AllowRowTests
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.AddNonParallelizableMarkerForTags*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.AddNonParallelizableMarkerForTags
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_AddNonParallelizableMarkerForTags
+  name: AddNonParallelizableMarkerForTags
+  nameWithType: ReqnrollConfiguration.AddNonParallelizableMarkerForTags
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.AddNonParallelizableMarkerForTags
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.ColoredOutput*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.ColoredOutput
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_ColoredOutput
+  name: ColoredOutput
+  nameWithType: ReqnrollConfiguration.ColoredOutput
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.ColoredOutput
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.TraceSuccessfulSteps*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.TraceSuccessfulSteps
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_TraceSuccessfulSteps
+  name: TraceSuccessfulSteps
+  nameWithType: ReqnrollConfiguration.TraceSuccessfulSteps
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.TraceSuccessfulSteps
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.TraceTimings*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.TraceTimings
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_TraceTimings
+  name: TraceTimings
+  nameWithType: ReqnrollConfiguration.TraceTimings
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.TraceTimings
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.MinTracedDuration*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.MinTracedDuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_MinTracedDuration
+  name: MinTracedDuration
+  nameWithType: ReqnrollConfiguration.MinTracedDuration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.MinTracedDuration
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.StepDefinitionSkeletonStyle*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.StepDefinitionSkeletonStyle
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_StepDefinitionSkeletonStyle
+  name: StepDefinitionSkeletonStyle
+  nameWithType: ReqnrollConfiguration.StepDefinitionSkeletonStyle
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.StepDefinitionSkeletonStyle
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.AdditionalStepAssemblies*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.AdditionalStepAssemblies
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_AdditionalStepAssemblies
+  name: AdditionalStepAssemblies
+  nameWithType: ReqnrollConfiguration.AdditionalStepAssemblies
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.AdditionalStepAssemblies
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.Equals*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.Equals
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_Equals_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: Equals
+  nameWithType: ReqnrollConfiguration.Equals
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.Equals
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: Reqnroll.Configuration.ReqnrollConfiguration.GetHashCode*
+  commentId: Overload:Reqnroll.Configuration.ReqnrollConfiguration.GetHashCode
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html#Reqnroll_Configuration_ReqnrollConfiguration_GetHashCode
+  name: GetHashCode
+  nameWithType: ReqnrollConfiguration.GetHashCode
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

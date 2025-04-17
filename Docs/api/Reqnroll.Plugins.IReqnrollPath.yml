@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Plugins.IReqnrollPath
+  commentId: T:Reqnroll.Plugins.IReqnrollPath
+  id: IReqnrollPath
+  parent: Reqnroll.Plugins
+  children:
+  - Reqnroll.Plugins.IReqnrollPath.GetPathToReqnrollDll
+  langs:
+  - csharp
+  - vb
+  name: IReqnrollPath
+  nameWithType: IReqnrollPath
+  fullName: Reqnroll.Plugins.IReqnrollPath
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Plugins/IReqnrollPath.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IReqnrollPath
+    path: ../Reqnroll/Reqnroll/Plugins/IReqnrollPath.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public interface IReqnrollPath
+    content.vb: Public Interface IReqnrollPath
+- uid: Reqnroll.Plugins.IReqnrollPath.GetPathToReqnrollDll
+  commentId: M:Reqnroll.Plugins.IReqnrollPath.GetPathToReqnrollDll
+  id: GetPathToReqnrollDll
+  parent: Reqnroll.Plugins.IReqnrollPath
+  langs:
+  - csharp
+  - vb
+  name: GetPathToReqnrollDll()
+  nameWithType: IReqnrollPath.GetPathToReqnrollDll()
+  fullName: Reqnroll.Plugins.IReqnrollPath.GetPathToReqnrollDll()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/IReqnrollPath.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetPathToReqnrollDll
+    path: ../Reqnroll/Reqnroll/Plugins/IReqnrollPath.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: string GetPathToReqnrollDll()
+    return:
+      type: System.String
+    content.vb: Function GetPathToReqnrollDll() As String
+  overload: Reqnroll.Plugins.IReqnrollPath.GetPathToReqnrollDll*
+references:
+- uid: Reqnroll.Plugins
+  commentId: N:Reqnroll.Plugins
+  href: Reqnroll.html
+  name: Reqnroll.Plugins
+  nameWithType: Reqnroll.Plugins
+  fullName: Reqnroll.Plugins
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+- uid: Reqnroll.Plugins.IReqnrollPath.GetPathToReqnrollDll*
+  commentId: Overload:Reqnroll.Plugins.IReqnrollPath.GetPathToReqnrollDll
+  href: Reqnroll.Plugins.IReqnrollPath.html#Reqnroll_Plugins_IReqnrollPath_GetPathToReqnrollDll
+  name: GetPathToReqnrollDll
+  nameWithType: IReqnrollPath.GetPathToReqnrollDll
+  fullName: Reqnroll.Plugins.IReqnrollPath.GetPathToReqnrollDll
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

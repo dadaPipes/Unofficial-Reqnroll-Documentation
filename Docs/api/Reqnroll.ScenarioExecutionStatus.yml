@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.ScenarioExecutionStatus
+  commentId: T:Reqnroll.ScenarioExecutionStatus
+  id: ScenarioExecutionStatus
+  parent: Reqnroll
+  children:
+  - Reqnroll.ScenarioExecutionStatus.BindingError
+  - Reqnroll.ScenarioExecutionStatus.OK
+  - Reqnroll.ScenarioExecutionStatus.Skipped
+  - Reqnroll.ScenarioExecutionStatus.StepDefinitionPending
+  - Reqnroll.ScenarioExecutionStatus.TestError
+  - Reqnroll.ScenarioExecutionStatus.UndefinedStep
+  langs:
+  - csharp
+  - vb
+  name: ScenarioExecutionStatus
+  nameWithType: ScenarioExecutionStatus
+  fullName: Reqnroll.ScenarioExecutionStatus
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/ScenarioExecutionStatus.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioExecutionStatus
+    path: ../Reqnroll/Reqnroll/ScenarioExecutionStatus.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public enum ScenarioExecutionStatus
+    content.vb: Public Enum ScenarioExecutionStatus
+- uid: Reqnroll.ScenarioExecutionStatus.OK
+  commentId: F:Reqnroll.ScenarioExecutionStatus.OK
+  id: OK
+  parent: Reqnroll.ScenarioExecutionStatus
+  langs:
+  - csharp
+  - vb
+  name: OK
+  nameWithType: ScenarioExecutionStatus.OK
+  fullName: Reqnroll.ScenarioExecutionStatus.OK
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ScenarioExecutionStatus.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OK
+    path: ../Reqnroll/Reqnroll/ScenarioExecutionStatus.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: OK = 0
+    return:
+      type: Reqnroll.ScenarioExecutionStatus
+- uid: Reqnroll.ScenarioExecutionStatus.StepDefinitionPending
+  commentId: F:Reqnroll.ScenarioExecutionStatus.StepDefinitionPending
+  id: StepDefinitionPending
+  parent: Reqnroll.ScenarioExecutionStatus
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionPending
+  nameWithType: ScenarioExecutionStatus.StepDefinitionPending
+  fullName: Reqnroll.ScenarioExecutionStatus.StepDefinitionPending
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ScenarioExecutionStatus.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepDefinitionPending
+    path: ../Reqnroll/Reqnroll/ScenarioExecutionStatus.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: StepDefinitionPending = 1
+    return:
+      type: Reqnroll.ScenarioExecutionStatus
+- uid: Reqnroll.ScenarioExecutionStatus.UndefinedStep
+  commentId: F:Reqnroll.ScenarioExecutionStatus.UndefinedStep
+  id: UndefinedStep
+  parent: Reqnroll.ScenarioExecutionStatus
+  langs:
+  - csharp
+  - vb
+  name: UndefinedStep
+  nameWithType: ScenarioExecutionStatus.UndefinedStep
+  fullName: Reqnroll.ScenarioExecutionStatus.UndefinedStep
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ScenarioExecutionStatus.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: UndefinedStep
+    path: ../Reqnroll/Reqnroll/ScenarioExecutionStatus.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: UndefinedStep = 2
+    return:
+      type: Reqnroll.ScenarioExecutionStatus
+- uid: Reqnroll.ScenarioExecutionStatus.BindingError
+  commentId: F:Reqnroll.ScenarioExecutionStatus.BindingError
+  id: BindingError
+  parent: Reqnroll.ScenarioExecutionStatus
+  langs:
+  - csharp
+  - vb
+  name: BindingError
+  nameWithType: ScenarioExecutionStatus.BindingError
+  fullName: Reqnroll.ScenarioExecutionStatus.BindingError
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ScenarioExecutionStatus.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingError
+    path: ../Reqnroll/Reqnroll/ScenarioExecutionStatus.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: BindingError = 3
+    return:
+      type: Reqnroll.ScenarioExecutionStatus
+- uid: Reqnroll.ScenarioExecutionStatus.TestError
+  commentId: F:Reqnroll.ScenarioExecutionStatus.TestError
+  id: TestError
+  parent: Reqnroll.ScenarioExecutionStatus
+  langs:
+  - csharp
+  - vb
+  name: TestError
+  nameWithType: ScenarioExecutionStatus.TestError
+  fullName: Reqnroll.ScenarioExecutionStatus.TestError
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ScenarioExecutionStatus.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestError
+    path: ../Reqnroll/Reqnroll/ScenarioExecutionStatus.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: TestError = 4
+    return:
+      type: Reqnroll.ScenarioExecutionStatus
+- uid: Reqnroll.ScenarioExecutionStatus.Skipped
+  commentId: F:Reqnroll.ScenarioExecutionStatus.Skipped
+  id: Skipped
+  parent: Reqnroll.ScenarioExecutionStatus
+  langs:
+  - csharp
+  - vb
+  name: Skipped
+  nameWithType: ScenarioExecutionStatus.Skipped
+  fullName: Reqnroll.ScenarioExecutionStatus.Skipped
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ScenarioExecutionStatus.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Skipped
+    path: ../Reqnroll/Reqnroll/ScenarioExecutionStatus.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Skipped = 5
+    return:
+      type: Reqnroll.ScenarioExecutionStatus
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.ScenarioExecutionStatus
+  commentId: T:Reqnroll.ScenarioExecutionStatus
+  parent: Reqnroll
+  href: Reqnroll.ScenarioExecutionStatus.html
+  name: ScenarioExecutionStatus
+  nameWithType: ScenarioExecutionStatus
+  fullName: Reqnroll.ScenarioExecutionStatus

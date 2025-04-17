@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IAsyncBindingInvoker
+  commentId: T:Reqnroll.Bindings.IAsyncBindingInvoker
+  id: IAsyncBindingInvoker
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  langs:
+  - csharp
+  - vb
+  name: IAsyncBindingInvoker
+  nameWithType: IAsyncBindingInvoker
+  fullName: Reqnroll.Bindings.IAsyncBindingInvoker
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/IAsyncBindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IAsyncBindingInvoker
+    path: ../Reqnroll/Reqnroll/Bindings/IAsyncBindingInvoker.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public interface IAsyncBindingInvoker
+    content.vb: Public Interface IAsyncBindingInvoker
+- uid: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  commentId: M:Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  id: InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  parent: Reqnroll.Bindings.IAsyncBindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: InvokeBindingAsync(IBinding, IContextManager, object[], ITestTracer, DurationHolder)
+  nameWithType: IAsyncBindingInvoker.InvokeBindingAsync(IBinding, IContextManager, object[], ITestTracer, DurationHolder)
+  fullName: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, object[], Reqnroll.Tracing.ITestTracer, Reqnroll.Bindings.DurationHolder)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IAsyncBindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InvokeBindingAsync
+    path: ../Reqnroll/Reqnroll/Bindings/IAsyncBindingInvoker.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: Task<object> InvokeBindingAsync(IBinding binding, IContextManager contextManager, object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)
+    parameters:
+    - id: binding
+      type: Reqnroll.Bindings.IBinding
+    - id: contextManager
+      type: Reqnroll.Infrastructure.IContextManager
+    - id: arguments
+      type: System.Object[]
+    - id: testTracer
+      type: Reqnroll.Tracing.ITestTracer
+    - id: durationHolder
+      type: Reqnroll.Bindings.DurationHolder
+    return:
+      type: System.Threading.Tasks.Task{System.Object}
+    content.vb: Function InvokeBindingAsync(binding As IBinding, contextManager As IContextManager, arguments As Object(), testTracer As ITestTracer, durationHolder As DurationHolder) As Task(Of Object)
+  overload: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync*
+  nameWithType.vb: IAsyncBindingInvoker.InvokeBindingAsync(IBinding, IContextManager, Object(), ITestTracer, DurationHolder)
+  fullName.vb: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, Object(), Reqnroll.Tracing.ITestTracer, Reqnroll.Bindings.DurationHolder)
+  name.vb: InvokeBindingAsync(IBinding, IContextManager, Object(), ITestTracer, DurationHolder)
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync*
+  commentId: Overload:Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync
+  href: Reqnroll.Bindings.IAsyncBindingInvoker.html#Reqnroll_Bindings_IAsyncBindingInvoker_InvokeBindingAsync_Reqnroll_Bindings_IBinding_Reqnroll_Infrastructure_IContextManager_System_Object___Reqnroll_Tracing_ITestTracer_Reqnroll_Bindings_DurationHolder_
+  name: InvokeBindingAsync
+  nameWithType: IAsyncBindingInvoker.InvokeBindingAsync
+  fullName: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync
+- uid: Reqnroll.Bindings.IBinding
+  commentId: T:Reqnroll.Bindings.IBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBinding.html
+  name: IBinding
+  nameWithType: IBinding
+  fullName: Reqnroll.Bindings.IBinding
+- uid: Reqnroll.Infrastructure.IContextManager
+  commentId: T:Reqnroll.Infrastructure.IContextManager
+  parent: Reqnroll.Infrastructure
+  href: Reqnroll.Infrastructure.IContextManager.html
+  name: IContextManager
+  nameWithType: IContextManager
+  fullName: Reqnroll.Infrastructure.IContextManager
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: Reqnroll.Tracing.ITestTracer
+  commentId: T:Reqnroll.Tracing.ITestTracer
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITestTracer.html
+  name: ITestTracer
+  nameWithType: ITestTracer
+  fullName: Reqnroll.Tracing.ITestTracer
+- uid: Reqnroll.Bindings.DurationHolder
+  commentId: T:Reqnroll.Bindings.DurationHolder
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.DurationHolder.html
+  name: DurationHolder
+  nameWithType: DurationHolder
+  fullName: Reqnroll.Bindings.DurationHolder
+- uid: System.Threading.Tasks.Task{System.Object}
+  commentId: T:System.Threading.Tasks.Task{System.Object}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<object>
+  nameWithType: Task<object>
+  fullName: System.Threading.Tasks.Task<object>
+  nameWithType.vb: Task(Of Object)
+  fullName.vb: System.Threading.Tasks.Task(Of Object)
+  name.vb: Task(Of Object)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

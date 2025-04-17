@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Reflection.IBindingType
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingType
+  id: IBindingType
+  parent: Reqnroll.Bindings.Reflection
+  children:
+  - Reqnroll.Bindings.Reflection.IBindingType.AssemblyName
+  - Reqnroll.Bindings.Reflection.IBindingType.FullName
+  - Reqnroll.Bindings.Reflection.IBindingType.Name
+  langs:
+  - csharp
+  - vb
+  name: IBindingType
+  nameWithType: IBindingType
+  fullName: Reqnroll.Bindings.Reflection.IBindingType
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/IBindingType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IBindingType
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/IBindingType.cs
+    startLine: 3
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: public interface IBindingType
+    content.vb: Public Interface IBindingType
+  extensionMethods:
+  - Reqnroll.Bindings.Reflection.IBindingType.Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType)
+  - Reqnroll.Bindings.Reflection.IBindingType.Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(System.Type)
+- uid: Reqnroll.Bindings.Reflection.IBindingType.Name
+  commentId: P:Reqnroll.Bindings.Reflection.IBindingType.Name
+  id: Name
+  parent: Reqnroll.Bindings.Reflection.IBindingType
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IBindingType.Name
+  fullName: Reqnroll.Bindings.Reflection.IBindingType.Name
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/IBindingType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Name
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/IBindingType.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Reqnroll.Bindings.Reflection.IBindingType.Name*
+- uid: Reqnroll.Bindings.Reflection.IBindingType.FullName
+  commentId: P:Reqnroll.Bindings.Reflection.IBindingType.FullName
+  id: FullName
+  parent: Reqnroll.Bindings.Reflection.IBindingType
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: IBindingType.FullName
+  fullName: Reqnroll.Bindings.Reflection.IBindingType.FullName
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/IBindingType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FullName
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/IBindingType.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: string FullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property FullName As String
+  overload: Reqnroll.Bindings.Reflection.IBindingType.FullName*
+- uid: Reqnroll.Bindings.Reflection.IBindingType.AssemblyName
+  commentId: P:Reqnroll.Bindings.Reflection.IBindingType.AssemblyName
+  id: AssemblyName
+  parent: Reqnroll.Bindings.Reflection.IBindingType
+  langs:
+  - csharp
+  - vb
+  name: AssemblyName
+  nameWithType: IBindingType.AssemblyName
+  fullName: Reqnroll.Bindings.Reflection.IBindingType.AssemblyName
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/IBindingType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AssemblyName
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/IBindingType.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: string AssemblyName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property AssemblyName As String
+  overload: Reqnroll.Bindings.Reflection.IBindingType.AssemblyName*
+references:
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: Reqnroll.Bindings.Reflection.IBindingType.Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  definition: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_Reqnroll_Bindings_Reflection_IBindingType_
+  name: TypeEquals(IBindingType, IBindingType)
+  nameWithType: BindingReflectionExtensions.TypeEquals(IBindingType, IBindingType)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType, Reqnroll.Bindings.Reflection.IBindingType)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+    name: TypeEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_Reqnroll_Bindings_Reflection_IBindingType_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+    name: TypeEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_Reqnroll_Bindings_Reflection_IBindingType_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.IBindingType.Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(System.Type)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  definition: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_System_Type_
+  name: TypeEquals(IBindingType, Type)
+  nameWithType: BindingReflectionExtensions.TypeEquals(IBindingType, Type)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType, System.Type)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+    name: TypeEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_System_Type_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+    name: TypeEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_System_Type_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_Reqnroll_Bindings_Reflection_IBindingType_
+  name: TypeEquals(IBindingType, IBindingType)
+  nameWithType: BindingReflectionExtensions.TypeEquals(IBindingType, IBindingType)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType, Reqnroll.Bindings.Reflection.IBindingType)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+    name: TypeEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_Reqnroll_Bindings_Reflection_IBindingType_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+    name: TypeEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_Reqnroll_Bindings_Reflection_IBindingType_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  commentId: T:Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html
+  name: BindingReflectionExtensions
+  nameWithType: BindingReflectionExtensions
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+  isExternal: true
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_System_Type_
+  name: TypeEquals(IBindingType, Type)
+  nameWithType: BindingReflectionExtensions.TypeEquals(IBindingType, Type)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType, System.Type)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+    name: TypeEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_System_Type_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+    name: TypeEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_System_Type_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingType
+    name: IBindingType
+    href: Reqnroll.Bindings.Reflection.IBindingType.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.IBindingType.Name*
+  commentId: Overload:Reqnroll.Bindings.Reflection.IBindingType.Name
+  href: Reqnroll.Bindings.Reflection.IBindingType.html#Reqnroll_Bindings_Reflection_IBindingType_Name
+  name: Name
+  nameWithType: IBindingType.Name
+  fullName: Reqnroll.Bindings.Reflection.IBindingType.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.Reflection.IBindingType.FullName*
+  commentId: Overload:Reqnroll.Bindings.Reflection.IBindingType.FullName
+  href: Reqnroll.Bindings.Reflection.IBindingType.html#Reqnroll_Bindings_Reflection_IBindingType_FullName
+  name: FullName
+  nameWithType: IBindingType.FullName
+  fullName: Reqnroll.Bindings.Reflection.IBindingType.FullName
+- uid: Reqnroll.Bindings.Reflection.IBindingType.AssemblyName*
+  commentId: Overload:Reqnroll.Bindings.Reflection.IBindingType.AssemblyName
+  href: Reqnroll.Bindings.Reflection.IBindingType.html#Reqnroll_Bindings_Reflection_IBindingType_AssemblyName
+  name: AssemblyName
+  nameWithType: IBindingType.AssemblyName
+  fullName: Reqnroll.Bindings.Reflection.IBindingType.AssemblyName

@@ -1,0 +1,433 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider
+  commentId: T:Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider
+  id: JsonStringRuntimeConfigurationProvider
+  parent: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.#ctor(System.String)
+  - Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  langs:
+  - csharp
+  - vb
+  name: JsonStringRuntimeConfigurationProvider
+  nameWithType: JsonStringRuntimeConfigurationProvider
+  fullName: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Configuration/JsonStringRuntimeConfigurationProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: JsonStringRuntimeConfigurationProvider
+    path: ../Reqnroll/Reqnroll/Configuration/JsonStringRuntimeConfigurationProvider.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: 'public class JsonStringRuntimeConfigurationProvider : IRuntimeConfigurationProvider'
+    content.vb: Public Class JsonStringRuntimeConfigurationProvider Implements IRuntimeConfigurationProvider
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Configuration.IRuntimeConfigurationProvider
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.#ctor(System.String)
+  commentId: M:Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider
+  langs:
+  - csharp
+  - vb
+  name: JsonStringRuntimeConfigurationProvider(string)
+  nameWithType: JsonStringRuntimeConfigurationProvider.JsonStringRuntimeConfigurationProvider(string)
+  fullName: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.JsonStringRuntimeConfigurationProvider(string)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Configuration/JsonStringRuntimeConfigurationProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Configuration/JsonStringRuntimeConfigurationProvider.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public JsonStringRuntimeConfigurationProvider(string jsonConfigFileContent)
+    parameters:
+    - id: jsonConfigFileContent
+      type: System.String
+    content.vb: Public Sub New(jsonConfigFileContent As String)
+  overload: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.#ctor*
+  nameWithType.vb: JsonStringRuntimeConfigurationProvider.New(String)
+  fullName.vb: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.New(String)
+  name.vb: New(String)
+- uid: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  id: LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider
+  langs:
+  - csharp
+  - vb
+  name: LoadConfiguration(ReqnrollConfiguration)
+  nameWithType: JsonStringRuntimeConfigurationProvider.LoadConfiguration(ReqnrollConfiguration)
+  fullName: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/JsonStringRuntimeConfigurationProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: LoadConfiguration
+    path: ../Reqnroll/Reqnroll/Configuration/JsonStringRuntimeConfigurationProvider.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  example: []
+  syntax:
+    content: public ReqnrollConfiguration LoadConfiguration(ReqnrollConfiguration reqnrollConfiguration)
+    parameters:
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Public Function LoadConfiguration(reqnrollConfiguration As ReqnrollConfiguration) As ReqnrollConfiguration
+  overload: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.LoadConfiguration*
+  implements:
+  - Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+references:
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Configuration.IRuntimeConfigurationProvider
+  commentId: T:Reqnroll.Configuration.IRuntimeConfigurationProvider
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.IRuntimeConfigurationProvider.html
+  name: IRuntimeConfigurationProvider
+  nameWithType: IRuntimeConfigurationProvider
+  fullName: Reqnroll.Configuration.IRuntimeConfigurationProvider
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.#ctor*
+  commentId: Overload:Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.#ctor
+  href: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.html#Reqnroll_Configuration_JsonStringRuntimeConfigurationProvider__ctor_System_String_
+  name: JsonStringRuntimeConfigurationProvider
+  nameWithType: JsonStringRuntimeConfigurationProvider.JsonStringRuntimeConfigurationProvider
+  fullName: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.JsonStringRuntimeConfigurationProvider
+  nameWithType.vb: JsonStringRuntimeConfigurationProvider.New
+  fullName.vb: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.LoadConfiguration*
+  commentId: Overload:Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.LoadConfiguration
+  href: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.html#Reqnroll_Configuration_JsonStringRuntimeConfigurationProvider_LoadConfiguration_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: LoadConfiguration
+  nameWithType: JsonStringRuntimeConfigurationProvider.LoadConfiguration
+  fullName: Reqnroll.Configuration.JsonStringRuntimeConfigurationProvider.LoadConfiguration
+- uid: Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Configuration.IRuntimeConfigurationProvider
+  href: Reqnroll.Configuration.IRuntimeConfigurationProvider.html#Reqnroll_Configuration_IRuntimeConfigurationProvider_LoadConfiguration_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: LoadConfiguration(ReqnrollConfiguration)
+  nameWithType: IRuntimeConfigurationProvider.LoadConfiguration(ReqnrollConfiguration)
+  fullName: Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+  spec.csharp:
+  - uid: Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+    name: LoadConfiguration
+    href: Reqnroll.Configuration.IRuntimeConfigurationProvider.html#Reqnroll_Configuration_IRuntimeConfigurationProvider_LoadConfiguration_Reqnroll_Configuration_ReqnrollConfiguration_
+  - name: (
+  - uid: Reqnroll.Configuration.ReqnrollConfiguration
+    name: ReqnrollConfiguration
+    href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Configuration.IRuntimeConfigurationProvider.LoadConfiguration(Reqnroll.Configuration.ReqnrollConfiguration)
+    name: LoadConfiguration
+    href: Reqnroll.Configuration.IRuntimeConfigurationProvider.html#Reqnroll_Configuration_IRuntimeConfigurationProvider_LoadConfiguration_Reqnroll_Configuration_ReqnrollConfiguration_
+  - name: (
+  - uid: Reqnroll.Configuration.ReqnrollConfiguration
+    name: ReqnrollConfiguration
+    href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  - name: )
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration

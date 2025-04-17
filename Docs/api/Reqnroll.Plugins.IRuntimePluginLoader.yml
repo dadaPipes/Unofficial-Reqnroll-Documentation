@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Plugins.IRuntimePluginLoader
+  commentId: T:Reqnroll.Plugins.IRuntimePluginLoader
+  id: IRuntimePluginLoader
+  parent: Reqnroll.Plugins
+  children:
+  - Reqnroll.Plugins.IRuntimePluginLoader.LoadPlugin(System.String,Reqnroll.Tracing.ITraceListener,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IRuntimePluginLoader
+  nameWithType: IRuntimePluginLoader
+  fullName: Reqnroll.Plugins.IRuntimePluginLoader
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Plugins/IRuntimePluginLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IRuntimePluginLoader
+    path: ../Reqnroll/Reqnroll/Plugins/IRuntimePluginLoader.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public interface IRuntimePluginLoader
+    content.vb: Public Interface IRuntimePluginLoader
+- uid: Reqnroll.Plugins.IRuntimePluginLoader.LoadPlugin(System.String,Reqnroll.Tracing.ITraceListener,System.Boolean)
+  commentId: M:Reqnroll.Plugins.IRuntimePluginLoader.LoadPlugin(System.String,Reqnroll.Tracing.ITraceListener,System.Boolean)
+  id: LoadPlugin(System.String,Reqnroll.Tracing.ITraceListener,System.Boolean)
+  parent: Reqnroll.Plugins.IRuntimePluginLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadPlugin(string, ITraceListener, bool)
+  nameWithType: IRuntimePluginLoader.LoadPlugin(string, ITraceListener, bool)
+  fullName: Reqnroll.Plugins.IRuntimePluginLoader.LoadPlugin(string, Reqnroll.Tracing.ITraceListener, bool)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/IRuntimePluginLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: LoadPlugin
+    path: ../Reqnroll/Reqnroll/Plugins/IRuntimePluginLoader.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: IRuntimePlugin LoadPlugin(string pluginAssemblyName, ITraceListener traceListener, bool traceMissingPluginAttribute)
+    parameters:
+    - id: pluginAssemblyName
+      type: System.String
+    - id: traceListener
+      type: Reqnroll.Tracing.ITraceListener
+    - id: traceMissingPluginAttribute
+      type: System.Boolean
+    return:
+      type: Reqnroll.Plugins.IRuntimePlugin
+    content.vb: Function LoadPlugin(pluginAssemblyName As String, traceListener As ITraceListener, traceMissingPluginAttribute As Boolean) As IRuntimePlugin
+  overload: Reqnroll.Plugins.IRuntimePluginLoader.LoadPlugin*
+  nameWithType.vb: IRuntimePluginLoader.LoadPlugin(String, ITraceListener, Boolean)
+  fullName.vb: Reqnroll.Plugins.IRuntimePluginLoader.LoadPlugin(String, Reqnroll.Tracing.ITraceListener, Boolean)
+  name.vb: LoadPlugin(String, ITraceListener, Boolean)
+references:
+- uid: Reqnroll.Plugins
+  commentId: N:Reqnroll.Plugins
+  href: Reqnroll.html
+  name: Reqnroll.Plugins
+  nameWithType: Reqnroll.Plugins
+  fullName: Reqnroll.Plugins
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+- uid: Reqnroll.Plugins.IRuntimePluginLoader.LoadPlugin*
+  commentId: Overload:Reqnroll.Plugins.IRuntimePluginLoader.LoadPlugin
+  href: Reqnroll.Plugins.IRuntimePluginLoader.html#Reqnroll_Plugins_IRuntimePluginLoader_LoadPlugin_System_String_Reqnroll_Tracing_ITraceListener_System_Boolean_
+  name: LoadPlugin
+  nameWithType: IRuntimePluginLoader.LoadPlugin
+  fullName: Reqnroll.Plugins.IRuntimePluginLoader.LoadPlugin
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Tracing.ITraceListener
+  commentId: T:Reqnroll.Tracing.ITraceListener
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITraceListener.html
+  name: ITraceListener
+  nameWithType: ITraceListener
+  fullName: Reqnroll.Tracing.ITraceListener
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Plugins.IRuntimePlugin
+  commentId: T:Reqnroll.Plugins.IRuntimePlugin
+  parent: Reqnroll.Plugins
+  href: Reqnroll.Plugins.IRuntimePlugin.html
+  name: IRuntimePlugin
+  nameWithType: IRuntimePlugin
+  fullName: Reqnroll.Plugins.IRuntimePlugin
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html

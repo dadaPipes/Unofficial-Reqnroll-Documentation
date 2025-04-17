@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Provider
+  commentId: N:Reqnroll.Bindings.Provider
+  id: Reqnroll.Bindings.Provider
+  children:
+  - Reqnroll.Bindings.Provider.BindingProviderService
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Bindings.Provider
+  nameWithType: Reqnroll.Bindings.Provider
+  fullName: Reqnroll.Bindings.Provider
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Bindings.Provider.BindingProviderService
+  commentId: T:Reqnroll.Bindings.Provider.BindingProviderService
+  href: Reqnroll.Bindings.Provider.BindingProviderService.html
+  name: BindingProviderService
+  nameWithType: BindingProviderService
+  fullName: Reqnroll.Bindings.Provider.BindingProviderService

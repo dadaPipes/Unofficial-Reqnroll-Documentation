@@ -1,0 +1,1174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.ContextManager
+  commentId: T:Reqnroll.Infrastructure.ContextManager
+  id: ContextManager
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.ContextManager.#ctor(Reqnroll.Tracing.ITestTracer,Reqnroll.BoDi.IObjectContainer,Reqnroll.Infrastructure.IContainerBuilder)
+  - Reqnroll.Infrastructure.ContextManager.CleanupFeatureContext
+  - Reqnroll.Infrastructure.ContextManager.CleanupScenarioContext
+  - Reqnroll.Infrastructure.ContextManager.CleanupStepContext
+  - Reqnroll.Infrastructure.ContextManager.CurrentTopLevelStepDefinitionType
+  - Reqnroll.Infrastructure.ContextManager.Dispose
+  - Reqnroll.Infrastructure.ContextManager.FeatureContext
+  - Reqnroll.Infrastructure.ContextManager.InitializeFeatureContext(Reqnroll.FeatureInfo)
+  - Reqnroll.Infrastructure.ContextManager.InitializeScenarioContext(Reqnroll.ScenarioInfo)
+  - Reqnroll.Infrastructure.ContextManager.InitializeStepContext(Reqnroll.StepInfo)
+  - Reqnroll.Infrastructure.ContextManager.ScenarioContext
+  - Reqnroll.Infrastructure.ContextManager.StepContext
+  - Reqnroll.Infrastructure.ContextManager.TestThreadContext
+  langs:
+  - csharp
+  - vb
+  name: ContextManager
+  nameWithType: ContextManager
+  fullName: Reqnroll.Infrastructure.ContextManager
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ContextManager
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: 'public class ContextManager : IContextManager, IDisposable'
+    content.vb: Public Class ContextManager Implements IContextManager, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Infrastructure.IContextManager
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Infrastructure.ContextManager.CurrentTopLevelStepDefinitionType
+  commentId: P:Reqnroll.Infrastructure.ContextManager.CurrentTopLevelStepDefinitionType
+  id: CurrentTopLevelStepDefinitionType
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: CurrentTopLevelStepDefinitionType
+  nameWithType: ContextManager.CurrentTopLevelStepDefinitionType
+  fullName: Reqnroll.Infrastructure.ContextManager.CurrentTopLevelStepDefinitionType
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CurrentTopLevelStepDefinitionType
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 127
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  summary: Holds the StepDefinitionType of the last step that was executed from the actual feature file, excluding the types of the steps that were executed during the calling of a step
+  example: []
+  syntax:
+    content: public StepDefinitionType? CurrentTopLevelStepDefinitionType { get; }
+    parameters: []
+    return:
+      type: System.Nullable{Reqnroll.Bindings.StepDefinitionType}
+    content.vb: Public Property CurrentTopLevelStepDefinitionType As StepDefinitionType?
+  overload: Reqnroll.Infrastructure.ContextManager.CurrentTopLevelStepDefinitionType*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.CurrentTopLevelStepDefinitionType
+- uid: Reqnroll.Infrastructure.ContextManager.#ctor(Reqnroll.Tracing.ITestTracer,Reqnroll.BoDi.IObjectContainer,Reqnroll.Infrastructure.IContainerBuilder)
+  commentId: M:Reqnroll.Infrastructure.ContextManager.#ctor(Reqnroll.Tracing.ITestTracer,Reqnroll.BoDi.IObjectContainer,Reqnroll.Infrastructure.IContainerBuilder)
+  id: '#ctor(Reqnroll.Tracing.ITestTracer,Reqnroll.BoDi.IObjectContainer,Reqnroll.Infrastructure.IContainerBuilder)'
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: ContextManager(ITestTracer, IObjectContainer, IContainerBuilder)
+  nameWithType: ContextManager.ContextManager(ITestTracer, IObjectContainer, IContainerBuilder)
+  fullName: Reqnroll.Infrastructure.ContextManager.ContextManager(Reqnroll.Tracing.ITestTracer, Reqnroll.BoDi.IObjectContainer, Reqnroll.Infrastructure.IContainerBuilder)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 129
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public ContextManager(ITestTracer testTracer, IObjectContainer testThreadContainer, IContainerBuilder containerBuilder)
+    parameters:
+    - id: testTracer
+      type: Reqnroll.Tracing.ITestTracer
+    - id: testThreadContainer
+      type: Reqnroll.BoDi.IObjectContainer
+    - id: containerBuilder
+      type: Reqnroll.Infrastructure.IContainerBuilder
+    content.vb: Public Sub New(testTracer As ITestTracer, testThreadContainer As IObjectContainer, containerBuilder As IContainerBuilder)
+  overload: Reqnroll.Infrastructure.ContextManager.#ctor*
+  nameWithType.vb: ContextManager.New(ITestTracer, IObjectContainer, IContainerBuilder)
+  fullName.vb: Reqnroll.Infrastructure.ContextManager.New(Reqnroll.Tracing.ITestTracer, Reqnroll.BoDi.IObjectContainer, Reqnroll.Infrastructure.IContainerBuilder)
+  name.vb: New(ITestTracer, IObjectContainer, IContainerBuilder)
+- uid: Reqnroll.Infrastructure.ContextManager.FeatureContext
+  commentId: P:Reqnroll.Infrastructure.ContextManager.FeatureContext
+  id: FeatureContext
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: FeatureContext
+  nameWithType: ContextManager.FeatureContext
+  fullName: Reqnroll.Infrastructure.ContextManager.FeatureContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FeatureContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 140
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public FeatureContext FeatureContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.FeatureContext
+    content.vb: Public ReadOnly Property FeatureContext As FeatureContext
+  overload: Reqnroll.Infrastructure.ContextManager.FeatureContext*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.FeatureContext
+- uid: Reqnroll.Infrastructure.ContextManager.ScenarioContext
+  commentId: P:Reqnroll.Infrastructure.ContextManager.ScenarioContext
+  id: ScenarioContext
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: ScenarioContext
+  nameWithType: ContextManager.ScenarioContext
+  fullName: Reqnroll.Infrastructure.ContextManager.ScenarioContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 145
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public ScenarioContext ScenarioContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioContext
+    content.vb: Public ReadOnly Property ScenarioContext As ScenarioContext
+  overload: Reqnroll.Infrastructure.ContextManager.ScenarioContext*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.ScenarioContext
+- uid: Reqnroll.Infrastructure.ContextManager.StepContext
+  commentId: P:Reqnroll.Infrastructure.ContextManager.StepContext
+  id: StepContext
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: StepContext
+  nameWithType: ContextManager.StepContext
+  fullName: Reqnroll.Infrastructure.ContextManager.StepContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 150
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public ScenarioStepContext StepContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioStepContext
+    content.vb: Public ReadOnly Property StepContext As ScenarioStepContext
+  overload: Reqnroll.Infrastructure.ContextManager.StepContext*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.StepContext
+- uid: Reqnroll.Infrastructure.ContextManager.TestThreadContext
+  commentId: P:Reqnroll.Infrastructure.ContextManager.TestThreadContext
+  id: TestThreadContext
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: TestThreadContext
+  nameWithType: ContextManager.TestThreadContext
+  fullName: Reqnroll.Infrastructure.ContextManager.TestThreadContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestThreadContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 155
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public TestThreadContext TestThreadContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.TestThreadContext
+    content.vb: Public Property TestThreadContext As TestThreadContext
+  overload: Reqnroll.Infrastructure.ContextManager.TestThreadContext*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.TestThreadContext
+- uid: Reqnroll.Infrastructure.ContextManager.InitializeFeatureContext(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.Infrastructure.ContextManager.InitializeFeatureContext(Reqnroll.FeatureInfo)
+  id: InitializeFeatureContext(Reqnroll.FeatureInfo)
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: InitializeFeatureContext(FeatureInfo)
+  nameWithType: ContextManager.InitializeFeatureContext(FeatureInfo)
+  fullName: Reqnroll.Infrastructure.ContextManager.InitializeFeatureContext(Reqnroll.FeatureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InitializeFeatureContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 166
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void InitializeFeatureContext(FeatureInfo featureInfo)
+    parameters:
+    - id: featureInfo
+      type: Reqnroll.FeatureInfo
+    content.vb: Public Sub InitializeFeatureContext(featureInfo As FeatureInfo)
+  overload: Reqnroll.Infrastructure.ContextManager.InitializeFeatureContext*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.InitializeFeatureContext(Reqnroll.FeatureInfo)
+- uid: Reqnroll.Infrastructure.ContextManager.CleanupFeatureContext
+  commentId: M:Reqnroll.Infrastructure.ContextManager.CleanupFeatureContext
+  id: CleanupFeatureContext
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: CleanupFeatureContext()
+  nameWithType: ContextManager.CleanupFeatureContext()
+  fullName: Reqnroll.Infrastructure.ContextManager.CleanupFeatureContext()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CleanupFeatureContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 176
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void CleanupFeatureContext()
+    content.vb: Public Sub CleanupFeatureContext()
+  overload: Reqnroll.Infrastructure.ContextManager.CleanupFeatureContext*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.CleanupFeatureContext
+- uid: Reqnroll.Infrastructure.ContextManager.InitializeScenarioContext(Reqnroll.ScenarioInfo)
+  commentId: M:Reqnroll.Infrastructure.ContextManager.InitializeScenarioContext(Reqnroll.ScenarioInfo)
+  id: InitializeScenarioContext(Reqnroll.ScenarioInfo)
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: InitializeScenarioContext(ScenarioInfo)
+  nameWithType: ContextManager.InitializeScenarioContext(ScenarioInfo)
+  fullName: Reqnroll.Infrastructure.ContextManager.InitializeScenarioContext(Reqnroll.ScenarioInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InitializeScenarioContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 181
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void InitializeScenarioContext(ScenarioInfo scenarioInfo)
+    parameters:
+    - id: scenarioInfo
+      type: Reqnroll.ScenarioInfo
+    content.vb: Public Sub InitializeScenarioContext(scenarioInfo As ScenarioInfo)
+  overload: Reqnroll.Infrastructure.ContextManager.InitializeScenarioContext*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.InitializeScenarioContext(Reqnroll.ScenarioInfo)
+- uid: Reqnroll.Infrastructure.ContextManager.CleanupScenarioContext
+  commentId: M:Reqnroll.Infrastructure.ContextManager.CleanupScenarioContext
+  id: CleanupScenarioContext
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: CleanupScenarioContext()
+  nameWithType: ContextManager.CleanupScenarioContext()
+  fullName: Reqnroll.Infrastructure.ContextManager.CleanupScenarioContext()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CleanupScenarioContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 200
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void CleanupScenarioContext()
+    content.vb: Public Sub CleanupScenarioContext()
+  overload: Reqnroll.Infrastructure.ContextManager.CleanupScenarioContext*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.CleanupScenarioContext
+- uid: Reqnroll.Infrastructure.ContextManager.InitializeStepContext(Reqnroll.StepInfo)
+  commentId: M:Reqnroll.Infrastructure.ContextManager.InitializeStepContext(Reqnroll.StepInfo)
+  id: InitializeStepContext(Reqnroll.StepInfo)
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: InitializeStepContext(StepInfo)
+  nameWithType: ContextManager.InitializeStepContext(StepInfo)
+  fullName: Reqnroll.Infrastructure.ContextManager.InitializeStepContext(Reqnroll.StepInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InitializeStepContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 205
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void InitializeStepContext(StepInfo stepInfo)
+    parameters:
+    - id: stepInfo
+      type: Reqnroll.StepInfo
+    content.vb: Public Sub InitializeStepContext(stepInfo As StepInfo)
+  overload: Reqnroll.Infrastructure.ContextManager.InitializeStepContext*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.InitializeStepContext(Reqnroll.StepInfo)
+- uid: Reqnroll.Infrastructure.ContextManager.CleanupStepContext
+  commentId: M:Reqnroll.Infrastructure.ContextManager.CleanupStepContext
+  id: CleanupStepContext
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: CleanupStepContext()
+  nameWithType: ContextManager.CleanupStepContext()
+  fullName: Reqnroll.Infrastructure.ContextManager.CleanupStepContext()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CleanupStepContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 214
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void CleanupStepContext()
+    content.vb: Public Sub CleanupStepContext()
+  overload: Reqnroll.Infrastructure.ContextManager.CleanupStepContext*
+  implements:
+  - Reqnroll.Infrastructure.IContextManager.CleanupStepContext
+- uid: Reqnroll.Infrastructure.ContextManager.Dispose
+  commentId: M:Reqnroll.Infrastructure.ContextManager.Dispose
+  id: Dispose
+  parent: Reqnroll.Infrastructure.ContextManager
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ContextManager.Dispose()
+  fullName: Reqnroll.Infrastructure.ContextManager.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContextManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Dispose
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContextManager.cs
+    startLine: 221
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Reqnroll.Infrastructure.ContextManager.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Infrastructure.IContextManager
+  commentId: T:Reqnroll.Infrastructure.IContextManager
+  parent: Reqnroll.Infrastructure
+  href: Reqnroll.Infrastructure.IContextManager.html
+  name: IContextManager
+  nameWithType: IContextManager
+  fullName: Reqnroll.Infrastructure.IContextManager
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Infrastructure.ContextManager.CurrentTopLevelStepDefinitionType*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.CurrentTopLevelStepDefinitionType
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_CurrentTopLevelStepDefinitionType
+  name: CurrentTopLevelStepDefinitionType
+  nameWithType: ContextManager.CurrentTopLevelStepDefinitionType
+  fullName: Reqnroll.Infrastructure.ContextManager.CurrentTopLevelStepDefinitionType
+- uid: Reqnroll.Infrastructure.IContextManager.CurrentTopLevelStepDefinitionType
+  commentId: P:Reqnroll.Infrastructure.IContextManager.CurrentTopLevelStepDefinitionType
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_CurrentTopLevelStepDefinitionType
+  name: CurrentTopLevelStepDefinitionType
+  nameWithType: IContextManager.CurrentTopLevelStepDefinitionType
+  fullName: Reqnroll.Infrastructure.IContextManager.CurrentTopLevelStepDefinitionType
+- uid: System.Nullable{Reqnroll.Bindings.StepDefinitionType}
+  commentId: T:System.Nullable{Reqnroll.Bindings.StepDefinitionType}
+  parent: System
+  definition: System.Nullable`1
+  href: Reqnroll.Bindings.StepDefinitionType.html
+  name: StepDefinitionType?
+  nameWithType: StepDefinitionType?
+  fullName: Reqnroll.Bindings.StepDefinitionType?
+  spec.csharp:
+  - uid: Reqnroll.Bindings.StepDefinitionType
+    name: StepDefinitionType
+    href: Reqnroll.Bindings.StepDefinitionType.html
+  - name: '?'
+  spec.vb:
+  - uid: Reqnroll.Bindings.StepDefinitionType
+    name: StepDefinitionType
+    href: Reqnroll.Bindings.StepDefinitionType.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Infrastructure.ContextManager.#ctor*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.#ctor
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager__ctor_Reqnroll_Tracing_ITestTracer_Reqnroll_BoDi_IObjectContainer_Reqnroll_Infrastructure_IContainerBuilder_
+  name: ContextManager
+  nameWithType: ContextManager.ContextManager
+  fullName: Reqnroll.Infrastructure.ContextManager.ContextManager
+  nameWithType.vb: ContextManager.New
+  fullName.vb: Reqnroll.Infrastructure.ContextManager.New
+  name.vb: New
+- uid: Reqnroll.Tracing.ITestTracer
+  commentId: T:Reqnroll.Tracing.ITestTracer
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITestTracer.html
+  name: ITestTracer
+  nameWithType: ITestTracer
+  fullName: Reqnroll.Tracing.ITestTracer
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: Reqnroll.Infrastructure.IContainerBuilder
+  commentId: T:Reqnroll.Infrastructure.IContainerBuilder
+  parent: Reqnroll.Infrastructure
+  href: Reqnroll.Infrastructure.IContainerBuilder.html
+  name: IContainerBuilder
+  nameWithType: IContainerBuilder
+  fullName: Reqnroll.Infrastructure.IContainerBuilder
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.Infrastructure.ContextManager.FeatureContext*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.FeatureContext
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_FeatureContext
+  name: FeatureContext
+  nameWithType: ContextManager.FeatureContext
+  fullName: Reqnroll.Infrastructure.ContextManager.FeatureContext
+- uid: Reqnroll.Infrastructure.IContextManager.FeatureContext
+  commentId: P:Reqnroll.Infrastructure.IContextManager.FeatureContext
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_FeatureContext
+  name: FeatureContext
+  nameWithType: IContextManager.FeatureContext
+  fullName: Reqnroll.Infrastructure.IContextManager.FeatureContext
+- uid: Reqnroll.FeatureContext
+  commentId: T:Reqnroll.FeatureContext
+  parent: Reqnroll
+  href: Reqnroll.FeatureContext.html
+  name: FeatureContext
+  nameWithType: FeatureContext
+  fullName: Reqnroll.FeatureContext
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.Infrastructure.ContextManager.ScenarioContext*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.ScenarioContext
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_ScenarioContext
+  name: ScenarioContext
+  nameWithType: ContextManager.ScenarioContext
+  fullName: Reqnroll.Infrastructure.ContextManager.ScenarioContext
+- uid: Reqnroll.Infrastructure.IContextManager.ScenarioContext
+  commentId: P:Reqnroll.Infrastructure.IContextManager.ScenarioContext
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_ScenarioContext
+  name: ScenarioContext
+  nameWithType: IContextManager.ScenarioContext
+  fullName: Reqnroll.Infrastructure.IContextManager.ScenarioContext
+- uid: Reqnroll.ScenarioContext
+  commentId: T:Reqnroll.ScenarioContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioContext.html
+  name: ScenarioContext
+  nameWithType: ScenarioContext
+  fullName: Reqnroll.ScenarioContext
+- uid: Reqnroll.Infrastructure.ContextManager.StepContext*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.StepContext
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_StepContext
+  name: StepContext
+  nameWithType: ContextManager.StepContext
+  fullName: Reqnroll.Infrastructure.ContextManager.StepContext
+- uid: Reqnroll.Infrastructure.IContextManager.StepContext
+  commentId: P:Reqnroll.Infrastructure.IContextManager.StepContext
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_StepContext
+  name: StepContext
+  nameWithType: IContextManager.StepContext
+  fullName: Reqnroll.Infrastructure.IContextManager.StepContext
+- uid: Reqnroll.ScenarioStepContext
+  commentId: T:Reqnroll.ScenarioStepContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioStepContext.html
+  name: ScenarioStepContext
+  nameWithType: ScenarioStepContext
+  fullName: Reqnroll.ScenarioStepContext
+- uid: Reqnroll.Infrastructure.ContextManager.TestThreadContext*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.TestThreadContext
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_TestThreadContext
+  name: TestThreadContext
+  nameWithType: ContextManager.TestThreadContext
+  fullName: Reqnroll.Infrastructure.ContextManager.TestThreadContext
+- uid: Reqnroll.Infrastructure.IContextManager.TestThreadContext
+  commentId: P:Reqnroll.Infrastructure.IContextManager.TestThreadContext
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_TestThreadContext
+  name: TestThreadContext
+  nameWithType: IContextManager.TestThreadContext
+  fullName: Reqnroll.Infrastructure.IContextManager.TestThreadContext
+- uid: Reqnroll.TestThreadContext
+  commentId: T:Reqnroll.TestThreadContext
+  parent: Reqnroll
+  href: Reqnroll.TestThreadContext.html
+  name: TestThreadContext
+  nameWithType: TestThreadContext
+  fullName: Reqnroll.TestThreadContext
+- uid: Reqnroll.Infrastructure.ContextManager.InitializeFeatureContext*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.InitializeFeatureContext
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_InitializeFeatureContext_Reqnroll_FeatureInfo_
+  name: InitializeFeatureContext
+  nameWithType: ContextManager.InitializeFeatureContext
+  fullName: Reqnroll.Infrastructure.ContextManager.InitializeFeatureContext
+- uid: Reqnroll.Infrastructure.IContextManager.InitializeFeatureContext(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.Infrastructure.IContextManager.InitializeFeatureContext(Reqnroll.FeatureInfo)
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_InitializeFeatureContext_Reqnroll_FeatureInfo_
+  name: InitializeFeatureContext(FeatureInfo)
+  nameWithType: IContextManager.InitializeFeatureContext(FeatureInfo)
+  fullName: Reqnroll.Infrastructure.IContextManager.InitializeFeatureContext(Reqnroll.FeatureInfo)
+  spec.csharp:
+  - uid: Reqnroll.Infrastructure.IContextManager.InitializeFeatureContext(Reqnroll.FeatureInfo)
+    name: InitializeFeatureContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_InitializeFeatureContext_Reqnroll_FeatureInfo_
+  - name: (
+  - uid: Reqnroll.FeatureInfo
+    name: FeatureInfo
+    href: Reqnroll.FeatureInfo.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Infrastructure.IContextManager.InitializeFeatureContext(Reqnroll.FeatureInfo)
+    name: InitializeFeatureContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_InitializeFeatureContext_Reqnroll_FeatureInfo_
+  - name: (
+  - uid: Reqnroll.FeatureInfo
+    name: FeatureInfo
+    href: Reqnroll.FeatureInfo.html
+  - name: )
+- uid: Reqnroll.FeatureInfo
+  commentId: T:Reqnroll.FeatureInfo
+  parent: Reqnroll
+  href: Reqnroll.FeatureInfo.html
+  name: FeatureInfo
+  nameWithType: FeatureInfo
+  fullName: Reqnroll.FeatureInfo
+- uid: Reqnroll.Infrastructure.ContextManager.CleanupFeatureContext*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.CleanupFeatureContext
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_CleanupFeatureContext
+  name: CleanupFeatureContext
+  nameWithType: ContextManager.CleanupFeatureContext
+  fullName: Reqnroll.Infrastructure.ContextManager.CleanupFeatureContext
+- uid: Reqnroll.Infrastructure.IContextManager.CleanupFeatureContext
+  commentId: M:Reqnroll.Infrastructure.IContextManager.CleanupFeatureContext
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_CleanupFeatureContext
+  name: CleanupFeatureContext()
+  nameWithType: IContextManager.CleanupFeatureContext()
+  fullName: Reqnroll.Infrastructure.IContextManager.CleanupFeatureContext()
+  spec.csharp:
+  - uid: Reqnroll.Infrastructure.IContextManager.CleanupFeatureContext
+    name: CleanupFeatureContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_CleanupFeatureContext
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Infrastructure.IContextManager.CleanupFeatureContext
+    name: CleanupFeatureContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_CleanupFeatureContext
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.ContextManager.InitializeScenarioContext*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.InitializeScenarioContext
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_InitializeScenarioContext_Reqnroll_ScenarioInfo_
+  name: InitializeScenarioContext
+  nameWithType: ContextManager.InitializeScenarioContext
+  fullName: Reqnroll.Infrastructure.ContextManager.InitializeScenarioContext
+- uid: Reqnroll.Infrastructure.IContextManager.InitializeScenarioContext(Reqnroll.ScenarioInfo)
+  commentId: M:Reqnroll.Infrastructure.IContextManager.InitializeScenarioContext(Reqnroll.ScenarioInfo)
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_InitializeScenarioContext_Reqnroll_ScenarioInfo_
+  name: InitializeScenarioContext(ScenarioInfo)
+  nameWithType: IContextManager.InitializeScenarioContext(ScenarioInfo)
+  fullName: Reqnroll.Infrastructure.IContextManager.InitializeScenarioContext(Reqnroll.ScenarioInfo)
+  spec.csharp:
+  - uid: Reqnroll.Infrastructure.IContextManager.InitializeScenarioContext(Reqnroll.ScenarioInfo)
+    name: InitializeScenarioContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_InitializeScenarioContext_Reqnroll_ScenarioInfo_
+  - name: (
+  - uid: Reqnroll.ScenarioInfo
+    name: ScenarioInfo
+    href: Reqnroll.ScenarioInfo.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Infrastructure.IContextManager.InitializeScenarioContext(Reqnroll.ScenarioInfo)
+    name: InitializeScenarioContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_InitializeScenarioContext_Reqnroll_ScenarioInfo_
+  - name: (
+  - uid: Reqnroll.ScenarioInfo
+    name: ScenarioInfo
+    href: Reqnroll.ScenarioInfo.html
+  - name: )
+- uid: Reqnroll.ScenarioInfo
+  commentId: T:Reqnroll.ScenarioInfo
+  parent: Reqnroll
+  href: Reqnroll.ScenarioInfo.html
+  name: ScenarioInfo
+  nameWithType: ScenarioInfo
+  fullName: Reqnroll.ScenarioInfo
+- uid: Reqnroll.Infrastructure.ContextManager.CleanupScenarioContext*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.CleanupScenarioContext
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_CleanupScenarioContext
+  name: CleanupScenarioContext
+  nameWithType: ContextManager.CleanupScenarioContext
+  fullName: Reqnroll.Infrastructure.ContextManager.CleanupScenarioContext
+- uid: Reqnroll.Infrastructure.IContextManager.CleanupScenarioContext
+  commentId: M:Reqnroll.Infrastructure.IContextManager.CleanupScenarioContext
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_CleanupScenarioContext
+  name: CleanupScenarioContext()
+  nameWithType: IContextManager.CleanupScenarioContext()
+  fullName: Reqnroll.Infrastructure.IContextManager.CleanupScenarioContext()
+  spec.csharp:
+  - uid: Reqnroll.Infrastructure.IContextManager.CleanupScenarioContext
+    name: CleanupScenarioContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_CleanupScenarioContext
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Infrastructure.IContextManager.CleanupScenarioContext
+    name: CleanupScenarioContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_CleanupScenarioContext
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.ContextManager.InitializeStepContext*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.InitializeStepContext
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_InitializeStepContext_Reqnroll_StepInfo_
+  name: InitializeStepContext
+  nameWithType: ContextManager.InitializeStepContext
+  fullName: Reqnroll.Infrastructure.ContextManager.InitializeStepContext
+- uid: Reqnroll.Infrastructure.IContextManager.InitializeStepContext(Reqnroll.StepInfo)
+  commentId: M:Reqnroll.Infrastructure.IContextManager.InitializeStepContext(Reqnroll.StepInfo)
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_InitializeStepContext_Reqnroll_StepInfo_
+  name: InitializeStepContext(StepInfo)
+  nameWithType: IContextManager.InitializeStepContext(StepInfo)
+  fullName: Reqnroll.Infrastructure.IContextManager.InitializeStepContext(Reqnroll.StepInfo)
+  spec.csharp:
+  - uid: Reqnroll.Infrastructure.IContextManager.InitializeStepContext(Reqnroll.StepInfo)
+    name: InitializeStepContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_InitializeStepContext_Reqnroll_StepInfo_
+  - name: (
+  - uid: Reqnroll.StepInfo
+    name: StepInfo
+    href: Reqnroll.StepInfo.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Infrastructure.IContextManager.InitializeStepContext(Reqnroll.StepInfo)
+    name: InitializeStepContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_InitializeStepContext_Reqnroll_StepInfo_
+  - name: (
+  - uid: Reqnroll.StepInfo
+    name: StepInfo
+    href: Reqnroll.StepInfo.html
+  - name: )
+- uid: Reqnroll.StepInfo
+  commentId: T:Reqnroll.StepInfo
+  parent: Reqnroll
+  href: Reqnroll.StepInfo.html
+  name: StepInfo
+  nameWithType: StepInfo
+  fullName: Reqnroll.StepInfo
+- uid: Reqnroll.Infrastructure.ContextManager.CleanupStepContext*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.CleanupStepContext
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_CleanupStepContext
+  name: CleanupStepContext
+  nameWithType: ContextManager.CleanupStepContext
+  fullName: Reqnroll.Infrastructure.ContextManager.CleanupStepContext
+- uid: Reqnroll.Infrastructure.IContextManager.CleanupStepContext
+  commentId: M:Reqnroll.Infrastructure.IContextManager.CleanupStepContext
+  parent: Reqnroll.Infrastructure.IContextManager
+  href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_CleanupStepContext
+  name: CleanupStepContext()
+  nameWithType: IContextManager.CleanupStepContext()
+  fullName: Reqnroll.Infrastructure.IContextManager.CleanupStepContext()
+  spec.csharp:
+  - uid: Reqnroll.Infrastructure.IContextManager.CleanupStepContext
+    name: CleanupStepContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_CleanupStepContext
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Infrastructure.IContextManager.CleanupStepContext
+    name: CleanupStepContext
+    href: Reqnroll.Infrastructure.IContextManager.html#Reqnroll_Infrastructure_IContextManager_CleanupStepContext
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.ContextManager.Dispose*
+  commentId: Overload:Reqnroll.Infrastructure.ContextManager.Dispose
+  href: Reqnroll.Infrastructure.ContextManager.html#Reqnroll_Infrastructure_ContextManager_Dispose
+  name: Dispose
+  nameWithType: ContextManager.Dispose
+  fullName: Reqnroll.Infrastructure.ContextManager.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

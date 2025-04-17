@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Plugins.PluginType
+  commentId: T:Reqnroll.Plugins.PluginType
+  id: PluginType
+  parent: Reqnroll.Plugins
+  children:
+  - Reqnroll.Plugins.PluginType.Generator
+  - Reqnroll.Plugins.PluginType.GeneratorAndRuntime
+  - Reqnroll.Plugins.PluginType.Runtime
+  langs:
+  - csharp
+  - vb
+  name: PluginType
+  nameWithType: PluginType
+  fullName: Reqnroll.Plugins.PluginType
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/Plugins/PluginType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: PluginType
+    path: ../Reqnroll/Reqnroll/Plugins/PluginType.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum PluginType
+    content.vb: >-
+      <Flags>
+
+      Public Enum PluginType
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Reqnroll.Plugins.PluginType.Generator
+  commentId: F:Reqnroll.Plugins.PluginType.Generator
+  id: Generator
+  parent: Reqnroll.Plugins.PluginType
+  langs:
+  - csharp
+  - vb
+  name: Generator
+  nameWithType: PluginType.Generator
+  fullName: Reqnroll.Plugins.PluginType.Generator
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Plugins/PluginType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Generator
+    path: ../Reqnroll/Reqnroll/Plugins/PluginType.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: Generator = 1
+    return:
+      type: Reqnroll.Plugins.PluginType
+- uid: Reqnroll.Plugins.PluginType.Runtime
+  commentId: F:Reqnroll.Plugins.PluginType.Runtime
+  id: Runtime
+  parent: Reqnroll.Plugins.PluginType
+  langs:
+  - csharp
+  - vb
+  name: Runtime
+  nameWithType: PluginType.Runtime
+  fullName: Reqnroll.Plugins.PluginType.Runtime
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Plugins/PluginType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Runtime
+    path: ../Reqnroll/Reqnroll/Plugins/PluginType.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: Runtime = 2
+    return:
+      type: Reqnroll.Plugins.PluginType
+- uid: Reqnroll.Plugins.PluginType.GeneratorAndRuntime
+  commentId: F:Reqnroll.Plugins.PluginType.GeneratorAndRuntime
+  id: GeneratorAndRuntime
+  parent: Reqnroll.Plugins.PluginType
+  langs:
+  - csharp
+  - vb
+  name: GeneratorAndRuntime
+  nameWithType: PluginType.GeneratorAndRuntime
+  fullName: Reqnroll.Plugins.PluginType.GeneratorAndRuntime
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Plugins/PluginType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GeneratorAndRuntime
+    path: ../Reqnroll/Reqnroll/Plugins/PluginType.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: GeneratorAndRuntime = Generator | Runtime
+    return:
+      type: Reqnroll.Plugins.PluginType
+    content.vb: GeneratorAndRuntime = Generator Or Runtime
+references:
+- uid: Reqnroll.Plugins
+  commentId: N:Reqnroll.Plugins
+  href: Reqnroll.html
+  name: Reqnroll.Plugins
+  nameWithType: Reqnroll.Plugins
+  fullName: Reqnroll.Plugins
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+- uid: Reqnroll.Plugins.PluginType
+  commentId: T:Reqnroll.Plugins.PluginType
+  parent: Reqnroll.Plugins
+  href: Reqnroll.Plugins.PluginType.html
+  name: PluginType
+  nameWithType: PluginType
+  fullName: Reqnroll.Plugins.PluginType

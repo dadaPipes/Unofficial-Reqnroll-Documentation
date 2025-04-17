@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.IAnalyticsEventProvider
+  commentId: T:Reqnroll.Analytics.IAnalyticsEventProvider
+  id: IAnalyticsEventProvider
+  parent: Reqnroll.Analytics
+  children:
+  - Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectCompilingEvent(System.String,System.String,System.String,System.String,System.String)
+  - Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectRunningEvent(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IAnalyticsEventProvider
+  nameWithType: IAnalyticsEventProvider
+  fullName: Reqnroll.Analytics.IAnalyticsEventProvider
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEventProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IAnalyticsEventProvider
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEventProvider.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: public interface IAnalyticsEventProvider
+    content.vb: Public Interface IAnalyticsEventProvider
+- uid: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectCompilingEvent(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectCompilingEvent(System.String,System.String,System.String,System.String,System.String)
+  id: CreateProjectCompilingEvent(System.String,System.String,System.String,System.String,System.String)
+  parent: Reqnroll.Analytics.IAnalyticsEventProvider
+  langs:
+  - csharp
+  - vb
+  name: CreateProjectCompilingEvent(string, string, string, string, string)
+  nameWithType: IAnalyticsEventProvider.CreateProjectCompilingEvent(string, string, string, string, string)
+  fullName: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectCompilingEvent(string, string, string, string, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEventProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateProjectCompilingEvent
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEventProvider.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: ReqnrollProjectCompilingEvent CreateProjectCompilingEvent(string msbuildVersion, string assemblyName, string targetFrameworks, string targetFramework, string projectGuid)
+    parameters:
+    - id: msbuildVersion
+      type: System.String
+    - id: assemblyName
+      type: System.String
+    - id: targetFrameworks
+      type: System.String
+    - id: targetFramework
+      type: System.String
+    - id: projectGuid
+      type: System.String
+    return:
+      type: Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+    content.vb: Function CreateProjectCompilingEvent(msbuildVersion As String, assemblyName As String, targetFrameworks As String, targetFramework As String, projectGuid As String) As ReqnrollProjectCompilingEvent
+  overload: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectCompilingEvent*
+  nameWithType.vb: IAnalyticsEventProvider.CreateProjectCompilingEvent(String, String, String, String, String)
+  fullName.vb: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectCompilingEvent(String, String, String, String, String)
+  name.vb: CreateProjectCompilingEvent(String, String, String, String, String)
+- uid: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectRunningEvent(System.String)
+  commentId: M:Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectRunningEvent(System.String)
+  id: CreateProjectRunningEvent(System.String)
+  parent: Reqnroll.Analytics.IAnalyticsEventProvider
+  langs:
+  - csharp
+  - vb
+  name: CreateProjectRunningEvent(string)
+  nameWithType: IAnalyticsEventProvider.CreateProjectRunningEvent(string)
+  fullName: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectRunningEvent(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/IAnalyticsEventProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateProjectRunningEvent
+    path: ../Reqnroll/Reqnroll/Analytics/IAnalyticsEventProvider.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics
+  syntax:
+    content: ReqnrollProjectRunningEvent CreateProjectRunningEvent(string testAssemblyName)
+    parameters:
+    - id: testAssemblyName
+      type: System.String
+    return:
+      type: Reqnroll.Analytics.ReqnrollProjectRunningEvent
+    content.vb: Function CreateProjectRunningEvent(testAssemblyName As String) As ReqnrollProjectRunningEvent
+  overload: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectRunningEvent*
+  nameWithType.vb: IAnalyticsEventProvider.CreateProjectRunningEvent(String)
+  fullName.vb: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectRunningEvent(String)
+  name.vb: CreateProjectRunningEvent(String)
+references:
+- uid: Reqnroll.Analytics
+  commentId: N:Reqnroll.Analytics
+  href: Reqnroll.html
+  name: Reqnroll.Analytics
+  nameWithType: Reqnroll.Analytics
+  fullName: Reqnroll.Analytics
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+- uid: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectCompilingEvent*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectCompilingEvent
+  href: Reqnroll.Analytics.IAnalyticsEventProvider.html#Reqnroll_Analytics_IAnalyticsEventProvider_CreateProjectCompilingEvent_System_String_System_String_System_String_System_String_System_String_
+  name: CreateProjectCompilingEvent
+  nameWithType: IAnalyticsEventProvider.CreateProjectCompilingEvent
+  fullName: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectCompilingEvent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+  commentId: T:Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.ReqnrollProjectCompilingEvent.html
+  name: ReqnrollProjectCompilingEvent
+  nameWithType: ReqnrollProjectCompilingEvent
+  fullName: Reqnroll.Analytics.ReqnrollProjectCompilingEvent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectRunningEvent*
+  commentId: Overload:Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectRunningEvent
+  href: Reqnroll.Analytics.IAnalyticsEventProvider.html#Reqnroll_Analytics_IAnalyticsEventProvider_CreateProjectRunningEvent_System_String_
+  name: CreateProjectRunningEvent
+  nameWithType: IAnalyticsEventProvider.CreateProjectRunningEvent
+  fullName: Reqnroll.Analytics.IAnalyticsEventProvider.CreateProjectRunningEvent
+- uid: Reqnroll.Analytics.ReqnrollProjectRunningEvent
+  commentId: T:Reqnroll.Analytics.ReqnrollProjectRunningEvent
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.ReqnrollProjectRunningEvent.html
+  name: ReqnrollProjectRunningEvent
+  nameWithType: ReqnrollProjectRunningEvent
+  fullName: Reqnroll.Analytics.ReqnrollProjectRunningEvent

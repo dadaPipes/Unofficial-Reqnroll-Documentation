@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IStepArgumentTypeConverter
+  commentId: T:Reqnroll.Bindings.IStepArgumentTypeConverter
+  id: IStepArgumentTypeConverter
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IStepArgumentTypeConverter.CanConvert(System.Object,Reqnroll.Bindings.Reflection.IBindingType,System.Globalization.CultureInfo)
+  - Reqnroll.Bindings.IStepArgumentTypeConverter.ConvertAsync(System.Object,Reqnroll.Bindings.Reflection.IBindingType,System.Globalization.CultureInfo)
+  langs:
+  - csharp
+  - vb
+  name: IStepArgumentTypeConverter
+  nameWithType: IStepArgumentTypeConverter
+  fullName: Reqnroll.Bindings.IStepArgumentTypeConverter
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/IStepArgumentTypeConverter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IStepArgumentTypeConverter
+    path: ../Reqnroll/Reqnroll/Bindings/IStepArgumentTypeConverter.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public interface IStepArgumentTypeConverter
+    content.vb: Public Interface IStepArgumentTypeConverter
+- uid: Reqnroll.Bindings.IStepArgumentTypeConverter.ConvertAsync(System.Object,Reqnroll.Bindings.Reflection.IBindingType,System.Globalization.CultureInfo)
+  commentId: M:Reqnroll.Bindings.IStepArgumentTypeConverter.ConvertAsync(System.Object,Reqnroll.Bindings.Reflection.IBindingType,System.Globalization.CultureInfo)
+  id: ConvertAsync(System.Object,Reqnroll.Bindings.Reflection.IBindingType,System.Globalization.CultureInfo)
+  parent: Reqnroll.Bindings.IStepArgumentTypeConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertAsync(object, IBindingType, CultureInfo)
+  nameWithType: IStepArgumentTypeConverter.ConvertAsync(object, IBindingType, CultureInfo)
+  fullName: Reqnroll.Bindings.IStepArgumentTypeConverter.ConvertAsync(object, Reqnroll.Bindings.Reflection.IBindingType, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IStepArgumentTypeConverter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ConvertAsync
+    path: ../Reqnroll/Reqnroll/Bindings/IStepArgumentTypeConverter.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: Task<object> ConvertAsync(object value, IBindingType typeToConvertTo, CultureInfo cultureInfo)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: typeToConvertTo
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    - id: cultureInfo
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Threading.Tasks.Task{System.Object}
+    content.vb: Function ConvertAsync(value As Object, typeToConvertTo As IBindingType, cultureInfo As CultureInfo) As Task(Of Object)
+  overload: Reqnroll.Bindings.IStepArgumentTypeConverter.ConvertAsync*
+  nameWithType.vb: IStepArgumentTypeConverter.ConvertAsync(Object, IBindingType, CultureInfo)
+  fullName.vb: Reqnroll.Bindings.IStepArgumentTypeConverter.ConvertAsync(Object, Reqnroll.Bindings.Reflection.IBindingType, System.Globalization.CultureInfo)
+  name.vb: ConvertAsync(Object, IBindingType, CultureInfo)
+- uid: Reqnroll.Bindings.IStepArgumentTypeConverter.CanConvert(System.Object,Reqnroll.Bindings.Reflection.IBindingType,System.Globalization.CultureInfo)
+  commentId: M:Reqnroll.Bindings.IStepArgumentTypeConverter.CanConvert(System.Object,Reqnroll.Bindings.Reflection.IBindingType,System.Globalization.CultureInfo)
+  id: CanConvert(System.Object,Reqnroll.Bindings.Reflection.IBindingType,System.Globalization.CultureInfo)
+  parent: Reqnroll.Bindings.IStepArgumentTypeConverter
+  langs:
+  - csharp
+  - vb
+  name: CanConvert(object, IBindingType, CultureInfo)
+  nameWithType: IStepArgumentTypeConverter.CanConvert(object, IBindingType, CultureInfo)
+  fullName: Reqnroll.Bindings.IStepArgumentTypeConverter.CanConvert(object, Reqnroll.Bindings.Reflection.IBindingType, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IStepArgumentTypeConverter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CanConvert
+    path: ../Reqnroll/Reqnroll/Bindings/IStepArgumentTypeConverter.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: bool CanConvert(object value, IBindingType typeToConvertTo, CultureInfo cultureInfo)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: typeToConvertTo
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    - id: cultureInfo
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Boolean
+    content.vb: Function CanConvert(value As Object, typeToConvertTo As IBindingType, cultureInfo As CultureInfo) As Boolean
+  overload: Reqnroll.Bindings.IStepArgumentTypeConverter.CanConvert*
+  nameWithType.vb: IStepArgumentTypeConverter.CanConvert(Object, IBindingType, CultureInfo)
+  fullName.vb: Reqnroll.Bindings.IStepArgumentTypeConverter.CanConvert(Object, Reqnroll.Bindings.Reflection.IBindingType, System.Globalization.CultureInfo)
+  name.vb: CanConvert(Object, IBindingType, CultureInfo)
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IStepArgumentTypeConverter.ConvertAsync*
+  commentId: Overload:Reqnroll.Bindings.IStepArgumentTypeConverter.ConvertAsync
+  href: Reqnroll.Bindings.IStepArgumentTypeConverter.html#Reqnroll_Bindings_IStepArgumentTypeConverter_ConvertAsync_System_Object_Reqnroll_Bindings_Reflection_IBindingType_System_Globalization_CultureInfo_
+  name: ConvertAsync
+  nameWithType: IStepArgumentTypeConverter.ConvertAsync
+  fullName: Reqnroll.Bindings.IStepArgumentTypeConverter.ConvertAsync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Bindings.Reflection.IBindingType
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingType
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingType.html
+  name: IBindingType
+  nameWithType: IBindingType
+  fullName: Reqnroll.Bindings.Reflection.IBindingType
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Threading.Tasks.Task{System.Object}
+  commentId: T:System.Threading.Tasks.Task{System.Object}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<object>
+  nameWithType: Task<object>
+  fullName: System.Threading.Tasks.Task<object>
+  nameWithType.vb: Task(Of Object)
+  fullName.vb: System.Threading.Tasks.Task(Of Object)
+  name.vb: Task(Of Object)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Reqnroll.Bindings.IStepArgumentTypeConverter.CanConvert*
+  commentId: Overload:Reqnroll.Bindings.IStepArgumentTypeConverter.CanConvert
+  href: Reqnroll.Bindings.IStepArgumentTypeConverter.html#Reqnroll_Bindings_IStepArgumentTypeConverter_CanConvert_System_Object_Reqnroll_Bindings_Reflection_IBindingType_System_Globalization_CultureInfo_
+  name: CanConvert
+  nameWithType: IStepArgumentTypeConverter.CanConvert
+  fullName: Reqnroll.Bindings.IStepArgumentTypeConverter.CanConvert
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

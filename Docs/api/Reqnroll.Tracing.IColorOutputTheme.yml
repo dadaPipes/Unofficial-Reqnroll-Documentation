@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.IColorOutputTheme
+  commentId: T:Reqnroll.Tracing.IColorOutputTheme
+  id: IColorOutputTheme
+  parent: Reqnroll.Tracing
+  children:
+  - Reqnroll.Tracing.IColorOutputTheme.Done
+  - Reqnroll.Tracing.IColorOutputTheme.Error
+  - Reqnroll.Tracing.IColorOutputTheme.Keyword
+  - Reqnroll.Tracing.IColorOutputTheme.Warning
+  langs:
+  - csharp
+  - vb
+  name: IColorOutputTheme
+  nameWithType: IColorOutputTheme
+  fullName: Reqnroll.Tracing.IColorOutputTheme
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputTheme.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IColorOutputTheme
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputTheme.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public interface IColorOutputTheme
+    content.vb: Public Interface IColorOutputTheme
+- uid: Reqnroll.Tracing.IColorOutputTheme.Warning
+  commentId: P:Reqnroll.Tracing.IColorOutputTheme.Warning
+  id: Warning
+  parent: Reqnroll.Tracing.IColorOutputTheme
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: IColorOutputTheme.Warning
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Warning
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputTheme.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Warning
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputTheme.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: AnsiColor Warning { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Tracing.AnsiColor.AnsiColor
+    content.vb: Property Warning As AnsiColor
+  overload: Reqnroll.Tracing.IColorOutputTheme.Warning*
+- uid: Reqnroll.Tracing.IColorOutputTheme.Error
+  commentId: P:Reqnroll.Tracing.IColorOutputTheme.Error
+  id: Error
+  parent: Reqnroll.Tracing.IColorOutputTheme
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: IColorOutputTheme.Error
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Error
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputTheme.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Error
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputTheme.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: AnsiColor Error { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Tracing.AnsiColor.AnsiColor
+    content.vb: Property [Error] As AnsiColor
+  overload: Reqnroll.Tracing.IColorOutputTheme.Error*
+- uid: Reqnroll.Tracing.IColorOutputTheme.Done
+  commentId: P:Reqnroll.Tracing.IColorOutputTheme.Done
+  id: Done
+  parent: Reqnroll.Tracing.IColorOutputTheme
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: IColorOutputTheme.Done
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Done
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputTheme.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Done
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputTheme.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: AnsiColor Done { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Tracing.AnsiColor.AnsiColor
+    content.vb: Property Done As AnsiColor
+  overload: Reqnroll.Tracing.IColorOutputTheme.Done*
+- uid: Reqnroll.Tracing.IColorOutputTheme.Keyword
+  commentId: P:Reqnroll.Tracing.IColorOutputTheme.Keyword
+  id: Keyword
+  parent: Reqnroll.Tracing.IColorOutputTheme
+  langs:
+  - csharp
+  - vb
+  name: Keyword
+  nameWithType: IColorOutputTheme.Keyword
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Keyword
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputTheme.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Keyword
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputTheme.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: AnsiColor Keyword { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Tracing.AnsiColor.AnsiColor
+    content.vb: Property Keyword As AnsiColor
+  overload: Reqnroll.Tracing.IColorOutputTheme.Keyword*
+references:
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: Reqnroll.Tracing.IColorOutputTheme.Warning*
+  commentId: Overload:Reqnroll.Tracing.IColorOutputTheme.Warning
+  href: Reqnroll.Tracing.IColorOutputTheme.html#Reqnroll_Tracing_IColorOutputTheme_Warning
+  name: Warning
+  nameWithType: IColorOutputTheme.Warning
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Warning
+- uid: Reqnroll.Tracing.AnsiColor.AnsiColor
+  commentId: T:Reqnroll.Tracing.AnsiColor.AnsiColor
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.AnsiColor.html
+  name: AnsiColor
+  nameWithType: AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor.AnsiColor
+- uid: Reqnroll.Tracing.AnsiColor
+  commentId: N:Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.html
+  name: Reqnroll.Tracing.AnsiColor
+  nameWithType: Reqnroll.Tracing.AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+- uid: Reqnroll.Tracing.IColorOutputTheme.Error*
+  commentId: Overload:Reqnroll.Tracing.IColorOutputTheme.Error
+  href: Reqnroll.Tracing.IColorOutputTheme.html#Reqnroll_Tracing_IColorOutputTheme_Error
+  name: Error
+  nameWithType: IColorOutputTheme.Error
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Error
+- uid: Reqnroll.Tracing.IColorOutputTheme.Done*
+  commentId: Overload:Reqnroll.Tracing.IColorOutputTheme.Done
+  href: Reqnroll.Tracing.IColorOutputTheme.html#Reqnroll_Tracing_IColorOutputTheme_Done
+  name: Done
+  nameWithType: IColorOutputTheme.Done
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Done
+- uid: Reqnroll.Tracing.IColorOutputTheme.Keyword*
+  commentId: Overload:Reqnroll.Tracing.IColorOutputTheme.Keyword
+  href: Reqnroll.Tracing.IColorOutputTheme.html#Reqnroll_Tracing_IColorOutputTheme_Keyword
+  name: Keyword
+  nameWithType: IColorOutputTheme.Keyword
+  fullName: Reqnroll.Tracing.IColorOutputTheme.Keyword

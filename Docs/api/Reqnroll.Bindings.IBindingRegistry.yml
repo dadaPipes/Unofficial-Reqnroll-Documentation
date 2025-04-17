@@ -1,0 +1,750 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IBindingRegistry
+  commentId: T:Reqnroll.Bindings.IBindingRegistry
+  id: IBindingRegistry
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IBindingRegistry.GetConsideredStepDefinitions(Reqnroll.Bindings.StepDefinitionType,System.String)
+  - Reqnroll.Bindings.IBindingRegistry.GetErrorMessages
+  - Reqnroll.Bindings.IBindingRegistry.GetHooks
+  - Reqnroll.Bindings.IBindingRegistry.GetHooks(Reqnroll.Bindings.HookType)
+  - Reqnroll.Bindings.IBindingRegistry.GetStepDefinitions
+  - Reqnroll.Bindings.IBindingRegistry.GetStepTransformations
+  - Reqnroll.Bindings.IBindingRegistry.IsValid
+  - Reqnroll.Bindings.IBindingRegistry.Ready
+  - Reqnroll.Bindings.IBindingRegistry.RegisterGenericBindingError(Reqnroll.Bindings.BindingError)
+  - Reqnroll.Bindings.IBindingRegistry.RegisterHookBinding(Reqnroll.Bindings.IHookBinding)
+  - Reqnroll.Bindings.IBindingRegistry.RegisterStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  - Reqnroll.Bindings.IBindingRegistry.RegisterStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  langs:
+  - csharp
+  - vb
+  name: IBindingRegistry
+  nameWithType: IBindingRegistry
+  fullName: Reqnroll.Bindings.IBindingRegistry
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IBindingRegistry
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public interface IBindingRegistry
+    content.vb: Public Interface IBindingRegistry
+- uid: Reqnroll.Bindings.IBindingRegistry.Ready
+  commentId: P:Reqnroll.Bindings.IBindingRegistry.Ready
+  id: Ready
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: Ready
+  nameWithType: IBindingRegistry.Ready
+  fullName: Reqnroll.Bindings.IBindingRegistry.Ready
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Ready
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: bool Ready { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Ready As Boolean
+  overload: Reqnroll.Bindings.IBindingRegistry.Ready*
+- uid: Reqnroll.Bindings.IBindingRegistry.IsValid
+  commentId: P:Reqnroll.Bindings.IBindingRegistry.IsValid
+  id: IsValid
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: IBindingRegistry.IsValid
+  fullName: Reqnroll.Bindings.IBindingRegistry.IsValid
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsValid
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: bool IsValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsValid As Boolean
+  overload: Reqnroll.Bindings.IBindingRegistry.IsValid*
+- uid: Reqnroll.Bindings.IBindingRegistry.GetStepDefinitions
+  commentId: M:Reqnroll.Bindings.IBindingRegistry.GetStepDefinitions
+  id: GetStepDefinitions
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: GetStepDefinitions()
+  nameWithType: IBindingRegistry.GetStepDefinitions()
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetStepDefinitions()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetStepDefinitions
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IEnumerable<IStepDefinitionBinding> GetStepDefinitions()
+    return:
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepDefinitionBinding}
+    content.vb: Function GetStepDefinitions() As IEnumerable(Of IStepDefinitionBinding)
+  overload: Reqnroll.Bindings.IBindingRegistry.GetStepDefinitions*
+- uid: Reqnroll.Bindings.IBindingRegistry.GetHooks
+  commentId: M:Reqnroll.Bindings.IBindingRegistry.GetHooks
+  id: GetHooks
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: GetHooks()
+  nameWithType: IBindingRegistry.GetHooks()
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetHooks()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetHooks
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IEnumerable<IHookBinding> GetHooks()
+    return:
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IHookBinding}
+    content.vb: Function GetHooks() As IEnumerable(Of IHookBinding)
+  overload: Reqnroll.Bindings.IBindingRegistry.GetHooks*
+- uid: Reqnroll.Bindings.IBindingRegistry.GetConsideredStepDefinitions(Reqnroll.Bindings.StepDefinitionType,System.String)
+  commentId: M:Reqnroll.Bindings.IBindingRegistry.GetConsideredStepDefinitions(Reqnroll.Bindings.StepDefinitionType,System.String)
+  id: GetConsideredStepDefinitions(Reqnroll.Bindings.StepDefinitionType,System.String)
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: GetConsideredStepDefinitions(StepDefinitionType, string)
+  nameWithType: IBindingRegistry.GetConsideredStepDefinitions(StepDefinitionType, string)
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetConsideredStepDefinitions(Reqnroll.Bindings.StepDefinitionType, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetConsideredStepDefinitions
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IEnumerable<IStepDefinitionBinding> GetConsideredStepDefinitions(StepDefinitionType stepDefinitionType, string stepText = null)
+    parameters:
+    - id: stepDefinitionType
+      type: Reqnroll.Bindings.StepDefinitionType
+    - id: stepText
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepDefinitionBinding}
+    content.vb: Function GetConsideredStepDefinitions(stepDefinitionType As StepDefinitionType, stepText As String = Nothing) As IEnumerable(Of IStepDefinitionBinding)
+  overload: Reqnroll.Bindings.IBindingRegistry.GetConsideredStepDefinitions*
+  nameWithType.vb: IBindingRegistry.GetConsideredStepDefinitions(StepDefinitionType, String)
+  fullName.vb: Reqnroll.Bindings.IBindingRegistry.GetConsideredStepDefinitions(Reqnroll.Bindings.StepDefinitionType, String)
+  name.vb: GetConsideredStepDefinitions(StepDefinitionType, String)
+- uid: Reqnroll.Bindings.IBindingRegistry.GetHooks(Reqnroll.Bindings.HookType)
+  commentId: M:Reqnroll.Bindings.IBindingRegistry.GetHooks(Reqnroll.Bindings.HookType)
+  id: GetHooks(Reqnroll.Bindings.HookType)
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: GetHooks(HookType)
+  nameWithType: IBindingRegistry.GetHooks(HookType)
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetHooks(Reqnroll.Bindings.HookType)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetHooks
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IEnumerable<IHookBinding> GetHooks(HookType bindingEvent)
+    parameters:
+    - id: bindingEvent
+      type: Reqnroll.Bindings.HookType
+    return:
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IHookBinding}
+    content.vb: Function GetHooks(bindingEvent As HookType) As IEnumerable(Of IHookBinding)
+  overload: Reqnroll.Bindings.IBindingRegistry.GetHooks*
+- uid: Reqnroll.Bindings.IBindingRegistry.GetStepTransformations
+  commentId: M:Reqnroll.Bindings.IBindingRegistry.GetStepTransformations
+  id: GetStepTransformations
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: GetStepTransformations()
+  nameWithType: IBindingRegistry.GetStepTransformations()
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetStepTransformations()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetStepTransformations
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IEnumerable<IStepArgumentTransformationBinding> GetStepTransformations()
+    return:
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepArgumentTransformationBinding}
+    content.vb: Function GetStepTransformations() As IEnumerable(Of IStepArgumentTransformationBinding)
+  overload: Reqnroll.Bindings.IBindingRegistry.GetStepTransformations*
+- uid: Reqnroll.Bindings.IBindingRegistry.GetErrorMessages
+  commentId: M:Reqnroll.Bindings.IBindingRegistry.GetErrorMessages
+  id: GetErrorMessages
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: GetErrorMessages()
+  nameWithType: IBindingRegistry.GetErrorMessages()
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetErrorMessages()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetErrorMessages
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IEnumerable<BindingError> GetErrorMessages()
+    return:
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.BindingError}
+    content.vb: Function GetErrorMessages() As IEnumerable(Of BindingError)
+  overload: Reqnroll.Bindings.IBindingRegistry.GetErrorMessages*
+- uid: Reqnroll.Bindings.IBindingRegistry.RegisterStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  commentId: M:Reqnroll.Bindings.IBindingRegistry.RegisterStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  id: RegisterStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: RegisterStepDefinitionBinding(IStepDefinitionBinding)
+  nameWithType: IBindingRegistry.RegisterStepDefinitionBinding(IStepDefinitionBinding)
+  fullName: Reqnroll.Bindings.IBindingRegistry.RegisterStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterStepDefinitionBinding
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: void RegisterStepDefinitionBinding(IStepDefinitionBinding stepDefinitionBinding)
+    parameters:
+    - id: stepDefinitionBinding
+      type: Reqnroll.Bindings.IStepDefinitionBinding
+    content.vb: Sub RegisterStepDefinitionBinding(stepDefinitionBinding As IStepDefinitionBinding)
+  overload: Reqnroll.Bindings.IBindingRegistry.RegisterStepDefinitionBinding*
+- uid: Reqnroll.Bindings.IBindingRegistry.RegisterHookBinding(Reqnroll.Bindings.IHookBinding)
+  commentId: M:Reqnroll.Bindings.IBindingRegistry.RegisterHookBinding(Reqnroll.Bindings.IHookBinding)
+  id: RegisterHookBinding(Reqnroll.Bindings.IHookBinding)
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: RegisterHookBinding(IHookBinding)
+  nameWithType: IBindingRegistry.RegisterHookBinding(IHookBinding)
+  fullName: Reqnroll.Bindings.IBindingRegistry.RegisterHookBinding(Reqnroll.Bindings.IHookBinding)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterHookBinding
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: void RegisterHookBinding(IHookBinding hookBinding)
+    parameters:
+    - id: hookBinding
+      type: Reqnroll.Bindings.IHookBinding
+    content.vb: Sub RegisterHookBinding(hookBinding As IHookBinding)
+  overload: Reqnroll.Bindings.IBindingRegistry.RegisterHookBinding*
+- uid: Reqnroll.Bindings.IBindingRegistry.RegisterStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  commentId: M:Reqnroll.Bindings.IBindingRegistry.RegisterStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  id: RegisterStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: RegisterStepArgumentTransformationBinding(IStepArgumentTransformationBinding)
+  nameWithType: IBindingRegistry.RegisterStepArgumentTransformationBinding(IStepArgumentTransformationBinding)
+  fullName: Reqnroll.Bindings.IBindingRegistry.RegisterStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterStepArgumentTransformationBinding
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: void RegisterStepArgumentTransformationBinding(IStepArgumentTransformationBinding stepArgumentTransformationBinding)
+    parameters:
+    - id: stepArgumentTransformationBinding
+      type: Reqnroll.Bindings.IStepArgumentTransformationBinding
+    content.vb: Sub RegisterStepArgumentTransformationBinding(stepArgumentTransformationBinding As IStepArgumentTransformationBinding)
+  overload: Reqnroll.Bindings.IBindingRegistry.RegisterStepArgumentTransformationBinding*
+- uid: Reqnroll.Bindings.IBindingRegistry.RegisterGenericBindingError(Reqnroll.Bindings.BindingError)
+  commentId: M:Reqnroll.Bindings.IBindingRegistry.RegisterGenericBindingError(Reqnroll.Bindings.BindingError)
+  id: RegisterGenericBindingError(Reqnroll.Bindings.BindingError)
+  parent: Reqnroll.Bindings.IBindingRegistry
+  langs:
+  - csharp
+  - vb
+  name: RegisterGenericBindingError(BindingError)
+  nameWithType: IBindingRegistry.RegisterGenericBindingError(BindingError)
+  fullName: Reqnroll.Bindings.IBindingRegistry.RegisterGenericBindingError(Reqnroll.Bindings.BindingError)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingRegistry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterGenericBindingError
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingRegistry.cs
+    startLine: 19
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: void RegisterGenericBindingError(BindingError error)
+    parameters:
+    - id: error
+      type: Reqnroll.Bindings.BindingError
+    content.vb: Sub RegisterGenericBindingError([error] As BindingError)
+  overload: Reqnroll.Bindings.IBindingRegistry.RegisterGenericBindingError*
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IBindingRegistry.Ready*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.Ready
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_Ready
+  name: Ready
+  nameWithType: IBindingRegistry.Ready
+  fullName: Reqnroll.Bindings.IBindingRegistry.Ready
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.IBindingRegistry.IsValid*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.IsValid
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_IsValid
+  name: IsValid
+  nameWithType: IBindingRegistry.IsValid
+  fullName: Reqnroll.Bindings.IBindingRegistry.IsValid
+- uid: Reqnroll.Bindings.IBindingRegistry.GetStepDefinitions*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.GetStepDefinitions
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_GetStepDefinitions
+  name: GetStepDefinitions
+  nameWithType: IBindingRegistry.GetStepDefinitions
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetStepDefinitions
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepDefinitionBinding}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepDefinitionBinding}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IStepDefinitionBinding>
+  nameWithType: IEnumerable<IStepDefinitionBinding>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.Bindings.IStepDefinitionBinding>
+  nameWithType.vb: IEnumerable(Of IStepDefinitionBinding)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.IStepDefinitionBinding)
+  name.vb: IEnumerable(Of IStepDefinitionBinding)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.Bindings.IStepDefinitionBinding
+    name: IStepDefinitionBinding
+    href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.IStepDefinitionBinding
+    name: IStepDefinitionBinding
+    href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.Bindings.IBindingRegistry.GetHooks*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.GetHooks
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_GetHooks
+  name: GetHooks
+  nameWithType: IBindingRegistry.GetHooks
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetHooks
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IHookBinding}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IHookBinding}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IHookBinding>
+  nameWithType: IEnumerable<IHookBinding>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.Bindings.IHookBinding>
+  nameWithType.vb: IEnumerable(Of IHookBinding)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.IHookBinding)
+  name.vb: IEnumerable(Of IHookBinding)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.Bindings.IHookBinding
+    name: IHookBinding
+    href: Reqnroll.Bindings.IHookBinding.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.IHookBinding
+    name: IHookBinding
+    href: Reqnroll.Bindings.IHookBinding.html
+  - name: )
+- uid: Reqnroll.Bindings.IBindingRegistry.GetConsideredStepDefinitions*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.GetConsideredStepDefinitions
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_GetConsideredStepDefinitions_Reqnroll_Bindings_StepDefinitionType_System_String_
+  name: GetConsideredStepDefinitions
+  nameWithType: IBindingRegistry.GetConsideredStepDefinitions
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetConsideredStepDefinitions
+- uid: Reqnroll.Bindings.StepDefinitionType
+  commentId: T:Reqnroll.Bindings.StepDefinitionType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionType.html
+  name: StepDefinitionType
+  nameWithType: StepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.HookType
+  commentId: T:Reqnroll.Bindings.HookType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.HookType.html
+  name: HookType
+  nameWithType: HookType
+  fullName: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.IBindingRegistry.GetStepTransformations*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.GetStepTransformations
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_GetStepTransformations
+  name: GetStepTransformations
+  nameWithType: IBindingRegistry.GetStepTransformations
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetStepTransformations
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepArgumentTransformationBinding}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepArgumentTransformationBinding}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IStepArgumentTransformationBinding>
+  nameWithType: IEnumerable<IStepArgumentTransformationBinding>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.Bindings.IStepArgumentTransformationBinding>
+  nameWithType.vb: IEnumerable(Of IStepArgumentTransformationBinding)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.IStepArgumentTransformationBinding)
+  name.vb: IEnumerable(Of IStepArgumentTransformationBinding)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+    name: IStepArgumentTransformationBinding
+    href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+    name: IStepArgumentTransformationBinding
+    href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html
+  - name: )
+- uid: Reqnroll.Bindings.IBindingRegistry.GetErrorMessages*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.GetErrorMessages
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_GetErrorMessages
+  name: GetErrorMessages
+  nameWithType: IBindingRegistry.GetErrorMessages
+  fullName: Reqnroll.Bindings.IBindingRegistry.GetErrorMessages
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.BindingError}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.Bindings.BindingError}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<BindingError>
+  nameWithType: IEnumerable<BindingError>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.Bindings.BindingError>
+  nameWithType.vb: IEnumerable(Of BindingError)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.BindingError)
+  name.vb: IEnumerable(Of BindingError)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.Bindings.BindingError
+    name: BindingError
+    href: Reqnroll.Bindings.BindingError.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingError
+    name: BindingError
+    href: Reqnroll.Bindings.BindingError.html
+  - name: )
+- uid: Reqnroll.Bindings.IBindingRegistry.RegisterStepDefinitionBinding*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.RegisterStepDefinitionBinding
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_RegisterStepDefinitionBinding_Reqnroll_Bindings_IStepDefinitionBinding_
+  name: RegisterStepDefinitionBinding
+  nameWithType: IBindingRegistry.RegisterStepDefinitionBinding
+  fullName: Reqnroll.Bindings.IBindingRegistry.RegisterStepDefinitionBinding
+- uid: Reqnroll.Bindings.IStepDefinitionBinding
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  name: IStepDefinitionBinding
+  nameWithType: IStepDefinitionBinding
+  fullName: Reqnroll.Bindings.IStepDefinitionBinding
+- uid: Reqnroll.Bindings.IBindingRegistry.RegisterHookBinding*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.RegisterHookBinding
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_RegisterHookBinding_Reqnroll_Bindings_IHookBinding_
+  name: RegisterHookBinding
+  nameWithType: IBindingRegistry.RegisterHookBinding
+  fullName: Reqnroll.Bindings.IBindingRegistry.RegisterHookBinding
+- uid: Reqnroll.Bindings.IHookBinding
+  commentId: T:Reqnroll.Bindings.IHookBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IHookBinding.html
+  name: IHookBinding
+  nameWithType: IHookBinding
+  fullName: Reqnroll.Bindings.IHookBinding
+- uid: Reqnroll.Bindings.IBindingRegistry.RegisterStepArgumentTransformationBinding*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.RegisterStepArgumentTransformationBinding
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_RegisterStepArgumentTransformationBinding_Reqnroll_Bindings_IStepArgumentTransformationBinding_
+  name: RegisterStepArgumentTransformationBinding
+  nameWithType: IBindingRegistry.RegisterStepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.IBindingRegistry.RegisterStepArgumentTransformationBinding
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  commentId: T:Reqnroll.Bindings.IStepArgumentTransformationBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html
+  name: IStepArgumentTransformationBinding
+  nameWithType: IStepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding
+- uid: Reqnroll.Bindings.IBindingRegistry.RegisterGenericBindingError*
+  commentId: Overload:Reqnroll.Bindings.IBindingRegistry.RegisterGenericBindingError
+  href: Reqnroll.Bindings.IBindingRegistry.html#Reqnroll_Bindings_IBindingRegistry_RegisterGenericBindingError_Reqnroll_Bindings_BindingError_
+  name: RegisterGenericBindingError
+  nameWithType: IBindingRegistry.RegisterGenericBindingError
+  fullName: Reqnroll.Bindings.IBindingRegistry.RegisterGenericBindingError
+- uid: Reqnroll.Bindings.BindingError
+  commentId: T:Reqnroll.Bindings.BindingError
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingError.html
+  name: BindingError
+  nameWithType: BindingError
+  fullName: Reqnroll.Bindings.BindingError

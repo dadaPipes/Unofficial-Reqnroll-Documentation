@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  commentId: T:Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  id: IBindingSourceProcessor
+  parent: Reqnroll.Bindings.Discovery
+  children:
+  - Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted
+  - Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessMethodAttribute(System.String)
+  - Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessTypeAttribute(System.String)
+  - Reqnroll.Bindings.Discovery.IBindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable{System.String})
+  - Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  - Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  - Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessTypeDone
+  langs:
+  - csharp
+  - vb
+  name: IBindingSourceProcessor
+  nameWithType: IBindingSourceProcessor
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IBindingSourceProcessor
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: public interface IBindingSourceProcessor
+    content.vb: Public Interface IBindingSourceProcessor
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessTypeAttribute(System.String)
+  commentId: M:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessTypeAttribute(System.String)
+  id: CanProcessTypeAttribute(System.String)
+  parent: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: CanProcessTypeAttribute(string)
+  nameWithType: IBindingSourceProcessor.CanProcessTypeAttribute(string)
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessTypeAttribute(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CanProcessTypeAttribute
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: bool CanProcessTypeAttribute(string attributeTypeName)
+    parameters:
+    - id: attributeTypeName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function CanProcessTypeAttribute(attributeTypeName As String) As Boolean
+  overload: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessTypeAttribute*
+  nameWithType.vb: IBindingSourceProcessor.CanProcessTypeAttribute(String)
+  fullName.vb: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessTypeAttribute(String)
+  name.vb: CanProcessTypeAttribute(String)
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessMethodAttribute(System.String)
+  commentId: M:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessMethodAttribute(System.String)
+  id: CanProcessMethodAttribute(System.String)
+  parent: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: CanProcessMethodAttribute(string)
+  nameWithType: IBindingSourceProcessor.CanProcessMethodAttribute(string)
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessMethodAttribute(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CanProcessMethodAttribute
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: bool CanProcessMethodAttribute(string attributeTypeName)
+    parameters:
+    - id: attributeTypeName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function CanProcessMethodAttribute(attributeTypeName As String) As Boolean
+  overload: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessMethodAttribute*
+  nameWithType.vb: IBindingSourceProcessor.CanProcessMethodAttribute(String)
+  fullName.vb: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessMethodAttribute(String)
+  name.vb: CanProcessMethodAttribute(String)
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable{System.String})
+  id: PreFilterType(System.Collections.Generic.IEnumerable{System.String})
+  parent: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: PreFilterType(IEnumerable<string>)
+  nameWithType: IBindingSourceProcessor.PreFilterType(IEnumerable<string>)
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable<string>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: PreFilterType
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: bool PreFilterType(IEnumerable<string> attributeTypeNames)
+    parameters:
+    - id: attributeTypeNames
+      type: System.Collections.Generic.IEnumerable{System.String}
+    return:
+      type: System.Boolean
+    content.vb: Function PreFilterType(attributeTypeNames As IEnumerable(Of String)) As Boolean
+  overload: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.PreFilterType*
+  nameWithType.vb: IBindingSourceProcessor.PreFilterType(IEnumerable(Of String))
+  fullName.vb: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable(Of String))
+  name.vb: PreFilterType(IEnumerable(Of String))
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  commentId: M:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  id: ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  parent: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: ProcessType(BindingSourceType)
+  nameWithType: IBindingSourceProcessor.ProcessType(BindingSourceType)
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ProcessType
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: bool ProcessType(BindingSourceType bindingSourceType)
+    parameters:
+    - id: bindingSourceType
+      type: Reqnroll.Bindings.Discovery.BindingSourceType
+    return:
+      type: System.Boolean
+    content.vb: Function ProcessType(bindingSourceType As BindingSourceType) As Boolean
+  overload: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessType*
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  commentId: M:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  id: ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  parent: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: ProcessMethod(BindingSourceMethod)
+  nameWithType: IBindingSourceProcessor.ProcessMethod(BindingSourceMethod)
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ProcessMethod
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: void ProcessMethod(BindingSourceMethod bindingSourceMethod)
+    parameters:
+    - id: bindingSourceMethod
+      type: Reqnroll.Bindings.Discovery.BindingSourceMethod
+    content.vb: Sub ProcessMethod(bindingSourceMethod As BindingSourceMethod)
+  overload: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessMethod*
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessTypeDone
+  commentId: M:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessTypeDone
+  id: ProcessTypeDone
+  parent: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: ProcessTypeDone()
+  nameWithType: IBindingSourceProcessor.ProcessTypeDone()
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessTypeDone()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ProcessTypeDone
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: void ProcessTypeDone()
+    content.vb: Sub ProcessTypeDone()
+  overload: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessTypeDone*
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted
+  commentId: M:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted
+  id: BuildingCompleted
+  parent: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: BuildingCompleted()
+  nameWithType: IBindingSourceProcessor.BuildingCompleted()
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BuildingCompleted
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceProcessor.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: void BuildingCompleted()
+    content.vb: Sub BuildingCompleted()
+  overload: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted*
+references:
+- uid: Reqnroll.Bindings.Discovery
+  commentId: N:Reqnroll.Bindings.Discovery
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Discovery
+  nameWithType: Reqnroll.Bindings.Discovery
+  fullName: Reqnroll.Bindings.Discovery
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessTypeAttribute*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessTypeAttribute
+  href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IBindingSourceProcessor_CanProcessTypeAttribute_System_String_
+  name: CanProcessTypeAttribute
+  nameWithType: IBindingSourceProcessor.CanProcessTypeAttribute
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessTypeAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessMethodAttribute*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessMethodAttribute
+  href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IBindingSourceProcessor_CanProcessMethodAttribute_System_String_
+  name: CanProcessMethodAttribute
+  nameWithType: IBindingSourceProcessor.CanProcessMethodAttribute
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.CanProcessMethodAttribute
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.PreFilterType*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.PreFilterType
+  href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IBindingSourceProcessor_PreFilterType_System_Collections_Generic_IEnumerable_System_String__
+  name: PreFilterType
+  nameWithType: IBindingSourceProcessor.PreFilterType
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.PreFilterType
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessType*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessType
+  href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IBindingSourceProcessor_ProcessType_Reqnroll_Bindings_Discovery_BindingSourceType_
+  name: ProcessType
+  nameWithType: IBindingSourceProcessor.ProcessType
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessType
+- uid: Reqnroll.Bindings.Discovery.BindingSourceType
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceType
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.BindingSourceType.html
+  name: BindingSourceType
+  nameWithType: BindingSourceType
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceType
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessMethod*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessMethod
+  href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IBindingSourceProcessor_ProcessMethod_Reqnroll_Bindings_Discovery_BindingSourceMethod_
+  name: ProcessMethod
+  nameWithType: IBindingSourceProcessor.ProcessMethod
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessMethod
+- uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceMethod
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  name: BindingSourceMethod
+  nameWithType: BindingSourceMethod
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceMethod
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessTypeDone*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessTypeDone
+  href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IBindingSourceProcessor_ProcessTypeDone
+  name: ProcessTypeDone
+  nameWithType: IBindingSourceProcessor.ProcessTypeDone
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.ProcessTypeDone
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted
+  href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html#Reqnroll_Bindings_Discovery_IBindingSourceProcessor_BuildingCompleted
+  name: BuildingCompleted
+  nameWithType: IBindingSourceProcessor.BuildingCompleted
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.BuildingCompleted

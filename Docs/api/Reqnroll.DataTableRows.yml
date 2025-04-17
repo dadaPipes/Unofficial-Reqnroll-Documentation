@@ -1,0 +1,824 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.DataTableRows
+  commentId: T:Reqnroll.DataTableRows
+  id: DataTableRows
+  parent: Reqnroll
+  children:
+  - Reqnroll.DataTableRows.Count
+  - Reqnroll.DataTableRows.GetEnumerator
+  - Reqnroll.DataTableRows.Item(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: DataTableRows
+  nameWithType: DataTableRows
+  fullName: Reqnroll.DataTableRows
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Table.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DataTableRows
+    path: ../Reqnroll/Reqnroll/Table.cs
+    startLine: 175
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class DataTableRows : IEnumerable<DataTableRow>, IEnumerable
+    content.vb: >-
+      <Serializable>
+
+      Public Class DataTableRows Implements IEnumerable(Of DataTableRow), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}.Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(Reqnroll.Table)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Reqnroll.DataTableRows.Count
+  commentId: P:Reqnroll.DataTableRows.Count
+  id: Count
+  parent: Reqnroll.DataTableRows
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: DataTableRows.Count
+  fullName: Reqnroll.DataTableRows.Count
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Table.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Count
+    path: ../Reqnroll/Reqnroll/Table.cs
+    startLine: 180
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: Reqnroll.DataTableRows.Count*
+- uid: Reqnroll.DataTableRows.Item(System.Int32)
+  commentId: P:Reqnroll.DataTableRows.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Reqnroll.DataTableRows
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: DataTableRows.this[int]
+  fullName: Reqnroll.DataTableRows.this[int]
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Table.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: this[]
+    path: ../Reqnroll/Reqnroll/Table.cs
+    startLine: 182
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public DataTableRow this[int index] { get; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Reqnroll.DataTableRow
+    content.vb: Public ReadOnly Default Property this[](index As Integer) As DataTableRow
+  overload: Reqnroll.DataTableRows.Item*
+  nameWithType.vb: DataTableRows.this[](Integer)
+  fullName.vb: Reqnroll.DataTableRows.this[](Integer)
+  name.vb: this[](Integer)
+- uid: Reqnroll.DataTableRows.GetEnumerator
+  commentId: M:Reqnroll.DataTableRows.GetEnumerator
+  id: GetEnumerator
+  parent: Reqnroll.DataTableRows
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: DataTableRows.GetEnumerator()
+  fullName: Reqnroll.DataTableRows.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Table.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetEnumerator
+    path: ../Reqnroll/Reqnroll/Table.cs
+    startLine: 184
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  example: []
+  syntax:
+    content: public IEnumerator<DataTableRow> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{Reqnroll.DataTableRow}
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of DataTableRow)
+  overload: Reqnroll.DataTableRows.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}.GetEnumerator
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<DataTableRow>
+  nameWithType: IEnumerable<DataTableRow>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.DataTableRow>
+  nameWithType.vb: IEnumerable(Of DataTableRow)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.DataTableRow)
+  name.vb: IEnumerable(Of DataTableRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    href: Reqnroll.DataTableRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    href: Reqnroll.DataTableRow.html
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}.Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(Reqnroll.Table)
+  commentId: M:Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+  parent: Reqnroll.Assist.ProjectionExtensionMethods
+  definition: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+  href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  name: ToProjection<DataTableRow>(IEnumerable<DataTableRow>, Table)
+  nameWithType: ProjectionExtensionMethods.ToProjection<DataTableRow>(IEnumerable<DataTableRow>, Table)
+  fullName: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection<Reqnroll.DataTableRow>(System.Collections.Generic.IEnumerable<Reqnroll.DataTableRow>, Reqnroll.Table)
+  nameWithType.vb: ProjectionExtensionMethods.ToProjection(Of DataTableRow)(IEnumerable(Of DataTableRow), Table)
+  fullName.vb: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection(Of Reqnroll.DataTableRow)(System.Collections.Generic.IEnumerable(Of Reqnroll.DataTableRow), Reqnroll.Table)
+  name.vb: ToProjection(Of DataTableRow)(IEnumerable(Of DataTableRow), Table)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow},Reqnroll.Table)
+    name: ToProjection
+    href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  - name: <
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    href: Reqnroll.DataTableRow.html
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    href: Reqnroll.DataTableRow.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow},Reqnroll.Table)
+    name: ToProjection
+    href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    href: Reqnroll.DataTableRow.html
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    href: Reqnroll.DataTableRow.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+  commentId: M:Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+  isExternal: true
+  href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  name: ToProjection<T>(IEnumerable<T>, Table)
+  nameWithType: ProjectionExtensionMethods.ToProjection<T>(IEnumerable<T>, Table)
+  fullName: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection<T>(System.Collections.Generic.IEnumerable<T>, Reqnroll.Table)
+  nameWithType.vb: ProjectionExtensionMethods.ToProjection(Of T)(IEnumerable(Of T), Table)
+  fullName.vb: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection(Of T)(System.Collections.Generic.IEnumerable(Of T), Reqnroll.Table)
+  name.vb: ToProjection(Of T)(IEnumerable(Of T), Table)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+    name: ToProjection
+    href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+    name: ToProjection
+    href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: )
+- uid: Reqnroll.Assist.ProjectionExtensionMethods
+  commentId: T:Reqnroll.Assist.ProjectionExtensionMethods
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.ProjectionExtensionMethods.html
+  name: ProjectionExtensionMethods
+  nameWithType: ProjectionExtensionMethods
+  fullName: Reqnroll.Assist.ProjectionExtensionMethods
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  href: Reqnroll.html
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+- uid: Reqnroll.DataTableRows.Count*
+  commentId: Overload:Reqnroll.DataTableRows.Count
+  href: Reqnroll.DataTableRows.html#Reqnroll_DataTableRows_Count
+  name: Count
+  nameWithType: DataTableRows.Count
+  fullName: Reqnroll.DataTableRows.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Reqnroll.DataTableRows.Item*
+  commentId: Overload:Reqnroll.DataTableRows.Item
+  href: Reqnroll.DataTableRows.html#Reqnroll_DataTableRows_Item_System_Int32_
+  name: this
+  nameWithType: DataTableRows.this
+  fullName: Reqnroll.DataTableRows.this
+  nameWithType.vb: DataTableRows.this[]
+  fullName.vb: Reqnroll.DataTableRows.this[]
+  name.vb: this[]
+- uid: Reqnroll.DataTableRow
+  commentId: T:Reqnroll.DataTableRow
+  parent: Reqnroll
+  href: Reqnroll.DataTableRow.html
+  name: DataTableRow
+  nameWithType: DataTableRow
+  fullName: Reqnroll.DataTableRow
+- uid: Reqnroll.DataTableRows.GetEnumerator*
+  commentId: Overload:Reqnroll.DataTableRows.GetEnumerator
+  href: Reqnroll.DataTableRows.html#Reqnroll_DataTableRows_GetEnumerator
+  name: GetEnumerator
+  nameWithType: DataTableRows.GetEnumerator
+  fullName: Reqnroll.DataTableRows.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<DataTableRow>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.DataTableRow>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of DataTableRow).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.DataTableRow).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{Reqnroll.DataTableRow}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{Reqnroll.DataTableRow}
+  commentId: T:System.Collections.Generic.IEnumerator{Reqnroll.DataTableRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<DataTableRow>
+  nameWithType: IEnumerator<DataTableRow>
+  fullName: System.Collections.Generic.IEnumerator<Reqnroll.DataTableRow>
+  nameWithType.vb: IEnumerator(Of DataTableRow)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of Reqnroll.DataTableRow)
+  name.vb: IEnumerator(Of DataTableRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    href: Reqnroll.DataTableRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    href: Reqnroll.DataTableRow.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

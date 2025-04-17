@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter
+  commentId: T:Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter
+  id: IRuntimePluginTestExecutionLifecycleEventEmitter
+  parent: Reqnroll.Plugins
+  children:
+  - Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter.RaiseExecutionLifecycleEvent(Reqnroll.Bindings.HookType,Reqnroll.BoDi.IObjectContainer)
+  langs:
+  - csharp
+  - vb
+  name: IRuntimePluginTestExecutionLifecycleEventEmitter
+  nameWithType: IRuntimePluginTestExecutionLifecycleEventEmitter
+  fullName: Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Plugins/IRuntimePluginTestExecutionLifecycleEventEmitter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IRuntimePluginTestExecutionLifecycleEventEmitter
+    path: ../Reqnroll/Reqnroll/Plugins/IRuntimePluginTestExecutionLifecycleEventEmitter.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public interface IRuntimePluginTestExecutionLifecycleEventEmitter
+    content.vb: Public Interface IRuntimePluginTestExecutionLifecycleEventEmitter
+- uid: Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter.RaiseExecutionLifecycleEvent(Reqnroll.Bindings.HookType,Reqnroll.BoDi.IObjectContainer)
+  commentId: M:Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter.RaiseExecutionLifecycleEvent(Reqnroll.Bindings.HookType,Reqnroll.BoDi.IObjectContainer)
+  id: RaiseExecutionLifecycleEvent(Reqnroll.Bindings.HookType,Reqnroll.BoDi.IObjectContainer)
+  parent: Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: RaiseExecutionLifecycleEvent(HookType, IObjectContainer)
+  nameWithType: IRuntimePluginTestExecutionLifecycleEventEmitter.RaiseExecutionLifecycleEvent(HookType, IObjectContainer)
+  fullName: Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter.RaiseExecutionLifecycleEvent(Reqnroll.Bindings.HookType, Reqnroll.BoDi.IObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/IRuntimePluginTestExecutionLifecycleEventEmitter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RaiseExecutionLifecycleEvent
+    path: ../Reqnroll/Reqnroll/Plugins/IRuntimePluginTestExecutionLifecycleEventEmitter.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: void RaiseExecutionLifecycleEvent(HookType hookType, IObjectContainer container)
+    parameters:
+    - id: hookType
+      type: Reqnroll.Bindings.HookType
+    - id: container
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: Sub RaiseExecutionLifecycleEvent(hookType As HookType, container As IObjectContainer)
+  overload: Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter.RaiseExecutionLifecycleEvent*
+references:
+- uid: Reqnroll.Plugins
+  commentId: N:Reqnroll.Plugins
+  href: Reqnroll.html
+  name: Reqnroll.Plugins
+  nameWithType: Reqnroll.Plugins
+  fullName: Reqnroll.Plugins
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+- uid: Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter.RaiseExecutionLifecycleEvent*
+  commentId: Overload:Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter.RaiseExecutionLifecycleEvent
+  href: Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter.html#Reqnroll_Plugins_IRuntimePluginTestExecutionLifecycleEventEmitter_RaiseExecutionLifecycleEvent_Reqnroll_Bindings_HookType_Reqnroll_BoDi_IObjectContainer_
+  name: RaiseExecutionLifecycleEvent
+  nameWithType: IRuntimePluginTestExecutionLifecycleEventEmitter.RaiseExecutionLifecycleEvent
+  fullName: Reqnroll.Plugins.IRuntimePluginTestExecutionLifecycleEventEmitter.RaiseExecutionLifecycleEvent
+- uid: Reqnroll.Bindings.HookType
+  commentId: T:Reqnroll.Bindings.HookType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.HookType.html
+  name: HookType
+  nameWithType: HookType
+  fullName: Reqnroll.Bindings.HookType
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html

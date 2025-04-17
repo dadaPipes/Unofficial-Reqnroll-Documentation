@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.ObsoleteBehavior
+  commentId: T:Reqnroll.Configuration.ObsoleteBehavior
+  id: ObsoleteBehavior
+  parent: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.ObsoleteBehavior.Error
+  - Reqnroll.Configuration.ObsoleteBehavior.None
+  - Reqnroll.Configuration.ObsoleteBehavior.Pending
+  - Reqnroll.Configuration.ObsoleteBehavior.Warn
+  langs:
+  - csharp
+  - vb
+  name: ObsoleteBehavior
+  nameWithType: ObsoleteBehavior
+  fullName: Reqnroll.Configuration.ObsoleteBehavior
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/Configuration/ObsoleteBehavior.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ObsoleteBehavior
+    path: ../Reqnroll/Reqnroll/Configuration/ObsoleteBehavior.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  summary: >-
+    Describes possibilities what to do when a test is marked with <xref href="System.ObsoleteAttribute" data-throw-if-not-resolved="false"></xref>
+
+    The default is <xref href="Reqnroll.Configuration.ObsoleteBehavior.Warn" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public enum ObsoleteBehavior
+    content.vb: Public Enum ObsoleteBehavior
+- uid: Reqnroll.Configuration.ObsoleteBehavior.None
+  commentId: F:Reqnroll.Configuration.ObsoleteBehavior.None
+  id: None
+  parent: Reqnroll.Configuration.ObsoleteBehavior
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ObsoleteBehavior.None
+  fullName: Reqnroll.Configuration.ObsoleteBehavior.None
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/ObsoleteBehavior.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: None
+    path: ../Reqnroll/Reqnroll/Configuration/ObsoleteBehavior.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: None = 0
+    return:
+      type: Reqnroll.Configuration.ObsoleteBehavior
+- uid: Reqnroll.Configuration.ObsoleteBehavior.Warn
+  commentId: F:Reqnroll.Configuration.ObsoleteBehavior.Warn
+  id: Warn
+  parent: Reqnroll.Configuration.ObsoleteBehavior
+  langs:
+  - csharp
+  - vb
+  name: Warn
+  nameWithType: ObsoleteBehavior.Warn
+  fullName: Reqnroll.Configuration.ObsoleteBehavior.Warn
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/ObsoleteBehavior.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Warn
+    path: ../Reqnroll/Reqnroll/Configuration/ObsoleteBehavior.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: Warn = 1
+    return:
+      type: Reqnroll.Configuration.ObsoleteBehavior
+- uid: Reqnroll.Configuration.ObsoleteBehavior.Pending
+  commentId: F:Reqnroll.Configuration.ObsoleteBehavior.Pending
+  id: Pending
+  parent: Reqnroll.Configuration.ObsoleteBehavior
+  langs:
+  - csharp
+  - vb
+  name: Pending
+  nameWithType: ObsoleteBehavior.Pending
+  fullName: Reqnroll.Configuration.ObsoleteBehavior.Pending
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/ObsoleteBehavior.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Pending
+    path: ../Reqnroll/Reqnroll/Configuration/ObsoleteBehavior.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: Pending = 2
+    return:
+      type: Reqnroll.Configuration.ObsoleteBehavior
+- uid: Reqnroll.Configuration.ObsoleteBehavior.Error
+  commentId: F:Reqnroll.Configuration.ObsoleteBehavior.Error
+  id: Error
+  parent: Reqnroll.Configuration.ObsoleteBehavior
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: ObsoleteBehavior.Error
+  fullName: Reqnroll.Configuration.ObsoleteBehavior.Error
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/ObsoleteBehavior.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Error
+    path: ../Reqnroll/Reqnroll/Configuration/ObsoleteBehavior.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: Error = 3
+    return:
+      type: Reqnroll.Configuration.ObsoleteBehavior
+references:
+- uid: System.ObsoleteAttribute
+  commentId: T:System.ObsoleteAttribute
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.obsoleteattribute
+  name: ObsoleteAttribute
+  nameWithType: ObsoleteAttribute
+  fullName: System.ObsoleteAttribute
+- uid: Reqnroll.Configuration.ObsoleteBehavior.Warn
+  commentId: F:Reqnroll.Configuration.ObsoleteBehavior.Warn
+  href: Reqnroll.Configuration.ObsoleteBehavior.html#Reqnroll_Configuration_ObsoleteBehavior_Warn
+  name: Warn
+  nameWithType: ObsoleteBehavior.Warn
+  fullName: Reqnroll.Configuration.ObsoleteBehavior.Warn
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Configuration.ObsoleteBehavior
+  commentId: T:Reqnroll.Configuration.ObsoleteBehavior
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ObsoleteBehavior.html
+  name: ObsoleteBehavior
+  nameWithType: ObsoleteBehavior
+  fullName: Reqnroll.Configuration.ObsoleteBehavior

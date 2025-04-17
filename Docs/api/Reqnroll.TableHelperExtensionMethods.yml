@@ -1,0 +1,1046 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.TableHelperExtensionMethods
+  commentId: T:Reqnroll.TableHelperExtensionMethods
+  id: TableHelperExtensionMethods
+  parent: Reqnroll
+  children:
+  - Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table)
+  - Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table,Reqnroll.Assist.InstanceCreationOptions)
+  - Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table,System.Func{``0})
+  - Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table,System.Func{``0},Reqnroll.Assist.InstanceCreationOptions)
+  - Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table)
+  - Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,Reqnroll.Assist.InstanceCreationOptions)
+  - Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{Reqnroll.DataTableRow,``0})
+  - Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{Reqnroll.DataTableRow,``0},Reqnroll.Assist.InstanceCreationOptions)
+  - Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{``0})
+  - Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{``0},Reqnroll.Assist.InstanceCreationOptions)
+  - Reqnroll.TableHelperExtensionMethods.FillInstance(Reqnroll.Table,System.Object)
+  - Reqnroll.TableHelperExtensionMethods.FillInstance(Reqnroll.Table,System.Object,Reqnroll.Assist.InstanceCreationOptions)
+  langs:
+  - csharp
+  - vb
+  name: TableHelperExtensionMethods
+  nameWithType: TableHelperExtensionMethods
+  fullName: Reqnroll.TableHelperExtensionMethods
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TableHelperExtensionMethods
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static class TableHelperExtensionMethods
+    content.vb: Public Module TableHelperExtensionMethods
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table)
+  commentId: M:Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table)
+  id: CreateInstance``1(Reqnroll.Table)
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance<T>(Table)
+  nameWithType: TableHelperExtensionMethods.CreateInstance<T>(Table)
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateInstance<T>(Reqnroll.Table)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateInstance
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static T CreateInstance<T>(this Table table)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function CreateInstance(Of T)(table As Table) As T
+  overload: Reqnroll.TableHelperExtensionMethods.CreateInstance*
+  nameWithType.vb: TableHelperExtensionMethods.CreateInstance(Of T)(Table)
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.CreateInstance(Of T)(Reqnroll.Table)
+  name.vb: CreateInstance(Of T)(Table)
+- uid: Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table,Reqnroll.Assist.InstanceCreationOptions)
+  commentId: M:Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table,Reqnroll.Assist.InstanceCreationOptions)
+  id: CreateInstance``1(Reqnroll.Table,Reqnroll.Assist.InstanceCreationOptions)
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance<T>(Table, InstanceCreationOptions)
+  nameWithType: TableHelperExtensionMethods.CreateInstance<T>(Table, InstanceCreationOptions)
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateInstance<T>(Reqnroll.Table, Reqnroll.Assist.InstanceCreationOptions)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateInstance
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static T CreateInstance<T>(this Table table, InstanceCreationOptions creationOptions)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: creationOptions
+      type: Reqnroll.Assist.InstanceCreationOptions
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function CreateInstance(Of T)(table As Table, creationOptions As InstanceCreationOptions) As T
+  overload: Reqnroll.TableHelperExtensionMethods.CreateInstance*
+  nameWithType.vb: TableHelperExtensionMethods.CreateInstance(Of T)(Table, InstanceCreationOptions)
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.CreateInstance(Of T)(Reqnroll.Table, Reqnroll.Assist.InstanceCreationOptions)
+  name.vb: CreateInstance(Of T)(Table, InstanceCreationOptions)
+- uid: Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table,System.Func{``0})
+  commentId: M:Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table,System.Func{``0})
+  id: CreateInstance``1(Reqnroll.Table,System.Func{``0})
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance<T>(Table, Func<T>)
+  nameWithType: TableHelperExtensionMethods.CreateInstance<T>(Table, Func<T>)
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateInstance<T>(Reqnroll.Table, System.Func<T>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateInstance
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static T CreateInstance<T>(this Table table, Func<T> methodToCreateTheInstance)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: methodToCreateTheInstance
+      type: System.Func{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function CreateInstance(Of T)(table As Table, methodToCreateTheInstance As Func(Of T)) As T
+  overload: Reqnroll.TableHelperExtensionMethods.CreateInstance*
+  nameWithType.vb: TableHelperExtensionMethods.CreateInstance(Of T)(Table, Func(Of T))
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.CreateInstance(Of T)(Reqnroll.Table, System.Func(Of T))
+  name.vb: CreateInstance(Of T)(Table, Func(Of T))
+- uid: Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table,System.Func{``0},Reqnroll.Assist.InstanceCreationOptions)
+  commentId: M:Reqnroll.TableHelperExtensionMethods.CreateInstance``1(Reqnroll.Table,System.Func{``0},Reqnroll.Assist.InstanceCreationOptions)
+  id: CreateInstance``1(Reqnroll.Table,System.Func{``0},Reqnroll.Assist.InstanceCreationOptions)
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance<T>(Table, Func<T>, InstanceCreationOptions)
+  nameWithType: TableHelperExtensionMethods.CreateInstance<T>(Table, Func<T>, InstanceCreationOptions)
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateInstance<T>(Reqnroll.Table, System.Func<T>, Reqnroll.Assist.InstanceCreationOptions)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateInstance
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 27
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static T CreateInstance<T>(this Table table, Func<T> methodToCreateTheInstance, InstanceCreationOptions creationOptions)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: methodToCreateTheInstance
+      type: System.Func{{T}}
+    - id: creationOptions
+      type: Reqnroll.Assist.InstanceCreationOptions
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function CreateInstance(Of T)(table As Table, methodToCreateTheInstance As Func(Of T), creationOptions As InstanceCreationOptions) As T
+  overload: Reqnroll.TableHelperExtensionMethods.CreateInstance*
+  nameWithType.vb: TableHelperExtensionMethods.CreateInstance(Of T)(Table, Func(Of T), InstanceCreationOptions)
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.CreateInstance(Of T)(Reqnroll.Table, System.Func(Of T), Reqnroll.Assist.InstanceCreationOptions)
+  name.vb: CreateInstance(Of T)(Table, Func(Of T), InstanceCreationOptions)
+- uid: Reqnroll.TableHelperExtensionMethods.FillInstance(Reqnroll.Table,System.Object)
+  commentId: M:Reqnroll.TableHelperExtensionMethods.FillInstance(Reqnroll.Table,System.Object)
+  id: FillInstance(Reqnroll.Table,System.Object)
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: FillInstance(Table, object)
+  nameWithType: TableHelperExtensionMethods.FillInstance(Table, object)
+  fullName: Reqnroll.TableHelperExtensionMethods.FillInstance(Reqnroll.Table, object)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FillInstance
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 34
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static void FillInstance(this Table table, object instance)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: instance
+      type: System.Object
+    content.vb: Public Shared Sub FillInstance(table As Table, instance As Object)
+  overload: Reqnroll.TableHelperExtensionMethods.FillInstance*
+  nameWithType.vb: TableHelperExtensionMethods.FillInstance(Table, Object)
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.FillInstance(Reqnroll.Table, Object)
+  name.vb: FillInstance(Table, Object)
+- uid: Reqnroll.TableHelperExtensionMethods.FillInstance(Reqnroll.Table,System.Object,Reqnroll.Assist.InstanceCreationOptions)
+  commentId: M:Reqnroll.TableHelperExtensionMethods.FillInstance(Reqnroll.Table,System.Object,Reqnroll.Assist.InstanceCreationOptions)
+  id: FillInstance(Reqnroll.Table,System.Object,Reqnroll.Assist.InstanceCreationOptions)
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: FillInstance(Table, object, InstanceCreationOptions)
+  nameWithType: TableHelperExtensionMethods.FillInstance(Table, object, InstanceCreationOptions)
+  fullName: Reqnroll.TableHelperExtensionMethods.FillInstance(Reqnroll.Table, object, Reqnroll.Assist.InstanceCreationOptions)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FillInstance
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 39
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static void FillInstance(this Table table, object instance, InstanceCreationOptions creationOptions)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: instance
+      type: System.Object
+    - id: creationOptions
+      type: Reqnroll.Assist.InstanceCreationOptions
+    content.vb: Public Shared Sub FillInstance(table As Table, instance As Object, creationOptions As InstanceCreationOptions)
+  overload: Reqnroll.TableHelperExtensionMethods.FillInstance*
+  nameWithType.vb: TableHelperExtensionMethods.FillInstance(Table, Object, InstanceCreationOptions)
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.FillInstance(Reqnroll.Table, Object, Reqnroll.Assist.InstanceCreationOptions)
+  name.vb: FillInstance(Table, Object, InstanceCreationOptions)
+- uid: Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table)
+  commentId: M:Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table)
+  id: CreateSet``1(Reqnroll.Table)
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateSet<T>(Table)
+  nameWithType: TableHelperExtensionMethods.CreateSet<T>(Table)
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateSet<T>(Reqnroll.Table)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateSet
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 45
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static IEnumerable<T> CreateSet<T>(this Table table)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function CreateSet(Of T)(table As Table) As IEnumerable(Of T)
+  overload: Reqnroll.TableHelperExtensionMethods.CreateSet*
+  nameWithType.vb: TableHelperExtensionMethods.CreateSet(Of T)(Table)
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.CreateSet(Of T)(Reqnroll.Table)
+  name.vb: CreateSet(Of T)(Table)
+- uid: Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,Reqnroll.Assist.InstanceCreationOptions)
+  commentId: M:Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,Reqnroll.Assist.InstanceCreationOptions)
+  id: CreateSet``1(Reqnroll.Table,Reqnroll.Assist.InstanceCreationOptions)
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateSet<T>(Table, InstanceCreationOptions)
+  nameWithType: TableHelperExtensionMethods.CreateSet<T>(Table, InstanceCreationOptions)
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateSet<T>(Reqnroll.Table, Reqnroll.Assist.InstanceCreationOptions)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateSet
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 50
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static IEnumerable<T> CreateSet<T>(this Table table, InstanceCreationOptions creationOptions)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: creationOptions
+      type: Reqnroll.Assist.InstanceCreationOptions
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function CreateSet(Of T)(table As Table, creationOptions As InstanceCreationOptions) As IEnumerable(Of T)
+  overload: Reqnroll.TableHelperExtensionMethods.CreateSet*
+  nameWithType.vb: TableHelperExtensionMethods.CreateSet(Of T)(Table, InstanceCreationOptions)
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.CreateSet(Of T)(Reqnroll.Table, Reqnroll.Assist.InstanceCreationOptions)
+  name.vb: CreateSet(Of T)(Table, InstanceCreationOptions)
+- uid: Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{``0})
+  commentId: M:Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{``0})
+  id: CreateSet``1(Reqnroll.Table,System.Func{``0})
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateSet<T>(Table, Func<T>)
+  nameWithType: TableHelperExtensionMethods.CreateSet<T>(Table, Func<T>)
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateSet<T>(Reqnroll.Table, System.Func<T>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateSet
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 67
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static IEnumerable<T> CreateSet<T>(this Table table, Func<T> methodToCreateEachInstance)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: methodToCreateEachInstance
+      type: System.Func{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function CreateSet(Of T)(table As Table, methodToCreateEachInstance As Func(Of T)) As IEnumerable(Of T)
+  overload: Reqnroll.TableHelperExtensionMethods.CreateSet*
+  nameWithType.vb: TableHelperExtensionMethods.CreateSet(Of T)(Table, Func(Of T))
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.CreateSet(Of T)(Reqnroll.Table, System.Func(Of T))
+  name.vb: CreateSet(Of T)(Table, Func(Of T))
+- uid: Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{``0},Reqnroll.Assist.InstanceCreationOptions)
+  commentId: M:Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{``0},Reqnroll.Assist.InstanceCreationOptions)
+  id: CreateSet``1(Reqnroll.Table,System.Func{``0},Reqnroll.Assist.InstanceCreationOptions)
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateSet<T>(Table, Func<T>, InstanceCreationOptions)
+  nameWithType: TableHelperExtensionMethods.CreateSet<T>(Table, Func<T>, InstanceCreationOptions)
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateSet<T>(Reqnroll.Table, System.Func<T>, Reqnroll.Assist.InstanceCreationOptions)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateSet
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 72
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static IEnumerable<T> CreateSet<T>(this Table table, Func<T> methodToCreateEachInstance, InstanceCreationOptions creationOptions)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: methodToCreateEachInstance
+      type: System.Func{{T}}
+    - id: creationOptions
+      type: Reqnroll.Assist.InstanceCreationOptions
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function CreateSet(Of T)(table As Table, methodToCreateEachInstance As Func(Of T), creationOptions As InstanceCreationOptions) As IEnumerable(Of T)
+  overload: Reqnroll.TableHelperExtensionMethods.CreateSet*
+  nameWithType.vb: TableHelperExtensionMethods.CreateSet(Of T)(Table, Func(Of T), InstanceCreationOptions)
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.CreateSet(Of T)(Reqnroll.Table, System.Func(Of T), Reqnroll.Assist.InstanceCreationOptions)
+  name.vb: CreateSet(Of T)(Table, Func(Of T), InstanceCreationOptions)
+- uid: Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{Reqnroll.DataTableRow,``0})
+  commentId: M:Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{Reqnroll.DataTableRow,``0})
+  id: CreateSet``1(Reqnroll.Table,System.Func{Reqnroll.DataTableRow,``0})
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateSet<T>(Table, Func<DataTableRow, T>)
+  nameWithType: TableHelperExtensionMethods.CreateSet<T>(Table, Func<DataTableRow, T>)
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateSet<T>(Reqnroll.Table, System.Func<Reqnroll.DataTableRow, T>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateSet
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 88
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static IEnumerable<T> CreateSet<T>(this Table table, Func<DataTableRow, T> methodToCreateEachInstance)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: methodToCreateEachInstance
+      type: System.Func{Reqnroll.DataTableRow,{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function CreateSet(Of T)(table As Table, methodToCreateEachInstance As Func(Of DataTableRow, T)) As IEnumerable(Of T)
+  overload: Reqnroll.TableHelperExtensionMethods.CreateSet*
+  nameWithType.vb: TableHelperExtensionMethods.CreateSet(Of T)(Table, Func(Of DataTableRow, T))
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.CreateSet(Of T)(Reqnroll.Table, System.Func(Of Reqnroll.DataTableRow, T))
+  name.vb: CreateSet(Of T)(Table, Func(Of DataTableRow, T))
+- uid: Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{Reqnroll.DataTableRow,``0},Reqnroll.Assist.InstanceCreationOptions)
+  commentId: M:Reqnroll.TableHelperExtensionMethods.CreateSet``1(Reqnroll.Table,System.Func{Reqnroll.DataTableRow,``0},Reqnroll.Assist.InstanceCreationOptions)
+  id: CreateSet``1(Reqnroll.Table,System.Func{Reqnroll.DataTableRow,``0},Reqnroll.Assist.InstanceCreationOptions)
+  isExtensionMethod: true
+  parent: Reqnroll.TableHelperExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: CreateSet<T>(Table, Func<DataTableRow, T>, InstanceCreationOptions)
+  nameWithType: TableHelperExtensionMethods.CreateSet<T>(Table, Func<DataTableRow, T>, InstanceCreationOptions)
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateSet<T>(Reqnroll.Table, System.Func<Reqnroll.DataTableRow, T>, Reqnroll.Assist.InstanceCreationOptions)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableExtensionMethods.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateSet
+    path: ../Reqnroll/Reqnroll/Assist/TableExtensionMethods.cs
+    startLine: 93
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static IEnumerable<T> CreateSet<T>(this Table table, Func<DataTableRow, T> methodToCreateEachInstance, InstanceCreationOptions creationOptions)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: methodToCreateEachInstance
+      type: System.Func{Reqnroll.DataTableRow,{T}}
+    - id: creationOptions
+      type: Reqnroll.Assist.InstanceCreationOptions
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function CreateSet(Of T)(table As Table, methodToCreateEachInstance As Func(Of DataTableRow, T), creationOptions As InstanceCreationOptions) As IEnumerable(Of T)
+  overload: Reqnroll.TableHelperExtensionMethods.CreateSet*
+  nameWithType.vb: TableHelperExtensionMethods.CreateSet(Of T)(Table, Func(Of DataTableRow, T), InstanceCreationOptions)
+  fullName.vb: Reqnroll.TableHelperExtensionMethods.CreateSet(Of T)(Reqnroll.Table, System.Func(Of Reqnroll.DataTableRow, T), Reqnroll.Assist.InstanceCreationOptions)
+  name.vb: CreateSet(Of T)(Table, Func(Of DataTableRow, T), InstanceCreationOptions)
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.TableHelperExtensionMethods.CreateInstance*
+  commentId: Overload:Reqnroll.TableHelperExtensionMethods.CreateInstance
+  href: Reqnroll.TableHelperExtensionMethods.html#Reqnroll_TableHelperExtensionMethods_CreateInstance__1_Reqnroll_Table_
+  name: CreateInstance
+  nameWithType: TableHelperExtensionMethods.CreateInstance
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateInstance
+- uid: Reqnroll.Table
+  commentId: T:Reqnroll.Table
+  parent: Reqnroll
+  href: Reqnroll.Table.html
+  name: Table
+  nameWithType: Table
+  fullName: Reqnroll.Table
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Reqnroll.Assist.InstanceCreationOptions
+  commentId: T:Reqnroll.Assist.InstanceCreationOptions
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.InstanceCreationOptions.html
+  name: InstanceCreationOptions
+  nameWithType: InstanceCreationOptions
+  fullName: Reqnroll.Assist.InstanceCreationOptions
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  href: Reqnroll.html
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+- uid: System.Func{{T}}
+  commentId: T:System.Func{``0}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.TableHelperExtensionMethods.FillInstance*
+  commentId: Overload:Reqnroll.TableHelperExtensionMethods.FillInstance
+  href: Reqnroll.TableHelperExtensionMethods.html#Reqnroll_TableHelperExtensionMethods_FillInstance_Reqnroll_Table_System_Object_
+  name: FillInstance
+  nameWithType: TableHelperExtensionMethods.FillInstance
+  fullName: Reqnroll.TableHelperExtensionMethods.FillInstance
+- uid: Reqnroll.TableHelperExtensionMethods.CreateSet*
+  commentId: Overload:Reqnroll.TableHelperExtensionMethods.CreateSet
+  href: Reqnroll.TableHelperExtensionMethods.html#Reqnroll_TableHelperExtensionMethods_CreateSet__1_Reqnroll_Table_
+  name: CreateSet
+  nameWithType: TableHelperExtensionMethods.CreateSet
+  fullName: Reqnroll.TableHelperExtensionMethods.CreateSet
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Func{Reqnroll.DataTableRow,{T}}
+  commentId: T:System.Func{Reqnroll.DataTableRow,``0}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<DataTableRow, T>
+  nameWithType: Func<DataTableRow, T>
+  fullName: System.Func<Reqnroll.DataTableRow, T>
+  nameWithType.vb: Func(Of DataTableRow, T)
+  fullName.vb: System.Func(Of Reqnroll.DataTableRow, T)
+  name.vb: Func(Of DataTableRow, T)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    href: Reqnroll.DataTableRow.html
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.DataTableRow
+    name: DataTableRow
+    href: Reqnroll.DataTableRow.html
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )

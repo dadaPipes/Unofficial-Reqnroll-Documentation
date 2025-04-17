@@ -1,0 +1,588 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver
+  commentId: T:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver
+  id: DotNetFrameworkPluginAssemblyResolver
+  parent: Reqnroll.Plugins
+  children:
+  - Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.#ctor(System.String)
+  - Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Initialize(System.String)
+  - Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Load(System.String)
+  - Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DotNetFrameworkPluginAssemblyResolver
+  nameWithType: DotNetFrameworkPluginAssemblyResolver
+  fullName: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Plugins/DotNetFrameworkPluginAssemblyResolver.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DotNetFrameworkPluginAssemblyResolver
+    path: ../Reqnroll/Reqnroll/Plugins/DotNetFrameworkPluginAssemblyResolver.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  summary: This class is used for .NET Framework 4.* only. See <xref href="Reqnroll.PlatformCompatibility.PlatformHelper" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public sealed class DotNetFrameworkPluginAssemblyResolver : AssemblyResolverBase'
+    content.vb: Public NotInheritable Class DotNetFrameworkPluginAssemblyResolver Inherits AssemblyResolverBase
+  inheritance:
+  - System.Object
+  - Reqnroll.Plugins.AssemblyResolverBase
+  inheritedMembers:
+  - Reqnroll.Plugins.AssemblyResolverBase.GetAssembly
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.#ctor(System.String)
+  commentId: M:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver
+  langs:
+  - csharp
+  - vb
+  name: DotNetFrameworkPluginAssemblyResolver(string)
+  nameWithType: DotNetFrameworkPluginAssemblyResolver.DotNetFrameworkPluginAssemblyResolver(string)
+  fullName: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.DotNetFrameworkPluginAssemblyResolver(string)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Plugins/DotNetFrameworkPluginAssemblyResolver.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Plugins/DotNetFrameworkPluginAssemblyResolver.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  summary: This class is used for .NET Framework 4.* only. See <xref href="Reqnroll.PlatformCompatibility.PlatformHelper" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public DotNetFrameworkPluginAssemblyResolver(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub New(path As String)
+  overload: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.#ctor*
+  nameWithType.vb: DotNetFrameworkPluginAssemblyResolver.New(String)
+  fullName.vb: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.New(String)
+  name.vb: New(String)
+- uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Initialize(System.String)
+  commentId: M:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Initialize(System.String)
+  id: Initialize(System.String)
+  parent: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver
+  langs:
+  - csharp
+  - vb
+  name: Initialize(string)
+  nameWithType: DotNetFrameworkPluginAssemblyResolver.Initialize(string)
+  fullName: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Initialize(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/DotNetFrameworkPluginAssemblyResolver.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Initialize
+    path: ../Reqnroll/Reqnroll/Plugins/DotNetFrameworkPluginAssemblyResolver.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  example: []
+  syntax:
+    content: protected override Assembly Initialize(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Reflection.Assembly
+    content.vb: Protected Overrides Function Initialize(path As String) As Assembly
+  overridden: Reqnroll.Plugins.AssemblyResolverBase.Initialize(System.String)
+  overload: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Initialize*
+  nameWithType.vb: DotNetFrameworkPluginAssemblyResolver.Initialize(String)
+  fullName.vb: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Initialize(String)
+  name.vb: Initialize(String)
+- uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath(System.String)
+  commentId: M:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath(System.String)
+  id: LoadAssemblyFromPath(System.String)
+  parent: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver
+  langs:
+  - csharp
+  - vb
+  name: LoadAssemblyFromPath(string)
+  nameWithType: DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath(string)
+  fullName: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/DotNetFrameworkPluginAssemblyResolver.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: LoadAssemblyFromPath
+    path: ../Reqnroll/Reqnroll/Plugins/DotNetFrameworkPluginAssemblyResolver.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  example: []
+  syntax:
+    content: protected override Assembly LoadAssemblyFromPath(string assemblyPath)
+    parameters:
+    - id: assemblyPath
+      type: System.String
+    return:
+      type: System.Reflection.Assembly
+    content.vb: Protected Overrides Function LoadAssemblyFromPath(assemblyPath As String) As Assembly
+  overridden: Reqnroll.Plugins.AssemblyResolverBase.LoadAssemblyFromPath(System.String)
+  overload: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath*
+  nameWithType.vb: DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath(String)
+  fullName.vb: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath(String)
+  name.vb: LoadAssemblyFromPath(String)
+- uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Load(System.String)
+  commentId: M:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Load(System.String)
+  id: Load(System.String)
+  parent: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver
+  langs:
+  - csharp
+  - vb
+  name: Load(string)
+  nameWithType: DotNetFrameworkPluginAssemblyResolver.Load(string)
+  fullName: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Load(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/DotNetFrameworkPluginAssemblyResolver.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Load
+    path: ../Reqnroll/Reqnroll/Plugins/DotNetFrameworkPluginAssemblyResolver.cs
+    startLine: 29
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public static Assembly Load(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Reflection.Assembly
+    content.vb: Public Shared Function Load(path As String) As Assembly
+  overload: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Load*
+  nameWithType.vb: DotNetFrameworkPluginAssemblyResolver.Load(String)
+  fullName.vb: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Load(String)
+  name.vb: Load(String)
+references:
+- uid: Reqnroll.PlatformCompatibility.PlatformHelper
+  commentId: T:Reqnroll.PlatformCompatibility.PlatformHelper
+  href: Reqnroll.PlatformCompatibility.PlatformHelper.html
+  name: PlatformHelper
+  nameWithType: PlatformHelper
+  fullName: Reqnroll.PlatformCompatibility.PlatformHelper
+- uid: Reqnroll.Plugins
+  commentId: N:Reqnroll.Plugins
+  href: Reqnroll.html
+  name: Reqnroll.Plugins
+  nameWithType: Reqnroll.Plugins
+  fullName: Reqnroll.Plugins
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Plugins.AssemblyResolverBase
+  commentId: T:Reqnroll.Plugins.AssemblyResolverBase
+  parent: Reqnroll.Plugins
+  href: Reqnroll.Plugins.AssemblyResolverBase.html
+  name: AssemblyResolverBase
+  nameWithType: AssemblyResolverBase
+  fullName: Reqnroll.Plugins.AssemblyResolverBase
+- uid: Reqnroll.Plugins.AssemblyResolverBase.GetAssembly
+  commentId: M:Reqnroll.Plugins.AssemblyResolverBase.GetAssembly
+  parent: Reqnroll.Plugins.AssemblyResolverBase
+  href: Reqnroll.Plugins.AssemblyResolverBase.html#Reqnroll_Plugins_AssemblyResolverBase_GetAssembly
+  name: GetAssembly()
+  nameWithType: AssemblyResolverBase.GetAssembly()
+  fullName: Reqnroll.Plugins.AssemblyResolverBase.GetAssembly()
+  spec.csharp:
+  - uid: Reqnroll.Plugins.AssemblyResolverBase.GetAssembly
+    name: GetAssembly
+    href: Reqnroll.Plugins.AssemblyResolverBase.html#Reqnroll_Plugins_AssemblyResolverBase_GetAssembly
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Plugins.AssemblyResolverBase.GetAssembly
+    name: GetAssembly
+    href: Reqnroll.Plugins.AssemblyResolverBase.html#Reqnroll_Plugins_AssemblyResolverBase_GetAssembly
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.#ctor*
+  commentId: Overload:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.#ctor
+  href: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.html#Reqnroll_Plugins_DotNetFrameworkPluginAssemblyResolver__ctor_System_String_
+  name: DotNetFrameworkPluginAssemblyResolver
+  nameWithType: DotNetFrameworkPluginAssemblyResolver.DotNetFrameworkPluginAssemblyResolver
+  fullName: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.DotNetFrameworkPluginAssemblyResolver
+  nameWithType.vb: DotNetFrameworkPluginAssemblyResolver.New
+  fullName.vb: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Plugins.AssemblyResolverBase.Initialize(System.String)
+  commentId: M:Reqnroll.Plugins.AssemblyResolverBase.Initialize(System.String)
+  parent: Reqnroll.Plugins.AssemblyResolverBase
+  isExternal: true
+  href: Reqnroll.Plugins.AssemblyResolverBase.html#Reqnroll_Plugins_AssemblyResolverBase_Initialize_System_String_
+  name: Initialize(string)
+  nameWithType: AssemblyResolverBase.Initialize(string)
+  fullName: Reqnroll.Plugins.AssemblyResolverBase.Initialize(string)
+  nameWithType.vb: AssemblyResolverBase.Initialize(String)
+  fullName.vb: Reqnroll.Plugins.AssemblyResolverBase.Initialize(String)
+  name.vb: Initialize(String)
+  spec.csharp:
+  - uid: Reqnroll.Plugins.AssemblyResolverBase.Initialize(System.String)
+    name: Initialize
+    href: Reqnroll.Plugins.AssemblyResolverBase.html#Reqnroll_Plugins_AssemblyResolverBase_Initialize_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Plugins.AssemblyResolverBase.Initialize(System.String)
+    name: Initialize
+    href: Reqnroll.Plugins.AssemblyResolverBase.html#Reqnroll_Plugins_AssemblyResolverBase_Initialize_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Initialize*
+  commentId: Overload:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Initialize
+  href: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.html#Reqnroll_Plugins_DotNetFrameworkPluginAssemblyResolver_Initialize_System_String_
+  name: Initialize
+  nameWithType: DotNetFrameworkPluginAssemblyResolver.Initialize
+  fullName: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Initialize
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: Reqnroll.Plugins.AssemblyResolverBase.LoadAssemblyFromPath(System.String)
+  commentId: M:Reqnroll.Plugins.AssemblyResolverBase.LoadAssemblyFromPath(System.String)
+  parent: Reqnroll.Plugins.AssemblyResolverBase
+  isExternal: true
+  href: Reqnroll.Plugins.AssemblyResolverBase.html#Reqnroll_Plugins_AssemblyResolverBase_LoadAssemblyFromPath_System_String_
+  name: LoadAssemblyFromPath(string)
+  nameWithType: AssemblyResolverBase.LoadAssemblyFromPath(string)
+  fullName: Reqnroll.Plugins.AssemblyResolverBase.LoadAssemblyFromPath(string)
+  nameWithType.vb: AssemblyResolverBase.LoadAssemblyFromPath(String)
+  fullName.vb: Reqnroll.Plugins.AssemblyResolverBase.LoadAssemblyFromPath(String)
+  name.vb: LoadAssemblyFromPath(String)
+  spec.csharp:
+  - uid: Reqnroll.Plugins.AssemblyResolverBase.LoadAssemblyFromPath(System.String)
+    name: LoadAssemblyFromPath
+    href: Reqnroll.Plugins.AssemblyResolverBase.html#Reqnroll_Plugins_AssemblyResolverBase_LoadAssemblyFromPath_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Plugins.AssemblyResolverBase.LoadAssemblyFromPath(System.String)
+    name: LoadAssemblyFromPath
+    href: Reqnroll.Plugins.AssemblyResolverBase.html#Reqnroll_Plugins_AssemblyResolverBase_LoadAssemblyFromPath_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath*
+  commentId: Overload:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath
+  href: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.html#Reqnroll_Plugins_DotNetFrameworkPluginAssemblyResolver_LoadAssemblyFromPath_System_String_
+  name: LoadAssemblyFromPath
+  nameWithType: DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath
+  fullName: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.LoadAssemblyFromPath
+- uid: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Load*
+  commentId: Overload:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Load
+  href: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.html#Reqnroll_Plugins_DotNetFrameworkPluginAssemblyResolver_Load_System_String_
+  name: Load
+  nameWithType: DotNetFrameworkPluginAssemblyResolver.Load
+  fullName: Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.Load

@@ -1,0 +1,322 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.IContainerBuilder
+  commentId: T:Reqnroll.Infrastructure.IContainerBuilder
+  id: IContainerBuilder
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.IContainerBuilder.CreateFeatureContainer(Reqnroll.BoDi.IObjectContainer,Reqnroll.FeatureInfo)
+  - Reqnroll.Infrastructure.IContainerBuilder.CreateGlobalContainer(System.Reflection.Assembly,Reqnroll.Configuration.IRuntimeConfigurationProvider)
+  - Reqnroll.Infrastructure.IContainerBuilder.CreateScenarioContainer(Reqnroll.BoDi.IObjectContainer,Reqnroll.ScenarioInfo)
+  - Reqnroll.Infrastructure.IContainerBuilder.CreateTestThreadContainer(Reqnroll.BoDi.IObjectContainer)
+  langs:
+  - csharp
+  - vb
+  name: IContainerBuilder
+  nameWithType: IContainerBuilder
+  fullName: Reqnroll.Infrastructure.IContainerBuilder
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContainerBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IContainerBuilder
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContainerBuilder.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface IContainerBuilder
+    content.vb: Public Interface IContainerBuilder
+- uid: Reqnroll.Infrastructure.IContainerBuilder.CreateGlobalContainer(System.Reflection.Assembly,Reqnroll.Configuration.IRuntimeConfigurationProvider)
+  commentId: M:Reqnroll.Infrastructure.IContainerBuilder.CreateGlobalContainer(System.Reflection.Assembly,Reqnroll.Configuration.IRuntimeConfigurationProvider)
+  id: CreateGlobalContainer(System.Reflection.Assembly,Reqnroll.Configuration.IRuntimeConfigurationProvider)
+  parent: Reqnroll.Infrastructure.IContainerBuilder
+  langs:
+  - csharp
+  - vb
+  name: CreateGlobalContainer(Assembly, IRuntimeConfigurationProvider)
+  nameWithType: IContainerBuilder.CreateGlobalContainer(Assembly, IRuntimeConfigurationProvider)
+  fullName: Reqnroll.Infrastructure.IContainerBuilder.CreateGlobalContainer(System.Reflection.Assembly, Reqnroll.Configuration.IRuntimeConfigurationProvider)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContainerBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateGlobalContainer
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContainerBuilder.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: IObjectContainer CreateGlobalContainer(Assembly testAssembly, IRuntimeConfigurationProvider configurationProvider = null)
+    parameters:
+    - id: testAssembly
+      type: System.Reflection.Assembly
+    - id: configurationProvider
+      type: Reqnroll.Configuration.IRuntimeConfigurationProvider
+    return:
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: Function CreateGlobalContainer(testAssembly As Assembly, configurationProvider As IRuntimeConfigurationProvider = Nothing) As IObjectContainer
+  overload: Reqnroll.Infrastructure.IContainerBuilder.CreateGlobalContainer*
+- uid: Reqnroll.Infrastructure.IContainerBuilder.CreateTestThreadContainer(Reqnroll.BoDi.IObjectContainer)
+  commentId: M:Reqnroll.Infrastructure.IContainerBuilder.CreateTestThreadContainer(Reqnroll.BoDi.IObjectContainer)
+  id: CreateTestThreadContainer(Reqnroll.BoDi.IObjectContainer)
+  parent: Reqnroll.Infrastructure.IContainerBuilder
+  langs:
+  - csharp
+  - vb
+  name: CreateTestThreadContainer(IObjectContainer)
+  nameWithType: IContainerBuilder.CreateTestThreadContainer(IObjectContainer)
+  fullName: Reqnroll.Infrastructure.IContainerBuilder.CreateTestThreadContainer(Reqnroll.BoDi.IObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContainerBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateTestThreadContainer
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContainerBuilder.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: IObjectContainer CreateTestThreadContainer(IObjectContainer globalContainer)
+    parameters:
+    - id: globalContainer
+      type: Reqnroll.BoDi.IObjectContainer
+    return:
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: Function CreateTestThreadContainer(globalContainer As IObjectContainer) As IObjectContainer
+  overload: Reqnroll.Infrastructure.IContainerBuilder.CreateTestThreadContainer*
+- uid: Reqnroll.Infrastructure.IContainerBuilder.CreateScenarioContainer(Reqnroll.BoDi.IObjectContainer,Reqnroll.ScenarioInfo)
+  commentId: M:Reqnroll.Infrastructure.IContainerBuilder.CreateScenarioContainer(Reqnroll.BoDi.IObjectContainer,Reqnroll.ScenarioInfo)
+  id: CreateScenarioContainer(Reqnroll.BoDi.IObjectContainer,Reqnroll.ScenarioInfo)
+  parent: Reqnroll.Infrastructure.IContainerBuilder
+  langs:
+  - csharp
+  - vb
+  name: CreateScenarioContainer(IObjectContainer, ScenarioInfo)
+  nameWithType: IContainerBuilder.CreateScenarioContainer(IObjectContainer, ScenarioInfo)
+  fullName: Reqnroll.Infrastructure.IContainerBuilder.CreateScenarioContainer(Reqnroll.BoDi.IObjectContainer, Reqnroll.ScenarioInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContainerBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateScenarioContainer
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContainerBuilder.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: IObjectContainer CreateScenarioContainer(IObjectContainer testThreadContainer, ScenarioInfo scenarioInfo)
+    parameters:
+    - id: testThreadContainer
+      type: Reqnroll.BoDi.IObjectContainer
+    - id: scenarioInfo
+      type: Reqnroll.ScenarioInfo
+    return:
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: Function CreateScenarioContainer(testThreadContainer As IObjectContainer, scenarioInfo As ScenarioInfo) As IObjectContainer
+  overload: Reqnroll.Infrastructure.IContainerBuilder.CreateScenarioContainer*
+- uid: Reqnroll.Infrastructure.IContainerBuilder.CreateFeatureContainer(Reqnroll.BoDi.IObjectContainer,Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.Infrastructure.IContainerBuilder.CreateFeatureContainer(Reqnroll.BoDi.IObjectContainer,Reqnroll.FeatureInfo)
+  id: CreateFeatureContainer(Reqnroll.BoDi.IObjectContainer,Reqnroll.FeatureInfo)
+  parent: Reqnroll.Infrastructure.IContainerBuilder
+  langs:
+  - csharp
+  - vb
+  name: CreateFeatureContainer(IObjectContainer, FeatureInfo)
+  nameWithType: IContainerBuilder.CreateFeatureContainer(IObjectContainer, FeatureInfo)
+  fullName: Reqnroll.Infrastructure.IContainerBuilder.CreateFeatureContainer(Reqnroll.BoDi.IObjectContainer, Reqnroll.FeatureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ContainerBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateFeatureContainer
+    path: ../Reqnroll/Reqnroll/Infrastructure/ContainerBuilder.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: IObjectContainer CreateFeatureContainer(IObjectContainer testThreadContainer, FeatureInfo featureInfo)
+    parameters:
+    - id: testThreadContainer
+      type: Reqnroll.BoDi.IObjectContainer
+    - id: featureInfo
+      type: Reqnroll.FeatureInfo
+    return:
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: Function CreateFeatureContainer(testThreadContainer As IObjectContainer, featureInfo As FeatureInfo) As IObjectContainer
+  overload: Reqnroll.Infrastructure.IContainerBuilder.CreateFeatureContainer*
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.IContainerBuilder.CreateGlobalContainer*
+  commentId: Overload:Reqnroll.Infrastructure.IContainerBuilder.CreateGlobalContainer
+  href: Reqnroll.Infrastructure.IContainerBuilder.html#Reqnroll_Infrastructure_IContainerBuilder_CreateGlobalContainer_System_Reflection_Assembly_Reqnroll_Configuration_IRuntimeConfigurationProvider_
+  name: CreateGlobalContainer
+  nameWithType: IContainerBuilder.CreateGlobalContainer
+  fullName: Reqnroll.Infrastructure.IContainerBuilder.CreateGlobalContainer
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: Reqnroll.Configuration.IRuntimeConfigurationProvider
+  commentId: T:Reqnroll.Configuration.IRuntimeConfigurationProvider
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.IRuntimeConfigurationProvider.html
+  name: IRuntimeConfigurationProvider
+  nameWithType: IRuntimeConfigurationProvider
+  fullName: Reqnroll.Configuration.IRuntimeConfigurationProvider
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.Infrastructure.IContainerBuilder.CreateTestThreadContainer*
+  commentId: Overload:Reqnroll.Infrastructure.IContainerBuilder.CreateTestThreadContainer
+  href: Reqnroll.Infrastructure.IContainerBuilder.html#Reqnroll_Infrastructure_IContainerBuilder_CreateTestThreadContainer_Reqnroll_BoDi_IObjectContainer_
+  name: CreateTestThreadContainer
+  nameWithType: IContainerBuilder.CreateTestThreadContainer
+  fullName: Reqnroll.Infrastructure.IContainerBuilder.CreateTestThreadContainer
+- uid: Reqnroll.Infrastructure.IContainerBuilder.CreateScenarioContainer*
+  commentId: Overload:Reqnroll.Infrastructure.IContainerBuilder.CreateScenarioContainer
+  href: Reqnroll.Infrastructure.IContainerBuilder.html#Reqnroll_Infrastructure_IContainerBuilder_CreateScenarioContainer_Reqnroll_BoDi_IObjectContainer_Reqnroll_ScenarioInfo_
+  name: CreateScenarioContainer
+  nameWithType: IContainerBuilder.CreateScenarioContainer
+  fullName: Reqnroll.Infrastructure.IContainerBuilder.CreateScenarioContainer
+- uid: Reqnroll.ScenarioInfo
+  commentId: T:Reqnroll.ScenarioInfo
+  parent: Reqnroll
+  href: Reqnroll.ScenarioInfo.html
+  name: ScenarioInfo
+  nameWithType: ScenarioInfo
+  fullName: Reqnroll.ScenarioInfo
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.Infrastructure.IContainerBuilder.CreateFeatureContainer*
+  commentId: Overload:Reqnroll.Infrastructure.IContainerBuilder.CreateFeatureContainer
+  href: Reqnroll.Infrastructure.IContainerBuilder.html#Reqnroll_Infrastructure_IContainerBuilder_CreateFeatureContainer_Reqnroll_BoDi_IObjectContainer_Reqnroll_FeatureInfo_
+  name: CreateFeatureContainer
+  nameWithType: IContainerBuilder.CreateFeatureContainer
+  fullName: Reqnroll.Infrastructure.IContainerBuilder.CreateFeatureContainer
+- uid: Reqnroll.FeatureInfo
+  commentId: T:Reqnroll.FeatureInfo
+  parent: Reqnroll
+  href: Reqnroll.FeatureInfo.html
+  name: FeatureInfo
+  nameWithType: FeatureInfo
+  fullName: Reqnroll.FeatureInfo

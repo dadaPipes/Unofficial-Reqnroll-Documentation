@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.ITestRunContext
+  commentId: T:Reqnroll.ITestRunContext
+  id: ITestRunContext
+  parent: Reqnroll
+  children:
+  - Reqnroll.ITestRunContext.TestDirectory
+  - Reqnroll.ITestRunContext.TestRunContainer
+  langs:
+  - csharp
+  - vb
+  name: ITestRunContext
+  nameWithType: ITestRunContext
+  fullName: Reqnroll.ITestRunContext
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/DefaultTestRunContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ITestRunContext
+    path: ../Reqnroll/Reqnroll/DefaultTestRunContext.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: 'public interface ITestRunContext : IReqnrollContext'
+    content.vb: Public Interface ITestRunContext Inherits IReqnrollContext
+  inheritedMembers:
+  - Reqnroll.IReqnrollContext.TestError
+- uid: Reqnroll.ITestRunContext.TestRunContainer
+  commentId: P:Reqnroll.ITestRunContext.TestRunContainer
+  id: TestRunContainer
+  parent: Reqnroll.ITestRunContext
+  langs:
+  - csharp
+  - vb
+  name: TestRunContainer
+  nameWithType: ITestRunContext.TestRunContainer
+  fullName: Reqnroll.ITestRunContext.TestRunContainer
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/DefaultTestRunContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestRunContainer
+    path: ../Reqnroll/Reqnroll/DefaultTestRunContext.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: IObjectContainer TestRunContainer { get; }
+    parameters: []
+    return:
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: ReadOnly Property TestRunContainer As IObjectContainer
+  overload: Reqnroll.ITestRunContext.TestRunContainer*
+- uid: Reqnroll.ITestRunContext.TestDirectory
+  commentId: P:Reqnroll.ITestRunContext.TestDirectory
+  id: TestDirectory
+  parent: Reqnroll.ITestRunContext
+  langs:
+  - csharp
+  - vb
+  name: TestDirectory
+  nameWithType: ITestRunContext.TestDirectory
+  fullName: Reqnroll.ITestRunContext.TestDirectory
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/DefaultTestRunContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestDirectory
+    path: ../Reqnroll/Reqnroll/DefaultTestRunContext.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: string TestDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property TestDirectory As String
+  overload: Reqnroll.ITestRunContext.TestDirectory*
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.IReqnrollContext.TestError
+  commentId: P:Reqnroll.IReqnrollContext.TestError
+  parent: Reqnroll.IReqnrollContext
+  href: Reqnroll.IReqnrollContext.html#Reqnroll_IReqnrollContext_TestError
+  name: TestError
+  nameWithType: IReqnrollContext.TestError
+  fullName: Reqnroll.IReqnrollContext.TestError
+- uid: Reqnroll.IReqnrollContext
+  commentId: T:Reqnroll.IReqnrollContext
+  parent: Reqnroll
+  href: Reqnroll.IReqnrollContext.html
+  name: IReqnrollContext
+  nameWithType: IReqnrollContext
+  fullName: Reqnroll.IReqnrollContext
+- uid: Reqnroll.ITestRunContext.TestRunContainer*
+  commentId: Overload:Reqnroll.ITestRunContext.TestRunContainer
+  href: Reqnroll.ITestRunContext.html#Reqnroll_ITestRunContext_TestRunContainer
+  name: TestRunContainer
+  nameWithType: ITestRunContext.TestRunContainer
+  fullName: Reqnroll.ITestRunContext.TestRunContainer
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.ITestRunContext.TestDirectory*
+  commentId: Overload:Reqnroll.ITestRunContext.TestDirectory
+  href: Reqnroll.ITestRunContext.html#Reqnroll_ITestRunContext_TestDirectory
+  name: TestDirectory
+  nameWithType: ITestRunContext.TestDirectory
+  fullName: Reqnroll.ITestRunContext.TestDirectory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

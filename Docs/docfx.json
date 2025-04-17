@@ -4,10 +4,7 @@
     {
       "src": [
         {
-          "src": "../src",
-          "files": [
-            "**/*.csproj"
-          ]
+          "src": "../Reqnroll/Reqnroll", "files": [ "**/*.csproj" ], "exclude": [ "**/bin/**", "**/obj/**", "**/Analytics/**" ]
         }
       ],
       "dest": "api"

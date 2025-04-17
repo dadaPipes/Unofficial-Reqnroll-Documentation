@@ -1,0 +1,759 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.ISyncTestRunner
+  commentId: T:Reqnroll.ISyncTestRunner
+  id: ISyncTestRunner
+  parent: Reqnroll
+  children:
+  - Reqnroll.ISyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.ISyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.ISyncTestRunner.CollectScenarioErrors
+  - Reqnroll.ISyncTestRunner.FeatureContext
+  - Reqnroll.ISyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.ISyncTestRunner.OnFeatureEnd
+  - Reqnroll.ISyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  - Reqnroll.ISyncTestRunner.OnScenarioEnd
+  - Reqnroll.ISyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  - Reqnroll.ISyncTestRunner.OnScenarioStart
+  - Reqnroll.ISyncTestRunner.OnTestRunEnd
+  - Reqnroll.ISyncTestRunner.OnTestRunStart
+  - Reqnroll.ISyncTestRunner.Pending
+  - Reqnroll.ISyncTestRunner.ScenarioContext
+  - Reqnroll.ISyncTestRunner.SkipScenario
+  - Reqnroll.ISyncTestRunner.TestWorkerId
+  - Reqnroll.ISyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.ISyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISyncTestRunner
+  nameWithType: ISyncTestRunner
+  fullName: Reqnroll.ISyncTestRunner
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ISyncTestRunner
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public interface ISyncTestRunner
+    content.vb: Public Interface ISyncTestRunner
+- uid: Reqnroll.ISyncTestRunner.TestWorkerId
+  commentId: P:Reqnroll.ISyncTestRunner.TestWorkerId
+  id: TestWorkerId
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: TestWorkerId
+  nameWithType: ISyncTestRunner.TestWorkerId
+  fullName: Reqnroll.ISyncTestRunner.TestWorkerId
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestWorkerId
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  summary: The ID of the parallel test worker processing the current scenario.
+  example: []
+  syntax:
+    content: string TestWorkerId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property TestWorkerId As String
+  overload: Reqnroll.ISyncTestRunner.TestWorkerId*
+- uid: Reqnroll.ISyncTestRunner.FeatureContext
+  commentId: P:Reqnroll.ISyncTestRunner.FeatureContext
+  id: FeatureContext
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: FeatureContext
+  nameWithType: ISyncTestRunner.FeatureContext
+  fullName: Reqnroll.ISyncTestRunner.FeatureContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FeatureContext
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: FeatureContext FeatureContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.FeatureContext
+    content.vb: ReadOnly Property FeatureContext As FeatureContext
+  overload: Reqnroll.ISyncTestRunner.FeatureContext*
+- uid: Reqnroll.ISyncTestRunner.ScenarioContext
+  commentId: P:Reqnroll.ISyncTestRunner.ScenarioContext
+  id: ScenarioContext
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: ScenarioContext
+  nameWithType: ISyncTestRunner.ScenarioContext
+  fullName: Reqnroll.ISyncTestRunner.ScenarioContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioContext
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: ScenarioContext ScenarioContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioContext
+    content.vb: ReadOnly Property ScenarioContext As ScenarioContext
+  overload: Reqnroll.ISyncTestRunner.ScenarioContext*
+- uid: Reqnroll.ISyncTestRunner.OnTestRunStart
+  commentId: M:Reqnroll.ISyncTestRunner.OnTestRunStart
+  id: OnTestRunStart
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnTestRunStart()
+  nameWithType: ISyncTestRunner.OnTestRunStart()
+  fullName: Reqnroll.ISyncTestRunner.OnTestRunStart()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnTestRunStart
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void OnTestRunStart()
+    content.vb: Sub OnTestRunStart()
+  overload: Reqnroll.ISyncTestRunner.OnTestRunStart*
+- uid: Reqnroll.ISyncTestRunner.OnTestRunEnd
+  commentId: M:Reqnroll.ISyncTestRunner.OnTestRunEnd
+  id: OnTestRunEnd
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnTestRunEnd()
+  nameWithType: ISyncTestRunner.OnTestRunEnd()
+  fullName: Reqnroll.ISyncTestRunner.OnTestRunEnd()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnTestRunEnd
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void OnTestRunEnd()
+    content.vb: Sub OnTestRunEnd()
+  overload: Reqnroll.ISyncTestRunner.OnTestRunEnd*
+- uid: Reqnroll.ISyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.ISyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  id: OnFeatureStart(Reqnroll.FeatureInfo)
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnFeatureStart(FeatureInfo)
+  nameWithType: ISyncTestRunner.OnFeatureStart(FeatureInfo)
+  fullName: Reqnroll.ISyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnFeatureStart
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void OnFeatureStart(FeatureInfo featureInfo)
+    parameters:
+    - id: featureInfo
+      type: Reqnroll.FeatureInfo
+    content.vb: Sub OnFeatureStart(featureInfo As FeatureInfo)
+  overload: Reqnroll.ISyncTestRunner.OnFeatureStart*
+- uid: Reqnroll.ISyncTestRunner.OnFeatureEnd
+  commentId: M:Reqnroll.ISyncTestRunner.OnFeatureEnd
+  id: OnFeatureEnd
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnFeatureEnd()
+  nameWithType: ISyncTestRunner.OnFeatureEnd()
+  fullName: Reqnroll.ISyncTestRunner.OnFeatureEnd()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnFeatureEnd
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void OnFeatureEnd()
+    content.vb: Sub OnFeatureEnd()
+  overload: Reqnroll.ISyncTestRunner.OnFeatureEnd*
+- uid: Reqnroll.ISyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  commentId: M:Reqnroll.ISyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  id: OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioInitialize(ScenarioInfo)
+  nameWithType: ISyncTestRunner.OnScenarioInitialize(ScenarioInfo)
+  fullName: Reqnroll.ISyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioInitialize
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void OnScenarioInitialize(ScenarioInfo scenarioInfo)
+    parameters:
+    - id: scenarioInfo
+      type: Reqnroll.ScenarioInfo
+    content.vb: Sub OnScenarioInitialize(scenarioInfo As ScenarioInfo)
+  overload: Reqnroll.ISyncTestRunner.OnScenarioInitialize*
+- uid: Reqnroll.ISyncTestRunner.OnScenarioStart
+  commentId: M:Reqnroll.ISyncTestRunner.OnScenarioStart
+  id: OnScenarioStart
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioStart()
+  nameWithType: ISyncTestRunner.OnScenarioStart()
+  fullName: Reqnroll.ISyncTestRunner.OnScenarioStart()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioStart
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 19
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void OnScenarioStart()
+    content.vb: Sub OnScenarioStart()
+  overload: Reqnroll.ISyncTestRunner.OnScenarioStart*
+- uid: Reqnroll.ISyncTestRunner.CollectScenarioErrors
+  commentId: M:Reqnroll.ISyncTestRunner.CollectScenarioErrors
+  id: CollectScenarioErrors
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: CollectScenarioErrors()
+  nameWithType: ISyncTestRunner.CollectScenarioErrors()
+  fullName: Reqnroll.ISyncTestRunner.CollectScenarioErrors()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CollectScenarioErrors
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 21
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void CollectScenarioErrors()
+    content.vb: Sub CollectScenarioErrors()
+  overload: Reqnroll.ISyncTestRunner.CollectScenarioErrors*
+- uid: Reqnroll.ISyncTestRunner.OnScenarioEnd
+  commentId: M:Reqnroll.ISyncTestRunner.OnScenarioEnd
+  id: OnScenarioEnd
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioEnd()
+  nameWithType: ISyncTestRunner.OnScenarioEnd()
+  fullName: Reqnroll.ISyncTestRunner.OnScenarioEnd()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioEnd
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void OnScenarioEnd()
+    content.vb: Sub OnScenarioEnd()
+  overload: Reqnroll.ISyncTestRunner.OnScenarioEnd*
+- uid: Reqnroll.ISyncTestRunner.SkipScenario
+  commentId: M:Reqnroll.ISyncTestRunner.SkipScenario
+  id: SkipScenario
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: SkipScenario()
+  nameWithType: ISyncTestRunner.SkipScenario()
+  fullName: Reqnroll.ISyncTestRunner.SkipScenario()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SkipScenario
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 24
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void SkipScenario()
+    content.vb: Sub SkipScenario()
+  overload: Reqnroll.ISyncTestRunner.SkipScenario*
+- uid: Reqnroll.ISyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ISyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+  id: Given(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: Given(string, string, Table, string)
+  nameWithType: ISyncTestRunner.Given(string, string, Table, string)
+  fullName: Reqnroll.ISyncTestRunner.Given(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Given
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 26
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void Given(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    content.vb: Sub Given(text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing)
+  overload: Reqnroll.ISyncTestRunner.Given*
+  nameWithType.vb: ISyncTestRunner.Given(String, String, Table, String)
+  fullName.vb: Reqnroll.ISyncTestRunner.Given(String, String, Reqnroll.Table, String)
+  name.vb: Given(String, String, Table, String)
+- uid: Reqnroll.ISyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ISyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+  id: When(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: When(string, string, Table, string)
+  nameWithType: ISyncTestRunner.When(string, string, Table, string)
+  fullName: Reqnroll.ISyncTestRunner.When(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: When
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 27
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void When(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    content.vb: Sub [When](text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing)
+  overload: Reqnroll.ISyncTestRunner.When*
+  nameWithType.vb: ISyncTestRunner.When(String, String, Table, String)
+  fullName.vb: Reqnroll.ISyncTestRunner.When(String, String, Reqnroll.Table, String)
+  name.vb: When(String, String, Table, String)
+- uid: Reqnroll.ISyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ISyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+  id: Then(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: Then(string, string, Table, string)
+  nameWithType: ISyncTestRunner.Then(string, string, Table, string)
+  fullName: Reqnroll.ISyncTestRunner.Then(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Then
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 28
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void Then(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    content.vb: Sub [Then](text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing)
+  overload: Reqnroll.ISyncTestRunner.Then*
+  nameWithType.vb: ISyncTestRunner.Then(String, String, Table, String)
+  fullName.vb: Reqnroll.ISyncTestRunner.Then(String, String, Reqnroll.Table, String)
+  name.vb: Then(String, String, Table, String)
+- uid: Reqnroll.ISyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ISyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+  id: And(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: And(string, string, Table, string)
+  nameWithType: ISyncTestRunner.And(string, string, Table, string)
+  fullName: Reqnroll.ISyncTestRunner.And(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: And
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 29
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void And(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    content.vb: Sub [And](text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing)
+  overload: Reqnroll.ISyncTestRunner.And*
+  nameWithType.vb: ISyncTestRunner.And(String, String, Table, String)
+  fullName.vb: Reqnroll.ISyncTestRunner.And(String, String, Reqnroll.Table, String)
+  name.vb: And(String, String, Table, String)
+- uid: Reqnroll.ISyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ISyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+  id: But(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: But(string, string, Table, string)
+  nameWithType: ISyncTestRunner.But(string, string, Table, string)
+  fullName: Reqnroll.ISyncTestRunner.But(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: But
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 30
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void But(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    content.vb: Sub But(text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing)
+  overload: Reqnroll.ISyncTestRunner.But*
+  nameWithType.vb: ISyncTestRunner.But(String, String, Table, String)
+  fullName.vb: Reqnroll.ISyncTestRunner.But(String, String, Reqnroll.Table, String)
+  name.vb: But(String, String, Table, String)
+- uid: Reqnroll.ISyncTestRunner.Pending
+  commentId: M:Reqnroll.ISyncTestRunner.Pending
+  id: Pending
+  parent: Reqnroll.ISyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: Pending()
+  nameWithType: ISyncTestRunner.Pending()
+  fullName: Reqnroll.ISyncTestRunner.Pending()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ISyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Pending
+    path: ../Reqnroll/Reqnroll/ISyncTestRunner.cs
+    startLine: 32
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void Pending()
+    content.vb: Sub Pending()
+  overload: Reqnroll.ISyncTestRunner.Pending*
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.ISyncTestRunner.TestWorkerId*
+  commentId: Overload:Reqnroll.ISyncTestRunner.TestWorkerId
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_TestWorkerId
+  name: TestWorkerId
+  nameWithType: ISyncTestRunner.TestWorkerId
+  fullName: Reqnroll.ISyncTestRunner.TestWorkerId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.ISyncTestRunner.FeatureContext*
+  commentId: Overload:Reqnroll.ISyncTestRunner.FeatureContext
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_FeatureContext
+  name: FeatureContext
+  nameWithType: ISyncTestRunner.FeatureContext
+  fullName: Reqnroll.ISyncTestRunner.FeatureContext
+- uid: Reqnroll.FeatureContext
+  commentId: T:Reqnroll.FeatureContext
+  parent: Reqnroll
+  href: Reqnroll.FeatureContext.html
+  name: FeatureContext
+  nameWithType: FeatureContext
+  fullName: Reqnroll.FeatureContext
+- uid: Reqnroll.ISyncTestRunner.ScenarioContext*
+  commentId: Overload:Reqnroll.ISyncTestRunner.ScenarioContext
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_ScenarioContext
+  name: ScenarioContext
+  nameWithType: ISyncTestRunner.ScenarioContext
+  fullName: Reqnroll.ISyncTestRunner.ScenarioContext
+- uid: Reqnroll.ScenarioContext
+  commentId: T:Reqnroll.ScenarioContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioContext.html
+  name: ScenarioContext
+  nameWithType: ScenarioContext
+  fullName: Reqnroll.ScenarioContext
+- uid: Reqnroll.ISyncTestRunner.OnTestRunStart*
+  commentId: Overload:Reqnroll.ISyncTestRunner.OnTestRunStart
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnTestRunStart
+  name: OnTestRunStart
+  nameWithType: ISyncTestRunner.OnTestRunStart
+  fullName: Reqnroll.ISyncTestRunner.OnTestRunStart
+- uid: Reqnroll.ISyncTestRunner.OnTestRunEnd*
+  commentId: Overload:Reqnroll.ISyncTestRunner.OnTestRunEnd
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnTestRunEnd
+  name: OnTestRunEnd
+  nameWithType: ISyncTestRunner.OnTestRunEnd
+  fullName: Reqnroll.ISyncTestRunner.OnTestRunEnd
+- uid: Reqnroll.ISyncTestRunner.OnFeatureStart*
+  commentId: Overload:Reqnroll.ISyncTestRunner.OnFeatureStart
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnFeatureStart_Reqnroll_FeatureInfo_
+  name: OnFeatureStart
+  nameWithType: ISyncTestRunner.OnFeatureStart
+  fullName: Reqnroll.ISyncTestRunner.OnFeatureStart
+- uid: Reqnroll.FeatureInfo
+  commentId: T:Reqnroll.FeatureInfo
+  parent: Reqnroll
+  href: Reqnroll.FeatureInfo.html
+  name: FeatureInfo
+  nameWithType: FeatureInfo
+  fullName: Reqnroll.FeatureInfo
+- uid: Reqnroll.ISyncTestRunner.OnFeatureEnd*
+  commentId: Overload:Reqnroll.ISyncTestRunner.OnFeatureEnd
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnFeatureEnd
+  name: OnFeatureEnd
+  nameWithType: ISyncTestRunner.OnFeatureEnd
+  fullName: Reqnroll.ISyncTestRunner.OnFeatureEnd
+- uid: Reqnroll.ISyncTestRunner.OnScenarioInitialize*
+  commentId: Overload:Reqnroll.ISyncTestRunner.OnScenarioInitialize
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioInitialize_Reqnroll_ScenarioInfo_
+  name: OnScenarioInitialize
+  nameWithType: ISyncTestRunner.OnScenarioInitialize
+  fullName: Reqnroll.ISyncTestRunner.OnScenarioInitialize
+- uid: Reqnroll.ScenarioInfo
+  commentId: T:Reqnroll.ScenarioInfo
+  parent: Reqnroll
+  href: Reqnroll.ScenarioInfo.html
+  name: ScenarioInfo
+  nameWithType: ScenarioInfo
+  fullName: Reqnroll.ScenarioInfo
+- uid: Reqnroll.ISyncTestRunner.OnScenarioStart*
+  commentId: Overload:Reqnroll.ISyncTestRunner.OnScenarioStart
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioStart
+  name: OnScenarioStart
+  nameWithType: ISyncTestRunner.OnScenarioStart
+  fullName: Reqnroll.ISyncTestRunner.OnScenarioStart
+- uid: Reqnroll.ISyncTestRunner.CollectScenarioErrors*
+  commentId: Overload:Reqnroll.ISyncTestRunner.CollectScenarioErrors
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_CollectScenarioErrors
+  name: CollectScenarioErrors
+  nameWithType: ISyncTestRunner.CollectScenarioErrors
+  fullName: Reqnroll.ISyncTestRunner.CollectScenarioErrors
+- uid: Reqnroll.ISyncTestRunner.OnScenarioEnd*
+  commentId: Overload:Reqnroll.ISyncTestRunner.OnScenarioEnd
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioEnd
+  name: OnScenarioEnd
+  nameWithType: ISyncTestRunner.OnScenarioEnd
+  fullName: Reqnroll.ISyncTestRunner.OnScenarioEnd
+- uid: Reqnroll.ISyncTestRunner.SkipScenario*
+  commentId: Overload:Reqnroll.ISyncTestRunner.SkipScenario
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_SkipScenario
+  name: SkipScenario
+  nameWithType: ISyncTestRunner.SkipScenario
+  fullName: Reqnroll.ISyncTestRunner.SkipScenario
+- uid: Reqnroll.ISyncTestRunner.Given*
+  commentId: Overload:Reqnroll.ISyncTestRunner.Given
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Given_System_String_System_String_Reqnroll_Table_System_String_
+  name: Given
+  nameWithType: ISyncTestRunner.Given
+  fullName: Reqnroll.ISyncTestRunner.Given
+- uid: Reqnroll.Table
+  commentId: T:Reqnroll.Table
+  parent: Reqnroll
+  href: Reqnroll.Table.html
+  name: Table
+  nameWithType: Table
+  fullName: Reqnroll.Table
+- uid: Reqnroll.ISyncTestRunner.When*
+  commentId: Overload:Reqnroll.ISyncTestRunner.When
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_When_System_String_System_String_Reqnroll_Table_System_String_
+  name: When
+  nameWithType: ISyncTestRunner.When
+  fullName: Reqnroll.ISyncTestRunner.When
+- uid: Reqnroll.ISyncTestRunner.Then*
+  commentId: Overload:Reqnroll.ISyncTestRunner.Then
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Then_System_String_System_String_Reqnroll_Table_System_String_
+  name: Then
+  nameWithType: ISyncTestRunner.Then
+  fullName: Reqnroll.ISyncTestRunner.Then
+- uid: Reqnroll.ISyncTestRunner.And*
+  commentId: Overload:Reqnroll.ISyncTestRunner.And
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_And_System_String_System_String_Reqnroll_Table_System_String_
+  name: And
+  nameWithType: ISyncTestRunner.And
+  fullName: Reqnroll.ISyncTestRunner.And
+- uid: Reqnroll.ISyncTestRunner.But*
+  commentId: Overload:Reqnroll.ISyncTestRunner.But
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_But_System_String_System_String_Reqnroll_Table_System_String_
+  name: But
+  nameWithType: ISyncTestRunner.But
+  fullName: Reqnroll.ISyncTestRunner.But
+- uid: Reqnroll.ISyncTestRunner.Pending*
+  commentId: Overload:Reqnroll.ISyncTestRunner.Pending
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Pending
+  name: Pending
+  nameWithType: ISyncTestRunner.Pending
+  fullName: Reqnroll.ISyncTestRunner.Pending

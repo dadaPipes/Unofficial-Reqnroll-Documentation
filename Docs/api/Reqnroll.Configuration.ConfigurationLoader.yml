@@ -1,0 +1,920 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.ConfigurationLoader
+  commentId: T:Reqnroll.Configuration.ConfigurationLoader
+  id: ConfigurationLoader
+  parent: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.ConfigurationLoader.#ctor(Reqnroll.Configuration.IReqnrollJsonLocator)
+  - Reqnroll.Configuration.ConfigurationLoader.DefaultAddNonParallelizableMarkerForTags
+  - Reqnroll.Configuration.ConfigurationLoader.DefaultColoredOutput
+  - Reqnroll.Configuration.ConfigurationLoader.DefaultGeneratorPath
+  - Reqnroll.Configuration.ConfigurationLoader.DefaultObsoleteBehavior
+  - Reqnroll.Configuration.ConfigurationLoader.GetDefault
+  - Reqnroll.Configuration.ConfigurationLoader.HasJsonConfig
+  - Reqnroll.Configuration.ConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  - Reqnroll.Configuration.ConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  - Reqnroll.Configuration.ConfigurationLoader.LoadFromConfigSource(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  - Reqnroll.Configuration.ConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationLoader
+  nameWithType: ConfigurationLoader
+  fullName: Reqnroll.Configuration.ConfigurationLoader
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ConfigurationLoader
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: 'public class ConfigurationLoader : IConfigurationLoader'
+    content.vb: Public Class ConfigurationLoader Implements IConfigurationLoader
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Configuration.IConfigurationLoader
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Configuration.ConfigurationLoader.#ctor(Reqnroll.Configuration.IReqnrollJsonLocator)
+  commentId: M:Reqnroll.Configuration.ConfigurationLoader.#ctor(Reqnroll.Configuration.IReqnrollJsonLocator)
+  id: '#ctor(Reqnroll.Configuration.IReqnrollJsonLocator)'
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationLoader(IReqnrollJsonLocator)
+  nameWithType: ConfigurationLoader.ConfigurationLoader(IReqnrollJsonLocator)
+  fullName: Reqnroll.Configuration.ConfigurationLoader.ConfigurationLoader(Reqnroll.Configuration.IReqnrollJsonLocator)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public ConfigurationLoader(IReqnrollJsonLocator reqnrollJsonLocator)
+    parameters:
+    - id: reqnrollJsonLocator
+      type: Reqnroll.Configuration.IReqnrollJsonLocator
+    content.vb: Public Sub New(reqnrollJsonLocator As IReqnrollJsonLocator)
+  overload: Reqnroll.Configuration.ConfigurationLoader.#ctor*
+  nameWithType.vb: ConfigurationLoader.New(IReqnrollJsonLocator)
+  fullName.vb: Reqnroll.Configuration.ConfigurationLoader.New(Reqnroll.Configuration.IReqnrollJsonLocator)
+  name.vb: New(IReqnrollJsonLocator)
+- uid: Reqnroll.Configuration.ConfigurationLoader.DefaultGeneratorPath
+  commentId: P:Reqnroll.Configuration.ConfigurationLoader.DefaultGeneratorPath
+  id: DefaultGeneratorPath
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: DefaultGeneratorPath
+  nameWithType: ConfigurationLoader.DefaultGeneratorPath
+  fullName: Reqnroll.Configuration.ConfigurationLoader.DefaultGeneratorPath
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DefaultGeneratorPath
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 43
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public static string DefaultGeneratorPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DefaultGeneratorPath As String
+  overload: Reqnroll.Configuration.ConfigurationLoader.DefaultGeneratorPath*
+- uid: Reqnroll.Configuration.ConfigurationLoader.DefaultAddNonParallelizableMarkerForTags
+  commentId: P:Reqnroll.Configuration.ConfigurationLoader.DefaultAddNonParallelizableMarkerForTags
+  id: DefaultAddNonParallelizableMarkerForTags
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: DefaultAddNonParallelizableMarkerForTags
+  nameWithType: ConfigurationLoader.DefaultAddNonParallelizableMarkerForTags
+  fullName: Reqnroll.Configuration.ConfigurationLoader.DefaultAddNonParallelizableMarkerForTags
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DefaultAddNonParallelizableMarkerForTags
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 45
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public static string[] DefaultAddNonParallelizableMarkerForTags { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly Property DefaultAddNonParallelizableMarkerForTags As String()
+  overload: Reqnroll.Configuration.ConfigurationLoader.DefaultAddNonParallelizableMarkerForTags*
+- uid: Reqnroll.Configuration.ConfigurationLoader.DefaultObsoleteBehavior
+  commentId: P:Reqnroll.Configuration.ConfigurationLoader.DefaultObsoleteBehavior
+  id: DefaultObsoleteBehavior
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: DefaultObsoleteBehavior
+  nameWithType: ConfigurationLoader.DefaultObsoleteBehavior
+  fullName: Reqnroll.Configuration.ConfigurationLoader.DefaultObsoleteBehavior
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DefaultObsoleteBehavior
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 47
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public static ObsoleteBehavior DefaultObsoleteBehavior { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Configuration.ObsoleteBehavior
+    content.vb: Public Shared ReadOnly Property DefaultObsoleteBehavior As ObsoleteBehavior
+  overload: Reqnroll.Configuration.ConfigurationLoader.DefaultObsoleteBehavior*
+- uid: Reqnroll.Configuration.ConfigurationLoader.DefaultColoredOutput
+  commentId: P:Reqnroll.Configuration.ConfigurationLoader.DefaultColoredOutput
+  id: DefaultColoredOutput
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: DefaultColoredOutput
+  nameWithType: ConfigurationLoader.DefaultColoredOutput
+  fullName: Reqnroll.Configuration.ConfigurationLoader.DefaultColoredOutput
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DefaultColoredOutput
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 49
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public static bool DefaultColoredOutput { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property DefaultColoredOutput As Boolean
+  overload: Reqnroll.Configuration.ConfigurationLoader.DefaultColoredOutput*
+- uid: Reqnroll.Configuration.ConfigurationLoader.HasJsonConfig
+  commentId: P:Reqnroll.Configuration.ConfigurationLoader.HasJsonConfig
+  id: HasJsonConfig
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: HasJsonConfig
+  nameWithType: ConfigurationLoader.HasJsonConfig
+  fullName: Reqnroll.Configuration.ConfigurationLoader.HasJsonConfig
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HasJsonConfig
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 51
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public bool HasJsonConfig { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasJsonConfig As Boolean
+  overload: Reqnroll.Configuration.ConfigurationLoader.HasJsonConfig*
+- uid: Reqnroll.Configuration.ConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  commentId: M:Reqnroll.Configuration.ConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  id: Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: Load(ReqnrollConfiguration, IReqnrollConfigurationHolder)
+  nameWithType: ConfigurationLoader.Load(ReqnrollConfiguration, IReqnrollConfigurationHolder)
+  fullName: Reqnroll.Configuration.ConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration, Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Load
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 60
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  example: []
+  syntax:
+    content: public ReqnrollConfiguration Load(ReqnrollConfiguration reqnrollConfiguration, IReqnrollConfigurationHolder reqnrollConfigurationHolder)
+    parameters:
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    - id: reqnrollConfigurationHolder
+      type: Reqnroll.Configuration.IReqnrollConfigurationHolder
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Public Function Load(reqnrollConfiguration As ReqnrollConfiguration, reqnrollConfigurationHolder As IReqnrollConfigurationHolder) As ReqnrollConfiguration
+  overload: Reqnroll.Configuration.ConfigurationLoader.Load*
+  implements:
+  - Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+- uid: Reqnroll.Configuration.ConfigurationLoader.LoadFromConfigSource(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  commentId: M:Reqnroll.Configuration.ConfigurationLoader.LoadFromConfigSource(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  id: LoadFromConfigSource(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadFromConfigSource(ReqnrollConfiguration, IReqnrollConfigurationHolder)
+  nameWithType: ConfigurationLoader.LoadFromConfigSource(ReqnrollConfiguration, IReqnrollConfigurationHolder)
+  fullName: Reqnroll.Configuration.ConfigurationLoader.LoadFromConfigSource(Reqnroll.Configuration.ReqnrollConfiguration, Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: LoadFromConfigSource
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 68
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: protected virtual ReqnrollConfiguration LoadFromConfigSource(ReqnrollConfiguration reqnrollConfiguration, IReqnrollConfigurationHolder reqnrollConfigurationHolder)
+    parameters:
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    - id: reqnrollConfigurationHolder
+      type: Reqnroll.Configuration.IReqnrollConfigurationHolder
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Protected Overridable Function LoadFromConfigSource(reqnrollConfiguration As ReqnrollConfiguration, reqnrollConfigurationHolder As IReqnrollConfigurationHolder) As ReqnrollConfiguration
+  overload: Reqnroll.Configuration.ConfigurationLoader.LoadFromConfigSource*
+- uid: Reqnroll.Configuration.ConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Configuration.ConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  id: Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: Load(ReqnrollConfiguration)
+  nameWithType: ConfigurationLoader.Load(ReqnrollConfiguration)
+  fullName: Reqnroll.Configuration.ConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Load
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 87
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  example: []
+  syntax:
+    content: public ReqnrollConfiguration Load(ReqnrollConfiguration reqnrollConfiguration)
+    parameters:
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Public Function Load(reqnrollConfiguration As ReqnrollConfiguration) As ReqnrollConfiguration
+  overload: Reqnroll.Configuration.ConfigurationLoader.Load*
+  implements:
+  - Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+- uid: Reqnroll.Configuration.ConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Configuration.ConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+  id: TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: TraceConfigSource(ITraceListener, ReqnrollConfiguration)
+  nameWithType: ConfigurationLoader.TraceConfigSource(ITraceListener, ReqnrollConfiguration)
+  fullName: Reqnroll.Configuration.ConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener, Reqnroll.Configuration.ReqnrollConfiguration)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceConfigSource
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 95
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  example: []
+  syntax:
+    content: public void TraceConfigSource(ITraceListener traceListener, ReqnrollConfiguration reqnrollConfiguration)
+    parameters:
+    - id: traceListener
+      type: Reqnroll.Tracing.ITraceListener
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Public Sub TraceConfigSource(traceListener As ITraceListener, reqnrollConfiguration As ReqnrollConfiguration)
+  overload: Reqnroll.Configuration.ConfigurationLoader.TraceConfigSource*
+  implements:
+  - Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+- uid: Reqnroll.Configuration.ConfigurationLoader.GetDefault
+  commentId: M:Reqnroll.Configuration.ConfigurationLoader.GetDefault
+  id: GetDefault
+  parent: Reqnroll.Configuration.ConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: GetDefault()
+  nameWithType: ConfigurationLoader.GetDefault()
+  fullName: Reqnroll.Configuration.ConfigurationLoader.GetDefault()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/ConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetDefault
+    path: ../Reqnroll/Reqnroll/Configuration/ConfigurationLoader.cs
+    startLine: 114
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public static ReqnrollConfiguration GetDefault()
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Public Shared Function GetDefault() As ReqnrollConfiguration
+  overload: Reqnroll.Configuration.ConfigurationLoader.GetDefault*
+references:
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Configuration.IConfigurationLoader
+  commentId: T:Reqnroll.Configuration.IConfigurationLoader
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.IConfigurationLoader.html
+  name: IConfigurationLoader
+  nameWithType: IConfigurationLoader
+  fullName: Reqnroll.Configuration.IConfigurationLoader
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Configuration.ConfigurationLoader.#ctor*
+  commentId: Overload:Reqnroll.Configuration.ConfigurationLoader.#ctor
+  href: Reqnroll.Configuration.ConfigurationLoader.html#Reqnroll_Configuration_ConfigurationLoader__ctor_Reqnroll_Configuration_IReqnrollJsonLocator_
+  name: ConfigurationLoader
+  nameWithType: ConfigurationLoader.ConfigurationLoader
+  fullName: Reqnroll.Configuration.ConfigurationLoader.ConfigurationLoader
+  nameWithType.vb: ConfigurationLoader.New
+  fullName.vb: Reqnroll.Configuration.ConfigurationLoader.New
+  name.vb: New
+- uid: Reqnroll.Configuration.IReqnrollJsonLocator
+  commentId: T:Reqnroll.Configuration.IReqnrollJsonLocator
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.IReqnrollJsonLocator.html
+  name: IReqnrollJsonLocator
+  nameWithType: IReqnrollJsonLocator
+  fullName: Reqnroll.Configuration.IReqnrollJsonLocator
+- uid: Reqnroll.Configuration.ConfigurationLoader.DefaultGeneratorPath*
+  commentId: Overload:Reqnroll.Configuration.ConfigurationLoader.DefaultGeneratorPath
+  href: Reqnroll.Configuration.ConfigurationLoader.html#Reqnroll_Configuration_ConfigurationLoader_DefaultGeneratorPath
+  name: DefaultGeneratorPath
+  nameWithType: ConfigurationLoader.DefaultGeneratorPath
+  fullName: Reqnroll.Configuration.ConfigurationLoader.DefaultGeneratorPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Configuration.ConfigurationLoader.DefaultAddNonParallelizableMarkerForTags*
+  commentId: Overload:Reqnroll.Configuration.ConfigurationLoader.DefaultAddNonParallelizableMarkerForTags
+  href: Reqnroll.Configuration.ConfigurationLoader.html#Reqnroll_Configuration_ConfigurationLoader_DefaultAddNonParallelizableMarkerForTags
+  name: DefaultAddNonParallelizableMarkerForTags
+  nameWithType: ConfigurationLoader.DefaultAddNonParallelizableMarkerForTags
+  fullName: Reqnroll.Configuration.ConfigurationLoader.DefaultAddNonParallelizableMarkerForTags
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Reqnroll.Configuration.ConfigurationLoader.DefaultObsoleteBehavior*
+  commentId: Overload:Reqnroll.Configuration.ConfigurationLoader.DefaultObsoleteBehavior
+  href: Reqnroll.Configuration.ConfigurationLoader.html#Reqnroll_Configuration_ConfigurationLoader_DefaultObsoleteBehavior
+  name: DefaultObsoleteBehavior
+  nameWithType: ConfigurationLoader.DefaultObsoleteBehavior
+  fullName: Reqnroll.Configuration.ConfigurationLoader.DefaultObsoleteBehavior
+- uid: Reqnroll.Configuration.ObsoleteBehavior
+  commentId: T:Reqnroll.Configuration.ObsoleteBehavior
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ObsoleteBehavior.html
+  name: ObsoleteBehavior
+  nameWithType: ObsoleteBehavior
+  fullName: Reqnroll.Configuration.ObsoleteBehavior
+- uid: Reqnroll.Configuration.ConfigurationLoader.DefaultColoredOutput*
+  commentId: Overload:Reqnroll.Configuration.ConfigurationLoader.DefaultColoredOutput
+  href: Reqnroll.Configuration.ConfigurationLoader.html#Reqnroll_Configuration_ConfigurationLoader_DefaultColoredOutput
+  name: DefaultColoredOutput
+  nameWithType: ConfigurationLoader.DefaultColoredOutput
+  fullName: Reqnroll.Configuration.ConfigurationLoader.DefaultColoredOutput
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Configuration.ConfigurationLoader.HasJsonConfig*
+  commentId: Overload:Reqnroll.Configuration.ConfigurationLoader.HasJsonConfig
+  href: Reqnroll.Configuration.ConfigurationLoader.html#Reqnroll_Configuration_ConfigurationLoader_HasJsonConfig
+  name: HasJsonConfig
+  nameWithType: ConfigurationLoader.HasJsonConfig
+  fullName: Reqnroll.Configuration.ConfigurationLoader.HasJsonConfig
+- uid: Reqnroll.Configuration.ConfigurationLoader.Load*
+  commentId: Overload:Reqnroll.Configuration.ConfigurationLoader.Load
+  href: Reqnroll.Configuration.ConfigurationLoader.html#Reqnroll_Configuration_ConfigurationLoader_Load_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_Configuration_IReqnrollConfigurationHolder_
+  name: Load
+  nameWithType: ConfigurationLoader.Load
+  fullName: Reqnroll.Configuration.ConfigurationLoader.Load
+- uid: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  commentId: M:Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  parent: Reqnroll.Configuration.IConfigurationLoader
+  href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_Load_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_Configuration_IReqnrollConfigurationHolder_
+  name: Load(ReqnrollConfiguration, IReqnrollConfigurationHolder)
+  nameWithType: IConfigurationLoader.Load(ReqnrollConfiguration, IReqnrollConfigurationHolder)
+  fullName: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration, Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  spec.csharp:
+  - uid: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+    name: Load
+    href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_Load_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_Configuration_IReqnrollConfigurationHolder_
+  - name: (
+  - uid: Reqnroll.Configuration.ReqnrollConfiguration
+    name: ReqnrollConfiguration
+    href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Configuration.IReqnrollConfigurationHolder
+    name: IReqnrollConfigurationHolder
+    href: Reqnroll.Configuration.IReqnrollConfigurationHolder.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+    name: Load
+    href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_Load_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_Configuration_IReqnrollConfigurationHolder_
+  - name: (
+  - uid: Reqnroll.Configuration.ReqnrollConfiguration
+    name: ReqnrollConfiguration
+    href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Configuration.IReqnrollConfigurationHolder
+    name: IReqnrollConfigurationHolder
+    href: Reqnroll.Configuration.IReqnrollConfigurationHolder.html
+  - name: )
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration
+- uid: Reqnroll.Configuration.IReqnrollConfigurationHolder
+  commentId: T:Reqnroll.Configuration.IReqnrollConfigurationHolder
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.IReqnrollConfigurationHolder.html
+  name: IReqnrollConfigurationHolder
+  nameWithType: IReqnrollConfigurationHolder
+  fullName: Reqnroll.Configuration.IReqnrollConfigurationHolder
+- uid: Reqnroll.Configuration.ConfigurationLoader.LoadFromConfigSource*
+  commentId: Overload:Reqnroll.Configuration.ConfigurationLoader.LoadFromConfigSource
+  href: Reqnroll.Configuration.ConfigurationLoader.html#Reqnroll_Configuration_ConfigurationLoader_LoadFromConfigSource_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_Configuration_IReqnrollConfigurationHolder_
+  name: LoadFromConfigSource
+  nameWithType: ConfigurationLoader.LoadFromConfigSource
+  fullName: Reqnroll.Configuration.ConfigurationLoader.LoadFromConfigSource
+- uid: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Configuration.IConfigurationLoader
+  href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_Load_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: Load(ReqnrollConfiguration)
+  nameWithType: IConfigurationLoader.Load(ReqnrollConfiguration)
+  fullName: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  spec.csharp:
+  - uid: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+    name: Load
+    href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_Load_Reqnroll_Configuration_ReqnrollConfiguration_
+  - name: (
+  - uid: Reqnroll.Configuration.ReqnrollConfiguration
+    name: ReqnrollConfiguration
+    href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+    name: Load
+    href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_Load_Reqnroll_Configuration_ReqnrollConfiguration_
+  - name: (
+  - uid: Reqnroll.Configuration.ReqnrollConfiguration
+    name: ReqnrollConfiguration
+    href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  - name: )
+- uid: Reqnroll.Configuration.ConfigurationLoader.TraceConfigSource*
+  commentId: Overload:Reqnroll.Configuration.ConfigurationLoader.TraceConfigSource
+  href: Reqnroll.Configuration.ConfigurationLoader.html#Reqnroll_Configuration_ConfigurationLoader_TraceConfigSource_Reqnroll_Tracing_ITraceListener_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: TraceConfigSource
+  nameWithType: ConfigurationLoader.TraceConfigSource
+  fullName: Reqnroll.Configuration.ConfigurationLoader.TraceConfigSource
+- uid: Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Configuration.IConfigurationLoader
+  href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_TraceConfigSource_Reqnroll_Tracing_ITraceListener_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: TraceConfigSource(ITraceListener, ReqnrollConfiguration)
+  nameWithType: IConfigurationLoader.TraceConfigSource(ITraceListener, ReqnrollConfiguration)
+  fullName: Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener, Reqnroll.Configuration.ReqnrollConfiguration)
+  spec.csharp:
+  - uid: Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+    name: TraceConfigSource
+    href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_TraceConfigSource_Reqnroll_Tracing_ITraceListener_Reqnroll_Configuration_ReqnrollConfiguration_
+  - name: (
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    href: Reqnroll.Tracing.ITraceListener.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Configuration.ReqnrollConfiguration
+    name: ReqnrollConfiguration
+    href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+    name: TraceConfigSource
+    href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_TraceConfigSource_Reqnroll_Tracing_ITraceListener_Reqnroll_Configuration_ReqnrollConfiguration_
+  - name: (
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    href: Reqnroll.Tracing.ITraceListener.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Configuration.ReqnrollConfiguration
+    name: ReqnrollConfiguration
+    href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  - name: )
+- uid: Reqnroll.Tracing.ITraceListener
+  commentId: T:Reqnroll.Tracing.ITraceListener
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITraceListener.html
+  name: ITraceListener
+  nameWithType: ITraceListener
+  fullName: Reqnroll.Tracing.ITraceListener
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: Reqnroll.Configuration.ConfigurationLoader.GetDefault*
+  commentId: Overload:Reqnroll.Configuration.ConfigurationLoader.GetDefault
+  href: Reqnroll.Configuration.ConfigurationLoader.html#Reqnroll_Configuration_ConfigurationLoader_GetDefault
+  name: GetDefault
+  nameWithType: ConfigurationLoader.GetDefault
+  fullName: Reqnroll.Configuration.ConfigurationLoader.GetDefault

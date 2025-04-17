@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  commentId: T:Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  id: IEnvironmentWrapper
+  parent: Reqnroll.EnvironmentAccess
+  children:
+  - Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetCurrentDirectory
+  - Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetEnvironmentVariable(System.String)
+  - Reqnroll.EnvironmentAccess.IEnvironmentWrapper.IsEnvironmentVariableSet(System.String)
+  - Reqnroll.EnvironmentAccess.IEnvironmentWrapper.ResolveEnvironmentVariables(System.String)
+  - Reqnroll.EnvironmentAccess.IEnvironmentWrapper.SetEnvironmentVariable(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IEnvironmentWrapper
+  nameWithType: IEnvironmentWrapper
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IEnvironmentWrapper
+    path: ../Reqnroll/Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.EnvironmentAccess
+  syntax:
+    content: public interface IEnvironmentWrapper
+    content.vb: Public Interface IEnvironmentWrapper
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.ResolveEnvironmentVariables(System.String)
+  commentId: M:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.ResolveEnvironmentVariables(System.String)
+  id: ResolveEnvironmentVariables(System.String)
+  parent: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  langs:
+  - csharp
+  - vb
+  name: ResolveEnvironmentVariables(string)
+  nameWithType: IEnvironmentWrapper.ResolveEnvironmentVariables(string)
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.ResolveEnvironmentVariables(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ResolveEnvironmentVariables
+    path: ../Reqnroll/Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.EnvironmentAccess
+  syntax:
+    content: IResult<string> ResolveEnvironmentVariables(string source)
+    parameters:
+    - id: source
+      type: System.String
+    return:
+      type: Reqnroll.CommonModels.IResult{System.String}
+    content.vb: Function ResolveEnvironmentVariables(source As String) As IResult(Of String)
+  overload: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.ResolveEnvironmentVariables*
+  nameWithType.vb: IEnvironmentWrapper.ResolveEnvironmentVariables(String)
+  fullName.vb: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.ResolveEnvironmentVariables(String)
+  name.vb: ResolveEnvironmentVariables(String)
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.IsEnvironmentVariableSet(System.String)
+  commentId: M:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.IsEnvironmentVariableSet(System.String)
+  id: IsEnvironmentVariableSet(System.String)
+  parent: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  langs:
+  - csharp
+  - vb
+  name: IsEnvironmentVariableSet(string)
+  nameWithType: IEnvironmentWrapper.IsEnvironmentVariableSet(string)
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.IsEnvironmentVariableSet(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsEnvironmentVariableSet
+    path: ../Reqnroll/Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.EnvironmentAccess
+  syntax:
+    content: bool IsEnvironmentVariableSet(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function IsEnvironmentVariableSet(name As String) As Boolean
+  overload: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.IsEnvironmentVariableSet*
+  nameWithType.vb: IEnvironmentWrapper.IsEnvironmentVariableSet(String)
+  fullName.vb: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.IsEnvironmentVariableSet(String)
+  name.vb: IsEnvironmentVariableSet(String)
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetEnvironmentVariable(System.String)
+  commentId: M:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetEnvironmentVariable(System.String)
+  id: GetEnvironmentVariable(System.String)
+  parent: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetEnvironmentVariable(string)
+  nameWithType: IEnvironmentWrapper.GetEnvironmentVariable(string)
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetEnvironmentVariable(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetEnvironmentVariable
+    path: ../Reqnroll/Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.EnvironmentAccess
+  syntax:
+    content: IResult<string> GetEnvironmentVariable(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: Reqnroll.CommonModels.IResult{System.String}
+    content.vb: Function GetEnvironmentVariable(name As String) As IResult(Of String)
+  overload: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetEnvironmentVariable*
+  nameWithType.vb: IEnvironmentWrapper.GetEnvironmentVariable(String)
+  fullName.vb: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetEnvironmentVariable(String)
+  name.vb: GetEnvironmentVariable(String)
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.SetEnvironmentVariable(System.String,System.String)
+  commentId: M:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.SetEnvironmentVariable(System.String,System.String)
+  id: SetEnvironmentVariable(System.String,System.String)
+  parent: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  langs:
+  - csharp
+  - vb
+  name: SetEnvironmentVariable(string, string)
+  nameWithType: IEnvironmentWrapper.SetEnvironmentVariable(string, string)
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.SetEnvironmentVariable(string, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SetEnvironmentVariable
+    path: ../Reqnroll/Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.EnvironmentAccess
+  syntax:
+    content: void SetEnvironmentVariable(string name, string value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Sub SetEnvironmentVariable(name As String, value As String)
+  overload: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.SetEnvironmentVariable*
+  nameWithType.vb: IEnvironmentWrapper.SetEnvironmentVariable(String, String)
+  fullName.vb: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.SetEnvironmentVariable(String, String)
+  name.vb: SetEnvironmentVariable(String, String)
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetCurrentDirectory
+  commentId: M:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetCurrentDirectory
+  id: GetCurrentDirectory
+  parent: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentDirectory()
+  nameWithType: IEnvironmentWrapper.GetCurrentDirectory()
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetCurrentDirectory()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetCurrentDirectory
+    path: ../Reqnroll/Reqnroll/EnvironmentAccess/IEnvironmentWrapper.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.EnvironmentAccess
+  syntax:
+    content: string GetCurrentDirectory()
+    return:
+      type: System.String
+    content.vb: Function GetCurrentDirectory() As String
+  overload: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetCurrentDirectory*
+references:
+- uid: Reqnroll.EnvironmentAccess
+  commentId: N:Reqnroll.EnvironmentAccess
+  href: Reqnroll.html
+  name: Reqnroll.EnvironmentAccess
+  nameWithType: Reqnroll.EnvironmentAccess
+  fullName: Reqnroll.EnvironmentAccess
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.EnvironmentAccess
+    name: EnvironmentAccess
+    href: Reqnroll.EnvironmentAccess.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.EnvironmentAccess
+    name: EnvironmentAccess
+    href: Reqnroll.EnvironmentAccess.html
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.ResolveEnvironmentVariables*
+  commentId: Overload:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.ResolveEnvironmentVariables
+  href: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.html#Reqnroll_EnvironmentAccess_IEnvironmentWrapper_ResolveEnvironmentVariables_System_String_
+  name: ResolveEnvironmentVariables
+  nameWithType: IEnvironmentWrapper.ResolveEnvironmentVariables
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.ResolveEnvironmentVariables
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.CommonModels.IResult{System.String}
+  commentId: T:Reqnroll.CommonModels.IResult{System.String}
+  parent: Reqnroll.CommonModels
+  definition: Reqnroll.CommonModels.IResult`1
+  href: Reqnroll.CommonModels.IResult-1.html
+  name: IResult<string>
+  nameWithType: IResult<string>
+  fullName: Reqnroll.CommonModels.IResult<string>
+  nameWithType.vb: IResult(Of String)
+  fullName.vb: Reqnroll.CommonModels.IResult(Of String)
+  name.vb: IResult(Of String)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.CommonModels.IResult`1
+  commentId: T:Reqnroll.CommonModels.IResult`1
+  href: Reqnroll.CommonModels.IResult-1.html
+  name: IResult<T>
+  nameWithType: IResult<T>
+  fullName: Reqnroll.CommonModels.IResult<T>
+  nameWithType.vb: IResult(Of T)
+  fullName.vb: Reqnroll.CommonModels.IResult(Of T)
+  name.vb: IResult(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels
+  commentId: N:Reqnroll.CommonModels
+  href: Reqnroll.html
+  name: Reqnroll.CommonModels
+  nameWithType: Reqnroll.CommonModels
+  fullName: Reqnroll.CommonModels
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.IsEnvironmentVariableSet*
+  commentId: Overload:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.IsEnvironmentVariableSet
+  href: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.html#Reqnroll_EnvironmentAccess_IEnvironmentWrapper_IsEnvironmentVariableSet_System_String_
+  name: IsEnvironmentVariableSet
+  nameWithType: IEnvironmentWrapper.IsEnvironmentVariableSet
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.IsEnvironmentVariableSet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetEnvironmentVariable*
+  commentId: Overload:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetEnvironmentVariable
+  href: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.html#Reqnroll_EnvironmentAccess_IEnvironmentWrapper_GetEnvironmentVariable_System_String_
+  name: GetEnvironmentVariable
+  nameWithType: IEnvironmentWrapper.GetEnvironmentVariable
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetEnvironmentVariable
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.SetEnvironmentVariable*
+  commentId: Overload:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.SetEnvironmentVariable
+  href: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.html#Reqnroll_EnvironmentAccess_IEnvironmentWrapper_SetEnvironmentVariable_System_String_System_String_
+  name: SetEnvironmentVariable
+  nameWithType: IEnvironmentWrapper.SetEnvironmentVariable
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.SetEnvironmentVariable
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetCurrentDirectory*
+  commentId: Overload:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetCurrentDirectory
+  href: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.html#Reqnroll_EnvironmentAccess_IEnvironmentWrapper_GetCurrentDirectory
+  name: GetCurrentDirectory
+  nameWithType: IEnvironmentWrapper.GetCurrentDirectory
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetCurrentDirectory

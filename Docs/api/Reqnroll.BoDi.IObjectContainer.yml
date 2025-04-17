@@ -1,0 +1,1057 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  id: IObjectContainer
+  parent: Reqnroll.BoDi
+  children:
+  - Reqnroll.BoDi.IObjectContainer.IsRegistered(System.Type,System.String)
+  - Reqnroll.BoDi.IObjectContainer.IsRegistered``1(System.String)
+  - Reqnroll.BoDi.IObjectContainer.ObjectCreated
+  - Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs``1(System.Func{Reqnroll.BoDi.IObjectContainer,``0},System.String)
+  - Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs``1(System.Func{``0},System.String)
+  - Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs(System.Object,System.Type,System.String,System.Boolean)
+  - Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs``1(``0,System.String,System.Boolean)
+  - Reqnroll.BoDi.IObjectContainer.RegisterTypeAs``2(System.String)
+  - Reqnroll.BoDi.IObjectContainer.Resolve(System.Type,System.String)
+  - Reqnroll.BoDi.IObjectContainer.ResolveAll``1
+  - Reqnroll.BoDi.IObjectContainer.Resolve``1
+  - Reqnroll.BoDi.IObjectContainer.Resolve``1(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IObjectContainer
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  syntax:
+    content: 'public interface IObjectContainer : IDisposable'
+    content.vb: Public Interface IObjectContainer Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: Reqnroll.BoDi.IObjectContainer.ObjectCreated
+  commentId: E:Reqnroll.BoDi.IObjectContainer.ObjectCreated
+  id: ObjectCreated
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: ObjectCreated
+  nameWithType: IObjectContainer.ObjectCreated
+  fullName: Reqnroll.BoDi.IObjectContainer.ObjectCreated
+  type: Event
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ObjectCreated
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Fired when a new object is created directly by the container. It is not invoked for resolving instance and factory registrations.
+  example: []
+  syntax:
+    content: event Action<object> ObjectCreated
+    return:
+      type: System.Action{System.Object}
+    content.vb: Event ObjectCreated As Action(Of Object)
+- uid: Reqnroll.BoDi.IObjectContainer.RegisterTypeAs``2(System.String)
+  commentId: M:Reqnroll.BoDi.IObjectContainer.RegisterTypeAs``2(System.String)
+  id: RegisterTypeAs``2(System.String)
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: RegisterTypeAs<TType, TInterface>(string)
+  nameWithType: IObjectContainer.RegisterTypeAs<TType, TInterface>(string)
+  fullName: Reqnroll.BoDi.IObjectContainer.RegisterTypeAs<TType, TInterface>(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterTypeAs
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 23
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Registers a type as the desired implementation type of an interface.
+  remarks: <p>Previous registrations can be overridden before the first resolution for the <code class="typeparamref">TInterface</code>.</p>
+  example: []
+  syntax:
+    content: 'IStrategyRegistration RegisterTypeAs<TType, TInterface>(string name = null) where TType : class, TInterface'
+    parameters:
+    - id: name
+      type: System.String
+      description: A name to register named instance, otherwise null.
+    typeParameters:
+    - id: TType
+      description: Implementation type
+    - id: TInterface
+      description: Interface will be resolved
+    return:
+      type: Reqnroll.BoDi.IStrategyRegistration
+      description: An object which allows to change resolving strategy.
+    content.vb: Function RegisterTypeAs(Of TType As {Class, TInterface}, TInterface)(name As String = Nothing) As IStrategyRegistration
+  overload: Reqnroll.BoDi.IObjectContainer.RegisterTypeAs*
+  exceptions:
+  - type: Reqnroll.BoDi.ObjectContainerException
+    commentId: T:Reqnroll.BoDi.ObjectContainerException
+    description: If there was already a resolve for the <code class="typeparamref">TInterface</code>.
+  nameWithType.vb: IObjectContainer.RegisterTypeAs(Of TType, TInterface)(String)
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.RegisterTypeAs(Of TType, TInterface)(String)
+  name.vb: RegisterTypeAs(Of TType, TInterface)(String)
+- uid: Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs``1(``0,System.String,System.Boolean)
+  commentId: M:Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs``1(``0,System.String,System.Boolean)
+  id: RegisterInstanceAs``1(``0,System.String,System.Boolean)
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: RegisterInstanceAs<TInterface>(TInterface, string, bool)
+  nameWithType: IObjectContainer.RegisterInstanceAs<TInterface>(TInterface, string, bool)
+  fullName: Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs<TInterface>(TInterface, string, bool)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterInstanceAs
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 38
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Registers an instance
+  remarks: >-
+    <p>Previous registrations can be overridden before the first resolution for the <code class="typeparamref">TInterface</code>.</p>
+
+    <p>The instance will be registered in the object pool, so if a <xref href="Reqnroll.BoDi.IObjectContainer.Resolve%60%601" data-throw-if-not-resolved="false"></xref> (for another interface) would require an instance of the dynamic type of the <code class="paramref">instance</code>, the <code class="paramref">instance</code> will be returned.</p>
+  example: []
+  syntax:
+    content: 'void RegisterInstanceAs<TInterface>(TInterface instance, string name = null, bool dispose = false) where TInterface : class'
+    parameters:
+    - id: instance
+      type: '{TInterface}'
+      description: The instance implements the interface.
+    - id: name
+      type: System.String
+      description: A name to register named instance, otherwise null.
+    - id: dispose
+      type: System.Boolean
+      description: Whether the instance should be disposed on container dispose, otherwise <code>false</code>.
+    typeParameters:
+    - id: TInterface
+      description: Interface will be resolved
+    content.vb: Sub RegisterInstanceAs(Of TInterface As Class)(instance As TInterface, name As String = Nothing, dispose As Boolean = False)
+  overload: Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: If <code class="paramref">instance</code> is null.
+  - type: Reqnroll.BoDi.ObjectContainerException
+    commentId: T:Reqnroll.BoDi.ObjectContainerException
+    description: If there was already a resolve for the <code class="typeparamref">TInterface</code>.
+  nameWithType.vb: IObjectContainer.RegisterInstanceAs(Of TInterface)(TInterface, String, Boolean)
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs(Of TInterface)(TInterface, String, Boolean)
+  name.vb: RegisterInstanceAs(Of TInterface)(TInterface, String, Boolean)
+- uid: Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs(System.Object,System.Type,System.String,System.Boolean)
+  commentId: M:Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs(System.Object,System.Type,System.String,System.Boolean)
+  id: RegisterInstanceAs(System.Object,System.Type,System.String,System.Boolean)
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: RegisterInstanceAs(object, Type, string, bool)
+  nameWithType: IObjectContainer.RegisterInstanceAs(object, Type, string, bool)
+  fullName: Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs(object, System.Type, string, bool)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterInstanceAs
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 53
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Registers an instance
+  remarks: >-
+    <p>Previous registrations can be overridden before the first resolution for the <code class="paramref">interfaceType</code>.</p>
+
+    <p>The instance will be registered in the object pool, so if a <xref href="Reqnroll.BoDi.IObjectContainer.Resolve%60%601" data-throw-if-not-resolved="false"></xref> (for another interface) would require an instance of the dynamic type of the <code class="paramref">instance</code>, the <code class="paramref">instance</code> will be returned.</p>
+  example: []
+  syntax:
+    content: void RegisterInstanceAs(object instance, Type interfaceType, string name = null, bool dispose = false)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: The instance implements the interface.
+    - id: interfaceType
+      type: System.Type
+      description: Interface will be resolved
+    - id: name
+      type: System.String
+      description: A name to register named instance, otherwise null.
+    - id: dispose
+      type: System.Boolean
+      description: Whether the instance should be disposed on container dispose, otherwise <code>false</code>.
+    content.vb: Sub RegisterInstanceAs(instance As Object, interfaceType As Type, name As String = Nothing, dispose As Boolean = False)
+  overload: Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: If <code class="paramref">instance</code> is null.
+  - type: Reqnroll.BoDi.ObjectContainerException
+    commentId: T:Reqnroll.BoDi.ObjectContainerException
+    description: If there was already a resolve for the <code class="paramref">interfaceType</code>.
+  nameWithType.vb: IObjectContainer.RegisterInstanceAs(Object, Type, String, Boolean)
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs(Object, System.Type, String, Boolean)
+  name.vb: RegisterInstanceAs(Object, Type, String, Boolean)
+- uid: Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs``1(System.Func{Reqnroll.BoDi.IObjectContainer,``0},System.String)
+  commentId: M:Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs``1(System.Func{Reqnroll.BoDi.IObjectContainer,``0},System.String)
+  id: RegisterFactoryAs``1(System.Func{Reqnroll.BoDi.IObjectContainer,``0},System.String)
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: RegisterFactoryAs<TInterface>(Func<IObjectContainer, TInterface>, string)
+  nameWithType: IObjectContainer.RegisterFactoryAs<TInterface>(Func<IObjectContainer, TInterface>, string)
+  fullName: Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs<TInterface>(System.Func<Reqnroll.BoDi.IObjectContainer, TInterface>, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterFactoryAs
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 61
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Registers an instance produced by <code class="paramref">factoryDelegate</code>. The delegate will be called only once and the instance it returned will be returned in each resolution.
+  example: []
+  syntax:
+    content: IStrategyRegistration RegisterFactoryAs<TInterface>(Func<IObjectContainer, TInterface> factoryDelegate, string name = null)
+    parameters:
+    - id: factoryDelegate
+      type: System.Func{Reqnroll.BoDi.IObjectContainer,{TInterface}}
+      description: The function to run to obtain the instance.
+    - id: name
+      type: System.String
+      description: A name to resolve named instance, otherwise null.
+    typeParameters:
+    - id: TInterface
+      description: Interface to register as.
+    return:
+      type: Reqnroll.BoDi.IStrategyRegistration
+    content.vb: Function RegisterFactoryAs(Of TInterface)(factoryDelegate As Func(Of IObjectContainer, TInterface), name As String = Nothing) As IStrategyRegistration
+  overload: Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs*
+  nameWithType.vb: IObjectContainer.RegisterFactoryAs(Of TInterface)(Func(Of IObjectContainer, TInterface), String)
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs(Of TInterface)(System.Func(Of Reqnroll.BoDi.IObjectContainer, TInterface), String)
+  name.vb: RegisterFactoryAs(Of TInterface)(Func(Of IObjectContainer, TInterface), String)
+- uid: Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs``1(System.Func{``0},System.String)
+  commentId: M:Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs``1(System.Func{``0},System.String)
+  id: RegisterFactoryAs``1(System.Func{``0},System.String)
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: RegisterFactoryAs<TInterface>(Func<TInterface>, string)
+  nameWithType: IObjectContainer.RegisterFactoryAs<TInterface>(Func<TInterface>, string)
+  fullName: Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs<TInterface>(System.Func<TInterface>, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterFactoryAs
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 69
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Registers an instance produced by <code class="paramref">factoryDelegate</code>. The delegate will be called only once and the instance it returned will be returned in each resolution.
+  example: []
+  syntax:
+    content: IStrategyRegistration RegisterFactoryAs<TInterface>(Func<TInterface> factoryDelegate, string name = null)
+    parameters:
+    - id: factoryDelegate
+      type: System.Func{{TInterface}}
+      description: The function to run to obtain the instance.
+    - id: name
+      type: System.String
+      description: A name to resolve named instance, otherwise null.
+    typeParameters:
+    - id: TInterface
+      description: Interface to register as.
+    return:
+      type: Reqnroll.BoDi.IStrategyRegistration
+    content.vb: Function RegisterFactoryAs(Of TInterface)(factoryDelegate As Func(Of TInterface), name As String = Nothing) As IStrategyRegistration
+  overload: Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs*
+  nameWithType.vb: IObjectContainer.RegisterFactoryAs(Of TInterface)(Func(Of TInterface), String)
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs(Of TInterface)(System.Func(Of TInterface), String)
+  name.vb: RegisterFactoryAs(Of TInterface)(Func(Of TInterface), String)
+- uid: Reqnroll.BoDi.IObjectContainer.Resolve``1
+  commentId: M:Reqnroll.BoDi.IObjectContainer.Resolve``1
+  id: Resolve``1
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: Resolve<T>()
+  nameWithType: IObjectContainer.Resolve<T>()
+  fullName: Reqnroll.BoDi.IObjectContainer.Resolve<T>()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Resolve
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 79
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Resolves an implementation object for an interface or type.
+  remarks: <p>The container pools the objects, so if the interface is resolved twice or the same type is registered for multiple interfaces, a single instance is created and returned.</p>
+  example: []
+  syntax:
+    content: T Resolve<T>()
+    typeParameters:
+    - id: T
+      description: The interface or type.
+    return:
+      type: '{T}'
+      description: An object implementing <code class="typeparamref">T</code>.
+    content.vb: Function Resolve(Of T)() As T
+  overload: Reqnroll.BoDi.IObjectContainer.Resolve*
+  nameWithType.vb: IObjectContainer.Resolve(Of T)()
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.Resolve(Of T)()
+  name.vb: Resolve(Of T)()
+- uid: Reqnroll.BoDi.IObjectContainer.Resolve``1(System.String)
+  commentId: M:Reqnroll.BoDi.IObjectContainer.Resolve``1(System.String)
+  id: Resolve``1(System.String)
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: Resolve<T>(string)
+  nameWithType: IObjectContainer.Resolve<T>(string)
+  fullName: Reqnroll.BoDi.IObjectContainer.Resolve<T>(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Resolve
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 90
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Resolves an implementation object for an interface or type.
+  remarks: <p>The container pools the objects, so if the interface is resolved twice or the same type is registered for multiple interfaces, a single instance is created and returned.</p>
+  example: []
+  syntax:
+    content: T Resolve<T>(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: A name to resolve named instance, otherwise null.
+    typeParameters:
+    - id: T
+      description: The interface or type.
+    return:
+      type: '{T}'
+      description: An object implementing <code class="typeparamref">T</code>.
+    content.vb: Function Resolve(Of T)(name As String) As T
+  overload: Reqnroll.BoDi.IObjectContainer.Resolve*
+  nameWithType.vb: IObjectContainer.Resolve(Of T)(String)
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.Resolve(Of T)(String)
+  name.vb: Resolve(Of T)(String)
+- uid: Reqnroll.BoDi.IObjectContainer.Resolve(System.Type,System.String)
+  commentId: M:Reqnroll.BoDi.IObjectContainer.Resolve(System.Type,System.String)
+  id: Resolve(System.Type,System.String)
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: Resolve(Type, string)
+  nameWithType: IObjectContainer.Resolve(Type, string)
+  fullName: Reqnroll.BoDi.IObjectContainer.Resolve(System.Type, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Resolve
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 101
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Resolves an implementation object for an interface or type.
+  remarks: <p>The container pools the objects, so if the interface is resolved twice or the same type is registered for multiple interfaces, a single instance is created and returned.</p>
+  example: []
+  syntax:
+    content: object Resolve(Type typeToResolve, string name = null)
+    parameters:
+    - id: typeToResolve
+      type: System.Type
+      description: The interface or type.
+    - id: name
+      type: System.String
+      description: A name to resolve named instance, otherwise null.
+    return:
+      type: System.Object
+      description: An object implementing <code class="paramref">typeToResolve</code>.
+    content.vb: Function Resolve(typeToResolve As Type, name As String = Nothing) As Object
+  overload: Reqnroll.BoDi.IObjectContainer.Resolve*
+  nameWithType.vb: IObjectContainer.Resolve(Type, String)
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.Resolve(System.Type, String)
+  name.vb: Resolve(Type, String)
+- uid: Reqnroll.BoDi.IObjectContainer.ResolveAll``1
+  commentId: M:Reqnroll.BoDi.IObjectContainer.ResolveAll``1
+  id: ResolveAll``1
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: ResolveAll<T>()
+  nameWithType: IObjectContainer.ResolveAll<T>()
+  fullName: Reqnroll.BoDi.IObjectContainer.ResolveAll<T>()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ResolveAll
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 108
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Resolves all implementations of an interface or type.
+  example: []
+  syntax:
+    content: 'IEnumerable<T> ResolveAll<T>() where T : class'
+    typeParameters:
+    - id: T
+      description: The interface or type.
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: An object implementing <code class="typeparamref">T</code>.
+    content.vb: Function ResolveAll(Of T As Class)() As IEnumerable(Of T)
+  overload: Reqnroll.BoDi.IObjectContainer.ResolveAll*
+  nameWithType.vb: IObjectContainer.ResolveAll(Of T)()
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.ResolveAll(Of T)()
+  name.vb: ResolveAll(Of T)()
+- uid: Reqnroll.BoDi.IObjectContainer.IsRegistered``1(System.String)
+  commentId: M:Reqnroll.BoDi.IObjectContainer.IsRegistered``1(System.String)
+  id: IsRegistered``1(System.String)
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: IsRegistered<T>(string)
+  nameWithType: IObjectContainer.IsRegistered<T>(string)
+  fullName: Reqnroll.BoDi.IObjectContainer.IsRegistered<T>(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsRegistered
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 116
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Determines whether the interface or type is registered in the container, optionally with the specified name.
+  example: []
+  syntax:
+    content: bool IsRegistered<T>(string name = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name or <code>null</code>.
+    typeParameters:
+    - id: T
+      description: The interface or type.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the interface or type is registered; otherwise <code>false</code>.
+    content.vb: Function IsRegistered(Of T)(name As String = Nothing) As Boolean
+  overload: Reqnroll.BoDi.IObjectContainer.IsRegistered*
+  nameWithType.vb: IObjectContainer.IsRegistered(Of T)(String)
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.IsRegistered(Of T)(String)
+  name.vb: IsRegistered(Of T)(String)
+- uid: Reqnroll.BoDi.IObjectContainer.IsRegistered(System.Type,System.String)
+  commentId: M:Reqnroll.BoDi.IObjectContainer.IsRegistered(System.Type,System.String)
+  id: IsRegistered(System.Type,System.String)
+  parent: Reqnroll.BoDi.IObjectContainer
+  langs:
+  - csharp
+  - vb
+  name: IsRegistered(Type, string)
+  nameWithType: IObjectContainer.IsRegistered(Type, string)
+  fullName: Reqnroll.BoDi.IObjectContainer.IsRegistered(System.Type, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IObjectContainer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsRegistered
+    path: ../Reqnroll/Reqnroll/BoDi/IObjectContainer.cs
+    startLine: 124
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Determines whether the interface or type is registered in the container, optionally with the specified name.
+  example: []
+  syntax:
+    content: bool IsRegistered(Type type, string name = null)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The interface or type.
+    - id: name
+      type: System.String
+      description: The name.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the interface or type is registered; otherwise <code>false</code>.
+    content.vb: Function IsRegistered(type As Type, name As String = Nothing) As Boolean
+  overload: Reqnroll.BoDi.IObjectContainer.IsRegistered*
+  nameWithType.vb: IObjectContainer.IsRegistered(Type, String)
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.IsRegistered(System.Type, String)
+  name.vb: IsRegistered(Type, String)
+references:
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Action{System.Object}
+  commentId: T:System.Action{System.Object}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<object>
+  nameWithType: Action<object>
+  fullName: System.Action<object>
+  nameWithType.vb: Action(Of Object)
+  fullName.vb: System.Action(Of Object)
+  name.vb: Action(Of Object)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.BoDi.ObjectContainerException
+  commentId: T:Reqnroll.BoDi.ObjectContainerException
+  href: Reqnroll.BoDi.ObjectContainerException.html
+  name: ObjectContainerException
+  nameWithType: ObjectContainerException
+  fullName: Reqnroll.BoDi.ObjectContainerException
+- uid: Reqnroll.BoDi.IObjectContainer.RegisterTypeAs*
+  commentId: Overload:Reqnroll.BoDi.IObjectContainer.RegisterTypeAs
+  href: Reqnroll.BoDi.IObjectContainer.html#Reqnroll_BoDi_IObjectContainer_RegisterTypeAs__2_System_String_
+  name: RegisterTypeAs
+  nameWithType: IObjectContainer.RegisterTypeAs
+  fullName: Reqnroll.BoDi.IObjectContainer.RegisterTypeAs
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.BoDi.IStrategyRegistration
+  commentId: T:Reqnroll.BoDi.IStrategyRegistration
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IStrategyRegistration.html
+  name: IStrategyRegistration
+  nameWithType: IStrategyRegistration
+  fullName: Reqnroll.BoDi.IStrategyRegistration
+- uid: Reqnroll.BoDi.IObjectContainer.Resolve``1
+  commentId: M:Reqnroll.BoDi.IObjectContainer.Resolve``1
+  parent: Reqnroll.BoDi.IObjectContainer
+  href: Reqnroll.BoDi.IObjectContainer.html#Reqnroll_BoDi_IObjectContainer_Resolve__1
+  name: Resolve<T>()
+  nameWithType: IObjectContainer.Resolve<T>()
+  fullName: Reqnroll.BoDi.IObjectContainer.Resolve<T>()
+  nameWithType.vb: IObjectContainer.Resolve(Of T)()
+  fullName.vb: Reqnroll.BoDi.IObjectContainer.Resolve(Of T)()
+  name.vb: Resolve(Of T)()
+  spec.csharp:
+  - uid: Reqnroll.BoDi.IObjectContainer.Resolve``1
+    name: Resolve
+    href: Reqnroll.BoDi.IObjectContainer.html#Reqnroll_BoDi_IObjectContainer_Resolve__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.BoDi.IObjectContainer.Resolve``1
+    name: Resolve
+    href: Reqnroll.BoDi.IObjectContainer.html#Reqnroll_BoDi_IObjectContainer_Resolve__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs*
+  commentId: Overload:Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs
+  href: Reqnroll.BoDi.IObjectContainer.html#Reqnroll_BoDi_IObjectContainer_RegisterInstanceAs__1___0_System_String_System_Boolean_
+  name: RegisterInstanceAs
+  nameWithType: IObjectContainer.RegisterInstanceAs
+  fullName: Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs
+- uid: '{TInterface}'
+  commentId: '!:TInterface'
+  definition: TInterface
+  name: TInterface
+  nameWithType: TInterface
+  fullName: TInterface
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: TInterface
+  name: TInterface
+  nameWithType: TInterface
+  fullName: TInterface
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs*
+  commentId: Overload:Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs
+  href: Reqnroll.BoDi.IObjectContainer.html#Reqnroll_BoDi_IObjectContainer_RegisterFactoryAs__1_System_Func_Reqnroll_BoDi_IObjectContainer___0__System_String_
+  name: RegisterFactoryAs
+  nameWithType: IObjectContainer.RegisterFactoryAs
+  fullName: Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs
+- uid: System.Func{Reqnroll.BoDi.IObjectContainer,{TInterface}}
+  commentId: T:System.Func{Reqnroll.BoDi.IObjectContainer,``0}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IObjectContainer, TInterface>
+  nameWithType: Func<IObjectContainer, TInterface>
+  fullName: System.Func<Reqnroll.BoDi.IObjectContainer, TInterface>
+  nameWithType.vb: Func(Of IObjectContainer, TInterface)
+  fullName.vb: System.Func(Of Reqnroll.BoDi.IObjectContainer, TInterface)
+  name.vb: Func(Of IObjectContainer, TInterface)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: Reqnroll.BoDi.IObjectContainer
+    name: IObjectContainer
+    href: Reqnroll.BoDi.IObjectContainer.html
+  - name: ','
+  - name: " "
+  - name: TInterface
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.BoDi.IObjectContainer
+    name: IObjectContainer
+    href: Reqnroll.BoDi.IObjectContainer.html
+  - name: ','
+  - name: " "
+  - name: TInterface
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Func{{TInterface}}
+  commentId: T:System.Func{``0}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TInterface>
+  nameWithType: Func<TInterface>
+  fullName: System.Func<TInterface>
+  nameWithType.vb: Func(Of TInterface)
+  fullName.vb: System.Func(Of TInterface)
+  name.vb: Func(Of TInterface)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TInterface
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInterface
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.BoDi.IObjectContainer.Resolve*
+  commentId: Overload:Reqnroll.BoDi.IObjectContainer.Resolve
+  href: Reqnroll.BoDi.IObjectContainer.html#Reqnroll_BoDi_IObjectContainer_Resolve__1
+  name: Resolve
+  nameWithType: IObjectContainer.Resolve
+  fullName: Reqnroll.BoDi.IObjectContainer.Resolve
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Reqnroll.BoDi.IObjectContainer.ResolveAll*
+  commentId: Overload:Reqnroll.BoDi.IObjectContainer.ResolveAll
+  href: Reqnroll.BoDi.IObjectContainer.html#Reqnroll_BoDi_IObjectContainer_ResolveAll__1
+  name: ResolveAll
+  nameWithType: IObjectContainer.ResolveAll
+  fullName: Reqnroll.BoDi.IObjectContainer.ResolveAll
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.BoDi.IObjectContainer.IsRegistered*
+  commentId: Overload:Reqnroll.BoDi.IObjectContainer.IsRegistered
+  href: Reqnroll.BoDi.IObjectContainer.html#Reqnroll_BoDi_IObjectContainer_IsRegistered__1_System_String_
+  name: IsRegistered
+  nameWithType: IObjectContainer.IsRegistered
+  fullName: Reqnroll.BoDi.IObjectContainer.IsRegistered

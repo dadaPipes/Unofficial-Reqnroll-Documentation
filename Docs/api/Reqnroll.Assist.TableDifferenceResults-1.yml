@@ -1,0 +1,623 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist.TableDifferenceResults`1
+  commentId: T:Reqnroll.Assist.TableDifferenceResults`1
+  id: TableDifferenceResults`1
+  parent: Reqnroll.Assist
+  children:
+  - Reqnroll.Assist.TableDifferenceResults`1.#ctor(Reqnroll.Table,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.IEnumerable{Reqnroll.Assist.TableDifferenceItem{`0}})
+  - Reqnroll.Assist.TableDifferenceResults`1.IndexesOfTableRowsThatWereNotMatched
+  - Reqnroll.Assist.TableDifferenceResults`1.ItemsInTheDataThatWereNotFoundInTheTable
+  - Reqnroll.Assist.TableDifferenceResults`1.Table
+  langs:
+  - csharp
+  - vb
+  name: TableDifferenceResults<TT>
+  nameWithType: TableDifferenceResults<TT>
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDifferenceResults.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TableDifferenceResults
+    path: ../Reqnroll/Reqnroll/Assist/TableDifferenceResults.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public class TableDifferenceResults<TT>
+    typeParameters:
+    - id: TT
+    content.vb: Public Class TableDifferenceResults(Of TT)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: TableDifferenceResults(Of TT)
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT)
+  name.vb: TableDifferenceResults(Of TT)
+- uid: Reqnroll.Assist.TableDifferenceResults`1.#ctor(Reqnroll.Table,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.IEnumerable{Reqnroll.Assist.TableDifferenceItem{`0}})
+  commentId: M:Reqnroll.Assist.TableDifferenceResults`1.#ctor(Reqnroll.Table,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.IEnumerable{Reqnroll.Assist.TableDifferenceItem{`0}})
+  id: '#ctor(Reqnroll.Table,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.IEnumerable{Reqnroll.Assist.TableDifferenceItem{`0}})'
+  parent: Reqnroll.Assist.TableDifferenceResults`1
+  langs:
+  - csharp
+  - vb
+  name: TableDifferenceResults(Table, IEnumerable<int>, IEnumerable<TableDifferenceItem<TT>>)
+  nameWithType: TableDifferenceResults<TT>.TableDifferenceResults(Table, IEnumerable<int>, IEnumerable<TableDifferenceItem<TT>>)
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>.TableDifferenceResults(Reqnroll.Table, System.Collections.Generic.IEnumerable<int>, System.Collections.Generic.IEnumerable<Reqnroll.Assist.TableDifferenceItem<TT>>)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDifferenceResults.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Assist/TableDifferenceResults.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public TableDifferenceResults(Table table, IEnumerable<int> indexesOfTableRowsThatWereNotMatched, IEnumerable<TableDifferenceItem<TT>> itemsInTheDataThatWereNotFoundInTheTable)
+    parameters:
+    - id: table
+      type: Reqnroll.Table
+    - id: indexesOfTableRowsThatWereNotMatched
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+    - id: itemsInTheDataThatWereNotFoundInTheTable
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Assist.TableDifferenceItem{{TT}}}
+    content.vb: Public Sub New(table As Table, indexesOfTableRowsThatWereNotMatched As IEnumerable(Of Integer), itemsInTheDataThatWereNotFoundInTheTable As IEnumerable(Of TableDifferenceItem(Of TT)))
+  overload: Reqnroll.Assist.TableDifferenceResults`1.#ctor*
+  nameWithType.vb: TableDifferenceResults(Of TT).New(Table, IEnumerable(Of Integer), IEnumerable(Of TableDifferenceItem(Of TT)))
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT).New(Reqnroll.Table, System.Collections.Generic.IEnumerable(Of Integer), System.Collections.Generic.IEnumerable(Of Reqnroll.Assist.TableDifferenceItem(Of TT)))
+  name.vb: New(Table, IEnumerable(Of Integer), IEnumerable(Of TableDifferenceItem(Of TT)))
+- uid: Reqnroll.Assist.TableDifferenceResults`1.Table
+  commentId: P:Reqnroll.Assist.TableDifferenceResults`1.Table
+  id: Table
+  parent: Reqnroll.Assist.TableDifferenceResults`1
+  langs:
+  - csharp
+  - vb
+  name: Table
+  nameWithType: TableDifferenceResults<TT>.Table
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>.Table
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDifferenceResults.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Table
+    path: ../Reqnroll/Reqnroll/Assist/TableDifferenceResults.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public Table Table { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Table
+    content.vb: Public ReadOnly Property Table As Table
+  overload: Reqnroll.Assist.TableDifferenceResults`1.Table*
+  nameWithType.vb: TableDifferenceResults(Of TT).Table
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT).Table
+- uid: Reqnroll.Assist.TableDifferenceResults`1.IndexesOfTableRowsThatWereNotMatched
+  commentId: P:Reqnroll.Assist.TableDifferenceResults`1.IndexesOfTableRowsThatWereNotMatched
+  id: IndexesOfTableRowsThatWereNotMatched
+  parent: Reqnroll.Assist.TableDifferenceResults`1
+  langs:
+  - csharp
+  - vb
+  name: IndexesOfTableRowsThatWereNotMatched
+  nameWithType: TableDifferenceResults<TT>.IndexesOfTableRowsThatWereNotMatched
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>.IndexesOfTableRowsThatWereNotMatched
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDifferenceResults.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IndexesOfTableRowsThatWereNotMatched
+    path: ../Reqnroll/Reqnroll/Assist/TableDifferenceResults.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public IEnumerable<int> IndexesOfTableRowsThatWereNotMatched { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+    content.vb: Public ReadOnly Property IndexesOfTableRowsThatWereNotMatched As IEnumerable(Of Integer)
+  overload: Reqnroll.Assist.TableDifferenceResults`1.IndexesOfTableRowsThatWereNotMatched*
+  nameWithType.vb: TableDifferenceResults(Of TT).IndexesOfTableRowsThatWereNotMatched
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT).IndexesOfTableRowsThatWereNotMatched
+- uid: Reqnroll.Assist.TableDifferenceResults`1.ItemsInTheDataThatWereNotFoundInTheTable
+  commentId: P:Reqnroll.Assist.TableDifferenceResults`1.ItemsInTheDataThatWereNotFoundInTheTable
+  id: ItemsInTheDataThatWereNotFoundInTheTable
+  parent: Reqnroll.Assist.TableDifferenceResults`1
+  langs:
+  - csharp
+  - vb
+  name: ItemsInTheDataThatWereNotFoundInTheTable
+  nameWithType: TableDifferenceResults<TT>.ItemsInTheDataThatWereNotFoundInTheTable
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>.ItemsInTheDataThatWereNotFoundInTheTable
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDifferenceResults.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ItemsInTheDataThatWereNotFoundInTheTable
+    path: ../Reqnroll/Reqnroll/Assist/TableDifferenceResults.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public IEnumerable<TableDifferenceItem<TT>> ItemsInTheDataThatWereNotFoundInTheTable { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Assist.TableDifferenceItem{{TT}}}
+    content.vb: Public ReadOnly Property ItemsInTheDataThatWereNotFoundInTheTable As IEnumerable(Of TableDifferenceItem(Of TT))
+  overload: Reqnroll.Assist.TableDifferenceResults`1.ItemsInTheDataThatWereNotFoundInTheTable*
+  nameWithType.vb: TableDifferenceResults(Of TT).ItemsInTheDataThatWereNotFoundInTheTable
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT).ItemsInTheDataThatWereNotFoundInTheTable
+references:
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  href: Reqnroll.html
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Assist.TableDifferenceResults`1.#ctor*
+  commentId: Overload:Reqnroll.Assist.TableDifferenceResults`1.#ctor
+  href: Reqnroll.Assist.TableDifferenceResults-1.html#Reqnroll_Assist_TableDifferenceResults_1__ctor_Reqnroll_Table_System_Collections_Generic_IEnumerable_System_Int32__System_Collections_Generic_IEnumerable_Reqnroll_Assist_TableDifferenceItem__0___
+  name: TableDifferenceResults
+  nameWithType: TableDifferenceResults<TT>.TableDifferenceResults
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>.TableDifferenceResults
+  nameWithType.vb: TableDifferenceResults(Of TT).New
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT).New
+  name.vb: New
+- uid: Reqnroll.Table
+  commentId: T:Reqnroll.Table
+  parent: Reqnroll
+  href: Reqnroll.Table.html
+  name: Table
+  nameWithType: Table
+  fullName: Reqnroll.Table
+- uid: System.Collections.Generic.IEnumerable{System.Int32}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<int>
+  nameWithType: IEnumerable<int>
+  fullName: System.Collections.Generic.IEnumerable<int>
+  nameWithType.vb: IEnumerable(Of Integer)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Integer)
+  name.vb: IEnumerable(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.Assist.TableDifferenceItem{{TT}}}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.Assist.TableDifferenceItem{`0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TableDifferenceItem<TT>>
+  nameWithType: IEnumerable<TableDifferenceItem<TT>>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.Assist.TableDifferenceItem<TT>>
+  nameWithType.vb: IEnumerable(Of TableDifferenceItem(Of TT))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.Assist.TableDifferenceItem(Of TT))
+  name.vb: IEnumerable(Of TableDifferenceItem(Of TT))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.Assist.TableDifferenceItem`1
+    name: TableDifferenceItem
+    href: Reqnroll.Assist.TableDifferenceItem-1.html
+  - name: <
+  - name: TT
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Assist.TableDifferenceItem`1
+    name: TableDifferenceItem
+    href: Reqnroll.Assist.TableDifferenceItem-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TT
+  - name: )
+  - name: )
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.Assist.TableDifferenceResults`1.Table*
+  commentId: Overload:Reqnroll.Assist.TableDifferenceResults`1.Table
+  href: Reqnroll.Assist.TableDifferenceResults-1.html#Reqnroll_Assist_TableDifferenceResults_1_Table
+  name: Table
+  nameWithType: TableDifferenceResults<TT>.Table
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>.Table
+  nameWithType.vb: TableDifferenceResults(Of TT).Table
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT).Table
+- uid: Reqnroll.Assist.TableDifferenceResults`1.IndexesOfTableRowsThatWereNotMatched*
+  commentId: Overload:Reqnroll.Assist.TableDifferenceResults`1.IndexesOfTableRowsThatWereNotMatched
+  href: Reqnroll.Assist.TableDifferenceResults-1.html#Reqnroll_Assist_TableDifferenceResults_1_IndexesOfTableRowsThatWereNotMatched
+  name: IndexesOfTableRowsThatWereNotMatched
+  nameWithType: TableDifferenceResults<TT>.IndexesOfTableRowsThatWereNotMatched
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>.IndexesOfTableRowsThatWereNotMatched
+  nameWithType.vb: TableDifferenceResults(Of TT).IndexesOfTableRowsThatWereNotMatched
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT).IndexesOfTableRowsThatWereNotMatched
+- uid: Reqnroll.Assist.TableDifferenceResults`1.ItemsInTheDataThatWereNotFoundInTheTable*
+  commentId: Overload:Reqnroll.Assist.TableDifferenceResults`1.ItemsInTheDataThatWereNotFoundInTheTable
+  href: Reqnroll.Assist.TableDifferenceResults-1.html#Reqnroll_Assist_TableDifferenceResults_1_ItemsInTheDataThatWereNotFoundInTheTable
+  name: ItemsInTheDataThatWereNotFoundInTheTable
+  nameWithType: TableDifferenceResults<TT>.ItemsInTheDataThatWereNotFoundInTheTable
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>.ItemsInTheDataThatWereNotFoundInTheTable
+  nameWithType.vb: TableDifferenceResults(Of TT).ItemsInTheDataThatWereNotFoundInTheTable
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT).ItemsInTheDataThatWereNotFoundInTheTable

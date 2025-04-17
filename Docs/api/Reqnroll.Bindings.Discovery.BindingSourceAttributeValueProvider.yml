@@ -1,0 +1,440 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider
+  id: BindingSourceAttributeValueProvider
+  parent: Reqnroll.Bindings.Discovery
+  children:
+  - Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.#ctor(System.Object)
+  - Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.GetValue``1
+  langs:
+  - csharp
+  - vb
+  name: BindingSourceAttributeValueProvider
+  nameWithType: BindingSourceAttributeValueProvider
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceAttributeValueProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingSourceAttributeValueProvider
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceAttributeValueProvider.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: 'public class BindingSourceAttributeValueProvider : IBindingSourceAttributeValueProvider'
+    content.vb: Public Class BindingSourceAttributeValueProvider Implements IBindingSourceAttributeValueProvider
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.#ctor(System.Object)
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.#ctor(System.Object)
+  id: '#ctor(System.Object)'
+  parent: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider
+  langs:
+  - csharp
+  - vb
+  name: BindingSourceAttributeValueProvider(object)
+  nameWithType: BindingSourceAttributeValueProvider.BindingSourceAttributeValueProvider(object)
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.BindingSourceAttributeValueProvider(object)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceAttributeValueProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceAttributeValueProvider.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: public BindingSourceAttributeValueProvider(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    content.vb: Public Sub New(value As Object)
+  overload: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.#ctor*
+  nameWithType.vb: BindingSourceAttributeValueProvider.New(Object)
+  fullName.vb: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.New(Object)
+  name.vb: New(Object)
+- uid: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.GetValue``1
+  commentId: M:Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.GetValue``1
+  id: GetValue``1
+  parent: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider
+  langs:
+  - csharp
+  - vb
+  name: GetValue<TValue>()
+  nameWithType: BindingSourceAttributeValueProvider.GetValue<TValue>()
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.GetValue<TValue>()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceAttributeValueProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetValue
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceAttributeValueProvider.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  example: []
+  syntax:
+    content: public TValue GetValue<TValue>()
+    typeParameters:
+    - id: TValue
+    return:
+      type: '{TValue}'
+    content.vb: Public Function GetValue(Of TValue)() As TValue
+  overload: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.GetValue*
+  implements:
+  - Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue``1
+  nameWithType.vb: BindingSourceAttributeValueProvider.GetValue(Of TValue)()
+  fullName.vb: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.GetValue(Of TValue)()
+  name.vb: GetValue(Of TValue)()
+references:
+- uid: Reqnroll.Bindings.Discovery
+  commentId: N:Reqnroll.Bindings.Discovery
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Discovery
+  nameWithType: Reqnroll.Bindings.Discovery
+  fullName: Reqnroll.Bindings.Discovery
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  commentId: T:Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.html
+  name: IBindingSourceAttributeValueProvider
+  nameWithType: IBindingSourceAttributeValueProvider
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.#ctor*
+  commentId: Overload:Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.#ctor
+  href: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.html#Reqnroll_Bindings_Discovery_BindingSourceAttributeValueProvider__ctor_System_Object_
+  name: BindingSourceAttributeValueProvider
+  nameWithType: BindingSourceAttributeValueProvider.BindingSourceAttributeValueProvider
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.BindingSourceAttributeValueProvider
+  nameWithType.vb: BindingSourceAttributeValueProvider.New
+  fullName.vb: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.New
+  name.vb: New
+- uid: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.GetValue*
+  commentId: Overload:Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.GetValue
+  href: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.html#Reqnroll_Bindings_Discovery_BindingSourceAttributeValueProvider_GetValue__1
+  name: GetValue
+  nameWithType: BindingSourceAttributeValueProvider.GetValue
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.GetValue
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue``1
+  commentId: M:Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue``1
+  parent: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  href: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.html#Reqnroll_Bindings_Discovery_IBindingSourceAttributeValueProvider_GetValue__1
+  name: GetValue<TValue>()
+  nameWithType: IBindingSourceAttributeValueProvider.GetValue<TValue>()
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue<TValue>()
+  nameWithType.vb: IBindingSourceAttributeValueProvider.GetValue(Of TValue)()
+  fullName.vb: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue(Of TValue)()
+  name.vb: GetValue(Of TValue)()
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue``1
+    name: GetValue
+    href: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.html#Reqnroll_Bindings_Discovery_IBindingSourceAttributeValueProvider_GetValue__1
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue``1
+    name: GetValue
+    href: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.html#Reqnroll_Bindings_Discovery_IBindingSourceAttributeValueProvider_GetValue__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - name: )
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue

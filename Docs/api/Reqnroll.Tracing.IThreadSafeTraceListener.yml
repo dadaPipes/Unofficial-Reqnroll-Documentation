@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.IThreadSafeTraceListener
+  commentId: T:Reqnroll.Tracing.IThreadSafeTraceListener
+  id: IThreadSafeTraceListener
+  parent: Reqnroll.Tracing
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IThreadSafeTraceListener
+  nameWithType: IThreadSafeTraceListener
+  fullName: Reqnroll.Tracing.IThreadSafeTraceListener
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Tracing/IThreadSafeTraceListener.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IThreadSafeTraceListener
+    path: ../Reqnroll/Reqnroll/Tracing/IThreadSafeTraceListener.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  summary: Marker interface for trace listener that do not need queued execution
+  example: []
+  syntax:
+    content: 'public interface IThreadSafeTraceListener : ITraceListener'
+    content.vb: Public Interface IThreadSafeTraceListener Inherits ITraceListener
+  inheritedMembers:
+  - Reqnroll.Tracing.ITraceListener.WriteTestOutput(System.String)
+  - Reqnroll.Tracing.ITraceListener.WriteToolOutput(System.String)
+  extensionMethods:
+  - Reqnroll.Tracing.ITraceListener.Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(System.String,System.Object[])
+  - Reqnroll.Tracing.ITraceListener.Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(System.String,System.Object[])
+references:
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: Reqnroll.Tracing.ITraceListener.WriteTestOutput(System.String)
+  commentId: M:Reqnroll.Tracing.ITraceListener.WriteTestOutput(System.String)
+  parent: Reqnroll.Tracing.ITraceListener
+  isExternal: true
+  href: Reqnroll.Tracing.ITraceListener.html#Reqnroll_Tracing_ITraceListener_WriteTestOutput_System_String_
+  name: WriteTestOutput(string)
+  nameWithType: ITraceListener.WriteTestOutput(string)
+  fullName: Reqnroll.Tracing.ITraceListener.WriteTestOutput(string)
+  nameWithType.vb: ITraceListener.WriteTestOutput(String)
+  fullName.vb: Reqnroll.Tracing.ITraceListener.WriteTestOutput(String)
+  name.vb: WriteTestOutput(String)
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITraceListener.WriteTestOutput(System.String)
+    name: WriteTestOutput
+    href: Reqnroll.Tracing.ITraceListener.html#Reqnroll_Tracing_ITraceListener_WriteTestOutput_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITraceListener.WriteTestOutput(System.String)
+    name: WriteTestOutput
+    href: Reqnroll.Tracing.ITraceListener.html#Reqnroll_Tracing_ITraceListener_WriteTestOutput_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Tracing.ITraceListener.WriteToolOutput(System.String)
+  commentId: M:Reqnroll.Tracing.ITraceListener.WriteToolOutput(System.String)
+  parent: Reqnroll.Tracing.ITraceListener
+  isExternal: true
+  href: Reqnroll.Tracing.ITraceListener.html#Reqnroll_Tracing_ITraceListener_WriteToolOutput_System_String_
+  name: WriteToolOutput(string)
+  nameWithType: ITraceListener.WriteToolOutput(string)
+  fullName: Reqnroll.Tracing.ITraceListener.WriteToolOutput(string)
+  nameWithType.vb: ITraceListener.WriteToolOutput(String)
+  fullName.vb: Reqnroll.Tracing.ITraceListener.WriteToolOutput(String)
+  name.vb: WriteToolOutput(String)
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITraceListener.WriteToolOutput(System.String)
+    name: WriteToolOutput
+    href: Reqnroll.Tracing.ITraceListener.html#Reqnroll_Tracing_ITraceListener_WriteToolOutput_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITraceListener.WriteToolOutput(System.String)
+    name: WriteToolOutput
+    href: Reqnroll.Tracing.ITraceListener.html#Reqnroll_Tracing_ITraceListener_WriteToolOutput_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Tracing.ITraceListener.Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(System.String,System.Object[])
+  commentId: M:Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+  parent: Reqnroll.Tracing.TraceListenerHelper
+  definition: Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+  href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteTestOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  name: WriteTestOutput(ITraceListener, string, params object[])
+  nameWithType: TraceListenerHelper.WriteTestOutput(ITraceListener, string, params object[])
+  fullName: Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener, string, params object[])
+  nameWithType.vb: TraceListenerHelper.WriteTestOutput(ITraceListener, String, ParamArray Object())
+  fullName.vb: Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener, String, ParamArray Object())
+  name.vb: WriteTestOutput(ITraceListener, String, ParamArray Object())
+  spec.csharp:
+  - uid: Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+    name: WriteTestOutput
+    href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteTestOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  - name: (
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    href: Reqnroll.Tracing.ITraceListener.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+    name: WriteTestOutput
+    href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteTestOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  - name: (
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    href: Reqnroll.Tracing.ITraceListener.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: )
+- uid: Reqnroll.Tracing.ITraceListener.Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(System.String,System.Object[])
+  commentId: M:Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+  parent: Reqnroll.Tracing.TraceListenerHelper
+  definition: Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+  href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteToolOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  name: WriteToolOutput(ITraceListener, string, params object[])
+  nameWithType: TraceListenerHelper.WriteToolOutput(ITraceListener, string, params object[])
+  fullName: Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener, string, params object[])
+  nameWithType.vb: TraceListenerHelper.WriteToolOutput(ITraceListener, String, ParamArray Object())
+  fullName.vb: Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener, String, ParamArray Object())
+  name.vb: WriteToolOutput(ITraceListener, String, ParamArray Object())
+  spec.csharp:
+  - uid: Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+    name: WriteToolOutput
+    href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteToolOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  - name: (
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    href: Reqnroll.Tracing.ITraceListener.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+    name: WriteToolOutput
+    href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteToolOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  - name: (
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    href: Reqnroll.Tracing.ITraceListener.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: )
+- uid: Reqnroll.Tracing.ITraceListener
+  commentId: T:Reqnroll.Tracing.ITraceListener
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITraceListener.html
+  name: ITraceListener
+  nameWithType: ITraceListener
+  fullName: Reqnroll.Tracing.ITraceListener
+- uid: Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+  commentId: M:Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+  isExternal: true
+  href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteTestOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  name: WriteTestOutput(ITraceListener, string, params object[])
+  nameWithType: TraceListenerHelper.WriteTestOutput(ITraceListener, string, params object[])
+  fullName: Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener, string, params object[])
+  nameWithType.vb: TraceListenerHelper.WriteTestOutput(ITraceListener, String, ParamArray Object())
+  fullName.vb: Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener, String, ParamArray Object())
+  name.vb: WriteTestOutput(ITraceListener, String, ParamArray Object())
+  spec.csharp:
+  - uid: Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+    name: WriteTestOutput
+    href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteTestOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  - name: (
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    href: Reqnroll.Tracing.ITraceListener.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.TraceListenerHelper.WriteTestOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+    name: WriteTestOutput
+    href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteTestOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  - name: (
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    href: Reqnroll.Tracing.ITraceListener.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: )
+- uid: Reqnroll.Tracing.TraceListenerHelper
+  commentId: T:Reqnroll.Tracing.TraceListenerHelper
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.TraceListenerHelper.html
+  name: TraceListenerHelper
+  nameWithType: TraceListenerHelper
+  fullName: Reqnroll.Tracing.TraceListenerHelper
+- uid: Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+  commentId: M:Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+  isExternal: true
+  href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteToolOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  name: WriteToolOutput(ITraceListener, string, params object[])
+  nameWithType: TraceListenerHelper.WriteToolOutput(ITraceListener, string, params object[])
+  fullName: Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener, string, params object[])
+  nameWithType.vb: TraceListenerHelper.WriteToolOutput(ITraceListener, String, ParamArray Object())
+  fullName.vb: Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener, String, ParamArray Object())
+  name.vb: WriteToolOutput(ITraceListener, String, ParamArray Object())
+  spec.csharp:
+  - uid: Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+    name: WriteToolOutput
+    href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteToolOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  - name: (
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    href: Reqnroll.Tracing.ITraceListener.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.TraceListenerHelper.WriteToolOutput(Reqnroll.Tracing.ITraceListener,System.String,System.Object[])
+    name: WriteToolOutput
+    href: Reqnroll.Tracing.TraceListenerHelper.html#Reqnroll_Tracing_TraceListenerHelper_WriteToolOutput_Reqnroll_Tracing_ITraceListener_System_String_System_Object___
+  - name: (
+  - uid: Reqnroll.Tracing.ITraceListener
+    name: ITraceListener
+    href: Reqnroll.Tracing.ITraceListener.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: )

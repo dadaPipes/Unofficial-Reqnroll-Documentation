@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.IReqnrollAttachmentHandler
+  commentId: T:Reqnroll.Infrastructure.IReqnrollAttachmentHandler
+  id: IReqnrollAttachmentHandler
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.IReqnrollAttachmentHandler.AddAttachment(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IReqnrollAttachmentHandler
+  nameWithType: IReqnrollAttachmentHandler
+  fullName: Reqnroll.Infrastructure.IReqnrollAttachmentHandler
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/IReqnrollAttachmentHandler.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IReqnrollAttachmentHandler
+    path: ../Reqnroll/Reqnroll/Infrastructure/IReqnrollAttachmentHandler.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface IReqnrollAttachmentHandler
+    content.vb: Public Interface IReqnrollAttachmentHandler
+- uid: Reqnroll.Infrastructure.IReqnrollAttachmentHandler.AddAttachment(System.String)
+  commentId: M:Reqnroll.Infrastructure.IReqnrollAttachmentHandler.AddAttachment(System.String)
+  id: AddAttachment(System.String)
+  parent: Reqnroll.Infrastructure.IReqnrollAttachmentHandler
+  langs:
+  - csharp
+  - vb
+  name: AddAttachment(string)
+  nameWithType: IReqnrollAttachmentHandler.AddAttachment(string)
+  fullName: Reqnroll.Infrastructure.IReqnrollAttachmentHandler.AddAttachment(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/IReqnrollAttachmentHandler.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AddAttachment
+    path: ../Reqnroll/Reqnroll/Infrastructure/IReqnrollAttachmentHandler.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void AddAttachment(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+    content.vb: Sub AddAttachment(filePath As String)
+  overload: Reqnroll.Infrastructure.IReqnrollAttachmentHandler.AddAttachment*
+  nameWithType.vb: IReqnrollAttachmentHandler.AddAttachment(String)
+  fullName.vb: Reqnroll.Infrastructure.IReqnrollAttachmentHandler.AddAttachment(String)
+  name.vb: AddAttachment(String)
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.IReqnrollAttachmentHandler.AddAttachment*
+  commentId: Overload:Reqnroll.Infrastructure.IReqnrollAttachmentHandler.AddAttachment
+  href: Reqnroll.Infrastructure.IReqnrollAttachmentHandler.html#Reqnroll_Infrastructure_IReqnrollAttachmentHandler_AddAttachment_System_String_
+  name: AddAttachment
+  nameWithType: IReqnrollAttachmentHandler.AddAttachment
+  fullName: Reqnroll.Infrastructure.IReqnrollAttachmentHandler.AddAttachment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.AppInsights
+  commentId: N:Reqnroll.Analytics.AppInsights
+  id: Reqnroll.Analytics.AppInsights
+  children:
+  - Reqnroll.Analytics.AppInsights.AppInsightsEventSerializer
+  - Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  - Reqnroll.Analytics.AppInsights.AppInsightsInstrumentationKey
+  - Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer
+  - Reqnroll.Analytics.AppInsights.TelemetryData
+  - Reqnroll.Analytics.AppInsights.TelemetryDataItem
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Analytics.AppInsights
+  nameWithType: Reqnroll.Analytics.AppInsights
+  fullName: Reqnroll.Analytics.AppInsights
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventSerializer
+  commentId: T:Reqnroll.Analytics.AppInsights.AppInsightsEventSerializer
+  href: Reqnroll.Analytics.AppInsights.AppInsightsEventSerializer.html
+  name: AppInsightsEventSerializer
+  nameWithType: AppInsightsEventSerializer
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventSerializer
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  commentId: T:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  href: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.html
+  name: AppInsightsEventTelemetry
+  nameWithType: AppInsightsEventTelemetry
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+- uid: Reqnroll.Analytics.AppInsights.TelemetryData
+  commentId: T:Reqnroll.Analytics.AppInsights.TelemetryData
+  parent: Reqnroll.Analytics.AppInsights
+  href: Reqnroll.Analytics.AppInsights.TelemetryData.html
+  name: TelemetryData
+  nameWithType: TelemetryData
+  fullName: Reqnroll.Analytics.AppInsights.TelemetryData
+- uid: Reqnroll.Analytics.AppInsights.TelemetryDataItem
+  commentId: T:Reqnroll.Analytics.AppInsights.TelemetryDataItem
+  parent: Reqnroll.Analytics.AppInsights
+  href: Reqnroll.Analytics.AppInsights.TelemetryDataItem.html
+  name: TelemetryDataItem
+  nameWithType: TelemetryDataItem
+  fullName: Reqnroll.Analytics.AppInsights.TelemetryDataItem
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsInstrumentationKey
+  commentId: T:Reqnroll.Analytics.AppInsights.AppInsightsInstrumentationKey
+  href: Reqnroll.Analytics.AppInsights.AppInsightsInstrumentationKey.html
+  name: AppInsightsInstrumentationKey
+  nameWithType: AppInsightsInstrumentationKey
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsInstrumentationKey
+- uid: Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer
+  commentId: T:Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer
+  parent: Reqnroll.Analytics.AppInsights
+  href: Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer.html
+  name: IAppInsightsEventSerializer
+  nameWithType: IAppInsightsEventSerializer
+  fullName: Reqnroll.Analytics.AppInsights.IAppInsightsEventSerializer
+- uid: Reqnroll.Analytics.AppInsights
+  commentId: N:Reqnroll.Analytics.AppInsights
+  href: Reqnroll.html
+  name: Reqnroll.Analytics.AppInsights
+  nameWithType: Reqnroll.Analytics.AppInsights
+  fullName: Reqnroll.Analytics.AppInsights
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.AppInsights
+    name: AppInsights
+    href: Reqnroll.Analytics.AppInsights.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.AppInsights
+    name: AppInsights
+    href: Reqnroll.Analytics.AppInsights.html

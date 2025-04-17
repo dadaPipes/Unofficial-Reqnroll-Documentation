@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.CommonModels.IFailure`1
+  commentId: T:Reqnroll.CommonModels.IFailure`1
+  id: IFailure`1
+  parent: Reqnroll.CommonModels
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IFailure<T>
+  nameWithType: IFailure<T>
+  fullName: Reqnroll.CommonModels.IFailure<T>
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/CommonModels/IFailure.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IFailure
+    path: ../Reqnroll/Reqnroll/CommonModels/IFailure.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.CommonModels
+  syntax:
+    content: 'public interface IFailure<out T> : IFailure, IResult<T>, IResult'
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IFailure(Of Out T) Inherits IFailure, IResult(Of T), IResult
+  nameWithType.vb: IFailure(Of T)
+  fullName.vb: Reqnroll.CommonModels.IFailure(Of T)
+  name.vb: IFailure(Of T)
+references:
+- uid: Reqnroll.CommonModels
+  commentId: N:Reqnroll.CommonModels
+  href: Reqnroll.html
+  name: Reqnroll.CommonModels
+  nameWithType: Reqnroll.CommonModels
+  fullName: Reqnroll.CommonModels
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html

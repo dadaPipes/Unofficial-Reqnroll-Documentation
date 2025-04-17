@@ -1,0 +1,842 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.BindingFactory
+  commentId: T:Reqnroll.Bindings.BindingFactory
+  id: BindingFactory
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.BindingFactory.#ctor(Reqnroll.Bindings.IStepDefinitionRegexCalculator,Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory,Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector)
+  - Reqnroll.Bindings.BindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  - Reqnroll.Bindings.BindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  - Reqnroll.Bindings.BindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  langs:
+  - csharp
+  - vb
+  name: BindingFactory
+  nameWithType: BindingFactory
+  fullName: Reqnroll.Bindings.BindingFactory
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingFactory
+    path: ../Reqnroll/Reqnroll/Bindings/BindingFactory.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: 'public class BindingFactory : IBindingFactory'
+    content.vb: Public Class BindingFactory Implements IBindingFactory
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Bindings.IBindingFactory
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.BindingFactory.#ctor(Reqnroll.Bindings.IStepDefinitionRegexCalculator,Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory,Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector)
+  commentId: M:Reqnroll.Bindings.BindingFactory.#ctor(Reqnroll.Bindings.IStepDefinitionRegexCalculator,Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory,Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector)
+  id: '#ctor(Reqnroll.Bindings.IStepDefinitionRegexCalculator,Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory,Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector)'
+  parent: Reqnroll.Bindings.BindingFactory
+  langs:
+  - csharp
+  - vb
+  name: BindingFactory(IStepDefinitionRegexCalculator, ICucumberExpressionStepDefinitionBindingBuilderFactory, ICucumberExpressionDetector)
+  nameWithType: BindingFactory.BindingFactory(IStepDefinitionRegexCalculator, ICucumberExpressionStepDefinitionBindingBuilderFactory, ICucumberExpressionDetector)
+  fullName: Reqnroll.Bindings.BindingFactory.BindingFactory(Reqnroll.Bindings.IStepDefinitionRegexCalculator, Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory, Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/BindingFactory.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public BindingFactory(IStepDefinitionRegexCalculator _stepDefinitionRegexCalculator, ICucumberExpressionStepDefinitionBindingBuilderFactory _cucumberExpressionStepDefinitionBindingBuilderFactory, ICucumberExpressionDetector _cucumberExpressionDetector)
+    parameters:
+    - id: _stepDefinitionRegexCalculator
+      type: Reqnroll.Bindings.IStepDefinitionRegexCalculator
+    - id: _cucumberExpressionStepDefinitionBindingBuilderFactory
+      type: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+    - id: _cucumberExpressionDetector
+      type: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+    content.vb: Public Sub New(_stepDefinitionRegexCalculator As IStepDefinitionRegexCalculator, _cucumberExpressionStepDefinitionBindingBuilderFactory As ICucumberExpressionStepDefinitionBindingBuilderFactory, _cucumberExpressionDetector As ICucumberExpressionDetector)
+  overload: Reqnroll.Bindings.BindingFactory.#ctor*
+  nameWithType.vb: BindingFactory.New(IStepDefinitionRegexCalculator, ICucumberExpressionStepDefinitionBindingBuilderFactory, ICucumberExpressionDetector)
+  fullName.vb: Reqnroll.Bindings.BindingFactory.New(Reqnroll.Bindings.IStepDefinitionRegexCalculator, Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory, Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector)
+  name.vb: New(IStepDefinitionRegexCalculator, ICucumberExpressionStepDefinitionBindingBuilderFactory, ICucumberExpressionDetector)
+- uid: Reqnroll.Bindings.BindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  commentId: M:Reqnroll.Bindings.BindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  id: CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  parent: Reqnroll.Bindings.BindingFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateHookBinding(IBindingMethod, HookType, BindingScope, int)
+  nameWithType: BindingFactory.CreateHookBinding(IBindingMethod, HookType, BindingScope, int)
+  fullName: Reqnroll.Bindings.BindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.HookType, Reqnroll.Bindings.BindingScope, int)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateHookBinding
+    path: ../Reqnroll/Reqnroll/Bindings/BindingFactory.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public IHookBinding CreateHookBinding(IBindingMethod bindingMethod, HookType hookType, BindingScope bindingScope, int hookOrder)
+    parameters:
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: hookType
+      type: Reqnroll.Bindings.HookType
+    - id: bindingScope
+      type: Reqnroll.Bindings.BindingScope
+    - id: hookOrder
+      type: System.Int32
+    return:
+      type: Reqnroll.Bindings.IHookBinding
+    content.vb: Public Function CreateHookBinding(bindingMethod As IBindingMethod, hookType As HookType, bindingScope As BindingScope, hookOrder As Integer) As IHookBinding
+  overload: Reqnroll.Bindings.BindingFactory.CreateHookBinding*
+  implements:
+  - Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  nameWithType.vb: BindingFactory.CreateHookBinding(IBindingMethod, HookType, BindingScope, Integer)
+  fullName.vb: Reqnroll.Bindings.BindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.HookType, Reqnroll.Bindings.BindingScope, Integer)
+  name.vb: CreateHookBinding(IBindingMethod, HookType, BindingScope, Integer)
+- uid: Reqnroll.Bindings.BindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  commentId: M:Reqnroll.Bindings.BindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  id: CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  parent: Reqnroll.Bindings.BindingFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, string)
+  nameWithType: BindingFactory.CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, string)
+  fullName: Reqnroll.Bindings.BindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.BindingScope, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateStepDefinitionBindingBuilder
+    path: ../Reqnroll/Reqnroll/Bindings/BindingFactory.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public IStepDefinitionBindingBuilder CreateStepDefinitionBindingBuilder(StepDefinitionType stepDefinitionType, IBindingMethod bindingMethod, BindingScope bindingScope, string expressionString)
+    parameters:
+    - id: stepDefinitionType
+      type: Reqnroll.Bindings.StepDefinitionType
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: bindingScope
+      type: Reqnroll.Bindings.BindingScope
+    - id: expressionString
+      type: System.String
+    return:
+      type: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+    content.vb: Public Function CreateStepDefinitionBindingBuilder(stepDefinitionType As StepDefinitionType, bindingMethod As IBindingMethod, bindingScope As BindingScope, expressionString As String) As IStepDefinitionBindingBuilder
+  overload: Reqnroll.Bindings.BindingFactory.CreateStepDefinitionBindingBuilder*
+  implements:
+  - Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  nameWithType.vb: BindingFactory.CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, String)
+  fullName.vb: Reqnroll.Bindings.BindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.BindingScope, String)
+  name.vb: CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, String)
+- uid: Reqnroll.Bindings.BindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  commentId: M:Reqnroll.Bindings.BindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  id: CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  parent: Reqnroll.Bindings.BindingFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateStepArgumentTransformation(string, IBindingMethod, string, int)
+  nameWithType: BindingFactory.CreateStepArgumentTransformation(string, IBindingMethod, string, int)
+  fullName: Reqnroll.Bindings.BindingFactory.CreateStepArgumentTransformation(string, Reqnroll.Bindings.Reflection.IBindingMethod, string, int)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateStepArgumentTransformation
+    path: ../Reqnroll/Reqnroll/Bindings/BindingFactory.cs
+    startLine: 26
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public IStepArgumentTransformationBinding CreateStepArgumentTransformation(string regexString, IBindingMethod bindingMethod, string parameterTypeName = null, int order = 10000)
+    parameters:
+    - id: regexString
+      type: System.String
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: parameterTypeName
+      type: System.String
+    - id: order
+      type: System.Int32
+    return:
+      type: Reqnroll.Bindings.IStepArgumentTransformationBinding
+    content.vb: Public Function CreateStepArgumentTransformation(regexString As String, bindingMethod As IBindingMethod, parameterTypeName As String = Nothing, order As Integer = 10000) As IStepArgumentTransformationBinding
+  overload: Reqnroll.Bindings.BindingFactory.CreateStepArgumentTransformation*
+  implements:
+  - Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  nameWithType.vb: BindingFactory.CreateStepArgumentTransformation(String, IBindingMethod, String, Integer)
+  fullName.vb: Reqnroll.Bindings.BindingFactory.CreateStepArgumentTransformation(String, Reqnroll.Bindings.Reflection.IBindingMethod, String, Integer)
+  name.vb: CreateStepArgumentTransformation(String, IBindingMethod, String, Integer)
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Bindings.IBindingFactory
+  commentId: T:Reqnroll.Bindings.IBindingFactory
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBindingFactory.html
+  name: IBindingFactory
+  nameWithType: IBindingFactory
+  fullName: Reqnroll.Bindings.IBindingFactory
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.BindingFactory.#ctor*
+  commentId: Overload:Reqnroll.Bindings.BindingFactory.#ctor
+  href: Reqnroll.Bindings.BindingFactory.html#Reqnroll_Bindings_BindingFactory__ctor_Reqnroll_Bindings_IStepDefinitionRegexCalculator_Reqnroll_Bindings_CucumberExpressions_ICucumberExpressionStepDefinitionBindingBuilderFactory_Reqnroll_Bindings_CucumberExpressions_ICucumberExpressionDetector_
+  name: BindingFactory
+  nameWithType: BindingFactory.BindingFactory
+  fullName: Reqnroll.Bindings.BindingFactory.BindingFactory
+  nameWithType.vb: BindingFactory.New
+  fullName.vb: Reqnroll.Bindings.BindingFactory.New
+  name.vb: New
+- uid: Reqnroll.Bindings.IStepDefinitionRegexCalculator
+  commentId: T:Reqnroll.Bindings.IStepDefinitionRegexCalculator
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionRegexCalculator.html
+  name: IStepDefinitionRegexCalculator
+  nameWithType: IStepDefinitionRegexCalculator
+  fullName: Reqnroll.Bindings.IStepDefinitionRegexCalculator
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+  parent: Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.html
+  name: ICucumberExpressionStepDefinitionBindingBuilderFactory
+  nameWithType: ICucumberExpressionStepDefinitionBindingBuilderFactory
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+  parent: Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.html
+  name: ICucumberExpressionDetector
+  nameWithType: ICucumberExpressionDetector
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+- uid: Reqnroll.Bindings.CucumberExpressions
+  commentId: N:Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.CucumberExpressions
+  nameWithType: Reqnroll.Bindings.CucumberExpressions
+  fullName: Reqnroll.Bindings.CucumberExpressions
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+- uid: Reqnroll.Bindings.BindingFactory.CreateHookBinding*
+  commentId: Overload:Reqnroll.Bindings.BindingFactory.CreateHookBinding
+  href: Reqnroll.Bindings.BindingFactory.html#Reqnroll_Bindings_BindingFactory_CreateHookBinding_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_HookType_Reqnroll_Bindings_BindingScope_System_Int32_
+  name: CreateHookBinding
+  nameWithType: BindingFactory.CreateHookBinding
+  fullName: Reqnroll.Bindings.BindingFactory.CreateHookBinding
+- uid: Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  commentId: M:Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  parent: Reqnroll.Bindings.IBindingFactory
+  isExternal: true
+  href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateHookBinding_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_HookType_Reqnroll_Bindings_BindingScope_System_Int32_
+  name: CreateHookBinding(IBindingMethod, HookType, BindingScope, int)
+  nameWithType: IBindingFactory.CreateHookBinding(IBindingMethod, HookType, BindingScope, int)
+  fullName: Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.HookType, Reqnroll.Bindings.BindingScope, int)
+  nameWithType.vb: IBindingFactory.CreateHookBinding(IBindingMethod, HookType, BindingScope, Integer)
+  fullName.vb: Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.HookType, Reqnroll.Bindings.BindingScope, Integer)
+  name.vb: CreateHookBinding(IBindingMethod, HookType, BindingScope, Integer)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+    name: CreateHookBinding
+    href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateHookBinding_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_HookType_Reqnroll_Bindings_BindingScope_System_Int32_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.HookType
+    name: HookType
+    href: Reqnroll.Bindings.HookType.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    href: Reqnroll.Bindings.BindingScope.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.IBindingFactory.CreateHookBinding(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+    name: CreateHookBinding
+    href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateHookBinding_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_HookType_Reqnroll_Bindings_BindingScope_System_Int32_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.HookType
+    name: HookType
+    href: Reqnroll.Bindings.HookType.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    href: Reqnroll.Bindings.BindingScope.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: Reqnroll.Bindings.HookType
+  commentId: T:Reqnroll.Bindings.HookType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.HookType.html
+  name: HookType
+  nameWithType: HookType
+  fullName: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.BindingScope
+  commentId: T:Reqnroll.Bindings.BindingScope
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingScope.html
+  name: BindingScope
+  nameWithType: BindingScope
+  fullName: Reqnroll.Bindings.BindingScope
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Reqnroll.Bindings.IHookBinding
+  commentId: T:Reqnroll.Bindings.IHookBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IHookBinding.html
+  name: IHookBinding
+  nameWithType: IHookBinding
+  fullName: Reqnroll.Bindings.IHookBinding
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: Reqnroll.Bindings.BindingFactory.CreateStepDefinitionBindingBuilder*
+  commentId: Overload:Reqnroll.Bindings.BindingFactory.CreateStepDefinitionBindingBuilder
+  href: Reqnroll.Bindings.BindingFactory.html#Reqnroll_Bindings_BindingFactory_CreateStepDefinitionBindingBuilder_Reqnroll_Bindings_StepDefinitionType_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_BindingScope_System_String_
+  name: CreateStepDefinitionBindingBuilder
+  nameWithType: BindingFactory.CreateStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.BindingFactory.CreateStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  commentId: M:Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  parent: Reqnroll.Bindings.IBindingFactory
+  isExternal: true
+  href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateStepDefinitionBindingBuilder_Reqnroll_Bindings_StepDefinitionType_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_BindingScope_System_String_
+  name: CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, string)
+  nameWithType: IBindingFactory.CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, string)
+  fullName: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.BindingScope, string)
+  nameWithType.vb: IBindingFactory.CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, String)
+  fullName.vb: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.BindingScope, String)
+  name.vb: CreateStepDefinitionBindingBuilder(StepDefinitionType, IBindingMethod, BindingScope, String)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+    name: CreateStepDefinitionBindingBuilder
+    href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateStepDefinitionBindingBuilder_Reqnroll_Bindings_StepDefinitionType_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_BindingScope_System_String_
+  - name: (
+  - uid: Reqnroll.Bindings.StepDefinitionType
+    name: StepDefinitionType
+    href: Reqnroll.Bindings.StepDefinitionType.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    href: Reqnroll.Bindings.BindingScope.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.IBindingFactory.CreateStepDefinitionBindingBuilder(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+    name: CreateStepDefinitionBindingBuilder
+    href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateStepDefinitionBindingBuilder_Reqnroll_Bindings_StepDefinitionType_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_BindingScope_System_String_
+  - name: (
+  - uid: Reqnroll.Bindings.StepDefinitionType
+    name: StepDefinitionType
+    href: Reqnroll.Bindings.StepDefinitionType.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingScope
+    name: BindingScope
+    href: Reqnroll.Bindings.BindingScope.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Bindings.StepDefinitionType
+  commentId: T:Reqnroll.Bindings.StepDefinitionType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionType.html
+  name: StepDefinitionType
+  nameWithType: StepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionBindingBuilder.html
+  name: IStepDefinitionBindingBuilder
+  nameWithType: IStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings.BindingFactory.CreateStepArgumentTransformation*
+  commentId: Overload:Reqnroll.Bindings.BindingFactory.CreateStepArgumentTransformation
+  href: Reqnroll.Bindings.BindingFactory.html#Reqnroll_Bindings_BindingFactory_CreateStepArgumentTransformation_System_String_Reqnroll_Bindings_Reflection_IBindingMethod_System_String_System_Int32_
+  name: CreateStepArgumentTransformation
+  nameWithType: BindingFactory.CreateStepArgumentTransformation
+  fullName: Reqnroll.Bindings.BindingFactory.CreateStepArgumentTransformation
+- uid: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  commentId: M:Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  parent: Reqnroll.Bindings.IBindingFactory
+  isExternal: true
+  href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateStepArgumentTransformation_System_String_Reqnroll_Bindings_Reflection_IBindingMethod_System_String_System_Int32_
+  name: CreateStepArgumentTransformation(string, IBindingMethod, string, int)
+  nameWithType: IBindingFactory.CreateStepArgumentTransformation(string, IBindingMethod, string, int)
+  fullName: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(string, Reqnroll.Bindings.Reflection.IBindingMethod, string, int)
+  nameWithType.vb: IBindingFactory.CreateStepArgumentTransformation(String, IBindingMethod, String, Integer)
+  fullName.vb: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(String, Reqnroll.Bindings.Reflection.IBindingMethod, String, Integer)
+  name.vb: CreateStepArgumentTransformation(String, IBindingMethod, String, Integer)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+    name: CreateStepArgumentTransformation
+    href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateStepArgumentTransformation_System_String_Reqnroll_Bindings_Reflection_IBindingMethod_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.IBindingFactory.CreateStepArgumentTransformation(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+    name: CreateStepArgumentTransformation
+    href: Reqnroll.Bindings.IBindingFactory.html#Reqnroll_Bindings_IBindingFactory_CreateStepArgumentTransformation_System_String_Reqnroll_Bindings_Reflection_IBindingMethod_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  commentId: T:Reqnroll.Bindings.IStepArgumentTransformationBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html
+  name: IStepArgumentTransformationBinding
+  nameWithType: IStepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding

@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+  commentId: T:Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+  id: StructRetriever`1
+  parent: Reqnroll.Assist.ValueRetrievers
+  children:
+  - Reqnroll.Assist.ValueRetrievers.StructRetriever`1.CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  - Reqnroll.Assist.ValueRetrievers.StructRetriever`1.GetNonEmptyValue(System.String)
+  - Reqnroll.Assist.ValueRetrievers.StructRetriever`1.Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  langs:
+  - csharp
+  - vb
+  name: StructRetriever<T>
+  nameWithType: StructRetriever<T>
+  fullName: Reqnroll.Assist.ValueRetrievers.StructRetriever<T>
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Assist/ValueRetrievers/StructRetriever.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StructRetriever
+    path: ../Reqnroll/Reqnroll/Assist/ValueRetrievers/StructRetriever.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist.ValueRetrievers
+  syntax:
+    content: 'public abstract class StructRetriever<T> : IValueRetriever where T : struct'
+    typeParameters:
+    - id: T
+    content.vb: Public MustInherit Class StructRetriever(Of T As Structure) Implements IValueRetriever
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Reqnroll.Assist.ValueRetrievers.BoolValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.ByteValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.CharValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.DateTimeOffsetValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.DateTimeValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.DecimalValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.DoubleValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.FloatValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.GuidValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.IntValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.LongValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.SByteValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.ShortValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.TimeSpanValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.UIntValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.ULongValueRetriever
+  - Reqnroll.Assist.ValueRetrievers.UShortValueRetriever
+  implements:
+  - Reqnroll.Assist.IValueRetriever
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: StructRetriever(Of T)
+  fullName.vb: Reqnroll.Assist.ValueRetrievers.StructRetriever(Of T)
+  name.vb: StructRetriever(Of T)
+- uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1.CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  commentId: M:Reqnroll.Assist.ValueRetrievers.StructRetriever`1.CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  id: CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  parent: Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+  langs:
+  - csharp
+  - vb
+  name: CanRetrieve(KeyValuePair<string, string>, Type, Type)
+  nameWithType: StructRetriever<T>.CanRetrieve(KeyValuePair<string, string>, Type, Type)
+  fullName: Reqnroll.Assist.ValueRetrievers.StructRetriever<T>.CanRetrieve(System.Collections.Generic.KeyValuePair<string, string>, System.Type, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ValueRetrievers/StructRetriever.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CanRetrieve
+    path: ../Reqnroll/Reqnroll/Assist/ValueRetrievers/StructRetriever.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist.ValueRetrievers
+  summary: Determines if this retriever can retrieve the actual value from a key-&gt;value set in a table.
+  example: []
+  syntax:
+    content: public bool CanRetrieve(KeyValuePair<string, string> keyValuePair, Type targetType, Type propertyType)
+    parameters:
+    - id: keyValuePair
+      type: System.Collections.Generic.KeyValuePair{System.String,System.String}
+      description: Key value pair.
+    - id: targetType
+      type: System.Type
+      description: The type of the object that is being built from the table.
+    - id: propertyType
+      type: System.Type
+      description: The type of the property or member that is being set.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if this instance can retrieve the specified key-&gt;value; otherwise, <code>false</code>.
+    content.vb: Public Function CanRetrieve(keyValuePair As KeyValuePair(Of String, String), targetType As Type, propertyType As Type) As Boolean
+  overload: Reqnroll.Assist.ValueRetrievers.StructRetriever`1.CanRetrieve*
+  implements:
+  - Reqnroll.Assist.IValueRetriever.CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  nameWithType.vb: StructRetriever(Of T).CanRetrieve(KeyValuePair(Of String, String), Type, Type)
+  fullName.vb: Reqnroll.Assist.ValueRetrievers.StructRetriever(Of T).CanRetrieve(System.Collections.Generic.KeyValuePair(Of String, String), System.Type, System.Type)
+  name.vb: CanRetrieve(KeyValuePair(Of String, String), Type, Type)
+- uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1.Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  commentId: M:Reqnroll.Assist.ValueRetrievers.StructRetriever`1.Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  id: Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  parent: Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+  langs:
+  - csharp
+  - vb
+  name: Retrieve(KeyValuePair<string, string>, Type, Type)
+  nameWithType: StructRetriever<T>.Retrieve(KeyValuePair<string, string>, Type, Type)
+  fullName: Reqnroll.Assist.ValueRetrievers.StructRetriever<T>.Retrieve(System.Collections.Generic.KeyValuePair<string, string>, System.Type, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ValueRetrievers/StructRetriever.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Retrieve
+    path: ../Reqnroll/Reqnroll/Assist/ValueRetrievers/StructRetriever.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist.ValueRetrievers
+  summary: Retrieve the value from a key-&gt; value set, as the expected type on targetType.
+  example: []
+  syntax:
+    content: public object Retrieve(KeyValuePair<string, string> keyValuePair, Type targetType, Type propertyType)
+    parameters:
+    - id: keyValuePair
+      type: System.Collections.Generic.KeyValuePair{System.String,System.String}
+      description: Key value pair.
+    - id: targetType
+      type: System.Type
+      description: The type of the object that is being built from the table.
+    - id: propertyType
+      type: System.Type
+      description: The type of the property or member that is being set.
+    return:
+      type: System.Object
+    content.vb: Public Function Retrieve(keyValuePair As KeyValuePair(Of String, String), targetType As Type, propertyType As Type) As Object
+  overload: Reqnroll.Assist.ValueRetrievers.StructRetriever`1.Retrieve*
+  implements:
+  - Reqnroll.Assist.IValueRetriever.Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  nameWithType.vb: StructRetriever(Of T).Retrieve(KeyValuePair(Of String, String), Type, Type)
+  fullName.vb: Reqnroll.Assist.ValueRetrievers.StructRetriever(Of T).Retrieve(System.Collections.Generic.KeyValuePair(Of String, String), System.Type, System.Type)
+  name.vb: Retrieve(KeyValuePair(Of String, String), Type, Type)
+- uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1.GetNonEmptyValue(System.String)
+  commentId: M:Reqnroll.Assist.ValueRetrievers.StructRetriever`1.GetNonEmptyValue(System.String)
+  id: GetNonEmptyValue(System.String)
+  parent: Reqnroll.Assist.ValueRetrievers.StructRetriever`1
+  langs:
+  - csharp
+  - vb
+  name: GetNonEmptyValue(string)
+  nameWithType: StructRetriever<T>.GetNonEmptyValue(string)
+  fullName: Reqnroll.Assist.ValueRetrievers.StructRetriever<T>.GetNonEmptyValue(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ValueRetrievers/StructRetriever.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetNonEmptyValue
+    path: ../Reqnroll/Reqnroll/Assist/ValueRetrievers/StructRetriever.cs
+    startLine: 24
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist.ValueRetrievers
+  syntax:
+    content: protected abstract T GetNonEmptyValue(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: '{T}'
+    content.vb: Protected MustOverride Function GetNonEmptyValue(value As String) As T
+  overload: Reqnroll.Assist.ValueRetrievers.StructRetriever`1.GetNonEmptyValue*
+  nameWithType.vb: StructRetriever(Of T).GetNonEmptyValue(String)
+  fullName.vb: Reqnroll.Assist.ValueRetrievers.StructRetriever(Of T).GetNonEmptyValue(String)
+  name.vb: GetNonEmptyValue(String)
+references:
+- uid: Reqnroll.Assist.ValueRetrievers
+  commentId: N:Reqnroll.Assist.ValueRetrievers
+  href: Reqnroll.html
+  name: Reqnroll.Assist.ValueRetrievers
+  nameWithType: Reqnroll.Assist.ValueRetrievers
+  fullName: Reqnroll.Assist.ValueRetrievers
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  - name: .
+  - uid: Reqnroll.Assist.ValueRetrievers
+    name: ValueRetrievers
+    href: Reqnroll.Assist.ValueRetrievers.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  - name: .
+  - uid: Reqnroll.Assist.ValueRetrievers
+    name: ValueRetrievers
+    href: Reqnroll.Assist.ValueRetrievers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Assist.IValueRetriever
+  commentId: T:Reqnroll.Assist.IValueRetriever
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.IValueRetriever.html
+  name: IValueRetriever
+  nameWithType: IValueRetriever
+  fullName: Reqnroll.Assist.IValueRetriever
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  href: Reqnroll.html
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+- uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1.CanRetrieve*
+  commentId: Overload:Reqnroll.Assist.ValueRetrievers.StructRetriever`1.CanRetrieve
+  href: Reqnroll.Assist.ValueRetrievers.StructRetriever-1.html#Reqnroll_Assist_ValueRetrievers_StructRetriever_1_CanRetrieve_System_Collections_Generic_KeyValuePair_System_String_System_String__System_Type_System_Type_
+  name: CanRetrieve
+  nameWithType: StructRetriever<T>.CanRetrieve
+  fullName: Reqnroll.Assist.ValueRetrievers.StructRetriever<T>.CanRetrieve
+  nameWithType.vb: StructRetriever(Of T).CanRetrieve
+  fullName.vb: Reqnroll.Assist.ValueRetrievers.StructRetriever(Of T).CanRetrieve
+- uid: Reqnroll.Assist.IValueRetriever.CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  commentId: M:Reqnroll.Assist.IValueRetriever.CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  parent: Reqnroll.Assist.IValueRetriever
+  isExternal: true
+  href: Reqnroll.Assist.IValueRetriever.html#Reqnroll_Assist_IValueRetriever_CanRetrieve_System_Collections_Generic_KeyValuePair_System_String_System_String__System_Type_System_Type_
+  name: CanRetrieve(KeyValuePair<string, string>, Type, Type)
+  nameWithType: IValueRetriever.CanRetrieve(KeyValuePair<string, string>, Type, Type)
+  fullName: Reqnroll.Assist.IValueRetriever.CanRetrieve(System.Collections.Generic.KeyValuePair<string, string>, System.Type, System.Type)
+  nameWithType.vb: IValueRetriever.CanRetrieve(KeyValuePair(Of String, String), Type, Type)
+  fullName.vb: Reqnroll.Assist.IValueRetriever.CanRetrieve(System.Collections.Generic.KeyValuePair(Of String, String), System.Type, System.Type)
+  name.vb: CanRetrieve(KeyValuePair(Of String, String), Type, Type)
+  spec.csharp:
+  - uid: Reqnroll.Assist.IValueRetriever.CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+    name: CanRetrieve
+    href: Reqnroll.Assist.IValueRetriever.html#Reqnroll_Assist_IValueRetriever_CanRetrieve_System_Collections_Generic_KeyValuePair_System_String_System_String__System_Type_System_Type_
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Assist.IValueRetriever.CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+    name: CanRetrieve
+    href: Reqnroll.Assist.IValueRetriever.html#Reqnroll_Assist_IValueRetriever_CanRetrieve_System_Collections_Generic_KeyValuePair_System_String_System_String__System_Type_System_Type_
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Collections.Generic.KeyValuePair{System.String,System.String}
+  commentId: T:System.Collections.Generic.KeyValuePair{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.KeyValuePair`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<string, string>
+  nameWithType: KeyValuePair<string, string>
+  fullName: System.Collections.Generic.KeyValuePair<string, string>
+  nameWithType.vb: KeyValuePair(Of String, String)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of String, String)
+  name.vb: KeyValuePair(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.KeyValuePair`2
+  commentId: T:System.Collections.Generic.KeyValuePair`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<TKey, TValue>
+  nameWithType: KeyValuePair<TKey, TValue>
+  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
+  name.vb: KeyValuePair(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1.Retrieve*
+  commentId: Overload:Reqnroll.Assist.ValueRetrievers.StructRetriever`1.Retrieve
+  href: Reqnroll.Assist.ValueRetrievers.StructRetriever-1.html#Reqnroll_Assist_ValueRetrievers_StructRetriever_1_Retrieve_System_Collections_Generic_KeyValuePair_System_String_System_String__System_Type_System_Type_
+  name: Retrieve
+  nameWithType: StructRetriever<T>.Retrieve
+  fullName: Reqnroll.Assist.ValueRetrievers.StructRetriever<T>.Retrieve
+  nameWithType.vb: StructRetriever(Of T).Retrieve
+  fullName.vb: Reqnroll.Assist.ValueRetrievers.StructRetriever(Of T).Retrieve
+- uid: Reqnroll.Assist.IValueRetriever.Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  commentId: M:Reqnroll.Assist.IValueRetriever.Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+  parent: Reqnroll.Assist.IValueRetriever
+  isExternal: true
+  href: Reqnroll.Assist.IValueRetriever.html#Reqnroll_Assist_IValueRetriever_Retrieve_System_Collections_Generic_KeyValuePair_System_String_System_String__System_Type_System_Type_
+  name: Retrieve(KeyValuePair<string, string>, Type, Type)
+  nameWithType: IValueRetriever.Retrieve(KeyValuePair<string, string>, Type, Type)
+  fullName: Reqnroll.Assist.IValueRetriever.Retrieve(System.Collections.Generic.KeyValuePair<string, string>, System.Type, System.Type)
+  nameWithType.vb: IValueRetriever.Retrieve(KeyValuePair(Of String, String), Type, Type)
+  fullName.vb: Reqnroll.Assist.IValueRetriever.Retrieve(System.Collections.Generic.KeyValuePair(Of String, String), System.Type, System.Type)
+  name.vb: Retrieve(KeyValuePair(Of String, String), Type, Type)
+  spec.csharp:
+  - uid: Reqnroll.Assist.IValueRetriever.Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+    name: Retrieve
+    href: Reqnroll.Assist.IValueRetriever.html#Reqnroll_Assist_IValueRetriever_Retrieve_System_Collections_Generic_KeyValuePair_System_String_System_String__System_Type_System_Type_
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Assist.IValueRetriever.Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)
+    name: Retrieve
+    href: Reqnroll.Assist.IValueRetriever.html#Reqnroll_Assist_IValueRetriever_Retrieve_System_Collections_Generic_KeyValuePair_System_String_System_String__System_Type_System_Type_
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Reqnroll.Assist.ValueRetrievers.StructRetriever`1.GetNonEmptyValue*
+  commentId: Overload:Reqnroll.Assist.ValueRetrievers.StructRetriever`1.GetNonEmptyValue
+  href: Reqnroll.Assist.ValueRetrievers.StructRetriever-1.html#Reqnroll_Assist_ValueRetrievers_StructRetriever_1_GetNonEmptyValue_System_String_
+  name: GetNonEmptyValue
+  nameWithType: StructRetriever<T>.GetNonEmptyValue
+  fullName: Reqnroll.Assist.ValueRetrievers.StructRetriever<T>.GetNonEmptyValue
+  nameWithType.vb: StructRetriever(Of T).GetNonEmptyValue
+  fullName.vb: Reqnroll.Assist.ValueRetrievers.StructRetriever(Of T).GetNonEmptyValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.IScenarioStepContext
+  commentId: T:Reqnroll.IScenarioStepContext
+  id: IScenarioStepContext
+  parent: Reqnroll
+  children:
+  - Reqnroll.IScenarioStepContext.Status
+  - Reqnroll.IScenarioStepContext.StepInfo
+  langs:
+  - csharp
+  - vb
+  name: IScenarioStepContext
+  nameWithType: IScenarioStepContext
+  fullName: Reqnroll.IScenarioStepContext
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/ScenarioStepContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IScenarioStepContext
+    path: ../Reqnroll/Reqnroll/ScenarioStepContext.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: 'public interface IScenarioStepContext : IReqnrollContext'
+    content.vb: Public Interface IScenarioStepContext Inherits IReqnrollContext
+  inheritedMembers:
+  - Reqnroll.IReqnrollContext.TestError
+- uid: Reqnroll.IScenarioStepContext.StepInfo
+  commentId: P:Reqnroll.IScenarioStepContext.StepInfo
+  id: StepInfo
+  parent: Reqnroll.IScenarioStepContext
+  langs:
+  - csharp
+  - vb
+  name: StepInfo
+  nameWithType: IScenarioStepContext.StepInfo
+  fullName: Reqnroll.IScenarioStepContext.StepInfo
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ScenarioStepContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepInfo
+    path: ../Reqnroll/Reqnroll/ScenarioStepContext.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: StepInfo StepInfo { get; }
+    parameters: []
+    return:
+      type: Reqnroll.StepInfo
+    content.vb: ReadOnly Property StepInfo As StepInfo
+  overload: Reqnroll.IScenarioStepContext.StepInfo*
+- uid: Reqnroll.IScenarioStepContext.Status
+  commentId: P:Reqnroll.IScenarioStepContext.Status
+  id: Status
+  parent: Reqnroll.IScenarioStepContext
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: IScenarioStepContext.Status
+  fullName: Reqnroll.IScenarioStepContext.Status
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ScenarioStepContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Status
+    path: ../Reqnroll/Reqnroll/ScenarioStepContext.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: ScenarioExecutionStatus Status { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioExecutionStatus
+    content.vb: Property Status As ScenarioExecutionStatus
+  overload: Reqnroll.IScenarioStepContext.Status*
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.IReqnrollContext.TestError
+  commentId: P:Reqnroll.IReqnrollContext.TestError
+  parent: Reqnroll.IReqnrollContext
+  href: Reqnroll.IReqnrollContext.html#Reqnroll_IReqnrollContext_TestError
+  name: TestError
+  nameWithType: IReqnrollContext.TestError
+  fullName: Reqnroll.IReqnrollContext.TestError
+- uid: Reqnroll.IReqnrollContext
+  commentId: T:Reqnroll.IReqnrollContext
+  parent: Reqnroll
+  href: Reqnroll.IReqnrollContext.html
+  name: IReqnrollContext
+  nameWithType: IReqnrollContext
+  fullName: Reqnroll.IReqnrollContext
+- uid: Reqnroll.IScenarioStepContext.StepInfo*
+  commentId: Overload:Reqnroll.IScenarioStepContext.StepInfo
+  href: Reqnroll.IScenarioStepContext.html#Reqnroll_IScenarioStepContext_StepInfo
+  name: StepInfo
+  nameWithType: IScenarioStepContext.StepInfo
+  fullName: Reqnroll.IScenarioStepContext.StepInfo
+- uid: Reqnroll.StepInfo
+  commentId: T:Reqnroll.StepInfo
+  parent: Reqnroll
+  href: Reqnroll.StepInfo.html
+  name: StepInfo
+  nameWithType: StepInfo
+  fullName: Reqnroll.StepInfo
+- uid: Reqnroll.IScenarioStepContext.Status*
+  commentId: Overload:Reqnroll.IScenarioStepContext.Status
+  href: Reqnroll.IScenarioStepContext.html#Reqnroll_IScenarioStepContext_Status
+  name: Status
+  nameWithType: IScenarioStepContext.Status
+  fullName: Reqnroll.IScenarioStepContext.Status
+- uid: Reqnroll.ScenarioExecutionStatus
+  commentId: T:Reqnroll.ScenarioExecutionStatus
+  parent: Reqnroll
+  href: Reqnroll.ScenarioExecutionStatus.html
+  name: ScenarioExecutionStatus
+  nameWithType: ScenarioExecutionStatus
+  fullName: Reqnroll.ScenarioExecutionStatus

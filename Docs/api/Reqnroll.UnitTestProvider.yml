@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.UnitTestProvider
+  commentId: N:Reqnroll.UnitTestProvider
+  id: Reqnroll.UnitTestProvider
+  children:
+  - Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+  - Reqnroll.UnitTestProvider.UnitTestProviderConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.UnitTestProvider
+  nameWithType: Reqnroll.UnitTestProvider
+  fullName: Reqnroll.UnitTestProvider
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+  commentId: T:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+  parent: Reqnroll.UnitTestProvider
+  href: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.html
+  name: IUnitTestRuntimeProvider
+  nameWithType: IUnitTestRuntimeProvider
+  fullName: Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider
+- uid: Reqnroll.UnitTestProvider.UnitTestProviderConfiguration
+  commentId: T:Reqnroll.UnitTestProvider.UnitTestProviderConfiguration
+  parent: Reqnroll.UnitTestProvider
+  href: Reqnroll.UnitTestProvider.UnitTestProviderConfiguration.html
+  name: UnitTestProviderConfiguration
+  nameWithType: UnitTestProviderConfiguration
+  fullName: Reqnroll.UnitTestProvider.UnitTestProviderConfiguration
+- uid: Reqnroll.UnitTestProvider
+  commentId: N:Reqnroll.UnitTestProvider
+  href: Reqnroll.html
+  name: Reqnroll.UnitTestProvider
+  nameWithType: Reqnroll.UnitTestProvider
+  fullName: Reqnroll.UnitTestProvider
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.UnitTestProvider
+    name: UnitTestProvider
+    href: Reqnroll.UnitTestProvider.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.UnitTestProvider
+    name: UnitTestProvider
+    href: Reqnroll.UnitTestProvider.html

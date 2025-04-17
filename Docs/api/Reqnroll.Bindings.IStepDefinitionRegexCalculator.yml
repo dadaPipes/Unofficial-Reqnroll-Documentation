@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IStepDefinitionRegexCalculator
+  commentId: T:Reqnroll.Bindings.IStepDefinitionRegexCalculator
+  id: IStepDefinitionRegexCalculator
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IStepDefinitionRegexCalculator.CalculateRegexFromMethod(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod)
+  langs:
+  - csharp
+  - vb
+  name: IStepDefinitionRegexCalculator
+  nameWithType: IStepDefinitionRegexCalculator
+  fullName: Reqnroll.Bindings.IStepDefinitionRegexCalculator
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionRegexCalculator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IStepDefinitionRegexCalculator
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionRegexCalculator.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public interface IStepDefinitionRegexCalculator
+    content.vb: Public Interface IStepDefinitionRegexCalculator
+- uid: Reqnroll.Bindings.IStepDefinitionRegexCalculator.CalculateRegexFromMethod(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod)
+  commentId: M:Reqnroll.Bindings.IStepDefinitionRegexCalculator.CalculateRegexFromMethod(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod)
+  id: CalculateRegexFromMethod(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod)
+  parent: Reqnroll.Bindings.IStepDefinitionRegexCalculator
+  langs:
+  - csharp
+  - vb
+  name: CalculateRegexFromMethod(StepDefinitionType, IBindingMethod)
+  nameWithType: IStepDefinitionRegexCalculator.CalculateRegexFromMethod(StepDefinitionType, IBindingMethod)
+  fullName: Reqnroll.Bindings.IStepDefinitionRegexCalculator.CalculateRegexFromMethod(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepDefinitionRegexCalculator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CalculateRegexFromMethod
+    path: ../Reqnroll/Reqnroll/Bindings/StepDefinitionRegexCalculator.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: string CalculateRegexFromMethod(StepDefinitionType stepDefinitionType, IBindingMethod bindingMethod)
+    parameters:
+    - id: stepDefinitionType
+      type: Reqnroll.Bindings.StepDefinitionType
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    return:
+      type: System.String
+    content.vb: Function CalculateRegexFromMethod(stepDefinitionType As StepDefinitionType, bindingMethod As IBindingMethod) As String
+  overload: Reqnroll.Bindings.IStepDefinitionRegexCalculator.CalculateRegexFromMethod*
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IStepDefinitionRegexCalculator.CalculateRegexFromMethod*
+  commentId: Overload:Reqnroll.Bindings.IStepDefinitionRegexCalculator.CalculateRegexFromMethod
+  href: Reqnroll.Bindings.IStepDefinitionRegexCalculator.html#Reqnroll_Bindings_IStepDefinitionRegexCalculator_CalculateRegexFromMethod_Reqnroll_Bindings_StepDefinitionType_Reqnroll_Bindings_Reflection_IBindingMethod_
+  name: CalculateRegexFromMethod
+  nameWithType: IStepDefinitionRegexCalculator.CalculateRegexFromMethod
+  fullName: Reqnroll.Bindings.IStepDefinitionRegexCalculator.CalculateRegexFromMethod
+- uid: Reqnroll.Bindings.StepDefinitionType
+  commentId: T:Reqnroll.Bindings.StepDefinitionType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionType.html
+  name: StepDefinitionType
+  nameWithType: StepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionType
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

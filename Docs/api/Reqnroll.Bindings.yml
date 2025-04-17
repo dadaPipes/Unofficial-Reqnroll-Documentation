@@ -1,0 +1,3747 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  id: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.BindingDelegateInvoker
+  - Reqnroll.Bindings.BindingError
+  - Reqnroll.Bindings.BindingErrorType
+  - Reqnroll.Bindings.BindingFactory
+  - Reqnroll.Bindings.BindingInvoker
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`10
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`11
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`12
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`13
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`14
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`15
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`16
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`17
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`18
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`19
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`20
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`5
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`6
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`7
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`8
+  - Reqnroll.Bindings.BindingInvoker.ExtendedAction`9
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`10
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`11
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`12
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`13
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`14
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`15
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`16
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`17
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`18
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`19
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`20
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`21
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`6
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`7
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`8
+  - Reqnroll.Bindings.BindingInvoker.ExtendedFunc`9
+  - Reqnroll.Bindings.BindingMatch
+  - Reqnroll.Bindings.BindingObsoletion
+  - Reqnroll.Bindings.BindingRegistry
+  - Reqnroll.Bindings.BindingScope
+  - Reqnroll.Bindings.DryRunBindingInvoker
+  - Reqnroll.Bindings.DurationHolder
+  - Reqnroll.Bindings.ExecutionContextHolder
+  - Reqnroll.Bindings.HookBinding
+  - Reqnroll.Bindings.HookType
+  - Reqnroll.Bindings.IAsyncBindingInvoker
+  - Reqnroll.Bindings.IBinding
+  - Reqnroll.Bindings.IBindingDelegateInvoker
+  - Reqnroll.Bindings.IBindingFactory
+  - Reqnroll.Bindings.IBindingInvoker
+  - Reqnroll.Bindings.IBindingRegistry
+  - Reqnroll.Bindings.IHookBinding
+  - Reqnroll.Bindings.IScopedBinding
+  - Reqnroll.Bindings.IStepArgumentTransformationBinding
+  - Reqnroll.Bindings.IStepArgumentTypeConverter
+  - Reqnroll.Bindings.IStepDefinitionBinding
+  - Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  - Reqnroll.Bindings.IStepDefinitionRegexCalculator
+  - Reqnroll.Bindings.InvalidStepDefinitionBindingBuilder
+  - Reqnroll.Bindings.MethodBinding
+  - Reqnroll.Bindings.MethodNameStepDefinitionBindingBuilder
+  - Reqnroll.Bindings.RegexStepDefinitionBindingBuilder
+  - Reqnroll.Bindings.StepArgumentTransformationBinding
+  - Reqnroll.Bindings.StepArgumentTypeConverter
+  - Reqnroll.Bindings.StepContext
+  - Reqnroll.Bindings.StepDefinitionBinding
+  - Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  - Reqnroll.Bindings.StepDefinitionExpressionTypes
+  - Reqnroll.Bindings.StepDefinitionKeyword
+  - Reqnroll.Bindings.StepDefinitionRegexCalculator
+  - Reqnroll.Bindings.StepDefinitionType
+  - Reqnroll.Bindings.StepInstance
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Bindings.BindingDelegateInvoker
+  commentId: T:Reqnroll.Bindings.BindingDelegateInvoker
+  href: Reqnroll.Bindings.BindingDelegateInvoker.html
+  name: BindingDelegateInvoker
+  nameWithType: BindingDelegateInvoker
+  fullName: Reqnroll.Bindings.BindingDelegateInvoker
+- uid: Reqnroll.Bindings.BindingError
+  commentId: T:Reqnroll.Bindings.BindingError
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingError.html
+  name: BindingError
+  nameWithType: BindingError
+  fullName: Reqnroll.Bindings.BindingError
+- uid: Reqnroll.Bindings.BindingErrorType
+  commentId: T:Reqnroll.Bindings.BindingErrorType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingErrorType.html
+  name: BindingErrorType
+  nameWithType: BindingErrorType
+  fullName: Reqnroll.Bindings.BindingErrorType
+- uid: Reqnroll.Bindings.BindingFactory
+  commentId: T:Reqnroll.Bindings.BindingFactory
+  href: Reqnroll.Bindings.BindingFactory.html
+  name: BindingFactory
+  nameWithType: BindingFactory
+  fullName: Reqnroll.Bindings.BindingFactory
+- uid: Reqnroll.Bindings.BindingInvoker
+  commentId: T:Reqnroll.Bindings.BindingInvoker
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker
+  nameWithType: BindingInvoker
+  fullName: Reqnroll.Bindings.BindingInvoker
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`5
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`5
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`5
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-5.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`5
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-5.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`6
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`6
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`6
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-6.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`6
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-6.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`7
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`7
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`7
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-7.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`7
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-7.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`8
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`8
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`8
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-8.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`8
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-8.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`9
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`9
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`9
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-9.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`9
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-9.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`10
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`10
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`10
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-10.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`10
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-10.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`11
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`11
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`11
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-11.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`11
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-11.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`12
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`12
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`12
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-12.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`12
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-12.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`13
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`13
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`13
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-13.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`13
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-13.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`14
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`14
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`14
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-14.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`14
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-14.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`15
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`15
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`15
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-15.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`15
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-15.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`16
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`16
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`16
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-16.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`16
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-16.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`17
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`17
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`17
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-17.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`17
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-17.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`18
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`18
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`18
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-18.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`18
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-18.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`19
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`19
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`19
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-19.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: ','
+  - name: " "
+  - name: T19
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`19
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-19.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: ','
+  - name: " "
+  - name: T19
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`20
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedAction`20
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20>
+  nameWithType: BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20>
+  nameWithType.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20)
+  name.vb: BindingInvoker.ExtendedAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`20
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-20.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: ','
+  - name: " "
+  - name: T19
+  - name: ','
+  - name: " "
+  - name: T20
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedAction`20
+    name: ExtendedAction
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedAction-20.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: ','
+  - name: " "
+  - name: T19
+  - name: ','
+  - name: " "
+  - name: T20
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`6
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`6
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`6
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-6.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`6
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-6.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`7
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`7
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`7
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-7.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`7
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-7.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`8
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`8
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`8
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-8.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`8
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-8.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`9
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`9
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`9
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-9.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`9
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-9.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`10
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`10
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`10
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-10.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`10
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-10.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`11
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`11
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`11
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-11.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`11
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-11.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`12
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`12
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`12
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-12.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`12
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-12.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`13
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`13
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`13
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-13.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`13
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-13.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`14
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`14
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`14
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-14.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`14
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-14.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`15
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`15
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`15
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-15.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`15
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-15.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`16
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`16
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`16
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-16.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`16
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-16.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`17
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`17
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`17
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-17.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`17
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-17.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`18
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`18
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`18
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-18.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`18
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-18.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`19
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`19
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`19
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-19.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`19
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-19.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`20
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`20
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`20
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-20.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: ','
+  - name: " "
+  - name: T19
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`20
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-20.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: ','
+  - name: " "
+  - name: T19
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`21
+  commentId: T:Reqnroll.Bindings.BindingInvoker.ExtendedFunc`21
+  href: Reqnroll.Bindings.BindingInvoker.html
+  name: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, TResult>
+  nameWithType: BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, TResult>
+  fullName: Reqnroll.Bindings.BindingInvoker.ExtendedFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, TResult>
+  nameWithType.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, TResult)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, TResult)
+  name.vb: BindingInvoker.ExtendedFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, TResult)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`21
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-21.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: ','
+  - name: " "
+  - name: T19
+  - name: ','
+  - name: " "
+  - name: T20
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Bindings.BindingInvoker
+    name: BindingInvoker
+    href: Reqnroll.Bindings.BindingInvoker.html
+  - name: .
+  - uid: Reqnroll.Bindings.BindingInvoker.ExtendedFunc`21
+    name: ExtendedFunc
+    href: Reqnroll.Bindings.BindingInvoker.ExtendedFunc-21.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: ','
+  - name: " "
+  - name: T11
+  - name: ','
+  - name: " "
+  - name: T12
+  - name: ','
+  - name: " "
+  - name: T13
+  - name: ','
+  - name: " "
+  - name: T14
+  - name: ','
+  - name: " "
+  - name: T15
+  - name: ','
+  - name: " "
+  - name: T16
+  - name: ','
+  - name: " "
+  - name: T17
+  - name: ','
+  - name: " "
+  - name: T18
+  - name: ','
+  - name: " "
+  - name: T19
+  - name: ','
+  - name: " "
+  - name: T20
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Reqnroll.Bindings.BindingMatch
+  commentId: T:Reqnroll.Bindings.BindingMatch
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingMatch.html
+  name: BindingMatch
+  nameWithType: BindingMatch
+  fullName: Reqnroll.Bindings.BindingMatch
+- uid: Reqnroll.Bindings.BindingObsoletion
+  commentId: T:Reqnroll.Bindings.BindingObsoletion
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingObsoletion.html
+  name: BindingObsoletion
+  nameWithType: BindingObsoletion
+  fullName: Reqnroll.Bindings.BindingObsoletion
+- uid: Reqnroll.Bindings.BindingRegistry
+  commentId: T:Reqnroll.Bindings.BindingRegistry
+  href: Reqnroll.Bindings.BindingRegistry.html
+  name: BindingRegistry
+  nameWithType: BindingRegistry
+  fullName: Reqnroll.Bindings.BindingRegistry
+- uid: Reqnroll.Bindings.BindingScope
+  commentId: T:Reqnroll.Bindings.BindingScope
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingScope.html
+  name: BindingScope
+  nameWithType: BindingScope
+  fullName: Reqnroll.Bindings.BindingScope
+- uid: Reqnroll.Bindings.DryRunBindingInvoker
+  commentId: T:Reqnroll.Bindings.DryRunBindingInvoker
+  href: Reqnroll.Bindings.DryRunBindingInvoker.html
+  name: DryRunBindingInvoker
+  nameWithType: DryRunBindingInvoker
+  fullName: Reqnroll.Bindings.DryRunBindingInvoker
+- uid: Reqnroll.Bindings.DurationHolder
+  commentId: T:Reqnroll.Bindings.DurationHolder
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.DurationHolder.html
+  name: DurationHolder
+  nameWithType: DurationHolder
+  fullName: Reqnroll.Bindings.DurationHolder
+- uid: Reqnroll.Bindings.ExecutionContextHolder
+  commentId: T:Reqnroll.Bindings.ExecutionContextHolder
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.ExecutionContextHolder.html
+  name: ExecutionContextHolder
+  nameWithType: ExecutionContextHolder
+  fullName: Reqnroll.Bindings.ExecutionContextHolder
+- uid: Reqnroll.Bindings.HookBinding
+  commentId: T:Reqnroll.Bindings.HookBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.HookBinding.html
+  name: HookBinding
+  nameWithType: HookBinding
+  fullName: Reqnroll.Bindings.HookBinding
+- uid: Reqnroll.Bindings.HookType
+  commentId: T:Reqnroll.Bindings.HookType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.HookType.html
+  name: HookType
+  nameWithType: HookType
+  fullName: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.IAsyncBindingInvoker
+  commentId: T:Reqnroll.Bindings.IAsyncBindingInvoker
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IAsyncBindingInvoker.html
+  name: IAsyncBindingInvoker
+  nameWithType: IAsyncBindingInvoker
+  fullName: Reqnroll.Bindings.IAsyncBindingInvoker
+- uid: Reqnroll.Bindings.IBindingDelegateInvoker
+  commentId: T:Reqnroll.Bindings.IBindingDelegateInvoker
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBindingDelegateInvoker.html
+  name: IBindingDelegateInvoker
+  nameWithType: IBindingDelegateInvoker
+  fullName: Reqnroll.Bindings.IBindingDelegateInvoker
+- uid: Reqnroll.Bindings.IBindingFactory
+  commentId: T:Reqnroll.Bindings.IBindingFactory
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBindingFactory.html
+  name: IBindingFactory
+  nameWithType: IBindingFactory
+  fullName: Reqnroll.Bindings.IBindingFactory
+- uid: Reqnroll.Bindings.IBindingInvoker
+  commentId: T:Reqnroll.Bindings.IBindingInvoker
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBindingInvoker.html
+  name: IBindingInvoker
+  nameWithType: IBindingInvoker
+  fullName: Reqnroll.Bindings.IBindingInvoker
+- uid: Reqnroll.Bindings.IBindingRegistry
+  commentId: T:Reqnroll.Bindings.IBindingRegistry
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBindingRegistry.html
+  name: IBindingRegistry
+  nameWithType: IBindingRegistry
+  fullName: Reqnroll.Bindings.IBindingRegistry
+- uid: Reqnroll.Bindings.IHookBinding
+  commentId: T:Reqnroll.Bindings.IHookBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IHookBinding.html
+  name: IHookBinding
+  nameWithType: IHookBinding
+  fullName: Reqnroll.Bindings.IHookBinding
+- uid: Reqnroll.Bindings.InvalidStepDefinitionBindingBuilder
+  commentId: T:Reqnroll.Bindings.InvalidStepDefinitionBindingBuilder
+  href: Reqnroll.Bindings.InvalidStepDefinitionBindingBuilder.html
+  name: InvalidStepDefinitionBindingBuilder
+  nameWithType: InvalidStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.InvalidStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings.IScopedBinding
+  commentId: T:Reqnroll.Bindings.IScopedBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IScopedBinding.html
+  name: IScopedBinding
+  nameWithType: IScopedBinding
+  fullName: Reqnroll.Bindings.IScopedBinding
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  commentId: T:Reqnroll.Bindings.IStepArgumentTransformationBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html
+  name: IStepArgumentTransformationBinding
+  nameWithType: IStepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding
+- uid: Reqnroll.Bindings.IStepArgumentTypeConverter
+  commentId: T:Reqnroll.Bindings.IStepArgumentTypeConverter
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepArgumentTypeConverter.html
+  name: IStepArgumentTypeConverter
+  nameWithType: IStepArgumentTypeConverter
+  fullName: Reqnroll.Bindings.IStepArgumentTypeConverter
+- uid: Reqnroll.Bindings.IStepDefinitionBinding
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  name: IStepDefinitionBinding
+  nameWithType: IStepDefinitionBinding
+  fullName: Reqnroll.Bindings.IStepDefinitionBinding
+- uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionBindingBuilder.html
+  name: IStepDefinitionBindingBuilder
+  nameWithType: IStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings.IBinding
+  commentId: T:Reqnroll.Bindings.IBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBinding.html
+  name: IBinding
+  nameWithType: IBinding
+  fullName: Reqnroll.Bindings.IBinding
+- uid: Reqnroll.Bindings.MethodBinding
+  commentId: T:Reqnroll.Bindings.MethodBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.MethodBinding.html
+  name: MethodBinding
+  nameWithType: MethodBinding
+  fullName: Reqnroll.Bindings.MethodBinding
+- uid: Reqnroll.Bindings.MethodNameStepDefinitionBindingBuilder
+  commentId: T:Reqnroll.Bindings.MethodNameStepDefinitionBindingBuilder
+  href: Reqnroll.Bindings.MethodNameStepDefinitionBindingBuilder.html
+  name: MethodNameStepDefinitionBindingBuilder
+  nameWithType: MethodNameStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.MethodNameStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings.RegexStepDefinitionBindingBuilder
+  commentId: T:Reqnroll.Bindings.RegexStepDefinitionBindingBuilder
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.RegexStepDefinitionBindingBuilder.html
+  name: RegexStepDefinitionBindingBuilder
+  nameWithType: RegexStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.RegexStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding
+  commentId: T:Reqnroll.Bindings.StepArgumentTransformationBinding
+  href: Reqnroll.Bindings.StepArgumentTransformationBinding.html
+  name: StepArgumentTransformationBinding
+  nameWithType: StepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding
+- uid: Reqnroll.Bindings.StepArgumentTypeConverter
+  commentId: T:Reqnroll.Bindings.StepArgumentTypeConverter
+  href: Reqnroll.Bindings.StepArgumentTypeConverter.html
+  name: StepArgumentTypeConverter
+  nameWithType: StepArgumentTypeConverter
+  fullName: Reqnroll.Bindings.StepArgumentTypeConverter
+- uid: Reqnroll.Bindings.StepContext
+  commentId: T:Reqnroll.Bindings.StepContext
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepContext.html
+  name: StepContext
+  nameWithType: StepContext
+  fullName: Reqnroll.Bindings.StepContext
+- uid: Reqnroll.Bindings.StepDefinitionBinding
+  commentId: T:Reqnroll.Bindings.StepDefinitionBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionBinding.html
+  name: StepDefinitionBinding
+  nameWithType: StepDefinitionBinding
+  fullName: Reqnroll.Bindings.StepDefinitionBinding
+- uid: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  commentId: T:Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionBindingBuilderBase.html
+  name: StepDefinitionBindingBuilderBase
+  nameWithType: StepDefinitionBindingBuilderBase
+  fullName: Reqnroll.Bindings.StepDefinitionBindingBuilderBase
+- uid: Reqnroll.Bindings.StepDefinitionExpressionTypes
+  commentId: T:Reqnroll.Bindings.StepDefinitionExpressionTypes
+  href: Reqnroll.Bindings.StepDefinitionExpressionTypes.html
+  name: StepDefinitionExpressionTypes
+  nameWithType: StepDefinitionExpressionTypes
+  fullName: Reqnroll.Bindings.StepDefinitionExpressionTypes
+- uid: Reqnroll.Bindings.StepDefinitionKeyword
+  commentId: T:Reqnroll.Bindings.StepDefinitionKeyword
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionKeyword.html
+  name: StepDefinitionKeyword
+  nameWithType: StepDefinitionKeyword
+  fullName: Reqnroll.Bindings.StepDefinitionKeyword
+- uid: Reqnroll.Bindings.IStepDefinitionRegexCalculator
+  commentId: T:Reqnroll.Bindings.IStepDefinitionRegexCalculator
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionRegexCalculator.html
+  name: IStepDefinitionRegexCalculator
+  nameWithType: IStepDefinitionRegexCalculator
+  fullName: Reqnroll.Bindings.IStepDefinitionRegexCalculator
+- uid: Reqnroll.Bindings.StepDefinitionRegexCalculator
+  commentId: T:Reqnroll.Bindings.StepDefinitionRegexCalculator
+  href: Reqnroll.Bindings.StepDefinitionRegexCalculator.html
+  name: StepDefinitionRegexCalculator
+  nameWithType: StepDefinitionRegexCalculator
+  fullName: Reqnroll.Bindings.StepDefinitionRegexCalculator
+- uid: Reqnroll.Bindings.StepDefinitionType
+  commentId: T:Reqnroll.Bindings.StepDefinitionType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionType.html
+  name: StepDefinitionType
+  nameWithType: StepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionType
+- uid: Reqnroll.Bindings.StepInstance
+  commentId: T:Reqnroll.Bindings.StepInstance
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepInstance.html
+  name: StepInstance
+  nameWithType: StepInstance
+  fullName: Reqnroll.Bindings.StepInstance
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class StructRetriever&lt;T&gt; | Unofficial Reqnroll Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class StructRetriever&lt;T&gt; | Unofficial Reqnroll Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/reqnroll/Reqnroll/new/main/apiSpec/new?filename=Reqnroll_Assist_ValueRetrievers_StructRetriever_1.md&amp;value=---%0Auid%3A%20Reqnroll.Assist.ValueRetrievers.StructRetriever%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/reqnroll-icon.png" alt="Unofficial Reqnroll Documentation">
+            Unofficial Reqnroll Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Reqnroll.Assist.ValueRetrievers.StructRetriever`1">
+
+
+
+  <h1 id="Reqnroll_Assist_ValueRetrievers_StructRetriever_1" data-uid="Reqnroll.Assist.ValueRetrievers.StructRetriever`1" class="text-break">
+Class StructRetriever&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Assist/ValueRetrievers/StructRetriever.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Reqnroll.html">Reqnroll</a>.<a class="xref" href="Reqnroll.Assist.html">Assist</a>.<a class="xref" href="Reqnroll.Assist.ValueRetrievers.html">ValueRetrievers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Reqnroll.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class StructRetriever&lt;T&gt; : IValueRetriever where T : struct</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">StructRetriever&lt;T&gt;</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Reqnroll.Assist.IValueRetriever.html">IValueRetriever</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.BoolValueRetriever.html">BoolValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.ByteValueRetriever.html">ByteValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.CharValueRetriever.html">CharValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.DateTimeOffsetValueRetriever.html">DateTimeOffsetValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.DateTimeValueRetriever.html">DateTimeValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.DecimalValueRetriever.html">DecimalValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.DoubleValueRetriever.html">DoubleValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.FloatValueRetriever.html">FloatValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.GuidValueRetriever.html">GuidValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.IntValueRetriever.html">IntValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.LongValueRetriever.html">LongValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.SByteValueRetriever.html">SByteValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.ShortValueRetriever.html">ShortValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.TimeSpanValueRetriever.html">TimeSpanValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.UIntValueRetriever.html">UIntValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.ULongValueRetriever.html">ULongValueRetriever</a></div>
+      <div><a class="xref" href="Reqnroll.Assist.ValueRetrievers.UShortValueRetriever.html">UShortValueRetriever</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Reqnroll_Assist_ValueRetrievers_StructRetriever_1_CanRetrieve_" data-uid="Reqnroll.Assist.ValueRetrievers.StructRetriever`1.CanRetrieve*"></a>
+
+  <h3 id="Reqnroll_Assist_ValueRetrievers_StructRetriever_1_CanRetrieve_System_Collections_Generic_KeyValuePair_System_String_System_String__System_Type_System_Type_" data-uid="Reqnroll.Assist.ValueRetrievers.StructRetriever`1.CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)">
+  CanRetrieve(KeyValuePair&lt;string, string&gt;, Type, Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Assist/ValueRetrievers/StructRetriever.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines if this retriever can retrieve the actual value from a key-&gt;value set in a table.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanRetrieve(KeyValuePair&lt;string, string&gt; keyValuePair, Type targetType, Type propertyType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keyValuePair</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>Key value pair.</p>
+</dd>
+    <dt><code>targetType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>The type of the object that is being built from the table.</p>
+</dd>
+    <dt><code>propertyType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>The type of the property or member that is being set.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if this instance can retrieve the specified key-&gt;value; otherwise, <code>false</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Assist_ValueRetrievers_StructRetriever_1_GetNonEmptyValue_" data-uid="Reqnroll.Assist.ValueRetrievers.StructRetriever`1.GetNonEmptyValue*"></a>
+
+  <h3 id="Reqnroll_Assist_ValueRetrievers_StructRetriever_1_GetNonEmptyValue_System_String_" data-uid="Reqnroll.Assist.ValueRetrievers.StructRetriever`1.GetNonEmptyValue(System.String)">
+  GetNonEmptyValue(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Assist/ValueRetrievers/StructRetriever.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract T GetNonEmptyValue(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Assist_ValueRetrievers_StructRetriever_1_Retrieve_" data-uid="Reqnroll.Assist.ValueRetrievers.StructRetriever`1.Retrieve*"></a>
+
+  <h3 id="Reqnroll_Assist_ValueRetrievers_StructRetriever_1_Retrieve_System_Collections_Generic_KeyValuePair_System_String_System_String__System_Type_System_Type_" data-uid="Reqnroll.Assist.ValueRetrievers.StructRetriever`1.Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)">
+  Retrieve(KeyValuePair&lt;string, string&gt;, Type, Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Assist/ValueRetrievers/StructRetriever.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve the value from a key-&gt; value set, as the expected type on targetType.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Retrieve(KeyValuePair&lt;string, string&gt; keyValuePair, Type targetType, Type propertyType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keyValuePair</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>Key value pair.</p>
+</dd>
+    <dt><code>targetType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>The type of the object that is being built from the table.</p>
+</dd>
+    <dt><code>propertyType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>The type of the property or member that is being set.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Assist/ValueRetrievers/StructRetriever.cs/#L6" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

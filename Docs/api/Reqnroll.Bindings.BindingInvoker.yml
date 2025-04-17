@@ -1,0 +1,1429 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.BindingInvoker
+  commentId: T:Reqnroll.Bindings.BindingInvoker
+  id: BindingInvoker
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.BindingInvoker.#ctor(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.ErrorHandling.IErrorProvider,Reqnroll.Bindings.IBindingDelegateInvoker)
+  - Reqnroll.Bindings.BindingInvoker.CreateCultureInfoScope(Reqnroll.Infrastructure.IContextManager)
+  - Reqnroll.Bindings.BindingInvoker.CreateMethodDelegate(System.Reflection.MethodInfo)
+  - Reqnroll.Bindings.BindingInvoker.EnsureReflectionInfo(Reqnroll.Bindings.IBinding,System.Reflection.MethodInfo@,System.Delegate@)
+  - Reqnroll.Bindings.BindingInvoker.GetActionType(System.Type[])
+  - Reqnroll.Bindings.BindingInvoker.GetBindingMethodCallExpression(System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.Expression[])
+  - Reqnroll.Bindings.BindingInvoker.GetDelegateType(System.Type[],System.Type)
+  - Reqnroll.Bindings.BindingInvoker.GetFuncType(System.Type[],System.Type)
+  - Reqnroll.Bindings.BindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  - Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  - Reqnroll.Bindings.BindingInvoker.bindingDelegateInvoker
+  - Reqnroll.Bindings.BindingInvoker.errorProvider
+  - Reqnroll.Bindings.BindingInvoker.reqnrollConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BindingInvoker
+  nameWithType: BindingInvoker
+  fullName: Reqnroll.Bindings.BindingInvoker
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingInvoker
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: 'public class BindingInvoker : IBindingInvoker, IAsyncBindingInvoker'
+    content.vb: Public Class BindingInvoker Implements IBindingInvoker, IAsyncBindingInvoker
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Bindings.IBindingInvoker
+  - Reqnroll.Bindings.IAsyncBindingInvoker
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.BindingInvoker.reqnrollConfiguration
+  commentId: F:Reqnroll.Bindings.BindingInvoker.reqnrollConfiguration
+  id: reqnrollConfiguration
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: reqnrollConfiguration
+  nameWithType: BindingInvoker.reqnrollConfiguration
+  fullName: Reqnroll.Bindings.BindingInvoker.reqnrollConfiguration
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: reqnrollConfiguration
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected readonly ReqnrollConfiguration reqnrollConfiguration
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Protected ReadOnly reqnrollConfiguration As ReqnrollConfiguration
+- uid: Reqnroll.Bindings.BindingInvoker.errorProvider
+  commentId: F:Reqnroll.Bindings.BindingInvoker.errorProvider
+  id: errorProvider
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: errorProvider
+  nameWithType: BindingInvoker.errorProvider
+  fullName: Reqnroll.Bindings.BindingInvoker.errorProvider
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: errorProvider
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 21
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected readonly IErrorProvider errorProvider
+    return:
+      type: Reqnroll.ErrorHandling.IErrorProvider
+    content.vb: Protected ReadOnly errorProvider As IErrorProvider
+- uid: Reqnroll.Bindings.BindingInvoker.bindingDelegateInvoker
+  commentId: F:Reqnroll.Bindings.BindingInvoker.bindingDelegateInvoker
+  id: bindingDelegateInvoker
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: bindingDelegateInvoker
+  nameWithType: BindingInvoker.bindingDelegateInvoker
+  fullName: Reqnroll.Bindings.BindingInvoker.bindingDelegateInvoker
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: bindingDelegateInvoker
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected readonly IBindingDelegateInvoker bindingDelegateInvoker
+    return:
+      type: Reqnroll.Bindings.IBindingDelegateInvoker
+    content.vb: Protected ReadOnly bindingDelegateInvoker As IBindingDelegateInvoker
+- uid: Reqnroll.Bindings.BindingInvoker.#ctor(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.ErrorHandling.IErrorProvider,Reqnroll.Bindings.IBindingDelegateInvoker)
+  commentId: M:Reqnroll.Bindings.BindingInvoker.#ctor(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.ErrorHandling.IErrorProvider,Reqnroll.Bindings.IBindingDelegateInvoker)
+  id: '#ctor(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.ErrorHandling.IErrorProvider,Reqnroll.Bindings.IBindingDelegateInvoker)'
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: BindingInvoker(ReqnrollConfiguration, IErrorProvider, IBindingDelegateInvoker)
+  nameWithType: BindingInvoker.BindingInvoker(ReqnrollConfiguration, IErrorProvider, IBindingDelegateInvoker)
+  fullName: Reqnroll.Bindings.BindingInvoker.BindingInvoker(Reqnroll.Configuration.ReqnrollConfiguration, Reqnroll.ErrorHandling.IErrorProvider, Reqnroll.Bindings.IBindingDelegateInvoker)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 24
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public BindingInvoker(ReqnrollConfiguration reqnrollConfiguration, IErrorProvider errorProvider, IBindingDelegateInvoker bindingDelegateInvoker)
+    parameters:
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    - id: errorProvider
+      type: Reqnroll.ErrorHandling.IErrorProvider
+    - id: bindingDelegateInvoker
+      type: Reqnroll.Bindings.IBindingDelegateInvoker
+    content.vb: Public Sub New(reqnrollConfiguration As ReqnrollConfiguration, errorProvider As IErrorProvider, bindingDelegateInvoker As IBindingDelegateInvoker)
+  overload: Reqnroll.Bindings.BindingInvoker.#ctor*
+  nameWithType.vb: BindingInvoker.New(ReqnrollConfiguration, IErrorProvider, IBindingDelegateInvoker)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.New(Reqnroll.Configuration.ReqnrollConfiguration, Reqnroll.ErrorHandling.IErrorProvider, Reqnroll.Bindings.IBindingDelegateInvoker)
+  name.vb: New(ReqnrollConfiguration, IErrorProvider, IBindingDelegateInvoker)
+- uid: Reqnroll.Bindings.BindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  commentId: M:Reqnroll.Bindings.BindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  id: InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: InvokeBinding(IBinding, IContextManager, object[], ITestTracer, out TimeSpan)
+  nameWithType: BindingInvoker.InvokeBinding(IBinding, IContextManager, object[], ITestTracer, out TimeSpan)
+  fullName: Reqnroll.Bindings.BindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, object[], Reqnroll.Tracing.ITestTracer, out System.TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InvokeBinding
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 31
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use async version of the method instead")]
+
+      public virtual object InvokeBinding(IBinding binding, IContextManager contextManager, object[] arguments, ITestTracer testTracer, out TimeSpan duration)
+    parameters:
+    - id: binding
+      type: Reqnroll.Bindings.IBinding
+    - id: contextManager
+      type: Reqnroll.Infrastructure.IContextManager
+    - id: arguments
+      type: System.Object[]
+    - id: testTracer
+      type: Reqnroll.Tracing.ITestTracer
+    - id: duration
+      type: System.TimeSpan
+    return:
+      type: System.Object
+    content.vb: >-
+      <Obsolete("Use async version of the method instead")>
+
+      Public Overridable Function InvokeBinding(binding As IBinding, contextManager As IContextManager, arguments As Object(), testTracer As ITestTracer, duration As TimeSpan) As Object
+  overload: Reqnroll.Bindings.BindingInvoker.InvokeBinding*
+  implements:
+  - Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use async version of the method instead
+  nameWithType.vb: BindingInvoker.InvokeBinding(IBinding, IContextManager, Object(), ITestTracer, TimeSpan)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, Object(), Reqnroll.Tracing.ITestTracer, System.TimeSpan)
+  name.vb: InvokeBinding(IBinding, IContextManager, Object(), ITestTracer, TimeSpan)
+- uid: Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  commentId: M:Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  id: InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: InvokeBindingAsync(IBinding, IContextManager, object[], ITestTracer, DurationHolder)
+  nameWithType: BindingInvoker.InvokeBindingAsync(IBinding, IContextManager, object[], ITestTracer, DurationHolder)
+  fullName: Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, object[], Reqnroll.Tracing.ITestTracer, Reqnroll.Bindings.DurationHolder)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InvokeBindingAsync
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 40
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public virtual Task<object> InvokeBindingAsync(IBinding binding, IContextManager contextManager, object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)
+    parameters:
+    - id: binding
+      type: Reqnroll.Bindings.IBinding
+    - id: contextManager
+      type: Reqnroll.Infrastructure.IContextManager
+    - id: arguments
+      type: System.Object[]
+    - id: testTracer
+      type: Reqnroll.Tracing.ITestTracer
+    - id: durationHolder
+      type: Reqnroll.Bindings.DurationHolder
+    return:
+      type: System.Threading.Tasks.Task{System.Object}
+    content.vb: Public Overridable Function InvokeBindingAsync(binding As IBinding, contextManager As IContextManager, arguments As Object(), testTracer As ITestTracer, durationHolder As DurationHolder) As Task(Of Object)
+  overload: Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync*
+  implements:
+  - Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  nameWithType.vb: BindingInvoker.InvokeBindingAsync(IBinding, IContextManager, Object(), ITestTracer, DurationHolder)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, Object(), Reqnroll.Tracing.ITestTracer, Reqnroll.Bindings.DurationHolder)
+  name.vb: InvokeBindingAsync(IBinding, IContextManager, Object(), ITestTracer, DurationHolder)
+- uid: Reqnroll.Bindings.BindingInvoker.CreateCultureInfoScope(Reqnroll.Infrastructure.IContextManager)
+  commentId: M:Reqnroll.Bindings.BindingInvoker.CreateCultureInfoScope(Reqnroll.Infrastructure.IContextManager)
+  id: CreateCultureInfoScope(Reqnroll.Infrastructure.IContextManager)
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: CreateCultureInfoScope(IContextManager)
+  nameWithType: BindingInvoker.CreateCultureInfoScope(IContextManager)
+  fullName: Reqnroll.Bindings.BindingInvoker.CreateCultureInfoScope(Reqnroll.Infrastructure.IContextManager)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateCultureInfoScope
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 100
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected virtual CultureInfoScope CreateCultureInfoScope(IContextManager contextManager)
+    parameters:
+    - id: contextManager
+      type: Reqnroll.Infrastructure.IContextManager
+    return:
+      type: Reqnroll.CultureInfoScope
+    content.vb: Protected Overridable Function CreateCultureInfoScope(contextManager As IContextManager) As CultureInfoScope
+  overload: Reqnroll.Bindings.BindingInvoker.CreateCultureInfoScope*
+- uid: Reqnroll.Bindings.BindingInvoker.EnsureReflectionInfo(Reqnroll.Bindings.IBinding,System.Reflection.MethodInfo@,System.Delegate@)
+  commentId: M:Reqnroll.Bindings.BindingInvoker.EnsureReflectionInfo(Reqnroll.Bindings.IBinding,System.Reflection.MethodInfo@,System.Delegate@)
+  id: EnsureReflectionInfo(Reqnroll.Bindings.IBinding,System.Reflection.MethodInfo@,System.Delegate@)
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: EnsureReflectionInfo(IBinding, out MethodInfo, out Delegate)
+  nameWithType: BindingInvoker.EnsureReflectionInfo(IBinding, out MethodInfo, out Delegate)
+  fullName: Reqnroll.Bindings.BindingInvoker.EnsureReflectionInfo(Reqnroll.Bindings.IBinding, out System.Reflection.MethodInfo, out System.Delegate)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: EnsureReflectionInfo
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 105
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected void EnsureReflectionInfo(IBinding binding, out MethodInfo methodInfo, out Delegate bindingAction)
+    parameters:
+    - id: binding
+      type: Reqnroll.Bindings.IBinding
+    - id: methodInfo
+      type: System.Reflection.MethodInfo
+    - id: bindingAction
+      type: System.Delegate
+    content.vb: Protected Sub EnsureReflectionInfo(binding As IBinding, methodInfo As MethodInfo, bindingAction As [Delegate])
+  overload: Reqnroll.Bindings.BindingInvoker.EnsureReflectionInfo*
+  nameWithType.vb: BindingInvoker.EnsureReflectionInfo(IBinding, MethodInfo, Delegate)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.EnsureReflectionInfo(Reqnroll.Bindings.IBinding, System.Reflection.MethodInfo, System.Delegate)
+  name.vb: EnsureReflectionInfo(IBinding, MethodInfo, Delegate)
+- uid: Reqnroll.Bindings.BindingInvoker.CreateMethodDelegate(System.Reflection.MethodInfo)
+  commentId: M:Reqnroll.Bindings.BindingInvoker.CreateMethodDelegate(System.Reflection.MethodInfo)
+  id: CreateMethodDelegate(System.Reflection.MethodInfo)
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: CreateMethodDelegate(MethodInfo)
+  nameWithType: BindingInvoker.CreateMethodDelegate(MethodInfo)
+  fullName: Reqnroll.Bindings.BindingInvoker.CreateMethodDelegate(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateMethodDelegate
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 119
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected virtual Delegate CreateMethodDelegate(MethodInfo method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodInfo
+    return:
+      type: System.Delegate
+    content.vb: Protected Overridable Function CreateMethodDelegate(method As MethodInfo) As [Delegate]
+  overload: Reqnroll.Bindings.BindingInvoker.CreateMethodDelegate*
+- uid: Reqnroll.Bindings.BindingInvoker.GetBindingMethodCallExpression(System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.Expression[])
+  commentId: M:Reqnroll.Bindings.BindingInvoker.GetBindingMethodCallExpression(System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.Expression[])
+  id: GetBindingMethodCallExpression(System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.Expression[])
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: GetBindingMethodCallExpression(Expression, MethodInfo, Expression[])
+  nameWithType: BindingInvoker.GetBindingMethodCallExpression(Expression, MethodInfo, Expression[])
+  fullName: Reqnroll.Bindings.BindingInvoker.GetBindingMethodCallExpression(System.Linq.Expressions.Expression, System.Reflection.MethodInfo, System.Linq.Expressions.Expression[])
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetBindingMethodCallExpression
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 170
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected virtual Expression GetBindingMethodCallExpression(Expression instance, MethodInfo method, Expression[] argumentsExpressions)
+    parameters:
+    - id: instance
+      type: System.Linq.Expressions.Expression
+    - id: method
+      type: System.Reflection.MethodInfo
+    - id: argumentsExpressions
+      type: System.Linq.Expressions.Expression[]
+    return:
+      type: System.Linq.Expressions.Expression
+    content.vb: Protected Overridable Function GetBindingMethodCallExpression(instance As Expression, method As MethodInfo, argumentsExpressions As Expression()) As Expression
+  overload: Reqnroll.Bindings.BindingInvoker.GetBindingMethodCallExpression*
+  nameWithType.vb: BindingInvoker.GetBindingMethodCallExpression(Expression, MethodInfo, Expression())
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.GetBindingMethodCallExpression(System.Linq.Expressions.Expression, System.Reflection.MethodInfo, System.Linq.Expressions.Expression())
+  name.vb: GetBindingMethodCallExpression(Expression, MethodInfo, Expression())
+- uid: Reqnroll.Bindings.BindingInvoker.GetActionType(System.Type[])
+  commentId: M:Reqnroll.Bindings.BindingInvoker.GetActionType(System.Type[])
+  id: GetActionType(System.Type[])
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: GetActionType(Type[])
+  nameWithType: BindingInvoker.GetActionType(Type[])
+  fullName: Reqnroll.Bindings.BindingInvoker.GetActionType(System.Type[])
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetActionType
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 201
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected Type GetActionType(Type[] typeArgs)
+    parameters:
+    - id: typeArgs
+      type: System.Type[]
+    return:
+      type: System.Type
+    content.vb: Protected Function GetActionType(typeArgs As Type()) As Type
+  overload: Reqnroll.Bindings.BindingInvoker.GetActionType*
+  nameWithType.vb: BindingInvoker.GetActionType(Type())
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.GetActionType(System.Type())
+  name.vb: GetActionType(Type())
+- uid: Reqnroll.Bindings.BindingInvoker.GetFuncType(System.Type[],System.Type)
+  commentId: M:Reqnroll.Bindings.BindingInvoker.GetFuncType(System.Type[],System.Type)
+  id: GetFuncType(System.Type[],System.Type)
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: GetFuncType(Type[], Type)
+  nameWithType: BindingInvoker.GetFuncType(Type[], Type)
+  fullName: Reqnroll.Bindings.BindingInvoker.GetFuncType(System.Type[], System.Type)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetFuncType
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 240
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected Type GetFuncType(Type[] typeArgs, Type resultType)
+    parameters:
+    - id: typeArgs
+      type: System.Type[]
+    - id: resultType
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: Protected Function GetFuncType(typeArgs As Type(), resultType As Type) As Type
+  overload: Reqnroll.Bindings.BindingInvoker.GetFuncType*
+  nameWithType.vb: BindingInvoker.GetFuncType(Type(), Type)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.GetFuncType(System.Type(), System.Type)
+  name.vb: GetFuncType(Type(), Type)
+- uid: Reqnroll.Bindings.BindingInvoker.GetDelegateType(System.Type[],System.Type)
+  commentId: M:Reqnroll.Bindings.BindingInvoker.GetDelegateType(System.Type[],System.Type)
+  id: GetDelegateType(System.Type[],System.Type)
+  parent: Reqnroll.Bindings.BindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: GetDelegateType(Type[], Type)
+  nameWithType: BindingInvoker.GetDelegateType(Type[], Type)
+  fullName: Reqnroll.Bindings.BindingInvoker.GetDelegateType(System.Type[], System.Type)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/BindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetDelegateType
+    path: ../Reqnroll/Reqnroll/Bindings/BindingInvoker.cs
+    startLine: 254
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected Type GetDelegateType(Type[] typeArgs, Type resultType)
+    parameters:
+    - id: typeArgs
+      type: System.Type[]
+    - id: resultType
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: Protected Function GetDelegateType(typeArgs As Type(), resultType As Type) As Type
+  overload: Reqnroll.Bindings.BindingInvoker.GetDelegateType*
+  nameWithType.vb: BindingInvoker.GetDelegateType(Type(), Type)
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.GetDelegateType(System.Type(), System.Type)
+  name.vb: GetDelegateType(Type(), Type)
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Bindings.IBindingInvoker
+  commentId: T:Reqnroll.Bindings.IBindingInvoker
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBindingInvoker.html
+  name: IBindingInvoker
+  nameWithType: IBindingInvoker
+  fullName: Reqnroll.Bindings.IBindingInvoker
+- uid: Reqnroll.Bindings.IAsyncBindingInvoker
+  commentId: T:Reqnroll.Bindings.IAsyncBindingInvoker
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IAsyncBindingInvoker.html
+  name: IAsyncBindingInvoker
+  nameWithType: IAsyncBindingInvoker
+  fullName: Reqnroll.Bindings.IAsyncBindingInvoker
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.ErrorHandling.IErrorProvider
+  commentId: T:Reqnroll.ErrorHandling.IErrorProvider
+  parent: Reqnroll.ErrorHandling
+  href: Reqnroll.ErrorHandling.IErrorProvider.html
+  name: IErrorProvider
+  nameWithType: IErrorProvider
+  fullName: Reqnroll.ErrorHandling.IErrorProvider
+- uid: Reqnroll.ErrorHandling
+  commentId: N:Reqnroll.ErrorHandling
+  href: Reqnroll.html
+  name: Reqnroll.ErrorHandling
+  nameWithType: Reqnroll.ErrorHandling
+  fullName: Reqnroll.ErrorHandling
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.ErrorHandling
+    name: ErrorHandling
+    href: Reqnroll.ErrorHandling.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.ErrorHandling
+    name: ErrorHandling
+    href: Reqnroll.ErrorHandling.html
+- uid: Reqnroll.Bindings.IBindingDelegateInvoker
+  commentId: T:Reqnroll.Bindings.IBindingDelegateInvoker
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBindingDelegateInvoker.html
+  name: IBindingDelegateInvoker
+  nameWithType: IBindingDelegateInvoker
+  fullName: Reqnroll.Bindings.IBindingDelegateInvoker
+- uid: Reqnroll.Bindings.BindingInvoker.#ctor*
+  commentId: Overload:Reqnroll.Bindings.BindingInvoker.#ctor
+  href: Reqnroll.Bindings.BindingInvoker.html#Reqnroll_Bindings_BindingInvoker__ctor_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_ErrorHandling_IErrorProvider_Reqnroll_Bindings_IBindingDelegateInvoker_
+  name: BindingInvoker
+  nameWithType: BindingInvoker.BindingInvoker
+  fullName: Reqnroll.Bindings.BindingInvoker.BindingInvoker
+  nameWithType.vb: BindingInvoker.New
+  fullName.vb: Reqnroll.Bindings.BindingInvoker.New
+  name.vb: New
+- uid: Reqnroll.Bindings.BindingInvoker.InvokeBinding*
+  commentId: Overload:Reqnroll.Bindings.BindingInvoker.InvokeBinding
+  href: Reqnroll.Bindings.BindingInvoker.html#Reqnroll_Bindings_BindingInvoker_InvokeBinding_Reqnroll_Bindings_IBinding_Reqnroll_Infrastructure_IContextManager_System_Object___Reqnroll_Tracing_ITestTracer_System_TimeSpan__
+  name: InvokeBinding
+  nameWithType: BindingInvoker.InvokeBinding
+  fullName: Reqnroll.Bindings.BindingInvoker.InvokeBinding
+- uid: Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  commentId: M:Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  parent: Reqnroll.Bindings.IBindingInvoker
+  isExternal: true
+  href: Reqnroll.Bindings.IBindingInvoker.html#Reqnroll_Bindings_IBindingInvoker_InvokeBinding_Reqnroll_Bindings_IBinding_Reqnroll_Infrastructure_IContextManager_System_Object___Reqnroll_Tracing_ITestTracer_System_TimeSpan__
+  name: InvokeBinding(IBinding, IContextManager, object[], ITestTracer, out TimeSpan)
+  nameWithType: IBindingInvoker.InvokeBinding(IBinding, IContextManager, object[], ITestTracer, out TimeSpan)
+  fullName: Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, object[], Reqnroll.Tracing.ITestTracer, out System.TimeSpan)
+  nameWithType.vb: IBindingInvoker.InvokeBinding(IBinding, IContextManager, Object(), ITestTracer, TimeSpan)
+  fullName.vb: Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, Object(), Reqnroll.Tracing.ITestTracer, System.TimeSpan)
+  name.vb: InvokeBinding(IBinding, IContextManager, Object(), ITestTracer, TimeSpan)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+    name: InvokeBinding
+    href: Reqnroll.Bindings.IBindingInvoker.html#Reqnroll_Bindings_IBindingInvoker_InvokeBinding_Reqnroll_Bindings_IBinding_Reqnroll_Infrastructure_IContextManager_System_Object___Reqnroll_Tracing_ITestTracer_System_TimeSpan__
+  - name: (
+  - uid: Reqnroll.Bindings.IBinding
+    name: IBinding
+    href: Reqnroll.Bindings.IBinding.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Infrastructure.IContextManager
+    name: IContextManager
+    href: Reqnroll.Infrastructure.IContextManager.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Tracing.ITestTracer
+    name: ITestTracer
+    href: Reqnroll.Tracing.ITestTracer.html
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+    name: InvokeBinding
+    href: Reqnroll.Bindings.IBindingInvoker.html#Reqnroll_Bindings_IBindingInvoker_InvokeBinding_Reqnroll_Bindings_IBinding_Reqnroll_Infrastructure_IContextManager_System_Object___Reqnroll_Tracing_ITestTracer_System_TimeSpan__
+  - name: (
+  - uid: Reqnroll.Bindings.IBinding
+    name: IBinding
+    href: Reqnroll.Bindings.IBinding.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Infrastructure.IContextManager
+    name: IContextManager
+    href: Reqnroll.Infrastructure.IContextManager.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Tracing.ITestTracer
+    name: ITestTracer
+    href: Reqnroll.Tracing.ITestTracer.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+- uid: Reqnroll.Bindings.IBinding
+  commentId: T:Reqnroll.Bindings.IBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBinding.html
+  name: IBinding
+  nameWithType: IBinding
+  fullName: Reqnroll.Bindings.IBinding
+- uid: Reqnroll.Infrastructure.IContextManager
+  commentId: T:Reqnroll.Infrastructure.IContextManager
+  parent: Reqnroll.Infrastructure
+  href: Reqnroll.Infrastructure.IContextManager.html
+  name: IContextManager
+  nameWithType: IContextManager
+  fullName: Reqnroll.Infrastructure.IContextManager
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: Reqnroll.Tracing.ITestTracer
+  commentId: T:Reqnroll.Tracing.ITestTracer
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITestTracer.html
+  name: ITestTracer
+  nameWithType: ITestTracer
+  fullName: Reqnroll.Tracing.ITestTracer
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync*
+  commentId: Overload:Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync
+  href: Reqnroll.Bindings.BindingInvoker.html#Reqnroll_Bindings_BindingInvoker_InvokeBindingAsync_Reqnroll_Bindings_IBinding_Reqnroll_Infrastructure_IContextManager_System_Object___Reqnroll_Tracing_ITestTracer_Reqnroll_Bindings_DurationHolder_
+  name: InvokeBindingAsync
+  nameWithType: BindingInvoker.InvokeBindingAsync
+  fullName: Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync
+- uid: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  commentId: M:Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+  parent: Reqnroll.Bindings.IAsyncBindingInvoker
+  isExternal: true
+  href: Reqnroll.Bindings.IAsyncBindingInvoker.html#Reqnroll_Bindings_IAsyncBindingInvoker_InvokeBindingAsync_Reqnroll_Bindings_IBinding_Reqnroll_Infrastructure_IContextManager_System_Object___Reqnroll_Tracing_ITestTracer_Reqnroll_Bindings_DurationHolder_
+  name: InvokeBindingAsync(IBinding, IContextManager, object[], ITestTracer, DurationHolder)
+  nameWithType: IAsyncBindingInvoker.InvokeBindingAsync(IBinding, IContextManager, object[], ITestTracer, DurationHolder)
+  fullName: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, object[], Reqnroll.Tracing.ITestTracer, Reqnroll.Bindings.DurationHolder)
+  nameWithType.vb: IAsyncBindingInvoker.InvokeBindingAsync(IBinding, IContextManager, Object(), ITestTracer, DurationHolder)
+  fullName.vb: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, Object(), Reqnroll.Tracing.ITestTracer, Reqnroll.Bindings.DurationHolder)
+  name.vb: InvokeBindingAsync(IBinding, IContextManager, Object(), ITestTracer, DurationHolder)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+    name: InvokeBindingAsync
+    href: Reqnroll.Bindings.IAsyncBindingInvoker.html#Reqnroll_Bindings_IAsyncBindingInvoker_InvokeBindingAsync_Reqnroll_Bindings_IBinding_Reqnroll_Infrastructure_IContextManager_System_Object___Reqnroll_Tracing_ITestTracer_Reqnroll_Bindings_DurationHolder_
+  - name: (
+  - uid: Reqnroll.Bindings.IBinding
+    name: IBinding
+    href: Reqnroll.Bindings.IBinding.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Infrastructure.IContextManager
+    name: IContextManager
+    href: Reqnroll.Infrastructure.IContextManager.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Tracing.ITestTracer
+    name: ITestTracer
+    href: Reqnroll.Tracing.ITestTracer.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.DurationHolder
+    name: DurationHolder
+    href: Reqnroll.Bindings.DurationHolder.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.IAsyncBindingInvoker.InvokeBindingAsync(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,Reqnroll.Bindings.DurationHolder)
+    name: InvokeBindingAsync
+    href: Reqnroll.Bindings.IAsyncBindingInvoker.html#Reqnroll_Bindings_IAsyncBindingInvoker_InvokeBindingAsync_Reqnroll_Bindings_IBinding_Reqnroll_Infrastructure_IContextManager_System_Object___Reqnroll_Tracing_ITestTracer_Reqnroll_Bindings_DurationHolder_
+  - name: (
+  - uid: Reqnroll.Bindings.IBinding
+    name: IBinding
+    href: Reqnroll.Bindings.IBinding.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Infrastructure.IContextManager
+    name: IContextManager
+    href: Reqnroll.Infrastructure.IContextManager.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Tracing.ITestTracer
+    name: ITestTracer
+    href: Reqnroll.Tracing.ITestTracer.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.DurationHolder
+    name: DurationHolder
+    href: Reqnroll.Bindings.DurationHolder.html
+  - name: )
+- uid: Reqnroll.Bindings.DurationHolder
+  commentId: T:Reqnroll.Bindings.DurationHolder
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.DurationHolder.html
+  name: DurationHolder
+  nameWithType: DurationHolder
+  fullName: Reqnroll.Bindings.DurationHolder
+- uid: System.Threading.Tasks.Task{System.Object}
+  commentId: T:System.Threading.Tasks.Task{System.Object}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<object>
+  nameWithType: Task<object>
+  fullName: System.Threading.Tasks.Task<object>
+  nameWithType.vb: Task(Of Object)
+  fullName.vb: System.Threading.Tasks.Task(Of Object)
+  name.vb: Task(Of Object)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Reqnroll.Bindings.BindingInvoker.CreateCultureInfoScope*
+  commentId: Overload:Reqnroll.Bindings.BindingInvoker.CreateCultureInfoScope
+  href: Reqnroll.Bindings.BindingInvoker.html#Reqnroll_Bindings_BindingInvoker_CreateCultureInfoScope_Reqnroll_Infrastructure_IContextManager_
+  name: CreateCultureInfoScope
+  nameWithType: BindingInvoker.CreateCultureInfoScope
+  fullName: Reqnroll.Bindings.BindingInvoker.CreateCultureInfoScope
+- uid: Reqnroll.CultureInfoScope
+  commentId: T:Reqnroll.CultureInfoScope
+  parent: Reqnroll
+  href: Reqnroll.CultureInfoScope.html
+  name: CultureInfoScope
+  nameWithType: CultureInfoScope
+  fullName: Reqnroll.CultureInfoScope
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.Bindings.BindingInvoker.EnsureReflectionInfo*
+  commentId: Overload:Reqnroll.Bindings.BindingInvoker.EnsureReflectionInfo
+  href: Reqnroll.Bindings.BindingInvoker.html#Reqnroll_Bindings_BindingInvoker_EnsureReflectionInfo_Reqnroll_Bindings_IBinding_System_Reflection_MethodInfo__System_Delegate__
+  name: EnsureReflectionInfo
+  nameWithType: BindingInvoker.EnsureReflectionInfo
+  fullName: Reqnroll.Bindings.BindingInvoker.EnsureReflectionInfo
+- uid: System.Reflection.MethodInfo
+  commentId: T:System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.methodinfo
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: System.Delegate
+  commentId: T:System.Delegate
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.delegate
+  name: Delegate
+  nameWithType: Delegate
+  fullName: System.Delegate
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: Reqnroll.Bindings.BindingInvoker.CreateMethodDelegate*
+  commentId: Overload:Reqnroll.Bindings.BindingInvoker.CreateMethodDelegate
+  href: Reqnroll.Bindings.BindingInvoker.html#Reqnroll_Bindings_BindingInvoker_CreateMethodDelegate_System_Reflection_MethodInfo_
+  name: CreateMethodDelegate
+  nameWithType: BindingInvoker.CreateMethodDelegate
+  fullName: Reqnroll.Bindings.BindingInvoker.CreateMethodDelegate
+- uid: Reqnroll.Bindings.BindingInvoker.GetBindingMethodCallExpression*
+  commentId: Overload:Reqnroll.Bindings.BindingInvoker.GetBindingMethodCallExpression
+  href: Reqnroll.Bindings.BindingInvoker.html#Reqnroll_Bindings_BindingInvoker_GetBindingMethodCallExpression_System_Linq_Expressions_Expression_System_Reflection_MethodInfo_System_Linq_Expressions_Expression___
+  name: GetBindingMethodCallExpression
+  nameWithType: BindingInvoker.GetBindingMethodCallExpression
+  fullName: Reqnroll.Bindings.BindingInvoker.GetBindingMethodCallExpression
+- uid: System.Linq.Expressions.Expression
+  commentId: T:System.Linq.Expressions.Expression
+  parent: System.Linq.Expressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression
+  name: Expression
+  nameWithType: Expression
+  fullName: System.Linq.Expressions.Expression
+- uid: System.Linq.Expressions.Expression[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression
+  name: Expression[]
+  nameWithType: Expression[]
+  fullName: System.Linq.Expressions.Expression[]
+  nameWithType.vb: Expression()
+  fullName.vb: System.Linq.Expressions.Expression()
+  name.vb: Expression()
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression
+  - name: (
+  - name: )
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+- uid: Reqnroll.Bindings.BindingInvoker.GetActionType*
+  commentId: Overload:Reqnroll.Bindings.BindingInvoker.GetActionType
+  href: Reqnroll.Bindings.BindingInvoker.html#Reqnroll_Bindings_BindingInvoker_GetActionType_System_Type___
+  name: GetActionType
+  nameWithType: BindingInvoker.GetActionType
+  fullName: Reqnroll.Bindings.BindingInvoker.GetActionType
+- uid: System.Type[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: (
+  - name: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Reqnroll.Bindings.BindingInvoker.GetFuncType*
+  commentId: Overload:Reqnroll.Bindings.BindingInvoker.GetFuncType
+  href: Reqnroll.Bindings.BindingInvoker.html#Reqnroll_Bindings_BindingInvoker_GetFuncType_System_Type___System_Type_
+  name: GetFuncType
+  nameWithType: BindingInvoker.GetFuncType
+  fullName: Reqnroll.Bindings.BindingInvoker.GetFuncType
+- uid: Reqnroll.Bindings.BindingInvoker.GetDelegateType*
+  commentId: Overload:Reqnroll.Bindings.BindingInvoker.GetDelegateType
+  href: Reqnroll.Bindings.BindingInvoker.html#Reqnroll_Bindings_BindingInvoker_GetDelegateType_System_Type___System_Type_
+  name: GetDelegateType
+  nameWithType: BindingInvoker.GetDelegateType
+  fullName: Reqnroll.Bindings.BindingInvoker.GetDelegateType

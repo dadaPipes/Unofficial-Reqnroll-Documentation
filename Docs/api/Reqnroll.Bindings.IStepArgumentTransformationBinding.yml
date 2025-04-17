@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  commentId: T:Reqnroll.Bindings.IStepArgumentTransformationBinding
+  id: IStepArgumentTransformationBinding
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IStepArgumentTransformationBinding.Name
+  - Reqnroll.Bindings.IStepArgumentTransformationBinding.Order
+  - Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex
+  langs:
+  - csharp
+  - vb
+  name: IStepArgumentTransformationBinding
+  nameWithType: IStepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/IStepArgumentTransformationBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IStepArgumentTransformationBinding
+    path: ../Reqnroll/Reqnroll/Bindings/IStepArgumentTransformationBinding.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  summary: Represents a custom step definition parameter binding
+  example: []
+  syntax:
+    content: 'public interface IStepArgumentTransformationBinding : IBinding'
+    content.vb: Public Interface IStepArgumentTransformationBinding Inherits IBinding
+  inheritedMembers:
+  - Reqnroll.Bindings.IBinding.Method
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding.Name
+  commentId: P:Reqnroll.Bindings.IStepArgumentTransformationBinding.Name
+  id: Name
+  parent: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IStepArgumentTransformationBinding.Name
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding.Name
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/IStepArgumentTransformationBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Name
+    path: ../Reqnroll/Reqnroll/Bindings/IStepArgumentTransformationBinding.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  summary: The optional name of the custom parameter. The name can be used in cucumber expressions.
+  example: []
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Reqnroll.Bindings.IStepArgumentTransformationBinding.Name*
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex
+  commentId: P:Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex
+  id: Regex
+  parent: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  langs:
+  - csharp
+  - vb
+  name: Regex
+  nameWithType: IStepArgumentTransformationBinding.Regex
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/IStepArgumentTransformationBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Regex
+    path: ../Reqnroll/Reqnroll/Bindings/IStepArgumentTransformationBinding.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  summary: The regular expression matches the step argument. Optional, if null, the transformation receives the entire argument.
+  example: []
+  syntax:
+    content: Regex Regex { get; }
+    parameters: []
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: ReadOnly Property Regex As Regex
+  overload: Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex*
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding.Order
+  commentId: P:Reqnroll.Bindings.IStepArgumentTransformationBinding.Order
+  id: Order
+  parent: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: IStepArgumentTransformationBinding.Order
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding.Order
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/IStepArgumentTransformationBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Order
+    path: ../Reqnroll/Reqnroll/Bindings/IStepArgumentTransformationBinding.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  summary: The deterministic order for step argument transformation
+  example: []
+  syntax:
+    content: int Order { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Order As Integer
+  overload: Reqnroll.Bindings.IStepArgumentTransformationBinding.Order*
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IBinding.Method
+  commentId: P:Reqnroll.Bindings.IBinding.Method
+  parent: Reqnroll.Bindings.IBinding
+  href: Reqnroll.Bindings.IBinding.html#Reqnroll_Bindings_IBinding_Method
+  name: Method
+  nameWithType: IBinding.Method
+  fullName: Reqnroll.Bindings.IBinding.Method
+- uid: Reqnroll.Bindings.IBinding
+  commentId: T:Reqnroll.Bindings.IBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBinding.html
+  name: IBinding
+  nameWithType: IBinding
+  fullName: Reqnroll.Bindings.IBinding
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding.Name*
+  commentId: Overload:Reqnroll.Bindings.IStepArgumentTransformationBinding.Name
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html#Reqnroll_Bindings_IStepArgumentTransformationBinding_Name
+  name: Name
+  nameWithType: IStepArgumentTransformationBinding.Name
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex*
+  commentId: Overload:Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html#Reqnroll_Bindings_IStepArgumentTransformationBinding_Regex
+  name: Regex
+  nameWithType: IStepArgumentTransformationBinding.Regex
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex
+- uid: System.Text.RegularExpressions.Regex
+  commentId: T:System.Text.RegularExpressions.Regex
+  parent: System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex
+  name: Regex
+  nameWithType: Regex
+  fullName: System.Text.RegularExpressions.Regex
+- uid: System.Text.RegularExpressions
+  commentId: N:System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text.RegularExpressions
+  nameWithType: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding.Order*
+  commentId: Overload:Reqnroll.Bindings.IStepArgumentTransformationBinding.Order
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html#Reqnroll_Bindings_IStepArgumentTransformationBinding_Order
+  name: Order
+  nameWithType: IStepArgumentTransformationBinding.Order
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding.Order
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

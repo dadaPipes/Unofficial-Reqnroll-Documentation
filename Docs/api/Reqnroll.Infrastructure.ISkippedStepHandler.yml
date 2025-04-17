@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.ISkippedStepHandler
+  commentId: T:Reqnroll.Infrastructure.ISkippedStepHandler
+  id: ISkippedStepHandler
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.ISkippedStepHandler.Handle(Reqnroll.ScenarioContext)
+  langs:
+  - csharp
+  - vb
+  name: ISkippedStepHandler
+  nameWithType: ISkippedStepHandler
+  fullName: Reqnroll.Infrastructure.ISkippedStepHandler
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ISkippedStepHandler.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ISkippedStepHandler
+    path: ../Reqnroll/Reqnroll/Infrastructure/ISkippedStepHandler.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface ISkippedStepHandler
+    content.vb: Public Interface ISkippedStepHandler
+- uid: Reqnroll.Infrastructure.ISkippedStepHandler.Handle(Reqnroll.ScenarioContext)
+  commentId: M:Reqnroll.Infrastructure.ISkippedStepHandler.Handle(Reqnroll.ScenarioContext)
+  id: Handle(Reqnroll.ScenarioContext)
+  parent: Reqnroll.Infrastructure.ISkippedStepHandler
+  langs:
+  - csharp
+  - vb
+  name: Handle(ScenarioContext)
+  nameWithType: ISkippedStepHandler.Handle(ScenarioContext)
+  fullName: Reqnroll.Infrastructure.ISkippedStepHandler.Handle(Reqnroll.ScenarioContext)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ISkippedStepHandler.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Handle
+    path: ../Reqnroll/Reqnroll/Infrastructure/ISkippedStepHandler.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void Handle(ScenarioContext scenarioContext)
+    parameters:
+    - id: scenarioContext
+      type: Reqnroll.ScenarioContext
+    content.vb: Sub Handle(scenarioContext As ScenarioContext)
+  overload: Reqnroll.Infrastructure.ISkippedStepHandler.Handle*
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.ISkippedStepHandler.Handle*
+  commentId: Overload:Reqnroll.Infrastructure.ISkippedStepHandler.Handle
+  href: Reqnroll.Infrastructure.ISkippedStepHandler.html#Reqnroll_Infrastructure_ISkippedStepHandler_Handle_Reqnroll_ScenarioContext_
+  name: Handle
+  nameWithType: ISkippedStepHandler.Handle
+  fullName: Reqnroll.Infrastructure.ISkippedStepHandler.Handle
+- uid: Reqnroll.ScenarioContext
+  commentId: T:Reqnroll.ScenarioContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioContext.html
+  name: ScenarioContext
+  nameWithType: ScenarioContext
+  fullName: Reqnroll.ScenarioContext
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll

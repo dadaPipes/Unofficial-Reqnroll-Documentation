@@ -1,0 +1,224 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  commentId: T:Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  id: IRuntimeBindingRegistryBuilder
+  parent: Reqnroll.Bindings.Discovery
+  children:
+  - Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildBindingsFromAssembly(System.Reflection.Assembly)
+  - Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildingCompleted
+  - Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.GetBindingAssemblies(System.Reflection.Assembly)
+  langs:
+  - csharp
+  - vb
+  name: IRuntimeBindingRegistryBuilder
+  nameWithType: IRuntimeBindingRegistryBuilder
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IRuntimeBindingRegistryBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IRuntimeBindingRegistryBuilder
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IRuntimeBindingRegistryBuilder.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: public interface IRuntimeBindingRegistryBuilder
+    content.vb: Public Interface IRuntimeBindingRegistryBuilder
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.GetBindingAssemblies(System.Reflection.Assembly)
+  commentId: M:Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.GetBindingAssemblies(System.Reflection.Assembly)
+  id: GetBindingAssemblies(System.Reflection.Assembly)
+  parent: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  langs:
+  - csharp
+  - vb
+  name: GetBindingAssemblies(Assembly)
+  nameWithType: IRuntimeBindingRegistryBuilder.GetBindingAssemblies(Assembly)
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.GetBindingAssemblies(System.Reflection.Assembly)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IRuntimeBindingRegistryBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetBindingAssemblies
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IRuntimeBindingRegistryBuilder.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: Assembly[] GetBindingAssemblies(Assembly testAssembly)
+    parameters:
+    - id: testAssembly
+      type: System.Reflection.Assembly
+    return:
+      type: System.Reflection.Assembly[]
+    content.vb: Function GetBindingAssemblies(testAssembly As Assembly) As Assembly()
+  overload: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.GetBindingAssemblies*
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildBindingsFromAssembly(System.Reflection.Assembly)
+  commentId: M:Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildBindingsFromAssembly(System.Reflection.Assembly)
+  id: BuildBindingsFromAssembly(System.Reflection.Assembly)
+  parent: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildBindingsFromAssembly(Assembly)
+  nameWithType: IRuntimeBindingRegistryBuilder.BuildBindingsFromAssembly(Assembly)
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildBindingsFromAssembly(System.Reflection.Assembly)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IRuntimeBindingRegistryBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BuildBindingsFromAssembly
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IRuntimeBindingRegistryBuilder.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: void BuildBindingsFromAssembly(Assembly assembly)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+    content.vb: Sub BuildBindingsFromAssembly(assembly As Assembly)
+  overload: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildBindingsFromAssembly*
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildingCompleted
+  commentId: M:Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildingCompleted
+  id: BuildingCompleted
+  parent: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildingCompleted()
+  nameWithType: IRuntimeBindingRegistryBuilder.BuildingCompleted()
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildingCompleted()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IRuntimeBindingRegistryBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BuildingCompleted
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IRuntimeBindingRegistryBuilder.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: void BuildingCompleted()
+    content.vb: Sub BuildingCompleted()
+  overload: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildingCompleted*
+references:
+- uid: Reqnroll.Bindings.Discovery
+  commentId: N:Reqnroll.Bindings.Discovery
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Discovery
+  nameWithType: Reqnroll.Bindings.Discovery
+  fullName: Reqnroll.Bindings.Discovery
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.GetBindingAssemblies*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.GetBindingAssemblies
+  href: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.html#Reqnroll_Bindings_Discovery_IRuntimeBindingRegistryBuilder_GetBindingAssemblies_System_Reflection_Assembly_
+  name: GetBindingAssemblies
+  nameWithType: IRuntimeBindingRegistryBuilder.GetBindingAssemblies
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.GetBindingAssemblies
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Reflection.Assembly[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly[]
+  nameWithType: Assembly[]
+  fullName: System.Reflection.Assembly[]
+  nameWithType.vb: Assembly()
+  fullName.vb: System.Reflection.Assembly()
+  name.vb: Assembly()
+  spec.csharp:
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: (
+  - name: )
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildBindingsFromAssembly*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildBindingsFromAssembly
+  href: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.html#Reqnroll_Bindings_Discovery_IRuntimeBindingRegistryBuilder_BuildBindingsFromAssembly_System_Reflection_Assembly_
+  name: BuildBindingsFromAssembly
+  nameWithType: IRuntimeBindingRegistryBuilder.BuildBindingsFromAssembly
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildBindingsFromAssembly
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildingCompleted*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildingCompleted
+  href: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.html#Reqnroll_Bindings_Discovery_IRuntimeBindingRegistryBuilder_BuildingCompleted
+  name: BuildingCompleted
+  nameWithType: IRuntimeBindingRegistryBuilder.BuildingCompleted
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.BuildingCompleted

@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.IReqnrollConfigurationHolder
+  commentId: T:Reqnroll.Configuration.IReqnrollConfigurationHolder
+  id: IReqnrollConfigurationHolder
+  parent: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.IReqnrollConfigurationHolder.ConfigSource
+  - Reqnroll.Configuration.IReqnrollConfigurationHolder.Content
+  - Reqnroll.Configuration.IReqnrollConfigurationHolder.HasConfiguration
+  langs:
+  - csharp
+  - vb
+  name: IReqnrollConfigurationHolder
+  nameWithType: IReqnrollConfigurationHolder
+  fullName: Reqnroll.Configuration.IReqnrollConfigurationHolder
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Configuration/IReqnrollConfigurationHolder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IReqnrollConfigurationHolder
+    path: ../Reqnroll/Reqnroll/Configuration/IReqnrollConfigurationHolder.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public interface IReqnrollConfigurationHolder
+    content.vb: Public Interface IReqnrollConfigurationHolder
+- uid: Reqnroll.Configuration.IReqnrollConfigurationHolder.ConfigSource
+  commentId: P:Reqnroll.Configuration.IReqnrollConfigurationHolder.ConfigSource
+  id: ConfigSource
+  parent: Reqnroll.Configuration.IReqnrollConfigurationHolder
+  langs:
+  - csharp
+  - vb
+  name: ConfigSource
+  nameWithType: IReqnrollConfigurationHolder.ConfigSource
+  fullName: Reqnroll.Configuration.IReqnrollConfigurationHolder.ConfigSource
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/IReqnrollConfigurationHolder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ConfigSource
+    path: ../Reqnroll/Reqnroll/Configuration/IReqnrollConfigurationHolder.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: ConfigSource ConfigSource { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Configuration.ConfigSource
+    content.vb: ReadOnly Property ConfigSource As ConfigSource
+  overload: Reqnroll.Configuration.IReqnrollConfigurationHolder.ConfigSource*
+- uid: Reqnroll.Configuration.IReqnrollConfigurationHolder.Content
+  commentId: P:Reqnroll.Configuration.IReqnrollConfigurationHolder.Content
+  id: Content
+  parent: Reqnroll.Configuration.IReqnrollConfigurationHolder
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: IReqnrollConfigurationHolder.Content
+  fullName: Reqnroll.Configuration.IReqnrollConfigurationHolder.Content
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/IReqnrollConfigurationHolder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Content
+    path: ../Reqnroll/Reqnroll/Configuration/IReqnrollConfigurationHolder.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: string Content { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Content As String
+  overload: Reqnroll.Configuration.IReqnrollConfigurationHolder.Content*
+- uid: Reqnroll.Configuration.IReqnrollConfigurationHolder.HasConfiguration
+  commentId: P:Reqnroll.Configuration.IReqnrollConfigurationHolder.HasConfiguration
+  id: HasConfiguration
+  parent: Reqnroll.Configuration.IReqnrollConfigurationHolder
+  langs:
+  - csharp
+  - vb
+  name: HasConfiguration
+  nameWithType: IReqnrollConfigurationHolder.HasConfiguration
+  fullName: Reqnroll.Configuration.IReqnrollConfigurationHolder.HasConfiguration
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Configuration/IReqnrollConfigurationHolder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HasConfiguration
+    path: ../Reqnroll/Reqnroll/Configuration/IReqnrollConfigurationHolder.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: bool HasConfiguration { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property HasConfiguration As Boolean
+  overload: Reqnroll.Configuration.IReqnrollConfigurationHolder.HasConfiguration*
+references:
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.Configuration.IReqnrollConfigurationHolder.ConfigSource*
+  commentId: Overload:Reqnroll.Configuration.IReqnrollConfigurationHolder.ConfigSource
+  href: Reqnroll.Configuration.IReqnrollConfigurationHolder.html#Reqnroll_Configuration_IReqnrollConfigurationHolder_ConfigSource
+  name: ConfigSource
+  nameWithType: IReqnrollConfigurationHolder.ConfigSource
+  fullName: Reqnroll.Configuration.IReqnrollConfigurationHolder.ConfigSource
+- uid: Reqnroll.Configuration.ConfigSource
+  commentId: T:Reqnroll.Configuration.ConfigSource
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ConfigSource.html
+  name: ConfigSource
+  nameWithType: ConfigSource
+  fullName: Reqnroll.Configuration.ConfigSource
+- uid: Reqnroll.Configuration.IReqnrollConfigurationHolder.Content*
+  commentId: Overload:Reqnroll.Configuration.IReqnrollConfigurationHolder.Content
+  href: Reqnroll.Configuration.IReqnrollConfigurationHolder.html#Reqnroll_Configuration_IReqnrollConfigurationHolder_Content
+  name: Content
+  nameWithType: IReqnrollConfigurationHolder.Content
+  fullName: Reqnroll.Configuration.IReqnrollConfigurationHolder.Content
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Configuration.IReqnrollConfigurationHolder.HasConfiguration*
+  commentId: Overload:Reqnroll.Configuration.IReqnrollConfigurationHolder.HasConfiguration
+  href: Reqnroll.Configuration.IReqnrollConfigurationHolder.html#Reqnroll_Configuration_IReqnrollConfigurationHolder_HasConfiguration
+  name: HasConfiguration
+  nameWithType: IReqnrollConfigurationHolder.HasConfiguration
+  fullName: Reqnroll.Configuration.IReqnrollConfigurationHolder.HasConfiguration
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

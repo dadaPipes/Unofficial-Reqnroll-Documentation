@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.ITestAssemblyProvider
+  commentId: T:Reqnroll.Infrastructure.ITestAssemblyProvider
+  id: ITestAssemblyProvider
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.ITestAssemblyProvider.RegisterTestAssembly(System.Reflection.Assembly)
+  - Reqnroll.Infrastructure.ITestAssemblyProvider.TestAssembly
+  langs:
+  - csharp
+  - vb
+  name: ITestAssemblyProvider
+  nameWithType: ITestAssemblyProvider
+  fullName: Reqnroll.Infrastructure.ITestAssemblyProvider
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestAssemblyProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ITestAssemblyProvider
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestAssemblyProvider.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface ITestAssemblyProvider
+    content.vb: Public Interface ITestAssemblyProvider
+- uid: Reqnroll.Infrastructure.ITestAssemblyProvider.TestAssembly
+  commentId: P:Reqnroll.Infrastructure.ITestAssemblyProvider.TestAssembly
+  id: TestAssembly
+  parent: Reqnroll.Infrastructure.ITestAssemblyProvider
+  langs:
+  - csharp
+  - vb
+  name: TestAssembly
+  nameWithType: ITestAssemblyProvider.TestAssembly
+  fullName: Reqnroll.Infrastructure.ITestAssemblyProvider.TestAssembly
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestAssemblyProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestAssembly
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestAssemblyProvider.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: Assembly TestAssembly { get; }
+    parameters: []
+    return:
+      type: System.Reflection.Assembly
+    content.vb: ReadOnly Property TestAssembly As Assembly
+  overload: Reqnroll.Infrastructure.ITestAssemblyProvider.TestAssembly*
+- uid: Reqnroll.Infrastructure.ITestAssemblyProvider.RegisterTestAssembly(System.Reflection.Assembly)
+  commentId: M:Reqnroll.Infrastructure.ITestAssemblyProvider.RegisterTestAssembly(System.Reflection.Assembly)
+  id: RegisterTestAssembly(System.Reflection.Assembly)
+  parent: Reqnroll.Infrastructure.ITestAssemblyProvider
+  langs:
+  - csharp
+  - vb
+  name: RegisterTestAssembly(Assembly)
+  nameWithType: ITestAssemblyProvider.RegisterTestAssembly(Assembly)
+  fullName: Reqnroll.Infrastructure.ITestAssemblyProvider.RegisterTestAssembly(System.Reflection.Assembly)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestAssemblyProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterTestAssembly
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestAssemblyProvider.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void RegisterTestAssembly(Assembly testAssembly)
+    parameters:
+    - id: testAssembly
+      type: System.Reflection.Assembly
+    content.vb: Sub RegisterTestAssembly(testAssembly As Assembly)
+  overload: Reqnroll.Infrastructure.ITestAssemblyProvider.RegisterTestAssembly*
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.ITestAssemblyProvider.TestAssembly*
+  commentId: Overload:Reqnroll.Infrastructure.ITestAssemblyProvider.TestAssembly
+  href: Reqnroll.Infrastructure.ITestAssemblyProvider.html#Reqnroll_Infrastructure_ITestAssemblyProvider_TestAssembly
+  name: TestAssembly
+  nameWithType: ITestAssemblyProvider.TestAssembly
+  fullName: Reqnroll.Infrastructure.ITestAssemblyProvider.TestAssembly
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: Reqnroll.Infrastructure.ITestAssemblyProvider.RegisterTestAssembly*
+  commentId: Overload:Reqnroll.Infrastructure.ITestAssemblyProvider.RegisterTestAssembly
+  href: Reqnroll.Infrastructure.ITestAssemblyProvider.html#Reqnroll_Infrastructure_ITestAssemblyProvider_RegisterTestAssembly_System_Reflection_Assembly_
+  name: RegisterTestAssembly
+  nameWithType: ITestAssemblyProvider.RegisterTestAssembly
+  fullName: Reqnroll.Infrastructure.ITestAssemblyProvider.RegisterTestAssembly

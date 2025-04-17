@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Plugins.IRuntimePlugin
+  commentId: T:Reqnroll.Plugins.IRuntimePlugin
+  id: IRuntimePlugin
+  parent: Reqnroll.Plugins
+  children:
+  - Reqnroll.Plugins.IRuntimePlugin.Initialize(Reqnroll.Plugins.RuntimePluginEvents,Reqnroll.Plugins.RuntimePluginParameters,Reqnroll.UnitTestProvider.UnitTestProviderConfiguration)
+  langs:
+  - csharp
+  - vb
+  name: IRuntimePlugin
+  nameWithType: IRuntimePlugin
+  fullName: Reqnroll.Plugins.IRuntimePlugin
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Plugins/IRuntimePlugin.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IRuntimePlugin
+    path: ../Reqnroll/Reqnroll/Plugins/IRuntimePlugin.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: public interface IRuntimePlugin
+    content.vb: Public Interface IRuntimePlugin
+- uid: Reqnroll.Plugins.IRuntimePlugin.Initialize(Reqnroll.Plugins.RuntimePluginEvents,Reqnroll.Plugins.RuntimePluginParameters,Reqnroll.UnitTestProvider.UnitTestProviderConfiguration)
+  commentId: M:Reqnroll.Plugins.IRuntimePlugin.Initialize(Reqnroll.Plugins.RuntimePluginEvents,Reqnroll.Plugins.RuntimePluginParameters,Reqnroll.UnitTestProvider.UnitTestProviderConfiguration)
+  id: Initialize(Reqnroll.Plugins.RuntimePluginEvents,Reqnroll.Plugins.RuntimePluginParameters,Reqnroll.UnitTestProvider.UnitTestProviderConfiguration)
+  parent: Reqnroll.Plugins.IRuntimePlugin
+  langs:
+  - csharp
+  - vb
+  name: Initialize(RuntimePluginEvents, RuntimePluginParameters, UnitTestProviderConfiguration)
+  nameWithType: IRuntimePlugin.Initialize(RuntimePluginEvents, RuntimePluginParameters, UnitTestProviderConfiguration)
+  fullName: Reqnroll.Plugins.IRuntimePlugin.Initialize(Reqnroll.Plugins.RuntimePluginEvents, Reqnroll.Plugins.RuntimePluginParameters, Reqnroll.UnitTestProvider.UnitTestProviderConfiguration)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Plugins/IRuntimePlugin.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Initialize
+    path: ../Reqnroll/Reqnroll/Plugins/IRuntimePlugin.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Plugins
+  syntax:
+    content: void Initialize(RuntimePluginEvents runtimePluginEvents, RuntimePluginParameters runtimePluginParameters, UnitTestProviderConfiguration unitTestProviderConfiguration)
+    parameters:
+    - id: runtimePluginEvents
+      type: Reqnroll.Plugins.RuntimePluginEvents
+    - id: runtimePluginParameters
+      type: Reqnroll.Plugins.RuntimePluginParameters
+    - id: unitTestProviderConfiguration
+      type: Reqnroll.UnitTestProvider.UnitTestProviderConfiguration
+    content.vb: Sub Initialize(runtimePluginEvents As RuntimePluginEvents, runtimePluginParameters As RuntimePluginParameters, unitTestProviderConfiguration As UnitTestProviderConfiguration)
+  overload: Reqnroll.Plugins.IRuntimePlugin.Initialize*
+references:
+- uid: Reqnroll.Plugins
+  commentId: N:Reqnroll.Plugins
+  href: Reqnroll.html
+  name: Reqnroll.Plugins
+  nameWithType: Reqnroll.Plugins
+  fullName: Reqnroll.Plugins
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Plugins
+    name: Plugins
+    href: Reqnroll.Plugins.html
+- uid: Reqnroll.Plugins.IRuntimePlugin.Initialize*
+  commentId: Overload:Reqnroll.Plugins.IRuntimePlugin.Initialize
+  href: Reqnroll.Plugins.IRuntimePlugin.html#Reqnroll_Plugins_IRuntimePlugin_Initialize_Reqnroll_Plugins_RuntimePluginEvents_Reqnroll_Plugins_RuntimePluginParameters_Reqnroll_UnitTestProvider_UnitTestProviderConfiguration_
+  name: Initialize
+  nameWithType: IRuntimePlugin.Initialize
+  fullName: Reqnroll.Plugins.IRuntimePlugin.Initialize
+- uid: Reqnroll.Plugins.RuntimePluginEvents
+  commentId: T:Reqnroll.Plugins.RuntimePluginEvents
+  parent: Reqnroll.Plugins
+  href: Reqnroll.Plugins.RuntimePluginEvents.html
+  name: RuntimePluginEvents
+  nameWithType: RuntimePluginEvents
+  fullName: Reqnroll.Plugins.RuntimePluginEvents
+- uid: Reqnroll.Plugins.RuntimePluginParameters
+  commentId: T:Reqnroll.Plugins.RuntimePluginParameters
+  parent: Reqnroll.Plugins
+  href: Reqnroll.Plugins.RuntimePluginParameters.html
+  name: RuntimePluginParameters
+  nameWithType: RuntimePluginParameters
+  fullName: Reqnroll.Plugins.RuntimePluginParameters
+- uid: Reqnroll.UnitTestProvider.UnitTestProviderConfiguration
+  commentId: T:Reqnroll.UnitTestProvider.UnitTestProviderConfiguration
+  parent: Reqnroll.UnitTestProvider
+  href: Reqnroll.UnitTestProvider.UnitTestProviderConfiguration.html
+  name: UnitTestProviderConfiguration
+  nameWithType: UnitTestProviderConfiguration
+  fullName: Reqnroll.UnitTestProvider.UnitTestProviderConfiguration
+- uid: Reqnroll.UnitTestProvider
+  commentId: N:Reqnroll.UnitTestProvider
+  href: Reqnroll.html
+  name: Reqnroll.UnitTestProvider
+  nameWithType: Reqnroll.UnitTestProvider
+  fullName: Reqnroll.UnitTestProvider
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.UnitTestProvider
+    name: UnitTestProvider
+    href: Reqnroll.UnitTestProvider.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.UnitTestProvider
+    name: UnitTestProvider
+    href: Reqnroll.UnitTestProvider.html

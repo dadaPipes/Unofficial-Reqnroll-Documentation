@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.JsonConfig
+  commentId: N:Reqnroll.Configuration.JsonConfig
+  id: Reqnroll.Configuration.JsonConfig
+  children:
+  - Reqnroll.Configuration.JsonConfig.BindingCultureElement
+  - Reqnroll.Configuration.JsonConfig.Dependency
+  - Reqnroll.Configuration.JsonConfig.GeneratorElement
+  - Reqnroll.Configuration.JsonConfig.JsonConfig
+  - Reqnroll.Configuration.JsonConfig.JsonConfigurationLoader
+  - Reqnroll.Configuration.JsonConfig.LanguageElement
+  - Reqnroll.Configuration.JsonConfig.PluginElement
+  - Reqnroll.Configuration.JsonConfig.RuntimeElement
+  - Reqnroll.Configuration.JsonConfig.StepAssemblyElement
+  - Reqnroll.Configuration.JsonConfig.TraceElement
+  - Reqnroll.Configuration.JsonConfig.UnitTestProviderElement
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Configuration.JsonConfig
+  nameWithType: Reqnroll.Configuration.JsonConfig
+  fullName: Reqnroll.Configuration.JsonConfig
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Configuration.JsonConfig.BindingCultureElement
+  commentId: T:Reqnroll.Configuration.JsonConfig.BindingCultureElement
+  parent: Reqnroll.Configuration.JsonConfig
+  href: Reqnroll.Configuration.JsonConfig.BindingCultureElement.html
+  name: BindingCultureElement
+  nameWithType: BindingCultureElement
+  fullName: Reqnroll.Configuration.JsonConfig.BindingCultureElement
+- uid: Reqnroll.Configuration.JsonConfig.Dependency
+  commentId: T:Reqnroll.Configuration.JsonConfig.Dependency
+  href: Reqnroll.Configuration.JsonConfig.Dependency.html
+  name: Dependency
+  nameWithType: Dependency
+  fullName: Reqnroll.Configuration.JsonConfig.Dependency
+- uid: Reqnroll.Configuration.JsonConfig.GeneratorElement
+  commentId: T:Reqnroll.Configuration.JsonConfig.GeneratorElement
+  parent: Reqnroll.Configuration.JsonConfig
+  href: Reqnroll.Configuration.JsonConfig.GeneratorElement.html
+  name: GeneratorElement
+  nameWithType: GeneratorElement
+  fullName: Reqnroll.Configuration.JsonConfig.GeneratorElement
+- uid: Reqnroll.Configuration.JsonConfig.JsonConfig
+  commentId: T:Reqnroll.Configuration.JsonConfig.JsonConfig
+  href: Reqnroll.Configuration.JsonConfig.JsonConfig.html
+  name: JsonConfig
+  nameWithType: JsonConfig
+  fullName: Reqnroll.Configuration.JsonConfig.JsonConfig
+- uid: Reqnroll.Configuration.JsonConfig.JsonConfigurationLoader
+  commentId: T:Reqnroll.Configuration.JsonConfig.JsonConfigurationLoader
+  href: Reqnroll.Configuration.JsonConfig.JsonConfigurationLoader.html
+  name: JsonConfigurationLoader
+  nameWithType: JsonConfigurationLoader
+  fullName: Reqnroll.Configuration.JsonConfig.JsonConfigurationLoader
+- uid: Reqnroll.Configuration.JsonConfig.LanguageElement
+  commentId: T:Reqnroll.Configuration.JsonConfig.LanguageElement
+  parent: Reqnroll.Configuration.JsonConfig
+  href: Reqnroll.Configuration.JsonConfig.LanguageElement.html
+  name: LanguageElement
+  nameWithType: LanguageElement
+  fullName: Reqnroll.Configuration.JsonConfig.LanguageElement
+- uid: Reqnroll.Configuration.JsonConfig.PluginElement
+  commentId: T:Reqnroll.Configuration.JsonConfig.PluginElement
+  href: Reqnroll.Configuration.JsonConfig.PluginElement.html
+  name: PluginElement
+  nameWithType: PluginElement
+  fullName: Reqnroll.Configuration.JsonConfig.PluginElement
+- uid: Reqnroll.Configuration.JsonConfig.RuntimeElement
+  commentId: T:Reqnroll.Configuration.JsonConfig.RuntimeElement
+  parent: Reqnroll.Configuration.JsonConfig
+  href: Reqnroll.Configuration.JsonConfig.RuntimeElement.html
+  name: RuntimeElement
+  nameWithType: RuntimeElement
+  fullName: Reqnroll.Configuration.JsonConfig.RuntimeElement
+- uid: Reqnroll.Configuration.JsonConfig.StepAssemblyElement
+  commentId: T:Reqnroll.Configuration.JsonConfig.StepAssemblyElement
+  href: Reqnroll.Configuration.JsonConfig.StepAssemblyElement.html
+  name: StepAssemblyElement
+  nameWithType: StepAssemblyElement
+  fullName: Reqnroll.Configuration.JsonConfig.StepAssemblyElement
+- uid: Reqnroll.Configuration.JsonConfig.TraceElement
+  commentId: T:Reqnroll.Configuration.JsonConfig.TraceElement
+  parent: Reqnroll.Configuration.JsonConfig
+  href: Reqnroll.Configuration.JsonConfig.TraceElement.html
+  name: TraceElement
+  nameWithType: TraceElement
+  fullName: Reqnroll.Configuration.JsonConfig.TraceElement
+- uid: Reqnroll.Configuration.JsonConfig.UnitTestProviderElement
+  commentId: T:Reqnroll.Configuration.JsonConfig.UnitTestProviderElement
+  href: Reqnroll.Configuration.JsonConfig.UnitTestProviderElement.html
+  name: UnitTestProviderElement
+  nameWithType: UnitTestProviderElement
+  fullName: Reqnroll.Configuration.JsonConfig.UnitTestProviderElement
+- uid: Reqnroll.Configuration.JsonConfig
+  commentId: N:Reqnroll.Configuration.JsonConfig
+  href: Reqnroll.html
+  name: Reqnroll.Configuration.JsonConfig
+  nameWithType: Reqnroll.Configuration.JsonConfig
+  fullName: Reqnroll.Configuration.JsonConfig
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  - name: .
+  - uid: Reqnroll.Configuration.JsonConfig
+    name: JsonConfig
+    href: Reqnroll.Configuration.JsonConfig.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  - name: .
+  - uid: Reqnroll.Configuration.JsonConfig
+    name: JsonConfig
+    href: Reqnroll.Configuration.JsonConfig.html

@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.IContainerDependentObject
+  commentId: T:Reqnroll.Infrastructure.IContainerDependentObject
+  id: IContainerDependentObject
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)
+  langs:
+  - csharp
+  - vb
+  name: IContainerDependentObject
+  nameWithType: IContainerDependentObject
+  fullName: Reqnroll.Infrastructure.IContainerDependentObject
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/IContainerDependentObject.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IContainerDependentObject
+    path: ../Reqnroll/Reqnroll/Infrastructure/IContainerDependentObject.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface IContainerDependentObject
+    content.vb: Public Interface IContainerDependentObject
+- uid: Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)
+  commentId: M:Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)
+  id: SetObjectContainer(Reqnroll.BoDi.IObjectContainer)
+  parent: Reqnroll.Infrastructure.IContainerDependentObject
+  langs:
+  - csharp
+  - vb
+  name: SetObjectContainer(IObjectContainer)
+  nameWithType: IContainerDependentObject.SetObjectContainer(IObjectContainer)
+  fullName: Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/IContainerDependentObject.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SetObjectContainer
+    path: ../Reqnroll/Reqnroll/Infrastructure/IContainerDependentObject.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void SetObjectContainer(IObjectContainer container)
+    parameters:
+    - id: container
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: Sub SetObjectContainer(container As IObjectContainer)
+  overload: Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer*
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer*
+  commentId: Overload:Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer
+  href: Reqnroll.Infrastructure.IContainerDependentObject.html#Reqnroll_Infrastructure_IContainerDependentObject_SetObjectContainer_Reqnroll_BoDi_IObjectContainer_
+  name: SetObjectContainer
+  nameWithType: IContainerDependentObject.SetObjectContainer
+  fullName: Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html

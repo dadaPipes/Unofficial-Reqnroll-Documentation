@@ -1,0 +1,780 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.HookBinding
+  commentId: T:Reqnroll.Bindings.HookBinding
+  id: HookBinding
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.HookBinding.#ctor(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  - Reqnroll.Bindings.HookBinding.BindingScope
+  - Reqnroll.Bindings.HookBinding.Equals(Reqnroll.Bindings.HookBinding)
+  - Reqnroll.Bindings.HookBinding.Equals(System.Object)
+  - Reqnroll.Bindings.HookBinding.GetHashCode
+  - Reqnroll.Bindings.HookBinding.HookOrder
+  - Reqnroll.Bindings.HookBinding.HookType
+  - Reqnroll.Bindings.HookBinding.IsScoped
+  langs:
+  - csharp
+  - vb
+  name: HookBinding
+  nameWithType: HookBinding
+  fullName: Reqnroll.Bindings.HookBinding
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HookBinding
+    path: ../Reqnroll/Reqnroll/Bindings/HookBinding.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: 'public class HookBinding : MethodBinding, IHookBinding, IScopedBinding, IBinding'
+    content.vb: Public Class HookBinding Inherits MethodBinding Implements IHookBinding, IScopedBinding, IBinding
+  inheritance:
+  - System.Object
+  - Reqnroll.Bindings.MethodBinding
+  implements:
+  - Reqnroll.Bindings.IHookBinding
+  - Reqnroll.Bindings.IScopedBinding
+  - Reqnroll.Bindings.IBinding
+  inheritedMembers:
+  - Reqnroll.Bindings.MethodBinding.Method
+  - Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.HookBinding.HookType
+  commentId: P:Reqnroll.Bindings.HookBinding.HookType
+  id: HookType
+  parent: Reqnroll.Bindings.HookBinding
+  langs:
+  - csharp
+  - vb
+  name: HookType
+  nameWithType: HookBinding.HookType
+  fullName: Reqnroll.Bindings.HookBinding.HookType
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HookType
+    path: ../Reqnroll/Reqnroll/Bindings/HookBinding.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public HookType HookType { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.HookType
+    content.vb: Public Property HookType As HookType
+  overload: Reqnroll.Bindings.HookBinding.HookType*
+  implements:
+  - Reqnroll.Bindings.IHookBinding.HookType
+- uid: Reqnroll.Bindings.HookBinding.HookOrder
+  commentId: P:Reqnroll.Bindings.HookBinding.HookOrder
+  id: HookOrder
+  parent: Reqnroll.Bindings.HookBinding
+  langs:
+  - csharp
+  - vb
+  name: HookOrder
+  nameWithType: HookBinding.HookOrder
+  fullName: Reqnroll.Bindings.HookBinding.HookOrder
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HookOrder
+    path: ../Reqnroll/Reqnroll/Bindings/HookBinding.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public int HookOrder { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property HookOrder As Integer
+  overload: Reqnroll.Bindings.HookBinding.HookOrder*
+  implements:
+  - Reqnroll.Bindings.IHookBinding.HookOrder
+- uid: Reqnroll.Bindings.HookBinding.BindingScope
+  commentId: P:Reqnroll.Bindings.HookBinding.BindingScope
+  id: BindingScope
+  parent: Reqnroll.Bindings.HookBinding
+  langs:
+  - csharp
+  - vb
+  name: BindingScope
+  nameWithType: HookBinding.BindingScope
+  fullName: Reqnroll.Bindings.HookBinding.BindingScope
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingScope
+    path: ../Reqnroll/Reqnroll/Bindings/HookBinding.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public BindingScope BindingScope { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.BindingScope
+    content.vb: Public Property BindingScope As BindingScope
+  overload: Reqnroll.Bindings.HookBinding.BindingScope*
+  implements:
+  - Reqnroll.Bindings.IScopedBinding.BindingScope
+- uid: Reqnroll.Bindings.HookBinding.IsScoped
+  commentId: P:Reqnroll.Bindings.HookBinding.IsScoped
+  id: IsScoped
+  parent: Reqnroll.Bindings.HookBinding
+  langs:
+  - csharp
+  - vb
+  name: IsScoped
+  nameWithType: HookBinding.IsScoped
+  fullName: Reqnroll.Bindings.HookBinding.IsScoped
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsScoped
+    path: ../Reqnroll/Reqnroll/Bindings/HookBinding.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public bool IsScoped { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsScoped As Boolean
+  overload: Reqnroll.Bindings.HookBinding.IsScoped*
+  implements:
+  - Reqnroll.Bindings.IScopedBinding.IsScoped
+- uid: Reqnroll.Bindings.HookBinding.#ctor(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  commentId: M:Reqnroll.Bindings.HookBinding.#ctor(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)
+  id: '#ctor(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.HookType,Reqnroll.Bindings.BindingScope,System.Int32)'
+  parent: Reqnroll.Bindings.HookBinding
+  langs:
+  - csharp
+  - vb
+  name: HookBinding(IBindingMethod, HookType, BindingScope, int)
+  nameWithType: HookBinding.HookBinding(IBindingMethod, HookType, BindingScope, int)
+  fullName: Reqnroll.Bindings.HookBinding.HookBinding(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.HookType, Reqnroll.Bindings.BindingScope, int)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/HookBinding.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public HookBinding(IBindingMethod bindingMethod, HookType hookType, BindingScope bindingScope, int hookOrder)
+    parameters:
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: hookType
+      type: Reqnroll.Bindings.HookType
+    - id: bindingScope
+      type: Reqnroll.Bindings.BindingScope
+    - id: hookOrder
+      type: System.Int32
+    content.vb: Public Sub New(bindingMethod As IBindingMethod, hookType As HookType, bindingScope As BindingScope, hookOrder As Integer)
+  overload: Reqnroll.Bindings.HookBinding.#ctor*
+  nameWithType.vb: HookBinding.New(IBindingMethod, HookType, BindingScope, Integer)
+  fullName.vb: Reqnroll.Bindings.HookBinding.New(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.HookType, Reqnroll.Bindings.BindingScope, Integer)
+  name.vb: New(IBindingMethod, HookType, BindingScope, Integer)
+- uid: Reqnroll.Bindings.HookBinding.Equals(Reqnroll.Bindings.HookBinding)
+  commentId: M:Reqnroll.Bindings.HookBinding.Equals(Reqnroll.Bindings.HookBinding)
+  id: Equals(Reqnroll.Bindings.HookBinding)
+  parent: Reqnroll.Bindings.HookBinding
+  langs:
+  - csharp
+  - vb
+  name: Equals(HookBinding)
+  nameWithType: HookBinding.Equals(HookBinding)
+  fullName: Reqnroll.Bindings.HookBinding.Equals(Reqnroll.Bindings.HookBinding)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Equals
+    path: ../Reqnroll/Reqnroll/Bindings/HookBinding.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: protected bool Equals(HookBinding other)
+    parameters:
+    - id: other
+      type: Reqnroll.Bindings.HookBinding
+    return:
+      type: System.Boolean
+    content.vb: Protected Function Equals(other As HookBinding) As Boolean
+  overload: Reqnroll.Bindings.HookBinding.Equals*
+- uid: Reqnroll.Bindings.HookBinding.Equals(System.Object)
+  commentId: M:Reqnroll.Bindings.HookBinding.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Reqnroll.Bindings.HookBinding
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: HookBinding.Equals(object)
+  fullName: Reqnroll.Bindings.HookBinding.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Equals
+    path: ../Reqnroll/Reqnroll/Bindings/HookBinding.cs
+    startLine: 23
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: Reqnroll.Bindings.MethodBinding.Equals(System.Object)
+  overload: Reqnroll.Bindings.HookBinding.Equals*
+  nameWithType.vb: HookBinding.Equals(Object)
+  fullName.vb: Reqnroll.Bindings.HookBinding.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Reqnroll.Bindings.HookBinding.GetHashCode
+  commentId: M:Reqnroll.Bindings.HookBinding.GetHashCode
+  id: GetHashCode
+  parent: Reqnroll.Bindings.HookBinding
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: HookBinding.GetHashCode()
+  fullName: Reqnroll.Bindings.HookBinding.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetHashCode
+    path: ../Reqnroll/Reqnroll/Bindings/HookBinding.cs
+    startLine: 31
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: Reqnroll.Bindings.MethodBinding.GetHashCode
+  overload: Reqnroll.Bindings.HookBinding.GetHashCode*
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Bindings.MethodBinding
+  commentId: T:Reqnroll.Bindings.MethodBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.MethodBinding.html
+  name: MethodBinding
+  nameWithType: MethodBinding
+  fullName: Reqnroll.Bindings.MethodBinding
+- uid: Reqnroll.Bindings.IHookBinding
+  commentId: T:Reqnroll.Bindings.IHookBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IHookBinding.html
+  name: IHookBinding
+  nameWithType: IHookBinding
+  fullName: Reqnroll.Bindings.IHookBinding
+- uid: Reqnroll.Bindings.IScopedBinding
+  commentId: T:Reqnroll.Bindings.IScopedBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IScopedBinding.html
+  name: IScopedBinding
+  nameWithType: IScopedBinding
+  fullName: Reqnroll.Bindings.IScopedBinding
+- uid: Reqnroll.Bindings.IBinding
+  commentId: T:Reqnroll.Bindings.IBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBinding.html
+  name: IBinding
+  nameWithType: IBinding
+  fullName: Reqnroll.Bindings.IBinding
+- uid: Reqnroll.Bindings.MethodBinding.Method
+  commentId: P:Reqnroll.Bindings.MethodBinding.Method
+  parent: Reqnroll.Bindings.MethodBinding
+  href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Method
+  name: Method
+  nameWithType: MethodBinding.Method
+  fullName: Reqnroll.Bindings.MethodBinding.Method
+- uid: Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+  commentId: M:Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+  parent: Reqnroll.Bindings.MethodBinding
+  href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_Reqnroll_Bindings_MethodBinding_
+  name: Equals(MethodBinding)
+  nameWithType: MethodBinding.Equals(MethodBinding)
+  fullName: Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+    name: Equals
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_Reqnroll_Bindings_MethodBinding_
+  - name: (
+  - uid: Reqnroll.Bindings.MethodBinding
+    name: MethodBinding
+    href: Reqnroll.Bindings.MethodBinding.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+    name: Equals
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_Reqnroll_Bindings_MethodBinding_
+  - name: (
+  - uid: Reqnroll.Bindings.MethodBinding
+    name: MethodBinding
+    href: Reqnroll.Bindings.MethodBinding.html
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.HookBinding.HookType*
+  commentId: Overload:Reqnroll.Bindings.HookBinding.HookType
+  href: Reqnroll.Bindings.HookBinding.html#Reqnroll_Bindings_HookBinding_HookType
+  name: HookType
+  nameWithType: HookBinding.HookType
+  fullName: Reqnroll.Bindings.HookBinding.HookType
+- uid: Reqnroll.Bindings.IHookBinding.HookType
+  commentId: P:Reqnroll.Bindings.IHookBinding.HookType
+  parent: Reqnroll.Bindings.IHookBinding
+  href: Reqnroll.Bindings.IHookBinding.html#Reqnroll_Bindings_IHookBinding_HookType
+  name: HookType
+  nameWithType: IHookBinding.HookType
+  fullName: Reqnroll.Bindings.IHookBinding.HookType
+- uid: Reqnroll.Bindings.HookType
+  commentId: T:Reqnroll.Bindings.HookType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.HookType.html
+  name: HookType
+  nameWithType: HookType
+  fullName: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.HookBinding.HookOrder*
+  commentId: Overload:Reqnroll.Bindings.HookBinding.HookOrder
+  href: Reqnroll.Bindings.HookBinding.html#Reqnroll_Bindings_HookBinding_HookOrder
+  name: HookOrder
+  nameWithType: HookBinding.HookOrder
+  fullName: Reqnroll.Bindings.HookBinding.HookOrder
+- uid: Reqnroll.Bindings.IHookBinding.HookOrder
+  commentId: P:Reqnroll.Bindings.IHookBinding.HookOrder
+  parent: Reqnroll.Bindings.IHookBinding
+  href: Reqnroll.Bindings.IHookBinding.html#Reqnroll_Bindings_IHookBinding_HookOrder
+  name: HookOrder
+  nameWithType: IHookBinding.HookOrder
+  fullName: Reqnroll.Bindings.IHookBinding.HookOrder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Reqnroll.Bindings.HookBinding.BindingScope*
+  commentId: Overload:Reqnroll.Bindings.HookBinding.BindingScope
+  href: Reqnroll.Bindings.HookBinding.html#Reqnroll_Bindings_HookBinding_BindingScope
+  name: BindingScope
+  nameWithType: HookBinding.BindingScope
+  fullName: Reqnroll.Bindings.HookBinding.BindingScope
+- uid: Reqnroll.Bindings.IScopedBinding.BindingScope
+  commentId: P:Reqnroll.Bindings.IScopedBinding.BindingScope
+  parent: Reqnroll.Bindings.IScopedBinding
+  href: Reqnroll.Bindings.IScopedBinding.html#Reqnroll_Bindings_IScopedBinding_BindingScope
+  name: BindingScope
+  nameWithType: IScopedBinding.BindingScope
+  fullName: Reqnroll.Bindings.IScopedBinding.BindingScope
+- uid: Reqnroll.Bindings.BindingScope
+  commentId: T:Reqnroll.Bindings.BindingScope
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingScope.html
+  name: BindingScope
+  nameWithType: BindingScope
+  fullName: Reqnroll.Bindings.BindingScope
+- uid: Reqnroll.Bindings.HookBinding.IsScoped*
+  commentId: Overload:Reqnroll.Bindings.HookBinding.IsScoped
+  href: Reqnroll.Bindings.HookBinding.html#Reqnroll_Bindings_HookBinding_IsScoped
+  name: IsScoped
+  nameWithType: HookBinding.IsScoped
+  fullName: Reqnroll.Bindings.HookBinding.IsScoped
+- uid: Reqnroll.Bindings.IScopedBinding.IsScoped
+  commentId: P:Reqnroll.Bindings.IScopedBinding.IsScoped
+  parent: Reqnroll.Bindings.IScopedBinding
+  href: Reqnroll.Bindings.IScopedBinding.html#Reqnroll_Bindings_IScopedBinding_IsScoped
+  name: IsScoped
+  nameWithType: IScopedBinding.IsScoped
+  fullName: Reqnroll.Bindings.IScopedBinding.IsScoped
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Bindings.HookBinding.#ctor*
+  commentId: Overload:Reqnroll.Bindings.HookBinding.#ctor
+  href: Reqnroll.Bindings.HookBinding.html#Reqnroll_Bindings_HookBinding__ctor_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_HookType_Reqnroll_Bindings_BindingScope_System_Int32_
+  name: HookBinding
+  nameWithType: HookBinding.HookBinding
+  fullName: Reqnroll.Bindings.HookBinding.HookBinding
+  nameWithType.vb: HookBinding.New
+  fullName.vb: Reqnroll.Bindings.HookBinding.New
+  name.vb: New
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: Reqnroll.Bindings.HookBinding.Equals*
+  commentId: Overload:Reqnroll.Bindings.HookBinding.Equals
+  href: Reqnroll.Bindings.HookBinding.html#Reqnroll_Bindings_HookBinding_Equals_Reqnroll_Bindings_HookBinding_
+  name: Equals
+  nameWithType: HookBinding.Equals
+  fullName: Reqnroll.Bindings.HookBinding.Equals
+- uid: Reqnroll.Bindings.HookBinding
+  commentId: T:Reqnroll.Bindings.HookBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.HookBinding.html
+  name: HookBinding
+  nameWithType: HookBinding
+  fullName: Reqnroll.Bindings.HookBinding
+- uid: Reqnroll.Bindings.MethodBinding.Equals(System.Object)
+  commentId: M:Reqnroll.Bindings.MethodBinding.Equals(System.Object)
+  parent: Reqnroll.Bindings.MethodBinding
+  isExternal: true
+  href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_System_Object_
+  name: Equals(object)
+  nameWithType: MethodBinding.Equals(object)
+  fullName: Reqnroll.Bindings.MethodBinding.Equals(object)
+  nameWithType.vb: MethodBinding.Equals(Object)
+  fullName.vb: Reqnroll.Bindings.MethodBinding.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.MethodBinding.Equals(System.Object)
+    name: Equals
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.MethodBinding.Equals(System.Object)
+    name: Equals
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Reqnroll.Bindings.MethodBinding.GetHashCode
+  commentId: M:Reqnroll.Bindings.MethodBinding.GetHashCode
+  parent: Reqnroll.Bindings.MethodBinding
+  href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_GetHashCode
+  name: GetHashCode()
+  nameWithType: MethodBinding.GetHashCode()
+  fullName: Reqnroll.Bindings.MethodBinding.GetHashCode()
+  spec.csharp:
+  - uid: Reqnroll.Bindings.MethodBinding.GetHashCode
+    name: GetHashCode
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.MethodBinding.GetHashCode
+    name: GetHashCode
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_GetHashCode
+  - name: (
+  - name: )
+- uid: Reqnroll.Bindings.HookBinding.GetHashCode*
+  commentId: Overload:Reqnroll.Bindings.HookBinding.GetHashCode
+  href: Reqnroll.Bindings.HookBinding.html#Reqnroll_Bindings_HookBinding_GetHashCode
+  name: GetHashCode
+  nameWithType: HookBinding.GetHashCode
+  fullName: Reqnroll.Bindings.HookBinding.GetHashCode

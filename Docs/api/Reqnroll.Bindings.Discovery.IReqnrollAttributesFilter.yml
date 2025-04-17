@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  commentId: T:Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  id: IReqnrollAttributesFilter
+  parent: Reqnroll.Bindings.Discovery
+  children:
+  - Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  langs:
+  - csharp
+  - vb
+  name: IReqnrollAttributesFilter
+  nameWithType: IReqnrollAttributesFilter
+  fullName: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IReqnrollAttributesFilter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IReqnrollAttributesFilter
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IReqnrollAttributesFilter.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: public interface IReqnrollAttributesFilter
+    content.vb: Public Interface IReqnrollAttributesFilter
+- uid: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  commentId: M:Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  id: FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  parent: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  langs:
+  - csharp
+  - vb
+  name: FilterForReqnrollAttributes(IEnumerable<Attribute>)
+  nameWithType: IReqnrollAttributesFilter.FilterForReqnrollAttributes(IEnumerable<Attribute>)
+  fullName: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable<System.Attribute>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IReqnrollAttributesFilter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FilterForReqnrollAttributes
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IReqnrollAttributesFilter.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: IEnumerable<Attribute> FilterForReqnrollAttributes(IEnumerable<Attribute> customAttributes)
+    parameters:
+    - id: customAttributes
+      type: System.Collections.Generic.IEnumerable{System.Attribute}
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Attribute}
+    content.vb: Function FilterForReqnrollAttributes(customAttributes As IEnumerable(Of Attribute)) As IEnumerable(Of Attribute)
+  overload: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes*
+  nameWithType.vb: IReqnrollAttributesFilter.FilterForReqnrollAttributes(IEnumerable(Of Attribute))
+  fullName.vb: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable(Of System.Attribute))
+  name.vb: FilterForReqnrollAttributes(IEnumerable(Of Attribute))
+references:
+- uid: Reqnroll.Bindings.Discovery
+  commentId: N:Reqnroll.Bindings.Discovery
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Discovery
+  nameWithType: Reqnroll.Bindings.Discovery
+  fullName: Reqnroll.Bindings.Discovery
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+- uid: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes
+  href: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.html#Reqnroll_Bindings_Discovery_IReqnrollAttributesFilter_FilterForReqnrollAttributes_System_Collections_Generic_IEnumerable_System_Attribute__
+  name: FilterForReqnrollAttributes
+  nameWithType: IReqnrollAttributesFilter.FilterForReqnrollAttributes
+  fullName: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes
+- uid: System.Collections.Generic.IEnumerable{System.Attribute}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Attribute}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Attribute>
+  nameWithType: IEnumerable<Attribute>
+  fullName: System.Collections.Generic.IEnumerable<System.Attribute>
+  nameWithType.vb: IEnumerable(Of Attribute)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Attribute)
+  name.vb: IEnumerable(Of Attribute)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  commentId: T:Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  id: ISkeletonTemplateProvider
+  parent: Reqnroll.BindingSkeletons
+  children:
+  - Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  - Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ISkeletonTemplateProvider
+  nameWithType: ISkeletonTemplateProvider
+  fullName: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/ISkeletonTemplateProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ISkeletonTemplateProvider
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/ISkeletonTemplateProvider.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public interface ISkeletonTemplateProvider
+    content.vb: Public Interface ISkeletonTemplateProvider
+- uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  commentId: M:Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  id: GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  parent: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  langs:
+  - csharp
+  - vb
+  name: GetStepDefinitionTemplate(ProgrammingLanguage, bool)
+  nameWithType: ISkeletonTemplateProvider.GetStepDefinitionTemplate(ProgrammingLanguage, bool)
+  fullName: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage, bool)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/ISkeletonTemplateProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetStepDefinitionTemplate
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/ISkeletonTemplateProvider.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: string GetStepDefinitionTemplate(ProgrammingLanguage language, bool withExpression)
+    parameters:
+    - id: language
+      type: Reqnroll.ProgrammingLanguage
+    - id: withExpression
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Function GetStepDefinitionTemplate(language As ProgrammingLanguage, withExpression As Boolean) As String
+  overload: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate*
+  nameWithType.vb: ISkeletonTemplateProvider.GetStepDefinitionTemplate(ProgrammingLanguage, Boolean)
+  fullName.vb: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage, Boolean)
+  name.vb: GetStepDefinitionTemplate(ProgrammingLanguage, Boolean)
+- uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  commentId: M:Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  id: GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  parent: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  langs:
+  - csharp
+  - vb
+  name: GetStepDefinitionClassTemplate(ProgrammingLanguage)
+  nameWithType: ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(ProgrammingLanguage)
+  fullName: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/ISkeletonTemplateProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetStepDefinitionClassTemplate
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/ISkeletonTemplateProvider.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: string GetStepDefinitionClassTemplate(ProgrammingLanguage language)
+    parameters:
+    - id: language
+      type: Reqnroll.ProgrammingLanguage
+    return:
+      type: System.String
+    content.vb: Function GetStepDefinitionClassTemplate(language As ProgrammingLanguage) As String
+  overload: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate*
+references:
+- uid: Reqnroll.BindingSkeletons
+  commentId: N:Reqnroll.BindingSkeletons
+  href: Reqnroll.html
+  name: Reqnroll.BindingSkeletons
+  nameWithType: Reqnroll.BindingSkeletons
+  fullName: Reqnroll.BindingSkeletons
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+- uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate*
+  commentId: Overload:Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate
+  href: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_ISkeletonTemplateProvider_GetStepDefinitionTemplate_Reqnroll_ProgrammingLanguage_System_Boolean_
+  name: GetStepDefinitionTemplate
+  nameWithType: ISkeletonTemplateProvider.GetStepDefinitionTemplate
+  fullName: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate
+- uid: Reqnroll.ProgrammingLanguage
+  commentId: T:Reqnroll.ProgrammingLanguage
+  parent: Reqnroll
+  href: Reqnroll.ProgrammingLanguage.html
+  name: ProgrammingLanguage
+  nameWithType: ProgrammingLanguage
+  fullName: Reqnroll.ProgrammingLanguage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate*
+  commentId: Overload:Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate
+  href: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_ISkeletonTemplateProvider_GetStepDefinitionClassTemplate_Reqnroll_ProgrammingLanguage_
+  name: GetStepDefinitionClassTemplate
+  nameWithType: ISkeletonTemplateProvider.GetStepDefinitionClassTemplate
+  fullName: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate

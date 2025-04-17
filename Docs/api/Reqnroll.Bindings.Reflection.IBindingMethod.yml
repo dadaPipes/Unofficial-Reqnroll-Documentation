@@ -1,0 +1,460 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  id: IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  children:
+  - Reqnroll.Bindings.Reflection.IBindingMethod.Name
+  - Reqnroll.Bindings.Reflection.IBindingMethod.Parameters
+  - Reqnroll.Bindings.Reflection.IBindingMethod.ReturnType
+  - Reqnroll.Bindings.Reflection.IBindingMethod.Type
+  langs:
+  - csharp
+  - vb
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/IBindingMethod.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IBindingMethod
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/IBindingMethod.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: public interface IBindingMethod
+    content.vb: Public Interface IBindingMethod
+  extensionMethods:
+  - Reqnroll.Bindings.Reflection.IBindingMethod.Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText
+  - Reqnroll.Bindings.Reflection.IBindingMethod.Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod)
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod.Type
+  commentId: P:Reqnroll.Bindings.Reflection.IBindingMethod.Type
+  id: Type
+  parent: Reqnroll.Bindings.Reflection.IBindingMethod
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: IBindingMethod.Type
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod.Type
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/IBindingMethod.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Type
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/IBindingMethod.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  summary: The declaring type of the method.
+  example: []
+  syntax:
+    content: IBindingType Type { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    content.vb: ReadOnly Property Type As IBindingType
+  overload: Reqnroll.Bindings.Reflection.IBindingMethod.Type*
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod.Name
+  commentId: P:Reqnroll.Bindings.Reflection.IBindingMethod.Name
+  id: Name
+  parent: Reqnroll.Bindings.Reflection.IBindingMethod
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IBindingMethod.Name
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod.Name
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/IBindingMethod.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Name
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/IBindingMethod.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Reqnroll.Bindings.Reflection.IBindingMethod.Name*
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod.Parameters
+  commentId: P:Reqnroll.Bindings.Reflection.IBindingMethod.Parameters
+  id: Parameters
+  parent: Reqnroll.Bindings.Reflection.IBindingMethod
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: IBindingMethod.Parameters
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod.Parameters
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/IBindingMethod.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Parameters
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/IBindingMethod.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: IEnumerable<IBindingParameter> Parameters { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.Reflection.IBindingParameter}
+    content.vb: ReadOnly Property Parameters As IEnumerable(Of IBindingParameter)
+  overload: Reqnroll.Bindings.Reflection.IBindingMethod.Parameters*
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod.ReturnType
+  commentId: P:Reqnroll.Bindings.Reflection.IBindingMethod.ReturnType
+  id: ReturnType
+  parent: Reqnroll.Bindings.Reflection.IBindingMethod
+  langs:
+  - csharp
+  - vb
+  name: ReturnType
+  nameWithType: IBindingMethod.ReturnType
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod.ReturnType
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/IBindingMethod.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ReturnType
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/IBindingMethod.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  summary: The return type of the method or <returns>null</returns> for void methods.
+  example: []
+  syntax:
+    content: IBindingType ReturnType { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    content.vb: ReadOnly Property ReturnType As IBindingType
+  overload: Reqnroll.Bindings.Reflection.IBindingMethod.ReturnType*
+references:
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod.Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  definition: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_GetShortDisplayText_Reqnroll_Bindings_Reflection_IBindingMethod_
+  name: GetShortDisplayText(IBindingMethod)
+  nameWithType: BindingReflectionExtensions.GetShortDisplayText(IBindingMethod)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+    name: GetShortDisplayText
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_GetShortDisplayText_Reqnroll_Bindings_Reflection_IBindingMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+    name: GetShortDisplayText
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_GetShortDisplayText_Reqnroll_Bindings_Reflection_IBindingMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod.Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  definition: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_MethodEquals_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_Reflection_IBindingMethod_
+  name: MethodEquals(IBindingMethod, IBindingMethod)
+  nameWithType: BindingReflectionExtensions.MethodEquals(IBindingMethod, IBindingMethod)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.Reflection.IBindingMethod)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+    name: MethodEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_MethodEquals_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_Reflection_IBindingMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+    name: MethodEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_MethodEquals_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_Reflection_IBindingMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_GetShortDisplayText_Reqnroll_Bindings_Reflection_IBindingMethod_
+  name: GetShortDisplayText(IBindingMethod)
+  nameWithType: BindingReflectionExtensions.GetShortDisplayText(IBindingMethod)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+    name: GetShortDisplayText
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_GetShortDisplayText_Reqnroll_Bindings_Reflection_IBindingMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+    name: GetShortDisplayText
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_GetShortDisplayText_Reqnroll_Bindings_Reflection_IBindingMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  commentId: T:Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html
+  name: BindingReflectionExtensions
+  nameWithType: BindingReflectionExtensions
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_MethodEquals_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_Reflection_IBindingMethod_
+  name: MethodEquals(IBindingMethod, IBindingMethod)
+  nameWithType: BindingReflectionExtensions.MethodEquals(IBindingMethod, IBindingMethod)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.Reflection.IBindingMethod)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+    name: MethodEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_MethodEquals_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_Reflection_IBindingMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+    name: MethodEquals
+    href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_MethodEquals_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_Reflection_IBindingMethod_
+  - name: (
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod.Type*
+  commentId: Overload:Reqnroll.Bindings.Reflection.IBindingMethod.Type
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html#Reqnroll_Bindings_Reflection_IBindingMethod_Type
+  name: Type
+  nameWithType: IBindingMethod.Type
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod.Type
+- uid: Reqnroll.Bindings.Reflection.IBindingType
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingType
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingType.html
+  name: IBindingType
+  nameWithType: IBindingType
+  fullName: Reqnroll.Bindings.Reflection.IBindingType
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod.Name*
+  commentId: Overload:Reqnroll.Bindings.Reflection.IBindingMethod.Name
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html#Reqnroll_Bindings_Reflection_IBindingMethod_Name
+  name: Name
+  nameWithType: IBindingMethod.Name
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod.Parameters*
+  commentId: Overload:Reqnroll.Bindings.Reflection.IBindingMethod.Parameters
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html#Reqnroll_Bindings_Reflection_IBindingMethod_Parameters
+  name: Parameters
+  nameWithType: IBindingMethod.Parameters
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod.Parameters
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.Reflection.IBindingParameter}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.Bindings.Reflection.IBindingParameter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IBindingParameter>
+  nameWithType: IEnumerable<IBindingParameter>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.Bindings.Reflection.IBindingParameter>
+  nameWithType.vb: IEnumerable(Of IBindingParameter)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.Reflection.IBindingParameter)
+  name.vb: IEnumerable(Of IBindingParameter)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.Bindings.Reflection.IBindingParameter
+    name: IBindingParameter
+    href: Reqnroll.Bindings.Reflection.IBindingParameter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingParameter
+    name: IBindingParameter
+    href: Reqnroll.Bindings.Reflection.IBindingParameter.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod.ReturnType*
+  commentId: Overload:Reqnroll.Bindings.Reflection.IBindingMethod.ReturnType
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html#Reqnroll_Bindings_Reflection_IBindingMethod_ReturnType
+  name: ReturnType
+  nameWithType: IBindingMethod.ReturnType
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod.ReturnType

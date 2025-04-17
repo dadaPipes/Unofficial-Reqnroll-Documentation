@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.IReqnrollJsonLocator
+  commentId: T:Reqnroll.Configuration.IReqnrollJsonLocator
+  id: IReqnrollJsonLocator
+  parent: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.IReqnrollJsonLocator.GetReqnrollJsonFilePath
+  langs:
+  - csharp
+  - vb
+  name: IReqnrollJsonLocator
+  nameWithType: IReqnrollJsonLocator
+  fullName: Reqnroll.Configuration.IReqnrollJsonLocator
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Configuration/IReqnrollJsonLocator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IReqnrollJsonLocator
+    path: ../Reqnroll/Reqnroll/Configuration/IReqnrollJsonLocator.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public interface IReqnrollJsonLocator
+    content.vb: Public Interface IReqnrollJsonLocator
+- uid: Reqnroll.Configuration.IReqnrollJsonLocator.GetReqnrollJsonFilePath
+  commentId: M:Reqnroll.Configuration.IReqnrollJsonLocator.GetReqnrollJsonFilePath
+  id: GetReqnrollJsonFilePath
+  parent: Reqnroll.Configuration.IReqnrollJsonLocator
+  langs:
+  - csharp
+  - vb
+  name: GetReqnrollJsonFilePath()
+  nameWithType: IReqnrollJsonLocator.GetReqnrollJsonFilePath()
+  fullName: Reqnroll.Configuration.IReqnrollJsonLocator.GetReqnrollJsonFilePath()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/IReqnrollJsonLocator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetReqnrollJsonFilePath
+    path: ../Reqnroll/Reqnroll/Configuration/IReqnrollJsonLocator.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: string GetReqnrollJsonFilePath()
+    return:
+      type: System.String
+    content.vb: Function GetReqnrollJsonFilePath() As String
+  overload: Reqnroll.Configuration.IReqnrollJsonLocator.GetReqnrollJsonFilePath*
+references:
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.Configuration.IReqnrollJsonLocator.GetReqnrollJsonFilePath*
+  commentId: Overload:Reqnroll.Configuration.IReqnrollJsonLocator.GetReqnrollJsonFilePath
+  href: Reqnroll.Configuration.IReqnrollJsonLocator.html#Reqnroll_Configuration_IReqnrollJsonLocator_GetReqnrollJsonFilePath
+  name: GetReqnrollJsonFilePath
+  nameWithType: IReqnrollJsonLocator.GetReqnrollJsonFilePath
+  fullName: Reqnroll.Configuration.IReqnrollJsonLocator.GetReqnrollJsonFilePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

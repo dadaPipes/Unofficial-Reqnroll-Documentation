@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.EnvironmentAccess
+  commentId: N:Reqnroll.EnvironmentAccess
+  id: Reqnroll.EnvironmentAccess
+  children:
+  - Reqnroll.EnvironmentAccess.EnvironmentWrapper
+  - Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.EnvironmentAccess
+  nameWithType: Reqnroll.EnvironmentAccess
+  fullName: Reqnroll.EnvironmentAccess
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.EnvironmentAccess.EnvironmentWrapper
+  commentId: T:Reqnroll.EnvironmentAccess.EnvironmentWrapper
+  href: Reqnroll.EnvironmentAccess.EnvironmentWrapper.html
+  name: EnvironmentWrapper
+  nameWithType: EnvironmentWrapper
+  fullName: Reqnroll.EnvironmentAccess.EnvironmentWrapper
+- uid: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  commentId: T:Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+  parent: Reqnroll.EnvironmentAccess
+  href: Reqnroll.EnvironmentAccess.IEnvironmentWrapper.html
+  name: IEnvironmentWrapper
+  nameWithType: IEnvironmentWrapper
+  fullName: Reqnroll.EnvironmentAccess.IEnvironmentWrapper
+- uid: Reqnroll.EnvironmentAccess
+  commentId: N:Reqnroll.EnvironmentAccess
+  href: Reqnroll.html
+  name: Reqnroll.EnvironmentAccess
+  nameWithType: Reqnroll.EnvironmentAccess
+  fullName: Reqnroll.EnvironmentAccess
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.EnvironmentAccess
+    name: EnvironmentAccess
+    href: Reqnroll.EnvironmentAccess.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.EnvironmentAccess
+    name: EnvironmentAccess
+    href: Reqnroll.EnvironmentAccess.html

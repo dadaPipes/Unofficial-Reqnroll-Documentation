@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.ITestPendingMessageFactory
+  commentId: T:Reqnroll.Infrastructure.ITestPendingMessageFactory
+  id: ITestPendingMessageFactory
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.ITestPendingMessageFactory.BuildFromScenarioContext(Reqnroll.ScenarioContext)
+  langs:
+  - csharp
+  - vb
+  name: ITestPendingMessageFactory
+  nameWithType: ITestPendingMessageFactory
+  fullName: Reqnroll.Infrastructure.ITestPendingMessageFactory
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestPendingMessageFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ITestPendingMessageFactory
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestPendingMessageFactory.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface ITestPendingMessageFactory
+    content.vb: Public Interface ITestPendingMessageFactory
+- uid: Reqnroll.Infrastructure.ITestPendingMessageFactory.BuildFromScenarioContext(Reqnroll.ScenarioContext)
+  commentId: M:Reqnroll.Infrastructure.ITestPendingMessageFactory.BuildFromScenarioContext(Reqnroll.ScenarioContext)
+  id: BuildFromScenarioContext(Reqnroll.ScenarioContext)
+  parent: Reqnroll.Infrastructure.ITestPendingMessageFactory
+  langs:
+  - csharp
+  - vb
+  name: BuildFromScenarioContext(ScenarioContext)
+  nameWithType: ITestPendingMessageFactory.BuildFromScenarioContext(ScenarioContext)
+  fullName: Reqnroll.Infrastructure.ITestPendingMessageFactory.BuildFromScenarioContext(Reqnroll.ScenarioContext)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestPendingMessageFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BuildFromScenarioContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestPendingMessageFactory.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: string BuildFromScenarioContext(ScenarioContext scenarioContext)
+    parameters:
+    - id: scenarioContext
+      type: Reqnroll.ScenarioContext
+    return:
+      type: System.String
+    content.vb: Function BuildFromScenarioContext(scenarioContext As ScenarioContext) As String
+  overload: Reqnroll.Infrastructure.ITestPendingMessageFactory.BuildFromScenarioContext*
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.ITestPendingMessageFactory.BuildFromScenarioContext*
+  commentId: Overload:Reqnroll.Infrastructure.ITestPendingMessageFactory.BuildFromScenarioContext
+  href: Reqnroll.Infrastructure.ITestPendingMessageFactory.html#Reqnroll_Infrastructure_ITestPendingMessageFactory_BuildFromScenarioContext_Reqnroll_ScenarioContext_
+  name: BuildFromScenarioContext
+  nameWithType: ITestPendingMessageFactory.BuildFromScenarioContext
+  fullName: Reqnroll.Infrastructure.ITestPendingMessageFactory.BuildFromScenarioContext
+- uid: Reqnroll.ScenarioContext
+  commentId: T:Reqnroll.ScenarioContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioContext.html
+  name: ScenarioContext
+  nameWithType: ScenarioContext
+  fullName: Reqnroll.ScenarioContext
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

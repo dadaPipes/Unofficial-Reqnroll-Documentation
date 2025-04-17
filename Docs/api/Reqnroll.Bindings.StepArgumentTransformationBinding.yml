@@ -1,0 +1,682 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding
+  commentId: T:Reqnroll.Bindings.StepArgumentTransformationBinding
+  id: StepArgumentTransformationBinding
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.StepArgumentTransformationBinding.#ctor(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  - Reqnroll.Bindings.StepArgumentTransformationBinding.#ctor(System.Text.RegularExpressions.Regex,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  - Reqnroll.Bindings.StepArgumentTransformationBinding.Name
+  - Reqnroll.Bindings.StepArgumentTransformationBinding.Order
+  - Reqnroll.Bindings.StepArgumentTransformationBinding.Regex
+  langs:
+  - csharp
+  - vb
+  name: StepArgumentTransformationBinding
+  nameWithType: StepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepArgumentTransformationBinding
+    path: ../Reqnroll/Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: 'public class StepArgumentTransformationBinding : MethodBinding, IStepArgumentTransformationBinding, IBinding'
+    content.vb: Public Class StepArgumentTransformationBinding Inherits MethodBinding Implements IStepArgumentTransformationBinding, IBinding
+  inheritance:
+  - System.Object
+  - Reqnroll.Bindings.MethodBinding
+  implements:
+  - Reqnroll.Bindings.IStepArgumentTransformationBinding
+  - Reqnroll.Bindings.IBinding
+  inheritedMembers:
+  - Reqnroll.Bindings.MethodBinding.Method
+  - Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+  - Reqnroll.Bindings.MethodBinding.Equals(System.Object)
+  - Reqnroll.Bindings.MethodBinding.GetHashCode
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding.Name
+  commentId: P:Reqnroll.Bindings.StepArgumentTransformationBinding.Name
+  id: Name
+  parent: Reqnroll.Bindings.StepArgumentTransformationBinding
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: StepArgumentTransformationBinding.Name
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding.Name
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Name
+    path: ../Reqnroll/Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  summary: The optional name of the custom parameter. The name can be used in cucumber expressions.
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Reqnroll.Bindings.StepArgumentTransformationBinding.Name*
+  implements:
+  - Reqnroll.Bindings.IStepArgumentTransformationBinding.Name
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding.Regex
+  commentId: P:Reqnroll.Bindings.StepArgumentTransformationBinding.Regex
+  id: Regex
+  parent: Reqnroll.Bindings.StepArgumentTransformationBinding
+  langs:
+  - csharp
+  - vb
+  name: Regex
+  nameWithType: StepArgumentTransformationBinding.Regex
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding.Regex
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Regex
+    path: ../Reqnroll/Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  summary: The regular expression matches the step argument. Optional, if null, the transformation receives the entire argument.
+  example: []
+  syntax:
+    content: public Regex Regex { get; }
+    parameters: []
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: Public ReadOnly Property Regex As Regex
+  overload: Reqnroll.Bindings.StepArgumentTransformationBinding.Regex*
+  implements:
+  - Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding.Order
+  commentId: P:Reqnroll.Bindings.StepArgumentTransformationBinding.Order
+  id: Order
+  parent: Reqnroll.Bindings.StepArgumentTransformationBinding
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: StepArgumentTransformationBinding.Order
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding.Order
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Order
+    path: ../Reqnroll/Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  summary: The deterministic order for step argument transformation
+  example: []
+  syntax:
+    content: public int Order { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Order As Integer
+  overload: Reqnroll.Bindings.StepArgumentTransformationBinding.Order*
+  implements:
+  - Reqnroll.Bindings.IStepArgumentTransformationBinding.Order
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding.#ctor(System.Text.RegularExpressions.Regex,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  commentId: M:Reqnroll.Bindings.StepArgumentTransformationBinding.#ctor(System.Text.RegularExpressions.Regex,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  id: '#ctor(System.Text.RegularExpressions.Regex,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)'
+  parent: Reqnroll.Bindings.StepArgumentTransformationBinding
+  langs:
+  - csharp
+  - vb
+  name: StepArgumentTransformationBinding(Regex, IBindingMethod, string, int)
+  nameWithType: StepArgumentTransformationBinding.StepArgumentTransformationBinding(Regex, IBindingMethod, string, int)
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding.StepArgumentTransformationBinding(System.Text.RegularExpressions.Regex, Reqnroll.Bindings.Reflection.IBindingMethod, string, int)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public StepArgumentTransformationBinding(Regex regex, IBindingMethod bindingMethod, string name = null, int order = 10000)
+    parameters:
+    - id: regex
+      type: System.Text.RegularExpressions.Regex
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: name
+      type: System.String
+    - id: order
+      type: System.Int32
+    content.vb: Public Sub New(regex As Regex, bindingMethod As IBindingMethod, name As String = Nothing, order As Integer = 10000)
+  overload: Reqnroll.Bindings.StepArgumentTransformationBinding.#ctor*
+  nameWithType.vb: StepArgumentTransformationBinding.New(Regex, IBindingMethod, String, Integer)
+  fullName.vb: Reqnroll.Bindings.StepArgumentTransformationBinding.New(System.Text.RegularExpressions.Regex, Reqnroll.Bindings.Reflection.IBindingMethod, String, Integer)
+  name.vb: New(Regex, IBindingMethod, String, Integer)
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding.#ctor(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  commentId: M:Reqnroll.Bindings.StepArgumentTransformationBinding.#ctor(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)
+  id: '#ctor(System.String,Reqnroll.Bindings.Reflection.IBindingMethod,System.String,System.Int32)'
+  parent: Reqnroll.Bindings.StepArgumentTransformationBinding
+  langs:
+  - csharp
+  - vb
+  name: StepArgumentTransformationBinding(string, IBindingMethod, string, int)
+  nameWithType: StepArgumentTransformationBinding.StepArgumentTransformationBinding(string, IBindingMethod, string, int)
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding.StepArgumentTransformationBinding(string, Reqnroll.Bindings.Reflection.IBindingMethod, string, int)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/StepArgumentTransformationBinding.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public StepArgumentTransformationBinding(string regexString, IBindingMethod bindingMethod, string name = null, int order = 10000)
+    parameters:
+    - id: regexString
+      type: System.String
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: name
+      type: System.String
+    - id: order
+      type: System.Int32
+    content.vb: Public Sub New(regexString As String, bindingMethod As IBindingMethod, name As String = Nothing, order As Integer = 10000)
+  overload: Reqnroll.Bindings.StepArgumentTransformationBinding.#ctor*
+  nameWithType.vb: StepArgumentTransformationBinding.New(String, IBindingMethod, String, Integer)
+  fullName.vb: Reqnroll.Bindings.StepArgumentTransformationBinding.New(String, Reqnroll.Bindings.Reflection.IBindingMethod, String, Integer)
+  name.vb: New(String, IBindingMethod, String, Integer)
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Bindings.MethodBinding
+  commentId: T:Reqnroll.Bindings.MethodBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.MethodBinding.html
+  name: MethodBinding
+  nameWithType: MethodBinding
+  fullName: Reqnroll.Bindings.MethodBinding
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  commentId: T:Reqnroll.Bindings.IStepArgumentTransformationBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html
+  name: IStepArgumentTransformationBinding
+  nameWithType: IStepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding
+- uid: Reqnroll.Bindings.IBinding
+  commentId: T:Reqnroll.Bindings.IBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBinding.html
+  name: IBinding
+  nameWithType: IBinding
+  fullName: Reqnroll.Bindings.IBinding
+- uid: Reqnroll.Bindings.MethodBinding.Method
+  commentId: P:Reqnroll.Bindings.MethodBinding.Method
+  parent: Reqnroll.Bindings.MethodBinding
+  href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Method
+  name: Method
+  nameWithType: MethodBinding.Method
+  fullName: Reqnroll.Bindings.MethodBinding.Method
+- uid: Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+  commentId: M:Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+  parent: Reqnroll.Bindings.MethodBinding
+  href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_Reqnroll_Bindings_MethodBinding_
+  name: Equals(MethodBinding)
+  nameWithType: MethodBinding.Equals(MethodBinding)
+  fullName: Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+    name: Equals
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_Reqnroll_Bindings_MethodBinding_
+  - name: (
+  - uid: Reqnroll.Bindings.MethodBinding
+    name: MethodBinding
+    href: Reqnroll.Bindings.MethodBinding.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.MethodBinding.Equals(Reqnroll.Bindings.MethodBinding)
+    name: Equals
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_Reqnroll_Bindings_MethodBinding_
+  - name: (
+  - uid: Reqnroll.Bindings.MethodBinding
+    name: MethodBinding
+    href: Reqnroll.Bindings.MethodBinding.html
+  - name: )
+- uid: Reqnroll.Bindings.MethodBinding.Equals(System.Object)
+  commentId: M:Reqnroll.Bindings.MethodBinding.Equals(System.Object)
+  parent: Reqnroll.Bindings.MethodBinding
+  isExternal: true
+  href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_System_Object_
+  name: Equals(object)
+  nameWithType: MethodBinding.Equals(object)
+  fullName: Reqnroll.Bindings.MethodBinding.Equals(object)
+  nameWithType.vb: MethodBinding.Equals(Object)
+  fullName.vb: Reqnroll.Bindings.MethodBinding.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: Reqnroll.Bindings.MethodBinding.Equals(System.Object)
+    name: Equals
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.MethodBinding.Equals(System.Object)
+    name: Equals
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Reqnroll.Bindings.MethodBinding.GetHashCode
+  commentId: M:Reqnroll.Bindings.MethodBinding.GetHashCode
+  parent: Reqnroll.Bindings.MethodBinding
+  href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_GetHashCode
+  name: GetHashCode()
+  nameWithType: MethodBinding.GetHashCode()
+  fullName: Reqnroll.Bindings.MethodBinding.GetHashCode()
+  spec.csharp:
+  - uid: Reqnroll.Bindings.MethodBinding.GetHashCode
+    name: GetHashCode
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.MethodBinding.GetHashCode
+    name: GetHashCode
+    href: Reqnroll.Bindings.MethodBinding.html#Reqnroll_Bindings_MethodBinding_GetHashCode
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding.Name*
+  commentId: Overload:Reqnroll.Bindings.StepArgumentTransformationBinding.Name
+  href: Reqnroll.Bindings.StepArgumentTransformationBinding.html#Reqnroll_Bindings_StepArgumentTransformationBinding_Name
+  name: Name
+  nameWithType: StepArgumentTransformationBinding.Name
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding.Name
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding.Name
+  commentId: P:Reqnroll.Bindings.IStepArgumentTransformationBinding.Name
+  parent: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html#Reqnroll_Bindings_IStepArgumentTransformationBinding_Name
+  name: Name
+  nameWithType: IStepArgumentTransformationBinding.Name
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding.Regex*
+  commentId: Overload:Reqnroll.Bindings.StepArgumentTransformationBinding.Regex
+  href: Reqnroll.Bindings.StepArgumentTransformationBinding.html#Reqnroll_Bindings_StepArgumentTransformationBinding_Regex
+  name: Regex
+  nameWithType: StepArgumentTransformationBinding.Regex
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding.Regex
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex
+  commentId: P:Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex
+  parent: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html#Reqnroll_Bindings_IStepArgumentTransformationBinding_Regex
+  name: Regex
+  nameWithType: IStepArgumentTransformationBinding.Regex
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex
+- uid: System.Text.RegularExpressions.Regex
+  commentId: T:System.Text.RegularExpressions.Regex
+  parent: System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex
+  name: Regex
+  nameWithType: Regex
+  fullName: System.Text.RegularExpressions.Regex
+- uid: System.Text.RegularExpressions
+  commentId: N:System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text.RegularExpressions
+  nameWithType: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding.Order*
+  commentId: Overload:Reqnroll.Bindings.StepArgumentTransformationBinding.Order
+  href: Reqnroll.Bindings.StepArgumentTransformationBinding.html#Reqnroll_Bindings_StepArgumentTransformationBinding_Order
+  name: Order
+  nameWithType: StepArgumentTransformationBinding.Order
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding.Order
+- uid: Reqnroll.Bindings.IStepArgumentTransformationBinding.Order
+  commentId: P:Reqnroll.Bindings.IStepArgumentTransformationBinding.Order
+  parent: Reqnroll.Bindings.IStepArgumentTransformationBinding
+  href: Reqnroll.Bindings.IStepArgumentTransformationBinding.html#Reqnroll_Bindings_IStepArgumentTransformationBinding_Order
+  name: Order
+  nameWithType: IStepArgumentTransformationBinding.Order
+  fullName: Reqnroll.Bindings.IStepArgumentTransformationBinding.Order
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Reqnroll.Bindings.StepArgumentTransformationBinding.#ctor*
+  commentId: Overload:Reqnroll.Bindings.StepArgumentTransformationBinding.#ctor
+  href: Reqnroll.Bindings.StepArgumentTransformationBinding.html#Reqnroll_Bindings_StepArgumentTransformationBinding__ctor_System_Text_RegularExpressions_Regex_Reqnroll_Bindings_Reflection_IBindingMethod_System_String_System_Int32_
+  name: StepArgumentTransformationBinding
+  nameWithType: StepArgumentTransformationBinding.StepArgumentTransformationBinding
+  fullName: Reqnroll.Bindings.StepArgumentTransformationBinding.StepArgumentTransformationBinding
+  nameWithType.vb: StepArgumentTransformationBinding.New
+  fullName.vb: Reqnroll.Bindings.StepArgumentTransformationBinding.New
+  name.vb: New
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html

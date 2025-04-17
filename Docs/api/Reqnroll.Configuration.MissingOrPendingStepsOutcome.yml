@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  commentId: T:Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  id: MissingOrPendingStepsOutcome
+  parent: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.MissingOrPendingStepsOutcome.Error
+  - Reqnroll.Configuration.MissingOrPendingStepsOutcome.Ignore
+  - Reqnroll.Configuration.MissingOrPendingStepsOutcome.Inconclusive
+  - Reqnroll.Configuration.MissingOrPendingStepsOutcome.Pending
+  langs:
+  - csharp
+  - vb
+  name: MissingOrPendingStepsOutcome
+  nameWithType: MissingOrPendingStepsOutcome
+  fullName: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/Configuration/MissingOrPendingStepsOutcome.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: MissingOrPendingStepsOutcome
+    path: ../Reqnroll/Reqnroll/Configuration/MissingOrPendingStepsOutcome.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public enum MissingOrPendingStepsOutcome
+    content.vb: Public Enum MissingOrPendingStepsOutcome
+- uid: Reqnroll.Configuration.MissingOrPendingStepsOutcome.Pending
+  commentId: F:Reqnroll.Configuration.MissingOrPendingStepsOutcome.Pending
+  id: Pending
+  parent: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  langs:
+  - csharp
+  - vb
+  name: Pending
+  nameWithType: MissingOrPendingStepsOutcome.Pending
+  fullName: Reqnroll.Configuration.MissingOrPendingStepsOutcome.Pending
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/MissingOrPendingStepsOutcome.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Pending
+    path: ../Reqnroll/Reqnroll/Configuration/MissingOrPendingStepsOutcome.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: Pending = 0
+    return:
+      type: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+- uid: Reqnroll.Configuration.MissingOrPendingStepsOutcome.Inconclusive
+  commentId: F:Reqnroll.Configuration.MissingOrPendingStepsOutcome.Inconclusive
+  id: Inconclusive
+  parent: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  langs:
+  - csharp
+  - vb
+  name: Inconclusive
+  nameWithType: MissingOrPendingStepsOutcome.Inconclusive
+  fullName: Reqnroll.Configuration.MissingOrPendingStepsOutcome.Inconclusive
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/MissingOrPendingStepsOutcome.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Inconclusive
+    path: ../Reqnroll/Reqnroll/Configuration/MissingOrPendingStepsOutcome.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: Inconclusive = 1
+    return:
+      type: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+- uid: Reqnroll.Configuration.MissingOrPendingStepsOutcome.Ignore
+  commentId: F:Reqnroll.Configuration.MissingOrPendingStepsOutcome.Ignore
+  id: Ignore
+  parent: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  langs:
+  - csharp
+  - vb
+  name: Ignore
+  nameWithType: MissingOrPendingStepsOutcome.Ignore
+  fullName: Reqnroll.Configuration.MissingOrPendingStepsOutcome.Ignore
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/MissingOrPendingStepsOutcome.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Ignore
+    path: ../Reqnroll/Reqnroll/Configuration/MissingOrPendingStepsOutcome.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: Ignore = 2
+    return:
+      type: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+- uid: Reqnroll.Configuration.MissingOrPendingStepsOutcome.Error
+  commentId: F:Reqnroll.Configuration.MissingOrPendingStepsOutcome.Error
+  id: Error
+  parent: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: MissingOrPendingStepsOutcome.Error
+  fullName: Reqnroll.Configuration.MissingOrPendingStepsOutcome.Error
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/MissingOrPendingStepsOutcome.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Error
+    path: ../Reqnroll/Reqnroll/Configuration/MissingOrPendingStepsOutcome.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: Error = 3
+    return:
+      type: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+references:
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  commentId: T:Reqnroll.Configuration.MissingOrPendingStepsOutcome
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.MissingOrPendingStepsOutcome.html
+  name: MissingOrPendingStepsOutcome
+  nameWithType: MissingOrPendingStepsOutcome
+  fullName: Reqnroll.Configuration.MissingOrPendingStepsOutcome

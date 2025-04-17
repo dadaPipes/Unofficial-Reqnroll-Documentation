@@ -1,0 +1,698 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine
+  commentId: T:Reqnroll.Infrastructure.ITestExecutionEngine
+  id: ITestExecutionEngine
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.ITestExecutionEngine.FeatureContext
+  - Reqnroll.Infrastructure.ITestExecutionEngine.OnAfterLastStepAsync
+  - Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureEndAsync
+  - Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureStartAsync(Reqnroll.FeatureInfo)
+  - Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioEndAsync
+  - Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  - Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioSkipped
+  - Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioStartAsync
+  - Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunEndAsync
+  - Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunStartAsync
+  - Reqnroll.Infrastructure.ITestExecutionEngine.Pending
+  - Reqnroll.Infrastructure.ITestExecutionEngine.ScenarioContext
+  - Reqnroll.Infrastructure.ITestExecutionEngine.StepAsync(Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,System.String,Reqnroll.Table)
+  - Reqnroll.Infrastructure.ITestExecutionEngine.TestThreadContext
+  langs:
+  - csharp
+  - vb
+  name: ITestExecutionEngine
+  nameWithType: ITestExecutionEngine
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ITestExecutionEngine
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface ITestExecutionEngine
+    content.vb: Public Interface ITestExecutionEngine
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.FeatureContext
+  commentId: P:Reqnroll.Infrastructure.ITestExecutionEngine.FeatureContext
+  id: FeatureContext
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: FeatureContext
+  nameWithType: ITestExecutionEngine.FeatureContext
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.FeatureContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FeatureContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: FeatureContext FeatureContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.FeatureContext
+    content.vb: ReadOnly Property FeatureContext As FeatureContext
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.FeatureContext*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.ScenarioContext
+  commentId: P:Reqnroll.Infrastructure.ITestExecutionEngine.ScenarioContext
+  id: ScenarioContext
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: ScenarioContext
+  nameWithType: ITestExecutionEngine.ScenarioContext
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.ScenarioContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: ScenarioContext ScenarioContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioContext
+    content.vb: ReadOnly Property ScenarioContext As ScenarioContext
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.ScenarioContext*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.TestThreadContext
+  commentId: P:Reqnroll.Infrastructure.ITestExecutionEngine.TestThreadContext
+  id: TestThreadContext
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: TestThreadContext
+  nameWithType: ITestExecutionEngine.TestThreadContext
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.TestThreadContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestThreadContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: ITestThreadContext TestThreadContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ITestThreadContext
+    content.vb: ReadOnly Property TestThreadContext As ITestThreadContext
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.TestThreadContext*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunStartAsync
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunStartAsync
+  id: OnTestRunStartAsync
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: OnTestRunStartAsync()
+  nameWithType: ITestExecutionEngine.OnTestRunStartAsync()
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunStartAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnTestRunStartAsync
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: Task OnTestRunStartAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnTestRunStartAsync() As Task
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunStartAsync*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunEndAsync
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunEndAsync
+  id: OnTestRunEndAsync
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: OnTestRunEndAsync()
+  nameWithType: ITestExecutionEngine.OnTestRunEndAsync()
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunEndAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnTestRunEndAsync
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: Task OnTestRunEndAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnTestRunEndAsync() As Task
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunEndAsync*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureStartAsync(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureStartAsync(Reqnroll.FeatureInfo)
+  id: OnFeatureStartAsync(Reqnroll.FeatureInfo)
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: OnFeatureStartAsync(FeatureInfo)
+  nameWithType: ITestExecutionEngine.OnFeatureStartAsync(FeatureInfo)
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureStartAsync(Reqnroll.FeatureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnFeatureStartAsync
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: Task OnFeatureStartAsync(FeatureInfo featureInfo)
+    parameters:
+    - id: featureInfo
+      type: Reqnroll.FeatureInfo
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnFeatureStartAsync(featureInfo As FeatureInfo) As Task
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureStartAsync*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureEndAsync
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureEndAsync
+  id: OnFeatureEndAsync
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: OnFeatureEndAsync()
+  nameWithType: ITestExecutionEngine.OnFeatureEndAsync()
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureEndAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnFeatureEndAsync
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: Task OnFeatureEndAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnFeatureEndAsync() As Task
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureEndAsync*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  id: OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioInitialize(ScenarioInfo)
+  nameWithType: ITestExecutionEngine.OnScenarioInitialize(ScenarioInfo)
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioInitialize
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void OnScenarioInitialize(ScenarioInfo scenarioInfo)
+    parameters:
+    - id: scenarioInfo
+      type: Reqnroll.ScenarioInfo
+    content.vb: Sub OnScenarioInitialize(scenarioInfo As ScenarioInfo)
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioInitialize*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioStartAsync
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioStartAsync
+  id: OnScenarioStartAsync
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioStartAsync()
+  nameWithType: ITestExecutionEngine.OnScenarioStartAsync()
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioStartAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioStartAsync
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: Task OnScenarioStartAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnScenarioStartAsync() As Task
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioStartAsync*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnAfterLastStepAsync
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.OnAfterLastStepAsync
+  id: OnAfterLastStepAsync
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: OnAfterLastStepAsync()
+  nameWithType: ITestExecutionEngine.OnAfterLastStepAsync()
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnAfterLastStepAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnAfterLastStepAsync
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 19
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: Task OnAfterLastStepAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnAfterLastStepAsync() As Task
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.OnAfterLastStepAsync*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioEndAsync
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioEndAsync
+  id: OnScenarioEndAsync
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioEndAsync()
+  nameWithType: ITestExecutionEngine.OnScenarioEndAsync()
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioEndAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioEndAsync
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: Task OnScenarioEndAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnScenarioEndAsync() As Task
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioEndAsync*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioSkipped
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioSkipped
+  id: OnScenarioSkipped
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioSkipped()
+  nameWithType: ITestExecutionEngine.OnScenarioSkipped()
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioSkipped()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioSkipped
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void OnScenarioSkipped()
+    content.vb: Sub OnScenarioSkipped()
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioSkipped*
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.StepAsync(Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,System.String,Reqnroll.Table)
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.StepAsync(Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,System.String,Reqnroll.Table)
+  id: StepAsync(Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,System.String,Reqnroll.Table)
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: StepAsync(StepDefinitionKeyword, string, string, string, Table)
+  nameWithType: ITestExecutionEngine.StepAsync(StepDefinitionKeyword, string, string, string, Table)
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.StepAsync(Reqnroll.Bindings.StepDefinitionKeyword, string, string, string, Reqnroll.Table)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepAsync
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 24
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: Task StepAsync(StepDefinitionKeyword stepDefinitionKeyword, string keyword, string text, string multilineTextArg, Table tableArg)
+    parameters:
+    - id: stepDefinitionKeyword
+      type: Reqnroll.Bindings.StepDefinitionKeyword
+    - id: keyword
+      type: System.String
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function StepAsync(stepDefinitionKeyword As StepDefinitionKeyword, keyword As String, text As String, multilineTextArg As String, tableArg As Table) As Task
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.StepAsync*
+  nameWithType.vb: ITestExecutionEngine.StepAsync(StepDefinitionKeyword, String, String, String, Table)
+  fullName.vb: Reqnroll.Infrastructure.ITestExecutionEngine.StepAsync(Reqnroll.Bindings.StepDefinitionKeyword, String, String, String, Reqnroll.Table)
+  name.vb: StepAsync(StepDefinitionKeyword, String, String, String, Table)
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.Pending
+  commentId: M:Reqnroll.Infrastructure.ITestExecutionEngine.Pending
+  id: Pending
+  parent: Reqnroll.Infrastructure.ITestExecutionEngine
+  langs:
+  - csharp
+  - vb
+  name: Pending()
+  nameWithType: ITestExecutionEngine.Pending()
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.Pending()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestExecutionEngine.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Pending
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestExecutionEngine.cs
+    startLine: 26
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void Pending()
+    content.vb: Sub Pending()
+  overload: Reqnroll.Infrastructure.ITestExecutionEngine.Pending*
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.FeatureContext*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.FeatureContext
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_FeatureContext
+  name: FeatureContext
+  nameWithType: ITestExecutionEngine.FeatureContext
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.FeatureContext
+- uid: Reqnroll.FeatureContext
+  commentId: T:Reqnroll.FeatureContext
+  parent: Reqnroll
+  href: Reqnroll.FeatureContext.html
+  name: FeatureContext
+  nameWithType: FeatureContext
+  fullName: Reqnroll.FeatureContext
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.ScenarioContext*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.ScenarioContext
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_ScenarioContext
+  name: ScenarioContext
+  nameWithType: ITestExecutionEngine.ScenarioContext
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.ScenarioContext
+- uid: Reqnroll.ScenarioContext
+  commentId: T:Reqnroll.ScenarioContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioContext.html
+  name: ScenarioContext
+  nameWithType: ScenarioContext
+  fullName: Reqnroll.ScenarioContext
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.TestThreadContext*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.TestThreadContext
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_TestThreadContext
+  name: TestThreadContext
+  nameWithType: ITestExecutionEngine.TestThreadContext
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.TestThreadContext
+- uid: Reqnroll.ITestThreadContext
+  commentId: T:Reqnroll.ITestThreadContext
+  parent: Reqnroll
+  href: Reqnroll.ITestThreadContext.html
+  name: ITestThreadContext
+  nameWithType: ITestThreadContext
+  fullName: Reqnroll.ITestThreadContext
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunStartAsync*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunStartAsync
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_OnTestRunStartAsync
+  name: OnTestRunStartAsync
+  nameWithType: ITestExecutionEngine.OnTestRunStartAsync
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunStartAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunEndAsync*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunEndAsync
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_OnTestRunEndAsync
+  name: OnTestRunEndAsync
+  nameWithType: ITestExecutionEngine.OnTestRunEndAsync
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnTestRunEndAsync
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureStartAsync*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureStartAsync
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_OnFeatureStartAsync_Reqnroll_FeatureInfo_
+  name: OnFeatureStartAsync
+  nameWithType: ITestExecutionEngine.OnFeatureStartAsync
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureStartAsync
+- uid: Reqnroll.FeatureInfo
+  commentId: T:Reqnroll.FeatureInfo
+  parent: Reqnroll
+  href: Reqnroll.FeatureInfo.html
+  name: FeatureInfo
+  nameWithType: FeatureInfo
+  fullName: Reqnroll.FeatureInfo
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureEndAsync*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureEndAsync
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_OnFeatureEndAsync
+  name: OnFeatureEndAsync
+  nameWithType: ITestExecutionEngine.OnFeatureEndAsync
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnFeatureEndAsync
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioInitialize*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioInitialize
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_OnScenarioInitialize_Reqnroll_ScenarioInfo_
+  name: OnScenarioInitialize
+  nameWithType: ITestExecutionEngine.OnScenarioInitialize
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioInitialize
+- uid: Reqnroll.ScenarioInfo
+  commentId: T:Reqnroll.ScenarioInfo
+  parent: Reqnroll
+  href: Reqnroll.ScenarioInfo.html
+  name: ScenarioInfo
+  nameWithType: ScenarioInfo
+  fullName: Reqnroll.ScenarioInfo
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioStartAsync*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioStartAsync
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_OnScenarioStartAsync
+  name: OnScenarioStartAsync
+  nameWithType: ITestExecutionEngine.OnScenarioStartAsync
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioStartAsync
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnAfterLastStepAsync*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.OnAfterLastStepAsync
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_OnAfterLastStepAsync
+  name: OnAfterLastStepAsync
+  nameWithType: ITestExecutionEngine.OnAfterLastStepAsync
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnAfterLastStepAsync
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioEndAsync*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioEndAsync
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_OnScenarioEndAsync
+  name: OnScenarioEndAsync
+  nameWithType: ITestExecutionEngine.OnScenarioEndAsync
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioEndAsync
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioSkipped*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioSkipped
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_OnScenarioSkipped
+  name: OnScenarioSkipped
+  nameWithType: ITestExecutionEngine.OnScenarioSkipped
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.OnScenarioSkipped
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.StepAsync*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.StepAsync
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_StepAsync_Reqnroll_Bindings_StepDefinitionKeyword_System_String_System_String_System_String_Reqnroll_Table_
+  name: StepAsync
+  nameWithType: ITestExecutionEngine.StepAsync
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.StepAsync
+- uid: Reqnroll.Bindings.StepDefinitionKeyword
+  commentId: T:Reqnroll.Bindings.StepDefinitionKeyword
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionKeyword.html
+  name: StepDefinitionKeyword
+  nameWithType: StepDefinitionKeyword
+  fullName: Reqnroll.Bindings.StepDefinitionKeyword
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Table
+  commentId: T:Reqnroll.Table
+  parent: Reqnroll
+  href: Reqnroll.Table.html
+  name: Table
+  nameWithType: Table
+  fullName: Reqnroll.Table
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Infrastructure.ITestExecutionEngine.Pending*
+  commentId: Overload:Reqnroll.Infrastructure.ITestExecutionEngine.Pending
+  href: Reqnroll.Infrastructure.ITestExecutionEngine.html#Reqnroll_Infrastructure_ITestExecutionEngine_Pending
+  name: Pending
+  nameWithType: ITestExecutionEngine.Pending
+  fullName: Reqnroll.Infrastructure.ITestExecutionEngine.Pending

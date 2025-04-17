@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.ProgrammingLanguage
+  commentId: T:Reqnroll.ProgrammingLanguage
+  id: ProgrammingLanguage
+  parent: Reqnroll
+  children:
+  - Reqnroll.ProgrammingLanguage.CSharp
+  - Reqnroll.ProgrammingLanguage.FSharp
+  - Reqnroll.ProgrammingLanguage.Other
+  - Reqnroll.ProgrammingLanguage.VB
+  langs:
+  - csharp
+  - vb
+  name: ProgrammingLanguage
+  nameWithType: ProgrammingLanguage
+  fullName: Reqnroll.ProgrammingLanguage
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/ProgrammingLanguage.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ProgrammingLanguage
+    path: ../Reqnroll/Reqnroll/ProgrammingLanguage.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public enum ProgrammingLanguage
+    content.vb: Public Enum ProgrammingLanguage
+- uid: Reqnroll.ProgrammingLanguage.Other
+  commentId: F:Reqnroll.ProgrammingLanguage.Other
+  id: Other
+  parent: Reqnroll.ProgrammingLanguage
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: ProgrammingLanguage.Other
+  fullName: Reqnroll.ProgrammingLanguage.Other
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ProgrammingLanguage.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Other
+    path: ../Reqnroll/Reqnroll/ProgrammingLanguage.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Other = 0
+    return:
+      type: Reqnroll.ProgrammingLanguage
+- uid: Reqnroll.ProgrammingLanguage.CSharp
+  commentId: F:Reqnroll.ProgrammingLanguage.CSharp
+  id: CSharp
+  parent: Reqnroll.ProgrammingLanguage
+  langs:
+  - csharp
+  - vb
+  name: CSharp
+  nameWithType: ProgrammingLanguage.CSharp
+  fullName: Reqnroll.ProgrammingLanguage.CSharp
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ProgrammingLanguage.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CSharp
+    path: ../Reqnroll/Reqnroll/ProgrammingLanguage.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: CSharp = 1
+    return:
+      type: Reqnroll.ProgrammingLanguage
+- uid: Reqnroll.ProgrammingLanguage.VB
+  commentId: F:Reqnroll.ProgrammingLanguage.VB
+  id: VB
+  parent: Reqnroll.ProgrammingLanguage
+  langs:
+  - csharp
+  - vb
+  name: VB
+  nameWithType: ProgrammingLanguage.VB
+  fullName: Reqnroll.ProgrammingLanguage.VB
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ProgrammingLanguage.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: VB
+    path: ../Reqnroll/Reqnroll/ProgrammingLanguage.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: VB = 2
+    return:
+      type: Reqnroll.ProgrammingLanguage
+- uid: Reqnroll.ProgrammingLanguage.FSharp
+  commentId: F:Reqnroll.ProgrammingLanguage.FSharp
+  id: FSharp
+  parent: Reqnroll.ProgrammingLanguage
+  langs:
+  - csharp
+  - vb
+  name: FSharp
+  nameWithType: ProgrammingLanguage.FSharp
+  fullName: Reqnroll.ProgrammingLanguage.FSharp
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/ProgrammingLanguage.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FSharp
+    path: ../Reqnroll/Reqnroll/ProgrammingLanguage.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: FSharp = 3
+    return:
+      type: Reqnroll.ProgrammingLanguage
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.ProgrammingLanguage
+  commentId: T:Reqnroll.ProgrammingLanguage
+  parent: Reqnroll
+  href: Reqnroll.ProgrammingLanguage.html
+  name: ProgrammingLanguage
+  nameWithType: ProgrammingLanguage
+  fullName: Reqnroll.ProgrammingLanguage

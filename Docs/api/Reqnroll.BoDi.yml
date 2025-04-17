@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  id: Reqnroll.BoDi
+  children:
+  - Reqnroll.BoDi.IContainedInstance
+  - Reqnroll.BoDi.IObjectContainer
+  - Reqnroll.BoDi.IStrategyRegistration
+  - Reqnroll.BoDi.ObjectContainer
+  - Reqnroll.BoDi.ObjectContainerException
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.BoDi.IContainedInstance
+  commentId: T:Reqnroll.BoDi.IContainedInstance
+  href: Reqnroll.BoDi.IContainedInstance.html
+  name: IContainedInstance
+  nameWithType: IContainedInstance
+  fullName: Reqnroll.BoDi.IContainedInstance
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: Reqnroll.BoDi.IStrategyRegistration
+  commentId: T:Reqnroll.BoDi.IStrategyRegistration
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IStrategyRegistration.html
+  name: IStrategyRegistration
+  nameWithType: IStrategyRegistration
+  fullName: Reqnroll.BoDi.IStrategyRegistration
+- uid: Reqnroll.BoDi.ObjectContainer
+  commentId: T:Reqnroll.BoDi.ObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.ObjectContainer.html
+  name: ObjectContainer
+  nameWithType: ObjectContainer
+  fullName: Reqnroll.BoDi.ObjectContainer
+- uid: Reqnroll.BoDi.ObjectContainerException
+  commentId: T:Reqnroll.BoDi.ObjectContainerException
+  href: Reqnroll.BoDi.ObjectContainerException.html
+  name: ObjectContainerException
+  nameWithType: ObjectContainerException
+  fullName: Reqnroll.BoDi.ObjectContainerException
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html

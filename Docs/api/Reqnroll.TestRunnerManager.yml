@@ -1,0 +1,1811 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.TestRunnerManager
+  commentId: T:Reqnroll.TestRunnerManager
+  id: TestRunnerManager
+  parent: Reqnroll
+  children:
+  - Reqnroll.TestRunnerManager.#ctor(Reqnroll.BoDi.IObjectContainer,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder,Reqnroll.Tracing.ITestTracer)
+  - Reqnroll.TestRunnerManager.BindingAssemblies
+  - Reqnroll.TestRunnerManager.BuildBindingRegistry(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})
+  - Reqnroll.TestRunnerManager.DisposeAsync
+  - Reqnroll.TestRunnerManager.FireTestRunEndAsync
+  - Reqnroll.TestRunnerManager.FireTestRunStartAsync
+  - Reqnroll.TestRunnerManager.GetOrCreateTestRunner(Reqnroll.FeatureInfo)
+  - Reqnroll.TestRunnerManager.GetOrCreateTestRunnerInstance(Reqnroll.FeatureInfo)
+  - Reqnroll.TestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)
+  - Reqnroll.TestRunnerManager.GetTestRunnerForAssembly(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.FeatureInfo)
+  - Reqnroll.TestRunnerManager.GetTestRunnerManager(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,System.Boolean)
+  - Reqnroll.TestRunnerManager.Initialize(System.Reflection.Assembly)
+  - Reqnroll.TestRunnerManager.InitializeBindingRegistry(Reqnroll.ITestRunner)
+  - Reqnroll.TestRunnerManager.IsMultiThreaded
+  - Reqnroll.TestRunnerManager.IsTestRunInitialized
+  - Reqnroll.TestRunnerManager.OnDomainUnloadAsync
+  - Reqnroll.TestRunnerManager.OnTestRunEndAsync(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder)
+  - Reqnroll.TestRunnerManager.OnTestRunStartAsync(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder)
+  - Reqnroll.TestRunnerManager.ReleaseTestRunner(Reqnroll.ITestRunner)
+  - Reqnroll.TestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+  - Reqnroll.TestRunnerManager.TestAssembly
+  - Reqnroll.TestRunnerManager._bindingRegistryBuilder
+  - Reqnroll.TestRunnerManager._containerBuilder
+  - Reqnroll.TestRunnerManager._globalContainer
+  - Reqnroll.TestRunnerManager._reqnrollConfiguration
+  - Reqnroll.TestRunnerManager._testTracer
+  langs:
+  - csharp
+  - vb
+  name: TestRunnerManager
+  nameWithType: TestRunnerManager
+  fullName: Reqnroll.TestRunnerManager
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestRunnerManager
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: 'public class TestRunnerManager : ITestRunnerManager'
+    content.vb: Public Class TestRunnerManager Implements ITestRunnerManager
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.ITestRunnerManager
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.TestRunnerManager._globalContainer
+  commentId: F:Reqnroll.TestRunnerManager._globalContainer
+  id: _globalContainer
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: _globalContainer
+  nameWithType: TestRunnerManager._globalContainer
+  fullName: Reqnroll.TestRunnerManager._globalContainer
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: _globalContainer
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected readonly IObjectContainer _globalContainer
+    return:
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: Protected ReadOnly _globalContainer As IObjectContainer
+- uid: Reqnroll.TestRunnerManager._containerBuilder
+  commentId: F:Reqnroll.TestRunnerManager._containerBuilder
+  id: _containerBuilder
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: _containerBuilder
+  nameWithType: TestRunnerManager._containerBuilder
+  fullName: Reqnroll.TestRunnerManager._containerBuilder
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: _containerBuilder
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 21
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected readonly IContainerBuilder _containerBuilder
+    return:
+      type: Reqnroll.Infrastructure.IContainerBuilder
+    content.vb: Protected ReadOnly _containerBuilder As IContainerBuilder
+- uid: Reqnroll.TestRunnerManager._reqnrollConfiguration
+  commentId: F:Reqnroll.TestRunnerManager._reqnrollConfiguration
+  id: _reqnrollConfiguration
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: _reqnrollConfiguration
+  nameWithType: TestRunnerManager._reqnrollConfiguration
+  fullName: Reqnroll.TestRunnerManager._reqnrollConfiguration
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: _reqnrollConfiguration
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected readonly ReqnrollConfiguration _reqnrollConfiguration
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Protected ReadOnly _reqnrollConfiguration As ReqnrollConfiguration
+- uid: Reqnroll.TestRunnerManager._bindingRegistryBuilder
+  commentId: F:Reqnroll.TestRunnerManager._bindingRegistryBuilder
+  id: _bindingRegistryBuilder
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: _bindingRegistryBuilder
+  nameWithType: TestRunnerManager._bindingRegistryBuilder
+  fullName: Reqnroll.TestRunnerManager._bindingRegistryBuilder
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: _bindingRegistryBuilder
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 23
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected readonly IRuntimeBindingRegistryBuilder _bindingRegistryBuilder
+    return:
+      type: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+    content.vb: Protected ReadOnly _bindingRegistryBuilder As IRuntimeBindingRegistryBuilder
+- uid: Reqnroll.TestRunnerManager._testTracer
+  commentId: F:Reqnroll.TestRunnerManager._testTracer
+  id: _testTracer
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: _testTracer
+  nameWithType: TestRunnerManager._testTracer
+  fullName: Reqnroll.TestRunnerManager._testTracer
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: _testTracer
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 24
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected readonly ITestTracer _testTracer
+    return:
+      type: Reqnroll.Tracing.ITestTracer
+    content.vb: Protected ReadOnly _testTracer As ITestTracer
+- uid: Reqnroll.TestRunnerManager.IsTestRunInitialized
+  commentId: P:Reqnroll.TestRunnerManager.IsTestRunInitialized
+  id: IsTestRunInitialized
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: IsTestRunInitialized
+  nameWithType: TestRunnerManager.IsTestRunInitialized
+  fullName: Reqnroll.TestRunnerManager.IsTestRunInitialized
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsTestRunInitialized
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 56
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public bool IsTestRunInitialized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsTestRunInitialized As Boolean
+  overload: Reqnroll.TestRunnerManager.IsTestRunInitialized*
+- uid: Reqnroll.TestRunnerManager.TestAssembly
+  commentId: P:Reqnroll.TestRunnerManager.TestAssembly
+  id: TestAssembly
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: TestAssembly
+  nameWithType: TestRunnerManager.TestAssembly
+  fullName: Reqnroll.TestRunnerManager.TestAssembly
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestAssembly
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 62
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  example: []
+  syntax:
+    content: public Assembly TestAssembly { get; }
+    parameters: []
+    return:
+      type: System.Reflection.Assembly
+    content.vb: Public Property TestAssembly As Assembly
+  overload: Reqnroll.TestRunnerManager.TestAssembly*
+  implements:
+  - Reqnroll.ITestRunnerManager.TestAssembly
+- uid: Reqnroll.TestRunnerManager.BindingAssemblies
+  commentId: P:Reqnroll.TestRunnerManager.BindingAssemblies
+  id: BindingAssemblies
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: BindingAssemblies
+  nameWithType: TestRunnerManager.BindingAssemblies
+  fullName: Reqnroll.TestRunnerManager.BindingAssemblies
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingAssemblies
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 63
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  example: []
+  syntax:
+    content: public Assembly[] BindingAssemblies { get; }
+    parameters: []
+    return:
+      type: System.Reflection.Assembly[]
+    content.vb: Public Property BindingAssemblies As Assembly()
+  overload: Reqnroll.TestRunnerManager.BindingAssemblies*
+  implements:
+  - Reqnroll.ITestRunnerManager.BindingAssemblies
+- uid: Reqnroll.TestRunnerManager.IsMultiThreaded
+  commentId: P:Reqnroll.TestRunnerManager.IsMultiThreaded
+  id: IsMultiThreaded
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: IsMultiThreaded
+  nameWithType: TestRunnerManager.IsMultiThreaded
+  fullName: Reqnroll.TestRunnerManager.IsMultiThreaded
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsMultiThreaded
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 65
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  example: []
+  syntax:
+    content: public bool IsMultiThreaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsMultiThreaded As Boolean
+  overload: Reqnroll.TestRunnerManager.IsMultiThreaded*
+  implements:
+  - Reqnroll.ITestRunnerManager.IsMultiThreaded
+- uid: Reqnroll.TestRunnerManager.#ctor(Reqnroll.BoDi.IObjectContainer,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder,Reqnroll.Tracing.ITestTracer)
+  commentId: M:Reqnroll.TestRunnerManager.#ctor(Reqnroll.BoDi.IObjectContainer,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder,Reqnroll.Tracing.ITestTracer)
+  id: '#ctor(Reqnroll.BoDi.IObjectContainer,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder,Reqnroll.Tracing.ITestTracer)'
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: TestRunnerManager(IObjectContainer, IContainerBuilder, ReqnrollConfiguration, IRuntimeBindingRegistryBuilder, ITestTracer)
+  nameWithType: TestRunnerManager.TestRunnerManager(IObjectContainer, IContainerBuilder, ReqnrollConfiguration, IRuntimeBindingRegistryBuilder, ITestTracer)
+  fullName: Reqnroll.TestRunnerManager.TestRunnerManager(Reqnroll.BoDi.IObjectContainer, Reqnroll.Infrastructure.IContainerBuilder, Reqnroll.Configuration.ReqnrollConfiguration, Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder, Reqnroll.Tracing.ITestTracer)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 67
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public TestRunnerManager(IObjectContainer globalContainer, IContainerBuilder containerBuilder, ReqnrollConfiguration reqnrollConfiguration, IRuntimeBindingRegistryBuilder bindingRegistryBuilder, ITestTracer testTracer)
+    parameters:
+    - id: globalContainer
+      type: Reqnroll.BoDi.IObjectContainer
+    - id: containerBuilder
+      type: Reqnroll.Infrastructure.IContainerBuilder
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    - id: bindingRegistryBuilder
+      type: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+    - id: testTracer
+      type: Reqnroll.Tracing.ITestTracer
+    content.vb: Public Sub New(globalContainer As IObjectContainer, containerBuilder As IContainerBuilder, reqnrollConfiguration As ReqnrollConfiguration, bindingRegistryBuilder As IRuntimeBindingRegistryBuilder, testTracer As ITestTracer)
+  overload: Reqnroll.TestRunnerManager.#ctor*
+  nameWithType.vb: TestRunnerManager.New(IObjectContainer, IContainerBuilder, ReqnrollConfiguration, IRuntimeBindingRegistryBuilder, ITestTracer)
+  fullName.vb: Reqnroll.TestRunnerManager.New(Reqnroll.BoDi.IObjectContainer, Reqnroll.Infrastructure.IContainerBuilder, Reqnroll.Configuration.ReqnrollConfiguration, Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder, Reqnroll.Tracing.ITestTracer)
+  name.vb: New(IObjectContainer, IContainerBuilder, ReqnrollConfiguration, IRuntimeBindingRegistryBuilder, ITestTracer)
+- uid: Reqnroll.TestRunnerManager.GetOrCreateTestRunner(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.TestRunnerManager.GetOrCreateTestRunner(Reqnroll.FeatureInfo)
+  id: GetOrCreateTestRunner(Reqnroll.FeatureInfo)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: GetOrCreateTestRunner(FeatureInfo)
+  nameWithType: TestRunnerManager.GetOrCreateTestRunner(FeatureInfo)
+  fullName: Reqnroll.TestRunnerManager.GetOrCreateTestRunner(Reqnroll.FeatureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetOrCreateTestRunner
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 83
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public virtual ITestRunner GetOrCreateTestRunner(FeatureInfo featureHint = null)
+    parameters:
+    - id: featureHint
+      type: Reqnroll.FeatureInfo
+    return:
+      type: Reqnroll.ITestRunner
+    content.vb: Public Overridable Function GetOrCreateTestRunner(featureHint As FeatureInfo = Nothing) As ITestRunner
+  overload: Reqnroll.TestRunnerManager.GetOrCreateTestRunner*
+- uid: Reqnroll.TestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+  commentId: M:Reqnroll.TestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+  id: ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: ReleaseTestThreadContext(ITestThreadContext)
+  nameWithType: TestRunnerManager.ReleaseTestThreadContext(ITestThreadContext)
+  fullName: Reqnroll.TestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ReleaseTestThreadContext
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 102
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  example: []
+  syntax:
+    content: public virtual void ReleaseTestThreadContext(ITestThreadContext testThreadContext)
+    parameters:
+    - id: testThreadContext
+      type: Reqnroll.ITestThreadContext
+    content.vb: Public Overridable Sub ReleaseTestThreadContext(testThreadContext As ITestThreadContext)
+  overload: Reqnroll.TestRunnerManager.ReleaseTestThreadContext*
+  implements:
+  - Reqnroll.ITestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+- uid: Reqnroll.TestRunnerManager.InitializeBindingRegistry(Reqnroll.ITestRunner)
+  commentId: M:Reqnroll.TestRunnerManager.InitializeBindingRegistry(Reqnroll.ITestRunner)
+  id: InitializeBindingRegistry(Reqnroll.ITestRunner)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: InitializeBindingRegistry(ITestRunner)
+  nameWithType: TestRunnerManager.InitializeBindingRegistry(ITestRunner)
+  fullName: Reqnroll.TestRunnerManager.InitializeBindingRegistry(Reqnroll.ITestRunner)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InitializeBindingRegistry
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 112
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected virtual void InitializeBindingRegistry(ITestRunner testRunner)
+    parameters:
+    - id: testRunner
+      type: Reqnroll.ITestRunner
+    content.vb: Protected Overridable Sub InitializeBindingRegistry(testRunner As ITestRunner)
+  overload: Reqnroll.TestRunnerManager.InitializeBindingRegistry*
+- uid: Reqnroll.TestRunnerManager.BuildBindingRegistry(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})
+  commentId: M:Reqnroll.TestRunnerManager.BuildBindingRegistry(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})
+  id: BuildBindingRegistry(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: BuildBindingRegistry(IEnumerable<Assembly>)
+  nameWithType: TestRunnerManager.BuildBindingRegistry(IEnumerable<Assembly>)
+  fullName: Reqnroll.TestRunnerManager.BuildBindingRegistry(System.Collections.Generic.IEnumerable<System.Reflection.Assembly>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BuildBindingRegistry
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 126
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected virtual void BuildBindingRegistry(IEnumerable<Assembly> bindingAssemblies)
+    parameters:
+    - id: bindingAssemblies
+      type: System.Collections.Generic.IEnumerable{System.Reflection.Assembly}
+    content.vb: Protected Overridable Sub BuildBindingRegistry(bindingAssemblies As IEnumerable(Of Assembly))
+  overload: Reqnroll.TestRunnerManager.BuildBindingRegistry*
+  nameWithType.vb: TestRunnerManager.BuildBindingRegistry(IEnumerable(Of Assembly))
+  fullName.vb: Reqnroll.TestRunnerManager.BuildBindingRegistry(System.Collections.Generic.IEnumerable(Of System.Reflection.Assembly))
+  name.vb: BuildBindingRegistry(IEnumerable(Of Assembly))
+- uid: Reqnroll.TestRunnerManager.OnDomainUnloadAsync
+  commentId: M:Reqnroll.TestRunnerManager.OnDomainUnloadAsync
+  id: OnDomainUnloadAsync
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: OnDomainUnloadAsync()
+  nameWithType: TestRunnerManager.OnDomainUnloadAsync()
+  fullName: Reqnroll.TestRunnerManager.OnDomainUnloadAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnDomainUnloadAsync
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 135
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected virtual Task OnDomainUnloadAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overridable Function OnDomainUnloadAsync() As Task
+  overload: Reqnroll.TestRunnerManager.OnDomainUnloadAsync*
+- uid: Reqnroll.TestRunnerManager.FireTestRunEndAsync
+  commentId: M:Reqnroll.TestRunnerManager.FireTestRunEndAsync
+  id: FireTestRunEndAsync
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: FireTestRunEndAsync()
+  nameWithType: TestRunnerManager.FireTestRunEndAsync()
+  fullName: Reqnroll.TestRunnerManager.FireTestRunEndAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FireTestRunEndAsync
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 153
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  example: []
+  syntax:
+    content: public Task FireTestRunEndAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function FireTestRunEndAsync() As Task
+  overload: Reqnroll.TestRunnerManager.FireTestRunEndAsync*
+  implements:
+  - Reqnroll.ITestRunnerManager.FireTestRunEndAsync
+- uid: Reqnroll.TestRunnerManager.FireTestRunStartAsync
+  commentId: M:Reqnroll.TestRunnerManager.FireTestRunStartAsync
+  id: FireTestRunStartAsync
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: FireTestRunStartAsync()
+  nameWithType: TestRunnerManager.FireTestRunStartAsync()
+  fullName: Reqnroll.TestRunnerManager.FireTestRunStartAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FireTestRunStartAsync
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 161
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  example: []
+  syntax:
+    content: public Task FireTestRunStartAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function FireTestRunStartAsync() As Task
+  overload: Reqnroll.TestRunnerManager.FireTestRunStartAsync*
+  implements:
+  - Reqnroll.ITestRunnerManager.FireTestRunStartAsync
+- uid: Reqnroll.TestRunnerManager.GetOrCreateTestRunnerInstance(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.TestRunnerManager.GetOrCreateTestRunnerInstance(Reqnroll.FeatureInfo)
+  id: GetOrCreateTestRunnerInstance(Reqnroll.FeatureInfo)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: GetOrCreateTestRunnerInstance(FeatureInfo)
+  nameWithType: TestRunnerManager.GetOrCreateTestRunnerInstance(FeatureInfo)
+  fullName: Reqnroll.TestRunnerManager.GetOrCreateTestRunnerInstance(Reqnroll.FeatureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetOrCreateTestRunnerInstance
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 169
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: protected virtual ITestRunner GetOrCreateTestRunnerInstance(FeatureInfo featureHint = null)
+    parameters:
+    - id: featureHint
+      type: Reqnroll.FeatureInfo
+    return:
+      type: Reqnroll.ITestRunner
+    content.vb: Protected Overridable Function GetOrCreateTestRunnerInstance(featureHint As FeatureInfo = Nothing) As ITestRunner
+  overload: Reqnroll.TestRunnerManager.GetOrCreateTestRunnerInstance*
+- uid: Reqnroll.TestRunnerManager.Initialize(System.Reflection.Assembly)
+  commentId: M:Reqnroll.TestRunnerManager.Initialize(System.Reflection.Assembly)
+  id: Initialize(System.Reflection.Assembly)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize(Assembly)
+  nameWithType: TestRunnerManager.Initialize(Assembly)
+  fullName: Reqnroll.TestRunnerManager.Initialize(System.Reflection.Assembly)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Initialize
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 205
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  example: []
+  syntax:
+    content: public void Initialize(Assembly assignedTestAssembly)
+    parameters:
+    - id: assignedTestAssembly
+      type: System.Reflection.Assembly
+    content.vb: Public Sub Initialize(assignedTestAssembly As Assembly)
+  overload: Reqnroll.TestRunnerManager.Initialize*
+  implements:
+  - Reqnroll.ITestRunnerManager.Initialize(System.Reflection.Assembly)
+- uid: Reqnroll.TestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.TestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)
+  id: GetTestRunner(Reqnroll.FeatureInfo)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: GetTestRunner(FeatureInfo)
+  nameWithType: TestRunnerManager.GetTestRunner(FeatureInfo)
+  fullName: Reqnroll.TestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetTestRunner
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 210
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  example: []
+  syntax:
+    content: public virtual ITestRunner GetTestRunner(FeatureInfo featureHint = null)
+    parameters:
+    - id: featureHint
+      type: Reqnroll.FeatureInfo
+    return:
+      type: Reqnroll.ITestRunner
+    content.vb: Public Overridable Function GetTestRunner(featureHint As FeatureInfo = Nothing) As ITestRunner
+  overload: Reqnroll.TestRunnerManager.GetTestRunner*
+  implements:
+  - Reqnroll.ITestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)
+- uid: Reqnroll.TestRunnerManager.DisposeAsync
+  commentId: M:Reqnroll.TestRunnerManager.DisposeAsync
+  id: DisposeAsync
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: DisposeAsync()
+  nameWithType: TestRunnerManager.DisposeAsync()
+  fullName: Reqnroll.TestRunnerManager.DisposeAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DisposeAsync
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 251
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  example: []
+  syntax:
+    content: public virtual Task DisposeAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overridable Function DisposeAsync() As Task
+  overload: Reqnroll.TestRunnerManager.DisposeAsync*
+  implements:
+  - Reqnroll.ITestRunnerManager.DisposeAsync
+- uid: Reqnroll.TestRunnerManager.GetTestRunnerManager(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,System.Boolean)
+  commentId: M:Reqnroll.TestRunnerManager.GetTestRunnerManager(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,System.Boolean)
+  id: GetTestRunnerManager(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,System.Boolean)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: GetTestRunnerManager(Assembly, IContainerBuilder, bool)
+  nameWithType: TestRunnerManager.GetTestRunnerManager(Assembly, IContainerBuilder, bool)
+  fullName: Reqnroll.TestRunnerManager.GetTestRunnerManager(System.Reflection.Assembly, Reqnroll.Infrastructure.IContainerBuilder, bool)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetTestRunnerManager
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 293
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static ITestRunnerManager GetTestRunnerManager(Assembly testAssembly = null, IContainerBuilder containerBuilder = null, bool createIfMissing = true)
+    parameters:
+    - id: testAssembly
+      type: System.Reflection.Assembly
+    - id: containerBuilder
+      type: Reqnroll.Infrastructure.IContainerBuilder
+    - id: createIfMissing
+      type: System.Boolean
+    return:
+      type: Reqnroll.ITestRunnerManager
+    content.vb: Public Shared Function GetTestRunnerManager(testAssembly As Assembly = Nothing, containerBuilder As IContainerBuilder = Nothing, createIfMissing As Boolean = True) As ITestRunnerManager
+  overload: Reqnroll.TestRunnerManager.GetTestRunnerManager*
+  nameWithType.vb: TestRunnerManager.GetTestRunnerManager(Assembly, IContainerBuilder, Boolean)
+  fullName.vb: Reqnroll.TestRunnerManager.GetTestRunnerManager(System.Reflection.Assembly, Reqnroll.Infrastructure.IContainerBuilder, Boolean)
+  name.vb: GetTestRunnerManager(Assembly, IContainerBuilder, Boolean)
+- uid: Reqnroll.TestRunnerManager.OnTestRunEndAsync(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder)
+  commentId: M:Reqnroll.TestRunnerManager.OnTestRunEndAsync(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder)
+  id: OnTestRunEndAsync(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: OnTestRunEndAsync(Assembly, IContainerBuilder)
+  nameWithType: TestRunnerManager.OnTestRunEndAsync(Assembly, IContainerBuilder)
+  fullName: Reqnroll.TestRunnerManager.OnTestRunEndAsync(System.Reflection.Assembly, Reqnroll.Infrastructure.IContainerBuilder)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnTestRunEndAsync
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 348
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static Task OnTestRunEndAsync(Assembly testAssembly = null, IContainerBuilder containerBuilder = null)
+    parameters:
+    - id: testAssembly
+      type: System.Reflection.Assembly
+    - id: containerBuilder
+      type: Reqnroll.Infrastructure.IContainerBuilder
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function OnTestRunEndAsync(testAssembly As Assembly = Nothing, containerBuilder As IContainerBuilder = Nothing) As Task
+  overload: Reqnroll.TestRunnerManager.OnTestRunEndAsync*
+- uid: Reqnroll.TestRunnerManager.OnTestRunStartAsync(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder)
+  commentId: M:Reqnroll.TestRunnerManager.OnTestRunStartAsync(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder)
+  id: OnTestRunStartAsync(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: OnTestRunStartAsync(Assembly, IContainerBuilder)
+  nameWithType: TestRunnerManager.OnTestRunStartAsync(Assembly, IContainerBuilder)
+  fullName: Reqnroll.TestRunnerManager.OnTestRunStartAsync(System.Reflection.Assembly, Reqnroll.Infrastructure.IContainerBuilder)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnTestRunStartAsync
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 359
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static Task OnTestRunStartAsync(Assembly testAssembly = null, IContainerBuilder containerBuilder = null)
+    parameters:
+    - id: testAssembly
+      type: System.Reflection.Assembly
+    - id: containerBuilder
+      type: Reqnroll.Infrastructure.IContainerBuilder
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function OnTestRunStartAsync(testAssembly As Assembly = Nothing, containerBuilder As IContainerBuilder = Nothing) As Task
+  overload: Reqnroll.TestRunnerManager.OnTestRunStartAsync*
+- uid: Reqnroll.TestRunnerManager.GetTestRunnerForAssembly(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.TestRunnerManager.GetTestRunnerForAssembly(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.FeatureInfo)
+  id: GetTestRunnerForAssembly(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.FeatureInfo)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: GetTestRunnerForAssembly(Assembly, IContainerBuilder, FeatureInfo)
+  nameWithType: TestRunnerManager.GetTestRunnerForAssembly(Assembly, IContainerBuilder, FeatureInfo)
+  fullName: Reqnroll.TestRunnerManager.GetTestRunnerForAssembly(System.Reflection.Assembly, Reqnroll.Infrastructure.IContainerBuilder, Reqnroll.FeatureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetTestRunnerForAssembly
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 376
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  summary: >-
+    Provides a test runner for the specified or current assembly with optionally a custom container builder and a feature hint.
+
+    When a feature hint is provided the test runner manager will attempt to return the same test runner that was used for that
+
+    feature before.
+  example: []
+  syntax:
+    content: public static ITestRunner GetTestRunnerForAssembly(Assembly testAssembly = null, IContainerBuilder containerBuilder = null, FeatureInfo featureHint = null)
+    parameters:
+    - id: testAssembly
+      type: System.Reflection.Assembly
+      description: The test assembly. If omitted or invoked with <code>null</code>, the calling assembly is used.
+    - id: containerBuilder
+      type: Reqnroll.Infrastructure.IContainerBuilder
+      description: The container builder to be used to set up Reqnroll dependencies. If omitted or invoked with <code>null</code>, the default container builder is used.
+    - id: featureHint
+      type: Reqnroll.FeatureInfo
+      description: If specified, it is used as a hint for the test runner manager to choose the test runner that has been used for the feature before, if possible.
+    return:
+      type: Reqnroll.ITestRunner
+      description: A test runner that can be used to interact with Reqnroll.
+    content.vb: Public Shared Function GetTestRunnerForAssembly(testAssembly As Assembly = Nothing, containerBuilder As IContainerBuilder = Nothing, featureHint As FeatureInfo = Nothing) As ITestRunner
+  overload: Reqnroll.TestRunnerManager.GetTestRunnerForAssembly*
+- uid: Reqnroll.TestRunnerManager.ReleaseTestRunner(Reqnroll.ITestRunner)
+  commentId: M:Reqnroll.TestRunnerManager.ReleaseTestRunner(Reqnroll.ITestRunner)
+  id: ReleaseTestRunner(Reqnroll.ITestRunner)
+  parent: Reqnroll.TestRunnerManager
+  langs:
+  - csharp
+  - vb
+  name: ReleaseTestRunner(ITestRunner)
+  nameWithType: TestRunnerManager.ReleaseTestRunner(ITestRunner)
+  fullName: Reqnroll.TestRunnerManager.ReleaseTestRunner(Reqnroll.ITestRunner)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/TestRunnerManager.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ReleaseTestRunner
+    path: ../Reqnroll/Reqnroll/TestRunnerManager.cs
+    startLine: 383
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public static void ReleaseTestRunner(ITestRunner testRunner)
+    parameters:
+    - id: testRunner
+      type: Reqnroll.ITestRunner
+    content.vb: Public Shared Sub ReleaseTestRunner(testRunner As ITestRunner)
+  overload: Reqnroll.TestRunnerManager.ReleaseTestRunner*
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.ITestRunnerManager
+  commentId: T:Reqnroll.ITestRunnerManager
+  parent: Reqnroll
+  href: Reqnroll.ITestRunnerManager.html
+  name: ITestRunnerManager
+  nameWithType: ITestRunnerManager
+  fullName: Reqnroll.ITestRunnerManager
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.Infrastructure.IContainerBuilder
+  commentId: T:Reqnroll.Infrastructure.IContainerBuilder
+  parent: Reqnroll.Infrastructure
+  href: Reqnroll.Infrastructure.IContainerBuilder.html
+  name: IContainerBuilder
+  nameWithType: IContainerBuilder
+  fullName: Reqnroll.Infrastructure.IContainerBuilder
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  commentId: T:Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.html
+  name: IRuntimeBindingRegistryBuilder
+  nameWithType: IRuntimeBindingRegistryBuilder
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+- uid: Reqnroll.Bindings.Discovery
+  commentId: N:Reqnroll.Bindings.Discovery
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Discovery
+  nameWithType: Reqnroll.Bindings.Discovery
+  fullName: Reqnroll.Bindings.Discovery
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+- uid: Reqnroll.Tracing.ITestTracer
+  commentId: T:Reqnroll.Tracing.ITestTracer
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITestTracer.html
+  name: ITestTracer
+  nameWithType: ITestTracer
+  fullName: Reqnroll.Tracing.ITestTracer
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: Reqnroll.TestRunnerManager.IsTestRunInitialized*
+  commentId: Overload:Reqnroll.TestRunnerManager.IsTestRunInitialized
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_IsTestRunInitialized
+  name: IsTestRunInitialized
+  nameWithType: TestRunnerManager.IsTestRunInitialized
+  fullName: Reqnroll.TestRunnerManager.IsTestRunInitialized
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.TestRunnerManager.TestAssembly*
+  commentId: Overload:Reqnroll.TestRunnerManager.TestAssembly
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_TestAssembly
+  name: TestAssembly
+  nameWithType: TestRunnerManager.TestAssembly
+  fullName: Reqnroll.TestRunnerManager.TestAssembly
+- uid: Reqnroll.ITestRunnerManager.TestAssembly
+  commentId: P:Reqnroll.ITestRunnerManager.TestAssembly
+  parent: Reqnroll.ITestRunnerManager
+  href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_TestAssembly
+  name: TestAssembly
+  nameWithType: ITestRunnerManager.TestAssembly
+  fullName: Reqnroll.ITestRunnerManager.TestAssembly
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: Reqnroll.TestRunnerManager.BindingAssemblies*
+  commentId: Overload:Reqnroll.TestRunnerManager.BindingAssemblies
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_BindingAssemblies
+  name: BindingAssemblies
+  nameWithType: TestRunnerManager.BindingAssemblies
+  fullName: Reqnroll.TestRunnerManager.BindingAssemblies
+- uid: Reqnroll.ITestRunnerManager.BindingAssemblies
+  commentId: P:Reqnroll.ITestRunnerManager.BindingAssemblies
+  parent: Reqnroll.ITestRunnerManager
+  href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_BindingAssemblies
+  name: BindingAssemblies
+  nameWithType: ITestRunnerManager.BindingAssemblies
+  fullName: Reqnroll.ITestRunnerManager.BindingAssemblies
+- uid: System.Reflection.Assembly[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly[]
+  nameWithType: Assembly[]
+  fullName: System.Reflection.Assembly[]
+  nameWithType.vb: Assembly()
+  fullName.vb: System.Reflection.Assembly()
+  name.vb: Assembly()
+  spec.csharp:
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: (
+  - name: )
+- uid: Reqnroll.TestRunnerManager.IsMultiThreaded*
+  commentId: Overload:Reqnroll.TestRunnerManager.IsMultiThreaded
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_IsMultiThreaded
+  name: IsMultiThreaded
+  nameWithType: TestRunnerManager.IsMultiThreaded
+  fullName: Reqnroll.TestRunnerManager.IsMultiThreaded
+- uid: Reqnroll.ITestRunnerManager.IsMultiThreaded
+  commentId: P:Reqnroll.ITestRunnerManager.IsMultiThreaded
+  parent: Reqnroll.ITestRunnerManager
+  href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_IsMultiThreaded
+  name: IsMultiThreaded
+  nameWithType: ITestRunnerManager.IsMultiThreaded
+  fullName: Reqnroll.ITestRunnerManager.IsMultiThreaded
+- uid: Reqnroll.TestRunnerManager.#ctor*
+  commentId: Overload:Reqnroll.TestRunnerManager.#ctor
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager__ctor_Reqnroll_BoDi_IObjectContainer_Reqnroll_Infrastructure_IContainerBuilder_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_Bindings_Discovery_IRuntimeBindingRegistryBuilder_Reqnroll_Tracing_ITestTracer_
+  name: TestRunnerManager
+  nameWithType: TestRunnerManager.TestRunnerManager
+  fullName: Reqnroll.TestRunnerManager.TestRunnerManager
+  nameWithType.vb: TestRunnerManager.New
+  fullName.vb: Reqnroll.TestRunnerManager.New
+  name.vb: New
+- uid: Reqnroll.TestRunnerManager.GetOrCreateTestRunner*
+  commentId: Overload:Reqnroll.TestRunnerManager.GetOrCreateTestRunner
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_GetOrCreateTestRunner_Reqnroll_FeatureInfo_
+  name: GetOrCreateTestRunner
+  nameWithType: TestRunnerManager.GetOrCreateTestRunner
+  fullName: Reqnroll.TestRunnerManager.GetOrCreateTestRunner
+- uid: Reqnroll.FeatureInfo
+  commentId: T:Reqnroll.FeatureInfo
+  parent: Reqnroll
+  href: Reqnroll.FeatureInfo.html
+  name: FeatureInfo
+  nameWithType: FeatureInfo
+  fullName: Reqnroll.FeatureInfo
+- uid: Reqnroll.ITestRunner
+  commentId: T:Reqnroll.ITestRunner
+  parent: Reqnroll
+  href: Reqnroll.ITestRunner.html
+  name: ITestRunner
+  nameWithType: ITestRunner
+  fullName: Reqnroll.ITestRunner
+- uid: Reqnroll.TestRunnerManager.ReleaseTestThreadContext*
+  commentId: Overload:Reqnroll.TestRunnerManager.ReleaseTestThreadContext
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_ReleaseTestThreadContext_Reqnroll_ITestThreadContext_
+  name: ReleaseTestThreadContext
+  nameWithType: TestRunnerManager.ReleaseTestThreadContext
+  fullName: Reqnroll.TestRunnerManager.ReleaseTestThreadContext
+- uid: Reqnroll.ITestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+  commentId: M:Reqnroll.ITestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+  parent: Reqnroll.ITestRunnerManager
+  href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_ReleaseTestThreadContext_Reqnroll_ITestThreadContext_
+  name: ReleaseTestThreadContext(ITestThreadContext)
+  nameWithType: ITestRunnerManager.ReleaseTestThreadContext(ITestThreadContext)
+  fullName: Reqnroll.ITestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+  spec.csharp:
+  - uid: Reqnroll.ITestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+    name: ReleaseTestThreadContext
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_ReleaseTestThreadContext_Reqnroll_ITestThreadContext_
+  - name: (
+  - uid: Reqnroll.ITestThreadContext
+    name: ITestThreadContext
+    href: Reqnroll.ITestThreadContext.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ITestRunnerManager.ReleaseTestThreadContext(Reqnroll.ITestThreadContext)
+    name: ReleaseTestThreadContext
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_ReleaseTestThreadContext_Reqnroll_ITestThreadContext_
+  - name: (
+  - uid: Reqnroll.ITestThreadContext
+    name: ITestThreadContext
+    href: Reqnroll.ITestThreadContext.html
+  - name: )
+- uid: Reqnroll.ITestThreadContext
+  commentId: T:Reqnroll.ITestThreadContext
+  parent: Reqnroll
+  href: Reqnroll.ITestThreadContext.html
+  name: ITestThreadContext
+  nameWithType: ITestThreadContext
+  fullName: Reqnroll.ITestThreadContext
+- uid: Reqnroll.TestRunnerManager.InitializeBindingRegistry*
+  commentId: Overload:Reqnroll.TestRunnerManager.InitializeBindingRegistry
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_InitializeBindingRegistry_Reqnroll_ITestRunner_
+  name: InitializeBindingRegistry
+  nameWithType: TestRunnerManager.InitializeBindingRegistry
+  fullName: Reqnroll.TestRunnerManager.InitializeBindingRegistry
+- uid: Reqnroll.TestRunnerManager.BuildBindingRegistry*
+  commentId: Overload:Reqnroll.TestRunnerManager.BuildBindingRegistry
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_BuildBindingRegistry_System_Collections_Generic_IEnumerable_System_Reflection_Assembly__
+  name: BuildBindingRegistry
+  nameWithType: TestRunnerManager.BuildBindingRegistry
+  fullName: Reqnroll.TestRunnerManager.BuildBindingRegistry
+- uid: System.Collections.Generic.IEnumerable{System.Reflection.Assembly}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Reflection.Assembly}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Assembly>
+  nameWithType: IEnumerable<Assembly>
+  fullName: System.Collections.Generic.IEnumerable<System.Reflection.Assembly>
+  nameWithType.vb: IEnumerable(Of Assembly)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Reflection.Assembly)
+  name.vb: IEnumerable(Of Assembly)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.TestRunnerManager.OnDomainUnloadAsync*
+  commentId: Overload:Reqnroll.TestRunnerManager.OnDomainUnloadAsync
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_OnDomainUnloadAsync
+  name: OnDomainUnloadAsync
+  nameWithType: TestRunnerManager.OnDomainUnloadAsync
+  fullName: Reqnroll.TestRunnerManager.OnDomainUnloadAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Reqnroll.TestRunnerManager.FireTestRunEndAsync*
+  commentId: Overload:Reqnroll.TestRunnerManager.FireTestRunEndAsync
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_FireTestRunEndAsync
+  name: FireTestRunEndAsync
+  nameWithType: TestRunnerManager.FireTestRunEndAsync
+  fullName: Reqnroll.TestRunnerManager.FireTestRunEndAsync
+- uid: Reqnroll.ITestRunnerManager.FireTestRunEndAsync
+  commentId: M:Reqnroll.ITestRunnerManager.FireTestRunEndAsync
+  parent: Reqnroll.ITestRunnerManager
+  href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_FireTestRunEndAsync
+  name: FireTestRunEndAsync()
+  nameWithType: ITestRunnerManager.FireTestRunEndAsync()
+  fullName: Reqnroll.ITestRunnerManager.FireTestRunEndAsync()
+  spec.csharp:
+  - uid: Reqnroll.ITestRunnerManager.FireTestRunEndAsync
+    name: FireTestRunEndAsync
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_FireTestRunEndAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ITestRunnerManager.FireTestRunEndAsync
+    name: FireTestRunEndAsync
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_FireTestRunEndAsync
+  - name: (
+  - name: )
+- uid: Reqnroll.TestRunnerManager.FireTestRunStartAsync*
+  commentId: Overload:Reqnroll.TestRunnerManager.FireTestRunStartAsync
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_FireTestRunStartAsync
+  name: FireTestRunStartAsync
+  nameWithType: TestRunnerManager.FireTestRunStartAsync
+  fullName: Reqnroll.TestRunnerManager.FireTestRunStartAsync
+- uid: Reqnroll.ITestRunnerManager.FireTestRunStartAsync
+  commentId: M:Reqnroll.ITestRunnerManager.FireTestRunStartAsync
+  parent: Reqnroll.ITestRunnerManager
+  href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_FireTestRunStartAsync
+  name: FireTestRunStartAsync()
+  nameWithType: ITestRunnerManager.FireTestRunStartAsync()
+  fullName: Reqnroll.ITestRunnerManager.FireTestRunStartAsync()
+  spec.csharp:
+  - uid: Reqnroll.ITestRunnerManager.FireTestRunStartAsync
+    name: FireTestRunStartAsync
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_FireTestRunStartAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ITestRunnerManager.FireTestRunStartAsync
+    name: FireTestRunStartAsync
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_FireTestRunStartAsync
+  - name: (
+  - name: )
+- uid: Reqnroll.TestRunnerManager.GetOrCreateTestRunnerInstance*
+  commentId: Overload:Reqnroll.TestRunnerManager.GetOrCreateTestRunnerInstance
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_GetOrCreateTestRunnerInstance_Reqnroll_FeatureInfo_
+  name: GetOrCreateTestRunnerInstance
+  nameWithType: TestRunnerManager.GetOrCreateTestRunnerInstance
+  fullName: Reqnroll.TestRunnerManager.GetOrCreateTestRunnerInstance
+- uid: Reqnroll.TestRunnerManager.Initialize*
+  commentId: Overload:Reqnroll.TestRunnerManager.Initialize
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_Initialize_System_Reflection_Assembly_
+  name: Initialize
+  nameWithType: TestRunnerManager.Initialize
+  fullName: Reqnroll.TestRunnerManager.Initialize
+- uid: Reqnroll.ITestRunnerManager.Initialize(System.Reflection.Assembly)
+  commentId: M:Reqnroll.ITestRunnerManager.Initialize(System.Reflection.Assembly)
+  parent: Reqnroll.ITestRunnerManager
+  isExternal: true
+  href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_Initialize_System_Reflection_Assembly_
+  name: Initialize(Assembly)
+  nameWithType: ITestRunnerManager.Initialize(Assembly)
+  fullName: Reqnroll.ITestRunnerManager.Initialize(System.Reflection.Assembly)
+  spec.csharp:
+  - uid: Reqnroll.ITestRunnerManager.Initialize(System.Reflection.Assembly)
+    name: Initialize
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_Initialize_System_Reflection_Assembly_
+  - name: (
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ITestRunnerManager.Initialize(System.Reflection.Assembly)
+    name: Initialize
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_Initialize_System_Reflection_Assembly_
+  - name: (
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: )
+- uid: Reqnroll.TestRunnerManager.GetTestRunner*
+  commentId: Overload:Reqnroll.TestRunnerManager.GetTestRunner
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_GetTestRunner_Reqnroll_FeatureInfo_
+  name: GetTestRunner
+  nameWithType: TestRunnerManager.GetTestRunner
+  fullName: Reqnroll.TestRunnerManager.GetTestRunner
+- uid: Reqnroll.ITestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.ITestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)
+  parent: Reqnroll.ITestRunnerManager
+  href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_GetTestRunner_Reqnroll_FeatureInfo_
+  name: GetTestRunner(FeatureInfo)
+  nameWithType: ITestRunnerManager.GetTestRunner(FeatureInfo)
+  fullName: Reqnroll.ITestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)
+  spec.csharp:
+  - uid: Reqnroll.ITestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)
+    name: GetTestRunner
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_GetTestRunner_Reqnroll_FeatureInfo_
+  - name: (
+  - uid: Reqnroll.FeatureInfo
+    name: FeatureInfo
+    href: Reqnroll.FeatureInfo.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ITestRunnerManager.GetTestRunner(Reqnroll.FeatureInfo)
+    name: GetTestRunner
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_GetTestRunner_Reqnroll_FeatureInfo_
+  - name: (
+  - uid: Reqnroll.FeatureInfo
+    name: FeatureInfo
+    href: Reqnroll.FeatureInfo.html
+  - name: )
+- uid: Reqnroll.TestRunnerManager.DisposeAsync*
+  commentId: Overload:Reqnroll.TestRunnerManager.DisposeAsync
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_DisposeAsync
+  name: DisposeAsync
+  nameWithType: TestRunnerManager.DisposeAsync
+  fullName: Reqnroll.TestRunnerManager.DisposeAsync
+- uid: Reqnroll.ITestRunnerManager.DisposeAsync
+  commentId: M:Reqnroll.ITestRunnerManager.DisposeAsync
+  parent: Reqnroll.ITestRunnerManager
+  href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_DisposeAsync
+  name: DisposeAsync()
+  nameWithType: ITestRunnerManager.DisposeAsync()
+  fullName: Reqnroll.ITestRunnerManager.DisposeAsync()
+  spec.csharp:
+  - uid: Reqnroll.ITestRunnerManager.DisposeAsync
+    name: DisposeAsync
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_DisposeAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ITestRunnerManager.DisposeAsync
+    name: DisposeAsync
+    href: Reqnroll.ITestRunnerManager.html#Reqnroll_ITestRunnerManager_DisposeAsync
+  - name: (
+  - name: )
+- uid: Reqnroll.TestRunnerManager.GetTestRunnerManager*
+  commentId: Overload:Reqnroll.TestRunnerManager.GetTestRunnerManager
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_GetTestRunnerManager_System_Reflection_Assembly_Reqnroll_Infrastructure_IContainerBuilder_System_Boolean_
+  name: GetTestRunnerManager
+  nameWithType: TestRunnerManager.GetTestRunnerManager
+  fullName: Reqnroll.TestRunnerManager.GetTestRunnerManager
+- uid: Reqnroll.TestRunnerManager.OnTestRunEndAsync*
+  commentId: Overload:Reqnroll.TestRunnerManager.OnTestRunEndAsync
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_OnTestRunEndAsync_System_Reflection_Assembly_Reqnroll_Infrastructure_IContainerBuilder_
+  name: OnTestRunEndAsync
+  nameWithType: TestRunnerManager.OnTestRunEndAsync
+  fullName: Reqnroll.TestRunnerManager.OnTestRunEndAsync
+- uid: Reqnroll.TestRunnerManager.OnTestRunStartAsync*
+  commentId: Overload:Reqnroll.TestRunnerManager.OnTestRunStartAsync
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_OnTestRunStartAsync_System_Reflection_Assembly_Reqnroll_Infrastructure_IContainerBuilder_
+  name: OnTestRunStartAsync
+  nameWithType: TestRunnerManager.OnTestRunStartAsync
+  fullName: Reqnroll.TestRunnerManager.OnTestRunStartAsync
+- uid: Reqnroll.TestRunnerManager.GetTestRunnerForAssembly*
+  commentId: Overload:Reqnroll.TestRunnerManager.GetTestRunnerForAssembly
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_GetTestRunnerForAssembly_System_Reflection_Assembly_Reqnroll_Infrastructure_IContainerBuilder_Reqnroll_FeatureInfo_
+  name: GetTestRunnerForAssembly
+  nameWithType: TestRunnerManager.GetTestRunnerForAssembly
+  fullName: Reqnroll.TestRunnerManager.GetTestRunnerForAssembly
+- uid: Reqnroll.TestRunnerManager.ReleaseTestRunner*
+  commentId: Overload:Reqnroll.TestRunnerManager.ReleaseTestRunner
+  href: Reqnroll.TestRunnerManager.html#Reqnroll_TestRunnerManager_ReleaseTestRunner_Reqnroll_ITestRunner_
+  name: ReleaseTestRunner
+  nameWithType: TestRunnerManager.ReleaseTestRunner
+  fullName: Reqnroll.TestRunnerManager.ReleaseTestRunner

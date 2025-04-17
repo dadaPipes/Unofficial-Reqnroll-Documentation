@@ -1,0 +1,504 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter
+  commentId: T:Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter
+  id: ReqnrollAttributesFilter
+  parent: Reqnroll.Bindings.Discovery
+  children:
+  - Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  langs:
+  - csharp
+  - vb
+  name: ReqnrollAttributesFilter
+  nameWithType: ReqnrollAttributesFilter
+  fullName: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/ReqnrollAttributesFilter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ReqnrollAttributesFilter
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/ReqnrollAttributesFilter.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: 'public class ReqnrollAttributesFilter : IReqnrollAttributesFilter'
+    content.vb: Public Class ReqnrollAttributesFilter Implements IReqnrollAttributesFilter
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  commentId: M:Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  id: FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  parent: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter
+  langs:
+  - csharp
+  - vb
+  name: FilterForReqnrollAttributes(IEnumerable<Attribute>)
+  nameWithType: ReqnrollAttributesFilter.FilterForReqnrollAttributes(IEnumerable<Attribute>)
+  fullName: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable<System.Attribute>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/ReqnrollAttributesFilter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FilterForReqnrollAttributes
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/ReqnrollAttributesFilter.cs
+    startLine: 29
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  example: []
+  syntax:
+    content: public IEnumerable<Attribute> FilterForReqnrollAttributes(IEnumerable<Attribute> customAttributes)
+    parameters:
+    - id: customAttributes
+      type: System.Collections.Generic.IEnumerable{System.Attribute}
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Attribute}
+    content.vb: Public Function FilterForReqnrollAttributes(customAttributes As IEnumerable(Of Attribute)) As IEnumerable(Of Attribute)
+  overload: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.FilterForReqnrollAttributes*
+  implements:
+  - Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  nameWithType.vb: ReqnrollAttributesFilter.FilterForReqnrollAttributes(IEnumerable(Of Attribute))
+  fullName.vb: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable(Of System.Attribute))
+  name.vb: FilterForReqnrollAttributes(IEnumerable(Of Attribute))
+references:
+- uid: Reqnroll.Bindings.Discovery
+  commentId: N:Reqnroll.Bindings.Discovery
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Discovery
+  nameWithType: Reqnroll.Bindings.Discovery
+  fullName: Reqnroll.Bindings.Discovery
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  commentId: T:Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.html
+  name: IReqnrollAttributesFilter
+  nameWithType: IReqnrollAttributesFilter
+  fullName: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.FilterForReqnrollAttributes*
+  commentId: Overload:Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.FilterForReqnrollAttributes
+  href: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.html#Reqnroll_Bindings_Discovery_ReqnrollAttributesFilter_FilterForReqnrollAttributes_System_Collections_Generic_IEnumerable_System_Attribute__
+  name: FilterForReqnrollAttributes
+  nameWithType: ReqnrollAttributesFilter.FilterForReqnrollAttributes
+  fullName: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.FilterForReqnrollAttributes
+- uid: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  commentId: M:Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+  parent: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  isExternal: true
+  href: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.html#Reqnroll_Bindings_Discovery_IReqnrollAttributesFilter_FilterForReqnrollAttributes_System_Collections_Generic_IEnumerable_System_Attribute__
+  name: FilterForReqnrollAttributes(IEnumerable<Attribute>)
+  nameWithType: IReqnrollAttributesFilter.FilterForReqnrollAttributes(IEnumerable<Attribute>)
+  fullName: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable<System.Attribute>)
+  nameWithType.vb: IReqnrollAttributesFilter.FilterForReqnrollAttributes(IEnumerable(Of Attribute))
+  fullName.vb: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable(Of System.Attribute))
+  name.vb: FilterForReqnrollAttributes(IEnumerable(Of Attribute))
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+    name: FilterForReqnrollAttributes
+    href: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.html#Reqnroll_Bindings_Discovery_IReqnrollAttributesFilter_FilterForReqnrollAttributes_System_Collections_Generic_IEnumerable_System_Attribute__
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.FilterForReqnrollAttributes(System.Collections.Generic.IEnumerable{System.Attribute})
+    name: FilterForReqnrollAttributes
+    href: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.html#Reqnroll_Bindings_Discovery_IReqnrollAttributesFilter_FilterForReqnrollAttributes_System_Collections_Generic_IEnumerable_System_Attribute__
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Attribute}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Attribute}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Attribute>
+  nameWithType: IEnumerable<Attribute>
+  fullName: System.Collections.Generic.IEnumerable<System.Attribute>
+  nameWithType.vb: IEnumerable(Of Attribute)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Attribute)
+  name.vb: IEnumerable(Of Attribute)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.CucumberExpressions
+  commentId: N:Reqnroll.Bindings.CucumberExpressions
+  id: Reqnroll.Bindings.CucumberExpressions
+  children:
+  - Reqnroll.Bindings.CucumberExpressions.BuiltInCucumberExpressionParameterTypeTransformation
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionDetector
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterTypeRegistry
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilderFactory
+  - Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+  - Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+  - Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+  - Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  - Reqnroll.Bindings.CucumberExpressions.ReqnrollCucumberExpression
+  - Reqnroll.Bindings.CucumberExpressions.UserDefinedCucumberExpressionParameterTypeTransformation
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Bindings.CucumberExpressions
+  nameWithType: Reqnroll.Bindings.CucumberExpressions
+  fullName: Reqnroll.Bindings.CucumberExpressions
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Bindings.CucumberExpressions.BuiltInCucumberExpressionParameterTypeTransformation
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.BuiltInCucumberExpressionParameterTypeTransformation
+  href: Reqnroll.Bindings.CucumberExpressions.BuiltInCucumberExpressionParameterTypeTransformation.html
+  name: BuiltInCucumberExpressionParameterTypeTransformation
+  nameWithType: BuiltInCucumberExpressionParameterTypeTransformation
+  fullName: Reqnroll.Bindings.CucumberExpressions.BuiltInCucumberExpressionParameterTypeTransformation
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionDetector
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionDetector
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionDetector.html
+  name: CucumberExpressionDetector
+  nameWithType: CucumberExpressionDetector
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionDetector
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.html
+  name: CucumberExpressionParameterType
+  nameWithType: CucumberExpressionParameterType
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterTypeRegistry
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterTypeRegistry
+  parent: Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterTypeRegistry.html
+  name: CucumberExpressionParameterTypeRegistry
+  nameWithType: CucumberExpressionParameterTypeRegistry
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterTypeRegistry
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder
+  parent: Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder.html
+  name: CucumberExpressionStepDefinitionBindingBuilder
+  nameWithType: CucumberExpressionStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+  parent: Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.html
+  name: ICucumberExpressionStepDefinitionBindingBuilderFactory
+  nameWithType: ICucumberExpressionStepDefinitionBindingBuilderFactory
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilderFactory
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilderFactory
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilderFactory.html
+  name: CucumberExpressionStepDefinitionBindingBuilderFactory
+  nameWithType: CucumberExpressionStepDefinitionBindingBuilderFactory
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilderFactory
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+  parent: Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.html
+  name: ICucumberExpressionDetector
+  nameWithType: ICucumberExpressionDetector
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+  parent: Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation.html
+  name: ICucumberExpressionParameterTypeTransformation
+  nameWithType: ICucumberExpressionParameterTypeTransformation
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+- uid: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  parent: Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.html
+  name: IReqnrollCucumberExpressionParameterType
+  nameWithType: IReqnrollCucumberExpressionParameterType
+  fullName: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+- uid: Reqnroll.Bindings.CucumberExpressions.ReqnrollCucumberExpression
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.ReqnrollCucumberExpression
+  href: Reqnroll.Bindings.CucumberExpressions.ReqnrollCucumberExpression.html
+  name: ReqnrollCucumberExpression
+  nameWithType: ReqnrollCucumberExpression
+  fullName: Reqnroll.Bindings.CucumberExpressions.ReqnrollCucumberExpression
+- uid: Reqnroll.Bindings.CucumberExpressions.UserDefinedCucumberExpressionParameterTypeTransformation
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.UserDefinedCucumberExpressionParameterTypeTransformation
+  href: Reqnroll.Bindings.CucumberExpressions.UserDefinedCucumberExpressionParameterTypeTransformation.html
+  name: UserDefinedCucumberExpressionParameterTypeTransformation
+  nameWithType: UserDefinedCucumberExpressionParameterTypeTransformation
+  fullName: Reqnroll.Bindings.CucumberExpressions.UserDefinedCucumberExpressionParameterTypeTransformation
+- uid: Reqnroll.Bindings.CucumberExpressions
+  commentId: N:Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.CucumberExpressions
+  nameWithType: Reqnroll.Bindings.CucumberExpressions
+  fullName: Reqnroll.Bindings.CucumberExpressions
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html

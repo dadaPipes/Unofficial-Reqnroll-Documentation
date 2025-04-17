@@ -1,0 +1,692 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.StepInstance
+  commentId: T:Reqnroll.Bindings.StepInstance
+  id: StepInstance
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.StepInstance.#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,Reqnroll.Bindings.StepContext)
+  - Reqnroll.Bindings.StepInstance.#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,System.String,Reqnroll.Table,Reqnroll.Bindings.StepContext)
+  - Reqnroll.Bindings.StepInstance.Keyword
+  - Reqnroll.Bindings.StepInstance.MultilineTextArgument
+  - Reqnroll.Bindings.StepInstance.StepContext
+  - Reqnroll.Bindings.StepInstance.StepDefinitionKeyword
+  - Reqnroll.Bindings.StepInstance.StepDefinitionType
+  - Reqnroll.Bindings.StepInstance.TableArgument
+  - Reqnroll.Bindings.StepInstance.Text
+  langs:
+  - csharp
+  - vb
+  name: StepInstance
+  nameWithType: StepInstance
+  fullName: Reqnroll.Bindings.StepInstance
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepInstance
+    path: ../Reqnroll/Reqnroll/Bindings/StepInstance.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public class StepInstance
+    content.vb: Public Class StepInstance
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.StepInstance.StepDefinitionType
+  commentId: P:Reqnroll.Bindings.StepInstance.StepDefinitionType
+  id: StepDefinitionType
+  parent: Reqnroll.Bindings.StepInstance
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionType
+  nameWithType: StepInstance.StepDefinitionType
+  fullName: Reqnroll.Bindings.StepInstance.StepDefinitionType
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepDefinitionType
+    path: ../Reqnroll/Reqnroll/Bindings/StepInstance.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public StepDefinitionType StepDefinitionType { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.StepDefinitionType
+    content.vb: Public Property StepDefinitionType As StepDefinitionType
+  overload: Reqnroll.Bindings.StepInstance.StepDefinitionType*
+- uid: Reqnroll.Bindings.StepInstance.StepDefinitionKeyword
+  commentId: P:Reqnroll.Bindings.StepInstance.StepDefinitionKeyword
+  id: StepDefinitionKeyword
+  parent: Reqnroll.Bindings.StepInstance
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionKeyword
+  nameWithType: StepInstance.StepDefinitionKeyword
+  fullName: Reqnroll.Bindings.StepInstance.StepDefinitionKeyword
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepDefinitionKeyword
+    path: ../Reqnroll/Reqnroll/Bindings/StepInstance.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public StepDefinitionKeyword StepDefinitionKeyword { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.StepDefinitionKeyword
+    content.vb: Public Property StepDefinitionKeyword As StepDefinitionKeyword
+  overload: Reqnroll.Bindings.StepInstance.StepDefinitionKeyword*
+- uid: Reqnroll.Bindings.StepInstance.Keyword
+  commentId: P:Reqnroll.Bindings.StepInstance.Keyword
+  id: Keyword
+  parent: Reqnroll.Bindings.StepInstance
+  langs:
+  - csharp
+  - vb
+  name: Keyword
+  nameWithType: StepInstance.Keyword
+  fullName: Reqnroll.Bindings.StepInstance.Keyword
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Keyword
+    path: ../Reqnroll/Reqnroll/Bindings/StepInstance.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  summary: Keyword (including trailing spaces) used in the original specs or <returns>null</returns> if unknown.
+  example: []
+  syntax:
+    content: public string Keyword { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Keyword As String
+  overload: Reqnroll.Bindings.StepInstance.Keyword*
+- uid: Reqnroll.Bindings.StepInstance.Text
+  commentId: P:Reqnroll.Bindings.StepInstance.Text
+  id: Text
+  parent: Reqnroll.Bindings.StepInstance
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: StepInstance.Text
+  fullName: Reqnroll.Bindings.StepInstance.Text
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Text
+    path: ../Reqnroll/Reqnroll/Bindings/StepInstance.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public string Text { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: Reqnroll.Bindings.StepInstance.Text*
+- uid: Reqnroll.Bindings.StepInstance.MultilineTextArgument
+  commentId: P:Reqnroll.Bindings.StepInstance.MultilineTextArgument
+  id: MultilineTextArgument
+  parent: Reqnroll.Bindings.StepInstance
+  langs:
+  - csharp
+  - vb
+  name: MultilineTextArgument
+  nameWithType: StepInstance.MultilineTextArgument
+  fullName: Reqnroll.Bindings.StepInstance.MultilineTextArgument
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: MultilineTextArgument
+    path: ../Reqnroll/Reqnroll/Bindings/StepInstance.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public string MultilineTextArgument { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MultilineTextArgument As String
+  overload: Reqnroll.Bindings.StepInstance.MultilineTextArgument*
+- uid: Reqnroll.Bindings.StepInstance.TableArgument
+  commentId: P:Reqnroll.Bindings.StepInstance.TableArgument
+  id: TableArgument
+  parent: Reqnroll.Bindings.StepInstance
+  langs:
+  - csharp
+  - vb
+  name: TableArgument
+  nameWithType: StepInstance.TableArgument
+  fullName: Reqnroll.Bindings.StepInstance.TableArgument
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TableArgument
+    path: ../Reqnroll/Reqnroll/Bindings/StepInstance.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public Table TableArgument { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Table
+    content.vb: Public Property TableArgument As Table
+  overload: Reqnroll.Bindings.StepInstance.TableArgument*
+- uid: Reqnroll.Bindings.StepInstance.StepContext
+  commentId: P:Reqnroll.Bindings.StepInstance.StepContext
+  id: StepContext
+  parent: Reqnroll.Bindings.StepInstance
+  langs:
+  - csharp
+  - vb
+  name: StepContext
+  nameWithType: StepInstance.StepContext
+  fullName: Reqnroll.Bindings.StepInstance.StepContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepContext
+    path: ../Reqnroll/Reqnroll/Bindings/StepInstance.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public StepContext StepContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.StepContext
+    content.vb: Public Property StepContext As StepContext
+  overload: Reqnroll.Bindings.StepInstance.StepContext*
+- uid: Reqnroll.Bindings.StepInstance.#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,Reqnroll.Bindings.StepContext)
+  commentId: M:Reqnroll.Bindings.StepInstance.#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,Reqnroll.Bindings.StepContext)
+  id: '#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,Reqnroll.Bindings.StepContext)'
+  parent: Reqnroll.Bindings.StepInstance
+  langs:
+  - csharp
+  - vb
+  name: StepInstance(StepDefinitionType, StepDefinitionKeyword, string, string, StepContext)
+  nameWithType: StepInstance.StepInstance(StepDefinitionType, StepDefinitionKeyword, string, string, StepContext)
+  fullName: Reqnroll.Bindings.StepInstance.StepInstance(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.StepDefinitionKeyword, string, string, Reqnroll.Bindings.StepContext)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/StepInstance.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public StepInstance(StepDefinitionType stepDefinitionType, StepDefinitionKeyword stepDefinitionKeyword, string keywordWithTrailingSpaces, string text, StepContext stepContext)
+    parameters:
+    - id: stepDefinitionType
+      type: Reqnroll.Bindings.StepDefinitionType
+    - id: stepDefinitionKeyword
+      type: Reqnroll.Bindings.StepDefinitionKeyword
+    - id: keywordWithTrailingSpaces
+      type: System.String
+    - id: text
+      type: System.String
+    - id: stepContext
+      type: Reqnroll.Bindings.StepContext
+    content.vb: Public Sub New(stepDefinitionType As StepDefinitionType, stepDefinitionKeyword As StepDefinitionKeyword, keywordWithTrailingSpaces As String, text As String, stepContext As StepContext)
+  overload: Reqnroll.Bindings.StepInstance.#ctor*
+  nameWithType.vb: StepInstance.New(StepDefinitionType, StepDefinitionKeyword, String, String, StepContext)
+  fullName.vb: Reqnroll.Bindings.StepInstance.New(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.StepDefinitionKeyword, String, String, Reqnroll.Bindings.StepContext)
+  name.vb: New(StepDefinitionType, StepDefinitionKeyword, String, String, StepContext)
+- uid: Reqnroll.Bindings.StepInstance.#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,System.String,Reqnroll.Table,Reqnroll.Bindings.StepContext)
+  commentId: M:Reqnroll.Bindings.StepInstance.#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,System.String,Reqnroll.Table,Reqnroll.Bindings.StepContext)
+  id: '#ctor(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.StepDefinitionKeyword,System.String,System.String,System.String,Reqnroll.Table,Reqnroll.Bindings.StepContext)'
+  parent: Reqnroll.Bindings.StepInstance
+  langs:
+  - csharp
+  - vb
+  name: StepInstance(StepDefinitionType, StepDefinitionKeyword, string, string, string, Table, StepContext)
+  nameWithType: StepInstance.StepInstance(StepDefinitionType, StepDefinitionKeyword, string, string, string, Table, StepContext)
+  fullName: Reqnroll.Bindings.StepInstance.StepInstance(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.StepDefinitionKeyword, string, string, string, Reqnroll.Table, Reqnroll.Bindings.StepContext)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/StepInstance.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/StepInstance.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public StepInstance(StepDefinitionType type, StepDefinitionKeyword stepDefinitionKeyword, string keyword, string text, string multilineTextArgument, Table tableArgument, StepContext stepContext)
+    parameters:
+    - id: type
+      type: Reqnroll.Bindings.StepDefinitionType
+    - id: stepDefinitionKeyword
+      type: Reqnroll.Bindings.StepDefinitionKeyword
+    - id: keyword
+      type: System.String
+    - id: text
+      type: System.String
+    - id: multilineTextArgument
+      type: System.String
+    - id: tableArgument
+      type: Reqnroll.Table
+    - id: stepContext
+      type: Reqnroll.Bindings.StepContext
+    content.vb: Public Sub New(type As StepDefinitionType, stepDefinitionKeyword As StepDefinitionKeyword, keyword As String, text As String, multilineTextArgument As String, tableArgument As Table, stepContext As StepContext)
+  overload: Reqnroll.Bindings.StepInstance.#ctor*
+  nameWithType.vb: StepInstance.New(StepDefinitionType, StepDefinitionKeyword, String, String, String, Table, StepContext)
+  fullName.vb: Reqnroll.Bindings.StepInstance.New(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.StepDefinitionKeyword, String, String, String, Reqnroll.Table, Reqnroll.Bindings.StepContext)
+  name.vb: New(StepDefinitionType, StepDefinitionKeyword, String, String, String, Table, StepContext)
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.StepInstance.StepDefinitionType*
+  commentId: Overload:Reqnroll.Bindings.StepInstance.StepDefinitionType
+  href: Reqnroll.Bindings.StepInstance.html#Reqnroll_Bindings_StepInstance_StepDefinitionType
+  name: StepDefinitionType
+  nameWithType: StepInstance.StepDefinitionType
+  fullName: Reqnroll.Bindings.StepInstance.StepDefinitionType
+- uid: Reqnroll.Bindings.StepDefinitionType
+  commentId: T:Reqnroll.Bindings.StepDefinitionType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionType.html
+  name: StepDefinitionType
+  nameWithType: StepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionType
+- uid: Reqnroll.Bindings.StepInstance.StepDefinitionKeyword*
+  commentId: Overload:Reqnroll.Bindings.StepInstance.StepDefinitionKeyword
+  href: Reqnroll.Bindings.StepInstance.html#Reqnroll_Bindings_StepInstance_StepDefinitionKeyword
+  name: StepDefinitionKeyword
+  nameWithType: StepInstance.StepDefinitionKeyword
+  fullName: Reqnroll.Bindings.StepInstance.StepDefinitionKeyword
+- uid: Reqnroll.Bindings.StepDefinitionKeyword
+  commentId: T:Reqnroll.Bindings.StepDefinitionKeyword
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionKeyword.html
+  name: StepDefinitionKeyword
+  nameWithType: StepDefinitionKeyword
+  fullName: Reqnroll.Bindings.StepDefinitionKeyword
+- uid: Reqnroll.Bindings.StepInstance.Keyword*
+  commentId: Overload:Reqnroll.Bindings.StepInstance.Keyword
+  href: Reqnroll.Bindings.StepInstance.html#Reqnroll_Bindings_StepInstance_Keyword
+  name: Keyword
+  nameWithType: StepInstance.Keyword
+  fullName: Reqnroll.Bindings.StepInstance.Keyword
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.StepInstance.Text*
+  commentId: Overload:Reqnroll.Bindings.StepInstance.Text
+  href: Reqnroll.Bindings.StepInstance.html#Reqnroll_Bindings_StepInstance_Text
+  name: Text
+  nameWithType: StepInstance.Text
+  fullName: Reqnroll.Bindings.StepInstance.Text
+- uid: Reqnroll.Bindings.StepInstance.MultilineTextArgument*
+  commentId: Overload:Reqnroll.Bindings.StepInstance.MultilineTextArgument
+  href: Reqnroll.Bindings.StepInstance.html#Reqnroll_Bindings_StepInstance_MultilineTextArgument
+  name: MultilineTextArgument
+  nameWithType: StepInstance.MultilineTextArgument
+  fullName: Reqnroll.Bindings.StepInstance.MultilineTextArgument
+- uid: Reqnroll.Bindings.StepInstance.TableArgument*
+  commentId: Overload:Reqnroll.Bindings.StepInstance.TableArgument
+  href: Reqnroll.Bindings.StepInstance.html#Reqnroll_Bindings_StepInstance_TableArgument
+  name: TableArgument
+  nameWithType: StepInstance.TableArgument
+  fullName: Reqnroll.Bindings.StepInstance.TableArgument
+- uid: Reqnroll.Table
+  commentId: T:Reqnroll.Table
+  parent: Reqnroll
+  href: Reqnroll.Table.html
+  name: Table
+  nameWithType: Table
+  fullName: Reqnroll.Table
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.Bindings.StepInstance.StepContext*
+  commentId: Overload:Reqnroll.Bindings.StepInstance.StepContext
+  href: Reqnroll.Bindings.StepInstance.html#Reqnroll_Bindings_StepInstance_StepContext
+  name: StepContext
+  nameWithType: StepInstance.StepContext
+  fullName: Reqnroll.Bindings.StepInstance.StepContext
+- uid: Reqnroll.Bindings.StepContext
+  commentId: T:Reqnroll.Bindings.StepContext
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepContext.html
+  name: StepContext
+  nameWithType: StepContext
+  fullName: Reqnroll.Bindings.StepContext
+- uid: Reqnroll.Bindings.StepInstance.#ctor*
+  commentId: Overload:Reqnroll.Bindings.StepInstance.#ctor
+  href: Reqnroll.Bindings.StepInstance.html#Reqnroll_Bindings_StepInstance__ctor_Reqnroll_Bindings_StepDefinitionType_Reqnroll_Bindings_StepDefinitionKeyword_System_String_System_String_Reqnroll_Bindings_StepContext_
+  name: StepInstance
+  nameWithType: StepInstance.StepInstance
+  fullName: Reqnroll.Bindings.StepInstance.StepInstance
+  nameWithType.vb: StepInstance.New
+  fullName.vb: Reqnroll.Bindings.StepInstance.New
+  name.vb: New

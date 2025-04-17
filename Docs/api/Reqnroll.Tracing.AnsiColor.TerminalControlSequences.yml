@@ -1,0 +1,984 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  commentId: T:Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  id: TerminalControlSequences
+  parent: Reqnroll.Tracing.AnsiColor
+  children:
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont1
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont2
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont3
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont4
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont5
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont6
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont7
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont8
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont9
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Bold
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DefaultBackgroundColor
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DefaultForegroundColor
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DoublyUnderlined
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Faint
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Fraktur
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Hide
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Invert
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Italic
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NeitherItalicNorBlackletter
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.None
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NormalIntensity
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotBlinking
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotCrossedOut
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotReverse
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotUnderline
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.PrimaryFont
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.RapidBlink
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Reset
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Reveal
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SetBackgroundColor
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SetForegroundColor
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SlowBlink
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Strike
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Underline
+  langs:
+  - csharp
+  - vb
+  name: TerminalControlSequences
+  nameWithType: TerminalControlSequences
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TerminalControlSequences
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public enum TerminalControlSequences
+    content.vb: Public Enum TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.None
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.None
+  id: None
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TerminalControlSequences.None
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.None
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: None
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: None = -1
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Reset
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Reset
+  id: Reset
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: Reset
+  nameWithType: TerminalControlSequences.Reset
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Reset
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Reset
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: Reset = 0
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Bold
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Bold
+  id: Bold
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: Bold
+  nameWithType: TerminalControlSequences.Bold
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Bold
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Bold
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: Bold = 1
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Faint
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Faint
+  id: Faint
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: Faint
+  nameWithType: TerminalControlSequences.Faint
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Faint
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Faint
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: Faint = 2
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Italic
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Italic
+  id: Italic
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: Italic
+  nameWithType: TerminalControlSequences.Italic
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Italic
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Italic
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: Italic = 3
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Underline
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Underline
+  id: Underline
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: Underline
+  nameWithType: TerminalControlSequences.Underline
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Underline
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Underline
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: Underline = 4
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SlowBlink
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SlowBlink
+  id: SlowBlink
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: SlowBlink
+  nameWithType: TerminalControlSequences.SlowBlink
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SlowBlink
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SlowBlink
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: SlowBlink = 5
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.RapidBlink
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.RapidBlink
+  id: RapidBlink
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: RapidBlink
+  nameWithType: TerminalControlSequences.RapidBlink
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.RapidBlink
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RapidBlink
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: RapidBlink = 6
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Invert
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Invert
+  id: Invert
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: Invert
+  nameWithType: TerminalControlSequences.Invert
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Invert
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Invert
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: Invert = 7
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Hide
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Hide
+  id: Hide
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: Hide
+  nameWithType: TerminalControlSequences.Hide
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Hide
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Hide
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: Hide = 8
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Strike
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Strike
+  id: Strike
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: Strike
+  nameWithType: TerminalControlSequences.Strike
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Strike
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Strike
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: Strike = 9
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.PrimaryFont
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.PrimaryFont
+  id: PrimaryFont
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: PrimaryFont
+  nameWithType: TerminalControlSequences.PrimaryFont
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.PrimaryFont
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: PrimaryFont
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: PrimaryFont = 10
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont1
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont1
+  id: AlternativeFont1
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: AlternativeFont1
+  nameWithType: TerminalControlSequences.AlternativeFont1
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont1
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AlternativeFont1
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: AlternativeFont1 = 11
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont2
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont2
+  id: AlternativeFont2
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: AlternativeFont2
+  nameWithType: TerminalControlSequences.AlternativeFont2
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont2
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AlternativeFont2
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: AlternativeFont2 = 12
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont3
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont3
+  id: AlternativeFont3
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: AlternativeFont3
+  nameWithType: TerminalControlSequences.AlternativeFont3
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont3
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AlternativeFont3
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: AlternativeFont3 = 13
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont4
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont4
+  id: AlternativeFont4
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: AlternativeFont4
+  nameWithType: TerminalControlSequences.AlternativeFont4
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont4
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AlternativeFont4
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 19
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: AlternativeFont4 = 14
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont5
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont5
+  id: AlternativeFont5
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: AlternativeFont5
+  nameWithType: TerminalControlSequences.AlternativeFont5
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont5
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AlternativeFont5
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: AlternativeFont5 = 15
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont6
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont6
+  id: AlternativeFont6
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: AlternativeFont6
+  nameWithType: TerminalControlSequences.AlternativeFont6
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont6
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AlternativeFont6
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 21
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: AlternativeFont6 = 16
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont7
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont7
+  id: AlternativeFont7
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: AlternativeFont7
+  nameWithType: TerminalControlSequences.AlternativeFont7
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont7
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AlternativeFont7
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: AlternativeFont7 = 17
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont8
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont8
+  id: AlternativeFont8
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: AlternativeFont8
+  nameWithType: TerminalControlSequences.AlternativeFont8
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont8
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AlternativeFont8
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 23
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: AlternativeFont8 = 18
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont9
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont9
+  id: AlternativeFont9
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: AlternativeFont9
+  nameWithType: TerminalControlSequences.AlternativeFont9
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.AlternativeFont9
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AlternativeFont9
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 24
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: AlternativeFont9 = 19
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Fraktur
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Fraktur
+  id: Fraktur
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: Fraktur
+  nameWithType: TerminalControlSequences.Fraktur
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Fraktur
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Fraktur
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 25
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: Fraktur = 20
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DoublyUnderlined
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DoublyUnderlined
+  id: DoublyUnderlined
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: DoublyUnderlined
+  nameWithType: TerminalControlSequences.DoublyUnderlined
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DoublyUnderlined
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DoublyUnderlined
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 26
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: DoublyUnderlined = 21
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NormalIntensity
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NormalIntensity
+  id: NormalIntensity
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: NormalIntensity
+  nameWithType: TerminalControlSequences.NormalIntensity
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NormalIntensity
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: NormalIntensity
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 27
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: NormalIntensity = 22
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NeitherItalicNorBlackletter
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NeitherItalicNorBlackletter
+  id: NeitherItalicNorBlackletter
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: NeitherItalicNorBlackletter
+  nameWithType: TerminalControlSequences.NeitherItalicNorBlackletter
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NeitherItalicNorBlackletter
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: NeitherItalicNorBlackletter
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 28
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: NeitherItalicNorBlackletter = 23
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotUnderline
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotUnderline
+  id: NotUnderline
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: NotUnderline
+  nameWithType: TerminalControlSequences.NotUnderline
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotUnderline
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: NotUnderline
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 29
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: NotUnderline = 24
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotBlinking
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotBlinking
+  id: NotBlinking
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: NotBlinking
+  nameWithType: TerminalControlSequences.NotBlinking
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotBlinking
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: NotBlinking
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 30
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: NotBlinking = 25
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotReverse
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotReverse
+  id: NotReverse
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: NotReverse
+  nameWithType: TerminalControlSequences.NotReverse
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotReverse
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: NotReverse
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 31
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: NotReverse = 27
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Reveal
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Reveal
+  id: Reveal
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: Reveal
+  nameWithType: TerminalControlSequences.Reveal
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.Reveal
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Reveal
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 32
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: Reveal = 28
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotCrossedOut
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotCrossedOut
+  id: NotCrossedOut
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: NotCrossedOut
+  nameWithType: TerminalControlSequences.NotCrossedOut
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.NotCrossedOut
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: NotCrossedOut
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 33
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: NotCrossedOut = 29
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SetForegroundColor
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SetForegroundColor
+  id: SetForegroundColor
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: SetForegroundColor
+  nameWithType: TerminalControlSequences.SetForegroundColor
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SetForegroundColor
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SetForegroundColor
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 34
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: SetForegroundColor = 38
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DefaultForegroundColor
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DefaultForegroundColor
+  id: DefaultForegroundColor
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: DefaultForegroundColor
+  nameWithType: TerminalControlSequences.DefaultForegroundColor
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DefaultForegroundColor
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DefaultForegroundColor
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 35
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: DefaultForegroundColor = 39
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SetBackgroundColor
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SetBackgroundColor
+  id: SetBackgroundColor
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: SetBackgroundColor
+  nameWithType: TerminalControlSequences.SetBackgroundColor
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.SetBackgroundColor
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SetBackgroundColor
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 36
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: SetBackgroundColor = 48
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DefaultBackgroundColor
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DefaultBackgroundColor
+  id: DefaultBackgroundColor
+  parent: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  langs:
+  - csharp
+  - vb
+  name: DefaultBackgroundColor
+  nameWithType: TerminalControlSequences.DefaultBackgroundColor
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.DefaultBackgroundColor
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DefaultBackgroundColor
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalControlSequences.cs
+    startLine: 37
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: DefaultBackgroundColor = 49
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+references:
+- uid: Reqnroll.Tracing.AnsiColor
+  commentId: N:Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.html
+  name: Reqnroll.Tracing.AnsiColor
+  nameWithType: Reqnroll.Tracing.AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  commentId: T:Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.html
+  name: TerminalControlSequences
+  nameWithType: TerminalControlSequences
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences

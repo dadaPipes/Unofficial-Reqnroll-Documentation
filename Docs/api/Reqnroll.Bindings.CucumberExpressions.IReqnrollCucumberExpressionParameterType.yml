@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  id: IReqnrollCucumberExpressionParameterType
+  parent: Reqnroll.Bindings.CucumberExpressions
+  children:
+  - Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType
+  - Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations
+  langs:
+  - csharp
+  - vb
+  name: IReqnrollCucumberExpressionParameterType
+  nameWithType: IReqnrollCucumberExpressionParameterType
+  fullName: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/IReqnrollCucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IReqnrollCucumberExpressionParameterType
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/IReqnrollCucumberExpressionParameterType.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  syntax:
+    content: 'public interface IReqnrollCucumberExpressionParameterType : IParameterType'
+    content.vb: Public Interface IReqnrollCucumberExpressionParameterType Inherits IParameterType
+  inheritedMembers:
+  - CucumberExpressions.IParameterType.RegexStrings
+  - CucumberExpressions.IParameterType.Name
+  - CucumberExpressions.IParameterType.ParameterType
+  - CucumberExpressions.IParameterType.Weight
+  - CucumberExpressions.IParameterType.UseForSnippets
+- uid: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType
+  id: TargetType
+  parent: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  langs:
+  - csharp
+  - vb
+  name: TargetType
+  nameWithType: IReqnrollCucumberExpressionParameterType.TargetType
+  fullName: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/IReqnrollCucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TargetType
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/IReqnrollCucumberExpressionParameterType.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  syntax:
+    content: IBindingType TargetType { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    content.vb: ReadOnly Property TargetType As IBindingType
+  overload: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType*
+- uid: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations
+  id: Transformations
+  parent: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  langs:
+  - csharp
+  - vb
+  name: Transformations
+  nameWithType: IReqnrollCucumberExpressionParameterType.Transformations
+  fullName: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/IReqnrollCucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Transformations
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/IReqnrollCucumberExpressionParameterType.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  syntax:
+    content: ICucumberExpressionParameterTypeTransformation[] Transformations { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation[]
+    content.vb: ReadOnly Property Transformations As ICucumberExpressionParameterTypeTransformation()
+  overload: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations*
+references:
+- uid: Reqnroll.Bindings.CucumberExpressions
+  commentId: N:Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.CucumberExpressions
+  nameWithType: Reqnroll.Bindings.CucumberExpressions
+  fullName: Reqnroll.Bindings.CucumberExpressions
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+- uid: CucumberExpressions.IParameterType.RegexStrings
+  commentId: P:CucumberExpressions.IParameterType.RegexStrings
+  parent: CucumberExpressions.IParameterType
+  isExternal: true
+  name: RegexStrings
+  nameWithType: IParameterType.RegexStrings
+  fullName: CucumberExpressions.IParameterType.RegexStrings
+- uid: CucumberExpressions.IParameterType.Name
+  commentId: P:CucumberExpressions.IParameterType.Name
+  parent: CucumberExpressions.IParameterType
+  isExternal: true
+  name: Name
+  nameWithType: IParameterType.Name
+  fullName: CucumberExpressions.IParameterType.Name
+- uid: CucumberExpressions.IParameterType.ParameterType
+  commentId: P:CucumberExpressions.IParameterType.ParameterType
+  parent: CucumberExpressions.IParameterType
+  isExternal: true
+  name: ParameterType
+  nameWithType: IParameterType.ParameterType
+  fullName: CucumberExpressions.IParameterType.ParameterType
+- uid: CucumberExpressions.IParameterType.Weight
+  commentId: P:CucumberExpressions.IParameterType.Weight
+  parent: CucumberExpressions.IParameterType
+  isExternal: true
+  name: Weight
+  nameWithType: IParameterType.Weight
+  fullName: CucumberExpressions.IParameterType.Weight
+- uid: CucumberExpressions.IParameterType.UseForSnippets
+  commentId: P:CucumberExpressions.IParameterType.UseForSnippets
+  parent: CucumberExpressions.IParameterType
+  isExternal: true
+  name: UseForSnippets
+  nameWithType: IParameterType.UseForSnippets
+  fullName: CucumberExpressions.IParameterType.UseForSnippets
+- uid: CucumberExpressions.IParameterType
+  commentId: T:CucumberExpressions.IParameterType
+  parent: CucumberExpressions
+  isExternal: true
+  name: IParameterType
+  nameWithType: IParameterType
+  fullName: CucumberExpressions.IParameterType
+- uid: CucumberExpressions
+  commentId: N:CucumberExpressions
+  isExternal: true
+  name: CucumberExpressions
+  nameWithType: CucumberExpressions
+  fullName: CucumberExpressions
+- uid: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType
+  href: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_IReqnrollCucumberExpressionParameterType_TargetType
+  name: TargetType
+  nameWithType: IReqnrollCucumberExpressionParameterType.TargetType
+  fullName: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType
+- uid: Reqnroll.Bindings.Reflection.IBindingType
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingType
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingType.html
+  name: IBindingType
+  nameWithType: IBindingType
+  fullName: Reqnroll.Bindings.Reflection.IBindingType
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations
+  href: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_IReqnrollCucumberExpressionParameterType_Transformations
+  name: Transformations
+  nameWithType: IReqnrollCucumberExpressionParameterType.Transformations
+  fullName: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation[]
+  isExternal: true
+  href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation.html
+  name: ICucumberExpressionParameterTypeTransformation[]
+  nameWithType: ICucumberExpressionParameterTypeTransformation[]
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation[]
+  nameWithType.vb: ICucumberExpressionParameterTypeTransformation()
+  fullName.vb: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation()
+  name.vb: ICucumberExpressionParameterTypeTransformation()
+  spec.csharp:
+  - uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+    name: ICucumberExpressionParameterTypeTransformation
+    href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+    name: ICucumberExpressionParameterTypeTransformation
+    href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation.html
+  - name: (
+  - name: )

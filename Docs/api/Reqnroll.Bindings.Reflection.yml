@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  id: Reqnroll.Bindings.Reflection
+  children:
+  - Reqnroll.Bindings.Reflection.BindingMethod
+  - Reqnroll.Bindings.Reflection.BindingMethodComparer
+  - Reqnroll.Bindings.Reflection.BindingParameter
+  - Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  - Reqnroll.Bindings.Reflection.BindingType
+  - Reqnroll.Bindings.Reflection.IBindingMethod
+  - Reqnroll.Bindings.Reflection.IBindingParameter
+  - Reqnroll.Bindings.Reflection.IBindingType
+  - Reqnroll.Bindings.Reflection.IPolymorphicBindingType
+  - Reqnroll.Bindings.Reflection.RuntimeBindingMethod
+  - Reqnroll.Bindings.Reflection.RuntimeBindingParameter
+  - Reqnroll.Bindings.Reflection.RuntimeBindingType
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Bindings.Reflection.BindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.BindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.BindingMethod.html
+  name: BindingMethod
+  nameWithType: BindingMethod
+  fullName: Reqnroll.Bindings.Reflection.BindingMethod
+- uid: Reqnroll.Bindings.Reflection.BindingMethodComparer
+  commentId: T:Reqnroll.Bindings.Reflection.BindingMethodComparer
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.BindingMethodComparer.html
+  name: BindingMethodComparer
+  nameWithType: BindingMethodComparer
+  fullName: Reqnroll.Bindings.Reflection.BindingMethodComparer
+- uid: Reqnroll.Bindings.Reflection.BindingParameter
+  commentId: T:Reqnroll.Bindings.Reflection.BindingParameter
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.BindingParameter.html
+  name: BindingParameter
+  nameWithType: BindingParameter
+  fullName: Reqnroll.Bindings.Reflection.BindingParameter
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  commentId: T:Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html
+  name: BindingReflectionExtensions
+  nameWithType: BindingReflectionExtensions
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+- uid: Reqnroll.Bindings.Reflection.BindingType
+  commentId: T:Reqnroll.Bindings.Reflection.BindingType
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.BindingType.html
+  name: BindingType
+  nameWithType: BindingType
+  fullName: Reqnroll.Bindings.Reflection.BindingType
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: Reqnroll.Bindings.Reflection.IBindingParameter
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingParameter
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingParameter.html
+  name: IBindingParameter
+  nameWithType: IBindingParameter
+  fullName: Reqnroll.Bindings.Reflection.IBindingParameter
+- uid: Reqnroll.Bindings.Reflection.IBindingType
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingType
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingType.html
+  name: IBindingType
+  nameWithType: IBindingType
+  fullName: Reqnroll.Bindings.Reflection.IBindingType
+- uid: Reqnroll.Bindings.Reflection.IPolymorphicBindingType
+  commentId: T:Reqnroll.Bindings.Reflection.IPolymorphicBindingType
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IPolymorphicBindingType.html
+  name: IPolymorphicBindingType
+  nameWithType: IPolymorphicBindingType
+  fullName: Reqnroll.Bindings.Reflection.IPolymorphicBindingType
+- uid: Reqnroll.Bindings.Reflection.RuntimeBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.RuntimeBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.RuntimeBindingMethod.html
+  name: RuntimeBindingMethod
+  nameWithType: RuntimeBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.RuntimeBindingMethod
+- uid: Reqnroll.Bindings.Reflection.RuntimeBindingParameter
+  commentId: T:Reqnroll.Bindings.Reflection.RuntimeBindingParameter
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.RuntimeBindingParameter.html
+  name: RuntimeBindingParameter
+  nameWithType: RuntimeBindingParameter
+  fullName: Reqnroll.Bindings.Reflection.RuntimeBindingParameter
+- uid: Reqnroll.Bindings.Reflection.RuntimeBindingType
+  commentId: T:Reqnroll.Bindings.Reflection.RuntimeBindingType
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.RuntimeBindingType.html
+  name: RuntimeBindingType
+  nameWithType: RuntimeBindingType
+  fullName: Reqnroll.Bindings.Reflection.RuntimeBindingType
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html

@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions
+  commentId: T:Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions
+  id: Terminal256ColorCodesExtensions
+  parent: Reqnroll.Tracing.AnsiColor
+  children:
+  - Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions.ToColorParameter(Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes)
+  langs:
+  - csharp
+  - vb
+  name: Terminal256ColorCodesExtensions
+  nameWithType: Terminal256ColorCodesExtensions
+  fullName: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/Terminal256ColorCodes.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Terminal256ColorCodesExtensions
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/Terminal256ColorCodes.cs
+    startLine: 263
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public static class Terminal256ColorCodesExtensions
+    content.vb: Public Module Terminal256ColorCodesExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions.ToColorParameter(Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes)
+  commentId: M:Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions.ToColorParameter(Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes)
+  id: ToColorParameter(Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes)
+  isExtensionMethod: true
+  parent: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToColorParameter(Terminal256ColorCodes)
+  nameWithType: Terminal256ColorCodesExtensions.ToColorParameter(Terminal256ColorCodes)
+  fullName: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions.ToColorParameter(Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/Terminal256ColorCodes.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ToColorParameter
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/Terminal256ColorCodes.cs
+    startLine: 265
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public static string ToColorParameter(this Terminal256ColorCodes code)
+    parameters:
+    - id: code
+      type: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToColorParameter(code As Terminal256ColorCodes) As String
+  overload: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions.ToColorParameter*
+references:
+- uid: Reqnroll.Tracing.AnsiColor
+  commentId: N:Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.html
+  name: Reqnroll.Tracing.AnsiColor
+  nameWithType: Reqnroll.Tracing.AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions.ToColorParameter*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions.ToColorParameter
+  href: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions.html#Reqnroll_Tracing_AnsiColor_Terminal256ColorCodesExtensions_ToColorParameter_Reqnroll_Tracing_AnsiColor_Terminal256ColorCodes_
+  name: ToColorParameter
+  nameWithType: Terminal256ColorCodesExtensions.ToColorParameter
+  fullName: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions.ToColorParameter
+- uid: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes
+  commentId: T:Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes.html
+  name: Terminal256ColorCodes
+  nameWithType: Terminal256ColorCodes
+  fullName: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.ITestObjectResolver
+  commentId: T:Reqnroll.Infrastructure.ITestObjectResolver
+  id: ITestObjectResolver
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.ITestObjectResolver.ResolveBindingInstance(System.Type,Reqnroll.BoDi.IObjectContainer)
+  langs:
+  - csharp
+  - vb
+  name: ITestObjectResolver
+  nameWithType: ITestObjectResolver
+  fullName: Reqnroll.Infrastructure.ITestObjectResolver
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestObjectResolver.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ITestObjectResolver
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestObjectResolver.cs
+    startLine: 23
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  summary: Resolves user created test objects from different scopes (scenario, feature, test thread).
+  remarks: >-
+    <p>Notes to the implementors:</p>
+
+    <p>
+
+    The test objects might be dependent on particular Reqnroll infrastructure, therefore the implemented
+
+    resolution logic should support resolving the following objects (from the provided Reqnroll container):
+
+    <xref href="Reqnroll.ScenarioContext" data-throw-if-not-resolved="false"></xref>, <xref href="Reqnroll.FeatureContext" data-throw-if-not-resolved="false"></xref>, <xref href="Reqnroll.TestThreadContext" data-throw-if-not-resolved="false"></xref> and
+
+    <xref href="Reqnroll.BoDi.IObjectContainer" data-throw-if-not-resolved="false"></xref> (to be able to resolve any other Reqnroll infrastucture). So basically
+
+    the resolution of these classes has to be forwarded to the original container.
+
+    </p>
+
+    <p>
+
+    If the resolved (top level) object implements <xref href="Reqnroll.Infrastructure.IContainerDependentObject" data-throw-if-not-resolved="false"></xref>, the method
+
+    <xref href="Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)" data-throw-if-not-resolved="false"></xref> must be called, passing in the original
+
+    Reqnroll container. (The <xref href="Reqnroll.Steps" data-throw-if-not-resolved="false"></xref> base class needs this.)
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ITestObjectResolver
+    content.vb: Public Interface ITestObjectResolver
+- uid: Reqnroll.Infrastructure.ITestObjectResolver.ResolveBindingInstance(System.Type,Reqnroll.BoDi.IObjectContainer)
+  commentId: M:Reqnroll.Infrastructure.ITestObjectResolver.ResolveBindingInstance(System.Type,Reqnroll.BoDi.IObjectContainer)
+  id: ResolveBindingInstance(System.Type,Reqnroll.BoDi.IObjectContainer)
+  parent: Reqnroll.Infrastructure.ITestObjectResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveBindingInstance(Type, IObjectContainer)
+  nameWithType: ITestObjectResolver.ResolveBindingInstance(Type, IObjectContainer)
+  fullName: Reqnroll.Infrastructure.ITestObjectResolver.ResolveBindingInstance(System.Type, Reqnroll.BoDi.IObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestObjectResolver.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ResolveBindingInstance
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestObjectResolver.cs
+    startLine: 25
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: object ResolveBindingInstance(Type bindingType, IObjectContainer container)
+    parameters:
+    - id: bindingType
+      type: System.Type
+    - id: container
+      type: Reqnroll.BoDi.IObjectContainer
+    return:
+      type: System.Object
+    content.vb: Function ResolveBindingInstance(bindingType As Type, container As IObjectContainer) As Object
+  overload: Reqnroll.Infrastructure.ITestObjectResolver.ResolveBindingInstance*
+references:
+- uid: Reqnroll.ScenarioContext
+  commentId: T:Reqnroll.ScenarioContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioContext.html
+  name: ScenarioContext
+  nameWithType: ScenarioContext
+  fullName: Reqnroll.ScenarioContext
+- uid: Reqnroll.FeatureContext
+  commentId: T:Reqnroll.FeatureContext
+  parent: Reqnroll
+  href: Reqnroll.FeatureContext.html
+  name: FeatureContext
+  nameWithType: FeatureContext
+  fullName: Reqnroll.FeatureContext
+- uid: Reqnroll.TestThreadContext
+  commentId: T:Reqnroll.TestThreadContext
+  parent: Reqnroll
+  href: Reqnroll.TestThreadContext.html
+  name: TestThreadContext
+  nameWithType: TestThreadContext
+  fullName: Reqnroll.TestThreadContext
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: Reqnroll.Infrastructure.IContainerDependentObject
+  commentId: T:Reqnroll.Infrastructure.IContainerDependentObject
+  parent: Reqnroll.Infrastructure
+  href: Reqnroll.Infrastructure.IContainerDependentObject.html
+  name: IContainerDependentObject
+  nameWithType: IContainerDependentObject
+  fullName: Reqnroll.Infrastructure.IContainerDependentObject
+- uid: Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)
+  commentId: M:Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)
+  href: Reqnroll.Infrastructure.IContainerDependentObject.html#Reqnroll_Infrastructure_IContainerDependentObject_SetObjectContainer_Reqnroll_BoDi_IObjectContainer_
+  name: SetObjectContainer(IObjectContainer)
+  nameWithType: IContainerDependentObject.SetObjectContainer(IObjectContainer)
+  fullName: Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)
+  spec.csharp:
+  - uid: Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)
+    name: SetObjectContainer
+    href: Reqnroll.Infrastructure.IContainerDependentObject.html#Reqnroll_Infrastructure_IContainerDependentObject_SetObjectContainer_Reqnroll_BoDi_IObjectContainer_
+  - name: (
+  - uid: Reqnroll.BoDi.IObjectContainer
+    name: IObjectContainer
+    href: Reqnroll.BoDi.IObjectContainer.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)
+    name: SetObjectContainer
+    href: Reqnroll.Infrastructure.IContainerDependentObject.html#Reqnroll_Infrastructure_IContainerDependentObject_SetObjectContainer_Reqnroll_BoDi_IObjectContainer_
+  - name: (
+  - uid: Reqnroll.BoDi.IObjectContainer
+    name: IObjectContainer
+    href: Reqnroll.BoDi.IObjectContainer.html
+  - name: )
+- uid: Reqnroll.Steps
+  commentId: T:Reqnroll.Steps
+  href: Reqnroll.Steps.html
+  name: Steps
+  nameWithType: Steps
+  fullName: Reqnroll.Steps
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.Infrastructure.ITestObjectResolver.ResolveBindingInstance*
+  commentId: Overload:Reqnroll.Infrastructure.ITestObjectResolver.ResolveBindingInstance
+  href: Reqnroll.Infrastructure.ITestObjectResolver.html#Reqnroll_Infrastructure_ITestObjectResolver_ResolveBindingInstance_System_Type_Reqnroll_BoDi_IObjectContainer_
+  name: ResolveBindingInstance
+  nameWithType: ITestObjectResolver.ResolveBindingInstance
+  fullName: Reqnroll.Infrastructure.ITestObjectResolver.ResolveBindingInstance
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

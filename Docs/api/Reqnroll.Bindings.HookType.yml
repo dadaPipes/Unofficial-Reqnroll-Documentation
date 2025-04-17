@@ -1,0 +1,328 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.HookType
+  commentId: T:Reqnroll.Bindings.HookType
+  id: HookType
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.HookType.AfterFeature
+  - Reqnroll.Bindings.HookType.AfterScenario
+  - Reqnroll.Bindings.HookType.AfterScenarioBlock
+  - Reqnroll.Bindings.HookType.AfterStep
+  - Reqnroll.Bindings.HookType.AfterTestRun
+  - Reqnroll.Bindings.HookType.BeforeFeature
+  - Reqnroll.Bindings.HookType.BeforeScenario
+  - Reqnroll.Bindings.HookType.BeforeScenarioBlock
+  - Reqnroll.Bindings.HookType.BeforeStep
+  - Reqnroll.Bindings.HookType.BeforeTestRun
+  langs:
+  - csharp
+  - vb
+  name: HookType
+  nameWithType: HookType
+  fullName: Reqnroll.Bindings.HookType
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HookType
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public enum HookType
+    content.vb: Public Enum HookType
+- uid: Reqnroll.Bindings.HookType.BeforeTestRun
+  commentId: F:Reqnroll.Bindings.HookType.BeforeTestRun
+  id: BeforeTestRun
+  parent: Reqnroll.Bindings.HookType
+  langs:
+  - csharp
+  - vb
+  name: BeforeTestRun
+  nameWithType: HookType.BeforeTestRun
+  fullName: Reqnroll.Bindings.HookType.BeforeTestRun
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BeforeTestRun
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: BeforeTestRun = 0
+    return:
+      type: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.HookType.AfterTestRun
+  commentId: F:Reqnroll.Bindings.HookType.AfterTestRun
+  id: AfterTestRun
+  parent: Reqnroll.Bindings.HookType
+  langs:
+  - csharp
+  - vb
+  name: AfterTestRun
+  nameWithType: HookType.AfterTestRun
+  fullName: Reqnroll.Bindings.HookType.AfterTestRun
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AfterTestRun
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: AfterTestRun = 1
+    return:
+      type: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.HookType.BeforeFeature
+  commentId: F:Reqnroll.Bindings.HookType.BeforeFeature
+  id: BeforeFeature
+  parent: Reqnroll.Bindings.HookType
+  langs:
+  - csharp
+  - vb
+  name: BeforeFeature
+  nameWithType: HookType.BeforeFeature
+  fullName: Reqnroll.Bindings.HookType.BeforeFeature
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BeforeFeature
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: BeforeFeature = 2
+    return:
+      type: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.HookType.AfterFeature
+  commentId: F:Reqnroll.Bindings.HookType.AfterFeature
+  id: AfterFeature
+  parent: Reqnroll.Bindings.HookType
+  langs:
+  - csharp
+  - vb
+  name: AfterFeature
+  nameWithType: HookType.AfterFeature
+  fullName: Reqnroll.Bindings.HookType.AfterFeature
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AfterFeature
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: AfterFeature = 3
+    return:
+      type: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.HookType.BeforeScenario
+  commentId: F:Reqnroll.Bindings.HookType.BeforeScenario
+  id: BeforeScenario
+  parent: Reqnroll.Bindings.HookType
+  langs:
+  - csharp
+  - vb
+  name: BeforeScenario
+  nameWithType: HookType.BeforeScenario
+  fullName: Reqnroll.Bindings.HookType.BeforeScenario
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BeforeScenario
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: BeforeScenario = 4
+    return:
+      type: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.HookType.AfterScenario
+  commentId: F:Reqnroll.Bindings.HookType.AfterScenario
+  id: AfterScenario
+  parent: Reqnroll.Bindings.HookType
+  langs:
+  - csharp
+  - vb
+  name: AfterScenario
+  nameWithType: HookType.AfterScenario
+  fullName: Reqnroll.Bindings.HookType.AfterScenario
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AfterScenario
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: AfterScenario = 5
+    return:
+      type: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.HookType.BeforeScenarioBlock
+  commentId: F:Reqnroll.Bindings.HookType.BeforeScenarioBlock
+  id: BeforeScenarioBlock
+  parent: Reqnroll.Bindings.HookType
+  langs:
+  - csharp
+  - vb
+  name: BeforeScenarioBlock
+  nameWithType: HookType.BeforeScenarioBlock
+  fullName: Reqnroll.Bindings.HookType.BeforeScenarioBlock
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BeforeScenarioBlock
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: BeforeScenarioBlock = 6
+    return:
+      type: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.HookType.AfterScenarioBlock
+  commentId: F:Reqnroll.Bindings.HookType.AfterScenarioBlock
+  id: AfterScenarioBlock
+  parent: Reqnroll.Bindings.HookType
+  langs:
+  - csharp
+  - vb
+  name: AfterScenarioBlock
+  nameWithType: HookType.AfterScenarioBlock
+  fullName: Reqnroll.Bindings.HookType.AfterScenarioBlock
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AfterScenarioBlock
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: AfterScenarioBlock = 7
+    return:
+      type: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.HookType.BeforeStep
+  commentId: F:Reqnroll.Bindings.HookType.BeforeStep
+  id: BeforeStep
+  parent: Reqnroll.Bindings.HookType
+  langs:
+  - csharp
+  - vb
+  name: BeforeStep
+  nameWithType: HookType.BeforeStep
+  fullName: Reqnroll.Bindings.HookType.BeforeStep
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BeforeStep
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: BeforeStep = 8
+    return:
+      type: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.HookType.AfterStep
+  commentId: F:Reqnroll.Bindings.HookType.AfterStep
+  id: AfterStep
+  parent: Reqnroll.Bindings.HookType
+  langs:
+  - csharp
+  - vb
+  name: AfterStep
+  nameWithType: HookType.AfterStep
+  fullName: Reqnroll.Bindings.HookType.AfterStep
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Bindings/HookType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AfterStep
+    path: ../Reqnroll/Reqnroll/Bindings/HookType.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: AfterStep = 9
+    return:
+      type: Reqnroll.Bindings.HookType
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.HookType
+  commentId: T:Reqnroll.Bindings.HookType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.HookType.html
+  name: HookType
+  nameWithType: HookType
+  fullName: Reqnroll.Bindings.HookType

@@ -1,0 +1,917 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  id: CucumberExpressionParameterType
+  parent: Reqnroll.Bindings.CucumberExpressions
+  children:
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.#ctor(System.String,Reqnroll.Bindings.Reflection.IBindingType,System.Collections.Generic.IEnumerable{Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation})
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Name
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.ParameterType
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.RegexStrings
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.TargetType
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Transformations
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.UseForSnippets
+  - Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Weight
+  langs:
+  - csharp
+  - vb
+  name: CucumberExpressionParameterType
+  nameWithType: CucumberExpressionParameterType
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CucumberExpressionParameterType
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  syntax:
+    content: 'public class CucumberExpressionParameterType : IReqnrollCucumberExpressionParameterType, IParameterType'
+    content.vb: Public Class CucumberExpressionParameterType Implements IReqnrollCucumberExpressionParameterType, IParameterType
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  - CucumberExpressions.IParameterType
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Name
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Name
+  id: Name
+  parent: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CucumberExpressionParameterType.Name
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Name
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Name
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Name*
+  implements:
+  - CucumberExpressions.IParameterType.Name
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.TargetType
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.TargetType
+  id: TargetType
+  parent: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  langs:
+  - csharp
+  - vb
+  name: TargetType
+  nameWithType: CucumberExpressionParameterType.TargetType
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.TargetType
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TargetType
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  example: []
+  syntax:
+    content: public IBindingType TargetType { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    content.vb: Public ReadOnly Property TargetType As IBindingType
+  overload: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.TargetType*
+  implements:
+  - Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Transformations
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Transformations
+  id: Transformations
+  parent: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  langs:
+  - csharp
+  - vb
+  name: Transformations
+  nameWithType: CucumberExpressionParameterType.Transformations
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Transformations
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Transformations
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  example: []
+  syntax:
+    content: public ICucumberExpressionParameterTypeTransformation[] Transformations { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation[]
+    content.vb: Public ReadOnly Property Transformations As ICucumberExpressionParameterTypeTransformation()
+  overload: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Transformations*
+  implements:
+  - Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.RegexStrings
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.RegexStrings
+  id: RegexStrings
+  parent: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  langs:
+  - csharp
+  - vb
+  name: RegexStrings
+  nameWithType: CucumberExpressionParameterType.RegexStrings
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.RegexStrings
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegexStrings
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  example: []
+  syntax:
+    content: public string[] RegexStrings { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property RegexStrings As String()
+  overload: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.RegexStrings*
+  implements:
+  - CucumberExpressions.IParameterType.RegexStrings
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.UseForSnippets
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.UseForSnippets
+  id: UseForSnippets
+  parent: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  langs:
+  - csharp
+  - vb
+  name: UseForSnippets
+  nameWithType: CucumberExpressionParameterType.UseForSnippets
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.UseForSnippets
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: UseForSnippets
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  example: []
+  syntax:
+    content: public bool UseForSnippets { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property UseForSnippets As Boolean
+  overload: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.UseForSnippets*
+  implements:
+  - CucumberExpressions.IParameterType.UseForSnippets
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Weight
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Weight
+  id: Weight
+  parent: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  langs:
+  - csharp
+  - vb
+  name: Weight
+  nameWithType: CucumberExpressionParameterType.Weight
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Weight
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Weight
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  example: []
+  syntax:
+    content: public int Weight { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Weight As Integer
+  overload: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Weight*
+  implements:
+  - CucumberExpressions.IParameterType.Weight
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.ParameterType
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.ParameterType
+  id: ParameterType
+  parent: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  langs:
+  - csharp
+  - vb
+  name: ParameterType
+  nameWithType: CucumberExpressionParameterType.ParameterType
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.ParameterType
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ParameterType
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+    startLine: 19
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  example: []
+  syntax:
+    content: public Type ParameterType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Public ReadOnly Property ParameterType As Type
+  overload: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.ParameterType*
+  implements:
+  - CucumberExpressions.IParameterType.ParameterType
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.#ctor(System.String,Reqnroll.Bindings.Reflection.IBindingType,System.Collections.Generic.IEnumerable{Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation})
+  commentId: M:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.#ctor(System.String,Reqnroll.Bindings.Reflection.IBindingType,System.Collections.Generic.IEnumerable{Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation})
+  id: '#ctor(System.String,Reqnroll.Bindings.Reflection.IBindingType,System.Collections.Generic.IEnumerable{Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation})'
+  parent: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType
+  langs:
+  - csharp
+  - vb
+  name: CucumberExpressionParameterType(string, IBindingType, IEnumerable<ICucumberExpressionParameterTypeTransformation>)
+  nameWithType: CucumberExpressionParameterType.CucumberExpressionParameterType(string, IBindingType, IEnumerable<ICucumberExpressionParameterTypeTransformation>)
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.CucumberExpressionParameterType(string, Reqnroll.Bindings.Reflection.IBindingType, System.Collections.Generic.IEnumerable<Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation>)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionParameterType.cs
+    startLine: 21
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  syntax:
+    content: public CucumberExpressionParameterType(string name, IBindingType targetType, IEnumerable<ICucumberExpressionParameterTypeTransformation> transformations)
+    parameters:
+    - id: name
+      type: System.String
+    - id: targetType
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    - id: transformations
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation}
+    content.vb: Public Sub New(name As String, targetType As IBindingType, transformations As IEnumerable(Of ICucumberExpressionParameterTypeTransformation))
+  overload: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.#ctor*
+  nameWithType.vb: CucumberExpressionParameterType.New(String, IBindingType, IEnumerable(Of ICucumberExpressionParameterTypeTransformation))
+  fullName.vb: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.New(String, Reqnroll.Bindings.Reflection.IBindingType, System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation))
+  name.vb: New(String, IBindingType, IEnumerable(Of ICucumberExpressionParameterTypeTransformation))
+references:
+- uid: Reqnroll.Bindings.CucumberExpressions
+  commentId: N:Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.CucumberExpressions
+  nameWithType: Reqnroll.Bindings.CucumberExpressions
+  fullName: Reqnroll.Bindings.CucumberExpressions
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  parent: Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.html
+  name: IReqnrollCucumberExpressionParameterType
+  nameWithType: IReqnrollCucumberExpressionParameterType
+  fullName: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+- uid: CucumberExpressions.IParameterType
+  commentId: T:CucumberExpressions.IParameterType
+  parent: CucumberExpressions
+  isExternal: true
+  name: IParameterType
+  nameWithType: IParameterType
+  fullName: CucumberExpressions.IParameterType
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CucumberExpressions
+  commentId: N:CucumberExpressions
+  isExternal: true
+  name: CucumberExpressions
+  nameWithType: CucumberExpressions
+  fullName: CucumberExpressions
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Name*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Name
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_CucumberExpressionParameterType_Name
+  name: Name
+  nameWithType: CucumberExpressionParameterType.Name
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Name
+- uid: CucumberExpressions.IParameterType.Name
+  commentId: P:CucumberExpressions.IParameterType.Name
+  parent: CucumberExpressions.IParameterType
+  isExternal: true
+  name: Name
+  nameWithType: IParameterType.Name
+  fullName: CucumberExpressions.IParameterType.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.TargetType*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.TargetType
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_CucumberExpressionParameterType_TargetType
+  name: TargetType
+  nameWithType: CucumberExpressionParameterType.TargetType
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.TargetType
+- uid: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType
+  parent: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  href: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_IReqnrollCucumberExpressionParameterType_TargetType
+  name: TargetType
+  nameWithType: IReqnrollCucumberExpressionParameterType.TargetType
+  fullName: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.TargetType
+- uid: Reqnroll.Bindings.Reflection.IBindingType
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingType
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingType.html
+  name: IBindingType
+  nameWithType: IBindingType
+  fullName: Reqnroll.Bindings.Reflection.IBindingType
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Transformations*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Transformations
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_CucumberExpressionParameterType_Transformations
+  name: Transformations
+  nameWithType: CucumberExpressionParameterType.Transformations
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Transformations
+- uid: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations
+  commentId: P:Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations
+  parent: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType
+  href: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_IReqnrollCucumberExpressionParameterType_Transformations
+  name: Transformations
+  nameWithType: IReqnrollCucumberExpressionParameterType.Transformations
+  fullName: Reqnroll.Bindings.CucumberExpressions.IReqnrollCucumberExpressionParameterType.Transformations
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation[]
+  isExternal: true
+  href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation.html
+  name: ICucumberExpressionParameterTypeTransformation[]
+  nameWithType: ICucumberExpressionParameterTypeTransformation[]
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation[]
+  nameWithType.vb: ICucumberExpressionParameterTypeTransformation()
+  fullName.vb: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation()
+  name.vb: ICucumberExpressionParameterTypeTransformation()
+  spec.csharp:
+  - uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+    name: ICucumberExpressionParameterTypeTransformation
+    href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+    name: ICucumberExpressionParameterTypeTransformation
+    href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation.html
+  - name: (
+  - name: )
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.RegexStrings*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.RegexStrings
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_CucumberExpressionParameterType_RegexStrings
+  name: RegexStrings
+  nameWithType: CucumberExpressionParameterType.RegexStrings
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.RegexStrings
+- uid: CucumberExpressions.IParameterType.RegexStrings
+  commentId: P:CucumberExpressions.IParameterType.RegexStrings
+  parent: CucumberExpressions.IParameterType
+  isExternal: true
+  name: RegexStrings
+  nameWithType: IParameterType.RegexStrings
+  fullName: CucumberExpressions.IParameterType.RegexStrings
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.UseForSnippets*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.UseForSnippets
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_CucumberExpressionParameterType_UseForSnippets
+  name: UseForSnippets
+  nameWithType: CucumberExpressionParameterType.UseForSnippets
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.UseForSnippets
+- uid: CucumberExpressions.IParameterType.UseForSnippets
+  commentId: P:CucumberExpressions.IParameterType.UseForSnippets
+  parent: CucumberExpressions.IParameterType
+  isExternal: true
+  name: UseForSnippets
+  nameWithType: IParameterType.UseForSnippets
+  fullName: CucumberExpressions.IParameterType.UseForSnippets
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Weight*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Weight
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_CucumberExpressionParameterType_Weight
+  name: Weight
+  nameWithType: CucumberExpressionParameterType.Weight
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.Weight
+- uid: CucumberExpressions.IParameterType.Weight
+  commentId: P:CucumberExpressions.IParameterType.Weight
+  parent: CucumberExpressions.IParameterType
+  isExternal: true
+  name: Weight
+  nameWithType: IParameterType.Weight
+  fullName: CucumberExpressions.IParameterType.Weight
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.ParameterType*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.ParameterType
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_CucumberExpressionParameterType_ParameterType
+  name: ParameterType
+  nameWithType: CucumberExpressionParameterType.ParameterType
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.ParameterType
+- uid: CucumberExpressions.IParameterType.ParameterType
+  commentId: P:CucumberExpressions.IParameterType.ParameterType
+  parent: CucumberExpressions.IParameterType
+  isExternal: true
+  name: ParameterType
+  nameWithType: IParameterType.ParameterType
+  fullName: CucumberExpressions.IParameterType.ParameterType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.#ctor*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.#ctor
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.html#Reqnroll_Bindings_CucumberExpressions_CucumberExpressionParameterType__ctor_System_String_Reqnroll_Bindings_Reflection_IBindingType_System_Collections_Generic_IEnumerable_Reqnroll_Bindings_CucumberExpressions_ICucumberExpressionParameterTypeTransformation__
+  name: CucumberExpressionParameterType
+  nameWithType: CucumberExpressionParameterType.CucumberExpressionParameterType
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.CucumberExpressionParameterType
+  nameWithType.vb: CucumberExpressionParameterType.New
+  fullName.vb: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionParameterType.New
+  name.vb: New
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<ICucumberExpressionParameterTypeTransformation>
+  nameWithType: IEnumerable<ICucumberExpressionParameterTypeTransformation>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation>
+  nameWithType.vb: IEnumerable(Of ICucumberExpressionParameterTypeTransformation)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation)
+  name.vb: IEnumerable(Of ICucumberExpressionParameterTypeTransformation)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+    name: ICucumberExpressionParameterTypeTransformation
+    href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation
+    name: ICucumberExpressionParameterTypeTransformation
+    href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionParameterTypeTransformation.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

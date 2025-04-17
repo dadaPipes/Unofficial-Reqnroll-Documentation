@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist.ITableDiffExceptionBuilder`1
+  commentId: T:Reqnroll.Assist.ITableDiffExceptionBuilder`1
+  id: ITableDiffExceptionBuilder`1
+  parent: Reqnroll.Assist
+  children:
+  - Reqnroll.Assist.ITableDiffExceptionBuilder`1.GetTheTableDiffExceptionMessage(Reqnroll.Assist.TableDifferenceResults{`0})
+  langs:
+  - csharp
+  - vb
+  name: ITableDiffExceptionBuilder<T>
+  nameWithType: ITableDiffExceptionBuilder<T>
+  fullName: Reqnroll.Assist.ITableDiffExceptionBuilder<T>
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDiffExceptionBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ITableDiffExceptionBuilder
+    path: ../Reqnroll/Reqnroll/Assist/TableDiffExceptionBuilder.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public interface ITableDiffExceptionBuilder<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Interface ITableDiffExceptionBuilder(Of T)
+  nameWithType.vb: ITableDiffExceptionBuilder(Of T)
+  fullName.vb: Reqnroll.Assist.ITableDiffExceptionBuilder(Of T)
+  name.vb: ITableDiffExceptionBuilder(Of T)
+- uid: Reqnroll.Assist.ITableDiffExceptionBuilder`1.GetTheTableDiffExceptionMessage(Reqnroll.Assist.TableDifferenceResults{`0})
+  commentId: M:Reqnroll.Assist.ITableDiffExceptionBuilder`1.GetTheTableDiffExceptionMessage(Reqnroll.Assist.TableDifferenceResults{`0})
+  id: GetTheTableDiffExceptionMessage(Reqnroll.Assist.TableDifferenceResults{`0})
+  parent: Reqnroll.Assist.ITableDiffExceptionBuilder`1
+  langs:
+  - csharp
+  - vb
+  name: GetTheTableDiffExceptionMessage(TableDifferenceResults<T>)
+  nameWithType: ITableDiffExceptionBuilder<T>.GetTheTableDiffExceptionMessage(TableDifferenceResults<T>)
+  fullName: Reqnroll.Assist.ITableDiffExceptionBuilder<T>.GetTheTableDiffExceptionMessage(Reqnroll.Assist.TableDifferenceResults<T>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDiffExceptionBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetTheTableDiffExceptionMessage
+    path: ../Reqnroll/Reqnroll/Assist/TableDiffExceptionBuilder.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: string GetTheTableDiffExceptionMessage(TableDifferenceResults<T> tableDifferenceResults)
+    parameters:
+    - id: tableDifferenceResults
+      type: Reqnroll.Assist.TableDifferenceResults{{T}}
+    return:
+      type: System.String
+    content.vb: Function GetTheTableDiffExceptionMessage(tableDifferenceResults As TableDifferenceResults(Of T)) As String
+  overload: Reqnroll.Assist.ITableDiffExceptionBuilder`1.GetTheTableDiffExceptionMessage*
+  nameWithType.vb: ITableDiffExceptionBuilder(Of T).GetTheTableDiffExceptionMessage(TableDifferenceResults(Of T))
+  fullName.vb: Reqnroll.Assist.ITableDiffExceptionBuilder(Of T).GetTheTableDiffExceptionMessage(Reqnroll.Assist.TableDifferenceResults(Of T))
+  name.vb: GetTheTableDiffExceptionMessage(TableDifferenceResults(Of T))
+references:
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  href: Reqnroll.html
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+- uid: Reqnroll.Assist.ITableDiffExceptionBuilder`1.GetTheTableDiffExceptionMessage*
+  commentId: Overload:Reqnroll.Assist.ITableDiffExceptionBuilder`1.GetTheTableDiffExceptionMessage
+  href: Reqnroll.Assist.ITableDiffExceptionBuilder-1.html#Reqnroll_Assist_ITableDiffExceptionBuilder_1_GetTheTableDiffExceptionMessage_Reqnroll_Assist_TableDifferenceResults__0__
+  name: GetTheTableDiffExceptionMessage
+  nameWithType: ITableDiffExceptionBuilder<T>.GetTheTableDiffExceptionMessage
+  fullName: Reqnroll.Assist.ITableDiffExceptionBuilder<T>.GetTheTableDiffExceptionMessage
+  nameWithType.vb: ITableDiffExceptionBuilder(Of T).GetTheTableDiffExceptionMessage
+  fullName.vb: Reqnroll.Assist.ITableDiffExceptionBuilder(Of T).GetTheTableDiffExceptionMessage
+- uid: Reqnroll.Assist.TableDifferenceResults{{T}}
+  commentId: T:Reqnroll.Assist.TableDifferenceResults{`0}
+  parent: Reqnroll.Assist
+  definition: Reqnroll.Assist.TableDifferenceResults`1
+  href: Reqnroll.Assist.TableDifferenceResults-1.html
+  name: TableDifferenceResults<T>
+  nameWithType: TableDifferenceResults<T>
+  fullName: Reqnroll.Assist.TableDifferenceResults<T>
+  nameWithType.vb: TableDifferenceResults(Of T)
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of T)
+  name.vb: TableDifferenceResults(Of T)
+  spec.csharp:
+  - uid: Reqnroll.Assist.TableDifferenceResults`1
+    name: TableDifferenceResults
+    href: Reqnroll.Assist.TableDifferenceResults-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.TableDifferenceResults`1
+    name: TableDifferenceResults
+    href: Reqnroll.Assist.TableDifferenceResults-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Assist.TableDifferenceResults`1
+  commentId: T:Reqnroll.Assist.TableDifferenceResults`1
+  href: Reqnroll.Assist.TableDifferenceResults-1.html
+  name: TableDifferenceResults<TT>
+  nameWithType: TableDifferenceResults<TT>
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>
+  nameWithType.vb: TableDifferenceResults(Of TT)
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT)
+  name.vb: TableDifferenceResults(Of TT)
+  spec.csharp:
+  - uid: Reqnroll.Assist.TableDifferenceResults`1
+    name: TableDifferenceResults
+    href: Reqnroll.Assist.TableDifferenceResults-1.html
+  - name: <
+  - name: TT
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.TableDifferenceResults`1
+    name: TableDifferenceResults
+    href: Reqnroll.Assist.TableDifferenceResults-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TT
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

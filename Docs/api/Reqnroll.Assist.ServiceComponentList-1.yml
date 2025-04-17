@@ -1,0 +1,1087 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist.ServiceComponentList`1
+  commentId: T:Reqnroll.Assist.ServiceComponentList`1
+  id: ServiceComponentList`1
+  parent: Reqnroll.Assist
+  children:
+  - Reqnroll.Assist.ServiceComponentList`1.#ctor
+  - Reqnroll.Assist.ServiceComponentList`1.Clear
+  - Reqnroll.Assist.ServiceComponentList`1.ClearDefault
+  - Reqnroll.Assist.ServiceComponentList`1.GetEnumerator
+  - Reqnroll.Assist.ServiceComponentList`1.Register(`0)
+  - Reqnroll.Assist.ServiceComponentList`1.Register``1
+  - Reqnroll.Assist.ServiceComponentList`1.Replace(`0,`0)
+  - Reqnroll.Assist.ServiceComponentList`1.Replace``2
+  - Reqnroll.Assist.ServiceComponentList`1.SetDefault(`0)
+  - Reqnroll.Assist.ServiceComponentList`1.SetDefault``1
+  - Reqnroll.Assist.ServiceComponentList`1.Unregister(`0)
+  - Reqnroll.Assist.ServiceComponentList`1.Unregister``1
+  langs:
+  - csharp
+  - vb
+  name: ServiceComponentList<T>
+  nameWithType: ServiceComponentList<T>
+  fullName: Reqnroll.Assist.ServiceComponentList<T>
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ServiceComponentList
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: 'public class ServiceComponentList<T> : IEnumerable<T>, IEnumerable'
+    typeParameters:
+    - id: T
+    content.vb: Public Class ServiceComponentList(Of T) Implements IEnumerable(Of T), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IEnumerable{{T}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Collections.Generic.IEnumerable{`0}.Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(Reqnroll.Table)
+  nameWithType.vb: ServiceComponentList(Of T)
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T)
+  name.vb: ServiceComponentList(Of T)
+- uid: Reqnroll.Assist.ServiceComponentList`1.GetEnumerator
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.GetEnumerator
+  id: GetEnumerator
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: ServiceComponentList<T>.GetEnumerator()
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetEnumerator
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public List<T>.Enumerator GetEnumerator()
+    return:
+      type: System.Collections.Generic.List{{T}}.Enumerator
+    content.vb: Public Function GetEnumerator() As List(Of T).Enumerator
+  overload: Reqnroll.Assist.ServiceComponentList`1.GetEnumerator*
+  nameWithType.vb: ServiceComponentList(Of T).GetEnumerator()
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).GetEnumerator()
+- uid: Reqnroll.Assist.ServiceComponentList`1.#ctor
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.#ctor
+  id: '#ctor'
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: ServiceComponentList()
+  nameWithType: ServiceComponentList<T>.ServiceComponentList()
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.ServiceComponentList()
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public ServiceComponentList()
+    content.vb: Public Sub New()
+  overload: Reqnroll.Assist.ServiceComponentList`1.#ctor*
+  nameWithType.vb: ServiceComponentList(Of T).New()
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).New()
+  name.vb: New()
+- uid: Reqnroll.Assist.ServiceComponentList`1.Register(`0)
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.Register(`0)
+  id: Register(`0)
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: Register(T)
+  nameWithType: ServiceComponentList<T>.Register(T)
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Register(T)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Register
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 29
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public void Register(T component)
+    parameters:
+    - id: component
+      type: '{T}'
+    content.vb: Public Sub Register(component As T)
+  overload: Reqnroll.Assist.ServiceComponentList`1.Register*
+  nameWithType.vb: ServiceComponentList(Of T).Register(T)
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Register(T)
+- uid: Reqnroll.Assist.ServiceComponentList`1.Register``1
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.Register``1
+  id: Register``1
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: Register<TImpl>()
+  nameWithType: ServiceComponentList<T>.Register<TImpl>()
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Register<TImpl>()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Register
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 34
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: 'public void Register<TImpl>() where TImpl : T, new()'
+    typeParameters:
+    - id: TImpl
+    content.vb: Public Sub Register(Of TImpl As {T, New})()
+  overload: Reqnroll.Assist.ServiceComponentList`1.Register*
+  nameWithType.vb: ServiceComponentList(Of T).Register(Of TImpl)()
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Register(Of TImpl)()
+  name.vb: Register(Of TImpl)()
+- uid: Reqnroll.Assist.ServiceComponentList`1.Unregister(`0)
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.Unregister(`0)
+  id: Unregister(`0)
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: Unregister(T)
+  nameWithType: ServiceComponentList<T>.Unregister(T)
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Unregister(T)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Unregister
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 39
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public void Unregister(T component)
+    parameters:
+    - id: component
+      type: '{T}'
+    content.vb: Public Sub Unregister(component As T)
+  overload: Reqnroll.Assist.ServiceComponentList`1.Unregister*
+  nameWithType.vb: ServiceComponentList(Of T).Unregister(T)
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Unregister(T)
+- uid: Reqnroll.Assist.ServiceComponentList`1.Unregister``1
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.Unregister``1
+  id: Unregister``1
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: Unregister<TImpl>()
+  nameWithType: ServiceComponentList<T>.Unregister<TImpl>()
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Unregister<TImpl>()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Unregister
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 50
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: 'public void Unregister<TImpl>() where TImpl : T'
+    typeParameters:
+    - id: TImpl
+    content.vb: Public Sub Unregister(Of TImpl As T)()
+  overload: Reqnroll.Assist.ServiceComponentList`1.Unregister*
+  nameWithType.vb: ServiceComponentList(Of T).Unregister(Of TImpl)()
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Unregister(Of TImpl)()
+  name.vb: Unregister(Of TImpl)()
+- uid: Reqnroll.Assist.ServiceComponentList`1.Replace(`0,`0)
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.Replace(`0,`0)
+  id: Replace(`0,`0)
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: Replace(T, T)
+  nameWithType: ServiceComponentList<T>.Replace(T, T)
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Replace(T, T)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Replace
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 62
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public void Replace(T oldComponent, T newComponent)
+    parameters:
+    - id: oldComponent
+      type: '{T}'
+    - id: newComponent
+      type: '{T}'
+    content.vb: Public Sub Replace(oldComponent As T, newComponent As T)
+  overload: Reqnroll.Assist.ServiceComponentList`1.Replace*
+  nameWithType.vb: ServiceComponentList(Of T).Replace(T, T)
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Replace(T, T)
+- uid: Reqnroll.Assist.ServiceComponentList`1.Replace``2
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.Replace``2
+  id: Replace``2
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: Replace<TOld, TNew>()
+  nameWithType: ServiceComponentList<T>.Replace<TOld, TNew>()
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Replace<TOld, TNew>()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Replace
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 68
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: 'public void Replace<TOld, TNew>() where TOld : T where TNew : T, new()'
+    typeParameters:
+    - id: TOld
+    - id: TNew
+    content.vb: Public Sub Replace(Of TOld As T, TNew As {T, New})()
+  overload: Reqnroll.Assist.ServiceComponentList`1.Replace*
+  nameWithType.vb: ServiceComponentList(Of T).Replace(Of TOld, TNew)()
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Replace(Of TOld, TNew)()
+  name.vb: Replace(Of TOld, TNew)()
+- uid: Reqnroll.Assist.ServiceComponentList`1.SetDefault(`0)
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.SetDefault(`0)
+  id: SetDefault(`0)
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: SetDefault(T)
+  nameWithType: ServiceComponentList<T>.SetDefault(T)
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.SetDefault(T)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SetDefault
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 74
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public void SetDefault(T newComponent)
+    parameters:
+    - id: newComponent
+      type: '{T}'
+    content.vb: Public Sub SetDefault(newComponent As T)
+  overload: Reqnroll.Assist.ServiceComponentList`1.SetDefault*
+  nameWithType.vb: ServiceComponentList(Of T).SetDefault(T)
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).SetDefault(T)
+- uid: Reqnroll.Assist.ServiceComponentList`1.SetDefault``1
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.SetDefault``1
+  id: SetDefault``1
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: SetDefault<TImpl>()
+  nameWithType: ServiceComponentList<T>.SetDefault<TImpl>()
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.SetDefault<TImpl>()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SetDefault
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 81
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: 'public void SetDefault<TImpl>() where TImpl : T, new()'
+    typeParameters:
+    - id: TImpl
+    content.vb: Public Sub SetDefault(Of TImpl As {T, New})()
+  overload: Reqnroll.Assist.ServiceComponentList`1.SetDefault*
+  nameWithType.vb: ServiceComponentList(Of T).SetDefault(Of TImpl)()
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).SetDefault(Of TImpl)()
+  name.vb: SetDefault(Of TImpl)()
+- uid: Reqnroll.Assist.ServiceComponentList`1.ClearDefault
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.ClearDefault
+  id: ClearDefault
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: ClearDefault()
+  nameWithType: ServiceComponentList<T>.ClearDefault()
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.ClearDefault()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ClearDefault
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 86
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public void ClearDefault()
+    content.vb: Public Sub ClearDefault()
+  overload: Reqnroll.Assist.ServiceComponentList`1.ClearDefault*
+  nameWithType.vb: ServiceComponentList(Of T).ClearDefault()
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).ClearDefault()
+- uid: Reqnroll.Assist.ServiceComponentList`1.Clear
+  commentId: M:Reqnroll.Assist.ServiceComponentList`1.Clear
+  id: Clear
+  parent: Reqnroll.Assist.ServiceComponentList`1
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: ServiceComponentList<T>.Clear()
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Clear()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Assist/ServiceComponentList.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Clear
+    path: ../Reqnroll/Reqnroll/Assist/ServiceComponentList.cs
+    startLine: 94
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: Reqnroll.Assist.ServiceComponentList`1.Clear*
+  nameWithType.vb: ServiceComponentList(Of T).Clear()
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Clear()
+references:
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  href: Reqnroll.html
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{`0}.Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(Reqnroll.Table)
+  commentId: M:Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+  parent: Reqnroll.Assist.ProjectionExtensionMethods
+  definition: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+  href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  name: ToProjection<T>(IEnumerable<T>, Table)
+  nameWithType: ProjectionExtensionMethods.ToProjection<T>(IEnumerable<T>, Table)
+  fullName: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection<T>(System.Collections.Generic.IEnumerable<T>, Reqnroll.Table)
+  nameWithType.vb: ProjectionExtensionMethods.ToProjection(Of T)(IEnumerable(Of T), Table)
+  fullName.vb: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection(Of T)(System.Collections.Generic.IEnumerable(Of T), Reqnroll.Table)
+  name.vb: ToProjection(Of T)(IEnumerable(Of T), Table)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{`0},Reqnroll.Table)
+    name: ToProjection
+    href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{`0},Reqnroll.Table)
+    name: ToProjection
+    href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+  commentId: M:Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+  isExternal: true
+  href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  name: ToProjection<T>(IEnumerable<T>, Table)
+  nameWithType: ProjectionExtensionMethods.ToProjection<T>(IEnumerable<T>, Table)
+  fullName: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection<T>(System.Collections.Generic.IEnumerable<T>, Reqnroll.Table)
+  nameWithType.vb: ProjectionExtensionMethods.ToProjection(Of T)(IEnumerable(Of T), Table)
+  fullName.vb: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection(Of T)(System.Collections.Generic.IEnumerable(Of T), Reqnroll.Table)
+  name.vb: ToProjection(Of T)(IEnumerable(Of T), Table)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+    name: ToProjection
+    href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Assist.ProjectionExtensionMethods.ToProjection``1(System.Collections.Generic.IEnumerable{``0},Reqnroll.Table)
+    name: ToProjection
+    href: Reqnroll.Assist.ProjectionExtensionMethods.html#Reqnroll_Assist_ProjectionExtensionMethods_ToProjection__1_System_Collections_Generic_IEnumerable___0__Reqnroll_Table_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: )
+- uid: Reqnroll.Assist.ProjectionExtensionMethods
+  commentId: T:Reqnroll.Assist.ProjectionExtensionMethods
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.ProjectionExtensionMethods.html
+  name: ProjectionExtensionMethods
+  nameWithType: ProjectionExtensionMethods
+  fullName: Reqnroll.Assist.ProjectionExtensionMethods
+- uid: Reqnroll.Assist.ServiceComponentList`1.GetEnumerator*
+  commentId: Overload:Reqnroll.Assist.ServiceComponentList`1.GetEnumerator
+  href: Reqnroll.Assist.ServiceComponentList-1.html#Reqnroll_Assist_ServiceComponentList_1_GetEnumerator
+  name: GetEnumerator
+  nameWithType: ServiceComponentList<T>.GetEnumerator
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.GetEnumerator
+  nameWithType.vb: ServiceComponentList(Of T).GetEnumerator
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).GetEnumerator
+- uid: System.Collections.Generic.List{{T}}.Enumerator
+  commentId: T:System.Collections.Generic.List{`0}.Enumerator
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1.Enumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>.Enumerator
+  nameWithType: List<T>.Enumerator
+  fullName: System.Collections.Generic.List<T>.Enumerator
+  nameWithType.vb: List(Of T).Enumerator
+  fullName.vb: System.Collections.Generic.List(Of T).Enumerator
+  name.vb: List(Of T).Enumerator
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: .
+  - uid: System.Collections.Generic.List{`0}.Enumerator
+    name: Enumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1.enumerator
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: .
+  - uid: System.Collections.Generic.List{`0}.Enumerator
+    name: Enumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1.enumerator
+- uid: System.Collections.Generic.List`1.Enumerator
+  commentId: T:System.Collections.Generic.List`1.Enumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>.Enumerator
+  nameWithType: List<T>.Enumerator
+  fullName: System.Collections.Generic.List<T>.Enumerator
+  nameWithType.vb: List(Of T).Enumerator
+  fullName.vb: System.Collections.Generic.List(Of T).Enumerator
+  name.vb: List(Of T).Enumerator
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: .
+  - uid: System.Collections.Generic.List`1.Enumerator
+    name: Enumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1.enumerator
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: .
+  - uid: System.Collections.Generic.List`1.Enumerator
+    name: Enumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1.enumerator
+- uid: Reqnroll.Assist.ServiceComponentList`1.#ctor*
+  commentId: Overload:Reqnroll.Assist.ServiceComponentList`1.#ctor
+  href: Reqnroll.Assist.ServiceComponentList-1.html#Reqnroll_Assist_ServiceComponentList_1__ctor
+  name: ServiceComponentList
+  nameWithType: ServiceComponentList<T>.ServiceComponentList
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.ServiceComponentList
+  nameWithType.vb: ServiceComponentList(Of T).New
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).New
+  name.vb: New
+- uid: Reqnroll.Assist.ServiceComponentList`1.Register*
+  commentId: Overload:Reqnroll.Assist.ServiceComponentList`1.Register
+  href: Reqnroll.Assist.ServiceComponentList-1.html#Reqnroll_Assist_ServiceComponentList_1_Register__0_
+  name: Register
+  nameWithType: ServiceComponentList<T>.Register
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Register
+  nameWithType.vb: ServiceComponentList(Of T).Register
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Register
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Reqnroll.Assist.ServiceComponentList`1.Unregister*
+  commentId: Overload:Reqnroll.Assist.ServiceComponentList`1.Unregister
+  href: Reqnroll.Assist.ServiceComponentList-1.html#Reqnroll_Assist_ServiceComponentList_1_Unregister__0_
+  name: Unregister
+  nameWithType: ServiceComponentList<T>.Unregister
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Unregister
+  nameWithType.vb: ServiceComponentList(Of T).Unregister
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Unregister
+- uid: Reqnroll.Assist.ServiceComponentList`1.Replace*
+  commentId: Overload:Reqnroll.Assist.ServiceComponentList`1.Replace
+  href: Reqnroll.Assist.ServiceComponentList-1.html#Reqnroll_Assist_ServiceComponentList_1_Replace__0__0_
+  name: Replace
+  nameWithType: ServiceComponentList<T>.Replace
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Replace
+  nameWithType.vb: ServiceComponentList(Of T).Replace
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Replace
+- uid: Reqnroll.Assist.ServiceComponentList`1.SetDefault*
+  commentId: Overload:Reqnroll.Assist.ServiceComponentList`1.SetDefault
+  href: Reqnroll.Assist.ServiceComponentList-1.html#Reqnroll_Assist_ServiceComponentList_1_SetDefault__0_
+  name: SetDefault
+  nameWithType: ServiceComponentList<T>.SetDefault
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.SetDefault
+  nameWithType.vb: ServiceComponentList(Of T).SetDefault
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).SetDefault
+- uid: Reqnroll.Assist.ServiceComponentList`1.ClearDefault*
+  commentId: Overload:Reqnroll.Assist.ServiceComponentList`1.ClearDefault
+  href: Reqnroll.Assist.ServiceComponentList-1.html#Reqnroll_Assist_ServiceComponentList_1_ClearDefault
+  name: ClearDefault
+  nameWithType: ServiceComponentList<T>.ClearDefault
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.ClearDefault
+  nameWithType.vb: ServiceComponentList(Of T).ClearDefault
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).ClearDefault
+- uid: Reqnroll.Assist.ServiceComponentList`1.Clear*
+  commentId: Overload:Reqnroll.Assist.ServiceComponentList`1.Clear
+  href: Reqnroll.Assist.ServiceComponentList-1.html#Reqnroll_Assist_ServiceComponentList_1_Clear
+  name: Clear
+  nameWithType: ServiceComponentList<T>.Clear
+  fullName: Reqnroll.Assist.ServiceComponentList<T>.Clear
+  nameWithType.vb: ServiceComponentList(Of T).Clear
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T).Clear

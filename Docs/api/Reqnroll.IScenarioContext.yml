@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.IScenarioContext
+  commentId: T:Reqnroll.IScenarioContext
+  id: IScenarioContext
+  parent: Reqnroll
+  children:
+  - Reqnroll.IScenarioContext.CurrentScenarioBlock
+  - Reqnroll.IScenarioContext.ScenarioContainer
+  - Reqnroll.IScenarioContext.ScenarioExecutionStatus
+  - Reqnroll.IScenarioContext.ScenarioInfo
+  langs:
+  - csharp
+  - vb
+  name: IScenarioContext
+  nameWithType: IScenarioContext
+  fullName: Reqnroll.IScenarioContext
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/ScenarioContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IScenarioContext
+    path: ../Reqnroll/Reqnroll/ScenarioContext.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: 'public interface IScenarioContext : IReqnrollContext'
+    content.vb: Public Interface IScenarioContext Inherits IReqnrollContext
+  inheritedMembers:
+  - Reqnroll.IReqnrollContext.TestError
+- uid: Reqnroll.IScenarioContext.ScenarioInfo
+  commentId: P:Reqnroll.IScenarioContext.ScenarioInfo
+  id: ScenarioInfo
+  parent: Reqnroll.IScenarioContext
+  langs:
+  - csharp
+  - vb
+  name: ScenarioInfo
+  nameWithType: IScenarioContext.ScenarioInfo
+  fullName: Reqnroll.IScenarioContext.ScenarioInfo
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ScenarioContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioInfo
+    path: ../Reqnroll/Reqnroll/ScenarioContext.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: ScenarioInfo ScenarioInfo { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioInfo
+    content.vb: ReadOnly Property ScenarioInfo As ScenarioInfo
+  overload: Reqnroll.IScenarioContext.ScenarioInfo*
+- uid: Reqnroll.IScenarioContext.CurrentScenarioBlock
+  commentId: P:Reqnroll.IScenarioContext.CurrentScenarioBlock
+  id: CurrentScenarioBlock
+  parent: Reqnroll.IScenarioContext
+  langs:
+  - csharp
+  - vb
+  name: CurrentScenarioBlock
+  nameWithType: IScenarioContext.CurrentScenarioBlock
+  fullName: Reqnroll.IScenarioContext.CurrentScenarioBlock
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ScenarioContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CurrentScenarioBlock
+    path: ../Reqnroll/Reqnroll/ScenarioContext.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: ScenarioBlock CurrentScenarioBlock { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioBlock
+    content.vb: ReadOnly Property CurrentScenarioBlock As ScenarioBlock
+  overload: Reqnroll.IScenarioContext.CurrentScenarioBlock*
+- uid: Reqnroll.IScenarioContext.ScenarioContainer
+  commentId: P:Reqnroll.IScenarioContext.ScenarioContainer
+  id: ScenarioContainer
+  parent: Reqnroll.IScenarioContext
+  langs:
+  - csharp
+  - vb
+  name: ScenarioContainer
+  nameWithType: IScenarioContext.ScenarioContainer
+  fullName: Reqnroll.IScenarioContext.ScenarioContainer
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ScenarioContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioContainer
+    path: ../Reqnroll/Reqnroll/ScenarioContext.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: IObjectContainer ScenarioContainer { get; }
+    parameters: []
+    return:
+      type: Reqnroll.BoDi.IObjectContainer
+    content.vb: ReadOnly Property ScenarioContainer As IObjectContainer
+  overload: Reqnroll.IScenarioContext.ScenarioContainer*
+- uid: Reqnroll.IScenarioContext.ScenarioExecutionStatus
+  commentId: P:Reqnroll.IScenarioContext.ScenarioExecutionStatus
+  id: ScenarioExecutionStatus
+  parent: Reqnroll.IScenarioContext
+  langs:
+  - csharp
+  - vb
+  name: ScenarioExecutionStatus
+  nameWithType: IScenarioContext.ScenarioExecutionStatus
+  fullName: Reqnroll.IScenarioContext.ScenarioExecutionStatus
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ScenarioContext.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioExecutionStatus
+    path: ../Reqnroll/Reqnroll/ScenarioContext.cs
+    startLine: 19
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: ScenarioExecutionStatus ScenarioExecutionStatus { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioExecutionStatus
+    content.vb: ReadOnly Property ScenarioExecutionStatus As ScenarioExecutionStatus
+  overload: Reqnroll.IScenarioContext.ScenarioExecutionStatus*
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.IReqnrollContext.TestError
+  commentId: P:Reqnroll.IReqnrollContext.TestError
+  parent: Reqnroll.IReqnrollContext
+  href: Reqnroll.IReqnrollContext.html#Reqnroll_IReqnrollContext_TestError
+  name: TestError
+  nameWithType: IReqnrollContext.TestError
+  fullName: Reqnroll.IReqnrollContext.TestError
+- uid: Reqnroll.IReqnrollContext
+  commentId: T:Reqnroll.IReqnrollContext
+  parent: Reqnroll
+  href: Reqnroll.IReqnrollContext.html
+  name: IReqnrollContext
+  nameWithType: IReqnrollContext
+  fullName: Reqnroll.IReqnrollContext
+- uid: Reqnroll.IScenarioContext.ScenarioInfo*
+  commentId: Overload:Reqnroll.IScenarioContext.ScenarioInfo
+  href: Reqnroll.IScenarioContext.html#Reqnroll_IScenarioContext_ScenarioInfo
+  name: ScenarioInfo
+  nameWithType: IScenarioContext.ScenarioInfo
+  fullName: Reqnroll.IScenarioContext.ScenarioInfo
+- uid: Reqnroll.ScenarioInfo
+  commentId: T:Reqnroll.ScenarioInfo
+  parent: Reqnroll
+  href: Reqnroll.ScenarioInfo.html
+  name: ScenarioInfo
+  nameWithType: ScenarioInfo
+  fullName: Reqnroll.ScenarioInfo
+- uid: Reqnroll.IScenarioContext.CurrentScenarioBlock*
+  commentId: Overload:Reqnroll.IScenarioContext.CurrentScenarioBlock
+  href: Reqnroll.IScenarioContext.html#Reqnroll_IScenarioContext_CurrentScenarioBlock
+  name: CurrentScenarioBlock
+  nameWithType: IScenarioContext.CurrentScenarioBlock
+  fullName: Reqnroll.IScenarioContext.CurrentScenarioBlock
+- uid: Reqnroll.ScenarioBlock
+  commentId: T:Reqnroll.ScenarioBlock
+  parent: Reqnroll
+  href: Reqnroll.ScenarioBlock.html
+  name: ScenarioBlock
+  nameWithType: ScenarioBlock
+  fullName: Reqnroll.ScenarioBlock
+- uid: Reqnroll.IScenarioContext.ScenarioContainer*
+  commentId: Overload:Reqnroll.IScenarioContext.ScenarioContainer
+  href: Reqnroll.IScenarioContext.html#Reqnroll_IScenarioContext_ScenarioContainer
+  name: ScenarioContainer
+  nameWithType: IScenarioContext.ScenarioContainer
+  fullName: Reqnroll.IScenarioContext.ScenarioContainer
+- uid: Reqnroll.BoDi.IObjectContainer
+  commentId: T:Reqnroll.BoDi.IObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IObjectContainer.html
+  name: IObjectContainer
+  nameWithType: IObjectContainer
+  fullName: Reqnroll.BoDi.IObjectContainer
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.IScenarioContext.ScenarioExecutionStatus*
+  commentId: Overload:Reqnroll.IScenarioContext.ScenarioExecutionStatus
+  href: Reqnroll.IScenarioContext.html#Reqnroll_IScenarioContext_ScenarioExecutionStatus
+  name: ScenarioExecutionStatus
+  nameWithType: IScenarioContext.ScenarioExecutionStatus
+  fullName: Reqnroll.IScenarioContext.ScenarioExecutionStatus
+- uid: Reqnroll.ScenarioExecutionStatus
+  commentId: T:Reqnroll.ScenarioExecutionStatus
+  parent: Reqnroll
+  href: Reqnroll.ScenarioExecutionStatus.html
+  name: ScenarioExecutionStatus
+  nameWithType: ScenarioExecutionStatus
+  fullName: Reqnroll.ScenarioExecutionStatus

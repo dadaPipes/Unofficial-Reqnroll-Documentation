@@ -1,0 +1,762 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Parser.ReqnrollGherkinDialectProvider
+  commentId: T:Reqnroll.Parser.ReqnrollGherkinDialectProvider
+  id: ReqnrollGherkinDialectProvider
+  parent: Reqnroll.Parser
+  children:
+  - Reqnroll.Parser.ReqnrollGherkinDialectProvider.#ctor(System.String)
+  - Reqnroll.Parser.ReqnrollGherkinDialectProvider.GetDialect(System.String,Gherkin.Ast.Location)
+  langs:
+  - csharp
+  - vb
+  name: ReqnrollGherkinDialectProvider
+  nameWithType: ReqnrollGherkinDialectProvider
+  fullName: Reqnroll.Parser.ReqnrollGherkinDialectProvider
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Parser/ReqnrollGherkinDialectProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ReqnrollGherkinDialectProvider
+    path: ../Reqnroll/Reqnroll/Parser/ReqnrollGherkinDialectProvider.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Parser
+  syntax:
+    content: 'public class ReqnrollGherkinDialectProvider : GherkinDialectProvider, IGherkinDialectProvider'
+    content.vb: Public Class ReqnrollGherkinDialectProvider Inherits GherkinDialectProvider Implements IGherkinDialectProvider
+  inheritance:
+  - System.Object
+  - Gherkin.GherkinDialectProvider
+  implements:
+  - Gherkin.IGherkinDialectProvider
+  inheritedMembers:
+  - Gherkin.GherkinDialectProvider.TryGetDialect(System.String,Gherkin.Ast.Location,Gherkin.GherkinDialect@)
+  - Gherkin.GherkinDialectProvider.LoadLanguageSettings
+  - Gherkin.GherkinDialectProvider.ParseJsonContent(System.String)
+  - Gherkin.GherkinDialectProvider.TryGetDialect(System.String,System.Collections.Generic.Dictionary{System.String,Gherkin.GherkinLanguageSetting},Gherkin.Ast.Location,Gherkin.GherkinDialect@)
+  - Gherkin.GherkinDialectProvider.CreateGherkinDialect(System.String,Gherkin.GherkinLanguageSetting)
+  - Gherkin.GherkinDialectProvider.GetFactoryDefault
+  - Gherkin.GherkinDialectProvider.DefaultDialect
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Parser.ReqnrollGherkinDialectProvider.#ctor(System.String)
+  commentId: M:Reqnroll.Parser.ReqnrollGherkinDialectProvider.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Reqnroll.Parser.ReqnrollGherkinDialectProvider
+  langs:
+  - csharp
+  - vb
+  name: ReqnrollGherkinDialectProvider(string)
+  nameWithType: ReqnrollGherkinDialectProvider.ReqnrollGherkinDialectProvider(string)
+  fullName: Reqnroll.Parser.ReqnrollGherkinDialectProvider.ReqnrollGherkinDialectProvider(string)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Parser/ReqnrollGherkinDialectProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Parser/ReqnrollGherkinDialectProvider.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Parser
+  syntax:
+    content: public ReqnrollGherkinDialectProvider(string defaultLanguage)
+    parameters:
+    - id: defaultLanguage
+      type: System.String
+    content.vb: Public Sub New(defaultLanguage As String)
+  overload: Reqnroll.Parser.ReqnrollGherkinDialectProvider.#ctor*
+  nameWithType.vb: ReqnrollGherkinDialectProvider.New(String)
+  fullName.vb: Reqnroll.Parser.ReqnrollGherkinDialectProvider.New(String)
+  name.vb: New(String)
+- uid: Reqnroll.Parser.ReqnrollGherkinDialectProvider.GetDialect(System.String,Gherkin.Ast.Location)
+  commentId: M:Reqnroll.Parser.ReqnrollGherkinDialectProvider.GetDialect(System.String,Gherkin.Ast.Location)
+  id: GetDialect(System.String,Gherkin.Ast.Location)
+  parent: Reqnroll.Parser.ReqnrollGherkinDialectProvider
+  langs:
+  - csharp
+  - vb
+  name: GetDialect(string, Location)
+  nameWithType: ReqnrollGherkinDialectProvider.GetDialect(string, Location)
+  fullName: Reqnroll.Parser.ReqnrollGherkinDialectProvider.GetDialect(string, Gherkin.Ast.Location)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Parser/ReqnrollGherkinDialectProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetDialect
+    path: ../Reqnroll/Reqnroll/Parser/ReqnrollGherkinDialectProvider.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Parser
+  example: []
+  syntax:
+    content: public override GherkinDialect GetDialect(string language, Location location)
+    parameters:
+    - id: language
+      type: System.String
+    - id: location
+      type: Gherkin.Ast.Location
+    return:
+      type: Gherkin.GherkinDialect
+    content.vb: Public Overrides Function GetDialect(language As String, location As Location) As GherkinDialect
+  overridden: Gherkin.GherkinDialectProvider.GetDialect(System.String,Gherkin.Ast.Location)
+  overload: Reqnroll.Parser.ReqnrollGherkinDialectProvider.GetDialect*
+  nameWithType.vb: ReqnrollGherkinDialectProvider.GetDialect(String, Location)
+  fullName.vb: Reqnroll.Parser.ReqnrollGherkinDialectProvider.GetDialect(String, Gherkin.Ast.Location)
+  name.vb: GetDialect(String, Location)
+references:
+- uid: Reqnroll.Parser
+  commentId: N:Reqnroll.Parser
+  href: Reqnroll.html
+  name: Reqnroll.Parser
+  nameWithType: Reqnroll.Parser
+  fullName: Reqnroll.Parser
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Parser
+    name: Parser
+    href: Reqnroll.Parser.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Parser
+    name: Parser
+    href: Reqnroll.Parser.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Gherkin.GherkinDialectProvider
+  commentId: T:Gherkin.GherkinDialectProvider
+  parent: Gherkin
+  isExternal: true
+  name: GherkinDialectProvider
+  nameWithType: GherkinDialectProvider
+  fullName: Gherkin.GherkinDialectProvider
+- uid: Gherkin.IGherkinDialectProvider
+  commentId: T:Gherkin.IGherkinDialectProvider
+  parent: Gherkin
+  isExternal: true
+  name: IGherkinDialectProvider
+  nameWithType: IGherkinDialectProvider
+  fullName: Gherkin.IGherkinDialectProvider
+- uid: Gherkin.GherkinDialectProvider.TryGetDialect(System.String,Gherkin.Ast.Location,Gherkin.GherkinDialect@)
+  commentId: M:Gherkin.GherkinDialectProvider.TryGetDialect(System.String,Gherkin.Ast.Location,Gherkin.GherkinDialect@)
+  parent: Gherkin.GherkinDialectProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: TryGetDialect(string, Location, out GherkinDialect)
+  nameWithType: GherkinDialectProvider.TryGetDialect(string, Location, out GherkinDialect)
+  fullName: Gherkin.GherkinDialectProvider.TryGetDialect(string, Gherkin.Ast.Location, out Gherkin.GherkinDialect)
+  nameWithType.vb: GherkinDialectProvider.TryGetDialect(String, Location, GherkinDialect)
+  fullName.vb: Gherkin.GherkinDialectProvider.TryGetDialect(String, Gherkin.Ast.Location, Gherkin.GherkinDialect)
+  name.vb: TryGetDialect(String, Location, GherkinDialect)
+  spec.csharp:
+  - uid: Gherkin.GherkinDialectProvider.TryGetDialect(System.String,Gherkin.Ast.Location,Gherkin.GherkinDialect@)
+    name: TryGetDialect
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Gherkin.Ast.Location
+    name: Location
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: Gherkin.GherkinDialect
+    name: GherkinDialect
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Gherkin.GherkinDialectProvider.TryGetDialect(System.String,Gherkin.Ast.Location,Gherkin.GherkinDialect@)
+    name: TryGetDialect
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Gherkin.Ast.Location
+    name: Location
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Gherkin.GherkinDialect
+    name: GherkinDialect
+    isExternal: true
+  - name: )
+- uid: Gherkin.GherkinDialectProvider.LoadLanguageSettings
+  commentId: M:Gherkin.GherkinDialectProvider.LoadLanguageSettings
+  parent: Gherkin.GherkinDialectProvider
+  isExternal: true
+  name: LoadLanguageSettings()
+  nameWithType: GherkinDialectProvider.LoadLanguageSettings()
+  fullName: Gherkin.GherkinDialectProvider.LoadLanguageSettings()
+  spec.csharp:
+  - uid: Gherkin.GherkinDialectProvider.LoadLanguageSettings
+    name: LoadLanguageSettings
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Gherkin.GherkinDialectProvider.LoadLanguageSettings
+    name: LoadLanguageSettings
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Gherkin.GherkinDialectProvider.ParseJsonContent(System.String)
+  commentId: M:Gherkin.GherkinDialectProvider.ParseJsonContent(System.String)
+  parent: Gherkin.GherkinDialectProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ParseJsonContent(string)
+  nameWithType: GherkinDialectProvider.ParseJsonContent(string)
+  fullName: Gherkin.GherkinDialectProvider.ParseJsonContent(string)
+  nameWithType.vb: GherkinDialectProvider.ParseJsonContent(String)
+  fullName.vb: Gherkin.GherkinDialectProvider.ParseJsonContent(String)
+  name.vb: ParseJsonContent(String)
+  spec.csharp:
+  - uid: Gherkin.GherkinDialectProvider.ParseJsonContent(System.String)
+    name: ParseJsonContent
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Gherkin.GherkinDialectProvider.ParseJsonContent(System.String)
+    name: ParseJsonContent
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Gherkin.GherkinDialectProvider.TryGetDialect(System.String,System.Collections.Generic.Dictionary{System.String,Gherkin.GherkinLanguageSetting},Gherkin.Ast.Location,Gherkin.GherkinDialect@)
+  commentId: M:Gherkin.GherkinDialectProvider.TryGetDialect(System.String,System.Collections.Generic.Dictionary{System.String,Gherkin.GherkinLanguageSetting},Gherkin.Ast.Location,Gherkin.GherkinDialect@)
+  parent: Gherkin.GherkinDialectProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: TryGetDialect(string, Dictionary<string, GherkinLanguageSetting>, Location, out GherkinDialect)
+  nameWithType: GherkinDialectProvider.TryGetDialect(string, Dictionary<string, GherkinLanguageSetting>, Location, out GherkinDialect)
+  fullName: Gherkin.GherkinDialectProvider.TryGetDialect(string, System.Collections.Generic.Dictionary<string, Gherkin.GherkinLanguageSetting>, Gherkin.Ast.Location, out Gherkin.GherkinDialect)
+  nameWithType.vb: GherkinDialectProvider.TryGetDialect(String, Dictionary(Of String, GherkinLanguageSetting), Location, GherkinDialect)
+  fullName.vb: Gherkin.GherkinDialectProvider.TryGetDialect(String, System.Collections.Generic.Dictionary(Of String, Gherkin.GherkinLanguageSetting), Gherkin.Ast.Location, Gherkin.GherkinDialect)
+  name.vb: TryGetDialect(String, Dictionary(Of String, GherkinLanguageSetting), Location, GherkinDialect)
+  spec.csharp:
+  - uid: Gherkin.GherkinDialectProvider.TryGetDialect(System.String,System.Collections.Generic.Dictionary{System.String,Gherkin.GherkinLanguageSetting},Gherkin.Ast.Location,Gherkin.GherkinDialect@)
+    name: TryGetDialect
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Gherkin.GherkinLanguageSetting
+    name: GherkinLanguageSetting
+    isExternal: true
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: Gherkin.Ast.Location
+    name: Location
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: Gherkin.GherkinDialect
+    name: GherkinDialect
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Gherkin.GherkinDialectProvider.TryGetDialect(System.String,System.Collections.Generic.Dictionary{System.String,Gherkin.GherkinLanguageSetting},Gherkin.Ast.Location,Gherkin.GherkinDialect@)
+    name: TryGetDialect
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Gherkin.GherkinLanguageSetting
+    name: GherkinLanguageSetting
+    isExternal: true
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Gherkin.Ast.Location
+    name: Location
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Gherkin.GherkinDialect
+    name: GherkinDialect
+    isExternal: true
+  - name: )
+- uid: Gherkin.GherkinDialectProvider.CreateGherkinDialect(System.String,Gherkin.GherkinLanguageSetting)
+  commentId: M:Gherkin.GherkinDialectProvider.CreateGherkinDialect(System.String,Gherkin.GherkinLanguageSetting)
+  parent: Gherkin.GherkinDialectProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: CreateGherkinDialect(string, GherkinLanguageSetting)
+  nameWithType: GherkinDialectProvider.CreateGherkinDialect(string, GherkinLanguageSetting)
+  fullName: Gherkin.GherkinDialectProvider.CreateGherkinDialect(string, Gherkin.GherkinLanguageSetting)
+  nameWithType.vb: GherkinDialectProvider.CreateGherkinDialect(String, GherkinLanguageSetting)
+  fullName.vb: Gherkin.GherkinDialectProvider.CreateGherkinDialect(String, Gherkin.GherkinLanguageSetting)
+  name.vb: CreateGherkinDialect(String, GherkinLanguageSetting)
+  spec.csharp:
+  - uid: Gherkin.GherkinDialectProvider.CreateGherkinDialect(System.String,Gherkin.GherkinLanguageSetting)
+    name: CreateGherkinDialect
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Gherkin.GherkinLanguageSetting
+    name: GherkinLanguageSetting
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Gherkin.GherkinDialectProvider.CreateGherkinDialect(System.String,Gherkin.GherkinLanguageSetting)
+    name: CreateGherkinDialect
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Gherkin.GherkinLanguageSetting
+    name: GherkinLanguageSetting
+    isExternal: true
+  - name: )
+- uid: Gherkin.GherkinDialectProvider.GetFactoryDefault
+  commentId: M:Gherkin.GherkinDialectProvider.GetFactoryDefault
+  parent: Gherkin.GherkinDialectProvider
+  isExternal: true
+  name: GetFactoryDefault()
+  nameWithType: GherkinDialectProvider.GetFactoryDefault()
+  fullName: Gherkin.GherkinDialectProvider.GetFactoryDefault()
+  spec.csharp:
+  - uid: Gherkin.GherkinDialectProvider.GetFactoryDefault
+    name: GetFactoryDefault
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Gherkin.GherkinDialectProvider.GetFactoryDefault
+    name: GetFactoryDefault
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Gherkin.GherkinDialectProvider.DefaultDialect
+  commentId: P:Gherkin.GherkinDialectProvider.DefaultDialect
+  parent: Gherkin.GherkinDialectProvider
+  isExternal: true
+  name: DefaultDialect
+  nameWithType: GherkinDialectProvider.DefaultDialect
+  fullName: Gherkin.GherkinDialectProvider.DefaultDialect
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Gherkin
+  commentId: N:Gherkin
+  isExternal: true
+  name: Gherkin
+  nameWithType: Gherkin
+  fullName: Gherkin
+- uid: Reqnroll.Parser.ReqnrollGherkinDialectProvider.#ctor*
+  commentId: Overload:Reqnroll.Parser.ReqnrollGherkinDialectProvider.#ctor
+  href: Reqnroll.Parser.ReqnrollGherkinDialectProvider.html#Reqnroll_Parser_ReqnrollGherkinDialectProvider__ctor_System_String_
+  name: ReqnrollGherkinDialectProvider
+  nameWithType: ReqnrollGherkinDialectProvider.ReqnrollGherkinDialectProvider
+  fullName: Reqnroll.Parser.ReqnrollGherkinDialectProvider.ReqnrollGherkinDialectProvider
+  nameWithType.vb: ReqnrollGherkinDialectProvider.New
+  fullName.vb: Reqnroll.Parser.ReqnrollGherkinDialectProvider.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Gherkin.GherkinDialectProvider.GetDialect(System.String,Gherkin.Ast.Location)
+  commentId: M:Gherkin.GherkinDialectProvider.GetDialect(System.String,Gherkin.Ast.Location)
+  parent: Gherkin.GherkinDialectProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetDialect(string, Location)
+  nameWithType: GherkinDialectProvider.GetDialect(string, Location)
+  fullName: Gherkin.GherkinDialectProvider.GetDialect(string, Gherkin.Ast.Location)
+  nameWithType.vb: GherkinDialectProvider.GetDialect(String, Location)
+  fullName.vb: Gherkin.GherkinDialectProvider.GetDialect(String, Gherkin.Ast.Location)
+  name.vb: GetDialect(String, Location)
+  spec.csharp:
+  - uid: Gherkin.GherkinDialectProvider.GetDialect(System.String,Gherkin.Ast.Location)
+    name: GetDialect
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Gherkin.Ast.Location
+    name: Location
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Gherkin.GherkinDialectProvider.GetDialect(System.String,Gherkin.Ast.Location)
+    name: GetDialect
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Gherkin.Ast.Location
+    name: Location
+    isExternal: true
+  - name: )
+- uid: Reqnroll.Parser.ReqnrollGherkinDialectProvider.GetDialect*
+  commentId: Overload:Reqnroll.Parser.ReqnrollGherkinDialectProvider.GetDialect
+  href: Reqnroll.Parser.ReqnrollGherkinDialectProvider.html#Reqnroll_Parser_ReqnrollGherkinDialectProvider_GetDialect_System_String_Gherkin_Ast_Location_
+  name: GetDialect
+  nameWithType: ReqnrollGherkinDialectProvider.GetDialect
+  fullName: Reqnroll.Parser.ReqnrollGherkinDialectProvider.GetDialect
+- uid: Gherkin.Ast.Location
+  commentId: T:Gherkin.Ast.Location
+  parent: Gherkin.Ast
+  isExternal: true
+  name: Location
+  nameWithType: Location
+  fullName: Gherkin.Ast.Location
+- uid: Gherkin.GherkinDialect
+  commentId: T:Gherkin.GherkinDialect
+  parent: Gherkin
+  isExternal: true
+  name: GherkinDialect
+  nameWithType: GherkinDialect
+  fullName: Gherkin.GherkinDialect
+- uid: Gherkin.Ast
+  commentId: N:Gherkin.Ast
+  isExternal: true
+  name: Gherkin.Ast
+  nameWithType: Gherkin.Ast
+  fullName: Gherkin.Ast
+  spec.csharp:
+  - uid: Gherkin
+    name: Gherkin
+    isExternal: true
+  - name: .
+  - uid: Gherkin.Ast
+    name: Ast
+    isExternal: true
+  spec.vb:
+  - uid: Gherkin
+    name: Gherkin
+    isExternal: true
+  - name: .
+  - uid: Gherkin.Ast
+    name: Ast
+    isExternal: true

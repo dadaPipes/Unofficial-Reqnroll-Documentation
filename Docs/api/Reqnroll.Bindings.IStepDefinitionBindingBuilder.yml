@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  id: IStepDefinitionBindingBuilder
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build
+  langs:
+  - csharp
+  - vb
+  name: IStepDefinitionBindingBuilder
+  nameWithType: IStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/IStepDefinitionBindingBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IStepDefinitionBindingBuilder
+    path: ../Reqnroll/Reqnroll/Bindings/IStepDefinitionBindingBuilder.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public interface IStepDefinitionBindingBuilder
+    content.vb: Public Interface IStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build
+  commentId: M:Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build
+  id: Build
+  parent: Reqnroll.Bindings.IStepDefinitionBindingBuilder
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: IStepDefinitionBindingBuilder.Build()
+  fullName: Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IStepDefinitionBindingBuilder.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Build
+    path: ../Reqnroll/Reqnroll/Bindings/IStepDefinitionBindingBuilder.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IEnumerable<IStepDefinitionBinding> Build()
+    return:
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepDefinitionBinding}
+    content.vb: Function Build() As IEnumerable(Of IStepDefinitionBinding)
+  overload: Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build*
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build*
+  commentId: Overload:Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build
+  href: Reqnroll.Bindings.IStepDefinitionBindingBuilder.html#Reqnroll_Bindings_IStepDefinitionBindingBuilder_Build
+  name: Build
+  nameWithType: IStepDefinitionBindingBuilder.Build
+  fullName: Reqnroll.Bindings.IStepDefinitionBindingBuilder.Build
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepDefinitionBinding}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.Bindings.IStepDefinitionBinding}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IStepDefinitionBinding>
+  nameWithType: IEnumerable<IStepDefinitionBinding>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.Bindings.IStepDefinitionBinding>
+  nameWithType.vb: IEnumerable(Of IStepDefinitionBinding)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.IStepDefinitionBinding)
+  name.vb: IEnumerable(Of IStepDefinitionBinding)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.Bindings.IStepDefinitionBinding
+    name: IStepDefinitionBinding
+    href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.IStepDefinitionBinding
+    name: IStepDefinitionBinding
+    href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

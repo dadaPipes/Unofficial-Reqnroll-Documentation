@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Discovery
+  commentId: N:Reqnroll.Bindings.Discovery
+  id: Reqnroll.Bindings.Discovery
+  children:
+  - Reqnroll.Bindings.Discovery.BindingSourceAttribute
+  - Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider
+  - Reqnroll.Bindings.Discovery.BindingSourceMethod
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  - Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+  - Reqnroll.Bindings.Discovery.BindingSourceType
+  - Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  - Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  - Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  - Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  - Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor
+  - Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter
+  - Reqnroll.Bindings.Discovery.RuntimeBindingRegistryBuilder
+  - Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Bindings.Discovery
+  nameWithType: Reqnroll.Bindings.Discovery
+  fullName: Reqnroll.Bindings.Discovery
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Bindings.Discovery.BindingSourceAttribute
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceAttribute
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.BindingSourceAttribute.html
+  name: BindingSourceAttribute
+  nameWithType: BindingSourceAttribute
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceAttribute
+- uid: Reqnroll.Bindings.Discovery.BindingSourceMethod
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceMethod
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.BindingSourceMethod.html
+  name: BindingSourceMethod
+  nameWithType: BindingSourceMethod
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceMethod
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceProcessor
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html
+  name: BindingSourceProcessor
+  nameWithType: BindingSourceProcessor
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+- uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html
+  name: BindingSourceProcessor.BindingValidationResult
+  nameWithType: BindingSourceProcessor.BindingValidationResult
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+  spec.csharp:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+    name: BindingSourceProcessor
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+    name: BindingValidationResult
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html
+  spec.vb:
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor
+    name: BindingSourceProcessor
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult
+    name: BindingValidationResult
+    href: Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html
+- uid: Reqnroll.Bindings.Discovery.BindingSourceType
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceType
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.BindingSourceType.html
+  name: BindingSourceType
+  nameWithType: BindingSourceType
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceType
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  commentId: T:Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.html
+  name: IBindingSourceAttributeValueProvider
+  nameWithType: IBindingSourceAttributeValueProvider
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+- uid: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider
+  commentId: T:Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider
+  href: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider.html
+  name: BindingSourceAttributeValueProvider
+  nameWithType: BindingSourceAttributeValueProvider
+  fullName: Reqnroll.Bindings.Discovery.BindingSourceAttributeValueProvider
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  commentId: T:Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html
+  name: IBindingSourceProcessor
+  nameWithType: IBindingSourceProcessor
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceProcessor
+- uid: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  commentId: T:Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter.html
+  name: IReqnrollAttributesFilter
+  nameWithType: IReqnrollAttributesFilter
+  fullName: Reqnroll.Bindings.Discovery.IReqnrollAttributesFilter
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  commentId: T:Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder.html
+  name: IRuntimeBindingRegistryBuilder
+  nameWithType: IRuntimeBindingRegistryBuilder
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingRegistryBuilder
+- uid: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter
+  commentId: T:Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter
+  href: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter.html
+  name: ReqnrollAttributesFilter
+  nameWithType: ReqnrollAttributesFilter
+  fullName: Reqnroll.Bindings.Discovery.ReqnrollAttributesFilter
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingRegistryBuilder
+  commentId: T:Reqnroll.Bindings.Discovery.RuntimeBindingRegistryBuilder
+  href: Reqnroll.Bindings.Discovery.RuntimeBindingRegistryBuilder.html
+  name: RuntimeBindingRegistryBuilder
+  nameWithType: RuntimeBindingRegistryBuilder
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingRegistryBuilder
+- uid: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor
+  commentId: T:Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor
+  parent: Reqnroll.Bindings.Discovery
+  href: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor.html
+  name: IRuntimeBindingSourceProcessor
+  nameWithType: IRuntimeBindingSourceProcessor
+  fullName: Reqnroll.Bindings.Discovery.IRuntimeBindingSourceProcessor
+- uid: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  commentId: T:Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+  href: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.html
+  name: RuntimeBindingSourceProcessor
+  nameWithType: RuntimeBindingSourceProcessor
+  fullName: Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor
+- uid: Reqnroll.Bindings.Discovery
+  commentId: N:Reqnroll.Bindings.Discovery
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Discovery
+  nameWithType: Reqnroll.Bindings.Discovery
+  fullName: Reqnroll.Bindings.Discovery
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html

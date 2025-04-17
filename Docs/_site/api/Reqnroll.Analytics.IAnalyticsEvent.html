@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IAnalyticsEvent | Unofficial Reqnroll Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IAnalyticsEvent | Unofficial Reqnroll Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/reqnroll/Reqnroll/new/main/apiSpec/new?filename=Reqnroll_Analytics_IAnalyticsEvent.md&amp;value=---%0Auid%3A%20Reqnroll.Analytics.IAnalyticsEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/reqnroll-icon.png" alt="Unofficial Reqnroll Documentation">
+            Unofficial Reqnroll Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Reqnroll.Analytics.IAnalyticsEvent">
+
+
+
+  <h1 id="Reqnroll_Analytics_IAnalyticsEvent" data-uid="Reqnroll.Analytics.IAnalyticsEvent" class="text-break">
+Interface IAnalyticsEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Reqnroll.html">Reqnroll</a>.<a class="xref" href="Reqnroll.Analytics.html">Analytics</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Reqnroll.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAnalyticsEvent</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_BuildServerName_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.BuildServerName*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_BuildServerName" data-uid="Reqnroll.Analytics.IAnalyticsEvent.BuildServerName">
+  BuildServerName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string BuildServerName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_EventName_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.EventName*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_EventName" data-uid="Reqnroll.Analytics.IAnalyticsEvent.EventName">
+  EventName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string EventName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_HashedAssemblyName_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.HashedAssemblyName*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_HashedAssemblyName" data-uid="Reqnroll.Analytics.IAnalyticsEvent.HashedAssemblyName">
+  HashedAssemblyName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string HashedAssemblyName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_IsBuildServer_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.IsBuildServer*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_IsBuildServer" data-uid="Reqnroll.Analytics.IAnalyticsEvent.IsBuildServer">
+  IsBuildServer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsBuildServer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_IsDockerContainer_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.IsDockerContainer*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_IsDockerContainer" data-uid="Reqnroll.Analytics.IAnalyticsEvent.IsDockerContainer">
+  IsDockerContainer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsDockerContainer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_Platform_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.Platform*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_Platform" data-uid="Reqnroll.Analytics.IAnalyticsEvent.Platform">
+  Platform
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Platform { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_PlatformDescription_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.PlatformDescription*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_PlatformDescription" data-uid="Reqnroll.Analytics.IAnalyticsEvent.PlatformDescription">
+  PlatformDescription
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string PlatformDescription { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_ReqnrollVersion_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.ReqnrollVersion*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_ReqnrollVersion" data-uid="Reqnroll.Analytics.IAnalyticsEvent.ReqnrollVersion">
+  ReqnrollVersion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string ReqnrollVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_TargetFramework_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.TargetFramework*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_TargetFramework" data-uid="Reqnroll.Analytics.IAnalyticsEvent.TargetFramework">
+  TargetFramework
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string TargetFramework { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_TargetFrameworks_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.TargetFrameworks*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_TargetFrameworks" data-uid="Reqnroll.Analytics.IAnalyticsEvent.TargetFrameworks">
+  TargetFrameworks
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string TargetFrameworks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_UnitTestProvider_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.UnitTestProvider*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_UnitTestProvider" data-uid="Reqnroll.Analytics.IAnalyticsEvent.UnitTestProvider">
+  UnitTestProvider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string UnitTestProvider { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_UserId_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.UserId*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_UserId" data-uid="Reqnroll.Analytics.IAnalyticsEvent.UserId">
+  UserId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string UserId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Analytics_IAnalyticsEvent_UtcDate_" data-uid="Reqnroll.Analytics.IAnalyticsEvent.UtcDate*"></a>
+
+  <h3 id="Reqnroll_Analytics_IAnalyticsEvent_UtcDate" data-uid="Reqnroll.Analytics.IAnalyticsEvent.UtcDate">
+  UtcDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTime UtcDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Analytics/IAnalyticsEvent.cs/#L5" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

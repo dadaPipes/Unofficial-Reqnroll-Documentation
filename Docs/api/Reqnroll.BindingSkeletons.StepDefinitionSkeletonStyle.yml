@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  commentId: T:Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  id: StepDefinitionSkeletonStyle
+  parent: Reqnroll.BindingSkeletons
+  children:
+  - Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.CucumberExpressionAttribute
+  - Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNamePascalCase
+  - Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNameRegex
+  - Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNameUnderscores
+  - Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.RegexAttribute
+  langs:
+  - csharp
+  - vb
+  name: StepDefinitionSkeletonStyle
+  nameWithType: StepDefinitionSkeletonStyle
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepDefinitionSkeletonStyle
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public enum StepDefinitionSkeletonStyle
+    content.vb: Public Enum StepDefinitionSkeletonStyle
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.RegexAttribute
+  commentId: F:Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.RegexAttribute
+  id: RegexAttribute
+  parent: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  langs:
+  - csharp
+  - vb
+  name: RegexAttribute
+  nameWithType: StepDefinitionSkeletonStyle.RegexAttribute
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.RegexAttribute
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegexAttribute
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: RegexAttribute = 0
+    return:
+      type: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNameUnderscores
+  commentId: F:Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNameUnderscores
+  id: MethodNameUnderscores
+  parent: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  langs:
+  - csharp
+  - vb
+  name: MethodNameUnderscores
+  nameWithType: StepDefinitionSkeletonStyle.MethodNameUnderscores
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNameUnderscores
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: MethodNameUnderscores
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: MethodNameUnderscores = 1
+    return:
+      type: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNamePascalCase
+  commentId: F:Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNamePascalCase
+  id: MethodNamePascalCase
+  parent: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  langs:
+  - csharp
+  - vb
+  name: MethodNamePascalCase
+  nameWithType: StepDefinitionSkeletonStyle.MethodNamePascalCase
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNamePascalCase
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: MethodNamePascalCase
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: MethodNamePascalCase = 2
+    return:
+      type: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNameRegex
+  commentId: F:Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNameRegex
+  id: MethodNameRegex
+  parent: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  langs:
+  - csharp
+  - vb
+  name: MethodNameRegex
+  nameWithType: StepDefinitionSkeletonStyle.MethodNameRegex
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.MethodNameRegex
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: MethodNameRegex
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: MethodNameRegex = 3
+    return:
+      type: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.CucumberExpressionAttribute
+  commentId: F:Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.CucumberExpressionAttribute
+  id: CucumberExpressionAttribute
+  parent: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  langs:
+  - csharp
+  - vb
+  name: CucumberExpressionAttribute
+  nameWithType: StepDefinitionSkeletonStyle.CucumberExpressionAttribute
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.CucumberExpressionAttribute
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CucumberExpressionAttribute
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepDefinitionSkeletonStyle.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: CucumberExpressionAttribute = 4
+    return:
+      type: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+references:
+- uid: Reqnroll.BindingSkeletons
+  commentId: N:Reqnroll.BindingSkeletons
+  href: Reqnroll.html
+  name: Reqnroll.BindingSkeletons
+  nameWithType: Reqnroll.BindingSkeletons
+  fullName: Reqnroll.BindingSkeletons
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  commentId: T:Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.html
+  name: StepDefinitionSkeletonStyle
+  nameWithType: StepDefinitionSkeletonStyle
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle

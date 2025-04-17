@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.CommonModels.ISuccess`1
+  commentId: T:Reqnroll.CommonModels.ISuccess`1
+  id: ISuccess`1
+  parent: Reqnroll.CommonModels
+  children:
+  - Reqnroll.CommonModels.ISuccess`1.Result
+  langs:
+  - csharp
+  - vb
+  name: ISuccess<T>
+  nameWithType: ISuccess<T>
+  fullName: Reqnroll.CommonModels.ISuccess<T>
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/CommonModels/ISuccess.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ISuccess
+    path: ../Reqnroll/Reqnroll/CommonModels/ISuccess.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.CommonModels
+  syntax:
+    content: 'public interface ISuccess<out T> : ISuccess, IResult<T>, IResult'
+    typeParameters:
+    - id: T
+    content.vb: Public Interface ISuccess(Of Out T) Inherits ISuccess, IResult(Of T), IResult
+  nameWithType.vb: ISuccess(Of T)
+  fullName.vb: Reqnroll.CommonModels.ISuccess(Of T)
+  name.vb: ISuccess(Of T)
+- uid: Reqnroll.CommonModels.ISuccess`1.Result
+  commentId: P:Reqnroll.CommonModels.ISuccess`1.Result
+  id: Result
+  parent: Reqnroll.CommonModels.ISuccess`1
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: ISuccess<T>.Result
+  fullName: Reqnroll.CommonModels.ISuccess<T>.Result
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/CommonModels/ISuccess.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Result
+    path: ../Reqnroll/Reqnroll/CommonModels/ISuccess.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.CommonModels
+  syntax:
+    content: T Result { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: ReadOnly Property Result As T
+  overload: Reqnroll.CommonModels.ISuccess`1.Result*
+  nameWithType.vb: ISuccess(Of T).Result
+  fullName.vb: Reqnroll.CommonModels.ISuccess(Of T).Result
+references:
+- uid: Reqnroll.CommonModels
+  commentId: N:Reqnroll.CommonModels
+  href: Reqnroll.html
+  name: Reqnroll.CommonModels
+  nameWithType: Reqnroll.CommonModels
+  fullName: Reqnroll.CommonModels
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html
+- uid: Reqnroll.CommonModels.ISuccess`1.Result*
+  commentId: Overload:Reqnroll.CommonModels.ISuccess`1.Result
+  href: Reqnroll.CommonModels.ISuccess-1.html#Reqnroll_CommonModels_ISuccess_1_Result
+  name: Result
+  nameWithType: ISuccess<T>.Result
+  fullName: Reqnroll.CommonModels.ISuccess<T>.Result
+  nameWithType.vb: ISuccess(Of T).Result
+  fullName.vb: Reqnroll.CommonModels.ISuccess(Of T).Result
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

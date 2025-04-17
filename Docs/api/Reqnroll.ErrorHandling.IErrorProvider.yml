@@ -1,0 +1,880 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.ErrorHandling.IErrorProvider
+  commentId: T:Reqnroll.ErrorHandling.IErrorProvider
+  id: IErrorProvider
+  parent: Reqnroll.ErrorHandling
+  children:
+  - Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousBecauseParamCheckMatchError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  - Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousMatchError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  - Reqnroll.ErrorHandling.IErrorProvider.GetCallError(Reqnroll.Bindings.Reflection.IBindingMethod,System.Exception)
+  - Reqnroll.ErrorHandling.IErrorProvider.GetInvalidBindingRegistryError(System.Collections.Generic.IEnumerable{Reqnroll.Bindings.BindingError})
+  - Reqnroll.ErrorHandling.IErrorProvider.GetInvalidStepDefinitionError(Reqnroll.Bindings.IStepDefinitionBinding)
+  - Reqnroll.ErrorHandling.IErrorProvider.GetMethodText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  - Reqnroll.ErrorHandling.IErrorProvider.GetMissingStepDefinitionError
+  - Reqnroll.ErrorHandling.IErrorProvider.GetNoMatchBecauseOfScopeFilterError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  - Reqnroll.ErrorHandling.IErrorProvider.GetObsoleteStepError(Reqnroll.Bindings.BindingObsoletion)
+  - Reqnroll.ErrorHandling.IErrorProvider.GetParameterCountError(Reqnroll.Bindings.BindingMatch,System.Int32)
+  - Reqnroll.ErrorHandling.IErrorProvider.GetPendingStepDefinitionError
+  - Reqnroll.ErrorHandling.IErrorProvider.GetTooManyBindingParamError(System.Int32)
+  - Reqnroll.ErrorHandling.IErrorProvider.ThrowPendingError(Reqnroll.ScenarioExecutionStatus,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IErrorProvider
+  nameWithType: IErrorProvider
+  fullName: Reqnroll.ErrorHandling.IErrorProvider
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IErrorProvider
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: public interface IErrorProvider
+    content.vb: Public Interface IErrorProvider
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetMethodText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetMethodText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  id: GetMethodText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetMethodText(IBindingMethod)
+  nameWithType: IErrorProvider.GetMethodText(IBindingMethod)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetMethodText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetMethodText
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: string GetMethodText(IBindingMethod method)
+    parameters:
+    - id: method
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    return:
+      type: System.String
+    content.vb: Function GetMethodText(method As IBindingMethod) As String
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetMethodText*
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetCallError(Reqnroll.Bindings.Reflection.IBindingMethod,System.Exception)
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetCallError(Reqnroll.Bindings.Reflection.IBindingMethod,System.Exception)
+  id: GetCallError(Reqnroll.Bindings.Reflection.IBindingMethod,System.Exception)
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetCallError(IBindingMethod, Exception)
+  nameWithType: IErrorProvider.GetCallError(IBindingMethod, Exception)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetCallError(Reqnroll.Bindings.Reflection.IBindingMethod, System.Exception)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetCallError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: Exception GetCallError(IBindingMethod method, Exception ex)
+    parameters:
+    - id: method
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: ex
+      type: System.Exception
+    return:
+      type: System.Exception
+    content.vb: Function GetCallError(method As IBindingMethod, ex As Exception) As Exception
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetCallError*
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetParameterCountError(Reqnroll.Bindings.BindingMatch,System.Int32)
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetParameterCountError(Reqnroll.Bindings.BindingMatch,System.Int32)
+  id: GetParameterCountError(Reqnroll.Bindings.BindingMatch,System.Int32)
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetParameterCountError(BindingMatch, int)
+  nameWithType: IErrorProvider.GetParameterCountError(BindingMatch, int)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetParameterCountError(Reqnroll.Bindings.BindingMatch, int)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetParameterCountError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: Exception GetParameterCountError(BindingMatch match, int expectedParameterCount)
+    parameters:
+    - id: match
+      type: Reqnroll.Bindings.BindingMatch
+    - id: expectedParameterCount
+      type: System.Int32
+    return:
+      type: System.Exception
+    content.vb: Function GetParameterCountError(match As BindingMatch, expectedParameterCount As Integer) As Exception
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetParameterCountError*
+  nameWithType.vb: IErrorProvider.GetParameterCountError(BindingMatch, Integer)
+  fullName.vb: Reqnroll.ErrorHandling.IErrorProvider.GetParameterCountError(Reqnroll.Bindings.BindingMatch, Integer)
+  name.vb: GetParameterCountError(BindingMatch, Integer)
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousMatchError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousMatchError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  id: GetAmbiguousMatchError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAmbiguousMatchError(List<BindingMatch>, StepInstance)
+  nameWithType: IErrorProvider.GetAmbiguousMatchError(List<BindingMatch>, StepInstance)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousMatchError(System.Collections.Generic.List<Reqnroll.Bindings.BindingMatch>, Reqnroll.Bindings.StepInstance)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetAmbiguousMatchError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: Exception GetAmbiguousMatchError(List<BindingMatch> matches, StepInstance stepInstance)
+    parameters:
+    - id: matches
+      type: System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+    - id: stepInstance
+      type: Reqnroll.Bindings.StepInstance
+    return:
+      type: System.Exception
+    content.vb: Function GetAmbiguousMatchError(matches As List(Of BindingMatch), stepInstance As StepInstance) As Exception
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousMatchError*
+  nameWithType.vb: IErrorProvider.GetAmbiguousMatchError(List(Of BindingMatch), StepInstance)
+  fullName.vb: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousMatchError(System.Collections.Generic.List(Of Reqnroll.Bindings.BindingMatch), Reqnroll.Bindings.StepInstance)
+  name.vb: GetAmbiguousMatchError(List(Of BindingMatch), StepInstance)
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousBecauseParamCheckMatchError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousBecauseParamCheckMatchError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  id: GetAmbiguousBecauseParamCheckMatchError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAmbiguousBecauseParamCheckMatchError(List<BindingMatch>, StepInstance)
+  nameWithType: IErrorProvider.GetAmbiguousBecauseParamCheckMatchError(List<BindingMatch>, StepInstance)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousBecauseParamCheckMatchError(System.Collections.Generic.List<Reqnroll.Bindings.BindingMatch>, Reqnroll.Bindings.StepInstance)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetAmbiguousBecauseParamCheckMatchError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: Exception GetAmbiguousBecauseParamCheckMatchError(List<BindingMatch> matches, StepInstance stepInstance)
+    parameters:
+    - id: matches
+      type: System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+    - id: stepInstance
+      type: Reqnroll.Bindings.StepInstance
+    return:
+      type: System.Exception
+    content.vb: Function GetAmbiguousBecauseParamCheckMatchError(matches As List(Of BindingMatch), stepInstance As StepInstance) As Exception
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousBecauseParamCheckMatchError*
+  nameWithType.vb: IErrorProvider.GetAmbiguousBecauseParamCheckMatchError(List(Of BindingMatch), StepInstance)
+  fullName.vb: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousBecauseParamCheckMatchError(System.Collections.Generic.List(Of Reqnroll.Bindings.BindingMatch), Reqnroll.Bindings.StepInstance)
+  name.vb: GetAmbiguousBecauseParamCheckMatchError(List(Of BindingMatch), StepInstance)
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetNoMatchBecauseOfScopeFilterError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetNoMatchBecauseOfScopeFilterError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  id: GetNoMatchBecauseOfScopeFilterError(System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch},Reqnroll.Bindings.StepInstance)
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetNoMatchBecauseOfScopeFilterError(List<BindingMatch>, StepInstance)
+  nameWithType: IErrorProvider.GetNoMatchBecauseOfScopeFilterError(List<BindingMatch>, StepInstance)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetNoMatchBecauseOfScopeFilterError(System.Collections.Generic.List<Reqnroll.Bindings.BindingMatch>, Reqnroll.Bindings.StepInstance)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetNoMatchBecauseOfScopeFilterError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: Exception GetNoMatchBecauseOfScopeFilterError(List<BindingMatch> matches, StepInstance stepInstance)
+    parameters:
+    - id: matches
+      type: System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+    - id: stepInstance
+      type: Reqnroll.Bindings.StepInstance
+    return:
+      type: System.Exception
+    content.vb: Function GetNoMatchBecauseOfScopeFilterError(matches As List(Of BindingMatch), stepInstance As StepInstance) As Exception
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetNoMatchBecauseOfScopeFilterError*
+  nameWithType.vb: IErrorProvider.GetNoMatchBecauseOfScopeFilterError(List(Of BindingMatch), StepInstance)
+  fullName.vb: Reqnroll.ErrorHandling.IErrorProvider.GetNoMatchBecauseOfScopeFilterError(System.Collections.Generic.List(Of Reqnroll.Bindings.BindingMatch), Reqnroll.Bindings.StepInstance)
+  name.vb: GetNoMatchBecauseOfScopeFilterError(List(Of BindingMatch), StepInstance)
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetMissingStepDefinitionError
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetMissingStepDefinitionError
+  id: GetMissingStepDefinitionError
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetMissingStepDefinitionError()
+  nameWithType: IErrorProvider.GetMissingStepDefinitionError()
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetMissingStepDefinitionError()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetMissingStepDefinitionError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 19
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: MissingStepDefinitionException GetMissingStepDefinitionError()
+    return:
+      type: Reqnroll.MissingStepDefinitionException
+    content.vb: Function GetMissingStepDefinitionError() As MissingStepDefinitionException
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetMissingStepDefinitionError*
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetPendingStepDefinitionError
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetPendingStepDefinitionError
+  id: GetPendingStepDefinitionError
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetPendingStepDefinitionError()
+  nameWithType: IErrorProvider.GetPendingStepDefinitionError()
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetPendingStepDefinitionError()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetPendingStepDefinitionError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: PendingStepException GetPendingStepDefinitionError()
+    return:
+      type: Reqnroll.PendingStepException
+    content.vb: Function GetPendingStepDefinitionError() As PendingStepException
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetPendingStepDefinitionError*
+- uid: Reqnroll.ErrorHandling.IErrorProvider.ThrowPendingError(Reqnroll.ScenarioExecutionStatus,System.String)
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.ThrowPendingError(Reqnroll.ScenarioExecutionStatus,System.String)
+  id: ThrowPendingError(Reqnroll.ScenarioExecutionStatus,System.String)
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: ThrowPendingError(ScenarioExecutionStatus, string)
+  nameWithType: IErrorProvider.ThrowPendingError(ScenarioExecutionStatus, string)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.ThrowPendingError(Reqnroll.ScenarioExecutionStatus, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ThrowPendingError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 21
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: void ThrowPendingError(ScenarioExecutionStatus testStatus, string message)
+    parameters:
+    - id: testStatus
+      type: Reqnroll.ScenarioExecutionStatus
+    - id: message
+      type: System.String
+    content.vb: Sub ThrowPendingError(testStatus As ScenarioExecutionStatus, message As String)
+  overload: Reqnroll.ErrorHandling.IErrorProvider.ThrowPendingError*
+  nameWithType.vb: IErrorProvider.ThrowPendingError(ScenarioExecutionStatus, String)
+  fullName.vb: Reqnroll.ErrorHandling.IErrorProvider.ThrowPendingError(Reqnroll.ScenarioExecutionStatus, String)
+  name.vb: ThrowPendingError(ScenarioExecutionStatus, String)
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetTooManyBindingParamError(System.Int32)
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetTooManyBindingParamError(System.Int32)
+  id: GetTooManyBindingParamError(System.Int32)
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetTooManyBindingParamError(int)
+  nameWithType: IErrorProvider.GetTooManyBindingParamError(int)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetTooManyBindingParamError(int)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetTooManyBindingParamError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: Exception GetTooManyBindingParamError(int maxParam)
+    parameters:
+    - id: maxParam
+      type: System.Int32
+    return:
+      type: System.Exception
+    content.vb: Function GetTooManyBindingParamError(maxParam As Integer) As Exception
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetTooManyBindingParamError*
+  nameWithType.vb: IErrorProvider.GetTooManyBindingParamError(Integer)
+  fullName.vb: Reqnroll.ErrorHandling.IErrorProvider.GetTooManyBindingParamError(Integer)
+  name.vb: GetTooManyBindingParamError(Integer)
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetObsoleteStepError(Reqnroll.Bindings.BindingObsoletion)
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetObsoleteStepError(Reqnroll.Bindings.BindingObsoletion)
+  id: GetObsoleteStepError(Reqnroll.Bindings.BindingObsoletion)
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetObsoleteStepError(BindingObsoletion)
+  nameWithType: IErrorProvider.GetObsoleteStepError(BindingObsoletion)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetObsoleteStepError(Reqnroll.Bindings.BindingObsoletion)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetObsoleteStepError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 23
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: Exception GetObsoleteStepError(BindingObsoletion bindingObsoletion)
+    parameters:
+    - id: bindingObsoletion
+      type: Reqnroll.Bindings.BindingObsoletion
+    return:
+      type: System.Exception
+    content.vb: Function GetObsoleteStepError(bindingObsoletion As BindingObsoletion) As Exception
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetObsoleteStepError*
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidStepDefinitionError(Reqnroll.Bindings.IStepDefinitionBinding)
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetInvalidStepDefinitionError(Reqnroll.Bindings.IStepDefinitionBinding)
+  id: GetInvalidStepDefinitionError(Reqnroll.Bindings.IStepDefinitionBinding)
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetInvalidStepDefinitionError(IStepDefinitionBinding)
+  nameWithType: IErrorProvider.GetInvalidStepDefinitionError(IStepDefinitionBinding)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidStepDefinitionError(Reqnroll.Bindings.IStepDefinitionBinding)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetInvalidStepDefinitionError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 24
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: Exception GetInvalidStepDefinitionError(IStepDefinitionBinding stepDefinitionBinding)
+    parameters:
+    - id: stepDefinitionBinding
+      type: Reqnroll.Bindings.IStepDefinitionBinding
+    return:
+      type: System.Exception
+    content.vb: Function GetInvalidStepDefinitionError(stepDefinitionBinding As IStepDefinitionBinding) As Exception
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidStepDefinitionError*
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidBindingRegistryError(System.Collections.Generic.IEnumerable{Reqnroll.Bindings.BindingError})
+  commentId: M:Reqnroll.ErrorHandling.IErrorProvider.GetInvalidBindingRegistryError(System.Collections.Generic.IEnumerable{Reqnroll.Bindings.BindingError})
+  id: GetInvalidBindingRegistryError(System.Collections.Generic.IEnumerable{Reqnroll.Bindings.BindingError})
+  parent: Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: GetInvalidBindingRegistryError(IEnumerable<BindingError>)
+  nameWithType: IErrorProvider.GetInvalidBindingRegistryError(IEnumerable<BindingError>)
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidBindingRegistryError(System.Collections.Generic.IEnumerable<Reqnroll.Bindings.BindingError>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ErrorHandling/ErrorProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetInvalidBindingRegistryError
+    path: ../Reqnroll/Reqnroll/ErrorHandling/ErrorProvider.cs
+    startLine: 25
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.ErrorHandling
+  syntax:
+    content: Exception GetInvalidBindingRegistryError(IEnumerable<BindingError> errors)
+    parameters:
+    - id: errors
+      type: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.BindingError}
+    return:
+      type: System.Exception
+    content.vb: Function GetInvalidBindingRegistryError(errors As IEnumerable(Of BindingError)) As Exception
+  overload: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidBindingRegistryError*
+  nameWithType.vb: IErrorProvider.GetInvalidBindingRegistryError(IEnumerable(Of BindingError))
+  fullName.vb: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidBindingRegistryError(System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.BindingError))
+  name.vb: GetInvalidBindingRegistryError(IEnumerable(Of BindingError))
+references:
+- uid: Reqnroll.ErrorHandling
+  commentId: N:Reqnroll.ErrorHandling
+  href: Reqnroll.html
+  name: Reqnroll.ErrorHandling
+  nameWithType: Reqnroll.ErrorHandling
+  fullName: Reqnroll.ErrorHandling
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.ErrorHandling
+    name: ErrorHandling
+    href: Reqnroll.ErrorHandling.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.ErrorHandling
+    name: ErrorHandling
+    href: Reqnroll.ErrorHandling.html
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetMethodText*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetMethodText
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetMethodText_Reqnroll_Bindings_Reflection_IBindingMethod_
+  name: GetMethodText
+  nameWithType: IErrorProvider.GetMethodText
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetMethodText
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetCallError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetCallError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetCallError_Reqnroll_Bindings_Reflection_IBindingMethod_System_Exception_
+  name: GetCallError
+  nameWithType: IErrorProvider.GetCallError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetCallError
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetParameterCountError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetParameterCountError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetParameterCountError_Reqnroll_Bindings_BindingMatch_System_Int32_
+  name: GetParameterCountError
+  nameWithType: IErrorProvider.GetParameterCountError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetParameterCountError
+- uid: Reqnroll.Bindings.BindingMatch
+  commentId: T:Reqnroll.Bindings.BindingMatch
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingMatch.html
+  name: BindingMatch
+  nameWithType: BindingMatch
+  fullName: Reqnroll.Bindings.BindingMatch
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousMatchError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousMatchError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetAmbiguousMatchError_System_Collections_Generic_List_Reqnroll_Bindings_BindingMatch__Reqnroll_Bindings_StepInstance_
+  name: GetAmbiguousMatchError
+  nameWithType: IErrorProvider.GetAmbiguousMatchError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousMatchError
+- uid: System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+  commentId: T:System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<BindingMatch>
+  nameWithType: List<BindingMatch>
+  fullName: System.Collections.Generic.List<Reqnroll.Bindings.BindingMatch>
+  nameWithType.vb: List(Of BindingMatch)
+  fullName.vb: System.Collections.Generic.List(Of Reqnroll.Bindings.BindingMatch)
+  name.vb: List(Of BindingMatch)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: )
+- uid: Reqnroll.Bindings.StepInstance
+  commentId: T:Reqnroll.Bindings.StepInstance
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepInstance.html
+  name: StepInstance
+  nameWithType: StepInstance
+  fullName: Reqnroll.Bindings.StepInstance
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousBecauseParamCheckMatchError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousBecauseParamCheckMatchError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetAmbiguousBecauseParamCheckMatchError_System_Collections_Generic_List_Reqnroll_Bindings_BindingMatch__Reqnroll_Bindings_StepInstance_
+  name: GetAmbiguousBecauseParamCheckMatchError
+  nameWithType: IErrorProvider.GetAmbiguousBecauseParamCheckMatchError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetAmbiguousBecauseParamCheckMatchError
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetNoMatchBecauseOfScopeFilterError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetNoMatchBecauseOfScopeFilterError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetNoMatchBecauseOfScopeFilterError_System_Collections_Generic_List_Reqnroll_Bindings_BindingMatch__Reqnroll_Bindings_StepInstance_
+  name: GetNoMatchBecauseOfScopeFilterError
+  nameWithType: IErrorProvider.GetNoMatchBecauseOfScopeFilterError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetNoMatchBecauseOfScopeFilterError
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetMissingStepDefinitionError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetMissingStepDefinitionError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetMissingStepDefinitionError
+  name: GetMissingStepDefinitionError
+  nameWithType: IErrorProvider.GetMissingStepDefinitionError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetMissingStepDefinitionError
+- uid: Reqnroll.MissingStepDefinitionException
+  commentId: T:Reqnroll.MissingStepDefinitionException
+  parent: Reqnroll
+  href: Reqnroll.MissingStepDefinitionException.html
+  name: MissingStepDefinitionException
+  nameWithType: MissingStepDefinitionException
+  fullName: Reqnroll.MissingStepDefinitionException
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetPendingStepDefinitionError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetPendingStepDefinitionError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetPendingStepDefinitionError
+  name: GetPendingStepDefinitionError
+  nameWithType: IErrorProvider.GetPendingStepDefinitionError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetPendingStepDefinitionError
+- uid: Reqnroll.PendingStepException
+  commentId: T:Reqnroll.PendingStepException
+  parent: Reqnroll
+  href: Reqnroll.PendingStepException.html
+  name: PendingStepException
+  nameWithType: PendingStepException
+  fullName: Reqnroll.PendingStepException
+- uid: Reqnroll.ErrorHandling.IErrorProvider.ThrowPendingError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.ThrowPendingError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_ThrowPendingError_Reqnroll_ScenarioExecutionStatus_System_String_
+  name: ThrowPendingError
+  nameWithType: IErrorProvider.ThrowPendingError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.ThrowPendingError
+- uid: Reqnroll.ScenarioExecutionStatus
+  commentId: T:Reqnroll.ScenarioExecutionStatus
+  parent: Reqnroll
+  href: Reqnroll.ScenarioExecutionStatus.html
+  name: ScenarioExecutionStatus
+  nameWithType: ScenarioExecutionStatus
+  fullName: Reqnroll.ScenarioExecutionStatus
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetTooManyBindingParamError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetTooManyBindingParamError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetTooManyBindingParamError_System_Int32_
+  name: GetTooManyBindingParamError
+  nameWithType: IErrorProvider.GetTooManyBindingParamError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetTooManyBindingParamError
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetObsoleteStepError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetObsoleteStepError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetObsoleteStepError_Reqnroll_Bindings_BindingObsoletion_
+  name: GetObsoleteStepError
+  nameWithType: IErrorProvider.GetObsoleteStepError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetObsoleteStepError
+- uid: Reqnroll.Bindings.BindingObsoletion
+  commentId: T:Reqnroll.Bindings.BindingObsoletion
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingObsoletion.html
+  name: BindingObsoletion
+  nameWithType: BindingObsoletion
+  fullName: Reqnroll.Bindings.BindingObsoletion
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidStepDefinitionError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetInvalidStepDefinitionError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetInvalidStepDefinitionError_Reqnroll_Bindings_IStepDefinitionBinding_
+  name: GetInvalidStepDefinitionError
+  nameWithType: IErrorProvider.GetInvalidStepDefinitionError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidStepDefinitionError
+- uid: Reqnroll.Bindings.IStepDefinitionBinding
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  name: IStepDefinitionBinding
+  nameWithType: IStepDefinitionBinding
+  fullName: Reqnroll.Bindings.IStepDefinitionBinding
+- uid: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidBindingRegistryError*
+  commentId: Overload:Reqnroll.ErrorHandling.IErrorProvider.GetInvalidBindingRegistryError
+  href: Reqnroll.ErrorHandling.IErrorProvider.html#Reqnroll_ErrorHandling_IErrorProvider_GetInvalidBindingRegistryError_System_Collections_Generic_IEnumerable_Reqnroll_Bindings_BindingError__
+  name: GetInvalidBindingRegistryError
+  nameWithType: IErrorProvider.GetInvalidBindingRegistryError
+  fullName: Reqnroll.ErrorHandling.IErrorProvider.GetInvalidBindingRegistryError
+- uid: System.Collections.Generic.IEnumerable{Reqnroll.Bindings.BindingError}
+  commentId: T:System.Collections.Generic.IEnumerable{Reqnroll.Bindings.BindingError}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<BindingError>
+  nameWithType: IEnumerable<BindingError>
+  fullName: System.Collections.Generic.IEnumerable<Reqnroll.Bindings.BindingError>
+  nameWithType.vb: IEnumerable(Of BindingError)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Reqnroll.Bindings.BindingError)
+  name.vb: IEnumerable(Of BindingError)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Reqnroll.Bindings.BindingError
+    name: BindingError
+    href: Reqnroll.Bindings.BindingError.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingError
+    name: BindingError
+    href: Reqnroll.Bindings.BindingError.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

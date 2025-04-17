@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Events.IExecutionEventListener
+  commentId: T:Reqnroll.Events.IExecutionEventListener
+  id: IExecutionEventListener
+  parent: Reqnroll.Events
+  children:
+  - Reqnroll.Events.IExecutionEventListener.OnEvent(Reqnroll.Events.IExecutionEvent)
+  langs:
+  - csharp
+  - vb
+  name: IExecutionEventListener
+  nameWithType: IExecutionEventListener
+  fullName: Reqnroll.Events.IExecutionEventListener
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Events/IExecutionEventListener.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IExecutionEventListener
+    path: ../Reqnroll/Reqnroll/Events/IExecutionEventListener.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: public interface IExecutionEventListener
+    content.vb: Public Interface IExecutionEventListener
+- uid: Reqnroll.Events.IExecutionEventListener.OnEvent(Reqnroll.Events.IExecutionEvent)
+  commentId: M:Reqnroll.Events.IExecutionEventListener.OnEvent(Reqnroll.Events.IExecutionEvent)
+  id: OnEvent(Reqnroll.Events.IExecutionEvent)
+  parent: Reqnroll.Events.IExecutionEventListener
+  langs:
+  - csharp
+  - vb
+  name: OnEvent(IExecutionEvent)
+  nameWithType: IExecutionEventListener.OnEvent(IExecutionEvent)
+  fullName: Reqnroll.Events.IExecutionEventListener.OnEvent(Reqnroll.Events.IExecutionEvent)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Events/IExecutionEventListener.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnEvent
+    path: ../Reqnroll/Reqnroll/Events/IExecutionEventListener.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: void OnEvent(IExecutionEvent executionEvent)
+    parameters:
+    - id: executionEvent
+      type: Reqnroll.Events.IExecutionEvent
+    content.vb: Sub OnEvent(executionEvent As IExecutionEvent)
+  overload: Reqnroll.Events.IExecutionEventListener.OnEvent*
+references:
+- uid: Reqnroll.Events
+  commentId: N:Reqnroll.Events
+  href: Reqnroll.html
+  name: Reqnroll.Events
+  nameWithType: Reqnroll.Events
+  fullName: Reqnroll.Events
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Events
+    name: Events
+    href: Reqnroll.Events.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Events
+    name: Events
+    href: Reqnroll.Events.html
+- uid: Reqnroll.Events.IExecutionEventListener.OnEvent*
+  commentId: Overload:Reqnroll.Events.IExecutionEventListener.OnEvent
+  href: Reqnroll.Events.IExecutionEventListener.html#Reqnroll_Events_IExecutionEventListener_OnEvent_Reqnroll_Events_IExecutionEvent_
+  name: OnEvent
+  nameWithType: IExecutionEventListener.OnEvent
+  fullName: Reqnroll.Events.IExecutionEventListener.OnEvent
+- uid: Reqnroll.Events.IExecutionEvent
+  commentId: T:Reqnroll.Events.IExecutionEvent
+  parent: Reqnroll.Events
+  href: Reqnroll.Events.IExecutionEvent.html
+  name: IExecutionEvent
+  nameWithType: IExecutionEvent
+  fullName: Reqnroll.Events.IExecutionEvent

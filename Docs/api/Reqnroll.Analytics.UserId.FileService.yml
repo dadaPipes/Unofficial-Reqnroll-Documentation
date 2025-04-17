@@ -1,0 +1,574 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.UserId.FileService
+  commentId: T:Reqnroll.Analytics.UserId.FileService
+  id: FileService
+  parent: Reqnroll.Analytics.UserId
+  children:
+  - Reqnroll.Analytics.UserId.FileService.Exists(System.String)
+  - Reqnroll.Analytics.UserId.FileService.ReadAllText(System.String)
+  - Reqnroll.Analytics.UserId.FileService.WriteAllText(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: FileService
+  nameWithType: FileService
+  fullName: Reqnroll.Analytics.UserId.FileService
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Analytics/UserId/FileService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FileService
+    path: ../Reqnroll/Reqnroll/Analytics/UserId/FileService.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.UserId
+  syntax:
+    content: 'public class FileService : IFileService'
+    content.vb: Public Class FileService Implements IFileService
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Analytics.UserId.IFileService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Analytics.UserId.FileService.Exists(System.String)
+  commentId: M:Reqnroll.Analytics.UserId.FileService.Exists(System.String)
+  id: Exists(System.String)
+  parent: Reqnroll.Analytics.UserId.FileService
+  langs:
+  - csharp
+  - vb
+  name: Exists(string)
+  nameWithType: FileService.Exists(string)
+  fullName: Reqnroll.Analytics.UserId.FileService.Exists(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/UserId/FileService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Exists
+    path: ../Reqnroll/Reqnroll/Analytics/UserId/FileService.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.UserId
+  example: []
+  syntax:
+    content: public bool Exists(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function Exists(path As String) As Boolean
+  overload: Reqnroll.Analytics.UserId.FileService.Exists*
+  implements:
+  - Reqnroll.Analytics.UserId.IFileService.Exists(System.String)
+  nameWithType.vb: FileService.Exists(String)
+  fullName.vb: Reqnroll.Analytics.UserId.FileService.Exists(String)
+  name.vb: Exists(String)
+- uid: Reqnroll.Analytics.UserId.FileService.ReadAllText(System.String)
+  commentId: M:Reqnroll.Analytics.UserId.FileService.ReadAllText(System.String)
+  id: ReadAllText(System.String)
+  parent: Reqnroll.Analytics.UserId.FileService
+  langs:
+  - csharp
+  - vb
+  name: ReadAllText(string)
+  nameWithType: FileService.ReadAllText(string)
+  fullName: Reqnroll.Analytics.UserId.FileService.ReadAllText(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/UserId/FileService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ReadAllText
+    path: ../Reqnroll/Reqnroll/Analytics/UserId/FileService.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.UserId
+  example: []
+  syntax:
+    content: public string ReadAllText(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ReadAllText(path As String) As String
+  overload: Reqnroll.Analytics.UserId.FileService.ReadAllText*
+  implements:
+  - Reqnroll.Analytics.UserId.IFileService.ReadAllText(System.String)
+  nameWithType.vb: FileService.ReadAllText(String)
+  fullName.vb: Reqnroll.Analytics.UserId.FileService.ReadAllText(String)
+  name.vb: ReadAllText(String)
+- uid: Reqnroll.Analytics.UserId.FileService.WriteAllText(System.String,System.String)
+  commentId: M:Reqnroll.Analytics.UserId.FileService.WriteAllText(System.String,System.String)
+  id: WriteAllText(System.String,System.String)
+  parent: Reqnroll.Analytics.UserId.FileService
+  langs:
+  - csharp
+  - vb
+  name: WriteAllText(string, string)
+  nameWithType: FileService.WriteAllText(string, string)
+  fullName: Reqnroll.Analytics.UserId.FileService.WriteAllText(string, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/UserId/FileService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: WriteAllText
+    path: ../Reqnroll/Reqnroll/Analytics/UserId/FileService.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.UserId
+  example: []
+  syntax:
+    content: public void WriteAllText(string path, string contents)
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.String
+    content.vb: Public Sub WriteAllText(path As String, contents As String)
+  overload: Reqnroll.Analytics.UserId.FileService.WriteAllText*
+  implements:
+  - Reqnroll.Analytics.UserId.IFileService.WriteAllText(System.String,System.String)
+  nameWithType.vb: FileService.WriteAllText(String, String)
+  fullName.vb: Reqnroll.Analytics.UserId.FileService.WriteAllText(String, String)
+  name.vb: WriteAllText(String, String)
+references:
+- uid: Reqnroll.Analytics.UserId
+  commentId: N:Reqnroll.Analytics.UserId
+  href: Reqnroll.html
+  name: Reqnroll.Analytics.UserId
+  nameWithType: Reqnroll.Analytics.UserId
+  fullName: Reqnroll.Analytics.UserId
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.UserId
+    name: UserId
+    href: Reqnroll.Analytics.UserId.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.UserId
+    name: UserId
+    href: Reqnroll.Analytics.UserId.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Analytics.UserId.IFileService
+  commentId: T:Reqnroll.Analytics.UserId.IFileService
+  parent: Reqnroll.Analytics.UserId
+  href: Reqnroll.Analytics.UserId.IFileService.html
+  name: IFileService
+  nameWithType: IFileService
+  fullName: Reqnroll.Analytics.UserId.IFileService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Analytics.UserId.FileService.Exists*
+  commentId: Overload:Reqnroll.Analytics.UserId.FileService.Exists
+  href: Reqnroll.Analytics.UserId.FileService.html#Reqnroll_Analytics_UserId_FileService_Exists_System_String_
+  name: Exists
+  nameWithType: FileService.Exists
+  fullName: Reqnroll.Analytics.UserId.FileService.Exists
+- uid: Reqnroll.Analytics.UserId.IFileService.Exists(System.String)
+  commentId: M:Reqnroll.Analytics.UserId.IFileService.Exists(System.String)
+  parent: Reqnroll.Analytics.UserId.IFileService
+  isExternal: true
+  href: Reqnroll.Analytics.UserId.IFileService.html#Reqnroll_Analytics_UserId_IFileService_Exists_System_String_
+  name: Exists(string)
+  nameWithType: IFileService.Exists(string)
+  fullName: Reqnroll.Analytics.UserId.IFileService.Exists(string)
+  nameWithType.vb: IFileService.Exists(String)
+  fullName.vb: Reqnroll.Analytics.UserId.IFileService.Exists(String)
+  name.vb: Exists(String)
+  spec.csharp:
+  - uid: Reqnroll.Analytics.UserId.IFileService.Exists(System.String)
+    name: Exists
+    href: Reqnroll.Analytics.UserId.IFileService.html#Reqnroll_Analytics_UserId_IFileService_Exists_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Analytics.UserId.IFileService.Exists(System.String)
+    name: Exists
+    href: Reqnroll.Analytics.UserId.IFileService.html#Reqnroll_Analytics_UserId_IFileService_Exists_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Analytics.UserId.FileService.ReadAllText*
+  commentId: Overload:Reqnroll.Analytics.UserId.FileService.ReadAllText
+  href: Reqnroll.Analytics.UserId.FileService.html#Reqnroll_Analytics_UserId_FileService_ReadAllText_System_String_
+  name: ReadAllText
+  nameWithType: FileService.ReadAllText
+  fullName: Reqnroll.Analytics.UserId.FileService.ReadAllText
+- uid: Reqnroll.Analytics.UserId.IFileService.ReadAllText(System.String)
+  commentId: M:Reqnroll.Analytics.UserId.IFileService.ReadAllText(System.String)
+  parent: Reqnroll.Analytics.UserId.IFileService
+  isExternal: true
+  href: Reqnroll.Analytics.UserId.IFileService.html#Reqnroll_Analytics_UserId_IFileService_ReadAllText_System_String_
+  name: ReadAllText(string)
+  nameWithType: IFileService.ReadAllText(string)
+  fullName: Reqnroll.Analytics.UserId.IFileService.ReadAllText(string)
+  nameWithType.vb: IFileService.ReadAllText(String)
+  fullName.vb: Reqnroll.Analytics.UserId.IFileService.ReadAllText(String)
+  name.vb: ReadAllText(String)
+  spec.csharp:
+  - uid: Reqnroll.Analytics.UserId.IFileService.ReadAllText(System.String)
+    name: ReadAllText
+    href: Reqnroll.Analytics.UserId.IFileService.html#Reqnroll_Analytics_UserId_IFileService_ReadAllText_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Analytics.UserId.IFileService.ReadAllText(System.String)
+    name: ReadAllText
+    href: Reqnroll.Analytics.UserId.IFileService.html#Reqnroll_Analytics_UserId_IFileService_ReadAllText_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Analytics.UserId.FileService.WriteAllText*
+  commentId: Overload:Reqnroll.Analytics.UserId.FileService.WriteAllText
+  href: Reqnroll.Analytics.UserId.FileService.html#Reqnroll_Analytics_UserId_FileService_WriteAllText_System_String_System_String_
+  name: WriteAllText
+  nameWithType: FileService.WriteAllText
+  fullName: Reqnroll.Analytics.UserId.FileService.WriteAllText
+- uid: Reqnroll.Analytics.UserId.IFileService.WriteAllText(System.String,System.String)
+  commentId: M:Reqnroll.Analytics.UserId.IFileService.WriteAllText(System.String,System.String)
+  parent: Reqnroll.Analytics.UserId.IFileService
+  isExternal: true
+  href: Reqnroll.Analytics.UserId.IFileService.html#Reqnroll_Analytics_UserId_IFileService_WriteAllText_System_String_System_String_
+  name: WriteAllText(string, string)
+  nameWithType: IFileService.WriteAllText(string, string)
+  fullName: Reqnroll.Analytics.UserId.IFileService.WriteAllText(string, string)
+  nameWithType.vb: IFileService.WriteAllText(String, String)
+  fullName.vb: Reqnroll.Analytics.UserId.IFileService.WriteAllText(String, String)
+  name.vb: WriteAllText(String, String)
+  spec.csharp:
+  - uid: Reqnroll.Analytics.UserId.IFileService.WriteAllText(System.String,System.String)
+    name: WriteAllText
+    href: Reqnroll.Analytics.UserId.IFileService.html#Reqnroll_Analytics_UserId_IFileService_WriteAllText_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Analytics.UserId.IFileService.WriteAllText(System.String,System.String)
+    name: WriteAllText
+    href: Reqnroll.Analytics.UserId.IFileService.html#Reqnroll_Analytics_UserId_IFileService_WriteAllText_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

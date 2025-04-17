@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+  commentId: T:Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+  id: IStepDefinitionSkeletonProvider
+  parent: Reqnroll.BindingSkeletons
+  children:
+  - Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetBindingClassSkeleton(Reqnroll.ProgrammingLanguage,Reqnroll.Bindings.StepInstance[],System.String,System.String,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Globalization.CultureInfo)
+  - Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetStepDefinitionSkeleton(Reqnroll.ProgrammingLanguage,Reqnroll.Bindings.StepInstance,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Globalization.CultureInfo)
+  langs:
+  - csharp
+  - vb
+  name: IStepDefinitionSkeletonProvider
+  nameWithType: IStepDefinitionSkeletonProvider
+  fullName: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/IStepDefinitionSkeletonProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IStepDefinitionSkeletonProvider
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/IStepDefinitionSkeletonProvider.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public interface IStepDefinitionSkeletonProvider
+    content.vb: Public Interface IStepDefinitionSkeletonProvider
+- uid: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetBindingClassSkeleton(Reqnroll.ProgrammingLanguage,Reqnroll.Bindings.StepInstance[],System.String,System.String,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Globalization.CultureInfo)
+  commentId: M:Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetBindingClassSkeleton(Reqnroll.ProgrammingLanguage,Reqnroll.Bindings.StepInstance[],System.String,System.String,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Globalization.CultureInfo)
+  id: GetBindingClassSkeleton(Reqnroll.ProgrammingLanguage,Reqnroll.Bindings.StepInstance[],System.String,System.String,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Globalization.CultureInfo)
+  parent: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+  langs:
+  - csharp
+  - vb
+  name: GetBindingClassSkeleton(ProgrammingLanguage, StepInstance[], string, string, StepDefinitionSkeletonStyle, CultureInfo)
+  nameWithType: IStepDefinitionSkeletonProvider.GetBindingClassSkeleton(ProgrammingLanguage, StepInstance[], string, string, StepDefinitionSkeletonStyle, CultureInfo)
+  fullName: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetBindingClassSkeleton(Reqnroll.ProgrammingLanguage, Reqnroll.Bindings.StepInstance[], string, string, Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/IStepDefinitionSkeletonProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetBindingClassSkeleton
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/IStepDefinitionSkeletonProvider.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: string GetBindingClassSkeleton(ProgrammingLanguage language, StepInstance[] stepInstances, string namespaceName, string className, StepDefinitionSkeletonStyle style, CultureInfo bindingCulture)
+    parameters:
+    - id: language
+      type: Reqnroll.ProgrammingLanguage
+    - id: stepInstances
+      type: Reqnroll.Bindings.StepInstance[]
+    - id: namespaceName
+      type: System.String
+    - id: className
+      type: System.String
+    - id: style
+      type: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+    - id: bindingCulture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.String
+    content.vb: Function GetBindingClassSkeleton(language As ProgrammingLanguage, stepInstances As StepInstance(), namespaceName As String, className As String, style As StepDefinitionSkeletonStyle, bindingCulture As CultureInfo) As String
+  overload: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetBindingClassSkeleton*
+  nameWithType.vb: IStepDefinitionSkeletonProvider.GetBindingClassSkeleton(ProgrammingLanguage, StepInstance(), String, String, StepDefinitionSkeletonStyle, CultureInfo)
+  fullName.vb: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetBindingClassSkeleton(Reqnroll.ProgrammingLanguage, Reqnroll.Bindings.StepInstance(), String, String, Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle, System.Globalization.CultureInfo)
+  name.vb: GetBindingClassSkeleton(ProgrammingLanguage, StepInstance(), String, String, StepDefinitionSkeletonStyle, CultureInfo)
+- uid: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetStepDefinitionSkeleton(Reqnroll.ProgrammingLanguage,Reqnroll.Bindings.StepInstance,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Globalization.CultureInfo)
+  commentId: M:Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetStepDefinitionSkeleton(Reqnroll.ProgrammingLanguage,Reqnroll.Bindings.StepInstance,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Globalization.CultureInfo)
+  id: GetStepDefinitionSkeleton(Reqnroll.ProgrammingLanguage,Reqnroll.Bindings.StepInstance,Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle,System.Globalization.CultureInfo)
+  parent: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+  langs:
+  - csharp
+  - vb
+  name: GetStepDefinitionSkeleton(ProgrammingLanguage, StepInstance, StepDefinitionSkeletonStyle, CultureInfo)
+  nameWithType: IStepDefinitionSkeletonProvider.GetStepDefinitionSkeleton(ProgrammingLanguage, StepInstance, StepDefinitionSkeletonStyle, CultureInfo)
+  fullName: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetStepDefinitionSkeleton(Reqnroll.ProgrammingLanguage, Reqnroll.Bindings.StepInstance, Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/IStepDefinitionSkeletonProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetStepDefinitionSkeleton
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/IStepDefinitionSkeletonProvider.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: string GetStepDefinitionSkeleton(ProgrammingLanguage language, StepInstance stepInstance, StepDefinitionSkeletonStyle style, CultureInfo bindingCulture)
+    parameters:
+    - id: language
+      type: Reqnroll.ProgrammingLanguage
+    - id: stepInstance
+      type: Reqnroll.Bindings.StepInstance
+    - id: style
+      type: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+    - id: bindingCulture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.String
+    content.vb: Function GetStepDefinitionSkeleton(language As ProgrammingLanguage, stepInstance As StepInstance, style As StepDefinitionSkeletonStyle, bindingCulture As CultureInfo) As String
+  overload: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetStepDefinitionSkeleton*
+references:
+- uid: Reqnroll.BindingSkeletons
+  commentId: N:Reqnroll.BindingSkeletons
+  href: Reqnroll.html
+  name: Reqnroll.BindingSkeletons
+  nameWithType: Reqnroll.BindingSkeletons
+  fullName: Reqnroll.BindingSkeletons
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+- uid: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetBindingClassSkeleton*
+  commentId: Overload:Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetBindingClassSkeleton
+  href: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.html#Reqnroll_BindingSkeletons_IStepDefinitionSkeletonProvider_GetBindingClassSkeleton_Reqnroll_ProgrammingLanguage_Reqnroll_Bindings_StepInstance___System_String_System_String_Reqnroll_BindingSkeletons_StepDefinitionSkeletonStyle_System_Globalization_CultureInfo_
+  name: GetBindingClassSkeleton
+  nameWithType: IStepDefinitionSkeletonProvider.GetBindingClassSkeleton
+  fullName: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetBindingClassSkeleton
+- uid: Reqnroll.ProgrammingLanguage
+  commentId: T:Reqnroll.ProgrammingLanguage
+  parent: Reqnroll
+  href: Reqnroll.ProgrammingLanguage.html
+  name: ProgrammingLanguage
+  nameWithType: ProgrammingLanguage
+  fullName: Reqnroll.ProgrammingLanguage
+- uid: Reqnroll.Bindings.StepInstance[]
+  isExternal: true
+  href: Reqnroll.Bindings.StepInstance.html
+  name: StepInstance[]
+  nameWithType: StepInstance[]
+  fullName: Reqnroll.Bindings.StepInstance[]
+  nameWithType.vb: StepInstance()
+  fullName.vb: Reqnroll.Bindings.StepInstance()
+  name.vb: StepInstance()
+  spec.csharp:
+  - uid: Reqnroll.Bindings.StepInstance
+    name: StepInstance
+    href: Reqnroll.Bindings.StepInstance.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Reqnroll.Bindings.StepInstance
+    name: StepInstance
+    href: Reqnroll.Bindings.StepInstance.html
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  commentId: T:Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.html
+  name: StepDefinitionSkeletonStyle
+  nameWithType: StepDefinitionSkeletonStyle
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetStepDefinitionSkeleton*
+  commentId: Overload:Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetStepDefinitionSkeleton
+  href: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.html#Reqnroll_BindingSkeletons_IStepDefinitionSkeletonProvider_GetStepDefinitionSkeleton_Reqnroll_ProgrammingLanguage_Reqnroll_Bindings_StepInstance_Reqnroll_BindingSkeletons_StepDefinitionSkeletonStyle_System_Globalization_CultureInfo_
+  name: GetStepDefinitionSkeleton
+  nameWithType: IStepDefinitionSkeletonProvider.GetStepDefinitionSkeleton
+  fullName: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.GetStepDefinitionSkeleton
+- uid: Reqnroll.Bindings.StepInstance
+  commentId: T:Reqnroll.Bindings.StepInstance
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepInstance.html
+  name: StepInstance
+  nameWithType: StepInstance
+  fullName: Reqnroll.Bindings.StepInstance
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html

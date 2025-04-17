@@ -1,0 +1,539 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist.TableDifferenceItem`1
+  commentId: T:Reqnroll.Assist.TableDifferenceItem`1
+  id: TableDifferenceItem`1
+  parent: Reqnroll.Assist
+  children:
+  - Reqnroll.Assist.TableDifferenceItem`1.#ctor(`0,System.Nullable{System.Int32})
+  - Reqnroll.Assist.TableDifferenceItem`1.Index
+  - Reqnroll.Assist.TableDifferenceItem`1.IsIndexSpecific
+  - Reqnroll.Assist.TableDifferenceItem`1.Item
+  langs:
+  - csharp
+  - vb
+  name: TableDifferenceItem<TT>
+  nameWithType: TableDifferenceItem<TT>
+  fullName: Reqnroll.Assist.TableDifferenceItem<TT>
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDifferenceItem.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TableDifferenceItem
+    path: ../Reqnroll/Reqnroll/Assist/TableDifferenceItem.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public class TableDifferenceItem<TT>
+    typeParameters:
+    - id: TT
+    content.vb: Public Class TableDifferenceItem(Of TT)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: TableDifferenceItem(Of TT)
+  fullName.vb: Reqnroll.Assist.TableDifferenceItem(Of TT)
+  name.vb: TableDifferenceItem(Of TT)
+- uid: Reqnroll.Assist.TableDifferenceItem`1.Item
+  commentId: P:Reqnroll.Assist.TableDifferenceItem`1.Item
+  id: Item
+  parent: Reqnroll.Assist.TableDifferenceItem`1
+  langs:
+  - csharp
+  - vb
+  name: Item
+  nameWithType: TableDifferenceItem<TT>.Item
+  fullName: Reqnroll.Assist.TableDifferenceItem<TT>.Item
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDifferenceItem.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Item
+    path: ../Reqnroll/Reqnroll/Assist/TableDifferenceItem.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public TT Item { get; }
+    parameters: []
+    return:
+      type: '{TT}'
+    content.vb: Public Property Item As TT
+  overload: Reqnroll.Assist.TableDifferenceItem`1.Item*
+  nameWithType.vb: TableDifferenceItem(Of TT).Item
+  fullName.vb: Reqnroll.Assist.TableDifferenceItem(Of TT).Item
+- uid: Reqnroll.Assist.TableDifferenceItem`1.Index
+  commentId: P:Reqnroll.Assist.TableDifferenceItem`1.Index
+  id: Index
+  parent: Reqnroll.Assist.TableDifferenceItem`1
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: TableDifferenceItem<TT>.Index
+  fullName: Reqnroll.Assist.TableDifferenceItem<TT>.Index
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDifferenceItem.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Index
+    path: ../Reqnroll/Reqnroll/Assist/TableDifferenceItem.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public int? Index { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Index As Integer?
+  overload: Reqnroll.Assist.TableDifferenceItem`1.Index*
+  nameWithType.vb: TableDifferenceItem(Of TT).Index
+  fullName.vb: Reqnroll.Assist.TableDifferenceItem(Of TT).Index
+- uid: Reqnroll.Assist.TableDifferenceItem`1.IsIndexSpecific
+  commentId: P:Reqnroll.Assist.TableDifferenceItem`1.IsIndexSpecific
+  id: IsIndexSpecific
+  parent: Reqnroll.Assist.TableDifferenceItem`1
+  langs:
+  - csharp
+  - vb
+  name: IsIndexSpecific
+  nameWithType: TableDifferenceItem<TT>.IsIndexSpecific
+  fullName: Reqnroll.Assist.TableDifferenceItem<TT>.IsIndexSpecific
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDifferenceItem.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsIndexSpecific
+    path: ../Reqnroll/Reqnroll/Assist/TableDifferenceItem.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public bool IsIndexSpecific { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsIndexSpecific As Boolean
+  overload: Reqnroll.Assist.TableDifferenceItem`1.IsIndexSpecific*
+  nameWithType.vb: TableDifferenceItem(Of TT).IsIndexSpecific
+  fullName.vb: Reqnroll.Assist.TableDifferenceItem(Of TT).IsIndexSpecific
+- uid: Reqnroll.Assist.TableDifferenceItem`1.#ctor(`0,System.Nullable{System.Int32})
+  commentId: M:Reqnroll.Assist.TableDifferenceItem`1.#ctor(`0,System.Nullable{System.Int32})
+  id: '#ctor(`0,System.Nullable{System.Int32})'
+  parent: Reqnroll.Assist.TableDifferenceItem`1
+  langs:
+  - csharp
+  - vb
+  name: TableDifferenceItem(TT, int?)
+  nameWithType: TableDifferenceItem<TT>.TableDifferenceItem(TT, int?)
+  fullName: Reqnroll.Assist.TableDifferenceItem<TT>.TableDifferenceItem(TT, int?)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Assist/TableDifferenceItem.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Assist/TableDifferenceItem.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Assist
+  syntax:
+    content: public TableDifferenceItem(TT item, int? index = null)
+    parameters:
+    - id: item
+      type: '{TT}'
+    - id: index
+      type: System.Nullable{System.Int32}
+    content.vb: Public Sub New(item As TT, index As Integer? = Nothing)
+  overload: Reqnroll.Assist.TableDifferenceItem`1.#ctor*
+  nameWithType.vb: TableDifferenceItem(Of TT).New(TT, Integer?)
+  fullName.vb: Reqnroll.Assist.TableDifferenceItem(Of TT).New(TT, Integer?)
+  name.vb: New(TT, Integer?)
+references:
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  href: Reqnroll.html
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Assist.TableDifferenceItem`1.Item*
+  commentId: Overload:Reqnroll.Assist.TableDifferenceItem`1.Item
+  href: Reqnroll.Assist.TableDifferenceItem-1.html#Reqnroll_Assist_TableDifferenceItem_1_Item
+  name: Item
+  nameWithType: TableDifferenceItem<TT>.Item
+  fullName: Reqnroll.Assist.TableDifferenceItem<TT>.Item
+  nameWithType.vb: TableDifferenceItem(Of TT).Item
+  fullName.vb: Reqnroll.Assist.TableDifferenceItem(Of TT).Item
+- uid: '{TT}'
+  commentId: '!:TT'
+  definition: TT
+  name: TT
+  nameWithType: TT
+  fullName: TT
+- uid: TT
+  name: TT
+  nameWithType: TT
+  fullName: TT
+- uid: Reqnroll.Assist.TableDifferenceItem`1.Index*
+  commentId: Overload:Reqnroll.Assist.TableDifferenceItem`1.Index
+  href: Reqnroll.Assist.TableDifferenceItem-1.html#Reqnroll_Assist_TableDifferenceItem_1_Index
+  name: Index
+  nameWithType: TableDifferenceItem<TT>.Index
+  fullName: Reqnroll.Assist.TableDifferenceItem<TT>.Index
+  nameWithType.vb: TableDifferenceItem(Of TT).Index
+  fullName.vb: Reqnroll.Assist.TableDifferenceItem(Of TT).Index
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Assist.TableDifferenceItem`1.IsIndexSpecific*
+  commentId: Overload:Reqnroll.Assist.TableDifferenceItem`1.IsIndexSpecific
+  href: Reqnroll.Assist.TableDifferenceItem-1.html#Reqnroll_Assist_TableDifferenceItem_1_IsIndexSpecific
+  name: IsIndexSpecific
+  nameWithType: TableDifferenceItem<TT>.IsIndexSpecific
+  fullName: Reqnroll.Assist.TableDifferenceItem<TT>.IsIndexSpecific
+  nameWithType.vb: TableDifferenceItem(Of TT).IsIndexSpecific
+  fullName.vb: Reqnroll.Assist.TableDifferenceItem(Of TT).IsIndexSpecific
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Assist.TableDifferenceItem`1.#ctor*
+  commentId: Overload:Reqnroll.Assist.TableDifferenceItem`1.#ctor
+  href: Reqnroll.Assist.TableDifferenceItem-1.html#Reqnroll_Assist_TableDifferenceItem_1__ctor__0_System_Nullable_System_Int32__
+  name: TableDifferenceItem
+  nameWithType: TableDifferenceItem<TT>.TableDifferenceItem
+  fullName: Reqnroll.Assist.TableDifferenceItem<TT>.TableDifferenceItem
+  nameWithType.vb: TableDifferenceItem(Of TT).New
+  fullName.vb: Reqnroll.Assist.TableDifferenceItem(Of TT).New
+  name.vb: New

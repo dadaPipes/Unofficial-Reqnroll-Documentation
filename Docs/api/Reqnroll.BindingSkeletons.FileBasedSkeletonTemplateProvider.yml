@@ -1,0 +1,615 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  commentId: T:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  id: FileBasedSkeletonTemplateProvider
+  parent: Reqnroll.BindingSkeletons
+  children:
+  - Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  - Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  - Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplate(System.String)
+  - Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplateFileContent
+  - Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.MissingTemplate(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FileBasedSkeletonTemplateProvider
+  nameWithType: FileBasedSkeletonTemplateProvider
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FileBasedSkeletonTemplateProvider
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: 'public abstract class FileBasedSkeletonTemplateProvider : ISkeletonTemplateProvider'
+    content.vb: Public MustInherit Class FileBasedSkeletonTemplateProvider Implements ISkeletonTemplateProvider
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Reqnroll.BindingSkeletons.DefaultSkeletonTemplateProvider
+  - Reqnroll.BindingSkeletons.ResourceSkeletonTemplateProvider
+  implements:
+  - Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplateFileContent
+  commentId: M:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplateFileContent
+  id: GetTemplateFileContent
+  parent: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateFileContent()
+  nameWithType: FileBasedSkeletonTemplateProvider.GetTemplateFileContent()
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplateFileContent()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetTemplateFileContent
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+    startLine: 32
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: protected abstract string GetTemplateFileContent()
+    return:
+      type: System.String
+    content.vb: Protected MustOverride Function GetTemplateFileContent() As String
+  overload: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplateFileContent*
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.MissingTemplate(System.String)
+  commentId: M:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.MissingTemplate(System.String)
+  id: MissingTemplate(System.String)
+  parent: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  langs:
+  - csharp
+  - vb
+  name: MissingTemplate(string)
+  nameWithType: FileBasedSkeletonTemplateProvider.MissingTemplate(string)
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.MissingTemplate(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: MissingTemplate
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+    startLine: 33
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: protected virtual string MissingTemplate(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function MissingTemplate(key As String) As String
+  overload: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.MissingTemplate*
+  nameWithType.vb: FileBasedSkeletonTemplateProvider.MissingTemplate(String)
+  fullName.vb: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.MissingTemplate(String)
+  name.vb: MissingTemplate(String)
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplate(System.String)
+  commentId: M:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplate(System.String)
+  id: GetTemplate(System.String)
+  parent: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  langs:
+  - csharp
+  - vb
+  name: GetTemplate(string)
+  nameWithType: FileBasedSkeletonTemplateProvider.GetTemplate(string)
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplate(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetTemplate
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+    startLine: 38
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: protected virtual string GetTemplate(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function GetTemplate(key As String) As String
+  overload: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplate*
+  nameWithType.vb: FileBasedSkeletonTemplateProvider.GetTemplate(String)
+  fullName.vb: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplate(String)
+  name.vb: GetTemplate(String)
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  commentId: M:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  id: GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  parent: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  langs:
+  - csharp
+  - vb
+  name: GetStepDefinitionTemplate(ProgrammingLanguage, bool)
+  nameWithType: FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate(ProgrammingLanguage, bool)
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage, bool)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetStepDefinitionTemplate
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+    startLine: 47
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  example: []
+  syntax:
+    content: public string GetStepDefinitionTemplate(ProgrammingLanguage language, bool withExpression)
+    parameters:
+    - id: language
+      type: Reqnroll.ProgrammingLanguage
+    - id: withExpression
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function GetStepDefinitionTemplate(language As ProgrammingLanguage, withExpression As Boolean) As String
+  overload: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate*
+  implements:
+  - Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  nameWithType.vb: FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate(ProgrammingLanguage, Boolean)
+  fullName.vb: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage, Boolean)
+  name.vb: GetStepDefinitionTemplate(ProgrammingLanguage, Boolean)
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  commentId: M:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  id: GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  parent: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  langs:
+  - csharp
+  - vb
+  name: GetStepDefinitionClassTemplate(ProgrammingLanguage)
+  nameWithType: FileBasedSkeletonTemplateProvider.GetStepDefinitionClassTemplate(ProgrammingLanguage)
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetStepDefinitionClassTemplate
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/FileBasedSkeletonTemplateProvider.cs
+    startLine: 57
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  example: []
+  syntax:
+    content: public string GetStepDefinitionClassTemplate(ProgrammingLanguage language)
+    parameters:
+    - id: language
+      type: Reqnroll.ProgrammingLanguage
+    return:
+      type: System.String
+    content.vb: Public Function GetStepDefinitionClassTemplate(language As ProgrammingLanguage) As String
+  overload: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionClassTemplate*
+  implements:
+  - Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+references:
+- uid: Reqnroll.BindingSkeletons
+  commentId: N:Reqnroll.BindingSkeletons
+  href: Reqnroll.html
+  name: Reqnroll.BindingSkeletons
+  nameWithType: Reqnroll.BindingSkeletons
+  fullName: Reqnroll.BindingSkeletons
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  commentId: T:Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.html
+  name: ISkeletonTemplateProvider
+  nameWithType: ISkeletonTemplateProvider
+  fullName: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplateFileContent*
+  commentId: Overload:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplateFileContent
+  href: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_FileBasedSkeletonTemplateProvider_GetTemplateFileContent
+  name: GetTemplateFileContent
+  nameWithType: FileBasedSkeletonTemplateProvider.GetTemplateFileContent
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplateFileContent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.MissingTemplate*
+  commentId: Overload:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.MissingTemplate
+  href: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_FileBasedSkeletonTemplateProvider_MissingTemplate_System_String_
+  name: MissingTemplate
+  nameWithType: FileBasedSkeletonTemplateProvider.MissingTemplate
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.MissingTemplate
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplate*
+  commentId: Overload:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplate
+  href: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_FileBasedSkeletonTemplateProvider_GetTemplate_System_String_
+  name: GetTemplate
+  nameWithType: FileBasedSkeletonTemplateProvider.GetTemplate
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetTemplate
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate*
+  commentId: Overload:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate
+  href: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_FileBasedSkeletonTemplateProvider_GetStepDefinitionTemplate_Reqnroll_ProgrammingLanguage_System_Boolean_
+  name: GetStepDefinitionTemplate
+  nameWithType: FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionTemplate
+- uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  commentId: M:Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+  parent: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  isExternal: true
+  href: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_ISkeletonTemplateProvider_GetStepDefinitionTemplate_Reqnroll_ProgrammingLanguage_System_Boolean_
+  name: GetStepDefinitionTemplate(ProgrammingLanguage, bool)
+  nameWithType: ISkeletonTemplateProvider.GetStepDefinitionTemplate(ProgrammingLanguage, bool)
+  fullName: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage, bool)
+  nameWithType.vb: ISkeletonTemplateProvider.GetStepDefinitionTemplate(ProgrammingLanguage, Boolean)
+  fullName.vb: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage, Boolean)
+  name.vb: GetStepDefinitionTemplate(ProgrammingLanguage, Boolean)
+  spec.csharp:
+  - uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+    name: GetStepDefinitionTemplate
+    href: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_ISkeletonTemplateProvider_GetStepDefinitionTemplate_Reqnroll_ProgrammingLanguage_System_Boolean_
+  - name: (
+  - uid: Reqnroll.ProgrammingLanguage
+    name: ProgrammingLanguage
+    href: Reqnroll.ProgrammingLanguage.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionTemplate(Reqnroll.ProgrammingLanguage,System.Boolean)
+    name: GetStepDefinitionTemplate
+    href: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_ISkeletonTemplateProvider_GetStepDefinitionTemplate_Reqnroll_ProgrammingLanguage_System_Boolean_
+  - name: (
+  - uid: Reqnroll.ProgrammingLanguage
+    name: ProgrammingLanguage
+    href: Reqnroll.ProgrammingLanguage.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Reqnroll.ProgrammingLanguage
+  commentId: T:Reqnroll.ProgrammingLanguage
+  parent: Reqnroll
+  href: Reqnroll.ProgrammingLanguage.html
+  name: ProgrammingLanguage
+  nameWithType: ProgrammingLanguage
+  fullName: Reqnroll.ProgrammingLanguage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionClassTemplate*
+  commentId: Overload:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionClassTemplate
+  href: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_FileBasedSkeletonTemplateProvider_GetStepDefinitionClassTemplate_Reqnroll_ProgrammingLanguage_
+  name: GetStepDefinitionClassTemplate
+  nameWithType: FileBasedSkeletonTemplateProvider.GetStepDefinitionClassTemplate
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.GetStepDefinitionClassTemplate
+- uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  commentId: M:Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  parent: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  href: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_ISkeletonTemplateProvider_GetStepDefinitionClassTemplate_Reqnroll_ProgrammingLanguage_
+  name: GetStepDefinitionClassTemplate(ProgrammingLanguage)
+  nameWithType: ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(ProgrammingLanguage)
+  fullName: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+  spec.csharp:
+  - uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+    name: GetStepDefinitionClassTemplate
+    href: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_ISkeletonTemplateProvider_GetStepDefinitionClassTemplate_Reqnroll_ProgrammingLanguage_
+  - name: (
+  - uid: Reqnroll.ProgrammingLanguage
+    name: ProgrammingLanguage
+    href: Reqnroll.ProgrammingLanguage.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.GetStepDefinitionClassTemplate(Reqnroll.ProgrammingLanguage)
+    name: GetStepDefinitionClassTemplate
+    href: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.html#Reqnroll_BindingSkeletons_ISkeletonTemplateProvider_GetStepDefinitionClassTemplate_Reqnroll_ProgrammingLanguage_
+  - name: (
+  - uid: Reqnroll.ProgrammingLanguage
+    name: ProgrammingLanguage
+    href: Reqnroll.ProgrammingLanguage.html
+  - name: )

@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BindingSkeletons
+  commentId: N:Reqnroll.BindingSkeletons
+  id: Reqnroll.BindingSkeletons
+  children:
+  - Reqnroll.BindingSkeletons.AnalyzedStepParameter
+  - Reqnroll.BindingSkeletons.AnalyzedStepText
+  - Reqnroll.BindingSkeletons.DefaultSkeletonTemplateProvider
+  - Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  - Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  - Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+  - Reqnroll.BindingSkeletons.IStepTextAnalyzer
+  - Reqnroll.BindingSkeletons.Keywords
+  - Reqnroll.BindingSkeletons.ParameterNameExtensions
+  - Reqnroll.BindingSkeletons.ResourceSkeletonTemplateProvider
+  - Reqnroll.BindingSkeletons.StepDefinitionSkeletonProvider
+  - Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  - Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  - Reqnroll.BindingSkeletons.StepTextAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.BindingSkeletons
+  nameWithType: Reqnroll.BindingSkeletons
+  fullName: Reqnroll.BindingSkeletons
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.BindingSkeletons.ResourceSkeletonTemplateProvider
+  commentId: T:Reqnroll.BindingSkeletons.ResourceSkeletonTemplateProvider
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.ResourceSkeletonTemplateProvider.html
+  name: ResourceSkeletonTemplateProvider
+  nameWithType: ResourceSkeletonTemplateProvider
+  fullName: Reqnroll.BindingSkeletons.ResourceSkeletonTemplateProvider
+- uid: Reqnroll.BindingSkeletons.DefaultSkeletonTemplateProvider
+  commentId: T:Reqnroll.BindingSkeletons.DefaultSkeletonTemplateProvider
+  href: Reqnroll.BindingSkeletons.DefaultSkeletonTemplateProvider.html
+  name: DefaultSkeletonTemplateProvider
+  nameWithType: DefaultSkeletonTemplateProvider
+  fullName: Reqnroll.BindingSkeletons.DefaultSkeletonTemplateProvider
+- uid: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  commentId: T:Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider.html
+  name: FileBasedSkeletonTemplateProvider
+  nameWithType: FileBasedSkeletonTemplateProvider
+  fullName: Reqnroll.BindingSkeletons.FileBasedSkeletonTemplateProvider
+- uid: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  commentId: T:Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider.html
+  name: ISkeletonTemplateProvider
+  nameWithType: ISkeletonTemplateProvider
+  fullName: Reqnroll.BindingSkeletons.ISkeletonTemplateProvider
+- uid: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+  commentId: T:Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.html
+  name: IStepDefinitionSkeletonProvider
+  nameWithType: IStepDefinitionSkeletonProvider
+  fullName: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+- uid: Reqnroll.BindingSkeletons.Keywords
+  commentId: T:Reqnroll.BindingSkeletons.Keywords
+  href: Reqnroll.BindingSkeletons.Keywords.html
+  name: Keywords
+  nameWithType: Keywords
+  fullName: Reqnroll.BindingSkeletons.Keywords
+- uid: Reqnroll.BindingSkeletons.ParameterNameExtensions
+  commentId: T:Reqnroll.BindingSkeletons.ParameterNameExtensions
+  href: Reqnroll.BindingSkeletons.ParameterNameExtensions.html
+  name: ParameterNameExtensions
+  nameWithType: ParameterNameExtensions
+  fullName: Reqnroll.BindingSkeletons.ParameterNameExtensions
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonProvider
+  commentId: T:Reqnroll.BindingSkeletons.StepDefinitionSkeletonProvider
+  href: Reqnroll.BindingSkeletons.StepDefinitionSkeletonProvider.html
+  name: StepDefinitionSkeletonProvider
+  nameWithType: StepDefinitionSkeletonProvider
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonProvider
+- uid: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  commentId: T:Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle.html
+  name: StepDefinitionSkeletonStyle
+  nameWithType: StepDefinitionSkeletonStyle
+  fullName: Reqnroll.BindingSkeletons.StepDefinitionSkeletonStyle
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  commentId: T:Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  href: Reqnroll.BindingSkeletons.StepParameterNameGenerator.html
+  name: StepParameterNameGenerator
+  nameWithType: StepParameterNameGenerator
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+- uid: Reqnroll.BindingSkeletons.AnalyzedStepText
+  commentId: T:Reqnroll.BindingSkeletons.AnalyzedStepText
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.AnalyzedStepText.html
+  name: AnalyzedStepText
+  nameWithType: AnalyzedStepText
+  fullName: Reqnroll.BindingSkeletons.AnalyzedStepText
+- uid: Reqnroll.BindingSkeletons.AnalyzedStepParameter
+  commentId: T:Reqnroll.BindingSkeletons.AnalyzedStepParameter
+  href: Reqnroll.BindingSkeletons.AnalyzedStepParameter.html
+  name: AnalyzedStepParameter
+  nameWithType: AnalyzedStepParameter
+  fullName: Reqnroll.BindingSkeletons.AnalyzedStepParameter
+- uid: Reqnroll.BindingSkeletons.IStepTextAnalyzer
+  commentId: T:Reqnroll.BindingSkeletons.IStepTextAnalyzer
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.IStepTextAnalyzer.html
+  name: IStepTextAnalyzer
+  nameWithType: IStepTextAnalyzer
+  fullName: Reqnroll.BindingSkeletons.IStepTextAnalyzer
+- uid: Reqnroll.BindingSkeletons.StepTextAnalyzer
+  commentId: T:Reqnroll.BindingSkeletons.StepTextAnalyzer
+  href: Reqnroll.BindingSkeletons.StepTextAnalyzer.html
+  name: StepTextAnalyzer
+  nameWithType: StepTextAnalyzer
+  fullName: Reqnroll.BindingSkeletons.StepTextAnalyzer
+- uid: Reqnroll.BindingSkeletons
+  commentId: N:Reqnroll.BindingSkeletons
+  href: Reqnroll.html
+  name: Reqnroll.BindingSkeletons
+  nameWithType: Reqnroll.BindingSkeletons
+  fullName: Reqnroll.BindingSkeletons
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html

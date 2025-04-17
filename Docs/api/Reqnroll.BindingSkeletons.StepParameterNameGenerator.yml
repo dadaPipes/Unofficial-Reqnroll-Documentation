@@ -1,0 +1,685 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  commentId: T:Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  id: StepParameterNameGenerator
+  parent: Reqnroll.BindingSkeletons
+  children:
+  - Reqnroll.BindingSkeletons.StepParameterNameGenerator.GenerateParameterName(System.String,System.Int32,System.Collections.Generic.List{System.String})
+  - Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets(System.String)
+  - Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordWithNoNumbers(System.String)
+  - Reqnroll.BindingSkeletons.StepParameterNameGenerator.LowerCaseFirstLetter(System.String)
+  - Reqnroll.BindingSkeletons.StepParameterNameGenerator.RemoveSurroundingAngleBrackets(System.String)
+  - Reqnroll.BindingSkeletons.StepParameterNameGenerator.UniquelyIdentified(System.String,System.Collections.Generic.List{System.String},System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: StepParameterNameGenerator
+  nameWithType: StepParameterNameGenerator
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: StepParameterNameGenerator
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public class StepParameterNameGenerator
+    content.vb: Public Class StepParameterNameGenerator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.GenerateParameterName(System.String,System.Int32,System.Collections.Generic.List{System.String})
+  commentId: M:Reqnroll.BindingSkeletons.StepParameterNameGenerator.GenerateParameterName(System.String,System.Int32,System.Collections.Generic.List{System.String})
+  id: GenerateParameterName(System.String,System.Int32,System.Collections.Generic.List{System.String})
+  parent: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  langs:
+  - csharp
+  - vb
+  name: GenerateParameterName(string, int, List<string>)
+  nameWithType: StepParameterNameGenerator.GenerateParameterName(string, int, List<string>)
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.GenerateParameterName(string, int, System.Collections.Generic.List<string>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GenerateParameterName
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public static string GenerateParameterName(string value, int paramIndex, List<string> usedParameterNames)
+    parameters:
+    - id: value
+      type: System.String
+    - id: paramIndex
+      type: System.Int32
+    - id: usedParameterNames
+      type: System.Collections.Generic.List{System.String}
+    return:
+      type: System.String
+    content.vb: Public Shared Function GenerateParameterName(value As String, paramIndex As Integer, usedParameterNames As List(Of String)) As String
+  overload: Reqnroll.BindingSkeletons.StepParameterNameGenerator.GenerateParameterName*
+  nameWithType.vb: StepParameterNameGenerator.GenerateParameterName(String, Integer, List(Of String))
+  fullName.vb: Reqnroll.BindingSkeletons.StepParameterNameGenerator.GenerateParameterName(String, Integer, System.Collections.Generic.List(Of String))
+  name.vb: GenerateParameterName(String, Integer, List(Of String))
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordWithNoNumbers(System.String)
+  commentId: M:Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordWithNoNumbers(System.String)
+  id: IsSingleWordWithNoNumbers(System.String)
+  parent: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  langs:
+  - csharp
+  - vb
+  name: IsSingleWordWithNoNumbers(string)
+  nameWithType: StepParameterNameGenerator.IsSingleWordWithNoNumbers(string)
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordWithNoNumbers(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsSingleWordWithNoNumbers
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public static bool IsSingleWordWithNoNumbers(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSingleWordWithNoNumbers(value As String) As Boolean
+  overload: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordWithNoNumbers*
+  nameWithType.vb: StepParameterNameGenerator.IsSingleWordWithNoNumbers(String)
+  fullName.vb: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordWithNoNumbers(String)
+  name.vb: IsSingleWordWithNoNumbers(String)
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets(System.String)
+  commentId: M:Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets(System.String)
+  id: IsSingleWordSurroundedByAngleBrackets(System.String)
+  parent: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  langs:
+  - csharp
+  - vb
+  name: IsSingleWordSurroundedByAngleBrackets(string)
+  nameWithType: StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets(string)
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsSingleWordSurroundedByAngleBrackets
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public static bool IsSingleWordSurroundedByAngleBrackets(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSingleWordSurroundedByAngleBrackets(value As String) As Boolean
+  overload: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets*
+  nameWithType.vb: StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets(String)
+  fullName.vb: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets(String)
+  name.vb: IsSingleWordSurroundedByAngleBrackets(String)
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.RemoveSurroundingAngleBrackets(System.String)
+  commentId: M:Reqnroll.BindingSkeletons.StepParameterNameGenerator.RemoveSurroundingAngleBrackets(System.String)
+  id: RemoveSurroundingAngleBrackets(System.String)
+  parent: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  langs:
+  - csharp
+  - vb
+  name: RemoveSurroundingAngleBrackets(string)
+  nameWithType: StepParameterNameGenerator.RemoveSurroundingAngleBrackets(string)
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.RemoveSurroundingAngleBrackets(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RemoveSurroundingAngleBrackets
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+    startLine: 31
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public static string RemoveSurroundingAngleBrackets(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function RemoveSurroundingAngleBrackets(value As String) As String
+  overload: Reqnroll.BindingSkeletons.StepParameterNameGenerator.RemoveSurroundingAngleBrackets*
+  nameWithType.vb: StepParameterNameGenerator.RemoveSurroundingAngleBrackets(String)
+  fullName.vb: Reqnroll.BindingSkeletons.StepParameterNameGenerator.RemoveSurroundingAngleBrackets(String)
+  name.vb: RemoveSurroundingAngleBrackets(String)
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.LowerCaseFirstLetter(System.String)
+  commentId: M:Reqnroll.BindingSkeletons.StepParameterNameGenerator.LowerCaseFirstLetter(System.String)
+  id: LowerCaseFirstLetter(System.String)
+  parent: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  langs:
+  - csharp
+  - vb
+  name: LowerCaseFirstLetter(string)
+  nameWithType: StepParameterNameGenerator.LowerCaseFirstLetter(string)
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.LowerCaseFirstLetter(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: LowerCaseFirstLetter
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+    startLine: 36
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public static string LowerCaseFirstLetter(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function LowerCaseFirstLetter(value As String) As String
+  overload: Reqnroll.BindingSkeletons.StepParameterNameGenerator.LowerCaseFirstLetter*
+  nameWithType.vb: StepParameterNameGenerator.LowerCaseFirstLetter(String)
+  fullName.vb: Reqnroll.BindingSkeletons.StepParameterNameGenerator.LowerCaseFirstLetter(String)
+  name.vb: LowerCaseFirstLetter(String)
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.UniquelyIdentified(System.String,System.Collections.Generic.List{System.String},System.Int32)
+  commentId: M:Reqnroll.BindingSkeletons.StepParameterNameGenerator.UniquelyIdentified(System.String,System.Collections.Generic.List{System.String},System.Int32)
+  id: UniquelyIdentified(System.String,System.Collections.Generic.List{System.String},System.Int32)
+  parent: Reqnroll.BindingSkeletons.StepParameterNameGenerator
+  langs:
+  - csharp
+  - vb
+  name: UniquelyIdentified(string, List<string>, int)
+  nameWithType: StepParameterNameGenerator.UniquelyIdentified(string, List<string>, int)
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.UniquelyIdentified(string, System.Collections.Generic.List<string>, int)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: UniquelyIdentified
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepParameterNameGenerator.cs
+    startLine: 41
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public static string UniquelyIdentified(string value, List<string> usedParameterNames, int parmIndex)
+    parameters:
+    - id: value
+      type: System.String
+    - id: usedParameterNames
+      type: System.Collections.Generic.List{System.String}
+    - id: parmIndex
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function UniquelyIdentified(value As String, usedParameterNames As List(Of String), parmIndex As Integer) As String
+  overload: Reqnroll.BindingSkeletons.StepParameterNameGenerator.UniquelyIdentified*
+  nameWithType.vb: StepParameterNameGenerator.UniquelyIdentified(String, List(Of String), Integer)
+  fullName.vb: Reqnroll.BindingSkeletons.StepParameterNameGenerator.UniquelyIdentified(String, System.Collections.Generic.List(Of String), Integer)
+  name.vb: UniquelyIdentified(String, List(Of String), Integer)
+references:
+- uid: Reqnroll.BindingSkeletons
+  commentId: N:Reqnroll.BindingSkeletons
+  href: Reqnroll.html
+  name: Reqnroll.BindingSkeletons
+  nameWithType: Reqnroll.BindingSkeletons
+  fullName: Reqnroll.BindingSkeletons
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.GenerateParameterName*
+  commentId: Overload:Reqnroll.BindingSkeletons.StepParameterNameGenerator.GenerateParameterName
+  href: Reqnroll.BindingSkeletons.StepParameterNameGenerator.html#Reqnroll_BindingSkeletons_StepParameterNameGenerator_GenerateParameterName_System_String_System_Int32_System_Collections_Generic_List_System_String__
+  name: GenerateParameterName
+  nameWithType: StepParameterNameGenerator.GenerateParameterName
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.GenerateParameterName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordWithNoNumbers*
+  commentId: Overload:Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordWithNoNumbers
+  href: Reqnroll.BindingSkeletons.StepParameterNameGenerator.html#Reqnroll_BindingSkeletons_StepParameterNameGenerator_IsSingleWordWithNoNumbers_System_String_
+  name: IsSingleWordWithNoNumbers
+  nameWithType: StepParameterNameGenerator.IsSingleWordWithNoNumbers
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordWithNoNumbers
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets*
+  commentId: Overload:Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets
+  href: Reqnroll.BindingSkeletons.StepParameterNameGenerator.html#Reqnroll_BindingSkeletons_StepParameterNameGenerator_IsSingleWordSurroundedByAngleBrackets_System_String_
+  name: IsSingleWordSurroundedByAngleBrackets
+  nameWithType: StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.IsSingleWordSurroundedByAngleBrackets
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.RemoveSurroundingAngleBrackets*
+  commentId: Overload:Reqnroll.BindingSkeletons.StepParameterNameGenerator.RemoveSurroundingAngleBrackets
+  href: Reqnroll.BindingSkeletons.StepParameterNameGenerator.html#Reqnroll_BindingSkeletons_StepParameterNameGenerator_RemoveSurroundingAngleBrackets_System_String_
+  name: RemoveSurroundingAngleBrackets
+  nameWithType: StepParameterNameGenerator.RemoveSurroundingAngleBrackets
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.RemoveSurroundingAngleBrackets
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.LowerCaseFirstLetter*
+  commentId: Overload:Reqnroll.BindingSkeletons.StepParameterNameGenerator.LowerCaseFirstLetter
+  href: Reqnroll.BindingSkeletons.StepParameterNameGenerator.html#Reqnroll_BindingSkeletons_StepParameterNameGenerator_LowerCaseFirstLetter_System_String_
+  name: LowerCaseFirstLetter
+  nameWithType: StepParameterNameGenerator.LowerCaseFirstLetter
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.LowerCaseFirstLetter
+- uid: Reqnroll.BindingSkeletons.StepParameterNameGenerator.UniquelyIdentified*
+  commentId: Overload:Reqnroll.BindingSkeletons.StepParameterNameGenerator.UniquelyIdentified
+  href: Reqnroll.BindingSkeletons.StepParameterNameGenerator.html#Reqnroll_BindingSkeletons_StepParameterNameGenerator_UniquelyIdentified_System_String_System_Collections_Generic_List_System_String__System_Int32_
+  name: UniquelyIdentified
+  nameWithType: StepParameterNameGenerator.UniquelyIdentified
+  fullName: Reqnroll.BindingSkeletons.StepParameterNameGenerator.UniquelyIdentified

@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+  id: ICucumberExpressionStepDefinitionBindingBuilderFactory
+  parent: Reqnroll.Bindings.CucumberExpressions
+  children:
+  - Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.Create(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ICucumberExpressionStepDefinitionBindingBuilderFactory
+  nameWithType: ICucumberExpressionStepDefinitionBindingBuilderFactory
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionStepDefinitionBindingBuilderFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ICucumberExpressionStepDefinitionBindingBuilderFactory
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionStepDefinitionBindingBuilderFactory.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  syntax:
+    content: public interface ICucumberExpressionStepDefinitionBindingBuilderFactory
+    content.vb: Public Interface ICucumberExpressionStepDefinitionBindingBuilderFactory
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.Create(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  commentId: M:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.Create(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  id: Create(Reqnroll.Bindings.StepDefinitionType,Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.BindingScope,System.String)
+  parent: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(StepDefinitionType, IBindingMethod, BindingScope, string)
+  nameWithType: ICucumberExpressionStepDefinitionBindingBuilderFactory.Create(StepDefinitionType, IBindingMethod, BindingScope, string)
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.Create(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.BindingScope, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/CucumberExpressionStepDefinitionBindingBuilderFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Create
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/CucumberExpressionStepDefinitionBindingBuilderFactory.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  syntax:
+    content: CucumberExpressionStepDefinitionBindingBuilder Create(StepDefinitionType stepDefinitionType, IBindingMethod bindingMethod, BindingScope bindingScope, string sourceExpression)
+    parameters:
+    - id: stepDefinitionType
+      type: Reqnroll.Bindings.StepDefinitionType
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: bindingScope
+      type: Reqnroll.Bindings.BindingScope
+    - id: sourceExpression
+      type: System.String
+    return:
+      type: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder
+    content.vb: Function Create(stepDefinitionType As StepDefinitionType, bindingMethod As IBindingMethod, bindingScope As BindingScope, sourceExpression As String) As CucumberExpressionStepDefinitionBindingBuilder
+  overload: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.Create*
+  nameWithType.vb: ICucumberExpressionStepDefinitionBindingBuilderFactory.Create(StepDefinitionType, IBindingMethod, BindingScope, String)
+  fullName.vb: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.Create(Reqnroll.Bindings.StepDefinitionType, Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.BindingScope, String)
+  name.vb: Create(StepDefinitionType, IBindingMethod, BindingScope, String)
+references:
+- uid: Reqnroll.Bindings.CucumberExpressions
+  commentId: N:Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.CucumberExpressions
+  nameWithType: Reqnroll.Bindings.CucumberExpressions
+  fullName: Reqnroll.Bindings.CucumberExpressions
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.Create*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.Create
+  href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.html#Reqnroll_Bindings_CucumberExpressions_ICucumberExpressionStepDefinitionBindingBuilderFactory_Create_Reqnroll_Bindings_StepDefinitionType_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_BindingScope_System_String_
+  name: Create
+  nameWithType: ICucumberExpressionStepDefinitionBindingBuilderFactory.Create
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionStepDefinitionBindingBuilderFactory.Create
+- uid: Reqnroll.Bindings.StepDefinitionType
+  commentId: T:Reqnroll.Bindings.StepDefinitionType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepDefinitionType.html
+  name: StepDefinitionType
+  nameWithType: StepDefinitionType
+  fullName: Reqnroll.Bindings.StepDefinitionType
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: Reqnroll.Bindings.BindingScope
+  commentId: T:Reqnroll.Bindings.BindingScope
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingScope.html
+  name: BindingScope
+  nameWithType: BindingScope
+  fullName: Reqnroll.Bindings.BindingScope
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder
+  parent: Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder.html
+  name: CucumberExpressionStepDefinitionBindingBuilder
+  nameWithType: CucumberExpressionStepDefinitionBindingBuilder
+  fullName: Reqnroll.Bindings.CucumberExpressions.CucumberExpressionStepDefinitionBindingBuilder
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

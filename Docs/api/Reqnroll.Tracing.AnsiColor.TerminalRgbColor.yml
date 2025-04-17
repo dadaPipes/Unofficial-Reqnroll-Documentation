@@ -1,0 +1,840 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  commentId: T:Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  id: TerminalRgbColor
+  parent: Reqnroll.Tracing.AnsiColor
+  children:
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.#ctor(System.Int32,System.Int32,System.Int32)
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.B
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals(Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals(System.Object)
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.From(System.Int32,System.Int32,System.Int32)
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.FromHex(System.String)
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.G
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.GetHashCode
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.None
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.R
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.ToColorParameter
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Equality(Reqnroll.Tracing.AnsiColor.TerminalRgbColor,Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Inequality(Reqnroll.Tracing.AnsiColor.TerminalRgbColor,Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  langs:
+  - csharp
+  - vb
+  name: TerminalRgbColor
+  nameWithType: TerminalRgbColor
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  type: Struct
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TerminalRgbColor
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public readonly struct TerminalRgbColor
+    content.vb: Public Structure TerminalRgbColor
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.None
+  commentId: F:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.None
+  id: None
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TerminalRgbColor.None
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.None
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: None
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public static readonly TerminalRgbColor None
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+    content.vb: Public Shared ReadOnly None As TerminalRgbColor
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.From(System.Int32,System.Int32,System.Int32)
+  commentId: M:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.From(System.Int32,System.Int32,System.Int32)
+  id: From(System.Int32,System.Int32,System.Int32)
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: From(int, int, int)
+  nameWithType: TerminalRgbColor.From(int, int, int)
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.From(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: From
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public static TerminalRgbColor From(int r, int g, int b)
+    parameters:
+    - id: r
+      type: System.Int32
+    - id: g
+      type: System.Int32
+    - id: b
+      type: System.Int32
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+    content.vb: Public Shared Function From(r As Integer, g As Integer, b As Integer) As TerminalRgbColor
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.From*
+  nameWithType.vb: TerminalRgbColor.From(Integer, Integer, Integer)
+  fullName.vb: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.From(Integer, Integer, Integer)
+  name.vb: From(Integer, Integer, Integer)
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.FromHex(System.String)
+  commentId: M:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.FromHex(System.String)
+  id: FromHex(System.String)
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: FromHex(string)
+  nameWithType: TerminalRgbColor.FromHex(string)
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.FromHex(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FromHex
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public static TerminalRgbColor FromHex(string hex)
+    parameters:
+    - id: hex
+      type: System.String
+    return:
+      type: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+    content.vb: Public Shared Function FromHex(hex As String) As TerminalRgbColor
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.FromHex*
+  nameWithType.vb: TerminalRgbColor.FromHex(String)
+  fullName.vb: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.FromHex(String)
+  name.vb: FromHex(String)
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.R
+  commentId: P:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.R
+  id: R
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: R
+  nameWithType: TerminalRgbColor.R
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.R
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: R
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public int R { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property R As Integer
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.R*
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.G
+  commentId: P:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.G
+  id: G
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: G
+  nameWithType: TerminalRgbColor.G
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.G
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: G
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 24
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public int G { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property G As Integer
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.G*
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.B
+  commentId: P:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.B
+  id: B
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: TerminalRgbColor.B
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.B
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: B
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 26
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public int B { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property B As Integer
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.B*
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.#ctor(System.Int32,System.Int32,System.Int32)
+  commentId: M:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.#ctor(System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32)'
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: TerminalRgbColor(int, int, int)
+  nameWithType: TerminalRgbColor.TerminalRgbColor(int, int, int)
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.TerminalRgbColor(int, int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 28
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public TerminalRgbColor(int r, int g, int b)
+    parameters:
+    - id: r
+      type: System.Int32
+    - id: g
+      type: System.Int32
+    - id: b
+      type: System.Int32
+    content.vb: Public Sub New(r As Integer, g As Integer, b As Integer)
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.#ctor*
+  nameWithType.vb: TerminalRgbColor.New(Integer, Integer, Integer)
+  fullName.vb: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.New(Integer, Integer, Integer)
+  name.vb: New(Integer, Integer, Integer)
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.ToColorParameter
+  commentId: M:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.ToColorParameter
+  id: ToColorParameter
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: ToColorParameter()
+  nameWithType: TerminalRgbColor.ToColorParameter()
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.ToColorParameter()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ToColorParameter
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 35
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public string ToColorParameter()
+    return:
+      type: System.String
+    content.vb: Public Function ToColorParameter() As String
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.ToColorParameter*
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals(Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  commentId: M:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals(Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  id: Equals(Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: Equals(TerminalRgbColor)
+  nameWithType: TerminalRgbColor.Equals(TerminalRgbColor)
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals(Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Equals
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 40
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public bool Equals(TerminalRgbColor other)
+    parameters:
+    - id: other
+      type: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As TerminalRgbColor) As Boolean
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals*
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals(System.Object)
+  commentId: M:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: TerminalRgbColor.Equals(object?)
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Equals
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 45
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals*
+  nameWithType.vb: TerminalRgbColor.Equals(Object)
+  fullName.vb: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.GetHashCode
+  commentId: M:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.GetHashCode
+  id: GetHashCode
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: TerminalRgbColor.GetHashCode()
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetHashCode
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 50
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.GetHashCode*
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Equality(Reqnroll.Tracing.AnsiColor.TerminalRgbColor,Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  commentId: M:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Equality(Reqnroll.Tracing.AnsiColor.TerminalRgbColor,Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  id: op_Equality(Reqnroll.Tracing.AnsiColor.TerminalRgbColor,Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: operator ==(TerminalRgbColor, TerminalRgbColor)
+  nameWithType: TerminalRgbColor.operator ==(TerminalRgbColor, TerminalRgbColor)
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.operator ==(Reqnroll.Tracing.AnsiColor.TerminalRgbColor, Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  type: Operator
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: op_Equality
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 61
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public static bool operator ==(TerminalRgbColor left, TerminalRgbColor right)
+    parameters:
+    - id: left
+      type: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+    - id: right
+      type: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As TerminalRgbColor, right As TerminalRgbColor) As Boolean
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Equality*
+  nameWithType.vb: TerminalRgbColor.=(TerminalRgbColor, TerminalRgbColor)
+  fullName.vb: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.=(Reqnroll.Tracing.AnsiColor.TerminalRgbColor, Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  name.vb: =(TerminalRgbColor, TerminalRgbColor)
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Inequality(Reqnroll.Tracing.AnsiColor.TerminalRgbColor,Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  commentId: M:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Inequality(Reqnroll.Tracing.AnsiColor.TerminalRgbColor,Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  id: op_Inequality(Reqnroll.Tracing.AnsiColor.TerminalRgbColor,Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  parent: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: operator !=(TerminalRgbColor, TerminalRgbColor)
+  nameWithType: TerminalRgbColor.operator !=(TerminalRgbColor, TerminalRgbColor)
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.operator !=(Reqnroll.Tracing.AnsiColor.TerminalRgbColor, Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  type: Operator
+  source:
+    remote:
+      path: Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: op_Inequality
+    path: ../Reqnroll/Reqnroll/Tracing/AnsiColor/TerminalRgbColor.cs
+    startLine: 66
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing.AnsiColor
+  syntax:
+    content: public static bool operator !=(TerminalRgbColor left, TerminalRgbColor right)
+    parameters:
+    - id: left
+      type: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+    - id: right
+      type: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As TerminalRgbColor, right As TerminalRgbColor) As Boolean
+  overload: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Inequality*
+  nameWithType.vb: TerminalRgbColor.<>(TerminalRgbColor, TerminalRgbColor)
+  fullName.vb: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.<>(Reqnroll.Tracing.AnsiColor.TerminalRgbColor, Reqnroll.Tracing.AnsiColor.TerminalRgbColor)
+  name.vb: <>(TerminalRgbColor, TerminalRgbColor)
+references:
+- uid: Reqnroll.Tracing.AnsiColor
+  commentId: N:Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.html
+  name: Reqnroll.Tracing.AnsiColor
+  nameWithType: Reqnroll.Tracing.AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  commentId: T:Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html
+  name: TerminalRgbColor
+  nameWithType: TerminalRgbColor
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.From*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.From
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_From_System_Int32_System_Int32_System_Int32_
+  name: From
+  nameWithType: TerminalRgbColor.From
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.From
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.FromHex*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.FromHex
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_FromHex_System_String_
+  name: FromHex
+  nameWithType: TerminalRgbColor.FromHex
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.FromHex
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.R*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.R
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_R
+  name: R
+  nameWithType: TerminalRgbColor.R
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.R
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.G*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.G
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_G
+  name: G
+  nameWithType: TerminalRgbColor.G
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.G
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.B*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.B
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_B
+  name: B
+  nameWithType: TerminalRgbColor.B
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.B
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.#ctor*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.#ctor
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor__ctor_System_Int32_System_Int32_System_Int32_
+  name: TerminalRgbColor
+  nameWithType: TerminalRgbColor.TerminalRgbColor
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.TerminalRgbColor
+  nameWithType.vb: TerminalRgbColor.New
+  fullName.vb: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.New
+  name.vb: New
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.ToColorParameter*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.ToColorParameter
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_ToColorParameter
+  name: ToColorParameter
+  nameWithType: TerminalRgbColor.ToColorParameter
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.ToColorParameter
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_Equals_Reqnroll_Tracing_AnsiColor_TerminalRgbColor_
+  name: Equals
+  nameWithType: TerminalRgbColor.Equals
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.GetHashCode*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.GetHashCode
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_GetHashCode
+  name: GetHashCode
+  nameWithType: TerminalRgbColor.GetHashCode
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.GetHashCode
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Equality*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Equality
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_op_Equality_Reqnroll_Tracing_AnsiColor_TerminalRgbColor_Reqnroll_Tracing_AnsiColor_TerminalRgbColor_
+  name: operator ==
+  nameWithType: TerminalRgbColor.operator ==
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.operator ==
+  nameWithType.vb: TerminalRgbColor.=
+  fullName.vb: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Equality*
+    name: ==
+    href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_op_Equality_Reqnroll_Tracing_AnsiColor_TerminalRgbColor_Reqnroll_Tracing_AnsiColor_TerminalRgbColor_
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Inequality*
+  commentId: Overload:Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Inequality
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_op_Inequality_Reqnroll_Tracing_AnsiColor_TerminalRgbColor_Reqnroll_Tracing_AnsiColor_TerminalRgbColor_
+  name: operator !=
+  nameWithType: TerminalRgbColor.operator !=
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.operator !=
+  nameWithType.vb: TerminalRgbColor.<>
+  fullName.vb: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.op_Inequality*
+    name: '!='
+    href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html#Reqnroll_Tracing_AnsiColor_TerminalRgbColor_op_Inequality_Reqnroll_Tracing_AnsiColor_TerminalRgbColor_Reqnroll_Tracing_AnsiColor_TerminalRgbColor_

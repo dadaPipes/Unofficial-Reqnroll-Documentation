@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.IConfigurationLoader
+  commentId: T:Reqnroll.Configuration.IConfigurationLoader
+  id: IConfigurationLoader
+  parent: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  - Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  - Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+  langs:
+  - csharp
+  - vb
+  name: IConfigurationLoader
+  nameWithType: IConfigurationLoader
+  fullName: Reqnroll.Configuration.IConfigurationLoader
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Configuration/IConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IConfigurationLoader
+    path: ../Reqnroll/Reqnroll/Configuration/IConfigurationLoader.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public interface IConfigurationLoader
+    content.vb: Public Interface IConfigurationLoader
+- uid: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  commentId: M:Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  id: Load(Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  parent: Reqnroll.Configuration.IConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: Load(ReqnrollConfiguration, IReqnrollConfigurationHolder)
+  nameWithType: IConfigurationLoader.Load(ReqnrollConfiguration, IReqnrollConfigurationHolder)
+  fullName: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration, Reqnroll.Configuration.IReqnrollConfigurationHolder)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/IConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Load
+    path: ../Reqnroll/Reqnroll/Configuration/IConfigurationLoader.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: ReqnrollConfiguration Load(ReqnrollConfiguration reqnrollConfiguration, IReqnrollConfigurationHolder reqnrollConfigurationHolder)
+    parameters:
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    - id: reqnrollConfigurationHolder
+      type: Reqnroll.Configuration.IReqnrollConfigurationHolder
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Function Load(reqnrollConfiguration As ReqnrollConfiguration, reqnrollConfigurationHolder As IReqnrollConfigurationHolder) As ReqnrollConfiguration
+  overload: Reqnroll.Configuration.IConfigurationLoader.Load*
+- uid: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  id: Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Configuration.IConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: Load(ReqnrollConfiguration)
+  nameWithType: IConfigurationLoader.Load(ReqnrollConfiguration)
+  fullName: Reqnroll.Configuration.IConfigurationLoader.Load(Reqnroll.Configuration.ReqnrollConfiguration)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/IConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Load
+    path: ../Reqnroll/Reqnroll/Configuration/IConfigurationLoader.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: ReqnrollConfiguration Load(ReqnrollConfiguration reqnrollConfiguration)
+    parameters:
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    return:
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Function Load(reqnrollConfiguration As ReqnrollConfiguration) As ReqnrollConfiguration
+  overload: Reqnroll.Configuration.IConfigurationLoader.Load*
+- uid: Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+  commentId: M:Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+  id: TraceConfigSource(Reqnroll.Tracing.ITraceListener,Reqnroll.Configuration.ReqnrollConfiguration)
+  parent: Reqnroll.Configuration.IConfigurationLoader
+  langs:
+  - csharp
+  - vb
+  name: TraceConfigSource(ITraceListener, ReqnrollConfiguration)
+  nameWithType: IConfigurationLoader.TraceConfigSource(ITraceListener, ReqnrollConfiguration)
+  fullName: Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource(Reqnroll.Tracing.ITraceListener, Reqnroll.Configuration.ReqnrollConfiguration)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Configuration/IConfigurationLoader.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceConfigSource
+    path: ../Reqnroll/Reqnroll/Configuration/IConfigurationLoader.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: void TraceConfigSource(ITraceListener traceListener, ReqnrollConfiguration reqnrollConfiguration)
+    parameters:
+    - id: traceListener
+      type: Reqnroll.Tracing.ITraceListener
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    content.vb: Sub TraceConfigSource(traceListener As ITraceListener, reqnrollConfiguration As ReqnrollConfiguration)
+  overload: Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource*
+references:
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.Configuration.IConfigurationLoader.Load*
+  commentId: Overload:Reqnroll.Configuration.IConfigurationLoader.Load
+  href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_Load_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_Configuration_IReqnrollConfigurationHolder_
+  name: Load
+  nameWithType: IConfigurationLoader.Load
+  fullName: Reqnroll.Configuration.IConfigurationLoader.Load
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration
+- uid: Reqnroll.Configuration.IReqnrollConfigurationHolder
+  commentId: T:Reqnroll.Configuration.IReqnrollConfigurationHolder
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.IReqnrollConfigurationHolder.html
+  name: IReqnrollConfigurationHolder
+  nameWithType: IReqnrollConfigurationHolder
+  fullName: Reqnroll.Configuration.IReqnrollConfigurationHolder
+- uid: Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource*
+  commentId: Overload:Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource
+  href: Reqnroll.Configuration.IConfigurationLoader.html#Reqnroll_Configuration_IConfigurationLoader_TraceConfigSource_Reqnroll_Tracing_ITraceListener_Reqnroll_Configuration_ReqnrollConfiguration_
+  name: TraceConfigSource
+  nameWithType: IConfigurationLoader.TraceConfigSource
+  fullName: Reqnroll.Configuration.IConfigurationLoader.TraceConfigSource
+- uid: Reqnroll.Tracing.ITraceListener
+  commentId: T:Reqnroll.Tracing.ITraceListener
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITraceListener.html
+  name: ITraceListener
+  nameWithType: ITraceListener
+  fullName: Reqnroll.Tracing.ITraceListener
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html

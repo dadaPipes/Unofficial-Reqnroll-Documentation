@@ -1,0 +1,468 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Events.HookBindingFinishedEvent
+  commentId: T:Reqnroll.Events.HookBindingFinishedEvent
+  id: HookBindingFinishedEvent
+  parent: Reqnroll.Events
+  children:
+  - Reqnroll.Events.HookBindingFinishedEvent.#ctor(Reqnroll.Bindings.IHookBinding,System.TimeSpan)
+  - Reqnroll.Events.HookBindingFinishedEvent.Duration
+  - Reqnroll.Events.HookBindingFinishedEvent.HookBinding
+  langs:
+  - csharp
+  - vb
+  name: HookBindingFinishedEvent
+  nameWithType: HookBindingFinishedEvent
+  fullName: Reqnroll.Events.HookBindingFinishedEvent
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Events/ExecutionEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HookBindingFinishedEvent
+    path: ../Reqnroll/Reqnroll/Events/ExecutionEvent.cs
+    startLine: 176
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: 'public class HookBindingFinishedEvent : ExecutionEvent, IExecutionEvent'
+    content.vb: Public Class HookBindingFinishedEvent Inherits ExecutionEvent Implements IExecutionEvent
+  inheritance:
+  - System.Object
+  - Reqnroll.Events.ExecutionEvent
+  implements:
+  - Reqnroll.Events.IExecutionEvent
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Events.HookBindingFinishedEvent.HookBinding
+  commentId: P:Reqnroll.Events.HookBindingFinishedEvent.HookBinding
+  id: HookBinding
+  parent: Reqnroll.Events.HookBindingFinishedEvent
+  langs:
+  - csharp
+  - vb
+  name: HookBinding
+  nameWithType: HookBindingFinishedEvent.HookBinding
+  fullName: Reqnroll.Events.HookBindingFinishedEvent.HookBinding
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Events/ExecutionEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HookBinding
+    path: ../Reqnroll/Reqnroll/Events/ExecutionEvent.cs
+    startLine: 178
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: public IHookBinding HookBinding { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.IHookBinding
+    content.vb: Public ReadOnly Property HookBinding As IHookBinding
+  overload: Reqnroll.Events.HookBindingFinishedEvent.HookBinding*
+- uid: Reqnroll.Events.HookBindingFinishedEvent.Duration
+  commentId: P:Reqnroll.Events.HookBindingFinishedEvent.Duration
+  id: Duration
+  parent: Reqnroll.Events.HookBindingFinishedEvent
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: HookBindingFinishedEvent.Duration
+  fullName: Reqnroll.Events.HookBindingFinishedEvent.Duration
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Events/ExecutionEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Duration
+    path: ../Reqnroll/Reqnroll/Events/ExecutionEvent.cs
+    startLine: 180
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: public TimeSpan Duration { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public ReadOnly Property Duration As TimeSpan
+  overload: Reqnroll.Events.HookBindingFinishedEvent.Duration*
+- uid: Reqnroll.Events.HookBindingFinishedEvent.#ctor(Reqnroll.Bindings.IHookBinding,System.TimeSpan)
+  commentId: M:Reqnroll.Events.HookBindingFinishedEvent.#ctor(Reqnroll.Bindings.IHookBinding,System.TimeSpan)
+  id: '#ctor(Reqnroll.Bindings.IHookBinding,System.TimeSpan)'
+  parent: Reqnroll.Events.HookBindingFinishedEvent
+  langs:
+  - csharp
+  - vb
+  name: HookBindingFinishedEvent(IHookBinding, TimeSpan)
+  nameWithType: HookBindingFinishedEvent.HookBindingFinishedEvent(IHookBinding, TimeSpan)
+  fullName: Reqnroll.Events.HookBindingFinishedEvent.HookBindingFinishedEvent(Reqnroll.Bindings.IHookBinding, System.TimeSpan)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Events/ExecutionEvent.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Events/ExecutionEvent.cs
+    startLine: 182
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Events
+  syntax:
+    content: public HookBindingFinishedEvent(IHookBinding hookBinding, TimeSpan duration)
+    parameters:
+    - id: hookBinding
+      type: Reqnroll.Bindings.IHookBinding
+    - id: duration
+      type: System.TimeSpan
+    content.vb: Public Sub New(hookBinding As IHookBinding, duration As TimeSpan)
+  overload: Reqnroll.Events.HookBindingFinishedEvent.#ctor*
+  nameWithType.vb: HookBindingFinishedEvent.New(IHookBinding, TimeSpan)
+  fullName.vb: Reqnroll.Events.HookBindingFinishedEvent.New(Reqnroll.Bindings.IHookBinding, System.TimeSpan)
+  name.vb: New(IHookBinding, TimeSpan)
+references:
+- uid: Reqnroll.Events
+  commentId: N:Reqnroll.Events
+  href: Reqnroll.html
+  name: Reqnroll.Events
+  nameWithType: Reqnroll.Events
+  fullName: Reqnroll.Events
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Events
+    name: Events
+    href: Reqnroll.Events.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Events
+    name: Events
+    href: Reqnroll.Events.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Events.ExecutionEvent
+  commentId: T:Reqnroll.Events.ExecutionEvent
+  parent: Reqnroll.Events
+  href: Reqnroll.Events.ExecutionEvent.html
+  name: ExecutionEvent
+  nameWithType: ExecutionEvent
+  fullName: Reqnroll.Events.ExecutionEvent
+- uid: Reqnroll.Events.IExecutionEvent
+  commentId: T:Reqnroll.Events.IExecutionEvent
+  parent: Reqnroll.Events
+  href: Reqnroll.Events.IExecutionEvent.html
+  name: IExecutionEvent
+  nameWithType: IExecutionEvent
+  fullName: Reqnroll.Events.IExecutionEvent
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Events.HookBindingFinishedEvent.HookBinding*
+  commentId: Overload:Reqnroll.Events.HookBindingFinishedEvent.HookBinding
+  href: Reqnroll.Events.HookBindingFinishedEvent.html#Reqnroll_Events_HookBindingFinishedEvent_HookBinding
+  name: HookBinding
+  nameWithType: HookBindingFinishedEvent.HookBinding
+  fullName: Reqnroll.Events.HookBindingFinishedEvent.HookBinding
+- uid: Reqnroll.Bindings.IHookBinding
+  commentId: T:Reqnroll.Bindings.IHookBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IHookBinding.html
+  name: IHookBinding
+  nameWithType: IHookBinding
+  fullName: Reqnroll.Bindings.IHookBinding
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Events.HookBindingFinishedEvent.Duration*
+  commentId: Overload:Reqnroll.Events.HookBindingFinishedEvent.Duration
+  href: Reqnroll.Events.HookBindingFinishedEvent.html#Reqnroll_Events_HookBindingFinishedEvent_Duration
+  name: Duration
+  nameWithType: HookBindingFinishedEvent.Duration
+  fullName: Reqnroll.Events.HookBindingFinishedEvent.Duration
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Reqnroll.Events.HookBindingFinishedEvent.#ctor*
+  commentId: Overload:Reqnroll.Events.HookBindingFinishedEvent.#ctor
+  href: Reqnroll.Events.HookBindingFinishedEvent.html#Reqnroll_Events_HookBindingFinishedEvent__ctor_Reqnroll_Bindings_IHookBinding_System_TimeSpan_
+  name: HookBindingFinishedEvent
+  nameWithType: HookBindingFinishedEvent.HookBindingFinishedEvent
+  fullName: Reqnroll.Events.HookBindingFinishedEvent.HookBindingFinishedEvent
+  nameWithType.vb: HookBindingFinishedEvent.New
+  fullName.vb: Reqnroll.Events.HookBindingFinishedEvent.New
+  name.vb: New

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Parser
+  commentId: N:Reqnroll.Parser
+  id: Reqnroll.Parser
+  children:
+  - Reqnroll.Parser.ReqnrollGherkinDialectProvider
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Parser
+  nameWithType: Reqnroll.Parser
+  fullName: Reqnroll.Parser
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Parser.ReqnrollGherkinDialectProvider
+  commentId: T:Reqnroll.Parser.ReqnrollGherkinDialectProvider
+  href: Reqnroll.Parser.ReqnrollGherkinDialectProvider.html
+  name: ReqnrollGherkinDialectProvider
+  nameWithType: ReqnrollGherkinDialectProvider
+  fullName: Reqnroll.Parser.ReqnrollGherkinDialectProvider

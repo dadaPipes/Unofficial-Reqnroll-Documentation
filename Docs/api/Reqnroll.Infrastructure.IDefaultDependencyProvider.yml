@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.IDefaultDependencyProvider
+  commentId: T:Reqnroll.Infrastructure.IDefaultDependencyProvider
+  id: IDefaultDependencyProvider
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterGlobalContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  - Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterScenarioContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  - Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterTestThreadContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  langs:
+  - csharp
+  - vb
+  name: IDefaultDependencyProvider
+  nameWithType: IDefaultDependencyProvider
+  fullName: Reqnroll.Infrastructure.IDefaultDependencyProvider
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/IDefaultDependencyProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IDefaultDependencyProvider
+    path: ../Reqnroll/Reqnroll/Infrastructure/IDefaultDependencyProvider.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface IDefaultDependencyProvider
+    content.vb: Public Interface IDefaultDependencyProvider
+- uid: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterGlobalContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  commentId: M:Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterGlobalContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  id: RegisterGlobalContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  parent: Reqnroll.Infrastructure.IDefaultDependencyProvider
+  langs:
+  - csharp
+  - vb
+  name: RegisterGlobalContainerDefaults(ObjectContainer)
+  nameWithType: IDefaultDependencyProvider.RegisterGlobalContainerDefaults(ObjectContainer)
+  fullName: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterGlobalContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/IDefaultDependencyProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterGlobalContainerDefaults
+    path: ../Reqnroll/Reqnroll/Infrastructure/IDefaultDependencyProvider.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void RegisterGlobalContainerDefaults(ObjectContainer container)
+    parameters:
+    - id: container
+      type: Reqnroll.BoDi.ObjectContainer
+    content.vb: Sub RegisterGlobalContainerDefaults(container As ObjectContainer)
+  overload: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterGlobalContainerDefaults*
+- uid: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterTestThreadContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  commentId: M:Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterTestThreadContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  id: RegisterTestThreadContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  parent: Reqnroll.Infrastructure.IDefaultDependencyProvider
+  langs:
+  - csharp
+  - vb
+  name: RegisterTestThreadContainerDefaults(ObjectContainer)
+  nameWithType: IDefaultDependencyProvider.RegisterTestThreadContainerDefaults(ObjectContainer)
+  fullName: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterTestThreadContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/IDefaultDependencyProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterTestThreadContainerDefaults
+    path: ../Reqnroll/Reqnroll/Infrastructure/IDefaultDependencyProvider.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void RegisterTestThreadContainerDefaults(ObjectContainer testThreadContainer)
+    parameters:
+    - id: testThreadContainer
+      type: Reqnroll.BoDi.ObjectContainer
+    content.vb: Sub RegisterTestThreadContainerDefaults(testThreadContainer As ObjectContainer)
+  overload: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterTestThreadContainerDefaults*
+- uid: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterScenarioContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  commentId: M:Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterScenarioContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  id: RegisterScenarioContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  parent: Reqnroll.Infrastructure.IDefaultDependencyProvider
+  langs:
+  - csharp
+  - vb
+  name: RegisterScenarioContainerDefaults(ObjectContainer)
+  nameWithType: IDefaultDependencyProvider.RegisterScenarioContainerDefaults(ObjectContainer)
+  fullName: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterScenarioContainerDefaults(Reqnroll.BoDi.ObjectContainer)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/IDefaultDependencyProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: RegisterScenarioContainerDefaults
+    path: ../Reqnroll/Reqnroll/Infrastructure/IDefaultDependencyProvider.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: void RegisterScenarioContainerDefaults(ObjectContainer scenarioContainer)
+    parameters:
+    - id: scenarioContainer
+      type: Reqnroll.BoDi.ObjectContainer
+    content.vb: Sub RegisterScenarioContainerDefaults(scenarioContainer As ObjectContainer)
+  overload: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterScenarioContainerDefaults*
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterGlobalContainerDefaults*
+  commentId: Overload:Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterGlobalContainerDefaults
+  href: Reqnroll.Infrastructure.IDefaultDependencyProvider.html#Reqnroll_Infrastructure_IDefaultDependencyProvider_RegisterGlobalContainerDefaults_Reqnroll_BoDi_ObjectContainer_
+  name: RegisterGlobalContainerDefaults
+  nameWithType: IDefaultDependencyProvider.RegisterGlobalContainerDefaults
+  fullName: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterGlobalContainerDefaults
+- uid: Reqnroll.BoDi.ObjectContainer
+  commentId: T:Reqnroll.BoDi.ObjectContainer
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.ObjectContainer.html
+  name: ObjectContainer
+  nameWithType: ObjectContainer
+  fullName: Reqnroll.BoDi.ObjectContainer
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterTestThreadContainerDefaults*
+  commentId: Overload:Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterTestThreadContainerDefaults
+  href: Reqnroll.Infrastructure.IDefaultDependencyProvider.html#Reqnroll_Infrastructure_IDefaultDependencyProvider_RegisterTestThreadContainerDefaults_Reqnroll_BoDi_ObjectContainer_
+  name: RegisterTestThreadContainerDefaults
+  nameWithType: IDefaultDependencyProvider.RegisterTestThreadContainerDefaults
+  fullName: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterTestThreadContainerDefaults
+- uid: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterScenarioContainerDefaults*
+  commentId: Overload:Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterScenarioContainerDefaults
+  href: Reqnroll.Infrastructure.IDefaultDependencyProvider.html#Reqnroll_Infrastructure_IDefaultDependencyProvider_RegisterScenarioContainerDefaults_Reqnroll_BoDi_ObjectContainer_
+  name: RegisterScenarioContainerDefaults
+  nameWithType: IDefaultDependencyProvider.RegisterScenarioContainerDefaults
+  fullName: Reqnroll.Infrastructure.IDefaultDependencyProvider.RegisterScenarioContainerDefaults

@@ -1,0 +1,1340 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.ITestRunner
+  commentId: T:Reqnroll.ITestRunner
+  id: ITestRunner
+  parent: Reqnroll
+  children:
+  - Reqnroll.ITestRunner.AndAsync(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.ITestRunner.ButAsync(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.ITestRunner.CollectScenarioErrorsAsync
+  - Reqnroll.ITestRunner.FeatureContext
+  - Reqnroll.ITestRunner.GivenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.ITestRunner.InitializeTestRunner(System.String)
+  - Reqnroll.ITestRunner.OnFeatureEndAsync
+  - Reqnroll.ITestRunner.OnFeatureStartAsync(Reqnroll.FeatureInfo)
+  - Reqnroll.ITestRunner.OnScenarioEndAsync
+  - Reqnroll.ITestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  - Reqnroll.ITestRunner.OnScenarioStartAsync
+  - Reqnroll.ITestRunner.OnTestRunEndAsync
+  - Reqnroll.ITestRunner.OnTestRunStartAsync
+  - Reqnroll.ITestRunner.Pending
+  - Reqnroll.ITestRunner.ScenarioContext
+  - Reqnroll.ITestRunner.SkipScenario
+  - Reqnroll.ITestRunner.TestThreadContext
+  - Reqnroll.ITestRunner.TestWorkerId
+  - Reqnroll.ITestRunner.ThenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.ITestRunner.WhenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ITestRunner
+  nameWithType: ITestRunner
+  fullName: Reqnroll.ITestRunner
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ITestRunner
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public interface ITestRunner
+    content.vb: Public Interface ITestRunner
+  extensionMethods:
+  - Reqnroll.ITestRunner.Reqnroll.TestRunnerDefaultArguments.AndAsync(System.String)
+  - Reqnroll.ITestRunner.Reqnroll.TestRunnerDefaultArguments.ButAsync(System.String)
+  - Reqnroll.ITestRunner.Reqnroll.TestRunnerDefaultArguments.GivenAsync(System.String)
+  - Reqnroll.ITestRunner.Reqnroll.TestRunnerDefaultArguments.ThenAsync(System.String)
+  - Reqnroll.ITestRunner.Reqnroll.TestRunnerDefaultArguments.WhenAsync(System.String)
+- uid: Reqnroll.ITestRunner.TestWorkerId
+  commentId: P:Reqnroll.ITestRunner.TestWorkerId
+  id: TestWorkerId
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: TestWorkerId
+  nameWithType: ITestRunner.TestWorkerId
+  fullName: Reqnroll.ITestRunner.TestWorkerId
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestWorkerId
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  summary: The ID of the parallel test worker processing the current scenario.
+  example: []
+  syntax:
+    content: string TestWorkerId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property TestWorkerId As String
+  overload: Reqnroll.ITestRunner.TestWorkerId*
+- uid: Reqnroll.ITestRunner.FeatureContext
+  commentId: P:Reqnroll.ITestRunner.FeatureContext
+  id: FeatureContext
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: FeatureContext
+  nameWithType: ITestRunner.FeatureContext
+  fullName: Reqnroll.ITestRunner.FeatureContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FeatureContext
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: FeatureContext FeatureContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.FeatureContext
+    content.vb: ReadOnly Property FeatureContext As FeatureContext
+  overload: Reqnroll.ITestRunner.FeatureContext*
+- uid: Reqnroll.ITestRunner.ScenarioContext
+  commentId: P:Reqnroll.ITestRunner.ScenarioContext
+  id: ScenarioContext
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: ScenarioContext
+  nameWithType: ITestRunner.ScenarioContext
+  fullName: Reqnroll.ITestRunner.ScenarioContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioContext
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: ScenarioContext ScenarioContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioContext
+    content.vb: ReadOnly Property ScenarioContext As ScenarioContext
+  overload: Reqnroll.ITestRunner.ScenarioContext*
+- uid: Reqnroll.ITestRunner.TestThreadContext
+  commentId: P:Reqnroll.ITestRunner.TestThreadContext
+  id: TestThreadContext
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: TestThreadContext
+  nameWithType: ITestRunner.TestThreadContext
+  fullName: Reqnroll.ITestRunner.TestThreadContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestThreadContext
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: ITestThreadContext TestThreadContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ITestThreadContext
+    content.vb: ReadOnly Property TestThreadContext As ITestThreadContext
+  overload: Reqnroll.ITestRunner.TestThreadContext*
+- uid: Reqnroll.ITestRunner.InitializeTestRunner(System.String)
+  commentId: M:Reqnroll.ITestRunner.InitializeTestRunner(System.String)
+  id: InitializeTestRunner(System.String)
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: InitializeTestRunner(string)
+  nameWithType: ITestRunner.InitializeTestRunner(string)
+  fullName: Reqnroll.ITestRunner.InitializeTestRunner(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InitializeTestRunner
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 15
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: >-
+      [Obsolete("TestWorkerId is now managed by Reqnroll internally - Method will be removed in v3")]
+
+      void InitializeTestRunner(string testWorkerId)
+    parameters:
+    - id: testWorkerId
+      type: System.String
+    content.vb: >-
+      <Obsolete("TestWorkerId is now managed by Reqnroll internally - Method will be removed in v3")>
+
+      Sub InitializeTestRunner(testWorkerId As String)
+  overload: Reqnroll.ITestRunner.InitializeTestRunner*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TestWorkerId is now managed by Reqnroll internally - Method will be removed in v3
+  nameWithType.vb: ITestRunner.InitializeTestRunner(String)
+  fullName.vb: Reqnroll.ITestRunner.InitializeTestRunner(String)
+  name.vb: InitializeTestRunner(String)
+- uid: Reqnroll.ITestRunner.OnTestRunStartAsync
+  commentId: M:Reqnroll.ITestRunner.OnTestRunStartAsync
+  id: OnTestRunStartAsync
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnTestRunStartAsync()
+  nameWithType: ITestRunner.OnTestRunStartAsync()
+  fullName: Reqnroll.ITestRunner.OnTestRunStartAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnTestRunStartAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task OnTestRunStartAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnTestRunStartAsync() As Task
+  overload: Reqnroll.ITestRunner.OnTestRunStartAsync*
+- uid: Reqnroll.ITestRunner.OnTestRunEndAsync
+  commentId: M:Reqnroll.ITestRunner.OnTestRunEndAsync
+  id: OnTestRunEndAsync
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnTestRunEndAsync()
+  nameWithType: ITestRunner.OnTestRunEndAsync()
+  fullName: Reqnroll.ITestRunner.OnTestRunEndAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnTestRunEndAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 19
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task OnTestRunEndAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnTestRunEndAsync() As Task
+  overload: Reqnroll.ITestRunner.OnTestRunEndAsync*
+- uid: Reqnroll.ITestRunner.OnFeatureStartAsync(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.ITestRunner.OnFeatureStartAsync(Reqnroll.FeatureInfo)
+  id: OnFeatureStartAsync(Reqnroll.FeatureInfo)
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnFeatureStartAsync(FeatureInfo)
+  nameWithType: ITestRunner.OnFeatureStartAsync(FeatureInfo)
+  fullName: Reqnroll.ITestRunner.OnFeatureStartAsync(Reqnroll.FeatureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnFeatureStartAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 21
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task OnFeatureStartAsync(FeatureInfo featureInfo)
+    parameters:
+    - id: featureInfo
+      type: Reqnroll.FeatureInfo
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnFeatureStartAsync(featureInfo As FeatureInfo) As Task
+  overload: Reqnroll.ITestRunner.OnFeatureStartAsync*
+- uid: Reqnroll.ITestRunner.OnFeatureEndAsync
+  commentId: M:Reqnroll.ITestRunner.OnFeatureEndAsync
+  id: OnFeatureEndAsync
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnFeatureEndAsync()
+  nameWithType: ITestRunner.OnFeatureEndAsync()
+  fullName: Reqnroll.ITestRunner.OnFeatureEndAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnFeatureEndAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task OnFeatureEndAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnFeatureEndAsync() As Task
+  overload: Reqnroll.ITestRunner.OnFeatureEndAsync*
+- uid: Reqnroll.ITestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  commentId: M:Reqnroll.ITestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  id: OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioInitialize(ScenarioInfo)
+  nameWithType: ITestRunner.OnScenarioInitialize(ScenarioInfo)
+  fullName: Reqnroll.ITestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioInitialize
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 24
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void OnScenarioInitialize(ScenarioInfo scenarioInfo)
+    parameters:
+    - id: scenarioInfo
+      type: Reqnroll.ScenarioInfo
+    content.vb: Sub OnScenarioInitialize(scenarioInfo As ScenarioInfo)
+  overload: Reqnroll.ITestRunner.OnScenarioInitialize*
+- uid: Reqnroll.ITestRunner.OnScenarioStartAsync
+  commentId: M:Reqnroll.ITestRunner.OnScenarioStartAsync
+  id: OnScenarioStartAsync
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioStartAsync()
+  nameWithType: ITestRunner.OnScenarioStartAsync()
+  fullName: Reqnroll.ITestRunner.OnScenarioStartAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioStartAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 25
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task OnScenarioStartAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnScenarioStartAsync() As Task
+  overload: Reqnroll.ITestRunner.OnScenarioStartAsync*
+- uid: Reqnroll.ITestRunner.CollectScenarioErrorsAsync
+  commentId: M:Reqnroll.ITestRunner.CollectScenarioErrorsAsync
+  id: CollectScenarioErrorsAsync
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: CollectScenarioErrorsAsync()
+  nameWithType: ITestRunner.CollectScenarioErrorsAsync()
+  fullName: Reqnroll.ITestRunner.CollectScenarioErrorsAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CollectScenarioErrorsAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 27
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task CollectScenarioErrorsAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CollectScenarioErrorsAsync() As Task
+  overload: Reqnroll.ITestRunner.CollectScenarioErrorsAsync*
+- uid: Reqnroll.ITestRunner.OnScenarioEndAsync
+  commentId: M:Reqnroll.ITestRunner.OnScenarioEndAsync
+  id: OnScenarioEndAsync
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioEndAsync()
+  nameWithType: ITestRunner.OnScenarioEndAsync()
+  fullName: Reqnroll.ITestRunner.OnScenarioEndAsync()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioEndAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 28
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task OnScenarioEndAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnScenarioEndAsync() As Task
+  overload: Reqnroll.ITestRunner.OnScenarioEndAsync*
+- uid: Reqnroll.ITestRunner.SkipScenario
+  commentId: M:Reqnroll.ITestRunner.SkipScenario
+  id: SkipScenario
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: SkipScenario()
+  nameWithType: ITestRunner.SkipScenario()
+  fullName: Reqnroll.ITestRunner.SkipScenario()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SkipScenario
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 30
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void SkipScenario()
+    content.vb: Sub SkipScenario()
+  overload: Reqnroll.ITestRunner.SkipScenario*
+- uid: Reqnroll.ITestRunner.GivenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ITestRunner.GivenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  id: GivenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: GivenAsync(string, string, Table, string)
+  nameWithType: ITestRunner.GivenAsync(string, string, Table, string)
+  fullName: Reqnroll.ITestRunner.GivenAsync(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GivenAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 32
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task GivenAsync(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function GivenAsync(text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing) As Task
+  overload: Reqnroll.ITestRunner.GivenAsync*
+  nameWithType.vb: ITestRunner.GivenAsync(String, String, Table, String)
+  fullName.vb: Reqnroll.ITestRunner.GivenAsync(String, String, Reqnroll.Table, String)
+  name.vb: GivenAsync(String, String, Table, String)
+- uid: Reqnroll.ITestRunner.WhenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ITestRunner.WhenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  id: WhenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: WhenAsync(string, string, Table, string)
+  nameWithType: ITestRunner.WhenAsync(string, string, Table, string)
+  fullName: Reqnroll.ITestRunner.WhenAsync(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: WhenAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 33
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task WhenAsync(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function WhenAsync(text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing) As Task
+  overload: Reqnroll.ITestRunner.WhenAsync*
+  nameWithType.vb: ITestRunner.WhenAsync(String, String, Table, String)
+  fullName.vb: Reqnroll.ITestRunner.WhenAsync(String, String, Reqnroll.Table, String)
+  name.vb: WhenAsync(String, String, Table, String)
+- uid: Reqnroll.ITestRunner.ThenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ITestRunner.ThenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  id: ThenAsync(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: ThenAsync(string, string, Table, string)
+  nameWithType: ITestRunner.ThenAsync(string, string, Table, string)
+  fullName: Reqnroll.ITestRunner.ThenAsync(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ThenAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 34
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task ThenAsync(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ThenAsync(text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing) As Task
+  overload: Reqnroll.ITestRunner.ThenAsync*
+  nameWithType.vb: ITestRunner.ThenAsync(String, String, Table, String)
+  fullName.vb: Reqnroll.ITestRunner.ThenAsync(String, String, Reqnroll.Table, String)
+  name.vb: ThenAsync(String, String, Table, String)
+- uid: Reqnroll.ITestRunner.AndAsync(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ITestRunner.AndAsync(System.String,System.String,Reqnroll.Table,System.String)
+  id: AndAsync(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: AndAsync(string, string, Table, string)
+  nameWithType: ITestRunner.AndAsync(string, string, Table, string)
+  fullName: Reqnroll.ITestRunner.AndAsync(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AndAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 35
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task AndAsync(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AndAsync(text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing) As Task
+  overload: Reqnroll.ITestRunner.AndAsync*
+  nameWithType.vb: ITestRunner.AndAsync(String, String, Table, String)
+  fullName.vb: Reqnroll.ITestRunner.AndAsync(String, String, Reqnroll.Table, String)
+  name.vb: AndAsync(String, String, Table, String)
+- uid: Reqnroll.ITestRunner.ButAsync(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ITestRunner.ButAsync(System.String,System.String,Reqnroll.Table,System.String)
+  id: ButAsync(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: ButAsync(string, string, Table, string)
+  nameWithType: ITestRunner.ButAsync(string, string, Table, string)
+  fullName: Reqnroll.ITestRunner.ButAsync(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ButAsync
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 36
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: Task ButAsync(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ButAsync(text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing) As Task
+  overload: Reqnroll.ITestRunner.ButAsync*
+  nameWithType.vb: ITestRunner.ButAsync(String, String, Table, String)
+  fullName.vb: Reqnroll.ITestRunner.ButAsync(String, String, Reqnroll.Table, String)
+  name.vb: ButAsync(String, String, Table, String)
+- uid: Reqnroll.ITestRunner.Pending
+  commentId: M:Reqnroll.ITestRunner.Pending
+  id: Pending
+  parent: Reqnroll.ITestRunner
+  langs:
+  - csharp
+  - vb
+  name: Pending()
+  nameWithType: ITestRunner.Pending()
+  fullName: Reqnroll.ITestRunner.Pending()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/ITestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Pending
+    path: ../Reqnroll/Reqnroll/ITestRunner.cs
+    startLine: 38
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void Pending()
+    content.vb: Sub Pending()
+  overload: Reqnroll.ITestRunner.Pending*
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.ITestRunner.Reqnroll.TestRunnerDefaultArguments.AndAsync(System.String)
+  commentId: M:Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner,System.String)
+  parent: Reqnroll.TestRunnerDefaultArguments
+  definition: Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner,System.String)
+  href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_AndAsync_Reqnroll_ITestRunner_System_String_
+  name: AndAsync(ITestRunner, string)
+  nameWithType: TestRunnerDefaultArguments.AndAsync(ITestRunner, string)
+  fullName: Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner, string)
+  nameWithType.vb: TestRunnerDefaultArguments.AndAsync(ITestRunner, String)
+  fullName.vb: Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner, String)
+  name.vb: AndAsync(ITestRunner, String)
+  spec.csharp:
+  - uid: Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner,System.String)
+    name: AndAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_AndAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner,System.String)
+    name: AndAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_AndAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.ITestRunner.Reqnroll.TestRunnerDefaultArguments.ButAsync(System.String)
+  commentId: M:Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner,System.String)
+  parent: Reqnroll.TestRunnerDefaultArguments
+  definition: Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner,System.String)
+  href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ButAsync_Reqnroll_ITestRunner_System_String_
+  name: ButAsync(ITestRunner, string)
+  nameWithType: TestRunnerDefaultArguments.ButAsync(ITestRunner, string)
+  fullName: Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner, string)
+  nameWithType.vb: TestRunnerDefaultArguments.ButAsync(ITestRunner, String)
+  fullName.vb: Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner, String)
+  name.vb: ButAsync(ITestRunner, String)
+  spec.csharp:
+  - uid: Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner,System.String)
+    name: ButAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ButAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner,System.String)
+    name: ButAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ButAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.ITestRunner.Reqnroll.TestRunnerDefaultArguments.GivenAsync(System.String)
+  commentId: M:Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner,System.String)
+  parent: Reqnroll.TestRunnerDefaultArguments
+  definition: Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner,System.String)
+  href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_GivenAsync_Reqnroll_ITestRunner_System_String_
+  name: GivenAsync(ITestRunner, string)
+  nameWithType: TestRunnerDefaultArguments.GivenAsync(ITestRunner, string)
+  fullName: Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner, string)
+  nameWithType.vb: TestRunnerDefaultArguments.GivenAsync(ITestRunner, String)
+  fullName.vb: Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner, String)
+  name.vb: GivenAsync(ITestRunner, String)
+  spec.csharp:
+  - uid: Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner,System.String)
+    name: GivenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_GivenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner,System.String)
+    name: GivenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_GivenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.ITestRunner.Reqnroll.TestRunnerDefaultArguments.ThenAsync(System.String)
+  commentId: M:Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner,System.String)
+  parent: Reqnroll.TestRunnerDefaultArguments
+  definition: Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner,System.String)
+  href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ThenAsync_Reqnroll_ITestRunner_System_String_
+  name: ThenAsync(ITestRunner, string)
+  nameWithType: TestRunnerDefaultArguments.ThenAsync(ITestRunner, string)
+  fullName: Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner, string)
+  nameWithType.vb: TestRunnerDefaultArguments.ThenAsync(ITestRunner, String)
+  fullName.vb: Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner, String)
+  name.vb: ThenAsync(ITestRunner, String)
+  spec.csharp:
+  - uid: Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner,System.String)
+    name: ThenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ThenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner,System.String)
+    name: ThenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ThenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.ITestRunner.Reqnroll.TestRunnerDefaultArguments.WhenAsync(System.String)
+  commentId: M:Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner,System.String)
+  parent: Reqnroll.TestRunnerDefaultArguments
+  definition: Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner,System.String)
+  href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_WhenAsync_Reqnroll_ITestRunner_System_String_
+  name: WhenAsync(ITestRunner, string)
+  nameWithType: TestRunnerDefaultArguments.WhenAsync(ITestRunner, string)
+  fullName: Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner, string)
+  nameWithType.vb: TestRunnerDefaultArguments.WhenAsync(ITestRunner, String)
+  fullName.vb: Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner, String)
+  name.vb: WhenAsync(ITestRunner, String)
+  spec.csharp:
+  - uid: Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner,System.String)
+    name: WhenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_WhenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner,System.String)
+    name: WhenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_WhenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner,System.String)
+  commentId: M:Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner,System.String)
+  isExternal: true
+  href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_AndAsync_Reqnroll_ITestRunner_System_String_
+  name: AndAsync(ITestRunner, string)
+  nameWithType: TestRunnerDefaultArguments.AndAsync(ITestRunner, string)
+  fullName: Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner, string)
+  nameWithType.vb: TestRunnerDefaultArguments.AndAsync(ITestRunner, String)
+  fullName.vb: Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner, String)
+  name.vb: AndAsync(ITestRunner, String)
+  spec.csharp:
+  - uid: Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner,System.String)
+    name: AndAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_AndAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestRunnerDefaultArguments.AndAsync(Reqnroll.ITestRunner,System.String)
+    name: AndAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_AndAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.TestRunnerDefaultArguments
+  commentId: T:Reqnroll.TestRunnerDefaultArguments
+  parent: Reqnroll
+  href: Reqnroll.TestRunnerDefaultArguments.html
+  name: TestRunnerDefaultArguments
+  nameWithType: TestRunnerDefaultArguments
+  fullName: Reqnroll.TestRunnerDefaultArguments
+- uid: Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner,System.String)
+  commentId: M:Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner,System.String)
+  isExternal: true
+  href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ButAsync_Reqnroll_ITestRunner_System_String_
+  name: ButAsync(ITestRunner, string)
+  nameWithType: TestRunnerDefaultArguments.ButAsync(ITestRunner, string)
+  fullName: Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner, string)
+  nameWithType.vb: TestRunnerDefaultArguments.ButAsync(ITestRunner, String)
+  fullName.vb: Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner, String)
+  name.vb: ButAsync(ITestRunner, String)
+  spec.csharp:
+  - uid: Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner,System.String)
+    name: ButAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ButAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestRunnerDefaultArguments.ButAsync(Reqnroll.ITestRunner,System.String)
+    name: ButAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ButAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner,System.String)
+  commentId: M:Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner,System.String)
+  isExternal: true
+  href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_GivenAsync_Reqnroll_ITestRunner_System_String_
+  name: GivenAsync(ITestRunner, string)
+  nameWithType: TestRunnerDefaultArguments.GivenAsync(ITestRunner, string)
+  fullName: Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner, string)
+  nameWithType.vb: TestRunnerDefaultArguments.GivenAsync(ITestRunner, String)
+  fullName.vb: Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner, String)
+  name.vb: GivenAsync(ITestRunner, String)
+  spec.csharp:
+  - uid: Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner,System.String)
+    name: GivenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_GivenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestRunnerDefaultArguments.GivenAsync(Reqnroll.ITestRunner,System.String)
+    name: GivenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_GivenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner,System.String)
+  commentId: M:Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner,System.String)
+  isExternal: true
+  href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ThenAsync_Reqnroll_ITestRunner_System_String_
+  name: ThenAsync(ITestRunner, string)
+  nameWithType: TestRunnerDefaultArguments.ThenAsync(ITestRunner, string)
+  fullName: Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner, string)
+  nameWithType.vb: TestRunnerDefaultArguments.ThenAsync(ITestRunner, String)
+  fullName.vb: Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner, String)
+  name.vb: ThenAsync(ITestRunner, String)
+  spec.csharp:
+  - uid: Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner,System.String)
+    name: ThenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ThenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestRunnerDefaultArguments.ThenAsync(Reqnroll.ITestRunner,System.String)
+    name: ThenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_ThenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner,System.String)
+  commentId: M:Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner,System.String)
+  isExternal: true
+  href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_WhenAsync_Reqnroll_ITestRunner_System_String_
+  name: WhenAsync(ITestRunner, string)
+  nameWithType: TestRunnerDefaultArguments.WhenAsync(ITestRunner, string)
+  fullName: Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner, string)
+  nameWithType.vb: TestRunnerDefaultArguments.WhenAsync(ITestRunner, String)
+  fullName.vb: Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner, String)
+  name.vb: WhenAsync(ITestRunner, String)
+  spec.csharp:
+  - uid: Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner,System.String)
+    name: WhenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_WhenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.TestRunnerDefaultArguments.WhenAsync(Reqnroll.ITestRunner,System.String)
+    name: WhenAsync
+    href: Reqnroll.TestRunnerDefaultArguments.html#Reqnroll_TestRunnerDefaultArguments_WhenAsync_Reqnroll_ITestRunner_System_String_
+  - name: (
+  - uid: Reqnroll.ITestRunner
+    name: ITestRunner
+    href: Reqnroll.ITestRunner.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.ITestRunner.TestWorkerId*
+  commentId: Overload:Reqnroll.ITestRunner.TestWorkerId
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_TestWorkerId
+  name: TestWorkerId
+  nameWithType: ITestRunner.TestWorkerId
+  fullName: Reqnroll.ITestRunner.TestWorkerId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.ITestRunner.FeatureContext*
+  commentId: Overload:Reqnroll.ITestRunner.FeatureContext
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_FeatureContext
+  name: FeatureContext
+  nameWithType: ITestRunner.FeatureContext
+  fullName: Reqnroll.ITestRunner.FeatureContext
+- uid: Reqnroll.FeatureContext
+  commentId: T:Reqnroll.FeatureContext
+  parent: Reqnroll
+  href: Reqnroll.FeatureContext.html
+  name: FeatureContext
+  nameWithType: FeatureContext
+  fullName: Reqnroll.FeatureContext
+- uid: Reqnroll.ITestRunner.ScenarioContext*
+  commentId: Overload:Reqnroll.ITestRunner.ScenarioContext
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_ScenarioContext
+  name: ScenarioContext
+  nameWithType: ITestRunner.ScenarioContext
+  fullName: Reqnroll.ITestRunner.ScenarioContext
+- uid: Reqnroll.ScenarioContext
+  commentId: T:Reqnroll.ScenarioContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioContext.html
+  name: ScenarioContext
+  nameWithType: ScenarioContext
+  fullName: Reqnroll.ScenarioContext
+- uid: Reqnroll.ITestRunner.TestThreadContext*
+  commentId: Overload:Reqnroll.ITestRunner.TestThreadContext
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_TestThreadContext
+  name: TestThreadContext
+  nameWithType: ITestRunner.TestThreadContext
+  fullName: Reqnroll.ITestRunner.TestThreadContext
+- uid: Reqnroll.ITestThreadContext
+  commentId: T:Reqnroll.ITestThreadContext
+  parent: Reqnroll
+  href: Reqnroll.ITestThreadContext.html
+  name: ITestThreadContext
+  nameWithType: ITestThreadContext
+  fullName: Reqnroll.ITestThreadContext
+- uid: Reqnroll.ITestRunner.InitializeTestRunner*
+  commentId: Overload:Reqnroll.ITestRunner.InitializeTestRunner
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_InitializeTestRunner_System_String_
+  name: InitializeTestRunner
+  nameWithType: ITestRunner.InitializeTestRunner
+  fullName: Reqnroll.ITestRunner.InitializeTestRunner
+- uid: Reqnroll.ITestRunner.OnTestRunStartAsync*
+  commentId: Overload:Reqnroll.ITestRunner.OnTestRunStartAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_OnTestRunStartAsync
+  name: OnTestRunStartAsync
+  nameWithType: ITestRunner.OnTestRunStartAsync
+  fullName: Reqnroll.ITestRunner.OnTestRunStartAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Reqnroll.ITestRunner.OnTestRunEndAsync*
+  commentId: Overload:Reqnroll.ITestRunner.OnTestRunEndAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_OnTestRunEndAsync
+  name: OnTestRunEndAsync
+  nameWithType: ITestRunner.OnTestRunEndAsync
+  fullName: Reqnroll.ITestRunner.OnTestRunEndAsync
+- uid: Reqnroll.ITestRunner.OnFeatureStartAsync*
+  commentId: Overload:Reqnroll.ITestRunner.OnFeatureStartAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_OnFeatureStartAsync_Reqnroll_FeatureInfo_
+  name: OnFeatureStartAsync
+  nameWithType: ITestRunner.OnFeatureStartAsync
+  fullName: Reqnroll.ITestRunner.OnFeatureStartAsync
+- uid: Reqnroll.FeatureInfo
+  commentId: T:Reqnroll.FeatureInfo
+  parent: Reqnroll
+  href: Reqnroll.FeatureInfo.html
+  name: FeatureInfo
+  nameWithType: FeatureInfo
+  fullName: Reqnroll.FeatureInfo
+- uid: Reqnroll.ITestRunner.OnFeatureEndAsync*
+  commentId: Overload:Reqnroll.ITestRunner.OnFeatureEndAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_OnFeatureEndAsync
+  name: OnFeatureEndAsync
+  nameWithType: ITestRunner.OnFeatureEndAsync
+  fullName: Reqnroll.ITestRunner.OnFeatureEndAsync
+- uid: Reqnroll.ITestRunner.OnScenarioInitialize*
+  commentId: Overload:Reqnroll.ITestRunner.OnScenarioInitialize
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_OnScenarioInitialize_Reqnroll_ScenarioInfo_
+  name: OnScenarioInitialize
+  nameWithType: ITestRunner.OnScenarioInitialize
+  fullName: Reqnroll.ITestRunner.OnScenarioInitialize
+- uid: Reqnroll.ScenarioInfo
+  commentId: T:Reqnroll.ScenarioInfo
+  parent: Reqnroll
+  href: Reqnroll.ScenarioInfo.html
+  name: ScenarioInfo
+  nameWithType: ScenarioInfo
+  fullName: Reqnroll.ScenarioInfo
+- uid: Reqnroll.ITestRunner.OnScenarioStartAsync*
+  commentId: Overload:Reqnroll.ITestRunner.OnScenarioStartAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_OnScenarioStartAsync
+  name: OnScenarioStartAsync
+  nameWithType: ITestRunner.OnScenarioStartAsync
+  fullName: Reqnroll.ITestRunner.OnScenarioStartAsync
+- uid: Reqnroll.ITestRunner.CollectScenarioErrorsAsync*
+  commentId: Overload:Reqnroll.ITestRunner.CollectScenarioErrorsAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_CollectScenarioErrorsAsync
+  name: CollectScenarioErrorsAsync
+  nameWithType: ITestRunner.CollectScenarioErrorsAsync
+  fullName: Reqnroll.ITestRunner.CollectScenarioErrorsAsync
+- uid: Reqnroll.ITestRunner.OnScenarioEndAsync*
+  commentId: Overload:Reqnroll.ITestRunner.OnScenarioEndAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_OnScenarioEndAsync
+  name: OnScenarioEndAsync
+  nameWithType: ITestRunner.OnScenarioEndAsync
+  fullName: Reqnroll.ITestRunner.OnScenarioEndAsync
+- uid: Reqnroll.ITestRunner.SkipScenario*
+  commentId: Overload:Reqnroll.ITestRunner.SkipScenario
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_SkipScenario
+  name: SkipScenario
+  nameWithType: ITestRunner.SkipScenario
+  fullName: Reqnroll.ITestRunner.SkipScenario
+- uid: Reqnroll.ITestRunner.GivenAsync*
+  commentId: Overload:Reqnroll.ITestRunner.GivenAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_GivenAsync_System_String_System_String_Reqnroll_Table_System_String_
+  name: GivenAsync
+  nameWithType: ITestRunner.GivenAsync
+  fullName: Reqnroll.ITestRunner.GivenAsync
+- uid: Reqnroll.Table
+  commentId: T:Reqnroll.Table
+  parent: Reqnroll
+  href: Reqnroll.Table.html
+  name: Table
+  nameWithType: Table
+  fullName: Reqnroll.Table
+- uid: Reqnroll.ITestRunner.WhenAsync*
+  commentId: Overload:Reqnroll.ITestRunner.WhenAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_WhenAsync_System_String_System_String_Reqnroll_Table_System_String_
+  name: WhenAsync
+  nameWithType: ITestRunner.WhenAsync
+  fullName: Reqnroll.ITestRunner.WhenAsync
+- uid: Reqnroll.ITestRunner.ThenAsync*
+  commentId: Overload:Reqnroll.ITestRunner.ThenAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_ThenAsync_System_String_System_String_Reqnroll_Table_System_String_
+  name: ThenAsync
+  nameWithType: ITestRunner.ThenAsync
+  fullName: Reqnroll.ITestRunner.ThenAsync
+- uid: Reqnroll.ITestRunner.AndAsync*
+  commentId: Overload:Reqnroll.ITestRunner.AndAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_AndAsync_System_String_System_String_Reqnroll_Table_System_String_
+  name: AndAsync
+  nameWithType: ITestRunner.AndAsync
+  fullName: Reqnroll.ITestRunner.AndAsync
+- uid: Reqnroll.ITestRunner.ButAsync*
+  commentId: Overload:Reqnroll.ITestRunner.ButAsync
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_ButAsync_System_String_System_String_Reqnroll_Table_System_String_
+  name: ButAsync
+  nameWithType: ITestRunner.ButAsync
+  fullName: Reqnroll.ITestRunner.ButAsync
+- uid: Reqnroll.ITestRunner.Pending*
+  commentId: Overload:Reqnroll.ITestRunner.Pending
+  href: Reqnroll.ITestRunner.html#Reqnroll_ITestRunner_Pending
+  name: Pending
+  nameWithType: ITestRunner.Pending
+  fullName: Reqnroll.ITestRunner.Pending

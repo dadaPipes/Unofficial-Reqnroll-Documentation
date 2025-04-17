@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IBindingInvoker
+  commentId: T:Reqnroll.Bindings.IBindingInvoker
+  id: IBindingInvoker
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  langs:
+  - csharp
+  - vb
+  name: IBindingInvoker
+  nameWithType: IBindingInvoker
+  fullName: Reqnroll.Bindings.IBindingInvoker
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IBindingInvoker
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingInvoker.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: >-
+      [Obsolete("Use async version of the interface (IAsyncBindingInvoker) whenever you can")]
+
+      public interface IBindingInvoker
+    content.vb: >-
+      <Obsolete("Use async version of the interface (IAsyncBindingInvoker) whenever you can")>
+
+      Public Interface IBindingInvoker
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use async version of the interface (IAsyncBindingInvoker) whenever you can
+- uid: Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  commentId: M:Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  id: InvokeBinding(Reqnroll.Bindings.IBinding,Reqnroll.Infrastructure.IContextManager,System.Object[],Reqnroll.Tracing.ITestTracer,System.TimeSpan@)
+  parent: Reqnroll.Bindings.IBindingInvoker
+  langs:
+  - csharp
+  - vb
+  name: InvokeBinding(IBinding, IContextManager, object[], ITestTracer, out TimeSpan)
+  nameWithType: IBindingInvoker.InvokeBinding(IBinding, IContextManager, object[], ITestTracer, out TimeSpan)
+  fullName: Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, object[], Reqnroll.Tracing.ITestTracer, out System.TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/IBindingInvoker.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InvokeBinding
+    path: ../Reqnroll/Reqnroll/Bindings/IBindingInvoker.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: >-
+      [Obsolete("Use async version of the method of IAsyncBindingInvoker instead")]
+
+      object InvokeBinding(IBinding binding, IContextManager contextManager, object[] arguments, ITestTracer testTracer, out TimeSpan duration)
+    parameters:
+    - id: binding
+      type: Reqnroll.Bindings.IBinding
+    - id: contextManager
+      type: Reqnroll.Infrastructure.IContextManager
+    - id: arguments
+      type: System.Object[]
+    - id: testTracer
+      type: Reqnroll.Tracing.ITestTracer
+    - id: duration
+      type: System.TimeSpan
+    return:
+      type: System.Object
+    content.vb: >-
+      <Obsolete("Use async version of the method of IAsyncBindingInvoker instead")>
+
+      Function InvokeBinding(binding As IBinding, contextManager As IContextManager, arguments As Object(), testTracer As ITestTracer, duration As TimeSpan) As Object
+  overload: Reqnroll.Bindings.IBindingInvoker.InvokeBinding*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use async version of the method of IAsyncBindingInvoker instead
+  nameWithType.vb: IBindingInvoker.InvokeBinding(IBinding, IContextManager, Object(), ITestTracer, TimeSpan)
+  fullName.vb: Reqnroll.Bindings.IBindingInvoker.InvokeBinding(Reqnroll.Bindings.IBinding, Reqnroll.Infrastructure.IContextManager, Object(), Reqnroll.Tracing.ITestTracer, System.TimeSpan)
+  name.vb: InvokeBinding(IBinding, IContextManager, Object(), ITestTracer, TimeSpan)
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IBindingInvoker.InvokeBinding*
+  commentId: Overload:Reqnroll.Bindings.IBindingInvoker.InvokeBinding
+  href: Reqnroll.Bindings.IBindingInvoker.html#Reqnroll_Bindings_IBindingInvoker_InvokeBinding_Reqnroll_Bindings_IBinding_Reqnroll_Infrastructure_IContextManager_System_Object___Reqnroll_Tracing_ITestTracer_System_TimeSpan__
+  name: InvokeBinding
+  nameWithType: IBindingInvoker.InvokeBinding
+  fullName: Reqnroll.Bindings.IBindingInvoker.InvokeBinding
+- uid: Reqnroll.Bindings.IBinding
+  commentId: T:Reqnroll.Bindings.IBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBinding.html
+  name: IBinding
+  nameWithType: IBinding
+  fullName: Reqnroll.Bindings.IBinding
+- uid: Reqnroll.Infrastructure.IContextManager
+  commentId: T:Reqnroll.Infrastructure.IContextManager
+  parent: Reqnroll.Infrastructure
+  href: Reqnroll.Infrastructure.IContextManager.html
+  name: IContextManager
+  nameWithType: IContextManager
+  fullName: Reqnroll.Infrastructure.IContextManager
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: Reqnroll.Tracing.ITestTracer
+  commentId: T:Reqnroll.Tracing.ITestTracer
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITestTracer.html
+  name: ITestTracer
+  nameWithType: ITestTracer
+  fullName: Reqnroll.Tracing.ITestTracer
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  commentId: T:Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  id: IBindingSourceAttributeValueProvider
+  parent: Reqnroll.Bindings.Discovery
+  children:
+  - Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue``1
+  langs:
+  - csharp
+  - vb
+  name: IBindingSourceAttributeValueProvider
+  nameWithType: IBindingSourceAttributeValueProvider
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceAttributeValueProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IBindingSourceAttributeValueProvider
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceAttributeValueProvider.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: public interface IBindingSourceAttributeValueProvider
+    content.vb: Public Interface IBindingSourceAttributeValueProvider
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue``1
+  commentId: M:Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue``1
+  id: GetValue``1
+  parent: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider
+  langs:
+  - csharp
+  - vb
+  name: GetValue<TValue>()
+  nameWithType: IBindingSourceAttributeValueProvider.GetValue<TValue>()
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue<TValue>()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Discovery/IBindingSourceAttributeValueProvider.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetValue
+    path: ../Reqnroll/Reqnroll/Bindings/Discovery/IBindingSourceAttributeValueProvider.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Discovery
+  syntax:
+    content: TValue GetValue<TValue>()
+    typeParameters:
+    - id: TValue
+    return:
+      type: '{TValue}'
+    content.vb: Function GetValue(Of TValue)() As TValue
+  overload: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue*
+  nameWithType.vb: IBindingSourceAttributeValueProvider.GetValue(Of TValue)()
+  fullName.vb: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue(Of TValue)()
+  name.vb: GetValue(Of TValue)()
+references:
+- uid: Reqnroll.Bindings.Discovery
+  commentId: N:Reqnroll.Bindings.Discovery
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Discovery
+  nameWithType: Reqnroll.Bindings.Discovery
+  fullName: Reqnroll.Bindings.Discovery
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Discovery
+    name: Discovery
+    href: Reqnroll.Bindings.Discovery.html
+- uid: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue*
+  commentId: Overload:Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue
+  href: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.html#Reqnroll_Bindings_Discovery_IBindingSourceAttributeValueProvider_GetValue__1
+  name: GetValue
+  nameWithType: IBindingSourceAttributeValueProvider.GetValue
+  fullName: Reqnroll.Bindings.Discovery.IBindingSourceAttributeValueProvider.GetValue
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue

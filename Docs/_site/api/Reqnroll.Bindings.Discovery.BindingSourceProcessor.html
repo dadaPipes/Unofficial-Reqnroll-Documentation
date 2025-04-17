@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BindingSourceProcessor | Unofficial Reqnroll Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BindingSourceProcessor | Unofficial Reqnroll Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/reqnroll/Reqnroll/new/main/apiSpec/new?filename=Reqnroll_Bindings_Discovery_BindingSourceProcessor.md&amp;value=---%0Auid%3A%20Reqnroll.Bindings.Discovery.BindingSourceProcessor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/reqnroll-icon.png" alt="Unofficial Reqnroll Documentation">
+            Unofficial Reqnroll Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor">
+
+
+
+  <h1 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor" class="text-break">
+Class BindingSourceProcessor  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Reqnroll.html">Reqnroll</a>.<a class="xref" href="Reqnroll.Bindings.html">Bindings</a>.<a class="xref" href="Reqnroll.Bindings.Discovery.html">Discovery</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Reqnroll.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BindingSourceProcessor : IBindingSourceProcessor</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">BindingSourceProcessor</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Reqnroll.Bindings.Discovery.IBindingSourceProcessor.html">IBindingSourceProcessor</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Reqnroll.Bindings.Discovery.RuntimeBindingSourceProcessor.html">RuntimeBindingSourceProcessor</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor__ctor_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.#ctor*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor__ctor_Reqnroll_Bindings_IBindingFactory_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.#ctor(Reqnroll.Bindings.IBindingFactory)">
+  BindingSourceProcessor(IBindingFactory)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BindingSourceProcessor(IBindingFactory bindingFactory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingFactory</code> <a class="xref" href="Reqnroll.Bindings.IBindingFactory.html">IBindingFactory</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_BuildingCompleted_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.BuildingCompleted*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_BuildingCompleted" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.BuildingCompleted">
+  BuildingCompleted()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void BuildingCompleted()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_CanProcessMethodAttribute_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessMethodAttribute*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_CanProcessMethodAttribute_System_String_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessMethodAttribute(System.String)">
+  CanProcessMethodAttribute(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanProcessMethodAttribute(string attributeTypeName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>attributeTypeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_CanProcessTypeAttribute_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessTypeAttribute*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_CanProcessTypeAttribute_System_String_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.CanProcessTypeAttribute(System.String)">
+  CanProcessTypeAttribute(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanProcessTypeAttribute(string attributeTypeName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>attributeTypeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_IsScenarioSpecificHook_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.IsScenarioSpecificHook*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_IsScenarioSpecificHook_Reqnroll_Bindings_HookType_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.IsScenarioSpecificHook(Reqnroll.Bindings.HookType)">
+  IsScenarioSpecificHook(HookType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L344"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsScenarioSpecificHook(HookType hookType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hookType</code> <a class="xref" href="Reqnroll.Bindings.HookType.html">HookType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_OnValidationError_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.OnValidationError*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_OnValidationError_Reqnroll_Bindings_Discovery_BindingSourceProcessor_BindingValidationResult_System_Boolean_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.OnValidationError(Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult,System.Boolean)">
+  OnValidationError(BindingValidationResult, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L300"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnValidationError(BindingSourceProcessor.BindingValidationResult validationResult, bool genericBindingError)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>validationResult</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.html">BindingSourceProcessor</a>.<a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html">BindingValidationResult</a></dt>
+    <dd></dd>
+    <dt><code>genericBindingError</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_PreFilterType_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.PreFilterType*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_PreFilterType_System_Collections_Generic_IEnumerable_System_String__" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.PreFilterType(System.Collections.Generic.IEnumerable{System.String})">
+  PreFilterType(IEnumerable&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PreFilterType(IEnumerable&lt;string&gt; attributeTypeNames)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>attributeTypeNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessHookBinding_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHookBinding*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessHookBinding_Reqnroll_Bindings_IHookBinding_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHookBinding(Reqnroll.Bindings.IHookBinding)">
+  ProcessHookBinding(IHookBinding)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L363"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void ProcessHookBinding(IHookBinding hookBinding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hookBinding</code> <a class="xref" href="Reqnroll.Bindings.IHookBinding.html">IHookBinding</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessHooks_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHooks*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessHooks_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessHooks(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])">
+  ProcessHooks(BindingSourceMethod, BindingScope[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ProcessHooks(BindingSourceMethod bindingSourceMethod, BindingScope[] methodScopes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingSourceMethod</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceMethod.html">BindingSourceMethod</a></dt>
+    <dd></dd>
+    <dt><code>methodScopes</code> <a class="xref" href="Reqnroll.Bindings.BindingScope.html">BindingScope</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessMethod_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessMethod*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessMethod_Reqnroll_Bindings_Discovery_BindingSourceMethod_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)">
+  ProcessMethod(BindingSourceMethod)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ProcessMethod(BindingSourceMethod bindingSourceMethod)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingSourceMethod</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceMethod.html">BindingSourceMethod</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepArgumentTransformationBinding_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformationBinding*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepArgumentTransformationBinding_Reqnroll_Bindings_IStepArgumentTransformationBinding_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformationBinding(Reqnroll.Bindings.IStepArgumentTransformationBinding)">
+  ProcessStepArgumentTransformationBinding(IStepArgumentTransformationBinding)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L364"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void ProcessStepArgumentTransformationBinding(IStepArgumentTransformationBinding stepArgumentTransformationBinding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stepArgumentTransformationBinding</code> <a class="xref" href="Reqnroll.Bindings.IStepArgumentTransformationBinding.html">IStepArgumentTransformationBinding</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepArgumentTransformations_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformations*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepArgumentTransformations_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepArgumentTransformations(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])">
+  ProcessStepArgumentTransformations(BindingSourceMethod, BindingScope[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ProcessStepArgumentTransformations(BindingSourceMethod bindingSourceMethod, BindingScope[] methodScopes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingSourceMethod</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceMethod.html">BindingSourceMethod</a></dt>
+    <dd></dd>
+    <dt><code>methodScopes</code> <a class="xref" href="Reqnroll.Bindings.BindingScope.html">BindingScope</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepDefinitionBinding_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitionBinding*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepDefinitionBinding_Reqnroll_Bindings_IStepDefinitionBinding_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitionBinding(Reqnroll.Bindings.IStepDefinitionBinding)">
+  ProcessStepDefinitionBinding(IStepDefinitionBinding)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L362"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void ProcessStepDefinitionBinding(IStepDefinitionBinding stepDefinitionBinding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stepDefinitionBinding</code> <a class="xref" href="Reqnroll.Bindings.IStepDefinitionBinding.html">IStepDefinitionBinding</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepDefinitions_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitions*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessStepDefinitions_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_BindingScope___" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessStepDefinitions(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.BindingScope[])">
+  ProcessStepDefinitions(BindingSourceMethod, BindingScope[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ProcessStepDefinitions(BindingSourceMethod bindingSourceMethod, BindingScope[] methodScopes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingSourceMethod</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceMethod.html">BindingSourceMethod</a></dt>
+    <dd></dd>
+    <dt><code>methodScopes</code> <a class="xref" href="Reqnroll.Bindings.BindingScope.html">BindingScope</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessType_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessType*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessType_Reqnroll_Bindings_Discovery_BindingSourceType_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessType(Reqnroll.Bindings.Discovery.BindingSourceType)">
+  ProcessType(BindingSourceType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ProcessType(BindingSourceType bindingSourceType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingSourceType</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceType.html">BindingSourceType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessTypeDone_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessTypeDone*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ProcessTypeDone" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ProcessTypeDone">
+  ProcessTypeDone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ProcessTypeDone()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateHook_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateHook*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateHook_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_Reqnroll_Bindings_HookType_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateHook(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute,Reqnroll.Bindings.HookType)">
+  ValidateHook(BindingSourceMethod, BindingSourceAttribute, HookType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L333"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual BindingSourceProcessor.BindingValidationResult ValidateHook(BindingSourceMethod bindingSourceMethod, BindingSourceAttribute hookAttribute, HookType hookType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingSourceMethod</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceMethod.html">BindingSourceMethod</a></dt>
+    <dd></dd>
+    <dt><code>hookAttribute</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceAttribute.html">BindingSourceAttribute</a></dt>
+    <dd></dd>
+    <dt><code>hookType</code> <a class="xref" href="Reqnroll.Bindings.HookType.html">HookType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.html">BindingSourceProcessor</a>.<a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html">BindingValidationResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateMethod_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateMethod*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateMethod_Reqnroll_Bindings_Discovery_BindingSourceMethod_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateMethod(Reqnroll.Bindings.Discovery.BindingSourceMethod)">
+  ValidateMethod(BindingSourceMethod)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual BindingSourceProcessor.BindingValidationResult ValidateMethod(BindingSourceMethod bindingSourceMethod)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingSourceMethod</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceMethod.html">BindingSourceMethod</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.html">BindingSourceProcessor</a>.<a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html">BindingValidationResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateStepArgumentTransformation_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepArgumentTransformation*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateStepArgumentTransformation_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepArgumentTransformation(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)">
+  ValidateStepArgumentTransformation(BindingSourceMethod, BindingSourceAttribute)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual BindingSourceProcessor.BindingValidationResult ValidateStepArgumentTransformation(BindingSourceMethod bindingSourceMethod, BindingSourceAttribute stepArgumentTransformationAttribute)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingSourceMethod</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceMethod.html">BindingSourceMethod</a></dt>
+    <dd></dd>
+    <dt><code>stepArgumentTransformationAttribute</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceAttribute.html">BindingSourceAttribute</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.html">BindingSourceProcessor</a>.<a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html">BindingValidationResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateStepDefinition_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepDefinition*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateStepDefinition_Reqnroll_Bindings_Discovery_BindingSourceMethod_Reqnroll_Bindings_Discovery_BindingSourceAttribute_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateStepDefinition(Reqnroll.Bindings.Discovery.BindingSourceMethod,Reqnroll.Bindings.Discovery.BindingSourceAttribute)">
+  ValidateStepDefinition(BindingSourceMethod, BindingSourceAttribute)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual BindingSourceProcessor.BindingValidationResult ValidateStepDefinition(BindingSourceMethod bindingSourceMethod, BindingSourceAttribute stepDefinitionAttribute)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingSourceMethod</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceMethod.html">BindingSourceMethod</a></dt>
+    <dd></dd>
+    <dt><code>stepDefinitionAttribute</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceAttribute.html">BindingSourceAttribute</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.html">BindingSourceProcessor</a>.<a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html">BindingValidationResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateType_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateType*"></a>
+
+  <h3 id="Reqnroll_Bindings_Discovery_BindingSourceProcessor_ValidateType_Reqnroll_Bindings_Discovery_BindingSourceType_" data-uid="Reqnroll.Bindings.Discovery.BindingSourceProcessor.ValidateType(Reqnroll.Bindings.Discovery.BindingSourceType)">
+  ValidateType(BindingSourceType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual BindingSourceProcessor.BindingValidationResult ValidateType(BindingSourceType bindingSourceType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bindingSourceType</code> <a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceType.html">BindingSourceType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.html">BindingSourceProcessor</a>.<a class="xref" href="Reqnroll.Bindings.Discovery.BindingSourceProcessor.BindingValidationResult.html">BindingValidationResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/reqnroll/Reqnroll/blob/main/Reqnroll/Bindings/Discovery/BindingSourceProcessor.cs/#L9" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

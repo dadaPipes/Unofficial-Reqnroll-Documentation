@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IBinding
+  commentId: T:Reqnroll.Bindings.IBinding
+  id: IBinding
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IBinding.Method
+  langs:
+  - csharp
+  - vb
+  name: IBinding
+  nameWithType: IBinding
+  fullName: Reqnroll.Bindings.IBinding
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/MethodBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IBinding
+    path: ../Reqnroll/Reqnroll/Bindings/MethodBinding.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: public interface IBinding
+    content.vb: Public Interface IBinding
+- uid: Reqnroll.Bindings.IBinding.Method
+  commentId: P:Reqnroll.Bindings.IBinding.Method
+  id: Method
+  parent: Reqnroll.Bindings.IBinding
+  langs:
+  - csharp
+  - vb
+  name: Method
+  nameWithType: IBinding.Method
+  fullName: Reqnroll.Bindings.IBinding.Method
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/MethodBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Method
+    path: ../Reqnroll/Reqnroll/Bindings/MethodBinding.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: IBindingMethod Method { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    content.vb: ReadOnly Property Method As IBindingMethod
+  overload: Reqnroll.Bindings.IBinding.Method*
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IBinding.Method*
+  commentId: Overload:Reqnroll.Bindings.IBinding.Method
+  href: Reqnroll.Bindings.IBinding.html#Reqnroll_Bindings_IBinding_Method
+  name: Method
+  nameWithType: IBinding.Method
+  fullName: Reqnroll.Bindings.IBinding.Method
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html

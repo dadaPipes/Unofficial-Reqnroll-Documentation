@@ -1,0 +1,386 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.IStepDefinitionMatchService
+  commentId: T:Reqnroll.Infrastructure.IStepDefinitionMatchService
+  id: IStepDefinitionMatchService
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.IStepDefinitionMatchService.GetBestMatch(Reqnroll.Bindings.StepInstance,System.Globalization.CultureInfo,Reqnroll.Infrastructure.StepDefinitionAmbiguityReason@,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}@)
+  - Reqnroll.Infrastructure.IStepDefinitionMatchService.Match(Reqnroll.Bindings.IStepDefinitionBinding,Reqnroll.Bindings.StepInstance,System.Globalization.CultureInfo,System.Boolean,System.Boolean,System.Boolean)
+  - Reqnroll.Infrastructure.IStepDefinitionMatchService.Ready
+  langs:
+  - csharp
+  - vb
+  name: IStepDefinitionMatchService
+  nameWithType: IStepDefinitionMatchService
+  fullName: Reqnroll.Infrastructure.IStepDefinitionMatchService
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IStepDefinitionMatchService
+    path: ../Reqnroll/Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface IStepDefinitionMatchService
+    content.vb: Public Interface IStepDefinitionMatchService
+- uid: Reqnroll.Infrastructure.IStepDefinitionMatchService.Ready
+  commentId: P:Reqnroll.Infrastructure.IStepDefinitionMatchService.Ready
+  id: Ready
+  parent: Reqnroll.Infrastructure.IStepDefinitionMatchService
+  langs:
+  - csharp
+  - vb
+  name: Ready
+  nameWithType: IStepDefinitionMatchService.Ready
+  fullName: Reqnroll.Infrastructure.IStepDefinitionMatchService.Ready
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Ready
+    path: ../Reqnroll/Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: bool Ready { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property Ready As Boolean
+  overload: Reqnroll.Infrastructure.IStepDefinitionMatchService.Ready*
+- uid: Reqnroll.Infrastructure.IStepDefinitionMatchService.GetBestMatch(Reqnroll.Bindings.StepInstance,System.Globalization.CultureInfo,Reqnroll.Infrastructure.StepDefinitionAmbiguityReason@,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}@)
+  commentId: M:Reqnroll.Infrastructure.IStepDefinitionMatchService.GetBestMatch(Reqnroll.Bindings.StepInstance,System.Globalization.CultureInfo,Reqnroll.Infrastructure.StepDefinitionAmbiguityReason@,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}@)
+  id: GetBestMatch(Reqnroll.Bindings.StepInstance,System.Globalization.CultureInfo,Reqnroll.Infrastructure.StepDefinitionAmbiguityReason@,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}@)
+  parent: Reqnroll.Infrastructure.IStepDefinitionMatchService
+  langs:
+  - csharp
+  - vb
+  name: GetBestMatch(StepInstance, CultureInfo, out StepDefinitionAmbiguityReason, out List<BindingMatch>)
+  nameWithType: IStepDefinitionMatchService.GetBestMatch(StepInstance, CultureInfo, out StepDefinitionAmbiguityReason, out List<BindingMatch>)
+  fullName: Reqnroll.Infrastructure.IStepDefinitionMatchService.GetBestMatch(Reqnroll.Bindings.StepInstance, System.Globalization.CultureInfo, out Reqnroll.Infrastructure.StepDefinitionAmbiguityReason, out System.Collections.Generic.List<Reqnroll.Bindings.BindingMatch>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetBestMatch
+    path: ../Reqnroll/Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+    startLine: 23
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: BindingMatch GetBestMatch(StepInstance stepInstance, CultureInfo bindingCulture, out StepDefinitionAmbiguityReason ambiguityReason, out List<BindingMatch> candidatingMatches)
+    parameters:
+    - id: stepInstance
+      type: Reqnroll.Bindings.StepInstance
+    - id: bindingCulture
+      type: System.Globalization.CultureInfo
+    - id: ambiguityReason
+      type: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+    - id: candidatingMatches
+      type: System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+    return:
+      type: Reqnroll.Bindings.BindingMatch
+    content.vb: Function GetBestMatch(stepInstance As StepInstance, bindingCulture As CultureInfo, ambiguityReason As StepDefinitionAmbiguityReason, candidatingMatches As List(Of BindingMatch)) As BindingMatch
+  overload: Reqnroll.Infrastructure.IStepDefinitionMatchService.GetBestMatch*
+  nameWithType.vb: IStepDefinitionMatchService.GetBestMatch(StepInstance, CultureInfo, StepDefinitionAmbiguityReason, List(Of BindingMatch))
+  fullName.vb: Reqnroll.Infrastructure.IStepDefinitionMatchService.GetBestMatch(Reqnroll.Bindings.StepInstance, System.Globalization.CultureInfo, Reqnroll.Infrastructure.StepDefinitionAmbiguityReason, System.Collections.Generic.List(Of Reqnroll.Bindings.BindingMatch))
+  name.vb: GetBestMatch(StepInstance, CultureInfo, StepDefinitionAmbiguityReason, List(Of BindingMatch))
+- uid: Reqnroll.Infrastructure.IStepDefinitionMatchService.Match(Reqnroll.Bindings.IStepDefinitionBinding,Reqnroll.Bindings.StepInstance,System.Globalization.CultureInfo,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Reqnroll.Infrastructure.IStepDefinitionMatchService.Match(Reqnroll.Bindings.IStepDefinitionBinding,Reqnroll.Bindings.StepInstance,System.Globalization.CultureInfo,System.Boolean,System.Boolean,System.Boolean)
+  id: Match(Reqnroll.Bindings.IStepDefinitionBinding,Reqnroll.Bindings.StepInstance,System.Globalization.CultureInfo,System.Boolean,System.Boolean,System.Boolean)
+  parent: Reqnroll.Infrastructure.IStepDefinitionMatchService
+  langs:
+  - csharp
+  - vb
+  name: Match(IStepDefinitionBinding, StepInstance, CultureInfo, bool, bool, bool)
+  nameWithType: IStepDefinitionMatchService.Match(IStepDefinitionBinding, StepInstance, CultureInfo, bool, bool, bool)
+  fullName: Reqnroll.Infrastructure.IStepDefinitionMatchService.Match(Reqnroll.Bindings.IStepDefinitionBinding, Reqnroll.Bindings.StepInstance, System.Globalization.CultureInfo, bool, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Match
+    path: ../Reqnroll/Reqnroll/Infrastructure/StepDefinitionMatchService.cs
+    startLine: 24
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: BindingMatch Match(IStepDefinitionBinding stepDefinitionBinding, StepInstance stepInstance, CultureInfo bindingCulture, bool useRegexMatching = true, bool useParamMatching = true, bool useScopeMatching = true)
+    parameters:
+    - id: stepDefinitionBinding
+      type: Reqnroll.Bindings.IStepDefinitionBinding
+    - id: stepInstance
+      type: Reqnroll.Bindings.StepInstance
+    - id: bindingCulture
+      type: System.Globalization.CultureInfo
+    - id: useRegexMatching
+      type: System.Boolean
+    - id: useParamMatching
+      type: System.Boolean
+    - id: useScopeMatching
+      type: System.Boolean
+    return:
+      type: Reqnroll.Bindings.BindingMatch
+    content.vb: Function Match(stepDefinitionBinding As IStepDefinitionBinding, stepInstance As StepInstance, bindingCulture As CultureInfo, useRegexMatching As Boolean = True, useParamMatching As Boolean = True, useScopeMatching As Boolean = True) As BindingMatch
+  overload: Reqnroll.Infrastructure.IStepDefinitionMatchService.Match*
+  nameWithType.vb: IStepDefinitionMatchService.Match(IStepDefinitionBinding, StepInstance, CultureInfo, Boolean, Boolean, Boolean)
+  fullName.vb: Reqnroll.Infrastructure.IStepDefinitionMatchService.Match(Reqnroll.Bindings.IStepDefinitionBinding, Reqnroll.Bindings.StepInstance, System.Globalization.CultureInfo, Boolean, Boolean, Boolean)
+  name.vb: Match(IStepDefinitionBinding, StepInstance, CultureInfo, Boolean, Boolean, Boolean)
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.IStepDefinitionMatchService.Ready*
+  commentId: Overload:Reqnroll.Infrastructure.IStepDefinitionMatchService.Ready
+  href: Reqnroll.Infrastructure.IStepDefinitionMatchService.html#Reqnroll_Infrastructure_IStepDefinitionMatchService_Ready
+  name: Ready
+  nameWithType: IStepDefinitionMatchService.Ready
+  fullName: Reqnroll.Infrastructure.IStepDefinitionMatchService.Ready
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Infrastructure.IStepDefinitionMatchService.GetBestMatch*
+  commentId: Overload:Reqnroll.Infrastructure.IStepDefinitionMatchService.GetBestMatch
+  href: Reqnroll.Infrastructure.IStepDefinitionMatchService.html#Reqnroll_Infrastructure_IStepDefinitionMatchService_GetBestMatch_Reqnroll_Bindings_StepInstance_System_Globalization_CultureInfo_Reqnroll_Infrastructure_StepDefinitionAmbiguityReason__System_Collections_Generic_List_Reqnroll_Bindings_BindingMatch___
+  name: GetBestMatch
+  nameWithType: IStepDefinitionMatchService.GetBestMatch
+  fullName: Reqnroll.Infrastructure.IStepDefinitionMatchService.GetBestMatch
+- uid: Reqnroll.Bindings.StepInstance
+  commentId: T:Reqnroll.Bindings.StepInstance
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepInstance.html
+  name: StepInstance
+  nameWithType: StepInstance
+  fullName: Reqnroll.Bindings.StepInstance
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  commentId: T:Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+  parent: Reqnroll.Infrastructure
+  href: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason.html
+  name: StepDefinitionAmbiguityReason
+  nameWithType: StepDefinitionAmbiguityReason
+  fullName: Reqnroll.Infrastructure.StepDefinitionAmbiguityReason
+- uid: System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+  commentId: T:System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<BindingMatch>
+  nameWithType: List<BindingMatch>
+  fullName: System.Collections.Generic.List<Reqnroll.Bindings.BindingMatch>
+  nameWithType.vb: List(Of BindingMatch)
+  fullName.vb: System.Collections.Generic.List(Of Reqnroll.Bindings.BindingMatch)
+  name.vb: List(Of BindingMatch)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: )
+- uid: Reqnroll.Bindings.BindingMatch
+  commentId: T:Reqnroll.Bindings.BindingMatch
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingMatch.html
+  name: BindingMatch
+  nameWithType: BindingMatch
+  fullName: Reqnroll.Bindings.BindingMatch
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.Infrastructure.IStepDefinitionMatchService.Match*
+  commentId: Overload:Reqnroll.Infrastructure.IStepDefinitionMatchService.Match
+  href: Reqnroll.Infrastructure.IStepDefinitionMatchService.html#Reqnroll_Infrastructure_IStepDefinitionMatchService_Match_Reqnroll_Bindings_IStepDefinitionBinding_Reqnroll_Bindings_StepInstance_System_Globalization_CultureInfo_System_Boolean_System_Boolean_System_Boolean_
+  name: Match
+  nameWithType: IStepDefinitionMatchService.Match
+  fullName: Reqnroll.Infrastructure.IStepDefinitionMatchService.Match
+- uid: Reqnroll.Bindings.IStepDefinitionBinding
+  commentId: T:Reqnroll.Bindings.IStepDefinitionBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IStepDefinitionBinding.html
+  name: IStepDefinitionBinding
+  nameWithType: IStepDefinitionBinding
+  fullName: Reqnroll.Bindings.IStepDefinitionBinding

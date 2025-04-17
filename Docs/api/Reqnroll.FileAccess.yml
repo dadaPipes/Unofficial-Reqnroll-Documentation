@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.FileAccess
+  commentId: N:Reqnroll.FileAccess
+  id: Reqnroll.FileAccess
+  children:
+  - Reqnroll.FileAccess.BinaryFileAccessor
+  - Reqnroll.FileAccess.IBinaryFileAccessor
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.FileAccess
+  nameWithType: Reqnroll.FileAccess
+  fullName: Reqnroll.FileAccess
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.FileAccess.BinaryFileAccessor
+  commentId: T:Reqnroll.FileAccess.BinaryFileAccessor
+  href: Reqnroll.FileAccess.BinaryFileAccessor.html
+  name: BinaryFileAccessor
+  nameWithType: BinaryFileAccessor
+  fullName: Reqnroll.FileAccess.BinaryFileAccessor
+- uid: Reqnroll.FileAccess.IBinaryFileAccessor
+  commentId: T:Reqnroll.FileAccess.IBinaryFileAccessor
+  parent: Reqnroll.FileAccess
+  href: Reqnroll.FileAccess.IBinaryFileAccessor.html
+  name: IBinaryFileAccessor
+  nameWithType: IBinaryFileAccessor
+  fullName: Reqnroll.FileAccess.IBinaryFileAccessor
+- uid: Reqnroll.FileAccess
+  commentId: N:Reqnroll.FileAccess
+  href: Reqnroll.html
+  name: Reqnroll.FileAccess
+  nameWithType: Reqnroll.FileAccess
+  fullName: Reqnroll.FileAccess
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.FileAccess
+    name: FileAccess
+    href: Reqnroll.FileAccess.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.FileAccess
+    name: FileAccess
+    href: Reqnroll.FileAccess.html

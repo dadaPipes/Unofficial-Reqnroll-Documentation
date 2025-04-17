@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+  commentId: T:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+  id: ICucumberExpressionDetector
+  parent: Reqnroll.Bindings.CucumberExpressions
+  children:
+  - Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.IsCucumberExpression(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ICucumberExpressionDetector
+  nameWithType: ICucumberExpressionDetector
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/ICucumberExpressionDetector.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ICucumberExpressionDetector
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/ICucumberExpressionDetector.cs
+    startLine: 1
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  syntax:
+    content: public interface ICucumberExpressionDetector
+    content.vb: Public Interface ICucumberExpressionDetector
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.IsCucumberExpression(System.String)
+  commentId: M:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.IsCucumberExpression(System.String)
+  id: IsCucumberExpression(System.String)
+  parent: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector
+  langs:
+  - csharp
+  - vb
+  name: IsCucumberExpression(string)
+  nameWithType: ICucumberExpressionDetector.IsCucumberExpression(string)
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.IsCucumberExpression(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/CucumberExpressions/ICucumberExpressionDetector.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsCucumberExpression
+    path: ../Reqnroll/Reqnroll/Bindings/CucumberExpressions/ICucumberExpressionDetector.cs
+    startLine: 3
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.CucumberExpressions
+  syntax:
+    content: bool IsCucumberExpression(string cucumberExpressionCandidate)
+    parameters:
+    - id: cucumberExpressionCandidate
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function IsCucumberExpression(cucumberExpressionCandidate As String) As Boolean
+  overload: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.IsCucumberExpression*
+  nameWithType.vb: ICucumberExpressionDetector.IsCucumberExpression(String)
+  fullName.vb: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.IsCucumberExpression(String)
+  name.vb: IsCucumberExpression(String)
+references:
+- uid: Reqnroll.Bindings.CucumberExpressions
+  commentId: N:Reqnroll.Bindings.CucumberExpressions
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.CucumberExpressions
+  nameWithType: Reqnroll.Bindings.CucumberExpressions
+  fullName: Reqnroll.Bindings.CucumberExpressions
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.CucumberExpressions
+    name: CucumberExpressions
+    href: Reqnroll.Bindings.CucumberExpressions.html
+- uid: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.IsCucumberExpression*
+  commentId: Overload:Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.IsCucumberExpression
+  href: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.html#Reqnroll_Bindings_CucumberExpressions_ICucumberExpressionDetector_IsCucumberExpression_System_String_
+  name: IsCucumberExpression
+  nameWithType: ICucumberExpressionDetector.IsCucumberExpression
+  fullName: Reqnroll.Bindings.CucumberExpressions.ICucumberExpressionDetector.IsCucumberExpression
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,636 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  commentId: T:Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  id: BindingReflectionExtensions
+  parent: Reqnroll.Bindings.Reflection
+  children:
+  - Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  - Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableFrom(System.Type,Reqnroll.Bindings.Reflection.IBindingType)
+  - Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableTo(System.Type,Reqnroll.Bindings.Reflection.IBindingType)
+  - Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+  - Reqnroll.Bindings.Reflection.BindingReflectionExtensions.ParamEquals(Reqnroll.Bindings.Reflection.IBindingParameter,Reqnroll.Bindings.Reflection.IBindingParameter)
+  - Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+  - Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+  langs:
+  - csharp
+  - vb
+  name: BindingReflectionExtensions
+  nameWithType: BindingReflectionExtensions
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BindingReflectionExtensions
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: public static class BindingReflectionExtensions
+    content.vb: Public Module BindingReflectionExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  id: GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  isExtensionMethod: true
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetShortDisplayText(IBindingMethod)
+  nameWithType: BindingReflectionExtensions.GetShortDisplayText(IBindingMethod)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText(Reqnroll.Bindings.Reflection.IBindingMethod)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetShortDisplayText
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: public static string GetShortDisplayText(this IBindingMethod bindingMethod)
+    parameters:
+    - id: bindingMethod
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetShortDisplayText(bindingMethod As IBindingMethod) As String
+  overload: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText*
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableTo(System.Type,Reqnroll.Bindings.Reflection.IBindingType)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableTo(System.Type,Reqnroll.Bindings.Reflection.IBindingType)
+  id: IsAssignableTo(System.Type,Reqnroll.Bindings.Reflection.IBindingType)
+  isExtensionMethod: true
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsAssignableTo(Type, IBindingType)
+  nameWithType: BindingReflectionExtensions.IsAssignableTo(Type, IBindingType)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableTo(System.Type, Reqnroll.Bindings.Reflection.IBindingType)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsAssignableTo
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: public static bool IsAssignableTo(this Type type, IBindingType baseType)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: baseType
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsAssignableTo(type As Type, baseType As IBindingType) As Boolean
+  overload: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableTo*
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableFrom(System.Type,Reqnroll.Bindings.Reflection.IBindingType)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableFrom(System.Type,Reqnroll.Bindings.Reflection.IBindingType)
+  id: IsAssignableFrom(System.Type,Reqnroll.Bindings.Reflection.IBindingType)
+  isExtensionMethod: true
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsAssignableFrom(Type, IBindingType)
+  nameWithType: BindingReflectionExtensions.IsAssignableFrom(Type, IBindingType)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableFrom(System.Type, Reqnroll.Bindings.Reflection.IBindingType)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IsAssignableFrom
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+    startLine: 28
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: public static bool IsAssignableFrom(this Type baseType, IBindingType type)
+    parameters:
+    - id: baseType
+      type: System.Type
+    - id: type
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsAssignableFrom(baseType As Type, type As IBindingType) As Boolean
+  overload: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableFrom*
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+  id: MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod,Reqnroll.Bindings.Reflection.IBindingMethod)
+  isExtensionMethod: true
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: MethodEquals(IBindingMethod, IBindingMethod)
+  nameWithType: BindingReflectionExtensions.MethodEquals(IBindingMethod, IBindingMethod)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals(Reqnroll.Bindings.Reflection.IBindingMethod, Reqnroll.Bindings.Reflection.IBindingMethod)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: MethodEquals
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+    startLine: 40
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: public static bool MethodEquals(this IBindingMethod method1, IBindingMethod method2)
+    parameters:
+    - id: method1
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: method2
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function MethodEquals(method1 As IBindingMethod, method2 As IBindingMethod) As Boolean
+  overload: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals*
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+  id: TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,System.Type)
+  isExtensionMethod: true
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: TypeEquals(IBindingType, Type)
+  nameWithType: BindingReflectionExtensions.TypeEquals(IBindingType, Type)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TypeEquals
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+    startLine: 56
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: public static bool TypeEquals(this IBindingType type1, Type type2)
+    parameters:
+    - id: type1
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    - id: type2
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TypeEquals(type1 As IBindingType, type2 As Type) As Boolean
+  overload: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals*
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+  id: TypeEquals(Reqnroll.Bindings.Reflection.IBindingType,Reqnroll.Bindings.Reflection.IBindingType)
+  isExtensionMethod: true
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: TypeEquals(IBindingType, IBindingType)
+  nameWithType: BindingReflectionExtensions.TypeEquals(IBindingType, IBindingType)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals(Reqnroll.Bindings.Reflection.IBindingType, Reqnroll.Bindings.Reflection.IBindingType)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TypeEquals
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+    startLine: 64
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: public static bool TypeEquals(this IBindingType type1, IBindingType type2)
+    parameters:
+    - id: type1
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    - id: type2
+      type: Reqnroll.Bindings.Reflection.IBindingType
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TypeEquals(type1 As IBindingType, type2 As IBindingType) As Boolean
+  overload: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals*
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.ParamEquals(Reqnroll.Bindings.Reflection.IBindingParameter,Reqnroll.Bindings.Reflection.IBindingParameter)
+  commentId: M:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.ParamEquals(Reqnroll.Bindings.Reflection.IBindingParameter,Reqnroll.Bindings.Reflection.IBindingParameter)
+  id: ParamEquals(Reqnroll.Bindings.Reflection.IBindingParameter,Reqnroll.Bindings.Reflection.IBindingParameter)
+  isExtensionMethod: true
+  parent: Reqnroll.Bindings.Reflection.BindingReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: ParamEquals(IBindingParameter, IBindingParameter)
+  nameWithType: BindingReflectionExtensions.ParamEquals(IBindingParameter, IBindingParameter)
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.ParamEquals(Reqnroll.Bindings.Reflection.IBindingParameter, Reqnroll.Bindings.Reflection.IBindingParameter)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ParamEquals
+    path: ../Reqnroll/Reqnroll/Bindings/Reflection/BindingReflectionExtensions.cs
+    startLine: 78
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings.Reflection
+  syntax:
+    content: public static bool ParamEquals(this IBindingParameter param1, IBindingParameter param2)
+    parameters:
+    - id: param1
+      type: Reqnroll.Bindings.Reflection.IBindingParameter
+    - id: param2
+      type: Reqnroll.Bindings.Reflection.IBindingParameter
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ParamEquals(param1 As IBindingParameter, param2 As IBindingParameter) As Boolean
+  overload: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.ParamEquals*
+references:
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText*
+  commentId: Overload:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_GetShortDisplayText_Reqnroll_Bindings_Reflection_IBindingMethod_
+  name: GetShortDisplayText
+  nameWithType: BindingReflectionExtensions.GetShortDisplayText
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.GetShortDisplayText
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableTo*
+  commentId: Overload:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableTo
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_IsAssignableTo_System_Type_Reqnroll_Bindings_Reflection_IBindingType_
+  name: IsAssignableTo
+  nameWithType: BindingReflectionExtensions.IsAssignableTo
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableTo
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Reqnroll.Bindings.Reflection.IBindingType
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingType
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingType.html
+  name: IBindingType
+  nameWithType: IBindingType
+  fullName: Reqnroll.Bindings.Reflection.IBindingType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableFrom*
+  commentId: Overload:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableFrom
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_IsAssignableFrom_System_Type_Reqnroll_Bindings_Reflection_IBindingType_
+  name: IsAssignableFrom
+  nameWithType: BindingReflectionExtensions.IsAssignableFrom
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.IsAssignableFrom
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals*
+  commentId: Overload:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_MethodEquals_Reqnroll_Bindings_Reflection_IBindingMethod_Reqnroll_Bindings_Reflection_IBindingMethod_
+  name: MethodEquals
+  nameWithType: BindingReflectionExtensions.MethodEquals
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.MethodEquals
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals*
+  commentId: Overload:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_TypeEquals_Reqnroll_Bindings_Reflection_IBindingType_System_Type_
+  name: TypeEquals
+  nameWithType: BindingReflectionExtensions.TypeEquals
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.TypeEquals
+- uid: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.ParamEquals*
+  commentId: Overload:Reqnroll.Bindings.Reflection.BindingReflectionExtensions.ParamEquals
+  href: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.html#Reqnroll_Bindings_Reflection_BindingReflectionExtensions_ParamEquals_Reqnroll_Bindings_Reflection_IBindingParameter_Reqnroll_Bindings_Reflection_IBindingParameter_
+  name: ParamEquals
+  nameWithType: BindingReflectionExtensions.ParamEquals
+  fullName: Reqnroll.Bindings.Reflection.BindingReflectionExtensions.ParamEquals
+- uid: Reqnroll.Bindings.Reflection.IBindingParameter
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingParameter
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingParameter.html
+  name: IBindingParameter
+  nameWithType: IBindingParameter
+  fullName: Reqnroll.Bindings.Reflection.IBindingParameter

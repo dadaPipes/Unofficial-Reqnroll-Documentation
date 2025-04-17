@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.ErrorHandling
+  commentId: N:Reqnroll.ErrorHandling
+  id: Reqnroll.ErrorHandling
+  children:
+  - Reqnroll.ErrorHandling.IErrorProvider
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.ErrorHandling
+  nameWithType: Reqnroll.ErrorHandling
+  fullName: Reqnroll.ErrorHandling
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.ErrorHandling.IErrorProvider
+  commentId: T:Reqnroll.ErrorHandling.IErrorProvider
+  parent: Reqnroll.ErrorHandling
+  href: Reqnroll.ErrorHandling.IErrorProvider.html
+  name: IErrorProvider
+  nameWithType: IErrorProvider
+  fullName: Reqnroll.ErrorHandling.IErrorProvider
+- uid: Reqnroll.ErrorHandling
+  commentId: N:Reqnroll.ErrorHandling
+  href: Reqnroll.html
+  name: Reqnroll.ErrorHandling
+  nameWithType: Reqnroll.ErrorHandling
+  fullName: Reqnroll.ErrorHandling
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.ErrorHandling
+    name: ErrorHandling
+    href: Reqnroll.ErrorHandling.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.ErrorHandling
+    name: ErrorHandling
+    href: Reqnroll.ErrorHandling.html

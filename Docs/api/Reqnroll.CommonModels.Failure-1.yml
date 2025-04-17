@@ -1,0 +1,490 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.CommonModels.Failure`1
+  commentId: T:Reqnroll.CommonModels.Failure`1
+  id: Failure`1
+  parent: Reqnroll.CommonModels
+  children:
+  - Reqnroll.CommonModels.Failure`1.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Failure<T>
+  nameWithType: Failure<T>
+  fullName: Reqnroll.CommonModels.Failure<T>
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/CommonModels/Failure.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Failure
+    path: ../Reqnroll/Reqnroll/CommonModels/Failure.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.CommonModels
+  syntax:
+    content: 'public class Failure<T> : Failure, IFailure<T>, IFailure, IResult<T>, IResult'
+    typeParameters:
+    - id: T
+    content.vb: Public Class Failure(Of T) Inherits Failure Implements IFailure(Of T), IFailure, IResult(Of T), IResult
+  inheritance:
+  - System.Object
+  - Reqnroll.CommonModels.Failure
+  implements:
+  - Reqnroll.CommonModels.IFailure{{T}}
+  - Reqnroll.CommonModels.IFailure
+  - Reqnroll.CommonModels.IResult{{T}}
+  - Reqnroll.CommonModels.IResult
+  inheritedMembers:
+  - Reqnroll.CommonModels.Failure.Description
+  - Reqnroll.CommonModels.Failure.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  nameWithType.vb: Failure(Of T)
+  fullName.vb: Reqnroll.CommonModels.Failure(Of T)
+  name.vb: Failure(Of T)
+- uid: Reqnroll.CommonModels.Failure`1.#ctor(System.String)
+  commentId: M:Reqnroll.CommonModels.Failure`1.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Reqnroll.CommonModels.Failure`1
+  langs:
+  - csharp
+  - vb
+  name: Failure(string)
+  nameWithType: Failure<T>.Failure(string)
+  fullName: Reqnroll.CommonModels.Failure<T>.Failure(string)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/CommonModels/Failure.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/CommonModels/Failure.cs
+    startLine: 16
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.CommonModels
+  syntax:
+    content: public Failure(string description)
+    parameters:
+    - id: description
+      type: System.String
+    content.vb: Public Sub New(description As String)
+  overload: Reqnroll.CommonModels.Failure`1.#ctor*
+  nameWithType.vb: Failure(Of T).New(String)
+  fullName.vb: Reqnroll.CommonModels.Failure(Of T).New(String)
+  name.vb: New(String)
+references:
+- uid: Reqnroll.CommonModels
+  commentId: N:Reqnroll.CommonModels
+  href: Reqnroll.html
+  name: Reqnroll.CommonModels
+  nameWithType: Reqnroll.CommonModels
+  fullName: Reqnroll.CommonModels
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.CommonModels.Failure
+  commentId: T:Reqnroll.CommonModels.Failure
+  parent: Reqnroll.CommonModels
+  href: Reqnroll.CommonModels.Failure.html
+  name: Failure
+  nameWithType: Failure
+  fullName: Reqnroll.CommonModels.Failure
+- uid: Reqnroll.CommonModels.IFailure{{T}}
+  commentId: T:Reqnroll.CommonModels.IFailure{`0}
+  parent: Reqnroll.CommonModels
+  definition: Reqnroll.CommonModels.IFailure`1
+  href: Reqnroll.CommonModels.IFailure-1.html
+  name: IFailure<T>
+  nameWithType: IFailure<T>
+  fullName: Reqnroll.CommonModels.IFailure<T>
+  nameWithType.vb: IFailure(Of T)
+  fullName.vb: Reqnroll.CommonModels.IFailure(Of T)
+  name.vb: IFailure(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.IFailure`1
+    name: IFailure
+    href: Reqnroll.CommonModels.IFailure-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.IFailure`1
+    name: IFailure
+    href: Reqnroll.CommonModels.IFailure-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.IFailure
+  commentId: T:Reqnroll.CommonModels.IFailure
+  parent: Reqnroll.CommonModels
+  href: Reqnroll.CommonModels.IFailure.html
+  name: IFailure
+  nameWithType: IFailure
+  fullName: Reqnroll.CommonModels.IFailure
+- uid: Reqnroll.CommonModels.IResult{{T}}
+  commentId: T:Reqnroll.CommonModels.IResult{`0}
+  parent: Reqnroll.CommonModels
+  definition: Reqnroll.CommonModels.IResult`1
+  href: Reqnroll.CommonModels.IResult-1.html
+  name: IResult<T>
+  nameWithType: IResult<T>
+  fullName: Reqnroll.CommonModels.IResult<T>
+  nameWithType.vb: IResult(Of T)
+  fullName.vb: Reqnroll.CommonModels.IResult(Of T)
+  name.vb: IResult(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.IResult
+  commentId: T:Reqnroll.CommonModels.IResult
+  parent: Reqnroll.CommonModels
+  href: Reqnroll.CommonModels.IResult.html
+  name: IResult
+  nameWithType: IResult
+  fullName: Reqnroll.CommonModels.IResult
+- uid: Reqnroll.CommonModels.Failure.Description
+  commentId: P:Reqnroll.CommonModels.Failure.Description
+  parent: Reqnroll.CommonModels.Failure
+  href: Reqnroll.CommonModels.Failure.html#Reqnroll_CommonModels_Failure_Description
+  name: Description
+  nameWithType: Failure.Description
+  fullName: Reqnroll.CommonModels.Failure.Description
+- uid: Reqnroll.CommonModels.Failure.ToString
+  commentId: M:Reqnroll.CommonModels.Failure.ToString
+  parent: Reqnroll.CommonModels.Failure
+  href: Reqnroll.CommonModels.Failure.html#Reqnroll_CommonModels_Failure_ToString
+  name: ToString()
+  nameWithType: Failure.ToString()
+  fullName: Reqnroll.CommonModels.Failure.ToString()
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.Failure.ToString
+    name: ToString
+    href: Reqnroll.CommonModels.Failure.html#Reqnroll_CommonModels_Failure_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.CommonModels.Failure.ToString
+    name: ToString
+    href: Reqnroll.CommonModels.Failure.html#Reqnroll_CommonModels_Failure_ToString
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.CommonModels.IFailure`1
+  commentId: T:Reqnroll.CommonModels.IFailure`1
+  href: Reqnroll.CommonModels.IFailure-1.html
+  name: IFailure<T>
+  nameWithType: IFailure<T>
+  fullName: Reqnroll.CommonModels.IFailure<T>
+  nameWithType.vb: IFailure(Of T)
+  fullName.vb: Reqnroll.CommonModels.IFailure(Of T)
+  name.vb: IFailure(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.IFailure`1
+    name: IFailure
+    href: Reqnroll.CommonModels.IFailure-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.IFailure`1
+    name: IFailure
+    href: Reqnroll.CommonModels.IFailure-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.IResult`1
+  commentId: T:Reqnroll.CommonModels.IResult`1
+  href: Reqnroll.CommonModels.IResult-1.html
+  name: IResult<T>
+  nameWithType: IResult<T>
+  fullName: Reqnroll.CommonModels.IResult<T>
+  nameWithType.vb: IResult(Of T)
+  fullName.vb: Reqnroll.CommonModels.IResult(Of T)
+  name.vb: IResult(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.Failure`1.#ctor*
+  commentId: Overload:Reqnroll.CommonModels.Failure`1.#ctor
+  href: Reqnroll.CommonModels.Failure-1.html#Reqnroll_CommonModels_Failure_1__ctor_System_String_
+  name: Failure
+  nameWithType: Failure<T>.Failure
+  fullName: Reqnroll.CommonModels.Failure<T>.Failure
+  nameWithType.vb: Failure(Of T).New
+  fullName.vb: Reqnroll.CommonModels.Failure(Of T).New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

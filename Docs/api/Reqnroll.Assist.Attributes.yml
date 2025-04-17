@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist.Attributes
+  commentId: N:Reqnroll.Assist.Attributes
+  id: Reqnroll.Assist.Attributes
+  children:
+  - Reqnroll.Assist.Attributes.TableAliasesAttribute
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Assist.Attributes
+  nameWithType: Reqnroll.Assist.Attributes
+  fullName: Reqnroll.Assist.Attributes
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Assist.Attributes.TableAliasesAttribute
+  commentId: T:Reqnroll.Assist.Attributes.TableAliasesAttribute
+  href: Reqnroll.Assist.Attributes.TableAliasesAttribute.html
+  name: TableAliasesAttribute
+  nameWithType: TableAliasesAttribute
+  fullName: Reqnroll.Assist.Attributes.TableAliasesAttribute

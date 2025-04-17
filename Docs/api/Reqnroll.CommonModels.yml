@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.CommonModels
+  commentId: N:Reqnroll.CommonModels
+  id: Reqnroll.CommonModels
+  children:
+  - Reqnroll.CommonModels.ExceptionFailure
+  - Reqnroll.CommonModels.ExceptionFailure`1
+  - Reqnroll.CommonModels.Failure
+  - Reqnroll.CommonModels.Failure`1
+  - Reqnroll.CommonModels.IFailure
+  - Reqnroll.CommonModels.IFailure`1
+  - Reqnroll.CommonModels.IResult
+  - Reqnroll.CommonModels.IResult`1
+  - Reqnroll.CommonModels.ISuccess
+  - Reqnroll.CommonModels.ISuccess`1
+  - Reqnroll.CommonModels.Result
+  - Reqnroll.CommonModels.Result`1
+  - Reqnroll.CommonModels.Success
+  - Reqnroll.CommonModels.Success`1
+  - Reqnroll.CommonModels.WrappedFailure
+  - Reqnroll.CommonModels.WrappedFailure`1
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.CommonModels
+  nameWithType: Reqnroll.CommonModels
+  fullName: Reqnroll.CommonModels
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.CommonModels.ExceptionFailure
+  commentId: T:Reqnroll.CommonModels.ExceptionFailure
+  parent: Reqnroll.CommonModels
+  href: Reqnroll.CommonModels.ExceptionFailure.html
+  name: ExceptionFailure
+  nameWithType: ExceptionFailure
+  fullName: Reqnroll.CommonModels.ExceptionFailure
+- uid: Reqnroll.CommonModels.ExceptionFailure`1
+  commentId: T:Reqnroll.CommonModels.ExceptionFailure`1
+  href: Reqnroll.CommonModels.ExceptionFailure-1.html
+  name: ExceptionFailure<T>
+  nameWithType: ExceptionFailure<T>
+  fullName: Reqnroll.CommonModels.ExceptionFailure<T>
+  nameWithType.vb: ExceptionFailure(Of T)
+  fullName.vb: Reqnroll.CommonModels.ExceptionFailure(Of T)
+  name.vb: ExceptionFailure(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.ExceptionFailure`1
+    name: ExceptionFailure
+    href: Reqnroll.CommonModels.ExceptionFailure-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.ExceptionFailure`1
+    name: ExceptionFailure
+    href: Reqnroll.CommonModels.ExceptionFailure-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.Failure
+  commentId: T:Reqnroll.CommonModels.Failure
+  parent: Reqnroll.CommonModels
+  href: Reqnroll.CommonModels.Failure.html
+  name: Failure
+  nameWithType: Failure
+  fullName: Reqnroll.CommonModels.Failure
+- uid: Reqnroll.CommonModels.Failure`1
+  commentId: T:Reqnroll.CommonModels.Failure`1
+  href: Reqnroll.CommonModels.Failure-1.html
+  name: Failure<T>
+  nameWithType: Failure<T>
+  fullName: Reqnroll.CommonModels.Failure<T>
+  nameWithType.vb: Failure(Of T)
+  fullName.vb: Reqnroll.CommonModels.Failure(Of T)
+  name.vb: Failure(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.Failure`1
+    name: Failure
+    href: Reqnroll.CommonModels.Failure-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.Failure`1
+    name: Failure
+    href: Reqnroll.CommonModels.Failure-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.IFailure
+  commentId: T:Reqnroll.CommonModels.IFailure
+  parent: Reqnroll.CommonModels
+  href: Reqnroll.CommonModels.IFailure.html
+  name: IFailure
+  nameWithType: IFailure
+  fullName: Reqnroll.CommonModels.IFailure
+- uid: Reqnroll.CommonModels.IFailure`1
+  commentId: T:Reqnroll.CommonModels.IFailure`1
+  href: Reqnroll.CommonModels.IFailure-1.html
+  name: IFailure<T>
+  nameWithType: IFailure<T>
+  fullName: Reqnroll.CommonModels.IFailure<T>
+  nameWithType.vb: IFailure(Of T)
+  fullName.vb: Reqnroll.CommonModels.IFailure(Of T)
+  name.vb: IFailure(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.IFailure`1
+    name: IFailure
+    href: Reqnroll.CommonModels.IFailure-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.IFailure`1
+    name: IFailure
+    href: Reqnroll.CommonModels.IFailure-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.IResult
+  commentId: T:Reqnroll.CommonModels.IResult
+  parent: Reqnroll.CommonModels
+  href: Reqnroll.CommonModels.IResult.html
+  name: IResult
+  nameWithType: IResult
+  fullName: Reqnroll.CommonModels.IResult
+- uid: Reqnroll.CommonModels.IResult`1
+  commentId: T:Reqnroll.CommonModels.IResult`1
+  href: Reqnroll.CommonModels.IResult-1.html
+  name: IResult<T>
+  nameWithType: IResult<T>
+  fullName: Reqnroll.CommonModels.IResult<T>
+  nameWithType.vb: IResult(Of T)
+  fullName.vb: Reqnroll.CommonModels.IResult(Of T)
+  name.vb: IResult(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.IResult`1
+    name: IResult
+    href: Reqnroll.CommonModels.IResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.ISuccess
+  commentId: T:Reqnroll.CommonModels.ISuccess
+  parent: Reqnroll.CommonModels
+  href: Reqnroll.CommonModels.ISuccess.html
+  name: ISuccess
+  nameWithType: ISuccess
+  fullName: Reqnroll.CommonModels.ISuccess
+- uid: Reqnroll.CommonModels.ISuccess`1
+  commentId: T:Reqnroll.CommonModels.ISuccess`1
+  href: Reqnroll.CommonModels.ISuccess-1.html
+  name: ISuccess<T>
+  nameWithType: ISuccess<T>
+  fullName: Reqnroll.CommonModels.ISuccess<T>
+  nameWithType.vb: ISuccess(Of T)
+  fullName.vb: Reqnroll.CommonModels.ISuccess(Of T)
+  name.vb: ISuccess(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.ISuccess`1
+    name: ISuccess
+    href: Reqnroll.CommonModels.ISuccess-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.ISuccess`1
+    name: ISuccess
+    href: Reqnroll.CommonModels.ISuccess-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.Result
+  commentId: T:Reqnroll.CommonModels.Result
+  href: Reqnroll.CommonModels.Result.html
+  name: Result
+  nameWithType: Result
+  fullName: Reqnroll.CommonModels.Result
+- uid: Reqnroll.CommonModels.Result`1
+  commentId: T:Reqnroll.CommonModels.Result`1
+  href: Reqnroll.CommonModels.Result-1.html
+  name: Result<T>
+  nameWithType: Result<T>
+  fullName: Reqnroll.CommonModels.Result<T>
+  nameWithType.vb: Result(Of T)
+  fullName.vb: Reqnroll.CommonModels.Result(Of T)
+  name.vb: Result(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.Result`1
+    name: Result
+    href: Reqnroll.CommonModels.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.Result`1
+    name: Result
+    href: Reqnroll.CommonModels.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.Success
+  commentId: T:Reqnroll.CommonModels.Success
+  parent: Reqnroll.CommonModels
+  href: Reqnroll.CommonModels.Success.html
+  name: Success
+  nameWithType: Success
+  fullName: Reqnroll.CommonModels.Success
+- uid: Reqnroll.CommonModels.Success`1
+  commentId: T:Reqnroll.CommonModels.Success`1
+  href: Reqnroll.CommonModels.Success-1.html
+  name: Success<T>
+  nameWithType: Success<T>
+  fullName: Reqnroll.CommonModels.Success<T>
+  nameWithType.vb: Success(Of T)
+  fullName.vb: Reqnroll.CommonModels.Success(Of T)
+  name.vb: Success(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.Success`1
+    name: Success
+    href: Reqnroll.CommonModels.Success-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.Success`1
+    name: Success
+    href: Reqnroll.CommonModels.Success-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels.WrappedFailure
+  commentId: T:Reqnroll.CommonModels.WrappedFailure
+  parent: Reqnroll.CommonModels
+  href: Reqnroll.CommonModels.WrappedFailure.html
+  name: WrappedFailure
+  nameWithType: WrappedFailure
+  fullName: Reqnroll.CommonModels.WrappedFailure
+- uid: Reqnroll.CommonModels.WrappedFailure`1
+  commentId: T:Reqnroll.CommonModels.WrappedFailure`1
+  href: Reqnroll.CommonModels.WrappedFailure-1.html
+  name: WrappedFailure<T>
+  nameWithType: WrappedFailure<T>
+  fullName: Reqnroll.CommonModels.WrappedFailure<T>
+  nameWithType.vb: WrappedFailure(Of T)
+  fullName.vb: Reqnroll.CommonModels.WrappedFailure(Of T)
+  name.vb: WrappedFailure(Of T)
+  spec.csharp:
+  - uid: Reqnroll.CommonModels.WrappedFailure`1
+    name: WrappedFailure
+    href: Reqnroll.CommonModels.WrappedFailure-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.CommonModels.WrappedFailure`1
+    name: WrappedFailure
+    href: Reqnroll.CommonModels.WrappedFailure-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.CommonModels
+  commentId: N:Reqnroll.CommonModels
+  href: Reqnroll.html
+  name: Reqnroll.CommonModels
+  nameWithType: Reqnroll.CommonModels
+  fullName: Reqnroll.CommonModels
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.CommonModels
+    name: CommonModels
+    href: Reqnroll.CommonModels.html

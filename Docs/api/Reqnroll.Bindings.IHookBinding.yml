@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.IHookBinding
+  commentId: T:Reqnroll.Bindings.IHookBinding
+  id: IHookBinding
+  parent: Reqnroll.Bindings
+  children:
+  - Reqnroll.Bindings.IHookBinding.HookOrder
+  - Reqnroll.Bindings.IHookBinding.HookType
+  langs:
+  - csharp
+  - vb
+  name: IHookBinding
+  nameWithType: IHookBinding
+  fullName: Reqnroll.Bindings.IHookBinding
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Bindings/IHookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IHookBinding
+    path: ../Reqnroll/Reqnroll/Bindings/IHookBinding.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: 'public interface IHookBinding : IScopedBinding, IBinding'
+    content.vb: Public Interface IHookBinding Inherits IScopedBinding, IBinding
+  inheritedMembers:
+  - Reqnroll.Bindings.IScopedBinding.IsScoped
+  - Reqnroll.Bindings.IScopedBinding.BindingScope
+  - Reqnroll.Bindings.IBinding.Method
+- uid: Reqnroll.Bindings.IHookBinding.HookType
+  commentId: P:Reqnroll.Bindings.IHookBinding.HookType
+  id: HookType
+  parent: Reqnroll.Bindings.IHookBinding
+  langs:
+  - csharp
+  - vb
+  name: HookType
+  nameWithType: IHookBinding.HookType
+  fullName: Reqnroll.Bindings.IHookBinding.HookType
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/IHookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HookType
+    path: ../Reqnroll/Reqnroll/Bindings/IHookBinding.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: HookType HookType { get; }
+    parameters: []
+    return:
+      type: Reqnroll.Bindings.HookType
+    content.vb: ReadOnly Property HookType As HookType
+  overload: Reqnroll.Bindings.IHookBinding.HookType*
+- uid: Reqnroll.Bindings.IHookBinding.HookOrder
+  commentId: P:Reqnroll.Bindings.IHookBinding.HookOrder
+  id: HookOrder
+  parent: Reqnroll.Bindings.IHookBinding
+  langs:
+  - csharp
+  - vb
+  name: HookOrder
+  nameWithType: IHookBinding.HookOrder
+  fullName: Reqnroll.Bindings.IHookBinding.HookOrder
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Bindings/IHookBinding.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: HookOrder
+    path: ../Reqnroll/Reqnroll/Bindings/IHookBinding.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Bindings
+  syntax:
+    content: int HookOrder { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property HookOrder As Integer
+  overload: Reqnroll.Bindings.IHookBinding.HookOrder*
+references:
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Bindings.IScopedBinding.IsScoped
+  commentId: P:Reqnroll.Bindings.IScopedBinding.IsScoped
+  parent: Reqnroll.Bindings.IScopedBinding
+  href: Reqnroll.Bindings.IScopedBinding.html#Reqnroll_Bindings_IScopedBinding_IsScoped
+  name: IsScoped
+  nameWithType: IScopedBinding.IsScoped
+  fullName: Reqnroll.Bindings.IScopedBinding.IsScoped
+- uid: Reqnroll.Bindings.IScopedBinding.BindingScope
+  commentId: P:Reqnroll.Bindings.IScopedBinding.BindingScope
+  parent: Reqnroll.Bindings.IScopedBinding
+  href: Reqnroll.Bindings.IScopedBinding.html#Reqnroll_Bindings_IScopedBinding_BindingScope
+  name: BindingScope
+  nameWithType: IScopedBinding.BindingScope
+  fullName: Reqnroll.Bindings.IScopedBinding.BindingScope
+- uid: Reqnroll.Bindings.IBinding.Method
+  commentId: P:Reqnroll.Bindings.IBinding.Method
+  parent: Reqnroll.Bindings.IBinding
+  href: Reqnroll.Bindings.IBinding.html#Reqnroll_Bindings_IBinding_Method
+  name: Method
+  nameWithType: IBinding.Method
+  fullName: Reqnroll.Bindings.IBinding.Method
+- uid: Reqnroll.Bindings.IScopedBinding
+  commentId: T:Reqnroll.Bindings.IScopedBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IScopedBinding.html
+  name: IScopedBinding
+  nameWithType: IScopedBinding
+  fullName: Reqnroll.Bindings.IScopedBinding
+- uid: Reqnroll.Bindings.IBinding
+  commentId: T:Reqnroll.Bindings.IBinding
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.IBinding.html
+  name: IBinding
+  nameWithType: IBinding
+  fullName: Reqnroll.Bindings.IBinding
+- uid: Reqnroll.Bindings.IHookBinding.HookType*
+  commentId: Overload:Reqnroll.Bindings.IHookBinding.HookType
+  href: Reqnroll.Bindings.IHookBinding.html#Reqnroll_Bindings_IHookBinding_HookType
+  name: HookType
+  nameWithType: IHookBinding.HookType
+  fullName: Reqnroll.Bindings.IHookBinding.HookType
+- uid: Reqnroll.Bindings.HookType
+  commentId: T:Reqnroll.Bindings.HookType
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.HookType.html
+  name: HookType
+  nameWithType: HookType
+  fullName: Reqnroll.Bindings.HookType
+- uid: Reqnroll.Bindings.IHookBinding.HookOrder*
+  commentId: Overload:Reqnroll.Bindings.IHookBinding.HookOrder
+  href: Reqnroll.Bindings.IHookBinding.html#Reqnroll_Bindings_IHookBinding_HookOrder
+  name: HookOrder
+  nameWithType: IHookBinding.HookOrder
+  fullName: Reqnroll.Bindings.IHookBinding.HookOrder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

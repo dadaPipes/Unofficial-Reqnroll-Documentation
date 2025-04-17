@@ -1,0 +1,1680 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  commentId: T:Reqnroll.Infrastructure.BlockingSyncTestRunner
+  id: BlockingSyncTestRunner
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.#ctor(Reqnroll.ITestRunner)
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.CollectScenarioErrors
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.FeatureContext
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureEnd
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioEnd
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioStart
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunEnd
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunStart
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.Pending
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.ScenarioContext
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.SkipScenario
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.TestWorkerId
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+  - Reqnroll.Infrastructure.BlockingSyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+  langs:
+  - csharp
+  - vb
+  name: BlockingSyncTestRunner
+  nameWithType: BlockingSyncTestRunner
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BlockingSyncTestRunner
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: 'public class BlockingSyncTestRunner : ISyncTestRunner'
+    content.vb: Public Class BlockingSyncTestRunner Implements ISyncTestRunner
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.ISyncTestRunner
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.#ctor(Reqnroll.ITestRunner)
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.#ctor(Reqnroll.ITestRunner)
+  id: '#ctor(Reqnroll.ITestRunner)'
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: BlockingSyncTestRunner(ITestRunner)
+  nameWithType: BlockingSyncTestRunner.BlockingSyncTestRunner(ITestRunner)
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.BlockingSyncTestRunner(Reqnroll.ITestRunner)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public BlockingSyncTestRunner(ITestRunner testRunner)
+    parameters:
+    - id: testRunner
+      type: Reqnroll.ITestRunner
+    content.vb: Public Sub New(testRunner As ITestRunner)
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.#ctor*
+  nameWithType.vb: BlockingSyncTestRunner.New(ITestRunner)
+  fullName.vb: Reqnroll.Infrastructure.BlockingSyncTestRunner.New(Reqnroll.ITestRunner)
+  name.vb: New(ITestRunner)
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.TestWorkerId
+  commentId: P:Reqnroll.Infrastructure.BlockingSyncTestRunner.TestWorkerId
+  id: TestWorkerId
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: TestWorkerId
+  nameWithType: BlockingSyncTestRunner.TestWorkerId
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.TestWorkerId
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestWorkerId
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 18
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  summary: The ID of the parallel test worker processing the current scenario.
+  example: []
+  syntax:
+    content: public string TestWorkerId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property TestWorkerId As String
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.TestWorkerId*
+  implements:
+  - Reqnroll.ISyncTestRunner.TestWorkerId
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.FeatureContext
+  commentId: P:Reqnroll.Infrastructure.BlockingSyncTestRunner.FeatureContext
+  id: FeatureContext
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: FeatureContext
+  nameWithType: BlockingSyncTestRunner.FeatureContext
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.FeatureContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: FeatureContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 19
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public FeatureContext FeatureContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.FeatureContext
+    content.vb: Public ReadOnly Property FeatureContext As FeatureContext
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.FeatureContext*
+  implements:
+  - Reqnroll.ISyncTestRunner.FeatureContext
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.ScenarioContext
+  commentId: P:Reqnroll.Infrastructure.BlockingSyncTestRunner.ScenarioContext
+  id: ScenarioContext
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: ScenarioContext
+  nameWithType: BlockingSyncTestRunner.ScenarioContext
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.ScenarioContext
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ScenarioContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public ScenarioContext ScenarioContext { get; }
+    parameters: []
+    return:
+      type: Reqnroll.ScenarioContext
+    content.vb: Public ReadOnly Property ScenarioContext As ScenarioContext
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.ScenarioContext*
+  implements:
+  - Reqnroll.ISyncTestRunner.ScenarioContext
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  id: OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioInitialize(ScenarioInfo)
+  nameWithType: BlockingSyncTestRunner.OnScenarioInitialize(ScenarioInfo)
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioInitialize
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 22
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void OnScenarioInitialize(ScenarioInfo scenarioInfo)
+    parameters:
+    - id: scenarioInfo
+      type: Reqnroll.ScenarioInfo
+    content.vb: Public Sub OnScenarioInitialize(scenarioInfo As ScenarioInfo)
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioInitialize*
+  implements:
+  - Reqnroll.ISyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.SkipScenario
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.SkipScenario
+  id: SkipScenario
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: SkipScenario()
+  nameWithType: BlockingSyncTestRunner.SkipScenario()
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.SkipScenario()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: SkipScenario
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 27
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void SkipScenario()
+    content.vb: Public Sub SkipScenario()
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.SkipScenario*
+  implements:
+  - Reqnroll.ISyncTestRunner.SkipScenario
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.Pending
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.Pending
+  id: Pending
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: Pending()
+  nameWithType: BlockingSyncTestRunner.Pending()
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.Pending()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Pending
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 32
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void Pending()
+    content.vb: Public Sub Pending()
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.Pending*
+  implements:
+  - Reqnroll.ISyncTestRunner.Pending
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunStart
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunStart
+  id: OnTestRunStart
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnTestRunStart()
+  nameWithType: BlockingSyncTestRunner.OnTestRunStart()
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunStart()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnTestRunStart
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 37
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void OnTestRunStart()
+    content.vb: Public Sub OnTestRunStart()
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunStart*
+  implements:
+  - Reqnroll.ISyncTestRunner.OnTestRunStart
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunEnd
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunEnd
+  id: OnTestRunEnd
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnTestRunEnd()
+  nameWithType: BlockingSyncTestRunner.OnTestRunEnd()
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunEnd()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnTestRunEnd
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 42
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void OnTestRunEnd()
+    content.vb: Public Sub OnTestRunEnd()
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunEnd*
+  implements:
+  - Reqnroll.ISyncTestRunner.OnTestRunEnd
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  id: OnFeatureStart(Reqnroll.FeatureInfo)
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnFeatureStart(FeatureInfo)
+  nameWithType: BlockingSyncTestRunner.OnFeatureStart(FeatureInfo)
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnFeatureStart
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 47
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void OnFeatureStart(FeatureInfo featureInfo)
+    parameters:
+    - id: featureInfo
+      type: Reqnroll.FeatureInfo
+    content.vb: Public Sub OnFeatureStart(featureInfo As FeatureInfo)
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureStart*
+  implements:
+  - Reqnroll.ISyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureEnd
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureEnd
+  id: OnFeatureEnd
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnFeatureEnd()
+  nameWithType: BlockingSyncTestRunner.OnFeatureEnd()
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureEnd()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnFeatureEnd
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 52
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void OnFeatureEnd()
+    content.vb: Public Sub OnFeatureEnd()
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureEnd*
+  implements:
+  - Reqnroll.ISyncTestRunner.OnFeatureEnd
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioStart
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioStart
+  id: OnScenarioStart
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioStart()
+  nameWithType: BlockingSyncTestRunner.OnScenarioStart()
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioStart()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioStart
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 57
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void OnScenarioStart()
+    content.vb: Public Sub OnScenarioStart()
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioStart*
+  implements:
+  - Reqnroll.ISyncTestRunner.OnScenarioStart
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.CollectScenarioErrors
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.CollectScenarioErrors
+  id: CollectScenarioErrors
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: CollectScenarioErrors()
+  nameWithType: BlockingSyncTestRunner.CollectScenarioErrors()
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.CollectScenarioErrors()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CollectScenarioErrors
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 62
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void CollectScenarioErrors()
+    content.vb: Public Sub CollectScenarioErrors()
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.CollectScenarioErrors*
+  implements:
+  - Reqnroll.ISyncTestRunner.CollectScenarioErrors
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioEnd
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioEnd
+  id: OnScenarioEnd
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: OnScenarioEnd()
+  nameWithType: BlockingSyncTestRunner.OnScenarioEnd()
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioEnd()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: OnScenarioEnd
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 67
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void OnScenarioEnd()
+    content.vb: Public Sub OnScenarioEnd()
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioEnd*
+  implements:
+  - Reqnroll.ISyncTestRunner.OnScenarioEnd
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+  id: Given(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: Given(string, string, Table, string)
+  nameWithType: BlockingSyncTestRunner.Given(string, string, Table, string)
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.Given(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Given
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 72
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void Given(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    content.vb: Public Sub Given(text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing)
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.Given*
+  implements:
+  - Reqnroll.ISyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+  nameWithType.vb: BlockingSyncTestRunner.Given(String, String, Table, String)
+  fullName.vb: Reqnroll.Infrastructure.BlockingSyncTestRunner.Given(String, String, Reqnroll.Table, String)
+  name.vb: Given(String, String, Table, String)
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+  id: When(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: When(string, string, Table, string)
+  nameWithType: BlockingSyncTestRunner.When(string, string, Table, string)
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.When(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: When
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 77
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void When(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    content.vb: Public Sub [When](text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing)
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.When*
+  implements:
+  - Reqnroll.ISyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+  nameWithType.vb: BlockingSyncTestRunner.When(String, String, Table, String)
+  fullName.vb: Reqnroll.Infrastructure.BlockingSyncTestRunner.When(String, String, Reqnroll.Table, String)
+  name.vb: When(String, String, Table, String)
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+  id: Then(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: Then(string, string, Table, string)
+  nameWithType: BlockingSyncTestRunner.Then(string, string, Table, string)
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.Then(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Then
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 82
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void Then(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    content.vb: Public Sub [Then](text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing)
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.Then*
+  implements:
+  - Reqnroll.ISyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+  nameWithType.vb: BlockingSyncTestRunner.Then(String, String, Table, String)
+  fullName.vb: Reqnroll.Infrastructure.BlockingSyncTestRunner.Then(String, String, Reqnroll.Table, String)
+  name.vb: Then(String, String, Table, String)
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+  id: And(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: And(string, string, Table, string)
+  nameWithType: BlockingSyncTestRunner.And(string, string, Table, string)
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.And(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: And
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 87
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void And(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    content.vb: Public Sub [And](text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing)
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.And*
+  implements:
+  - Reqnroll.ISyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+  nameWithType.vb: BlockingSyncTestRunner.And(String, String, Table, String)
+  fullName.vb: Reqnroll.Infrastructure.BlockingSyncTestRunner.And(String, String, Reqnroll.Table, String)
+  name.vb: And(String, String, Table, String)
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.Infrastructure.BlockingSyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+  id: But(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.Infrastructure.BlockingSyncTestRunner
+  langs:
+  - csharp
+  - vb
+  name: But(string, string, Table, string)
+  nameWithType: BlockingSyncTestRunner.But(string, string, Table, string)
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.But(string, string, Reqnroll.Table, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: But
+    path: ../Reqnroll/Reqnroll/Infrastructure/BlockingSyncTestRunner.cs
+    startLine: 92
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  example: []
+  syntax:
+    content: public void But(string text, string multilineTextArg, Table tableArg, string keyword = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: multilineTextArg
+      type: System.String
+    - id: tableArg
+      type: Reqnroll.Table
+    - id: keyword
+      type: System.String
+    content.vb: Public Sub But(text As String, multilineTextArg As String, tableArg As Table, keyword As String = Nothing)
+  overload: Reqnroll.Infrastructure.BlockingSyncTestRunner.But*
+  implements:
+  - Reqnroll.ISyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+  nameWithType.vb: BlockingSyncTestRunner.But(String, String, Table, String)
+  fullName.vb: Reqnroll.Infrastructure.BlockingSyncTestRunner.But(String, String, Reqnroll.Table, String)
+  name.vb: But(String, String, Table, String)
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.ISyncTestRunner
+  commentId: T:Reqnroll.ISyncTestRunner
+  parent: Reqnroll
+  href: Reqnroll.ISyncTestRunner.html
+  name: ISyncTestRunner
+  nameWithType: ISyncTestRunner
+  fullName: Reqnroll.ISyncTestRunner
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.#ctor*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.#ctor
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner__ctor_Reqnroll_ITestRunner_
+  name: BlockingSyncTestRunner
+  nameWithType: BlockingSyncTestRunner.BlockingSyncTestRunner
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.BlockingSyncTestRunner
+  nameWithType.vb: BlockingSyncTestRunner.New
+  fullName.vb: Reqnroll.Infrastructure.BlockingSyncTestRunner.New
+  name.vb: New
+- uid: Reqnroll.ITestRunner
+  commentId: T:Reqnroll.ITestRunner
+  parent: Reqnroll
+  href: Reqnroll.ITestRunner.html
+  name: ITestRunner
+  nameWithType: ITestRunner
+  fullName: Reqnroll.ITestRunner
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.TestWorkerId*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.TestWorkerId
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_TestWorkerId
+  name: TestWorkerId
+  nameWithType: BlockingSyncTestRunner.TestWorkerId
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.TestWorkerId
+- uid: Reqnroll.ISyncTestRunner.TestWorkerId
+  commentId: P:Reqnroll.ISyncTestRunner.TestWorkerId
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_TestWorkerId
+  name: TestWorkerId
+  nameWithType: ISyncTestRunner.TestWorkerId
+  fullName: Reqnroll.ISyncTestRunner.TestWorkerId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.FeatureContext*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.FeatureContext
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_FeatureContext
+  name: FeatureContext
+  nameWithType: BlockingSyncTestRunner.FeatureContext
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.FeatureContext
+- uid: Reqnroll.ISyncTestRunner.FeatureContext
+  commentId: P:Reqnroll.ISyncTestRunner.FeatureContext
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_FeatureContext
+  name: FeatureContext
+  nameWithType: ISyncTestRunner.FeatureContext
+  fullName: Reqnroll.ISyncTestRunner.FeatureContext
+- uid: Reqnroll.FeatureContext
+  commentId: T:Reqnroll.FeatureContext
+  parent: Reqnroll
+  href: Reqnroll.FeatureContext.html
+  name: FeatureContext
+  nameWithType: FeatureContext
+  fullName: Reqnroll.FeatureContext
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.ScenarioContext*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.ScenarioContext
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_ScenarioContext
+  name: ScenarioContext
+  nameWithType: BlockingSyncTestRunner.ScenarioContext
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.ScenarioContext
+- uid: Reqnroll.ISyncTestRunner.ScenarioContext
+  commentId: P:Reqnroll.ISyncTestRunner.ScenarioContext
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_ScenarioContext
+  name: ScenarioContext
+  nameWithType: ISyncTestRunner.ScenarioContext
+  fullName: Reqnroll.ISyncTestRunner.ScenarioContext
+- uid: Reqnroll.ScenarioContext
+  commentId: T:Reqnroll.ScenarioContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioContext.html
+  name: ScenarioContext
+  nameWithType: ScenarioContext
+  fullName: Reqnroll.ScenarioContext
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioInitialize*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioInitialize
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_OnScenarioInitialize_Reqnroll_ScenarioInfo_
+  name: OnScenarioInitialize
+  nameWithType: BlockingSyncTestRunner.OnScenarioInitialize
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioInitialize
+- uid: Reqnroll.ISyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  commentId: M:Reqnroll.ISyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioInitialize_Reqnroll_ScenarioInfo_
+  name: OnScenarioInitialize(ScenarioInfo)
+  nameWithType: ISyncTestRunner.OnScenarioInitialize(ScenarioInfo)
+  fullName: Reqnroll.ISyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+    name: OnScenarioInitialize
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioInitialize_Reqnroll_ScenarioInfo_
+  - name: (
+  - uid: Reqnroll.ScenarioInfo
+    name: ScenarioInfo
+    href: Reqnroll.ScenarioInfo.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.OnScenarioInitialize(Reqnroll.ScenarioInfo)
+    name: OnScenarioInitialize
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioInitialize_Reqnroll_ScenarioInfo_
+  - name: (
+  - uid: Reqnroll.ScenarioInfo
+    name: ScenarioInfo
+    href: Reqnroll.ScenarioInfo.html
+  - name: )
+- uid: Reqnroll.ScenarioInfo
+  commentId: T:Reqnroll.ScenarioInfo
+  parent: Reqnroll
+  href: Reqnroll.ScenarioInfo.html
+  name: ScenarioInfo
+  nameWithType: ScenarioInfo
+  fullName: Reqnroll.ScenarioInfo
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.SkipScenario*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.SkipScenario
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_SkipScenario
+  name: SkipScenario
+  nameWithType: BlockingSyncTestRunner.SkipScenario
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.SkipScenario
+- uid: Reqnroll.ISyncTestRunner.SkipScenario
+  commentId: M:Reqnroll.ISyncTestRunner.SkipScenario
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_SkipScenario
+  name: SkipScenario()
+  nameWithType: ISyncTestRunner.SkipScenario()
+  fullName: Reqnroll.ISyncTestRunner.SkipScenario()
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.SkipScenario
+    name: SkipScenario
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_SkipScenario
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.SkipScenario
+    name: SkipScenario
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_SkipScenario
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.Pending*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.Pending
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_Pending
+  name: Pending
+  nameWithType: BlockingSyncTestRunner.Pending
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.Pending
+- uid: Reqnroll.ISyncTestRunner.Pending
+  commentId: M:Reqnroll.ISyncTestRunner.Pending
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Pending
+  name: Pending()
+  nameWithType: ISyncTestRunner.Pending()
+  fullName: Reqnroll.ISyncTestRunner.Pending()
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.Pending
+    name: Pending
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Pending
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.Pending
+    name: Pending
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Pending
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunStart*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunStart
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_OnTestRunStart
+  name: OnTestRunStart
+  nameWithType: BlockingSyncTestRunner.OnTestRunStart
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunStart
+- uid: Reqnroll.ISyncTestRunner.OnTestRunStart
+  commentId: M:Reqnroll.ISyncTestRunner.OnTestRunStart
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnTestRunStart
+  name: OnTestRunStart()
+  nameWithType: ISyncTestRunner.OnTestRunStart()
+  fullName: Reqnroll.ISyncTestRunner.OnTestRunStart()
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.OnTestRunStart
+    name: OnTestRunStart
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnTestRunStart
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.OnTestRunStart
+    name: OnTestRunStart
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnTestRunStart
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunEnd*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunEnd
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_OnTestRunEnd
+  name: OnTestRunEnd
+  nameWithType: BlockingSyncTestRunner.OnTestRunEnd
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnTestRunEnd
+- uid: Reqnroll.ISyncTestRunner.OnTestRunEnd
+  commentId: M:Reqnroll.ISyncTestRunner.OnTestRunEnd
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnTestRunEnd
+  name: OnTestRunEnd()
+  nameWithType: ISyncTestRunner.OnTestRunEnd()
+  fullName: Reqnroll.ISyncTestRunner.OnTestRunEnd()
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.OnTestRunEnd
+    name: OnTestRunEnd
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnTestRunEnd
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.OnTestRunEnd
+    name: OnTestRunEnd
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnTestRunEnd
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureStart*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureStart
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_OnFeatureStart_Reqnroll_FeatureInfo_
+  name: OnFeatureStart
+  nameWithType: BlockingSyncTestRunner.OnFeatureStart
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureStart
+- uid: Reqnroll.ISyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  commentId: M:Reqnroll.ISyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnFeatureStart_Reqnroll_FeatureInfo_
+  name: OnFeatureStart(FeatureInfo)
+  nameWithType: ISyncTestRunner.OnFeatureStart(FeatureInfo)
+  fullName: Reqnroll.ISyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+    name: OnFeatureStart
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnFeatureStart_Reqnroll_FeatureInfo_
+  - name: (
+  - uid: Reqnroll.FeatureInfo
+    name: FeatureInfo
+    href: Reqnroll.FeatureInfo.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.OnFeatureStart(Reqnroll.FeatureInfo)
+    name: OnFeatureStart
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnFeatureStart_Reqnroll_FeatureInfo_
+  - name: (
+  - uid: Reqnroll.FeatureInfo
+    name: FeatureInfo
+    href: Reqnroll.FeatureInfo.html
+  - name: )
+- uid: Reqnroll.FeatureInfo
+  commentId: T:Reqnroll.FeatureInfo
+  parent: Reqnroll
+  href: Reqnroll.FeatureInfo.html
+  name: FeatureInfo
+  nameWithType: FeatureInfo
+  fullName: Reqnroll.FeatureInfo
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureEnd*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureEnd
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_OnFeatureEnd
+  name: OnFeatureEnd
+  nameWithType: BlockingSyncTestRunner.OnFeatureEnd
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnFeatureEnd
+- uid: Reqnroll.ISyncTestRunner.OnFeatureEnd
+  commentId: M:Reqnroll.ISyncTestRunner.OnFeatureEnd
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnFeatureEnd
+  name: OnFeatureEnd()
+  nameWithType: ISyncTestRunner.OnFeatureEnd()
+  fullName: Reqnroll.ISyncTestRunner.OnFeatureEnd()
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.OnFeatureEnd
+    name: OnFeatureEnd
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnFeatureEnd
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.OnFeatureEnd
+    name: OnFeatureEnd
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnFeatureEnd
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioStart*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioStart
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_OnScenarioStart
+  name: OnScenarioStart
+  nameWithType: BlockingSyncTestRunner.OnScenarioStart
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioStart
+- uid: Reqnroll.ISyncTestRunner.OnScenarioStart
+  commentId: M:Reqnroll.ISyncTestRunner.OnScenarioStart
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioStart
+  name: OnScenarioStart()
+  nameWithType: ISyncTestRunner.OnScenarioStart()
+  fullName: Reqnroll.ISyncTestRunner.OnScenarioStart()
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.OnScenarioStart
+    name: OnScenarioStart
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioStart
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.OnScenarioStart
+    name: OnScenarioStart
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioStart
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.CollectScenarioErrors*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.CollectScenarioErrors
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_CollectScenarioErrors
+  name: CollectScenarioErrors
+  nameWithType: BlockingSyncTestRunner.CollectScenarioErrors
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.CollectScenarioErrors
+- uid: Reqnroll.ISyncTestRunner.CollectScenarioErrors
+  commentId: M:Reqnroll.ISyncTestRunner.CollectScenarioErrors
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_CollectScenarioErrors
+  name: CollectScenarioErrors()
+  nameWithType: ISyncTestRunner.CollectScenarioErrors()
+  fullName: Reqnroll.ISyncTestRunner.CollectScenarioErrors()
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.CollectScenarioErrors
+    name: CollectScenarioErrors
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_CollectScenarioErrors
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.CollectScenarioErrors
+    name: CollectScenarioErrors
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_CollectScenarioErrors
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioEnd*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioEnd
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_OnScenarioEnd
+  name: OnScenarioEnd
+  nameWithType: BlockingSyncTestRunner.OnScenarioEnd
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.OnScenarioEnd
+- uid: Reqnroll.ISyncTestRunner.OnScenarioEnd
+  commentId: M:Reqnroll.ISyncTestRunner.OnScenarioEnd
+  parent: Reqnroll.ISyncTestRunner
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioEnd
+  name: OnScenarioEnd()
+  nameWithType: ISyncTestRunner.OnScenarioEnd()
+  fullName: Reqnroll.ISyncTestRunner.OnScenarioEnd()
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.OnScenarioEnd
+    name: OnScenarioEnd
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioEnd
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.OnScenarioEnd
+    name: OnScenarioEnd
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_OnScenarioEnd
+  - name: (
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.Given*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.Given
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_Given_System_String_System_String_Reqnroll_Table_System_String_
+  name: Given
+  nameWithType: BlockingSyncTestRunner.Given
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.Given
+- uid: Reqnroll.ISyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ISyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ISyncTestRunner
+  isExternal: true
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Given_System_String_System_String_Reqnroll_Table_System_String_
+  name: Given(string, string, Table, string)
+  nameWithType: ISyncTestRunner.Given(string, string, Table, string)
+  fullName: Reqnroll.ISyncTestRunner.Given(string, string, Reqnroll.Table, string)
+  nameWithType.vb: ISyncTestRunner.Given(String, String, Table, String)
+  fullName.vb: Reqnroll.ISyncTestRunner.Given(String, String, Reqnroll.Table, String)
+  name.vb: Given(String, String, Table, String)
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+    name: Given
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Given_System_String_System_String_Reqnroll_Table_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.Given(System.String,System.String,Reqnroll.Table,System.String)
+    name: Given
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Given_System_String_System_String_Reqnroll_Table_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Table
+  commentId: T:Reqnroll.Table
+  parent: Reqnroll
+  href: Reqnroll.Table.html
+  name: Table
+  nameWithType: Table
+  fullName: Reqnroll.Table
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.When*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.When
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_When_System_String_System_String_Reqnroll_Table_System_String_
+  name: When
+  nameWithType: BlockingSyncTestRunner.When
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.When
+- uid: Reqnroll.ISyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ISyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ISyncTestRunner
+  isExternal: true
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_When_System_String_System_String_Reqnroll_Table_System_String_
+  name: When(string, string, Table, string)
+  nameWithType: ISyncTestRunner.When(string, string, Table, string)
+  fullName: Reqnroll.ISyncTestRunner.When(string, string, Reqnroll.Table, string)
+  nameWithType.vb: ISyncTestRunner.When(String, String, Table, String)
+  fullName.vb: Reqnroll.ISyncTestRunner.When(String, String, Reqnroll.Table, String)
+  name.vb: When(String, String, Table, String)
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+    name: When
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_When_System_String_System_String_Reqnroll_Table_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.When(System.String,System.String,Reqnroll.Table,System.String)
+    name: When
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_When_System_String_System_String_Reqnroll_Table_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.Then*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.Then
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_Then_System_String_System_String_Reqnroll_Table_System_String_
+  name: Then
+  nameWithType: BlockingSyncTestRunner.Then
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.Then
+- uid: Reqnroll.ISyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ISyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ISyncTestRunner
+  isExternal: true
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Then_System_String_System_String_Reqnroll_Table_System_String_
+  name: Then(string, string, Table, string)
+  nameWithType: ISyncTestRunner.Then(string, string, Table, string)
+  fullName: Reqnroll.ISyncTestRunner.Then(string, string, Reqnroll.Table, string)
+  nameWithType.vb: ISyncTestRunner.Then(String, String, Table, String)
+  fullName.vb: Reqnroll.ISyncTestRunner.Then(String, String, Reqnroll.Table, String)
+  name.vb: Then(String, String, Table, String)
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+    name: Then
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Then_System_String_System_String_Reqnroll_Table_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.Then(System.String,System.String,Reqnroll.Table,System.String)
+    name: Then
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_Then_System_String_System_String_Reqnroll_Table_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.And*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.And
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_And_System_String_System_String_Reqnroll_Table_System_String_
+  name: And
+  nameWithType: BlockingSyncTestRunner.And
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.And
+- uid: Reqnroll.ISyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ISyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ISyncTestRunner
+  isExternal: true
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_And_System_String_System_String_Reqnroll_Table_System_String_
+  name: And(string, string, Table, string)
+  nameWithType: ISyncTestRunner.And(string, string, Table, string)
+  fullName: Reqnroll.ISyncTestRunner.And(string, string, Reqnroll.Table, string)
+  nameWithType.vb: ISyncTestRunner.And(String, String, Table, String)
+  fullName.vb: Reqnroll.ISyncTestRunner.And(String, String, Reqnroll.Table, String)
+  name.vb: And(String, String, Table, String)
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+    name: And
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_And_System_String_System_String_Reqnroll_Table_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.And(System.String,System.String,Reqnroll.Table,System.String)
+    name: And
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_And_System_String_System_String_Reqnroll_Table_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Reqnroll.Infrastructure.BlockingSyncTestRunner.But*
+  commentId: Overload:Reqnroll.Infrastructure.BlockingSyncTestRunner.But
+  href: Reqnroll.Infrastructure.BlockingSyncTestRunner.html#Reqnroll_Infrastructure_BlockingSyncTestRunner_But_System_String_System_String_Reqnroll_Table_System_String_
+  name: But
+  nameWithType: BlockingSyncTestRunner.But
+  fullName: Reqnroll.Infrastructure.BlockingSyncTestRunner.But
+- uid: Reqnroll.ISyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+  commentId: M:Reqnroll.ISyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+  parent: Reqnroll.ISyncTestRunner
+  isExternal: true
+  href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_But_System_String_System_String_Reqnroll_Table_System_String_
+  name: But(string, string, Table, string)
+  nameWithType: ISyncTestRunner.But(string, string, Table, string)
+  fullName: Reqnroll.ISyncTestRunner.But(string, string, Reqnroll.Table, string)
+  nameWithType.vb: ISyncTestRunner.But(String, String, Table, String)
+  fullName.vb: Reqnroll.ISyncTestRunner.But(String, String, Reqnroll.Table, String)
+  name.vb: But(String, String, Table, String)
+  spec.csharp:
+  - uid: Reqnroll.ISyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+    name: But
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_But_System_String_System_String_Reqnroll_Table_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.ISyncTestRunner.But(System.String,System.String,Reqnroll.Table,System.String)
+    name: But
+    href: Reqnroll.ISyncTestRunner.html#Reqnroll_ISyncTestRunner_But_System_String_System_String_Reqnroll_Table_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Table
+    name: Table
+    href: Reqnroll.Table.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

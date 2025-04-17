@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Infrastructure.ITestUndefinedMessageFactory
+  commentId: T:Reqnroll.Infrastructure.ITestUndefinedMessageFactory
+  id: ITestUndefinedMessageFactory
+  parent: Reqnroll.Infrastructure
+  children:
+  - Reqnroll.Infrastructure.ITestUndefinedMessageFactory.BuildFromContext(Reqnroll.ScenarioContext,Reqnroll.FeatureContext)
+  langs:
+  - csharp
+  - vb
+  name: ITestUndefinedMessageFactory
+  nameWithType: ITestUndefinedMessageFactory
+  fullName: Reqnroll.Infrastructure.ITestUndefinedMessageFactory
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestUndefinedMessageFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ITestUndefinedMessageFactory
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestUndefinedMessageFactory.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: public interface ITestUndefinedMessageFactory
+    content.vb: Public Interface ITestUndefinedMessageFactory
+- uid: Reqnroll.Infrastructure.ITestUndefinedMessageFactory.BuildFromContext(Reqnroll.ScenarioContext,Reqnroll.FeatureContext)
+  commentId: M:Reqnroll.Infrastructure.ITestUndefinedMessageFactory.BuildFromContext(Reqnroll.ScenarioContext,Reqnroll.FeatureContext)
+  id: BuildFromContext(Reqnroll.ScenarioContext,Reqnroll.FeatureContext)
+  parent: Reqnroll.Infrastructure.ITestUndefinedMessageFactory
+  langs:
+  - csharp
+  - vb
+  name: BuildFromContext(ScenarioContext, FeatureContext)
+  nameWithType: ITestUndefinedMessageFactory.BuildFromContext(ScenarioContext, FeatureContext)
+  fullName: Reqnroll.Infrastructure.ITestUndefinedMessageFactory.BuildFromContext(Reqnroll.ScenarioContext, Reqnroll.FeatureContext)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Infrastructure/ITestUndefinedMessageFactory.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: BuildFromContext
+    path: ../Reqnroll/Reqnroll/Infrastructure/ITestUndefinedMessageFactory.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Infrastructure
+  syntax:
+    content: string BuildFromContext(ScenarioContext scenarioContext, FeatureContext featureContext)
+    parameters:
+    - id: scenarioContext
+      type: Reqnroll.ScenarioContext
+    - id: featureContext
+      type: Reqnroll.FeatureContext
+    return:
+      type: System.String
+    content.vb: Function BuildFromContext(scenarioContext As ScenarioContext, featureContext As FeatureContext) As String
+  overload: Reqnroll.Infrastructure.ITestUndefinedMessageFactory.BuildFromContext*
+references:
+- uid: Reqnroll.Infrastructure
+  commentId: N:Reqnroll.Infrastructure
+  href: Reqnroll.html
+  name: Reqnroll.Infrastructure
+  nameWithType: Reqnroll.Infrastructure
+  fullName: Reqnroll.Infrastructure
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Infrastructure
+    name: Infrastructure
+    href: Reqnroll.Infrastructure.html
+- uid: Reqnroll.Infrastructure.ITestUndefinedMessageFactory.BuildFromContext*
+  commentId: Overload:Reqnroll.Infrastructure.ITestUndefinedMessageFactory.BuildFromContext
+  href: Reqnroll.Infrastructure.ITestUndefinedMessageFactory.html#Reqnroll_Infrastructure_ITestUndefinedMessageFactory_BuildFromContext_Reqnroll_ScenarioContext_Reqnroll_FeatureContext_
+  name: BuildFromContext
+  nameWithType: ITestUndefinedMessageFactory.BuildFromContext
+  fullName: Reqnroll.Infrastructure.ITestUndefinedMessageFactory.BuildFromContext
+- uid: Reqnroll.ScenarioContext
+  commentId: T:Reqnroll.ScenarioContext
+  parent: Reqnroll
+  href: Reqnroll.ScenarioContext.html
+  name: ScenarioContext
+  nameWithType: ScenarioContext
+  fullName: Reqnroll.ScenarioContext
+- uid: Reqnroll.FeatureContext
+  commentId: T:Reqnroll.FeatureContext
+  parent: Reqnroll
+  href: Reqnroll.FeatureContext.html
+  name: FeatureContext
+  nameWithType: FeatureContext
+  fullName: Reqnroll.FeatureContext
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

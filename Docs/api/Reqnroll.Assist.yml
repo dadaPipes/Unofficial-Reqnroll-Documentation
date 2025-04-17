@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  id: Reqnroll.Assist
+  children:
+  - Reqnroll.Assist.EnumerableProjection`1
+  - Reqnroll.Assist.FindInSetExtensionMethods
+  - Reqnroll.Assist.ITableDiffExceptionBuilder`1
+  - Reqnroll.Assist.IValueComparer
+  - Reqnroll.Assist.IValueRetriever
+  - Reqnroll.Assist.InstanceCreationOptions
+  - Reqnroll.Assist.ProjectionEnumerator`1
+  - Reqnroll.Assist.ProjectionExtensionMethods
+  - Reqnroll.Assist.Projection`1
+  - Reqnroll.Assist.RowExtensionMethods
+  - Reqnroll.Assist.Service
+  - Reqnroll.Assist.ServiceComponentList`1
+  - Reqnroll.Assist.SetComparer`1
+  - Reqnroll.Assist.TableDifferenceItem`1
+  - Reqnroll.Assist.TableDifferenceResults`1
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Assist.EnumerableProjection`1
+  commentId: T:Reqnroll.Assist.EnumerableProjection`1
+  href: Reqnroll.Assist.EnumerableProjection-1.html
+  name: EnumerableProjection<T>
+  nameWithType: EnumerableProjection<T>
+  fullName: Reqnroll.Assist.EnumerableProjection<T>
+  nameWithType.vb: EnumerableProjection(Of T)
+  fullName.vb: Reqnroll.Assist.EnumerableProjection(Of T)
+  name.vb: EnumerableProjection(Of T)
+  spec.csharp:
+  - uid: Reqnroll.Assist.EnumerableProjection`1
+    name: EnumerableProjection
+    href: Reqnroll.Assist.EnumerableProjection-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.EnumerableProjection`1
+    name: EnumerableProjection
+    href: Reqnroll.Assist.EnumerableProjection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Assist.ProjectionEnumerator`1
+  commentId: T:Reqnroll.Assist.ProjectionEnumerator`1
+  href: Reqnroll.Assist.ProjectionEnumerator-1.html
+  name: ProjectionEnumerator<T>
+  nameWithType: ProjectionEnumerator<T>
+  fullName: Reqnroll.Assist.ProjectionEnumerator<T>
+  nameWithType.vb: ProjectionEnumerator(Of T)
+  fullName.vb: Reqnroll.Assist.ProjectionEnumerator(Of T)
+  name.vb: ProjectionEnumerator(Of T)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ProjectionEnumerator`1
+    name: ProjectionEnumerator
+    href: Reqnroll.Assist.ProjectionEnumerator-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.ProjectionEnumerator`1
+    name: ProjectionEnumerator
+    href: Reqnroll.Assist.ProjectionEnumerator-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Assist.Projection`1
+  commentId: T:Reqnroll.Assist.Projection`1
+  href: Reqnroll.Assist.Projection-1.html
+  name: Projection<T>
+  nameWithType: Projection<T>
+  fullName: Reqnroll.Assist.Projection<T>
+  nameWithType.vb: Projection(Of T)
+  fullName.vb: Reqnroll.Assist.Projection(Of T)
+  name.vb: Projection(Of T)
+  spec.csharp:
+  - uid: Reqnroll.Assist.Projection`1
+    name: Projection
+    href: Reqnroll.Assist.Projection-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.Projection`1
+    name: Projection
+    href: Reqnroll.Assist.Projection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Assist.FindInSetExtensionMethods
+  commentId: T:Reqnroll.Assist.FindInSetExtensionMethods
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.FindInSetExtensionMethods.html
+  name: FindInSetExtensionMethods
+  nameWithType: FindInSetExtensionMethods
+  fullName: Reqnroll.Assist.FindInSetExtensionMethods
+- uid: Reqnroll.Assist.InstanceCreationOptions
+  commentId: T:Reqnroll.Assist.InstanceCreationOptions
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.InstanceCreationOptions.html
+  name: InstanceCreationOptions
+  nameWithType: InstanceCreationOptions
+  fullName: Reqnroll.Assist.InstanceCreationOptions
+- uid: Reqnroll.Assist.IValueComparer
+  commentId: T:Reqnroll.Assist.IValueComparer
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.IValueComparer.html
+  name: IValueComparer
+  nameWithType: IValueComparer
+  fullName: Reqnroll.Assist.IValueComparer
+- uid: Reqnroll.Assist.IValueRetriever
+  commentId: T:Reqnroll.Assist.IValueRetriever
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.IValueRetriever.html
+  name: IValueRetriever
+  nameWithType: IValueRetriever
+  fullName: Reqnroll.Assist.IValueRetriever
+- uid: Reqnroll.Assist.ProjectionExtensionMethods
+  commentId: T:Reqnroll.Assist.ProjectionExtensionMethods
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.ProjectionExtensionMethods.html
+  name: ProjectionExtensionMethods
+  nameWithType: ProjectionExtensionMethods
+  fullName: Reqnroll.Assist.ProjectionExtensionMethods
+- uid: Reqnroll.Assist.RowExtensionMethods
+  commentId: T:Reqnroll.Assist.RowExtensionMethods
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.RowExtensionMethods.html
+  name: RowExtensionMethods
+  nameWithType: RowExtensionMethods
+  fullName: Reqnroll.Assist.RowExtensionMethods
+- uid: Reqnroll.Assist.Service
+  commentId: T:Reqnroll.Assist.Service
+  parent: Reqnroll.Assist
+  href: Reqnroll.Assist.Service.html
+  name: Service
+  nameWithType: Service
+  fullName: Reqnroll.Assist.Service
+- uid: Reqnroll.Assist.ServiceComponentList`1
+  commentId: T:Reqnroll.Assist.ServiceComponentList`1
+  href: Reqnroll.Assist.ServiceComponentList-1.html
+  name: ServiceComponentList<T>
+  nameWithType: ServiceComponentList<T>
+  fullName: Reqnroll.Assist.ServiceComponentList<T>
+  nameWithType.vb: ServiceComponentList(Of T)
+  fullName.vb: Reqnroll.Assist.ServiceComponentList(Of T)
+  name.vb: ServiceComponentList(Of T)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ServiceComponentList`1
+    name: ServiceComponentList
+    href: Reqnroll.Assist.ServiceComponentList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.ServiceComponentList`1
+    name: ServiceComponentList
+    href: Reqnroll.Assist.ServiceComponentList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Assist.SetComparer`1
+  commentId: T:Reqnroll.Assist.SetComparer`1
+  href: Reqnroll.Assist.SetComparer-1.html
+  name: SetComparer<T>
+  nameWithType: SetComparer<T>
+  fullName: Reqnroll.Assist.SetComparer<T>
+  nameWithType.vb: SetComparer(Of T)
+  fullName.vb: Reqnroll.Assist.SetComparer(Of T)
+  name.vb: SetComparer(Of T)
+  spec.csharp:
+  - uid: Reqnroll.Assist.SetComparer`1
+    name: SetComparer
+    href: Reqnroll.Assist.SetComparer-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.SetComparer`1
+    name: SetComparer
+    href: Reqnroll.Assist.SetComparer-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Assist.TableDifferenceItem`1
+  commentId: T:Reqnroll.Assist.TableDifferenceItem`1
+  href: Reqnroll.Assist.TableDifferenceItem-1.html
+  name: TableDifferenceItem<TT>
+  nameWithType: TableDifferenceItem<TT>
+  fullName: Reqnroll.Assist.TableDifferenceItem<TT>
+  nameWithType.vb: TableDifferenceItem(Of TT)
+  fullName.vb: Reqnroll.Assist.TableDifferenceItem(Of TT)
+  name.vb: TableDifferenceItem(Of TT)
+  spec.csharp:
+  - uid: Reqnroll.Assist.TableDifferenceItem`1
+    name: TableDifferenceItem
+    href: Reqnroll.Assist.TableDifferenceItem-1.html
+  - name: <
+  - name: TT
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.TableDifferenceItem`1
+    name: TableDifferenceItem
+    href: Reqnroll.Assist.TableDifferenceItem-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TT
+  - name: )
+- uid: Reqnroll.Assist.TableDifferenceResults`1
+  commentId: T:Reqnroll.Assist.TableDifferenceResults`1
+  href: Reqnroll.Assist.TableDifferenceResults-1.html
+  name: TableDifferenceResults<TT>
+  nameWithType: TableDifferenceResults<TT>
+  fullName: Reqnroll.Assist.TableDifferenceResults<TT>
+  nameWithType.vb: TableDifferenceResults(Of TT)
+  fullName.vb: Reqnroll.Assist.TableDifferenceResults(Of TT)
+  name.vb: TableDifferenceResults(Of TT)
+  spec.csharp:
+  - uid: Reqnroll.Assist.TableDifferenceResults`1
+    name: TableDifferenceResults
+    href: Reqnroll.Assist.TableDifferenceResults-1.html
+  - name: <
+  - name: TT
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.TableDifferenceResults`1
+    name: TableDifferenceResults
+    href: Reqnroll.Assist.TableDifferenceResults-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TT
+  - name: )
+- uid: Reqnroll.Assist.ITableDiffExceptionBuilder`1
+  commentId: T:Reqnroll.Assist.ITableDiffExceptionBuilder`1
+  href: Reqnroll.Assist.ITableDiffExceptionBuilder-1.html
+  name: ITableDiffExceptionBuilder<T>
+  nameWithType: ITableDiffExceptionBuilder<T>
+  fullName: Reqnroll.Assist.ITableDiffExceptionBuilder<T>
+  nameWithType.vb: ITableDiffExceptionBuilder(Of T)
+  fullName.vb: Reqnroll.Assist.ITableDiffExceptionBuilder(Of T)
+  name.vb: ITableDiffExceptionBuilder(Of T)
+  spec.csharp:
+  - uid: Reqnroll.Assist.ITableDiffExceptionBuilder`1
+    name: ITableDiffExceptionBuilder
+    href: Reqnroll.Assist.ITableDiffExceptionBuilder-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Reqnroll.Assist.ITableDiffExceptionBuilder`1
+    name: ITableDiffExceptionBuilder
+    href: Reqnroll.Assist.ITableDiffExceptionBuilder-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Reqnroll.Assist
+  commentId: N:Reqnroll.Assist
+  href: Reqnroll.html
+  name: Reqnroll.Assist
+  nameWithType: Reqnroll.Assist
+  fullName: Reqnroll.Assist
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Assist
+    name: Assist
+    href: Reqnroll.Assist.html

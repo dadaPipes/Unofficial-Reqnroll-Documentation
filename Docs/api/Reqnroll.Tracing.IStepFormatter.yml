@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.IStepFormatter
+  commentId: T:Reqnroll.Tracing.IStepFormatter
+  id: IStepFormatter
+  parent: Reqnroll.Tracing
+  children:
+  - Reqnroll.Tracing.IStepFormatter.GetMatchText(Reqnroll.Bindings.BindingMatch,System.Object[])
+  - Reqnroll.Tracing.IStepFormatter.GetMatchText(Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  - Reqnroll.Tracing.IStepFormatter.GetStepDescription(Reqnroll.Bindings.StepInstance)
+  - Reqnroll.Tracing.IStepFormatter.GetStepText(Reqnroll.Bindings.StepInstance)
+  langs:
+  - csharp
+  - vb
+  name: IStepFormatter
+  nameWithType: IStepFormatter
+  fullName: Reqnroll.Tracing.IStepFormatter
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Tracing/StepFormatter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IStepFormatter
+    path: ../Reqnroll/Reqnroll/Tracing/StepFormatter.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public interface IStepFormatter
+    content.vb: Public Interface IStepFormatter
+- uid: Reqnroll.Tracing.IStepFormatter.GetStepDescription(Reqnroll.Bindings.StepInstance)
+  commentId: M:Reqnroll.Tracing.IStepFormatter.GetStepDescription(Reqnroll.Bindings.StepInstance)
+  id: GetStepDescription(Reqnroll.Bindings.StepInstance)
+  parent: Reqnroll.Tracing.IStepFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetStepDescription(StepInstance)
+  nameWithType: IStepFormatter.GetStepDescription(StepInstance)
+  fullName: Reqnroll.Tracing.IStepFormatter.GetStepDescription(Reqnroll.Bindings.StepInstance)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/StepFormatter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetStepDescription
+    path: ../Reqnroll/Reqnroll/Tracing/StepFormatter.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: string GetStepDescription(StepInstance stepInstance)
+    parameters:
+    - id: stepInstance
+      type: Reqnroll.Bindings.StepInstance
+    return:
+      type: System.String
+    content.vb: Function GetStepDescription(stepInstance As StepInstance) As String
+  overload: Reqnroll.Tracing.IStepFormatter.GetStepDescription*
+- uid: Reqnroll.Tracing.IStepFormatter.GetMatchText(Reqnroll.Bindings.BindingMatch,System.Object[])
+  commentId: M:Reqnroll.Tracing.IStepFormatter.GetMatchText(Reqnroll.Bindings.BindingMatch,System.Object[])
+  id: GetMatchText(Reqnroll.Bindings.BindingMatch,System.Object[])
+  parent: Reqnroll.Tracing.IStepFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetMatchText(BindingMatch, object[])
+  nameWithType: IStepFormatter.GetMatchText(BindingMatch, object[])
+  fullName: Reqnroll.Tracing.IStepFormatter.GetMatchText(Reqnroll.Bindings.BindingMatch, object[])
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/StepFormatter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetMatchText
+    path: ../Reqnroll/Reqnroll/Tracing/StepFormatter.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: string GetMatchText(BindingMatch match, object[] arguments)
+    parameters:
+    - id: match
+      type: Reqnroll.Bindings.BindingMatch
+    - id: arguments
+      type: System.Object[]
+    return:
+      type: System.String
+    content.vb: Function GetMatchText(match As BindingMatch, arguments As Object()) As String
+  overload: Reqnroll.Tracing.IStepFormatter.GetMatchText*
+  nameWithType.vb: IStepFormatter.GetMatchText(BindingMatch, Object())
+  fullName.vb: Reqnroll.Tracing.IStepFormatter.GetMatchText(Reqnroll.Bindings.BindingMatch, Object())
+  name.vb: GetMatchText(BindingMatch, Object())
+- uid: Reqnroll.Tracing.IStepFormatter.GetMatchText(Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  commentId: M:Reqnroll.Tracing.IStepFormatter.GetMatchText(Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  id: GetMatchText(Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  parent: Reqnroll.Tracing.IStepFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetMatchText(IBindingMethod, object[])
+  nameWithType: IStepFormatter.GetMatchText(IBindingMethod, object[])
+  fullName: Reqnroll.Tracing.IStepFormatter.GetMatchText(Reqnroll.Bindings.Reflection.IBindingMethod, object[])
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/StepFormatter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetMatchText
+    path: ../Reqnroll/Reqnroll/Tracing/StepFormatter.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: string GetMatchText(IBindingMethod method, object[] arguments)
+    parameters:
+    - id: method
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: arguments
+      type: System.Object[]
+    return:
+      type: System.String
+    content.vb: Function GetMatchText(method As IBindingMethod, arguments As Object()) As String
+  overload: Reqnroll.Tracing.IStepFormatter.GetMatchText*
+  nameWithType.vb: IStepFormatter.GetMatchText(IBindingMethod, Object())
+  fullName.vb: Reqnroll.Tracing.IStepFormatter.GetMatchText(Reqnroll.Bindings.Reflection.IBindingMethod, Object())
+  name.vb: GetMatchText(IBindingMethod, Object())
+- uid: Reqnroll.Tracing.IStepFormatter.GetStepText(Reqnroll.Bindings.StepInstance)
+  commentId: M:Reqnroll.Tracing.IStepFormatter.GetStepText(Reqnroll.Bindings.StepInstance)
+  id: GetStepText(Reqnroll.Bindings.StepInstance)
+  parent: Reqnroll.Tracing.IStepFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetStepText(StepInstance)
+  nameWithType: IStepFormatter.GetStepText(StepInstance)
+  fullName: Reqnroll.Tracing.IStepFormatter.GetStepText(Reqnroll.Bindings.StepInstance)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/StepFormatter.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetStepText
+    path: ../Reqnroll/Reqnroll/Tracing/StepFormatter.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: string GetStepText(StepInstance stepInstance)
+    parameters:
+    - id: stepInstance
+      type: Reqnroll.Bindings.StepInstance
+    return:
+      type: System.String
+    content.vb: Function GetStepText(stepInstance As StepInstance) As String
+  overload: Reqnroll.Tracing.IStepFormatter.GetStepText*
+references:
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: Reqnroll.Tracing.IStepFormatter.GetStepDescription*
+  commentId: Overload:Reqnroll.Tracing.IStepFormatter.GetStepDescription
+  href: Reqnroll.Tracing.IStepFormatter.html#Reqnroll_Tracing_IStepFormatter_GetStepDescription_Reqnroll_Bindings_StepInstance_
+  name: GetStepDescription
+  nameWithType: IStepFormatter.GetStepDescription
+  fullName: Reqnroll.Tracing.IStepFormatter.GetStepDescription
+- uid: Reqnroll.Bindings.StepInstance
+  commentId: T:Reqnroll.Bindings.StepInstance
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepInstance.html
+  name: StepInstance
+  nameWithType: StepInstance
+  fullName: Reqnroll.Bindings.StepInstance
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Tracing.IStepFormatter.GetMatchText*
+  commentId: Overload:Reqnroll.Tracing.IStepFormatter.GetMatchText
+  href: Reqnroll.Tracing.IStepFormatter.html#Reqnroll_Tracing_IStepFormatter_GetMatchText_Reqnroll_Bindings_BindingMatch_System_Object___
+  name: GetMatchText
+  nameWithType: IStepFormatter.GetMatchText
+  fullName: Reqnroll.Tracing.IStepFormatter.GetMatchText
+- uid: Reqnroll.Bindings.BindingMatch
+  commentId: T:Reqnroll.Bindings.BindingMatch
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingMatch.html
+  name: BindingMatch
+  nameWithType: BindingMatch
+  fullName: Reqnroll.Bindings.BindingMatch
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: Reqnroll.Tracing.IStepFormatter.GetStepText*
+  commentId: Overload:Reqnroll.Tracing.IStepFormatter.GetStepText
+  href: Reqnroll.Tracing.IStepFormatter.html#Reqnroll_Tracing_IStepFormatter_GetStepText_Reqnroll_Bindings_StepInstance_
+  name: GetStepText
+  nameWithType: IStepFormatter.GetStepText
+  fullName: Reqnroll.Tracing.IStepFormatter.GetStepText

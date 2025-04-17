@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.UserId.IUserUniqueIdStore
+  commentId: T:Reqnroll.Analytics.UserId.IUserUniqueIdStore
+  id: IUserUniqueIdStore
+  parent: Reqnroll.Analytics.UserId
+  children:
+  - Reqnroll.Analytics.UserId.IUserUniqueIdStore.GetUserId
+  langs:
+  - csharp
+  - vb
+  name: IUserUniqueIdStore
+  nameWithType: IUserUniqueIdStore
+  fullName: Reqnroll.Analytics.UserId.IUserUniqueIdStore
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Analytics/UserId/IUserUniqueIdStore.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IUserUniqueIdStore
+    path: ../Reqnroll/Reqnroll/Analytics/UserId/IUserUniqueIdStore.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.UserId
+  syntax:
+    content: public interface IUserUniqueIdStore
+    content.vb: Public Interface IUserUniqueIdStore
+- uid: Reqnroll.Analytics.UserId.IUserUniqueIdStore.GetUserId
+  commentId: M:Reqnroll.Analytics.UserId.IUserUniqueIdStore.GetUserId
+  id: GetUserId
+  parent: Reqnroll.Analytics.UserId.IUserUniqueIdStore
+  langs:
+  - csharp
+  - vb
+  name: GetUserId()
+  nameWithType: IUserUniqueIdStore.GetUserId()
+  fullName: Reqnroll.Analytics.UserId.IUserUniqueIdStore.GetUserId()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/UserId/IUserUniqueIdStore.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetUserId
+    path: ../Reqnroll/Reqnroll/Analytics/UserId/IUserUniqueIdStore.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.UserId
+  syntax:
+    content: string GetUserId()
+    return:
+      type: System.String
+    content.vb: Function GetUserId() As String
+  overload: Reqnroll.Analytics.UserId.IUserUniqueIdStore.GetUserId*
+references:
+- uid: Reqnroll.Analytics.UserId
+  commentId: N:Reqnroll.Analytics.UserId
+  href: Reqnroll.html
+  name: Reqnroll.Analytics.UserId
+  nameWithType: Reqnroll.Analytics.UserId
+  fullName: Reqnroll.Analytics.UserId
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.UserId
+    name: UserId
+    href: Reqnroll.Analytics.UserId.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.UserId
+    name: UserId
+    href: Reqnroll.Analytics.UserId.html
+- uid: Reqnroll.Analytics.UserId.IUserUniqueIdStore.GetUserId*
+  commentId: Overload:Reqnroll.Analytics.UserId.IUserUniqueIdStore.GetUserId
+  href: Reqnroll.Analytics.UserId.IUserUniqueIdStore.html#Reqnroll_Analytics_UserId_IUserUniqueIdStore_GetUserId
+  name: GetUserId
+  nameWithType: IUserUniqueIdStore.GetUserId
+  fullName: Reqnroll.Analytics.UserId.IUserUniqueIdStore.GetUserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

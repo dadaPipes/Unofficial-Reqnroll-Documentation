@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Configuration.ConfigSource
+  commentId: T:Reqnroll.Configuration.ConfigSource
+  id: ConfigSource
+  parent: Reqnroll.Configuration
+  children:
+  - Reqnroll.Configuration.ConfigSource.AppConfig
+  - Reqnroll.Configuration.ConfigSource.Default
+  - Reqnroll.Configuration.ConfigSource.Json
+  langs:
+  - csharp
+  - vb
+  name: ConfigSource
+  nameWithType: ConfigSource
+  fullName: Reqnroll.Configuration.ConfigSource
+  type: Enum
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: ConfigSource
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: public enum ConfigSource
+    content.vb: Public Enum ConfigSource
+- uid: Reqnroll.Configuration.ConfigSource.AppConfig
+  commentId: F:Reqnroll.Configuration.ConfigSource.AppConfig
+  id: AppConfig
+  parent: Reqnroll.Configuration.ConfigSource
+  langs:
+  - csharp
+  - vb
+  name: AppConfig
+  nameWithType: ConfigSource.AppConfig
+  fullName: Reqnroll.Configuration.ConfigSource.AppConfig
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AppConfig
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 10
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: AppConfig = 0
+    return:
+      type: Reqnroll.Configuration.ConfigSource
+- uid: Reqnroll.Configuration.ConfigSource.Json
+  commentId: F:Reqnroll.Configuration.ConfigSource.Json
+  id: Json
+  parent: Reqnroll.Configuration.ConfigSource
+  langs:
+  - csharp
+  - vb
+  name: Json
+  nameWithType: ConfigSource.Json
+  fullName: Reqnroll.Configuration.ConfigSource.Json
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Json
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: Json = 1
+    return:
+      type: Reqnroll.Configuration.ConfigSource
+- uid: Reqnroll.Configuration.ConfigSource.Default
+  commentId: F:Reqnroll.Configuration.ConfigSource.Default
+  id: Default
+  parent: Reqnroll.Configuration.ConfigSource
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: ConfigSource.Default
+  fullName: Reqnroll.Configuration.ConfigSource.Default
+  type: Field
+  source:
+    remote:
+      path: Reqnroll/Configuration/ReqnrollConfiguration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Default
+    path: ../Reqnroll/Reqnroll/Configuration/ReqnrollConfiguration.cs
+    startLine: 12
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Configuration
+  syntax:
+    content: Default = 2
+    return:
+      type: Reqnroll.Configuration.ConfigSource
+references:
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.Configuration.ConfigSource
+  commentId: T:Reqnroll.Configuration.ConfigSource
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ConfigSource.html
+  name: ConfigSource
+  nameWithType: ConfigSource
+  fullName: Reqnroll.Configuration.ConfigSource

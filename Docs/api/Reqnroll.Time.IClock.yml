@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Time.IClock
+  commentId: T:Reqnroll.Time.IClock
+  id: IClock
+  parent: Reqnroll.Time
+  children:
+  - Reqnroll.Time.IClock.GetNowDateAndTime
+  - Reqnroll.Time.IClock.GetToday
+  langs:
+  - csharp
+  - vb
+  name: IClock
+  nameWithType: IClock
+  fullName: Reqnroll.Time.IClock
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Time/IClock.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IClock
+    path: ../Reqnroll/Reqnroll/Time/IClock.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Time
+  syntax:
+    content: public interface IClock
+    content.vb: Public Interface IClock
+- uid: Reqnroll.Time.IClock.GetToday
+  commentId: M:Reqnroll.Time.IClock.GetToday
+  id: GetToday
+  parent: Reqnroll.Time.IClock
+  langs:
+  - csharp
+  - vb
+  name: GetToday()
+  nameWithType: IClock.GetToday()
+  fullName: Reqnroll.Time.IClock.GetToday()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Time/IClock.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetToday
+    path: ../Reqnroll/Reqnroll/Time/IClock.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Time
+  syntax:
+    content: DateTime GetToday()
+    return:
+      type: System.DateTime
+    content.vb: Function GetToday() As Date
+  overload: Reqnroll.Time.IClock.GetToday*
+- uid: Reqnroll.Time.IClock.GetNowDateAndTime
+  commentId: M:Reqnroll.Time.IClock.GetNowDateAndTime
+  id: GetNowDateAndTime
+  parent: Reqnroll.Time.IClock
+  langs:
+  - csharp
+  - vb
+  name: GetNowDateAndTime()
+  nameWithType: IClock.GetNowDateAndTime()
+  fullName: Reqnroll.Time.IClock.GetNowDateAndTime()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Time/IClock.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: GetNowDateAndTime
+    path: ../Reqnroll/Reqnroll/Time/IClock.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Time
+  syntax:
+    content: DateTime GetNowDateAndTime()
+    return:
+      type: System.DateTime
+    content.vb: Function GetNowDateAndTime() As Date
+  overload: Reqnroll.Time.IClock.GetNowDateAndTime*
+references:
+- uid: Reqnroll.Time
+  commentId: N:Reqnroll.Time
+  href: Reqnroll.html
+  name: Reqnroll.Time
+  nameWithType: Reqnroll.Time
+  fullName: Reqnroll.Time
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Time
+    name: Time
+    href: Reqnroll.Time.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Time
+    name: Time
+    href: Reqnroll.Time.html
+- uid: Reqnroll.Time.IClock.GetToday*
+  commentId: Overload:Reqnroll.Time.IClock.GetToday
+  href: Reqnroll.Time.IClock.html#Reqnroll_Time_IClock_GetToday
+  name: GetToday
+  nameWithType: IClock.GetToday
+  fullName: Reqnroll.Time.IClock.GetToday
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Time.IClock.GetNowDateAndTime*
+  commentId: Overload:Reqnroll.Time.IClock.GetNowDateAndTime
+  href: Reqnroll.Time.IClock.html#Reqnroll_Time_IClock_GetNowDateAndTime
+  name: GetNowDateAndTime
+  nameWithType: IClock.GetNowDateAndTime
+  fullName: Reqnroll.Time.IClock.GetNowDateAndTime

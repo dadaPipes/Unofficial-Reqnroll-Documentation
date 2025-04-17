@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.UserId
+  commentId: N:Reqnroll.Analytics.UserId
+  id: Reqnroll.Analytics.UserId
+  children:
+  - Reqnroll.Analytics.UserId.DirectoryService
+  - Reqnroll.Analytics.UserId.FileService
+  - Reqnroll.Analytics.UserId.FileUserIdStore
+  - Reqnroll.Analytics.UserId.IDirectoryService
+  - Reqnroll.Analytics.UserId.IFileService
+  - Reqnroll.Analytics.UserId.IUserUniqueIdStore
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Analytics.UserId
+  nameWithType: Reqnroll.Analytics.UserId
+  fullName: Reqnroll.Analytics.UserId
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Analytics.UserId.DirectoryService
+  commentId: T:Reqnroll.Analytics.UserId.DirectoryService
+  href: Reqnroll.Analytics.UserId.DirectoryService.html
+  name: DirectoryService
+  nameWithType: DirectoryService
+  fullName: Reqnroll.Analytics.UserId.DirectoryService
+- uid: Reqnroll.Analytics.UserId.FileService
+  commentId: T:Reqnroll.Analytics.UserId.FileService
+  href: Reqnroll.Analytics.UserId.FileService.html
+  name: FileService
+  nameWithType: FileService
+  fullName: Reqnroll.Analytics.UserId.FileService
+- uid: Reqnroll.Analytics.UserId.FileUserIdStore
+  commentId: T:Reqnroll.Analytics.UserId.FileUserIdStore
+  href: Reqnroll.Analytics.UserId.FileUserIdStore.html
+  name: FileUserIdStore
+  nameWithType: FileUserIdStore
+  fullName: Reqnroll.Analytics.UserId.FileUserIdStore
+- uid: Reqnroll.Analytics.UserId.IDirectoryService
+  commentId: T:Reqnroll.Analytics.UserId.IDirectoryService
+  parent: Reqnroll.Analytics.UserId
+  href: Reqnroll.Analytics.UserId.IDirectoryService.html
+  name: IDirectoryService
+  nameWithType: IDirectoryService
+  fullName: Reqnroll.Analytics.UserId.IDirectoryService
+- uid: Reqnroll.Analytics.UserId.IFileService
+  commentId: T:Reqnroll.Analytics.UserId.IFileService
+  parent: Reqnroll.Analytics.UserId
+  href: Reqnroll.Analytics.UserId.IFileService.html
+  name: IFileService
+  nameWithType: IFileService
+  fullName: Reqnroll.Analytics.UserId.IFileService
+- uid: Reqnroll.Analytics.UserId.IUserUniqueIdStore
+  commentId: T:Reqnroll.Analytics.UserId.IUserUniqueIdStore
+  parent: Reqnroll.Analytics.UserId
+  href: Reqnroll.Analytics.UserId.IUserUniqueIdStore.html
+  name: IUserUniqueIdStore
+  nameWithType: IUserUniqueIdStore
+  fullName: Reqnroll.Analytics.UserId.IUserUniqueIdStore
+- uid: Reqnroll.Analytics.UserId
+  commentId: N:Reqnroll.Analytics.UserId
+  href: Reqnroll.html
+  name: Reqnroll.Analytics.UserId
+  nameWithType: Reqnroll.Analytics.UserId
+  fullName: Reqnroll.Analytics.UserId
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.UserId
+    name: UserId
+    href: Reqnroll.Analytics.UserId.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.UserId
+    name: UserId
+    href: Reqnroll.Analytics.UserId.html

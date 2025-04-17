@@ -1,0 +1,1589 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.TestTracer
+  commentId: T:Reqnroll.Tracing.TestTracer
+  id: TestTracer
+  parent: Reqnroll.Tracing
+  children:
+  - Reqnroll.Tracing.TestTracer.#ctor(Reqnroll.Tracing.ITraceListener,Reqnroll.Tracing.IStepFormatter,Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider,Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Tracing.IColorOutputTheme,Reqnroll.Tracing.IColorOutputHelper)
+  - Reqnroll.Tracing.TestTracer.TraceBindingError(Reqnroll.BindingException)
+  - Reqnroll.Tracing.TestTracer.TraceDuration(System.TimeSpan,Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  - Reqnroll.Tracing.TestTracer.TraceDuration(System.TimeSpan,System.String)
+  - Reqnroll.Tracing.TestTracer.TraceError(System.Exception,System.TimeSpan)
+  - Reqnroll.Tracing.TestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance,Reqnroll.ProgrammingLanguage,System.Globalization.CultureInfo,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch})
+  - Reqnroll.Tracing.TestTracer.TraceStep(Reqnroll.Bindings.StepInstance,System.Boolean)
+  - Reqnroll.Tracing.TestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch,System.Object[],System.TimeSpan)
+  - Reqnroll.Tracing.TestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch,System.Object[])
+  - Reqnroll.Tracing.TestTracer.TraceStepSkipped
+  - Reqnroll.Tracing.TestTracer.TraceWarning(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TestTracer
+  nameWithType: TestTracer
+  fullName: Reqnroll.Tracing.TestTracer
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TestTracer
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 26
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: 'public class TestTracer : ITestTracer'
+    content.vb: Public Class TestTracer Implements ITestTracer
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Tracing.ITestTracer
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Tracing.TestTracer.#ctor(Reqnroll.Tracing.ITraceListener,Reqnroll.Tracing.IStepFormatter,Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider,Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Tracing.IColorOutputTheme,Reqnroll.Tracing.IColorOutputHelper)
+  commentId: M:Reqnroll.Tracing.TestTracer.#ctor(Reqnroll.Tracing.ITraceListener,Reqnroll.Tracing.IStepFormatter,Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider,Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Tracing.IColorOutputTheme,Reqnroll.Tracing.IColorOutputHelper)
+  id: '#ctor(Reqnroll.Tracing.ITraceListener,Reqnroll.Tracing.IStepFormatter,Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider,Reqnroll.Configuration.ReqnrollConfiguration,Reqnroll.Tracing.IColorOutputTheme,Reqnroll.Tracing.IColorOutputHelper)'
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TestTracer(ITraceListener, IStepFormatter, IStepDefinitionSkeletonProvider, ReqnrollConfiguration, IColorOutputTheme, IColorOutputHelper)
+  nameWithType: TestTracer.TestTracer(ITraceListener, IStepFormatter, IStepDefinitionSkeletonProvider, ReqnrollConfiguration, IColorOutputTheme, IColorOutputHelper)
+  fullName: Reqnroll.Tracing.TestTracer.TestTracer(Reqnroll.Tracing.ITraceListener, Reqnroll.Tracing.IStepFormatter, Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider, Reqnroll.Configuration.ReqnrollConfiguration, Reqnroll.Tracing.IColorOutputTheme, Reqnroll.Tracing.IColorOutputHelper)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 37
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public TestTracer(ITraceListener traceListener, IStepFormatter stepFormatter, IStepDefinitionSkeletonProvider stepDefinitionSkeletonProvider, ReqnrollConfiguration reqnrollConfiguration, IColorOutputTheme colorOutputTheme, IColorOutputHelper colorOutputHelper)
+    parameters:
+    - id: traceListener
+      type: Reqnroll.Tracing.ITraceListener
+    - id: stepFormatter
+      type: Reqnroll.Tracing.IStepFormatter
+    - id: stepDefinitionSkeletonProvider
+      type: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+    - id: reqnrollConfiguration
+      type: Reqnroll.Configuration.ReqnrollConfiguration
+    - id: colorOutputTheme
+      type: Reqnroll.Tracing.IColorOutputTheme
+    - id: colorOutputHelper
+      type: Reqnroll.Tracing.IColorOutputHelper
+    content.vb: Public Sub New(traceListener As ITraceListener, stepFormatter As IStepFormatter, stepDefinitionSkeletonProvider As IStepDefinitionSkeletonProvider, reqnrollConfiguration As ReqnrollConfiguration, colorOutputTheme As IColorOutputTheme, colorOutputHelper As IColorOutputHelper)
+  overload: Reqnroll.Tracing.TestTracer.#ctor*
+  nameWithType.vb: TestTracer.New(ITraceListener, IStepFormatter, IStepDefinitionSkeletonProvider, ReqnrollConfiguration, IColorOutputTheme, IColorOutputHelper)
+  fullName.vb: Reqnroll.Tracing.TestTracer.New(Reqnroll.Tracing.ITraceListener, Reqnroll.Tracing.IStepFormatter, Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider, Reqnroll.Configuration.ReqnrollConfiguration, Reqnroll.Tracing.IColorOutputTheme, Reqnroll.Tracing.IColorOutputHelper)
+  name.vb: New(ITraceListener, IStepFormatter, IStepDefinitionSkeletonProvider, ReqnrollConfiguration, IColorOutputTheme, IColorOutputHelper)
+- uid: Reqnroll.Tracing.TestTracer.TraceStep(Reqnroll.Bindings.StepInstance,System.Boolean)
+  commentId: M:Reqnroll.Tracing.TestTracer.TraceStep(Reqnroll.Bindings.StepInstance,System.Boolean)
+  id: TraceStep(Reqnroll.Bindings.StepInstance,System.Boolean)
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TraceStep(StepInstance, bool)
+  nameWithType: TestTracer.TraceStep(StepInstance, bool)
+  fullName: Reqnroll.Tracing.TestTracer.TraceStep(Reqnroll.Bindings.StepInstance, bool)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceStep
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 47
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public void TraceStep(StepInstance stepInstance, bool showAdditionalArguments)
+    parameters:
+    - id: stepInstance
+      type: Reqnroll.Bindings.StepInstance
+    - id: showAdditionalArguments
+      type: System.Boolean
+    content.vb: Public Sub TraceStep(stepInstance As StepInstance, showAdditionalArguments As Boolean)
+  overload: Reqnroll.Tracing.TestTracer.TraceStep*
+  implements:
+  - Reqnroll.Tracing.ITestTracer.TraceStep(Reqnroll.Bindings.StepInstance,System.Boolean)
+  nameWithType.vb: TestTracer.TraceStep(StepInstance, Boolean)
+  fullName.vb: Reqnroll.Tracing.TestTracer.TraceStep(Reqnroll.Bindings.StepInstance, Boolean)
+  name.vb: TraceStep(StepInstance, Boolean)
+- uid: Reqnroll.Tracing.TestTracer.TraceWarning(System.String)
+  commentId: M:Reqnroll.Tracing.TestTracer.TraceWarning(System.String)
+  id: TraceWarning(System.String)
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TraceWarning(string)
+  nameWithType: TestTracer.TraceWarning(string)
+  fullName: Reqnroll.Tracing.TestTracer.TraceWarning(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceWarning
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 53
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public void TraceWarning(string text)
+    parameters:
+    - id: text
+      type: System.String
+    content.vb: Public Sub TraceWarning(text As String)
+  overload: Reqnroll.Tracing.TestTracer.TraceWarning*
+  implements:
+  - Reqnroll.Tracing.ITestTracer.TraceWarning(System.String)
+  nameWithType.vb: TestTracer.TraceWarning(String)
+  fullName.vb: Reqnroll.Tracing.TestTracer.TraceWarning(String)
+  name.vb: TraceWarning(String)
+- uid: Reqnroll.Tracing.TestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch,System.Object[],System.TimeSpan)
+  commentId: M:Reqnroll.Tracing.TestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch,System.Object[],System.TimeSpan)
+  id: TraceStepDone(Reqnroll.Bindings.BindingMatch,System.Object[],System.TimeSpan)
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TraceStepDone(BindingMatch, object[], TimeSpan)
+  nameWithType: TestTracer.TraceStepDone(BindingMatch, object[], TimeSpan)
+  fullName: Reqnroll.Tracing.TestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch, object[], System.TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceStepDone
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 58
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public void TraceStepDone(BindingMatch match, object[] arguments, TimeSpan duration)
+    parameters:
+    - id: match
+      type: Reqnroll.Bindings.BindingMatch
+    - id: arguments
+      type: System.Object[]
+    - id: duration
+      type: System.TimeSpan
+    content.vb: Public Sub TraceStepDone(match As BindingMatch, arguments As Object(), duration As TimeSpan)
+  overload: Reqnroll.Tracing.TestTracer.TraceStepDone*
+  implements:
+  - Reqnroll.Tracing.ITestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch,System.Object[],System.TimeSpan)
+  nameWithType.vb: TestTracer.TraceStepDone(BindingMatch, Object(), TimeSpan)
+  fullName.vb: Reqnroll.Tracing.TestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch, Object(), System.TimeSpan)
+  name.vb: TraceStepDone(BindingMatch, Object(), TimeSpan)
+- uid: Reqnroll.Tracing.TestTracer.TraceStepSkipped
+  commentId: M:Reqnroll.Tracing.TestTracer.TraceStepSkipped
+  id: TraceStepSkipped
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TraceStepSkipped()
+  nameWithType: TestTracer.TraceStepSkipped()
+  fullName: Reqnroll.Tracing.TestTracer.TraceStepSkipped()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceStepSkipped
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 68
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public void TraceStepSkipped()
+    content.vb: Public Sub TraceStepSkipped()
+  overload: Reqnroll.Tracing.TestTracer.TraceStepSkipped*
+  implements:
+  - Reqnroll.Tracing.ITestTracer.TraceStepSkipped
+- uid: Reqnroll.Tracing.TestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch,System.Object[])
+  commentId: M:Reqnroll.Tracing.TestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch,System.Object[])
+  id: TraceStepPending(Reqnroll.Bindings.BindingMatch,System.Object[])
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TraceStepPending(BindingMatch, object[])
+  nameWithType: TestTracer.TraceStepPending(BindingMatch, object[])
+  fullName: Reqnroll.Tracing.TestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch, object[])
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceStepPending
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 73
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public void TraceStepPending(BindingMatch match, object[] arguments)
+    parameters:
+    - id: match
+      type: Reqnroll.Bindings.BindingMatch
+    - id: arguments
+      type: System.Object[]
+    content.vb: Public Sub TraceStepPending(match As BindingMatch, arguments As Object())
+  overload: Reqnroll.Tracing.TestTracer.TraceStepPending*
+  implements:
+  - Reqnroll.Tracing.ITestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch,System.Object[])
+  nameWithType.vb: TestTracer.TraceStepPending(BindingMatch, Object())
+  fullName.vb: Reqnroll.Tracing.TestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch, Object())
+  name.vb: TraceStepPending(BindingMatch, Object())
+- uid: Reqnroll.Tracing.TestTracer.TraceBindingError(Reqnroll.BindingException)
+  commentId: M:Reqnroll.Tracing.TestTracer.TraceBindingError(Reqnroll.BindingException)
+  id: TraceBindingError(Reqnroll.BindingException)
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TraceBindingError(BindingException)
+  nameWithType: TestTracer.TraceBindingError(BindingException)
+  fullName: Reqnroll.Tracing.TestTracer.TraceBindingError(Reqnroll.BindingException)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceBindingError
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 80
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public void TraceBindingError(BindingException ex)
+    parameters:
+    - id: ex
+      type: Reqnroll.BindingException
+    content.vb: Public Sub TraceBindingError(ex As BindingException)
+  overload: Reqnroll.Tracing.TestTracer.TraceBindingError*
+  implements:
+  - Reqnroll.Tracing.ITestTracer.TraceBindingError(Reqnroll.BindingException)
+- uid: Reqnroll.Tracing.TestTracer.TraceError(System.Exception,System.TimeSpan)
+  commentId: M:Reqnroll.Tracing.TestTracer.TraceError(System.Exception,System.TimeSpan)
+  id: TraceError(System.Exception,System.TimeSpan)
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TraceError(Exception, TimeSpan)
+  nameWithType: TestTracer.TraceError(Exception, TimeSpan)
+  fullName: Reqnroll.Tracing.TestTracer.TraceError(System.Exception, System.TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceError
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 85
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public void TraceError(Exception ex, TimeSpan duration)
+    parameters:
+    - id: ex
+      type: System.Exception
+    - id: duration
+      type: System.TimeSpan
+    content.vb: Public Sub TraceError(ex As Exception, duration As TimeSpan)
+  overload: Reqnroll.Tracing.TestTracer.TraceError*
+  implements:
+  - Reqnroll.Tracing.ITestTracer.TraceError(System.Exception,System.TimeSpan)
+- uid: Reqnroll.Tracing.TestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance,Reqnroll.ProgrammingLanguage,System.Globalization.CultureInfo,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch})
+  commentId: M:Reqnroll.Tracing.TestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance,Reqnroll.ProgrammingLanguage,System.Globalization.CultureInfo,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch})
+  id: TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance,Reqnroll.ProgrammingLanguage,System.Globalization.CultureInfo,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch})
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TraceNoMatchingStepDefinition(StepInstance, ProgrammingLanguage, CultureInfo, List<BindingMatch>)
+  nameWithType: TestTracer.TraceNoMatchingStepDefinition(StepInstance, ProgrammingLanguage, CultureInfo, List<BindingMatch>)
+  fullName: Reqnroll.Tracing.TestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance, Reqnroll.ProgrammingLanguage, System.Globalization.CultureInfo, System.Collections.Generic.List<Reqnroll.Bindings.BindingMatch>)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceNoMatchingStepDefinition
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 127
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public void TraceNoMatchingStepDefinition(StepInstance stepInstance, ProgrammingLanguage targetLanguage, CultureInfo bindingCulture, List<BindingMatch> matchesWithoutScopeCheck)
+    parameters:
+    - id: stepInstance
+      type: Reqnroll.Bindings.StepInstance
+    - id: targetLanguage
+      type: Reqnroll.ProgrammingLanguage
+    - id: bindingCulture
+      type: System.Globalization.CultureInfo
+    - id: matchesWithoutScopeCheck
+      type: System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+    content.vb: Public Sub TraceNoMatchingStepDefinition(stepInstance As StepInstance, targetLanguage As ProgrammingLanguage, bindingCulture As CultureInfo, matchesWithoutScopeCheck As List(Of BindingMatch))
+  overload: Reqnroll.Tracing.TestTracer.TraceNoMatchingStepDefinition*
+  implements:
+  - Reqnroll.Tracing.ITestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance,Reqnroll.ProgrammingLanguage,System.Globalization.CultureInfo,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch})
+  nameWithType.vb: TestTracer.TraceNoMatchingStepDefinition(StepInstance, ProgrammingLanguage, CultureInfo, List(Of BindingMatch))
+  fullName.vb: Reqnroll.Tracing.TestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance, Reqnroll.ProgrammingLanguage, System.Globalization.CultureInfo, System.Collections.Generic.List(Of Reqnroll.Bindings.BindingMatch))
+  name.vb: TraceNoMatchingStepDefinition(StepInstance, ProgrammingLanguage, CultureInfo, List(Of BindingMatch))
+- uid: Reqnroll.Tracing.TestTracer.TraceDuration(System.TimeSpan,Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  commentId: M:Reqnroll.Tracing.TestTracer.TraceDuration(System.TimeSpan,Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  id: TraceDuration(System.TimeSpan,Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TraceDuration(TimeSpan, IBindingMethod, object[])
+  nameWithType: TestTracer.TraceDuration(TimeSpan, IBindingMethod, object[])
+  fullName: Reqnroll.Tracing.TestTracer.TraceDuration(System.TimeSpan, Reqnroll.Bindings.Reflection.IBindingMethod, object[])
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceDuration
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 146
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public void TraceDuration(TimeSpan elapsed, IBindingMethod method, object[] arguments)
+    parameters:
+    - id: elapsed
+      type: System.TimeSpan
+    - id: method
+      type: Reqnroll.Bindings.Reflection.IBindingMethod
+    - id: arguments
+      type: System.Object[]
+    content.vb: Public Sub TraceDuration(elapsed As TimeSpan, method As IBindingMethod, arguments As Object())
+  overload: Reqnroll.Tracing.TestTracer.TraceDuration*
+  implements:
+  - Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan,Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  nameWithType.vb: TestTracer.TraceDuration(TimeSpan, IBindingMethod, Object())
+  fullName.vb: Reqnroll.Tracing.TestTracer.TraceDuration(System.TimeSpan, Reqnroll.Bindings.Reflection.IBindingMethod, Object())
+  name.vb: TraceDuration(TimeSpan, IBindingMethod, Object())
+- uid: Reqnroll.Tracing.TestTracer.TraceDuration(System.TimeSpan,System.String)
+  commentId: M:Reqnroll.Tracing.TestTracer.TraceDuration(System.TimeSpan,System.String)
+  id: TraceDuration(System.TimeSpan,System.String)
+  parent: Reqnroll.Tracing.TestTracer
+  langs:
+  - csharp
+  - vb
+  name: TraceDuration(TimeSpan, string)
+  nameWithType: TestTracer.TraceDuration(TimeSpan, string)
+  fullName: Reqnroll.Tracing.TestTracer.TraceDuration(System.TimeSpan, string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/TestTracer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TraceDuration
+    path: ../Reqnroll/Reqnroll/Tracing/TestTracer.cs
+    startLine: 159
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  example: []
+  syntax:
+    content: public void TraceDuration(TimeSpan elapsed, string text)
+    parameters:
+    - id: elapsed
+      type: System.TimeSpan
+    - id: text
+      type: System.String
+    content.vb: Public Sub TraceDuration(elapsed As TimeSpan, text As String)
+  overload: Reqnroll.Tracing.TestTracer.TraceDuration*
+  implements:
+  - Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan,System.String)
+  nameWithType.vb: TestTracer.TraceDuration(TimeSpan, String)
+  fullName.vb: Reqnroll.Tracing.TestTracer.TraceDuration(System.TimeSpan, String)
+  name.vb: TraceDuration(TimeSpan, String)
+references:
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Tracing.ITestTracer
+  commentId: T:Reqnroll.Tracing.ITestTracer
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITestTracer.html
+  name: ITestTracer
+  nameWithType: ITestTracer
+  fullName: Reqnroll.Tracing.ITestTracer
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Tracing.TestTracer.#ctor*
+  commentId: Overload:Reqnroll.Tracing.TestTracer.#ctor
+  href: Reqnroll.Tracing.TestTracer.html#Reqnroll_Tracing_TestTracer__ctor_Reqnroll_Tracing_ITraceListener_Reqnroll_Tracing_IStepFormatter_Reqnroll_BindingSkeletons_IStepDefinitionSkeletonProvider_Reqnroll_Configuration_ReqnrollConfiguration_Reqnroll_Tracing_IColorOutputTheme_Reqnroll_Tracing_IColorOutputHelper_
+  name: TestTracer
+  nameWithType: TestTracer.TestTracer
+  fullName: Reqnroll.Tracing.TestTracer.TestTracer
+  nameWithType.vb: TestTracer.New
+  fullName.vb: Reqnroll.Tracing.TestTracer.New
+  name.vb: New
+- uid: Reqnroll.Tracing.ITraceListener
+  commentId: T:Reqnroll.Tracing.ITraceListener
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.ITraceListener.html
+  name: ITraceListener
+  nameWithType: ITraceListener
+  fullName: Reqnroll.Tracing.ITraceListener
+- uid: Reqnroll.Tracing.IStepFormatter
+  commentId: T:Reqnroll.Tracing.IStepFormatter
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.IStepFormatter.html
+  name: IStepFormatter
+  nameWithType: IStepFormatter
+  fullName: Reqnroll.Tracing.IStepFormatter
+- uid: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+  commentId: T:Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider.html
+  name: IStepDefinitionSkeletonProvider
+  nameWithType: IStepDefinitionSkeletonProvider
+  fullName: Reqnroll.BindingSkeletons.IStepDefinitionSkeletonProvider
+- uid: Reqnroll.Configuration.ReqnrollConfiguration
+  commentId: T:Reqnroll.Configuration.ReqnrollConfiguration
+  parent: Reqnroll.Configuration
+  href: Reqnroll.Configuration.ReqnrollConfiguration.html
+  name: ReqnrollConfiguration
+  nameWithType: ReqnrollConfiguration
+  fullName: Reqnroll.Configuration.ReqnrollConfiguration
+- uid: Reqnroll.Tracing.IColorOutputTheme
+  commentId: T:Reqnroll.Tracing.IColorOutputTheme
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.IColorOutputTheme.html
+  name: IColorOutputTheme
+  nameWithType: IColorOutputTheme
+  fullName: Reqnroll.Tracing.IColorOutputTheme
+- uid: Reqnroll.Tracing.IColorOutputHelper
+  commentId: T:Reqnroll.Tracing.IColorOutputHelper
+  parent: Reqnroll.Tracing
+  href: Reqnroll.Tracing.IColorOutputHelper.html
+  name: IColorOutputHelper
+  nameWithType: IColorOutputHelper
+  fullName: Reqnroll.Tracing.IColorOutputHelper
+- uid: Reqnroll.BindingSkeletons
+  commentId: N:Reqnroll.BindingSkeletons
+  href: Reqnroll.html
+  name: Reqnroll.BindingSkeletons
+  nameWithType: Reqnroll.BindingSkeletons
+  fullName: Reqnroll.BindingSkeletons
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+- uid: Reqnroll.Configuration
+  commentId: N:Reqnroll.Configuration
+  href: Reqnroll.html
+  name: Reqnroll.Configuration
+  nameWithType: Reqnroll.Configuration
+  fullName: Reqnroll.Configuration
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Configuration
+    name: Configuration
+    href: Reqnroll.Configuration.html
+- uid: Reqnroll.Tracing.TestTracer.TraceStep*
+  commentId: Overload:Reqnroll.Tracing.TestTracer.TraceStep
+  href: Reqnroll.Tracing.TestTracer.html#Reqnroll_Tracing_TestTracer_TraceStep_Reqnroll_Bindings_StepInstance_System_Boolean_
+  name: TraceStep
+  nameWithType: TestTracer.TraceStep
+  fullName: Reqnroll.Tracing.TestTracer.TraceStep
+- uid: Reqnroll.Tracing.ITestTracer.TraceStep(Reqnroll.Bindings.StepInstance,System.Boolean)
+  commentId: M:Reqnroll.Tracing.ITestTracer.TraceStep(Reqnroll.Bindings.StepInstance,System.Boolean)
+  parent: Reqnroll.Tracing.ITestTracer
+  isExternal: true
+  href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStep_Reqnroll_Bindings_StepInstance_System_Boolean_
+  name: TraceStep(StepInstance, bool)
+  nameWithType: ITestTracer.TraceStep(StepInstance, bool)
+  fullName: Reqnroll.Tracing.ITestTracer.TraceStep(Reqnroll.Bindings.StepInstance, bool)
+  nameWithType.vb: ITestTracer.TraceStep(StepInstance, Boolean)
+  fullName.vb: Reqnroll.Tracing.ITestTracer.TraceStep(Reqnroll.Bindings.StepInstance, Boolean)
+  name.vb: TraceStep(StepInstance, Boolean)
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceStep(Reqnroll.Bindings.StepInstance,System.Boolean)
+    name: TraceStep
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStep_Reqnroll_Bindings_StepInstance_System_Boolean_
+  - name: (
+  - uid: Reqnroll.Bindings.StepInstance
+    name: StepInstance
+    href: Reqnroll.Bindings.StepInstance.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceStep(Reqnroll.Bindings.StepInstance,System.Boolean)
+    name: TraceStep
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStep_Reqnroll_Bindings_StepInstance_System_Boolean_
+  - name: (
+  - uid: Reqnroll.Bindings.StepInstance
+    name: StepInstance
+    href: Reqnroll.Bindings.StepInstance.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Reqnroll.Bindings.StepInstance
+  commentId: T:Reqnroll.Bindings.StepInstance
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.StepInstance.html
+  name: StepInstance
+  nameWithType: StepInstance
+  fullName: Reqnroll.Bindings.StepInstance
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Bindings
+  commentId: N:Reqnroll.Bindings
+  href: Reqnroll.html
+  name: Reqnroll.Bindings
+  nameWithType: Reqnroll.Bindings
+  fullName: Reqnroll.Bindings
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+- uid: Reqnroll.Tracing.TestTracer.TraceWarning*
+  commentId: Overload:Reqnroll.Tracing.TestTracer.TraceWarning
+  href: Reqnroll.Tracing.TestTracer.html#Reqnroll_Tracing_TestTracer_TraceWarning_System_String_
+  name: TraceWarning
+  nameWithType: TestTracer.TraceWarning
+  fullName: Reqnroll.Tracing.TestTracer.TraceWarning
+- uid: Reqnroll.Tracing.ITestTracer.TraceWarning(System.String)
+  commentId: M:Reqnroll.Tracing.ITestTracer.TraceWarning(System.String)
+  parent: Reqnroll.Tracing.ITestTracer
+  isExternal: true
+  href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceWarning_System_String_
+  name: TraceWarning(string)
+  nameWithType: ITestTracer.TraceWarning(string)
+  fullName: Reqnroll.Tracing.ITestTracer.TraceWarning(string)
+  nameWithType.vb: ITestTracer.TraceWarning(String)
+  fullName.vb: Reqnroll.Tracing.ITestTracer.TraceWarning(String)
+  name.vb: TraceWarning(String)
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceWarning(System.String)
+    name: TraceWarning
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceWarning_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceWarning(System.String)
+    name: TraceWarning
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceWarning_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Tracing.TestTracer.TraceStepDone*
+  commentId: Overload:Reqnroll.Tracing.TestTracer.TraceStepDone
+  href: Reqnroll.Tracing.TestTracer.html#Reqnroll_Tracing_TestTracer_TraceStepDone_Reqnroll_Bindings_BindingMatch_System_Object___System_TimeSpan_
+  name: TraceStepDone
+  nameWithType: TestTracer.TraceStepDone
+  fullName: Reqnroll.Tracing.TestTracer.TraceStepDone
+- uid: Reqnroll.Tracing.ITestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch,System.Object[],System.TimeSpan)
+  commentId: M:Reqnroll.Tracing.ITestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch,System.Object[],System.TimeSpan)
+  parent: Reqnroll.Tracing.ITestTracer
+  isExternal: true
+  href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStepDone_Reqnroll_Bindings_BindingMatch_System_Object___System_TimeSpan_
+  name: TraceStepDone(BindingMatch, object[], TimeSpan)
+  nameWithType: ITestTracer.TraceStepDone(BindingMatch, object[], TimeSpan)
+  fullName: Reqnroll.Tracing.ITestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch, object[], System.TimeSpan)
+  nameWithType.vb: ITestTracer.TraceStepDone(BindingMatch, Object(), TimeSpan)
+  fullName.vb: Reqnroll.Tracing.ITestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch, Object(), System.TimeSpan)
+  name.vb: TraceStepDone(BindingMatch, Object(), TimeSpan)
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch,System.Object[],System.TimeSpan)
+    name: TraceStepDone
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStepDone_Reqnroll_Bindings_BindingMatch_System_Object___System_TimeSpan_
+  - name: (
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceStepDone(Reqnroll.Bindings.BindingMatch,System.Object[],System.TimeSpan)
+    name: TraceStepDone
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStepDone_Reqnroll_Bindings_BindingMatch_System_Object___System_TimeSpan_
+  - name: (
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+- uid: Reqnroll.Bindings.BindingMatch
+  commentId: T:Reqnroll.Bindings.BindingMatch
+  parent: Reqnroll.Bindings
+  href: Reqnroll.Bindings.BindingMatch.html
+  name: BindingMatch
+  nameWithType: BindingMatch
+  fullName: Reqnroll.Bindings.BindingMatch
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Reqnroll.Tracing.TestTracer.TraceStepSkipped*
+  commentId: Overload:Reqnroll.Tracing.TestTracer.TraceStepSkipped
+  href: Reqnroll.Tracing.TestTracer.html#Reqnroll_Tracing_TestTracer_TraceStepSkipped
+  name: TraceStepSkipped
+  nameWithType: TestTracer.TraceStepSkipped
+  fullName: Reqnroll.Tracing.TestTracer.TraceStepSkipped
+- uid: Reqnroll.Tracing.ITestTracer.TraceStepSkipped
+  commentId: M:Reqnroll.Tracing.ITestTracer.TraceStepSkipped
+  parent: Reqnroll.Tracing.ITestTracer
+  href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStepSkipped
+  name: TraceStepSkipped()
+  nameWithType: ITestTracer.TraceStepSkipped()
+  fullName: Reqnroll.Tracing.ITestTracer.TraceStepSkipped()
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceStepSkipped
+    name: TraceStepSkipped
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStepSkipped
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceStepSkipped
+    name: TraceStepSkipped
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStepSkipped
+  - name: (
+  - name: )
+- uid: Reqnroll.Tracing.TestTracer.TraceStepPending*
+  commentId: Overload:Reqnroll.Tracing.TestTracer.TraceStepPending
+  href: Reqnroll.Tracing.TestTracer.html#Reqnroll_Tracing_TestTracer_TraceStepPending_Reqnroll_Bindings_BindingMatch_System_Object___
+  name: TraceStepPending
+  nameWithType: TestTracer.TraceStepPending
+  fullName: Reqnroll.Tracing.TestTracer.TraceStepPending
+- uid: Reqnroll.Tracing.ITestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch,System.Object[])
+  commentId: M:Reqnroll.Tracing.ITestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch,System.Object[])
+  parent: Reqnroll.Tracing.ITestTracer
+  isExternal: true
+  href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStepPending_Reqnroll_Bindings_BindingMatch_System_Object___
+  name: TraceStepPending(BindingMatch, object[])
+  nameWithType: ITestTracer.TraceStepPending(BindingMatch, object[])
+  fullName: Reqnroll.Tracing.ITestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch, object[])
+  nameWithType.vb: ITestTracer.TraceStepPending(BindingMatch, Object())
+  fullName.vb: Reqnroll.Tracing.ITestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch, Object())
+  name.vb: TraceStepPending(BindingMatch, Object())
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch,System.Object[])
+    name: TraceStepPending
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStepPending_Reqnroll_Bindings_BindingMatch_System_Object___
+  - name: (
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceStepPending(Reqnroll.Bindings.BindingMatch,System.Object[])
+    name: TraceStepPending
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceStepPending_Reqnroll_Bindings_BindingMatch_System_Object___
+  - name: (
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: )
+- uid: Reqnroll.Tracing.TestTracer.TraceBindingError*
+  commentId: Overload:Reqnroll.Tracing.TestTracer.TraceBindingError
+  href: Reqnroll.Tracing.TestTracer.html#Reqnroll_Tracing_TestTracer_TraceBindingError_Reqnroll_BindingException_
+  name: TraceBindingError
+  nameWithType: TestTracer.TraceBindingError
+  fullName: Reqnroll.Tracing.TestTracer.TraceBindingError
+- uid: Reqnroll.Tracing.ITestTracer.TraceBindingError(Reqnroll.BindingException)
+  commentId: M:Reqnroll.Tracing.ITestTracer.TraceBindingError(Reqnroll.BindingException)
+  parent: Reqnroll.Tracing.ITestTracer
+  href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceBindingError_Reqnroll_BindingException_
+  name: TraceBindingError(BindingException)
+  nameWithType: ITestTracer.TraceBindingError(BindingException)
+  fullName: Reqnroll.Tracing.ITestTracer.TraceBindingError(Reqnroll.BindingException)
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceBindingError(Reqnroll.BindingException)
+    name: TraceBindingError
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceBindingError_Reqnroll_BindingException_
+  - name: (
+  - uid: Reqnroll.BindingException
+    name: BindingException
+    href: Reqnroll.BindingException.html
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceBindingError(Reqnroll.BindingException)
+    name: TraceBindingError
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceBindingError_Reqnroll_BindingException_
+  - name: (
+  - uid: Reqnroll.BindingException
+    name: BindingException
+    href: Reqnroll.BindingException.html
+  - name: )
+- uid: Reqnroll.BindingException
+  commentId: T:Reqnroll.BindingException
+  parent: Reqnroll
+  href: Reqnroll.BindingException.html
+  name: BindingException
+  nameWithType: BindingException
+  fullName: Reqnroll.BindingException
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.Tracing.TestTracer.TraceError*
+  commentId: Overload:Reqnroll.Tracing.TestTracer.TraceError
+  href: Reqnroll.Tracing.TestTracer.html#Reqnroll_Tracing_TestTracer_TraceError_System_Exception_System_TimeSpan_
+  name: TraceError
+  nameWithType: TestTracer.TraceError
+  fullName: Reqnroll.Tracing.TestTracer.TraceError
+- uid: Reqnroll.Tracing.ITestTracer.TraceError(System.Exception,System.TimeSpan)
+  commentId: M:Reqnroll.Tracing.ITestTracer.TraceError(System.Exception,System.TimeSpan)
+  parent: Reqnroll.Tracing.ITestTracer
+  isExternal: true
+  href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceError_System_Exception_System_TimeSpan_
+  name: TraceError(Exception, TimeSpan)
+  nameWithType: ITestTracer.TraceError(Exception, TimeSpan)
+  fullName: Reqnroll.Tracing.ITestTracer.TraceError(System.Exception, System.TimeSpan)
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceError(System.Exception,System.TimeSpan)
+    name: TraceError
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceError_System_Exception_System_TimeSpan_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceError(System.Exception,System.TimeSpan)
+    name: TraceError
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceError_System_Exception_System_TimeSpan_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Reqnroll.Tracing.TestTracer.TraceNoMatchingStepDefinition*
+  commentId: Overload:Reqnroll.Tracing.TestTracer.TraceNoMatchingStepDefinition
+  href: Reqnroll.Tracing.TestTracer.html#Reqnroll_Tracing_TestTracer_TraceNoMatchingStepDefinition_Reqnroll_Bindings_StepInstance_Reqnroll_ProgrammingLanguage_System_Globalization_CultureInfo_System_Collections_Generic_List_Reqnroll_Bindings_BindingMatch__
+  name: TraceNoMatchingStepDefinition
+  nameWithType: TestTracer.TraceNoMatchingStepDefinition
+  fullName: Reqnroll.Tracing.TestTracer.TraceNoMatchingStepDefinition
+- uid: Reqnroll.Tracing.ITestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance,Reqnroll.ProgrammingLanguage,System.Globalization.CultureInfo,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch})
+  commentId: M:Reqnroll.Tracing.ITestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance,Reqnroll.ProgrammingLanguage,System.Globalization.CultureInfo,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch})
+  parent: Reqnroll.Tracing.ITestTracer
+  isExternal: true
+  href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceNoMatchingStepDefinition_Reqnroll_Bindings_StepInstance_Reqnroll_ProgrammingLanguage_System_Globalization_CultureInfo_System_Collections_Generic_List_Reqnroll_Bindings_BindingMatch__
+  name: TraceNoMatchingStepDefinition(StepInstance, ProgrammingLanguage, CultureInfo, List<BindingMatch>)
+  nameWithType: ITestTracer.TraceNoMatchingStepDefinition(StepInstance, ProgrammingLanguage, CultureInfo, List<BindingMatch>)
+  fullName: Reqnroll.Tracing.ITestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance, Reqnroll.ProgrammingLanguage, System.Globalization.CultureInfo, System.Collections.Generic.List<Reqnroll.Bindings.BindingMatch>)
+  nameWithType.vb: ITestTracer.TraceNoMatchingStepDefinition(StepInstance, ProgrammingLanguage, CultureInfo, List(Of BindingMatch))
+  fullName.vb: Reqnroll.Tracing.ITestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance, Reqnroll.ProgrammingLanguage, System.Globalization.CultureInfo, System.Collections.Generic.List(Of Reqnroll.Bindings.BindingMatch))
+  name.vb: TraceNoMatchingStepDefinition(StepInstance, ProgrammingLanguage, CultureInfo, List(Of BindingMatch))
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance,Reqnroll.ProgrammingLanguage,System.Globalization.CultureInfo,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch})
+    name: TraceNoMatchingStepDefinition
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceNoMatchingStepDefinition_Reqnroll_Bindings_StepInstance_Reqnroll_ProgrammingLanguage_System_Globalization_CultureInfo_System_Collections_Generic_List_Reqnroll_Bindings_BindingMatch__
+  - name: (
+  - uid: Reqnroll.Bindings.StepInstance
+    name: StepInstance
+    href: Reqnroll.Bindings.StepInstance.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.ProgrammingLanguage
+    name: ProgrammingLanguage
+    href: Reqnroll.ProgrammingLanguage.html
+  - name: ','
+  - name: " "
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceNoMatchingStepDefinition(Reqnroll.Bindings.StepInstance,Reqnroll.ProgrammingLanguage,System.Globalization.CultureInfo,System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch})
+    name: TraceNoMatchingStepDefinition
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceNoMatchingStepDefinition_Reqnroll_Bindings_StepInstance_Reqnroll_ProgrammingLanguage_System_Globalization_CultureInfo_System_Collections_Generic_List_Reqnroll_Bindings_BindingMatch__
+  - name: (
+  - uid: Reqnroll.Bindings.StepInstance
+    name: StepInstance
+    href: Reqnroll.Bindings.StepInstance.html
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.ProgrammingLanguage
+    name: ProgrammingLanguage
+    href: Reqnroll.ProgrammingLanguage.html
+  - name: ','
+  - name: " "
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: )
+  - name: )
+- uid: Reqnroll.ProgrammingLanguage
+  commentId: T:Reqnroll.ProgrammingLanguage
+  parent: Reqnroll
+  href: Reqnroll.ProgrammingLanguage.html
+  name: ProgrammingLanguage
+  nameWithType: ProgrammingLanguage
+  fullName: Reqnroll.ProgrammingLanguage
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+  commentId: T:System.Collections.Generic.List{Reqnroll.Bindings.BindingMatch}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<BindingMatch>
+  nameWithType: List<BindingMatch>
+  fullName: System.Collections.Generic.List<Reqnroll.Bindings.BindingMatch>
+  nameWithType.vb: List(Of BindingMatch)
+  fullName.vb: System.Collections.Generic.List(Of Reqnroll.Bindings.BindingMatch)
+  name.vb: List(Of BindingMatch)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Reqnroll.Bindings.BindingMatch
+    name: BindingMatch
+    href: Reqnroll.Bindings.BindingMatch.html
+  - name: )
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.Tracing.TestTracer.TraceDuration*
+  commentId: Overload:Reqnroll.Tracing.TestTracer.TraceDuration
+  href: Reqnroll.Tracing.TestTracer.html#Reqnroll_Tracing_TestTracer_TraceDuration_System_TimeSpan_Reqnroll_Bindings_Reflection_IBindingMethod_System_Object___
+  name: TraceDuration
+  nameWithType: TestTracer.TraceDuration
+  fullName: Reqnroll.Tracing.TestTracer.TraceDuration
+- uid: Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan,Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  commentId: M:Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan,Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+  parent: Reqnroll.Tracing.ITestTracer
+  isExternal: true
+  href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceDuration_System_TimeSpan_Reqnroll_Bindings_Reflection_IBindingMethod_System_Object___
+  name: TraceDuration(TimeSpan, IBindingMethod, object[])
+  nameWithType: ITestTracer.TraceDuration(TimeSpan, IBindingMethod, object[])
+  fullName: Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan, Reqnroll.Bindings.Reflection.IBindingMethod, object[])
+  nameWithType.vb: ITestTracer.TraceDuration(TimeSpan, IBindingMethod, Object())
+  fullName.vb: Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan, Reqnroll.Bindings.Reflection.IBindingMethod, Object())
+  name.vb: TraceDuration(TimeSpan, IBindingMethod, Object())
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan,Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+    name: TraceDuration
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceDuration_System_TimeSpan_Reqnroll_Bindings_Reflection_IBindingMethod_System_Object___
+  - name: (
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan,Reqnroll.Bindings.Reflection.IBindingMethod,System.Object[])
+    name: TraceDuration
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceDuration_System_TimeSpan_Reqnroll_Bindings_Reflection_IBindingMethod_System_Object___
+  - name: (
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: ','
+  - name: " "
+  - uid: Reqnroll.Bindings.Reflection.IBindingMethod
+    name: IBindingMethod
+    href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: )
+- uid: Reqnroll.Bindings.Reflection.IBindingMethod
+  commentId: T:Reqnroll.Bindings.Reflection.IBindingMethod
+  parent: Reqnroll.Bindings.Reflection
+  href: Reqnroll.Bindings.Reflection.IBindingMethod.html
+  name: IBindingMethod
+  nameWithType: IBindingMethod
+  fullName: Reqnroll.Bindings.Reflection.IBindingMethod
+- uid: Reqnroll.Bindings.Reflection
+  commentId: N:Reqnroll.Bindings.Reflection
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Reflection
+  nameWithType: Reqnroll.Bindings.Reflection
+  fullName: Reqnroll.Bindings.Reflection
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Reflection
+    name: Reflection
+    href: Reqnroll.Bindings.Reflection.html
+- uid: Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan,System.String)
+  commentId: M:Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan,System.String)
+  parent: Reqnroll.Tracing.ITestTracer
+  isExternal: true
+  href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceDuration_System_TimeSpan_System_String_
+  name: TraceDuration(TimeSpan, string)
+  nameWithType: ITestTracer.TraceDuration(TimeSpan, string)
+  fullName: Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan, string)
+  nameWithType.vb: ITestTracer.TraceDuration(TimeSpan, String)
+  fullName.vb: Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan, String)
+  name.vb: TraceDuration(TimeSpan, String)
+  spec.csharp:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan,System.String)
+    name: TraceDuration
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceDuration_System_TimeSpan_System_String_
+  - name: (
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Tracing.ITestTracer.TraceDuration(System.TimeSpan,System.String)
+    name: TraceDuration
+    href: Reqnroll.Tracing.ITestTracer.html#Reqnroll_Tracing_ITestTracer_TraceDuration_System_TimeSpan_System_String_
+  - name: (
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

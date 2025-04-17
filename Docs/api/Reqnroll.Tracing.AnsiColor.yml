@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.AnsiColor
+  commentId: N:Reqnroll.Tracing.AnsiColor
+  id: Reqnroll.Tracing.AnsiColor
+  children:
+  - Reqnroll.Tracing.AnsiColor.AnsiColor
+  - Reqnroll.Tracing.AnsiColor.InvalidColorException
+  - Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes
+  - Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions
+  - Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  - Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Tracing.AnsiColor
+  nameWithType: Reqnroll.Tracing.AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Tracing.AnsiColor.AnsiColor
+  commentId: T:Reqnroll.Tracing.AnsiColor.AnsiColor
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.AnsiColor.html
+  name: AnsiColor
+  nameWithType: AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor.AnsiColor
+- uid: Reqnroll.Tracing.AnsiColor.InvalidColorException
+  commentId: T:Reqnroll.Tracing.AnsiColor.InvalidColorException
+  href: Reqnroll.Tracing.AnsiColor.InvalidColorException.html
+  name: InvalidColorException
+  nameWithType: InvalidColorException
+  fullName: Reqnroll.Tracing.AnsiColor.InvalidColorException
+- uid: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes
+  commentId: T:Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes.html
+  name: Terminal256ColorCodes
+  nameWithType: Terminal256ColorCodes
+  fullName: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodes
+- uid: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions
+  commentId: T:Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions.html
+  name: Terminal256ColorCodesExtensions
+  nameWithType: Terminal256ColorCodesExtensions
+  fullName: Reqnroll.Tracing.AnsiColor.Terminal256ColorCodesExtensions
+- uid: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  commentId: T:Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.TerminalControlSequences.html
+  name: TerminalControlSequences
+  nameWithType: TerminalControlSequences
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalControlSequences
+- uid: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  commentId: T:Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.TerminalRgbColor.html
+  name: TerminalRgbColor
+  nameWithType: TerminalRgbColor
+  fullName: Reqnroll.Tracing.AnsiColor.TerminalRgbColor
+- uid: Reqnroll.Tracing.AnsiColor
+  commentId: N:Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.html
+  name: Reqnroll.Tracing.AnsiColor
+  nameWithType: Reqnroll.Tracing.AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html

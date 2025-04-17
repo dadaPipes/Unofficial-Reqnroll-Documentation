@@ -1,0 +1,485 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.UserId.DirectoryService
+  commentId: T:Reqnroll.Analytics.UserId.DirectoryService
+  id: DirectoryService
+  parent: Reqnroll.Analytics.UserId
+  children:
+  - Reqnroll.Analytics.UserId.DirectoryService.CreateDirectory(System.String)
+  - Reqnroll.Analytics.UserId.DirectoryService.Exists(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DirectoryService
+  nameWithType: DirectoryService
+  fullName: Reqnroll.Analytics.UserId.DirectoryService
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Analytics/UserId/DirectoryService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DirectoryService
+    path: ../Reqnroll/Reqnroll/Analytics/UserId/DirectoryService.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.UserId
+  syntax:
+    content: 'public class DirectoryService : IDirectoryService'
+    content.vb: Public Class DirectoryService Implements IDirectoryService
+  inheritance:
+  - System.Object
+  implements:
+  - Reqnroll.Analytics.UserId.IDirectoryService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Analytics.UserId.DirectoryService.Exists(System.String)
+  commentId: M:Reqnroll.Analytics.UserId.DirectoryService.Exists(System.String)
+  id: Exists(System.String)
+  parent: Reqnroll.Analytics.UserId.DirectoryService
+  langs:
+  - csharp
+  - vb
+  name: Exists(string)
+  nameWithType: DirectoryService.Exists(string)
+  fullName: Reqnroll.Analytics.UserId.DirectoryService.Exists(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/UserId/DirectoryService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Exists
+    path: ../Reqnroll/Reqnroll/Analytics/UserId/DirectoryService.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.UserId
+  example: []
+  syntax:
+    content: public bool Exists(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function Exists(path As String) As Boolean
+  overload: Reqnroll.Analytics.UserId.DirectoryService.Exists*
+  implements:
+  - Reqnroll.Analytics.UserId.IDirectoryService.Exists(System.String)
+  nameWithType.vb: DirectoryService.Exists(String)
+  fullName.vb: Reqnroll.Analytics.UserId.DirectoryService.Exists(String)
+  name.vb: Exists(String)
+- uid: Reqnroll.Analytics.UserId.DirectoryService.CreateDirectory(System.String)
+  commentId: M:Reqnroll.Analytics.UserId.DirectoryService.CreateDirectory(System.String)
+  id: CreateDirectory(System.String)
+  parent: Reqnroll.Analytics.UserId.DirectoryService
+  langs:
+  - csharp
+  - vb
+  name: CreateDirectory(string)
+  nameWithType: DirectoryService.CreateDirectory(string)
+  fullName: Reqnroll.Analytics.UserId.DirectoryService.CreateDirectory(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Analytics/UserId/DirectoryService.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: CreateDirectory
+    path: ../Reqnroll/Reqnroll/Analytics/UserId/DirectoryService.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.UserId
+  example: []
+  syntax:
+    content: public void CreateDirectory(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub CreateDirectory(path As String)
+  overload: Reqnroll.Analytics.UserId.DirectoryService.CreateDirectory*
+  implements:
+  - Reqnroll.Analytics.UserId.IDirectoryService.CreateDirectory(System.String)
+  nameWithType.vb: DirectoryService.CreateDirectory(String)
+  fullName.vb: Reqnroll.Analytics.UserId.DirectoryService.CreateDirectory(String)
+  name.vb: CreateDirectory(String)
+references:
+- uid: Reqnroll.Analytics.UserId
+  commentId: N:Reqnroll.Analytics.UserId
+  href: Reqnroll.html
+  name: Reqnroll.Analytics.UserId
+  nameWithType: Reqnroll.Analytics.UserId
+  fullName: Reqnroll.Analytics.UserId
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.UserId
+    name: UserId
+    href: Reqnroll.Analytics.UserId.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.UserId
+    name: UserId
+    href: Reqnroll.Analytics.UserId.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Reqnroll.Analytics.UserId.IDirectoryService
+  commentId: T:Reqnroll.Analytics.UserId.IDirectoryService
+  parent: Reqnroll.Analytics.UserId
+  href: Reqnroll.Analytics.UserId.IDirectoryService.html
+  name: IDirectoryService
+  nameWithType: IDirectoryService
+  fullName: Reqnroll.Analytics.UserId.IDirectoryService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Analytics.UserId.DirectoryService.Exists*
+  commentId: Overload:Reqnroll.Analytics.UserId.DirectoryService.Exists
+  href: Reqnroll.Analytics.UserId.DirectoryService.html#Reqnroll_Analytics_UserId_DirectoryService_Exists_System_String_
+  name: Exists
+  nameWithType: DirectoryService.Exists
+  fullName: Reqnroll.Analytics.UserId.DirectoryService.Exists
+- uid: Reqnroll.Analytics.UserId.IDirectoryService.Exists(System.String)
+  commentId: M:Reqnroll.Analytics.UserId.IDirectoryService.Exists(System.String)
+  parent: Reqnroll.Analytics.UserId.IDirectoryService
+  isExternal: true
+  href: Reqnroll.Analytics.UserId.IDirectoryService.html#Reqnroll_Analytics_UserId_IDirectoryService_Exists_System_String_
+  name: Exists(string)
+  nameWithType: IDirectoryService.Exists(string)
+  fullName: Reqnroll.Analytics.UserId.IDirectoryService.Exists(string)
+  nameWithType.vb: IDirectoryService.Exists(String)
+  fullName.vb: Reqnroll.Analytics.UserId.IDirectoryService.Exists(String)
+  name.vb: Exists(String)
+  spec.csharp:
+  - uid: Reqnroll.Analytics.UserId.IDirectoryService.Exists(System.String)
+    name: Exists
+    href: Reqnroll.Analytics.UserId.IDirectoryService.html#Reqnroll_Analytics_UserId_IDirectoryService_Exists_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Analytics.UserId.IDirectoryService.Exists(System.String)
+    name: Exists
+    href: Reqnroll.Analytics.UserId.IDirectoryService.html#Reqnroll_Analytics_UserId_IDirectoryService_Exists_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Reqnroll.Analytics.UserId.DirectoryService.CreateDirectory*
+  commentId: Overload:Reqnroll.Analytics.UserId.DirectoryService.CreateDirectory
+  href: Reqnroll.Analytics.UserId.DirectoryService.html#Reqnroll_Analytics_UserId_DirectoryService_CreateDirectory_System_String_
+  name: CreateDirectory
+  nameWithType: DirectoryService.CreateDirectory
+  fullName: Reqnroll.Analytics.UserId.DirectoryService.CreateDirectory
+- uid: Reqnroll.Analytics.UserId.IDirectoryService.CreateDirectory(System.String)
+  commentId: M:Reqnroll.Analytics.UserId.IDirectoryService.CreateDirectory(System.String)
+  parent: Reqnroll.Analytics.UserId.IDirectoryService
+  isExternal: true
+  href: Reqnroll.Analytics.UserId.IDirectoryService.html#Reqnroll_Analytics_UserId_IDirectoryService_CreateDirectory_System_String_
+  name: CreateDirectory(string)
+  nameWithType: IDirectoryService.CreateDirectory(string)
+  fullName: Reqnroll.Analytics.UserId.IDirectoryService.CreateDirectory(string)
+  nameWithType.vb: IDirectoryService.CreateDirectory(String)
+  fullName.vb: Reqnroll.Analytics.UserId.IDirectoryService.CreateDirectory(String)
+  name.vb: CreateDirectory(String)
+  spec.csharp:
+  - uid: Reqnroll.Analytics.UserId.IDirectoryService.CreateDirectory(System.String)
+    name: CreateDirectory
+    href: Reqnroll.Analytics.UserId.IDirectoryService.html#Reqnroll_Analytics_UserId_IDirectoryService_CreateDirectory_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Reqnroll.Analytics.UserId.IDirectoryService.CreateDirectory(System.String)
+    name: CreateDirectory
+    href: Reqnroll.Analytics.UserId.IDirectoryService.html#Reqnroll_Analytics_UserId_IDirectoryService_CreateDirectory_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

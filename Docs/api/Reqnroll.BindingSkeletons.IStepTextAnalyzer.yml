@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BindingSkeletons.IStepTextAnalyzer
+  commentId: T:Reqnroll.BindingSkeletons.IStepTextAnalyzer
+  id: IStepTextAnalyzer
+  parent: Reqnroll.BindingSkeletons
+  children:
+  - Reqnroll.BindingSkeletons.IStepTextAnalyzer.Analyze(System.String,System.Globalization.CultureInfo)
+  langs:
+  - csharp
+  - vb
+  name: IStepTextAnalyzer
+  nameWithType: IStepTextAnalyzer
+  fullName: Reqnroll.BindingSkeletons.IStepTextAnalyzer
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepTextAnalyzer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IStepTextAnalyzer
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepTextAnalyzer.cs
+    startLine: 32
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: public interface IStepTextAnalyzer
+    content.vb: Public Interface IStepTextAnalyzer
+- uid: Reqnroll.BindingSkeletons.IStepTextAnalyzer.Analyze(System.String,System.Globalization.CultureInfo)
+  commentId: M:Reqnroll.BindingSkeletons.IStepTextAnalyzer.Analyze(System.String,System.Globalization.CultureInfo)
+  id: Analyze(System.String,System.Globalization.CultureInfo)
+  parent: Reqnroll.BindingSkeletons.IStepTextAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: Analyze(string, CultureInfo)
+  nameWithType: IStepTextAnalyzer.Analyze(string, CultureInfo)
+  fullName: Reqnroll.BindingSkeletons.IStepTextAnalyzer.Analyze(string, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BindingSkeletons/StepTextAnalyzer.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Analyze
+    path: ../Reqnroll/Reqnroll/BindingSkeletons/StepTextAnalyzer.cs
+    startLine: 34
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BindingSkeletons
+  syntax:
+    content: AnalyzedStepText Analyze(string stepText, CultureInfo bindingCulture)
+    parameters:
+    - id: stepText
+      type: System.String
+    - id: bindingCulture
+      type: System.Globalization.CultureInfo
+    return:
+      type: Reqnroll.BindingSkeletons.AnalyzedStepText
+    content.vb: Function Analyze(stepText As String, bindingCulture As CultureInfo) As AnalyzedStepText
+  overload: Reqnroll.BindingSkeletons.IStepTextAnalyzer.Analyze*
+  nameWithType.vb: IStepTextAnalyzer.Analyze(String, CultureInfo)
+  fullName.vb: Reqnroll.BindingSkeletons.IStepTextAnalyzer.Analyze(String, System.Globalization.CultureInfo)
+  name.vb: Analyze(String, CultureInfo)
+references:
+- uid: Reqnroll.BindingSkeletons
+  commentId: N:Reqnroll.BindingSkeletons
+  href: Reqnroll.html
+  name: Reqnroll.BindingSkeletons
+  nameWithType: Reqnroll.BindingSkeletons
+  fullName: Reqnroll.BindingSkeletons
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BindingSkeletons
+    name: BindingSkeletons
+    href: Reqnroll.BindingSkeletons.html
+- uid: Reqnroll.BindingSkeletons.IStepTextAnalyzer.Analyze*
+  commentId: Overload:Reqnroll.BindingSkeletons.IStepTextAnalyzer.Analyze
+  href: Reqnroll.BindingSkeletons.IStepTextAnalyzer.html#Reqnroll_BindingSkeletons_IStepTextAnalyzer_Analyze_System_String_System_Globalization_CultureInfo_
+  name: Analyze
+  nameWithType: IStepTextAnalyzer.Analyze
+  fullName: Reqnroll.BindingSkeletons.IStepTextAnalyzer.Analyze
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: Reqnroll.BindingSkeletons.AnalyzedStepText
+  commentId: T:Reqnroll.BindingSkeletons.AnalyzedStepText
+  parent: Reqnroll.BindingSkeletons
+  href: Reqnroll.BindingSkeletons.AnalyzedStepText.html
+  name: AnalyzedStepText
+  nameWithType: AnalyzedStepText
+  fullName: Reqnroll.BindingSkeletons.AnalyzedStepText
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization

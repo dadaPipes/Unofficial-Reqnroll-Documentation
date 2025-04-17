@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.BoDi.IStrategyRegistration
+  commentId: T:Reqnroll.BoDi.IStrategyRegistration
+  id: IStrategyRegistration
+  parent: Reqnroll.BoDi
+  children:
+  - Reqnroll.BoDi.IStrategyRegistration.InstancePerContext
+  - Reqnroll.BoDi.IStrategyRegistration.InstancePerDependency
+  langs:
+  - csharp
+  - vb
+  name: IStrategyRegistration
+  nameWithType: IStrategyRegistration
+  fullName: Reqnroll.BoDi.IStrategyRegistration
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/BoDi/IStrategyRegistration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IStrategyRegistration
+    path: ../Reqnroll/Reqnroll/BoDi/IStrategyRegistration.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  syntax:
+    content: public interface IStrategyRegistration
+    content.vb: Public Interface IStrategyRegistration
+- uid: Reqnroll.BoDi.IStrategyRegistration.InstancePerDependency
+  commentId: M:Reqnroll.BoDi.IStrategyRegistration.InstancePerDependency
+  id: InstancePerDependency
+  parent: Reqnroll.BoDi.IStrategyRegistration
+  langs:
+  - csharp
+  - vb
+  name: InstancePerDependency()
+  nameWithType: IStrategyRegistration.InstancePerDependency()
+  fullName: Reqnroll.BoDi.IStrategyRegistration.InstancePerDependency()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IStrategyRegistration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InstancePerDependency
+    path: ../Reqnroll/Reqnroll/BoDi/IStrategyRegistration.cs
+    startLine: 8
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Changes resolving strategy to a new instance per each dependency.
+  example: []
+  syntax:
+    content: IStrategyRegistration InstancePerDependency()
+    return:
+      type: Reqnroll.BoDi.IStrategyRegistration
+      description: ''
+    content.vb: Function InstancePerDependency() As IStrategyRegistration
+  overload: Reqnroll.BoDi.IStrategyRegistration.InstancePerDependency*
+- uid: Reqnroll.BoDi.IStrategyRegistration.InstancePerContext
+  commentId: M:Reqnroll.BoDi.IStrategyRegistration.InstancePerContext
+  id: InstancePerContext
+  parent: Reqnroll.BoDi.IStrategyRegistration
+  langs:
+  - csharp
+  - vb
+  name: InstancePerContext()
+  nameWithType: IStrategyRegistration.InstancePerContext()
+  fullName: Reqnroll.BoDi.IStrategyRegistration.InstancePerContext()
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/BoDi/IStrategyRegistration.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InstancePerContext
+    path: ../Reqnroll/Reqnroll/BoDi/IStrategyRegistration.cs
+    startLine: 13
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.BoDi
+  summary: Changes resolving strategy to a single instance per object container. This strategy is a default behaviour.
+  example: []
+  syntax:
+    content: IStrategyRegistration InstancePerContext()
+    return:
+      type: Reqnroll.BoDi.IStrategyRegistration
+      description: ''
+    content.vb: Function InstancePerContext() As IStrategyRegistration
+  overload: Reqnroll.BoDi.IStrategyRegistration.InstancePerContext*
+references:
+- uid: Reqnroll.BoDi
+  commentId: N:Reqnroll.BoDi
+  href: Reqnroll.html
+  name: Reqnroll.BoDi
+  nameWithType: Reqnroll.BoDi
+  fullName: Reqnroll.BoDi
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.BoDi
+    name: BoDi
+    href: Reqnroll.BoDi.html
+- uid: Reqnroll.BoDi.IStrategyRegistration.InstancePerDependency*
+  commentId: Overload:Reqnroll.BoDi.IStrategyRegistration.InstancePerDependency
+  href: Reqnroll.BoDi.IStrategyRegistration.html#Reqnroll_BoDi_IStrategyRegistration_InstancePerDependency
+  name: InstancePerDependency
+  nameWithType: IStrategyRegistration.InstancePerDependency
+  fullName: Reqnroll.BoDi.IStrategyRegistration.InstancePerDependency
+- uid: Reqnroll.BoDi.IStrategyRegistration
+  commentId: T:Reqnroll.BoDi.IStrategyRegistration
+  parent: Reqnroll.BoDi
+  href: Reqnroll.BoDi.IStrategyRegistration.html
+  name: IStrategyRegistration
+  nameWithType: IStrategyRegistration
+  fullName: Reqnroll.BoDi.IStrategyRegistration
+- uid: Reqnroll.BoDi.IStrategyRegistration.InstancePerContext*
+  commentId: Overload:Reqnroll.BoDi.IStrategyRegistration.InstancePerContext
+  href: Reqnroll.BoDi.IStrategyRegistration.html#Reqnroll_BoDi_IStrategyRegistration_InstancePerContext
+  name: InstancePerContext
+  nameWithType: IStrategyRegistration.InstancePerContext
+  fullName: Reqnroll.BoDi.IStrategyRegistration.InstancePerContext

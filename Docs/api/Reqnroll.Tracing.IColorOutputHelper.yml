@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Tracing.IColorOutputHelper
+  commentId: T:Reqnroll.Tracing.IColorOutputHelper
+  id: IColorOutputHelper
+  parent: Reqnroll.Tracing
+  children:
+  - Reqnroll.Tracing.IColorOutputHelper.Colorize(System.String,Reqnroll.Tracing.AnsiColor.AnsiColor)
+  - Reqnroll.Tracing.IColorOutputHelper.EmitAnsiColorCodes
+  langs:
+  - csharp
+  - vb
+  name: IColorOutputHelper
+  nameWithType: IColorOutputHelper
+  fullName: Reqnroll.Tracing.IColorOutputHelper
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputHelper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IColorOutputHelper
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputHelper.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: public interface IColorOutputHelper
+    content.vb: Public Interface IColorOutputHelper
+- uid: Reqnroll.Tracing.IColorOutputHelper.EmitAnsiColorCodes
+  commentId: P:Reqnroll.Tracing.IColorOutputHelper.EmitAnsiColorCodes
+  id: EmitAnsiColorCodes
+  parent: Reqnroll.Tracing.IColorOutputHelper
+  langs:
+  - csharp
+  - vb
+  name: EmitAnsiColorCodes
+  nameWithType: IColorOutputHelper.EmitAnsiColorCodes
+  fullName: Reqnroll.Tracing.IColorOutputHelper.EmitAnsiColorCodes
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputHelper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: EmitAnsiColorCodes
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputHelper.cs
+    startLine: 7
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: bool EmitAnsiColorCodes { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property EmitAnsiColorCodes As Boolean
+  overload: Reqnroll.Tracing.IColorOutputHelper.EmitAnsiColorCodes*
+- uid: Reqnroll.Tracing.IColorOutputHelper.Colorize(System.String,Reqnroll.Tracing.AnsiColor.AnsiColor)
+  commentId: M:Reqnroll.Tracing.IColorOutputHelper.Colorize(System.String,Reqnroll.Tracing.AnsiColor.AnsiColor)
+  id: Colorize(System.String,Reqnroll.Tracing.AnsiColor.AnsiColor)
+  parent: Reqnroll.Tracing.IColorOutputHelper
+  langs:
+  - csharp
+  - vb
+  name: Colorize(string, AnsiColor)
+  nameWithType: IColorOutputHelper.Colorize(string, AnsiColor)
+  fullName: Reqnroll.Tracing.IColorOutputHelper.Colorize(string, Reqnroll.Tracing.AnsiColor.AnsiColor)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/Tracing/ColorOutputHelper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: Colorize
+    path: ../Reqnroll/Reqnroll/Tracing/ColorOutputHelper.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Tracing
+  syntax:
+    content: string Colorize(string text, AnsiColor color)
+    parameters:
+    - id: text
+      type: System.String
+    - id: color
+      type: Reqnroll.Tracing.AnsiColor.AnsiColor
+    return:
+      type: System.String
+    content.vb: Function Colorize(text As String, color As AnsiColor) As String
+  overload: Reqnroll.Tracing.IColorOutputHelper.Colorize*
+  nameWithType.vb: IColorOutputHelper.Colorize(String, AnsiColor)
+  fullName.vb: Reqnroll.Tracing.IColorOutputHelper.Colorize(String, Reqnroll.Tracing.AnsiColor.AnsiColor)
+  name.vb: Colorize(String, AnsiColor)
+references:
+- uid: Reqnroll.Tracing
+  commentId: N:Reqnroll.Tracing
+  href: Reqnroll.html
+  name: Reqnroll.Tracing
+  nameWithType: Reqnroll.Tracing
+  fullName: Reqnroll.Tracing
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+- uid: Reqnroll.Tracing.IColorOutputHelper.EmitAnsiColorCodes*
+  commentId: Overload:Reqnroll.Tracing.IColorOutputHelper.EmitAnsiColorCodes
+  href: Reqnroll.Tracing.IColorOutputHelper.html#Reqnroll_Tracing_IColorOutputHelper_EmitAnsiColorCodes
+  name: EmitAnsiColorCodes
+  nameWithType: IColorOutputHelper.EmitAnsiColorCodes
+  fullName: Reqnroll.Tracing.IColorOutputHelper.EmitAnsiColorCodes
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Tracing.IColorOutputHelper.Colorize*
+  commentId: Overload:Reqnroll.Tracing.IColorOutputHelper.Colorize
+  href: Reqnroll.Tracing.IColorOutputHelper.html#Reqnroll_Tracing_IColorOutputHelper_Colorize_System_String_Reqnroll_Tracing_AnsiColor_AnsiColor_
+  name: Colorize
+  nameWithType: IColorOutputHelper.Colorize
+  fullName: Reqnroll.Tracing.IColorOutputHelper.Colorize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Tracing.AnsiColor.AnsiColor
+  commentId: T:Reqnroll.Tracing.AnsiColor.AnsiColor
+  parent: Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.Tracing.AnsiColor.AnsiColor.html
+  name: AnsiColor
+  nameWithType: AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor.AnsiColor
+- uid: Reqnroll.Tracing.AnsiColor
+  commentId: N:Reqnroll.Tracing.AnsiColor
+  href: Reqnroll.html
+  name: Reqnroll.Tracing.AnsiColor
+  nameWithType: Reqnroll.Tracing.AnsiColor
+  fullName: Reqnroll.Tracing.AnsiColor
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Tracing
+    name: Tracing
+    href: Reqnroll.Tracing.html
+  - name: .
+  - uid: Reqnroll.Tracing.AnsiColor
+    name: AnsiColor
+    href: Reqnroll.Tracing.AnsiColor.html

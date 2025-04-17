@@ -1,0 +1,760 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  commentId: T:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  id: AppInsightsEventTelemetry
+  parent: Reqnroll.Analytics.AppInsights
+  children:
+  - Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.#ctor(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+  - Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.DataTypeName
+  - Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.EventDateTime
+  - Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.InstrumentationKey
+  - Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryData
+  - Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryTags
+  langs:
+  - csharp
+  - vb
+  name: AppInsightsEventTelemetry
+  nameWithType: AppInsightsEventTelemetry
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  type: Class
+  source:
+    remote:
+      path: Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AppInsightsEventTelemetry
+    path: ../Reqnroll/Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+    startLine: 9
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.AppInsights
+  summary: >-
+    For property names, check: https://github.com/microsoft/ApplicationInsights-Home/tree/master/EndpointSpecs/Schemas/Bond
+
+    For tags, check: https://github.com/microsoft/ApplicationInsights-Home/blob/master/EndpointSpecs/Schemas/Bond/ContextTagKeys.bond
+  example: []
+  syntax:
+    content: public class AppInsightsEventTelemetry
+    content.vb: Public Class AppInsightsEventTelemetry
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.DataTypeName
+  commentId: P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.DataTypeName
+  id: DataTypeName
+  parent: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  langs:
+  - csharp
+  - vb
+  name: DataTypeName
+  nameWithType: AppInsightsEventTelemetry.DataTypeName
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.DataTypeName
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: DataTypeName
+    path: ../Reqnroll/Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+    startLine: 11
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.AppInsights
+  syntax:
+    content: >-
+      [JsonPropertyName("name")]
+
+      public string DataTypeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("name")>
+
+      Public Property DataTypeName As String
+  overload: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.DataTypeName*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: name
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.EventDateTime
+  commentId: P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.EventDateTime
+  id: EventDateTime
+  parent: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  langs:
+  - csharp
+  - vb
+  name: EventDateTime
+  nameWithType: AppInsightsEventTelemetry.EventDateTime
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.EventDateTime
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: EventDateTime
+    path: ../Reqnroll/Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+    startLine: 14
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.AppInsights
+  syntax:
+    content: >-
+      [JsonPropertyName("time")]
+
+      public string EventDateTime { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("time")>
+
+      Public Property EventDateTime As String
+  overload: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.EventDateTime*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: time
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.InstrumentationKey
+  commentId: P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.InstrumentationKey
+  id: InstrumentationKey
+  parent: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  langs:
+  - csharp
+  - vb
+  name: InstrumentationKey
+  nameWithType: AppInsightsEventTelemetry.InstrumentationKey
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.InstrumentationKey
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: InstrumentationKey
+    path: ../Reqnroll/Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+    startLine: 17
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.AppInsights
+  syntax:
+    content: >-
+      [JsonPropertyName("iKey")]
+
+      public string InstrumentationKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("iKey")>
+
+      Public Property InstrumentationKey As String
+  overload: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.InstrumentationKey*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: iKey
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryData
+  commentId: P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryData
+  id: TelemetryData
+  parent: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  langs:
+  - csharp
+  - vb
+  name: TelemetryData
+  nameWithType: AppInsightsEventTelemetry.TelemetryData
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryData
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TelemetryData
+    path: ../Reqnroll/Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+    startLine: 20
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.AppInsights
+  syntax:
+    content: >-
+      [JsonPropertyName("data")]
+
+      public TelemetryData TelemetryData { get; set; }
+    parameters: []
+    return:
+      type: Reqnroll.Analytics.AppInsights.TelemetryData
+    content.vb: >-
+      <JsonPropertyName("data")>
+
+      Public Property TelemetryData As TelemetryData
+  overload: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryData*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: data
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryTags
+  commentId: P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryTags
+  id: TelemetryTags
+  parent: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  langs:
+  - csharp
+  - vb
+  name: TelemetryTags
+  nameWithType: AppInsightsEventTelemetry.TelemetryTags
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryTags
+  type: Property
+  source:
+    remote:
+      path: Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: TelemetryTags
+    path: ../Reqnroll/Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+    startLine: 23
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.AppInsights
+  syntax:
+    content: >-
+      [JsonPropertyName("tags")]
+
+      public Dictionary<string, string> TelemetryTags { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: >-
+      <JsonPropertyName("tags")>
+
+      Public Property TelemetryTags As Dictionary(Of String, String)
+  overload: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryTags*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: tags
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.#ctor(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+  commentId: M:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.#ctor(Reqnroll.Analytics.IAnalyticsEvent,System.String)
+  id: '#ctor(Reqnroll.Analytics.IAnalyticsEvent,System.String)'
+  parent: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry
+  langs:
+  - csharp
+  - vb
+  name: AppInsightsEventTelemetry(IAnalyticsEvent, string)
+  nameWithType: AppInsightsEventTelemetry.AppInsightsEventTelemetry(IAnalyticsEvent, string)
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.AppInsightsEventTelemetry(Reqnroll.Analytics.IAnalyticsEvent, string)
+  type: Constructor
+  source:
+    remote:
+      path: Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: .ctor
+    path: ../Reqnroll/Reqnroll/Analytics/AppInsights/AppInsightsEventTelemetry.cs
+    startLine: 28
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll.Analytics.AppInsights
+  syntax:
+    content: public AppInsightsEventTelemetry(IAnalyticsEvent analyticsEvent, string instrumentationKey)
+    parameters:
+    - id: analyticsEvent
+      type: Reqnroll.Analytics.IAnalyticsEvent
+    - id: instrumentationKey
+      type: System.String
+    content.vb: Public Sub New(analyticsEvent As IAnalyticsEvent, instrumentationKey As String)
+  overload: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.#ctor*
+  nameWithType.vb: AppInsightsEventTelemetry.New(IAnalyticsEvent, String)
+  fullName.vb: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.New(Reqnroll.Analytics.IAnalyticsEvent, String)
+  name.vb: New(IAnalyticsEvent, String)
+references:
+- uid: Reqnroll.Analytics.AppInsights
+  commentId: N:Reqnroll.Analytics.AppInsights
+  href: Reqnroll.html
+  name: Reqnroll.Analytics.AppInsights
+  nameWithType: Reqnroll.Analytics.AppInsights
+  fullName: Reqnroll.Analytics.AppInsights
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.AppInsights
+    name: AppInsights
+    href: Reqnroll.Analytics.AppInsights.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  - name: .
+  - uid: Reqnroll.Analytics.AppInsights
+    name: AppInsights
+    href: Reqnroll.Analytics.AppInsights.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.DataTypeName*
+  commentId: Overload:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.DataTypeName
+  href: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.html#Reqnroll_Analytics_AppInsights_AppInsightsEventTelemetry_DataTypeName
+  name: DataTypeName
+  nameWithType: AppInsightsEventTelemetry.DataTypeName
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.DataTypeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.EventDateTime*
+  commentId: Overload:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.EventDateTime
+  href: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.html#Reqnroll_Analytics_AppInsights_AppInsightsEventTelemetry_EventDateTime
+  name: EventDateTime
+  nameWithType: AppInsightsEventTelemetry.EventDateTime
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.EventDateTime
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.InstrumentationKey*
+  commentId: Overload:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.InstrumentationKey
+  href: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.html#Reqnroll_Analytics_AppInsights_AppInsightsEventTelemetry_InstrumentationKey
+  name: InstrumentationKey
+  nameWithType: AppInsightsEventTelemetry.InstrumentationKey
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.InstrumentationKey
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryData*
+  commentId: Overload:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryData
+  href: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.html#Reqnroll_Analytics_AppInsights_AppInsightsEventTelemetry_TelemetryData
+  name: TelemetryData
+  nameWithType: AppInsightsEventTelemetry.TelemetryData
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryData
+- uid: Reqnroll.Analytics.AppInsights.TelemetryData
+  commentId: T:Reqnroll.Analytics.AppInsights.TelemetryData
+  parent: Reqnroll.Analytics.AppInsights
+  href: Reqnroll.Analytics.AppInsights.TelemetryData.html
+  name: TelemetryData
+  nameWithType: TelemetryData
+  fullName: Reqnroll.Analytics.AppInsights.TelemetryData
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryTags*
+  commentId: Overload:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryTags
+  href: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.html#Reqnroll_Analytics_AppInsights_AppInsightsEventTelemetry_TelemetryTags
+  name: TelemetryTags
+  nameWithType: AppInsightsEventTelemetry.TelemetryTags
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.TelemetryTags
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.#ctor*
+  commentId: Overload:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.#ctor
+  href: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.html#Reqnroll_Analytics_AppInsights_AppInsightsEventTelemetry__ctor_Reqnroll_Analytics_IAnalyticsEvent_System_String_
+  name: AppInsightsEventTelemetry
+  nameWithType: AppInsightsEventTelemetry.AppInsightsEventTelemetry
+  fullName: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.AppInsightsEventTelemetry
+  nameWithType.vb: AppInsightsEventTelemetry.New
+  fullName.vb: Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry.New
+  name.vb: New
+- uid: Reqnroll.Analytics.IAnalyticsEvent
+  commentId: T:Reqnroll.Analytics.IAnalyticsEvent
+  parent: Reqnroll.Analytics
+  href: Reqnroll.Analytics.IAnalyticsEvent.html
+  name: IAnalyticsEvent
+  nameWithType: IAnalyticsEvent
+  fullName: Reqnroll.Analytics.IAnalyticsEvent
+- uid: Reqnroll.Analytics
+  commentId: N:Reqnroll.Analytics
+  href: Reqnroll.html
+  name: Reqnroll.Analytics
+  nameWithType: Reqnroll.Analytics
+  fullName: Reqnroll.Analytics
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Analytics
+    name: Analytics
+    href: Reqnroll.Analytics.html

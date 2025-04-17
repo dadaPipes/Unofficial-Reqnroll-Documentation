@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.IReqnrollOutputHelper
+  commentId: T:Reqnroll.IReqnrollOutputHelper
+  id: IReqnrollOutputHelper
+  parent: Reqnroll
+  children:
+  - Reqnroll.IReqnrollOutputHelper.AddAttachment(System.String)
+  - Reqnroll.IReqnrollOutputHelper.WriteLine(System.String)
+  - Reqnroll.IReqnrollOutputHelper.WriteLine(System.String,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: IReqnrollOutputHelper
+  nameWithType: IReqnrollOutputHelper
+  fullName: Reqnroll.IReqnrollOutputHelper
+  type: Interface
+  source:
+    remote:
+      path: Reqnroll/IReqnrollOutputHelper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: IReqnrollOutputHelper
+    path: ../Reqnroll/Reqnroll/IReqnrollOutputHelper.cs
+    startLine: 2
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: public interface IReqnrollOutputHelper
+    content.vb: Public Interface IReqnrollOutputHelper
+- uid: Reqnroll.IReqnrollOutputHelper.WriteLine(System.String)
+  commentId: M:Reqnroll.IReqnrollOutputHelper.WriteLine(System.String)
+  id: WriteLine(System.String)
+  parent: Reqnroll.IReqnrollOutputHelper
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(string)
+  nameWithType: IReqnrollOutputHelper.WriteLine(string)
+  fullName: Reqnroll.IReqnrollOutputHelper.WriteLine(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/IReqnrollOutputHelper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: WriteLine
+    path: ../Reqnroll/Reqnroll/IReqnrollOutputHelper.cs
+    startLine: 4
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void WriteLine(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Sub WriteLine(message As String)
+  overload: Reqnroll.IReqnrollOutputHelper.WriteLine*
+  nameWithType.vb: IReqnrollOutputHelper.WriteLine(String)
+  fullName.vb: Reqnroll.IReqnrollOutputHelper.WriteLine(String)
+  name.vb: WriteLine(String)
+- uid: Reqnroll.IReqnrollOutputHelper.WriteLine(System.String,System.Object[])
+  commentId: M:Reqnroll.IReqnrollOutputHelper.WriteLine(System.String,System.Object[])
+  id: WriteLine(System.String,System.Object[])
+  parent: Reqnroll.IReqnrollOutputHelper
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(string, params object[])
+  nameWithType: IReqnrollOutputHelper.WriteLine(string, params object[])
+  fullName: Reqnroll.IReqnrollOutputHelper.WriteLine(string, params object[])
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/IReqnrollOutputHelper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: WriteLine
+    path: ../Reqnroll/Reqnroll/IReqnrollOutputHelper.cs
+    startLine: 5
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void WriteLine(string format, params object[] args)
+    parameters:
+    - id: format
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Sub WriteLine(format As String, ParamArray args As Object())
+  overload: Reqnroll.IReqnrollOutputHelper.WriteLine*
+  nameWithType.vb: IReqnrollOutputHelper.WriteLine(String, ParamArray Object())
+  fullName.vb: Reqnroll.IReqnrollOutputHelper.WriteLine(String, ParamArray Object())
+  name.vb: WriteLine(String, ParamArray Object())
+- uid: Reqnroll.IReqnrollOutputHelper.AddAttachment(System.String)
+  commentId: M:Reqnroll.IReqnrollOutputHelper.AddAttachment(System.String)
+  id: AddAttachment(System.String)
+  parent: Reqnroll.IReqnrollOutputHelper
+  langs:
+  - csharp
+  - vb
+  name: AddAttachment(string)
+  nameWithType: IReqnrollOutputHelper.AddAttachment(string)
+  fullName: Reqnroll.IReqnrollOutputHelper.AddAttachment(string)
+  type: Method
+  source:
+    remote:
+      path: Reqnroll/IReqnrollOutputHelper.cs
+      branch: main
+      repo: git@github.com:reqnroll/Reqnroll.git
+    id: AddAttachment
+    path: ../Reqnroll/Reqnroll/IReqnrollOutputHelper.cs
+    startLine: 6
+  assemblies:
+  - Reqnroll
+  namespace: Reqnroll
+  syntax:
+    content: void AddAttachment(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+    content.vb: Sub AddAttachment(filePath As String)
+  overload: Reqnroll.IReqnrollOutputHelper.AddAttachment*
+  nameWithType.vb: IReqnrollOutputHelper.AddAttachment(String)
+  fullName.vb: Reqnroll.IReqnrollOutputHelper.AddAttachment(String)
+  name.vb: AddAttachment(String)
+references:
+- uid: Reqnroll
+  commentId: N:Reqnroll
+  href: Reqnroll.html
+  name: Reqnroll
+  nameWithType: Reqnroll
+  fullName: Reqnroll
+- uid: Reqnroll.IReqnrollOutputHelper.WriteLine*
+  commentId: Overload:Reqnroll.IReqnrollOutputHelper.WriteLine
+  href: Reqnroll.IReqnrollOutputHelper.html#Reqnroll_IReqnrollOutputHelper_WriteLine_System_String_
+  name: WriteLine
+  nameWithType: IReqnrollOutputHelper.WriteLine
+  fullName: Reqnroll.IReqnrollOutputHelper.WriteLine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: Reqnroll.IReqnrollOutputHelper.AddAttachment*
+  commentId: Overload:Reqnroll.IReqnrollOutputHelper.AddAttachment
+  href: Reqnroll.IReqnrollOutputHelper.html#Reqnroll_IReqnrollOutputHelper_AddAttachment_System_String_
+  name: AddAttachment
+  nameWithType: IReqnrollOutputHelper.AddAttachment
+  fullName: Reqnroll.IReqnrollOutputHelper.AddAttachment

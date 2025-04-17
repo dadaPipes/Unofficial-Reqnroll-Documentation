@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Reqnroll.Bindings.Provider.Data
+  commentId: N:Reqnroll.Bindings.Provider.Data
+  id: Reqnroll.Bindings.Provider.Data
+  children:
+  - Reqnroll.Bindings.Provider.Data.BindingData
+  - Reqnroll.Bindings.Provider.Data.BindingScopeData
+  - Reqnroll.Bindings.Provider.Data.BindingSourceData
+  - Reqnroll.Bindings.Provider.Data.BindingSourceMethodData
+  - Reqnroll.Bindings.Provider.Data.HookData
+  - Reqnroll.Bindings.Provider.Data.StepArgumentTransformationData
+  - Reqnroll.Bindings.Provider.Data.StepDefinitionData
+  langs:
+  - csharp
+  - vb
+  name: Reqnroll.Bindings.Provider.Data
+  nameWithType: Reqnroll.Bindings.Provider.Data
+  fullName: Reqnroll.Bindings.Provider.Data
+  type: Namespace
+  assemblies:
+  - Reqnroll
+references:
+- uid: Reqnroll.Bindings.Provider.Data.BindingData
+  commentId: T:Reqnroll.Bindings.Provider.Data.BindingData
+  href: Reqnroll.Bindings.Provider.Data.BindingData.html
+  name: BindingData
+  nameWithType: BindingData
+  fullName: Reqnroll.Bindings.Provider.Data.BindingData
+- uid: Reqnroll.Bindings.Provider.Data.BindingScopeData
+  commentId: T:Reqnroll.Bindings.Provider.Data.BindingScopeData
+  parent: Reqnroll.Bindings.Provider.Data
+  href: Reqnroll.Bindings.Provider.Data.BindingScopeData.html
+  name: BindingScopeData
+  nameWithType: BindingScopeData
+  fullName: Reqnroll.Bindings.Provider.Data.BindingScopeData
+- uid: Reqnroll.Bindings.Provider.Data.BindingSourceData
+  commentId: T:Reqnroll.Bindings.Provider.Data.BindingSourceData
+  parent: Reqnroll.Bindings.Provider.Data
+  href: Reqnroll.Bindings.Provider.Data.BindingSourceData.html
+  name: BindingSourceData
+  nameWithType: BindingSourceData
+  fullName: Reqnroll.Bindings.Provider.Data.BindingSourceData
+- uid: Reqnroll.Bindings.Provider.Data.BindingSourceMethodData
+  commentId: T:Reqnroll.Bindings.Provider.Data.BindingSourceMethodData
+  parent: Reqnroll.Bindings.Provider.Data
+  href: Reqnroll.Bindings.Provider.Data.BindingSourceMethodData.html
+  name: BindingSourceMethodData
+  nameWithType: BindingSourceMethodData
+  fullName: Reqnroll.Bindings.Provider.Data.BindingSourceMethodData
+- uid: Reqnroll.Bindings.Provider.Data.HookData
+  commentId: T:Reqnroll.Bindings.Provider.Data.HookData
+  href: Reqnroll.Bindings.Provider.Data.HookData.html
+  name: HookData
+  nameWithType: HookData
+  fullName: Reqnroll.Bindings.Provider.Data.HookData
+- uid: Reqnroll.Bindings.Provider.Data.StepArgumentTransformationData
+  commentId: T:Reqnroll.Bindings.Provider.Data.StepArgumentTransformationData
+  href: Reqnroll.Bindings.Provider.Data.StepArgumentTransformationData.html
+  name: StepArgumentTransformationData
+  nameWithType: StepArgumentTransformationData
+  fullName: Reqnroll.Bindings.Provider.Data.StepArgumentTransformationData
+- uid: Reqnroll.Bindings.Provider.Data.StepDefinitionData
+  commentId: T:Reqnroll.Bindings.Provider.Data.StepDefinitionData
+  href: Reqnroll.Bindings.Provider.Data.StepDefinitionData.html
+  name: StepDefinitionData
+  nameWithType: StepDefinitionData
+  fullName: Reqnroll.Bindings.Provider.Data.StepDefinitionData
+- uid: Reqnroll.Bindings.Provider.Data
+  commentId: N:Reqnroll.Bindings.Provider.Data
+  href: Reqnroll.html
+  name: Reqnroll.Bindings.Provider.Data
+  nameWithType: Reqnroll.Bindings.Provider.Data
+  fullName: Reqnroll.Bindings.Provider.Data
+  spec.csharp:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Provider
+    name: Provider
+    href: Reqnroll.Bindings.Provider.html
+  - name: .
+  - uid: Reqnroll.Bindings.Provider.Data
+    name: Data
+    href: Reqnroll.Bindings.Provider.Data.html
+  spec.vb:
+  - uid: Reqnroll
+    name: Reqnroll
+    href: Reqnroll.html
+  - name: .
+  - uid: Reqnroll.Bindings
+    name: Bindings
+    href: Reqnroll.Bindings.html
+  - name: .
+  - uid: Reqnroll.Bindings.Provider
+    name: Provider
+    href: Reqnroll.Bindings.Provider.html
+  - name: .
+  - uid: Reqnroll.Bindings.Provider.Data
+    name: Data
+    href: Reqnroll.Bindings.Provider.Data.html
