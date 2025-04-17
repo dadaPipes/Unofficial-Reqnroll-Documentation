@@ -2414,14 +2414,9 @@
     "title": "Getting Started | Unofficial Reqnroll Documentation",
     "summary": "Getting Started"
   },
-  "docs/introduction.html": {
-    "href": "docs/introduction.html",
-    "title": "Introduction | Unofficial Reqnroll Documentation",
-    "summary": "Introduction"
-  },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE | Unofficial Reqnroll Documentation",
-    "summary": "This is the HOMEPAGE Refer to Markdown for how to write markdown files. Quick Start Notes Add images to the images folder if the file is referencing an image."
+    "title": "Introduction | Unofficial Reqnroll Documentation",
+    "summary": "Introduction What is Reqnroll ? Reqnroll was created as a community-maintained, open alternative to SpecFlow when SpecFlow transitioned to a closed-source model. It is a Behavior-Driven Development tool for .NET, that allows developers, testers, and business stakeholders to write human-readable acceptance tests that are directly executable against the application code. At its core, Reqnroll parses .feature files written in Gherkin syntax. These files contain scenarios, which describe software behavior using keywords like Given, When, and Then. Each scenario represents an example of how the system should behave in a specific situation. Reqnroll maps these scenarios to step definitions in C# code, allowing automated testing based on real-world specifications. Why use Reqnroll ? Drive development from user requirements Bridging the gab between requirements and code Write tests in a language both team and stakeholders understand Ensure BDD remains accessible and open-source for the .NET ecosystem Provide full control and visibility into BDD tooling"
   }
 }
