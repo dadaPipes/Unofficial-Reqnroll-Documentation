@@ -58,7 +58,7 @@ dotnet new install Reqnroll.Templates.DotNet
 2. Once installed, create a project in a new directory:
 
 > [!NOTE]
-> By default, the dotnet new reqnroll-project command creates a Reqnroll project configured with NUnit for the latest .NET framework.  
+> By default, the `dotnet new reqnroll-project` command creates a Reqnroll project configured with NUnit for the latest .NET framework.  
 > To customize the test framework or target .NET version, use the -t (test framework) and -f (framework version) options.  
 > For details about available options, run:  
 > `dotnet new reqnroll-project --help`
