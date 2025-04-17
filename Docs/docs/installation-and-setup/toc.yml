@@ -5,3 +5,5 @@ items:
     href: setup-an-ide-for-reqnroll.md
   - name: Setup Reqnroll Project
     href: setup-reqnroll-project.md
+  - name: Compatibility
+    href: compatibility.md

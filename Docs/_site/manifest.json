@@ -6773,6 +6773,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/installation-and-setup/compatibility.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/installation-and-setup/compatibility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/installation-and-setup/setup-an-ide-for-reqnroll.md",
       "output": {
         ".html": {
