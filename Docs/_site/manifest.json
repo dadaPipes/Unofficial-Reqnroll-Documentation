@@ -44,6 +44,16 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/reqnroll-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reqnroll-icon.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {

@@ -39,6 +39,7 @@
     "globalMetadata": {
       "_appName": "Unofficial Reqnroll Documentation",
       "_appTitle": "Unofficial Reqnroll Documentation",
+      "_appLogoPath": "images/reqnroll-icon.png",
       "_enableSearch": true,
       "pdf": false
     }
