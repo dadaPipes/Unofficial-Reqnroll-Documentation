@@ -7,3 +7,5 @@ items:
     href: setup-reqnroll-project.md
   - name: Compatibility
     href: compatibility.md
+  - name: Configuration
+    href: configuration.md

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Configuration | Unofficial Reqnroll Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Configuration | Unofficial Reqnroll Documentation ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/dadaPipes/Unofficial-Reqnroll-Documentation/blob/main/Docs/docs/installation-and-setup/Configuration.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/reqnroll-icon.png" alt="Unofficial Reqnroll Documentation">
+            Unofficial Reqnroll Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="configuration">Configuration</h1>
+
+<p>The default configuration can be altered by adding a <code>reqnroll.json</code> configuration file to the project</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>There is a JSON schema file available for <code>reqnroll.json</code>.<br>
+By specifying the schema reference like in the example below, most IDE's provides auto completion and documentation hints for the configuration file.</p>
+</div>
+<pre><code class="lang-json">{
+  &quot;$schema&quot;: &quot;https://schemas.reqnroll.net/reqnroll-config-latest.json&quot;
+}
+</code></pre>
+<h2 id="add-a-config-file-to-the-project">Add a config file to the project</h2>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_vs-2022" role="tab" aria-controls="tabpanel_1_vs-2022" data-tab="vs-2022" tabindex="0" aria-selected="true">Visual Studio 2022</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_vs-code" role="tab" aria-controls="tabpanel_1_vs-code" data-tab="vs-code" tabindex="-1">Visual Studio Code 🛠️</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_rider" role="tab" aria-controls="tabpanel_1_rider" data-tab="rider" tabindex="-1">Rider 🛠️</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_dotnet-cli" role="tab" aria-controls="tabpanel_1_dotnet-cli" data-tab="dotnet-cli" tabindex="-1">Dotnet CLI</a>
+</li>
+</ul>
+<section id="tabpanel_1_vs-2022" role="tabpanel" data-tab="vs-2022">
+
+<ol>
+<li><p>Right-click on your project in the Solution Explorer.</p>
+</li>
+<li><p>Select Add &gt; New Item....</p>
+</li>
+<li><p>From the templates, choose JSON File, name it <code>reqnroll.json</code>, and click Add.</p>
+</li>
+</ol>
+</section>
+<section id="tabpanel_1_vs-code" role="tabpanel" data-tab="vs-code" aria-hidden="true" hidden="hidden">
+
+<p>Want to contribute ? Click on the <strong>Edit this page</strong> in the bottom of this site</p>
+</section>
+<section id="tabpanel_1_rider" role="tabpanel" data-tab="rider" aria-hidden="true" hidden="hidden">
+
+<p>Want to contribute ? Click on the <strong>Edit this page</strong> in the bottom of this site</p>
+</section>
+<section id="tabpanel_1_dotnet-cli" role="tabpanel" data-tab="dotnet-cli" aria-hidden="true" hidden="hidden">
+
+<ol>
+<li>Install the Reqnroll templates by running:</li>
+</ol>
+<pre><code class="lang-shell">dotnet new install Reqnroll.Templates.DotNet
+</code></pre>
+<ol start="2">
+<li>Add the config file by running:</li>
+</ol>
+<pre><code class="lang-shell">dotnet new reqnroll-config
+</code></pre>
+</section>
+</div>
+<h2 id="use-bindings-from-external-projects">Use bindings from external projects</h2>
+<p>Bindings are usually defined within the main Reqnroll project. However, it is also possible to organize bindings in separate <strong>external projects</strong> or <strong>assemblies</strong>.</p>
+<h3 id="what-are-external-binding-assemblies">What Are External Binding Assemblies?</h3>
+<p>An <strong>external binding assembly</strong> is any project or compiled library (DLL) outside of the main Reqnroll project that contains reusable bindings. These assemblies can:</p>
+<ul>
+<li><p>Be part of the same solution like a shared test utilities project.</p>
+</li>
+<li><p>Be written in a different .NET language like F# or VB.NET.</p>
+</li>
+<li><p>Contain any kind of bindings: step definitions, hooks, or step argument transformations.</p>
+</li>
+</ul>
+<p>This allows you to reuse bindings across multiple Reqnroll test projects, or to isolate domain-specific bindings for cleaner organization.<br>
+<strong>TODO</strong>: Add example repo of a <strong>shared test utilities project</strong> and <strong>domain-specific bindings</strong>.</p>
+<h3 id="requirements">Requirements</h3>
+<p>To use bindings from an external project, simply adding a project reference is <strong>not enough</strong>. You need to:</p>
+<ul>
+<li><p><strong>Add a reference</strong> to the external project in your Reqnroll test project.</p>
+</li>
+<li><p><strong>Configure Reqnroll</strong> to recognize the external assembly by listing it in your reqnroll.json.</p>
+</li>
+</ul>
+<p>This ensures that:</p>
+<ul>
+<li><p>The external assembly is copied to the output folder.</p>
+</li>
+<li><p>Reqnroll knows to scan it for bindings during test execution.</p>
+</li>
+</ul>
+<h3 id="configuration-for-external-projects">Configuration for external projects</h3>
+<p>To enable Reqnroll to load bindings from an external assembly, add the assembly name (without <code>.dll</code>) to the bindingAssemblies section in your reqnroll.json.</p>
+<p><strong>Example</strong>: Using <code>SharedStepDefinitions</code></p>
+<p>Let’s say you have a shared project called <code>SharedStepDefinitions</code> that contains common step definitions.<br>
+To register it, your <code>reqnroll.json</code> should look like this:</p>
+<pre><code class="lang-json">{
+  &quot;$schema&quot;: &quot;https://schemas.reqnroll.net/reqnroll-config-latest.json&quot;,
+
+  &quot;bindingAssemblies&quot;: [
+    { 
+      &quot;assembly&quot;: &quot;SharedStepDefinitions&quot;
+    }
+  ]
+}
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The main Reqnroll project is automatically included as a binding assembly.<br>
+No need to list it explicitly.</p>
+</div>
+<h2 id="set-the-default-feature-file-language">Set the default feature file language</h2>
+<p>Gherkin keywords, like <strong>Feature</strong>, <strong>Scenario</strong>, <strong>Given</strong>, etc., are supported in many natural languages. This allows you to write specifications and acceptance tests in the language of your business domain, which improves clarity and communication.</p>
+<h3 id="why-set-the-feature-file-language">Why Set the Feature File Language?</h3>
+<ul>
+<li><p>To match the language your team or stakeholders speak.</p>
+</li>
+<li><p>To avoid errors caused by misunderstandings or poor translations.</p>
+</li>
+<li><p>To ensure correct parsing and culture-specific behavior during test execution.</p>
+</li>
+</ul>
+<h3 id="options-for-specifying-feature-file-language">Options for Specifying Feature File Language</h3>
+<p>There are <strong>two</strong> ways to define which language Reqnroll should use when parsing feature files:</p>
+<h4 id="per-file-using-the-language-directive">Per File: Using the <code>#language</code> Directive</h4>
+<p>You can set the language at the top of each <code>.feature</code> file using the Gherkin <code>#language</code> directive.</p>
+<p><strong>Example</strong>: Set language for a specific <code>.feature</code> file to German</p>
+<pre><code class="lang-csharp">#language: de-DE
+Funktionalität: Addition
+  ...
+</code></pre>
+<h4 id="globally-using-reqnrolljson">Globally: Using reqnroll.json</h4>
+<p>You can also configure the default language for all feature files by specifying it in your reqnroll.json. This is useful to avoid repeating the #language directive in every file.</p>
+<p><strong>Example</strong>: Set default language to Hungarian</p>
+<pre><code class="lang-json">{
+  &quot;$schema&quot;: &quot;https://schemas.reqnroll.net/reqnroll-config-latest.json&quot;,
+  &quot;language&quot;: {
+    &quot;feature&quot;: &quot;hu-HU&quot;
+  }
+}
+</code></pre>
+<h3 id="culture-and-data-conversion">Culture and Data Conversion</h3>
+<p>The feature file language setting does more than just control keyword recognition. Reqnroll uses it to determine:</p>
+<ul>
+<li><p>The set of <a href="https://cucumber.io/docs/gherkin/languages/">Gherkin keywords</a> to parse (<strong>Given</strong>, <strong>When</strong>, <strong>Then</strong>, etc.)</p>
+</li>
+<li><p>The culture used for parameter conversion like number or date formats.</p>
+</li>
+</ul>
+<p>To ensure correct behavior, it's <strong>strongly</strong> recommended to use a specific culture name,like <code>en-US</code>, <code>de-DE</code>, <code>fr-FR</code>, rather than a neutral culture like <code>en</code> or <code>de</code>.<br>
+If you use a neutral culture, Reqnroll will default to a specific one for example <code>en</code> becomes <code>en-US</code>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The language values follow the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a> naming used in the .NET Framework</p>
+</div>
+<h2 id="configuration-file-reference">Configuration file reference</h2>
+<p><strong>sections are available for reqnroll.json</strong></p>
+<div class="tabGroup" id="tabgroup_2">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_2_language" role="tab" aria-controls="tabpanel_2_language" data-tab="language" tabindex="0" aria-selected="true">language</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_2_generator" role="tab" aria-controls="tabpanel_2_generator" data-tab="generator" tabindex="-1">generator</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_2_runtime" role="tab" aria-controls="tabpanel_2_runtime" data-tab="runtime" tabindex="-1">runtime</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_2_trace" role="tab" aria-controls="tabpanel_2_trace" data-tab="trace" tabindex="-1">trace</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_2_bindingAssemblies" role="tab" aria-controls="tabpanel_2_bindingAssemblies" data-tab="bindingAssemblies" tabindex="-1">bindingAssemblies</a>
+</li>
+</ul>
+<section id="tabpanel_2_language" role="tabpanel" data-tab="language">
+
+<p>Use this section to define the default language for feature files and other language-related settings.</p>
+<p>The <code>bindingAssemblies</code> section can contain multiple JSON objects (one for each assembly), with the following settings.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>feature</td>
+<td>culture name for example en-US</td>
+<td>The default language of feature files added to the project. As metioned in <a href="#culture-and-data-conversion">Culture and Data Conversion</a> we recommend using specific culture names like <code>en-US</code> rather than generic (neutral) cultures like <code>en</code>.<br><strong>Default:</strong> en-US</td>
+</tr>
+<tr>
+<td>binding</td>
+<td>culture name for example en-US</td>
+<td>Specifies the culture to be used to execute binding methods and convert step arguments. If not specified, the feature language is used.<br><strong>Default:</strong> not specified</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_2_generator" role="tabpanel" data-tab="generator" aria-hidden="true" hidden="hidden">
+
+<p>s
+Use this section to define test generation options.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>allowDebugGeneratedFiles</td>
+<td>true / false</td>
+<td>By default, the debugger is configured to step through the generated code. This helps you debug your feature files and bindings (<a href="#TODO">see Debugging Tests 💀</a>). Disable this option by setting this attribute to true.<br><strong>Default:</strong> false</td>
+</tr>
+<tr>
+<td>allowRowTests</td>
+<td>true / false</td>
+<td>Determines whether “row tests” should be generated for scenario outlines. This setting is ignored if the test execution framework does not support row-based testing.<br><strong>Default:</strong> true</td>
+</tr>
+<tr>
+<td>addNonParallelizableMarkerForTags</td>
+<td>List of tags</td>
+<td>Defines a set of tags, any of which specify that a feature should be excluded from running in parallel with any other feature. <a href="#TODO">See Parallel Execution 💀</a>.<br><strong>Default:</strong> empty</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_2_runtime" role="tabpanel" data-tab="runtime" aria-hidden="true" hidden="hidden">
+
+<p>Use this section to specify various test execution options.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>missingOrPendingStepsOutcome</td>
+<td>Pending / Inconclusive / Ignore / Error</td>
+<td>Determines how Reqnroll behaves if a step binding is not implemented or is pending. <a href="#TODO">See Test Results 💀</a>.<br><strong>Default:</strong> Pending</td>
+</tr>
+<tr>
+<td>obsoleteBehavior</td>
+<td>None / Warn / Pending / Error</td>
+<td>Determines how Reqnroll behaves if a step binding is marked with <code>[Obsolete]</code> attribute.<br><strong>Default:</strong> Warn</td>
+</tr>
+<tr>
+<td>stopAtFirstError</td>
+<td>true / false</td>
+<td>Determines whether the execution of the scenario should stop when encountering the first error, or whether it should continue to detect missing steps.<br><strong>Default:</strong> false</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_2_trace" role="tabpanel" data-tab="trace" aria-hidden="true" hidden="hidden">
+
+<p>Use this section to determine the Reqnroll trace output.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stepDefinitionSkeletonStyle</td>
+<td>CucumberExpressionAttribute / RegexAttribute</td>
+<td>Specifies the default step definition style.<br><strong>Default:</strong> CucumberExpressionAttribute</td>
+</tr>
+<tr>
+<td>coloredOutput</td>
+<td>true / false</td>
+<td>Determines whether Reqnroll should color the test result output. You can override this setting, for instance, on build servers, by setting the environment variable NO_COLOR=1.<br><strong>Default:</strong> false</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_2_bindingAssemblies" role="tabpanel" data-tab="bindingAssemblies" aria-hidden="true" hidden="hidden">
+
+<p>This section can be used to configure additional assemblies that contain bindings (step definitions, hooks or step argument transformations).</p>
+<p>The assembly of the Reqnroll project (the project containing the feature files) is automatically included. The binding assemblies must be placed in the output folder (e.g. bin/Debug) of the Reqnroll project, for example by adding a reference to the assembly from the project.</p>
+<p>The following example registers an additional binding assembly (<code>SharedStepDefinitions.dll</code>).</p>
+<pre><code class="lang-json">{
+  &quot;$schema&quot;: &quot;https://schemas.reqnroll.net/reqnroll-config-latest.json&quot;,
+
+  &quot;bindingAssemblies&quot;: [
+    { 
+      &quot;assembly&quot;: &quot;SharedStepDefinitions&quot;
+    }
+  ]
+}
+</code></pre>
+<p>The <code>bindingAssemblies</code> section can contain multiple JSON objects (one for each assembly), with the following settings.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>assembly</td>
+<td>assembly name</td>
+<td>The name of the assembly containing bindings (without <code>.dll</code>).</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/dadaPipes/Unofficial-Reqnroll-Documentation/blob/main/Docs/docs/installation-and-setup/Configuration.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
