@@ -6773,10 +6773,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/installation-and-setup/Configuration.md",
+      "source_relative_path": "docs/getting-started.md",
       "output": {
         ".html": {
-          "relative_path": "docs/installation-and-setup/Configuration.html"
+          "relative_path": "docs/getting-started.html"
         }
       },
       "version": ""
@@ -6787,6 +6787,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/installation-and-setup/compatibility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/installation-and-setup/configuration.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/installation-and-setup/configuration.html"
         }
       },
       "version": ""
