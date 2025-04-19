@@ -4,7 +4,7 @@ While Reqnroll can be used without IDE integration, we strongly recommend settin
 
 # [Visual Studio 2022](#tab/vs-2022)
 
-In order to use Reqnroll with Visual Studio 2022, you need to install the Reqnroll for Visual Studio 2022 [extension](https://marketplace.visualstudio.com/items?itemName=Reqnroll.ReqnrollForVisualStudio2022).
+In order to use Reqnroll with Visual Studio 2022, you need to install the [Reqnroll for Visual Studio 2022 extension](https://marketplace.visualstudio.com/items?itemName=Reqnroll.ReqnrollForVisualStudio2022).
 
 > [!IMPORTANT]
 > The **Reqnroll with Visual Studio 2022** extension **cannot** work together with the **SpecFlow for Visual Studio 2022** extension, as they both process feature files.  
@@ -16,18 +16,19 @@ In order to use Reqnroll with Visual Studio 2022, you need to install the Reqnro
 
 1. Open Visual Studio 2022
 
-2. From the Extensions menu, choose the Manage Extensions… command.
+2. In the top of the Visual Studio window, in the main menu bar, locate and click **Extensions** in the menu,  
+   select the **Manage Extensions…** option from the dropdown.
 
-3. On the dialog, make sure that Online is selected from the list on the left and type Reqnroll to the Search text box on the right top corner.
+3. On the dialog, make sure that the **Browse** tab is selected and type **Reqnroll** to the Search text box.
 
-4. Choose the Reqnroll for Visual Studio 2022 from the list and click on the Download button.
+4. Choose the **Reqnroll for Visual Studio 2022** from the list and click on the **Install** button.
 
 5. Restart Visual Studio 2022.
 
 # [Visual Studio Code](#tab/vs-code)
 
 For using Reqnroll with Visual Studio Code, you can choose from multiple available extensions.  
-We recommend using the Cucumber [extension](https://marketplace.visualstudio.com/items?itemName=CucumberOpen.cucumber-official).
+We recommend using the [Cucumber extension](https://marketplace.visualstudio.com/items?itemName=CucumberOpen.cucumber-official).
 
 In order to use the navigation features of the extension, you should configure the location of your feature files and step definition classes within your repository.
 
@@ -56,7 +57,7 @@ The following Visual Studio configuration shows a typical configuration.
 
 # [Rider](#tab/rider)
 
-In order to use Reqnroll with Rider, you need to install the Reqnroll for Rider [extension](https://plugins.jetbrains.com/plugin/24012-reqnroll-for-rider).
+In order to use Reqnroll with Rider, you need to install the [Reqnroll for Rider extension](https://plugins.jetbrains.com/plugin/24012-reqnroll-for-rider).
 
 > [!IMPORTANT]
 > The **Reqnroll with Rider** extension cannot work together with the **SpecFlow for Rider** extension, as they both process feature files.  
