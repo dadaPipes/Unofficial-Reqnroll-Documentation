@@ -87,16 +87,33 @@
         <article data-uid="">
 <h1 id="introduction">Introduction</h1>
 
-<h2 id="what-is-reqnroll-">What is Reqnroll ?</h2>
-<p>Reqnroll was created as a community-maintained, open alternative to SpecFlow when SpecFlow transitioned to a closed-source model.</p>
-<p>It is a <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">Behavior-Driven Development</a> tool for .NET, that allows developers, testers, and business stakeholders to write human-readable <a href="https://en.wikipedia.org/wiki/Acceptance_testing">acceptance tests</a> that are directly executable against the application code.</p>
-<p>At its core, Reqnroll parses <code>.feature</code> files written in Gherkin syntax. These files contain scenarios, which describe software behavior using keywords like <strong>Given</strong>, <strong>When</strong>, and <strong>Then</strong>. Each scenario represents an example of how the system should behave in a specific situation. Reqnroll maps these scenarios to step definitions in C# code, allowing automated testing based on real-world specifications.</p>
-<h2 id="why-use-reqnroll-">Why use Reqnroll ?</h2>
-<p>Drive development from user requirements</p>
-<p>Bridge the gab between requirements and code</p>
-<p>Write tests in a language both team and stakeholders understand</p>
-<p>Ensure BDD remains accessible and open-source for the .NET ecosystem</p>
-<p>Provide full control and visibility into BDD tooling</p>
+<h2 id="what-is-reqnroll">What is Reqnroll</h2>
+<p>Reqnroll is an open-source Cucumber-style BDD test automation framework for .NET.<br>
+It has been created as a reboot of the SpecFlow project.</p>
+<p>Reqnroll enables writing executable specifications for <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">BDD</a> using <a href="https://en.wikipedia.org/wiki/Cucumber_(software)">Gherkin</a>, the widely-accepted feature file specification format. With that you can define the requirements using Given-When-Then style scenarios and turn them to automated tests in order to verify their implementation.</p>
+<p>Since Reqnroll is based on SpecFlow, you can use your SpecFlow knowledge to work with Reqnroll and it is also very easy to port an existing SpecFlow project to Reqnroll. You can check out our detailed migration guide.</p>
+<h2 id="why-use-reqnroll">Why Use Reqnroll</h2>
+<h3 id="shared-understanding-through-executable-specifications">Shared Understanding Through Executable Specifications</h3>
+<p>Reqnroll promotes collaboration across technical and non-technical roles by capturing requirements in plain language. This creates a shared understanding of what needs to be built, before a single line of code is written.<br>
+Because these specifications are executable, they also serve as living documentation and automated tests in one.</p>
+<h3 id="confidence-through-high-level-testing">Confidence Through High-Level Testing</h3>
+<p>By focusing on <strong>what</strong> the system should do rather than <strong>how</strong> it should do it, Reqnroll empowers teams to decouple system behavior from implementation details.<br>
+These high-level acceptance tests validate the system at its boundaries, allowing developers to refactor internal code with confidence, knowing that critical behavior is still covered.</p>
+<h3 id="open-source-fully-transparent">Open Source, Fully Transparent</h3>
+<p>Reqnroll keeps BDD tooling in the .NET ecosystem open, inspectable, and adaptable.<br>
+Unlike closed-source solutions, Reqnroll offers full control and community ownership over its evolution.</p>
+<h3 id="cross-platform-and-net-compatible">Cross-Platform and .NET-Compatible</h3>
+<p>Reqnroll runs on all major operating systems, <strong>Windows</strong>, <strong>Linux</strong>, and <strong>macOS</strong>, and supports all commonly used .NET implementations, including <strong>.NET Framework 4.6.2+</strong>, <strong>.NET Core</strong>, and <strong>.NET 8.0</strong>. This makes it a flexible choice for both legacy and modern .NET projects.</p>
+<p>To execute automated scenarios, Reqnroll supports popular unit testing frameworks including <strong>xUnit</strong>, <strong>NUnit</strong> and <strong>MSTest</strong></p>
+<p>You can develop Reqnroll projects using your preferred tools and workflows.<br>
+It integrates smoothly with <strong>Visual Studio 2022</strong>, <strong>Visual Studio Code</strong> and <strong>JetBrains Rider</strong></p>
+<p>However, Reqnroll does not require an IDE, you can also run and maintain your test projects entirely from the command line or using your own tooling, making it suitable for lightweight or headless environments.</p>
+<h3 id="seamless-ci-integration">Seamless CI Integration</h3>
+<p>Because Reqnroll tests are automated and run like any other test suite, they integrate naturally into continuous integration pipelines.<br>
+This ensures that expected system behavior is continually validated with every code change, helping teams maintain stability and reduce regressions.</p>
+<hr>
+<p>Reqnroll isn't just a testing tool, it's a collaboration tool, a documentation tool, and a confidence tool.<br>
+By aligning everyone around concrete, testable requirements, it helps teams build the right software, the right way.</p>
 
 </article>
 

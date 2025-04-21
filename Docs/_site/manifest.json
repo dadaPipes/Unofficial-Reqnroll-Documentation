@@ -6849,6 +6849,36 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/getting-started/visual-studio-2022/stepDefinitions-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/getting-started/visual-studio-2022/stepDefinitions-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/installation-and-setup/setup-an-ide-for-reqnroll/exstension-manager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/installation-and-setup/setup-an-ide-for-reqnroll/exstension-manager.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/installation-and-setup/setup-an-ide-for-reqnroll/extensions-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/installation-and-setup/setup-an-ide-for-reqnroll/extensions-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/reqnroll-icon.png",
       "output": {
         "resource": {

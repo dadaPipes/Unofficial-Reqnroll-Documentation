@@ -16,14 +16,15 @@ In order to use Reqnroll with Visual Studio 2022, you need to install the [Reqnr
 
 1. Open Visual Studio 2022
 
-2. In the top of the Visual Studio window, in the main menu bar, locate and click **Extensions** in the menu,  
-   select the **Manage Extensions…** option from the dropdown.
+2. In the top of the Visual Studio window, in the main menu bar, locate and click **Extensions** in the menu, then select the **Manage Extensions…** option from the dropdown.
 
-3. On the dialog, make sure that the **Browse** tab is selected and type **Reqnroll** to the Search text box.
+![ Visual Studio 2022 Extensions Menu ]( ../../images/installation-and-setup/setup-an-ide-for-reqnroll/extensions-menu.png )
 
-4. Choose the **Reqnroll for Visual Studio 2022** from the list and click on the **Install** button.
+3. In the **Exstension manager**, make sure that the **Browse** tab is selected and type **reqnroll** in the search search box, choose the **Reqnroll for Visual Studio 2022** from the list and click on the **Install** button.
 
-5. Restart Visual Studio 2022.
+![ Visual Studio 2022 Extensions Menu ]( ../../images/installation-and-setup/setup-an-ide-for-reqnroll/exstension-manager.png )
+
+4. Restart Visual Studio 2022.
 
 # [Visual Studio Code](#tab/vs-code)
 

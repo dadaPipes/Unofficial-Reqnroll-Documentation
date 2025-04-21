@@ -2,12 +2,12 @@
 
 ## What is Reqnroll
 
-Reqnroll is a community-driven, open-source alternative to SpecFlow, created in response to SpecFlow’s transition to a closed-source model.  
-It serves as a powerful [Behavior-Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) tool for .NET, allowing developers, testers, and business stakeholders to write human-readable [acceptance tests](https://en.wikipedia.org/wiki/Acceptance_testing) that are directly executable against the application code.
+Reqnroll is an open-source Cucumber-style BDD test automation framework for .NET.  
+It has been created as a reboot of the SpecFlow project.
 
-Reqnroll uses `.feature` files written in [Gherkin syntax](https://en.wikipedia.org/wiki/Cucumber_(software)), which describe the expected behavior of a system in natural language constructs such as **Given**, **When**, **Then**.
+Reqnroll enables writing executable specifications for [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) using [Gherkin](https://en.wikipedia.org/wiki/Cucumber_(software)), the widely-accepted feature file specification format. With that you can define the requirements using Given-When-Then style scenarios and turn them to automated tests in order to verify their implementation.
 
-Each scenario in a `.feature` file represents an example of how the system should behave. These scenarios are automatically bound to step definitions written in C#, allowing you to turn descriptive requirements into automated tests that run against your application.
+Since Reqnroll is based on SpecFlow, you can use your SpecFlow knowledge to work with Reqnroll and it is also very easy to port an existing SpecFlow project to Reqnroll. You can check out our detailed migration guide.
 
 ## Why Use Reqnroll
 
